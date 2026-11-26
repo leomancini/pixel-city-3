@@ -56,13 +56,17 @@ async function generateStory(prompt, history) {
 // One fixed art direction for every level, so the game reads as a single world.
 const ART_STYLE = `Highly detailed 16-bit pixel art video game scene.
 Camera: always a flat, straight-on side view at street level, like a side-scrolling game background. Orthographic front elevation: the ground is a level horizontal band along the bottom, buildings and objects face the viewer squarely, all horizontal lines are perfectly horizontal and all vertical lines perfectly vertical. No perspective, no vanishing point, no isometric or three-quarter angle, no aerial or tilted view.
-Style: crisp fine pixel work with clean dark outlines, flat shading with a little dithering, the same vibrant dusk palette of deep purples and blues with warm window and neon accents. Many small characters and props. No text, no letters, no UI.`;
+Style: crisp fine pixel work with clean dark outlines, flat shading with a little dithering, the same vibrant dusk palette of deep purples and blues with warm window and neon accents. Many small characters and props. No text, no letters, no UI.
+Framing: a square, full-bleed image. The scene fills the whole canvas edge to edge on all four sides, with detailed artwork right up to every edge. No border, frame, vignette, letterbox bars, or empty black or blank bands at the top, bottom or sides; the ground or street continues, fully drawn, to the bottom edge.`;
 
 async function generateImage(scene) {
   const interaction = await ai.interactions.create({
     model: IMAGE_MODEL,
     input: `${ART_STYLE} Scene: ${scene}`,
-    response_format: { type: "image", mime_type: "image/jpeg", aspect_ratio: "1:1" },
+    // The page shows the picture at 256x256, so the smallest size is plenty,
+    // and minimal thinking halves the wait and drops the thinking-token cost.
+    response_format: { type: "image", mime_type: "image/jpeg", aspect_ratio: "1:1", image_size: "512" },
+    generation_config: { thinking_level: "minimal" },
     store: false,
   });
   const image = interaction.output_image;

@@ -5,7 +5,27 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Pixel City 3.0</title>
 <style>
-  :root { --radius: 22px; --gap: 20px; --card-pad: 30px; --screen-radius: 10px; }
+  :root {
+    --radius: 22px; --gap: 20px; --card-pad: 30px; --screen-radius: 5px;
+    /* Text metrics. The font is pixel-exact at multiples of 10px. */
+    --text: 20px; --line: 31px; --go-text: 30px;
+    --option-pad: 4px; --indent: 24px;
+    --cursor-w: 8px; --cursor-h: 14px; --cursor-top: 13px;
+    /* Leading above the first line's capitals / below the last option's
+       baseline, plus the 8px the card's border and inner line take. */
+    --ink-top: 17px; --ink-bottom: 20px;
+  }
+  /* Desktop Retina: 15px is 1.5 CSS px per font pixel, which is exactly
+     3 device pixels at 2x, so it stays crisp there. */
+  @media (hover: hover) and (pointer: fine) and (min-resolution: 2dppx) {
+    :root {
+      --card-pad: 24px;
+      --text: 15px; --line: 24px; --go-text: 20px;
+      --option-pad: 3px; --indent: 18px;
+      --cursor-w: 6px; --cursor-h: 10.5px; --cursor-top: 10px;
+      --ink-top: 15px; --ink-bottom: 17px;
+    }
+  }
   @font-face {
     font-family: "Analog Mono Plus";
     src: url("/fonts/AnalogMonoPlus.ttf") format("truetype");
@@ -30,15 +50,17 @@
     justify-content: center;
     padding: var(--gap);
   }
-  /* The current scene, heavily blurred and darkened, behind everything. */
+  /* The current scene behind everything: blurred, darkened and drawn as a
+     halftone of square pixels (see drawBackground). */
   #bg {
     position: fixed;
-    inset: -80px;
+    inset: 0;
+    width: 100vw;
+    height: 100dvh;
     z-index: -1;
-    background: center / cover no-repeat;
-    filter: blur(50px) brightness(0.22) saturate(1.2);
+    image-rendering: pixelated;
   }
-  main { width: 100%; max-width: min(350px, 48dvh); height: 100%; display: flex; flex-direction: column; gap: var(--gap); }
+  main { width: 100%; max-width: min(350px, 40dvh); height: 100%; display: flex; flex-direction: column; gap: var(--gap); }
 
   .frame {
     position: relative;
@@ -56,7 +78,7 @@
     /* Strictly concentric would be 2px (frame radius minus padding); a little
        more reads as concentric and visibly rounds the screen. */
     border-radius: var(--screen-radius);
-    background: #1b1830;
+    background: #0d1330;
     transition: opacity 0.2s;
   }
   .frame.loading canvas { opacity: 0.45; }
@@ -66,10 +88,10 @@
     position: absolute;
     inset: var(--gap);
     border-radius: var(--screen-radius);
-    background: linear-gradient(105deg, transparent 35%, rgba(255, 255, 255, 0.22) 50%, transparent 65%) 150% 0 / 250% 100% no-repeat;
-    animation: shimmer 1.4s linear infinite;
+    background: linear-gradient(105deg, rgba(16, 24, 64, 0.55) 35%, rgba(48, 78, 180, 0.6) 50%, rgba(16, 24, 64, 0.55) 65%) 100% 0 / 400% 100% no-repeat;
+    animation: shimmer 1.8s linear infinite;
   }
-  @keyframes shimmer { to { background-position: -50% 0; } }
+  @keyframes shimmer { to { background-position: 0% 0; } }
 
   .dialog {
     position: relative;
@@ -96,15 +118,13 @@
     overscroll-behavior: contain;
     border-radius: calc(var(--radius) - 8px);
     /* Optical padding: the glyph ink (not the line box) sits --card-pad from
-       the card's outer edge on every side. The card's border and inner line
-       take 8px; the first line has 9px of leading above its capitals and the
-       last option has 12px of leading and padding below its baseline. */
-    padding: calc(var(--card-pad) - 17px) calc(var(--card-pad) - 8px) calc(var(--card-pad) - 20px);
+       the card's outer edge on every side. */
+    padding: calc(var(--card-pad) - var(--ink-top)) calc(var(--card-pad) - 8px) calc(var(--card-pad) - var(--ink-bottom));
   }
   #scene {
     margin: 0;
-    font-size: 20px;
-    line-height: 31px;
+    font-size: var(--text);
+    line-height: var(--line);
     overflow-wrap: break-word;
   }
   /* Loading ellipsis: one dot, two, three, repeat. Monospace, so 1ch = one dot. */
@@ -123,18 +143,18 @@
   #options:empty { display: none; }
   #options li {
     position: relative;
-    padding: 4px 0 4px 24px;
-    font-size: 20px;
-    line-height: 31px;
+    padding: var(--option-pad) 0 var(--option-pad) var(--indent);
+    font-size: var(--text);
+    line-height: var(--line);
     text-transform: uppercase;
   }
   #options li.selected::before {
     content: "";
     position: absolute;
     left: 0;
-    top: 13px;
-    width: 8px;
-    height: 14px;
+    top: var(--cursor-top);
+    width: var(--cursor-w);
+    height: var(--cursor-h);
     background: #000;
     clip-path: polygon(0 0, 25% 0, 25% 14%, 50% 14%, 50% 28%, 75% 28%, 75% 43%, 100% 43%, 100% 57%, 75% 57%, 75% 72%, 50% 72%, 50% 86%, 25% 86%, 25% 100%, 0 100%);
   }
@@ -155,7 +175,19 @@
     -webkit-tap-highlight-color: transparent;
   }
   .pad button.pressed, .pad button:active { transform: translateY(5px); box-shadow: 0 2px 0 #2e2e2e; }
+  #go.pressed, #go:active { box-shadow: 0 2px 0 #1c1c1c; }
   .pad button:focus { outline: none; }
+  #go {
+    grid-column: 1 / -1;
+    background: #3d3d3d;
+    box-shadow: 0 7px 0 #1c1c1c;
+    color: #fff;
+    font: inherit;
+    font-size: var(--go-text);
+    line-height: 1;
+    text-transform: uppercase;
+    -webkit-font-smoothing: none;
+  }
   .pad svg { display: block; fill: #fff; shape-rendering: crispEdges; }
 
   @media (prefers-reduced-motion: reduce) {
@@ -166,7 +198,7 @@
 </style>
 </head>
 <body>
-<div id="bg" aria-hidden="true"></div>
+<canvas id="bg" aria-hidden="true"></canvas>
 <main>
   <div class="frame loading" id="frame">
     <canvas id="canvas" width="256" height="256" aria-label="Scene illustration"></canvas>
@@ -190,6 +222,7 @@
         <rect x="6" y="6" width="13" height="3"/><rect x="9" y="9" width="7" height="3"/>
       </svg>
     </button>
+    <button id="go" type="button" tabindex="-1">Go</button>
   </div>
 </main>
 <script>
@@ -224,17 +257,94 @@
     if (!busy && actions[selected]) actions[selected]();
   }
 
-  // Downsample onto a small canvas; CSS scales it back up with hard pixel edges.
-  function drawPixelated(src) {
-    return new Promise((resolve, reject) => {
-      const img = new Image();
-      img.onload = () => {
-        ctx.imageSmoothingEnabled = true;
-        ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
-        resolve();
-      };
-      img.onerror = () => reject(new Error("Could not load image"));
-      img.src = src;
+  // Draw the current picture at the screen's real device-pixel size, so the
+  // browser never rescales the canvas (that rescaling is what blurs it).
+  // Centre-cropped to a square so it always fills the screen.
+  let currentImg = null;
+  function drawScene() {
+    if (!currentImg) return;
+    const size = Math.round(canvas.clientWidth * devicePixelRatio);
+    if (canvas.width !== size) canvas.width = canvas.height = size;
+    const { naturalWidth: w, naturalHeight: h } = currentImg;
+    const side = Math.min(w, h);
+    // Smooth only when shrinking; when enlarging keep hard pixel edges.
+    ctx.imageSmoothingEnabled = size < side;
+    ctx.imageSmoothingQuality = "high";
+    ctx.drawImage(currentImg, (w - side) / 2, (h - side) / 2, side, side, 0, 0, size, size);
+  }
+  // Halftone background: the scene is blurred down to a soft colour field,
+  // then each grid cell becomes one square whose size follows its brightness.
+  const bg = document.getElementById("bg");
+  const bgCtx = bg.getContext("2d");
+  const HALFTONE_CELL = 4;      // CSS px per halftone cell
+  const HALFTONE_DARKEN = 0.4;  // how much of the scene's colour survives
+  function drawBackground() {
+    if (!currentImg) return;
+    const dpr = Math.round(devicePixelRatio) || 1;
+    const cell = HALFTONE_CELL * dpr;
+    bg.width = Math.round(innerWidth * dpr);
+    bg.height = Math.round(innerHeight * dpr);
+    const cols = Math.ceil(bg.width / cell);
+    const rows = Math.ceil(bg.height / cell);
+
+    // Blur: squash the picture to 12x12, then stretch that smoothly over the
+    // grid (covering it, centred) to get one soft colour per cell.
+    const tiny = new OffscreenCanvas(12, 12);
+    tiny.getContext("2d").drawImage(currentImg, 0, 0, 12, 12);
+    const field = new OffscreenCanvas(cols, rows);
+    const fieldCtx = field.getContext("2d", { willReadFrequently: true });
+    const cover = Math.max(cols, rows);
+    fieldCtx.imageSmoothingQuality = "high";
+    fieldCtx.drawImage(tiny, (cols - cover) / 2, (rows - cover) / 2, cover, cover);
+    const px = fieldCtx.getImageData(0, 0, cols, rows).data;
+
+    bgCtx.fillStyle = "#0a0a0a";
+    bgCtx.fillRect(0, 0, bg.width, bg.height);
+    for (let y = 0; y < rows; y++) {
+      for (let x = 0; x < cols; x++) {
+        const i = (y * cols + x) * 4;
+        const r = px[i], g = px[i + 1], b = px[i + 2];
+        const lum = (0.299 * r + 0.587 * g + 0.114 * b) / 255;
+        // Brighter cell, bigger square; snapped to whole device pixels.
+        const size = Math.round(cell * Math.min(1, 0.15 + lum * 1.3));
+        if (size < 1) continue;
+        const off = Math.floor((cell - size) / 2);
+        bgCtx.fillStyle = `rgb(${r * HALFTONE_DARKEN}, ${g * HALFTONE_DARKEN}, ${b * HALFTONE_DARKEN})`;
+        bgCtx.fillRect(x * cell + off, y * cell + off, size, size);
+      }
+    }
+  }
+
+  addEventListener("resize", () => { drawScene(); drawBackground(); });
+
+  // Ask the server for the level that follows `prompt`, and decode its image
+  // up front so showing it later is instant.
+  async function loadLevel(prompt, past, signal) {
+    const res = await fetch("/api/level", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ prompt, history: past }),
+      signal,
+    });
+    const data = await res.json();
+    if (!res.ok) throw Object.assign(new Error(data.error || "Request failed"), { closed: res.status === 429 });
+    const img = new Image();
+    img.src = data.image;
+    await img.decode();
+    return { ...data, img };
+  }
+
+  // Start generating the level behind every option now, so choosing one is
+  // instant. Each entry remembers whether it has finished.
+  let prefetchAbort = null;
+  function prefetch(options) {
+    prefetchAbort = new AbortController();
+    const past = [...history];
+    return options.map((text) => {
+      const entry = { ready: false };
+      entry.promise = loadLevel(text, past, prefetchAbort.signal);
+      entry.promise.then(() => { entry.ready = true; }, () => {});
+      return entry;
     });
   }
 
@@ -250,27 +360,28 @@
     document.getElementById("scroll").scrollTop = 0;
   }
 
-  async function play(prompt) {
+  async function play(prompt, ahead) {
     if (busy) return;
     busy = true;
-    frameEl.classList.add("loading");
-    optionsEl.innerHTML = "";
-    actions = [];
-    setScene(level === 0 ? "Entering the city" : "Level " + (level + 1) + " loading", true);
+    const waiting = !ahead?.ready;
+    if (waiting) {
+      frameEl.classList.add("loading");
+      optionsEl.innerHTML = "";
+      actions = [];
+      setScene(level === 0 ? "Entering the city" : "Level " + (level + 1) + " loading", true);
+    }
     try {
-      const res = await fetch("/api/level", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ prompt, history }),
-      });
-      const data = await res.json();
-      if (!res.ok) throw Object.assign(new Error(data.error || "Request failed"), { closed: res.status === 429 });
-      await drawPixelated(data.image);
-      document.getElementById("bg").style.backgroundImage = `url(${data.image})`;
+      const data = await (ahead ? ahead.promise : loadLevel(prompt, history));
+      // The paths not taken are no longer needed.
+      prefetchAbort?.abort();
+      currentImg = data.img;
+      drawScene();
+      drawBackground();
       level += 1;
       history.push(`Player chose: ${prompt} Then: ${data.scene}`);
       setScene(data.scene);
-      showOptions(data.options.map((text) => ({ label: text, action: () => play(text) })));
+      const next = prefetch(data.options);
+      showOptions(data.options.map((text, i) => ({ label: text, action: () => play(text, next[i]) })));
       frameEl.classList.remove("loading");
     } catch (err) {
       setScene(err.closed ? err.message : "Something went wrong: " + err.message);
@@ -280,9 +391,12 @@
     }
   }
 
-  // Up/down (keys or the on-screen pads) move the cursor; right arrow or
-  // Return confirms.
+  // Up/down (keys or the on-screen pads) move the cursor; right arrow, Return
+  // or the Go button confirms.
   const padKeys = { ArrowUp: document.getElementById("up"), ArrowDown: document.getElementById("down") };
+  const goEl = document.getElementById("go");
+  padKeys.ArrowRight = padKeys.Enter = goEl;
+  goEl.onclick = () => confirm();
 
   addEventListener("keydown", (e) => {
     if (e.key === "ArrowUp" || e.key === "ArrowDown") {
@@ -291,13 +405,14 @@
       select(selected + (e.key === "ArrowUp" ? -1 : 1));
     } else if ((e.key === "ArrowRight" || e.key === "Enter") && !e.repeat) {
       e.preventDefault();
+      goEl.classList.add("pressed");
       confirm();
     }
   });
   padKeys.ArrowUp.onclick = () => select(selected - 1);
   padKeys.ArrowDown.onclick = () => select(selected + 1);
   addEventListener("keyup", (e) => padKeys[e.key]?.classList.remove("pressed"));
-  addEventListener("blur", () => Object.values(padKeys).forEach((el) => el.classList.remove("pressed")));
+  addEventListener("blur", () => document.querySelectorAll(".pad button").forEach((el) => el.classList.remove("pressed")));
 
   play(SEED);
 </script>
