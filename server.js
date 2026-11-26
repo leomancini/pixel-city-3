@@ -1,7 +1,7 @@
 import "dotenv/config";
 import { createServer } from "node:http";
 import { readFile, writeFile, mkdir } from "node:fs/promises";
-import { createHash } from "node:crypto";
+import { createHash, timingSafeEqual } from "node:crypto";
 import { GoogleGenAI } from "@google/genai";
 
 
@@ -147,10 +147,27 @@ async function cacheLevel(local, prompt, history, level) {
 const FONTS = ["/fonts/AnalogMonoPlus.ttf"];
 
 // Spending guard: every level costs Gemini credit, so cap how many the whole
-// site can generate per UTC day. In memory, so a restart resets the count.
+// site can generate per UTC day. The count is saved to a file so it survives
+// restarts, and can be reset with POST /api/admin/reset-cap (needs ADMIN_TOKEN).
 const DAILY_LEVEL_CAP = Number(process.env.DAILY_LEVEL_CAP) || 200;
+const CAP_FILE = new URL("./.cache/daily-cap.json", import.meta.url);
 let capDay = "";
 let levelsToday = 0;
+
+try {
+  ({ day: capDay, count: levelsToday } = JSON.parse(await readFile(CAP_FILE, "utf8")));
+} catch {
+  // No saved count yet.
+}
+
+async function saveCap() {
+  try {
+    await mkdir(new URL("./.cache/", import.meta.url), { recursive: true });
+    await writeFile(CAP_FILE, JSON.stringify({ day: capDay, count: levelsToday }));
+  } catch (err) {
+    console.error("Could not save daily cap:", err.message);
+  }
+}
 
 function underDailyCap() {
   const today = new Date().toISOString().slice(0, 10);
@@ -160,7 +177,16 @@ function underDailyCap() {
   }
   if (levelsToday >= DAILY_LEVEL_CAP) return false;
   levelsToday += 1;
+  saveCap();
   return true;
+}
+
+function isAdmin(req) {
+  const token = process.env.ADMIN_TOKEN;
+  if (!token) return false;
+  const given = Buffer.from(String(req.headers.authorization || "").replace(/^Bearer\s+/i, ""));
+  const wanted = Buffer.from(token);
+  return given.length === wanted.length && timingSafeEqual(given, wanted);
 }
 
 async function readJson(req, limit = 20_000) {
@@ -210,6 +236,17 @@ createServer(async (req, res) => {
   if (isLocal(req) && req.method === "POST" && req.url === "/api/debug") {
     try { console.log("DEBUG", JSON.stringify(await readJson(req))); } catch {}
     return send(res, 200, {});
+  }
+
+  if (req.url === "/api/admin/cap" || req.url === "/api/admin/reset-cap") {
+    if (!isAdmin(req)) return send(res, 401, { error: "Unauthorized" });
+    if (req.method === "POST" && req.url === "/api/admin/reset-cap") {
+      capDay = new Date().toISOString().slice(0, 10);
+      levelsToday = 0;
+      await saveCap();
+      console.log("Daily cap reset");
+    }
+    return send(res, 200, { day: capDay, used: levelsToday, cap: DAILY_LEVEL_CAP });
   }
 
   if (req.method === "POST" && req.url === "/api/level") {
