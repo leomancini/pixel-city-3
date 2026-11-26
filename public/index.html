@@ -77,11 +77,10 @@
     position: relative;
     flex: none;
     aspect-ratio: 1;
-    /* The text card's double border without the white: a 3px black edge and
-       a 3px white line (the width of the card's white band) right at the picture's edge, overlay-blended into it. */
-    background: #000;
-    border: 3px solid #000;
+    /* No black edge: the picture runs the full width of the column, the same
+       as the text card, with only a 3px white line overlay-blended into it. */
     border-radius: var(--radius);
+    overflow: hidden;
     padding: var(--bezel);
   }
   .frame::before {
@@ -90,7 +89,7 @@
     inset: 0;
     border: 3px solid #fff;
     mix-blend-mode: overlay;
-    border-radius: calc(var(--radius) - 3px);
+    border-radius: var(--radius);
     pointer-events: none;
     z-index: 2;
   }
@@ -99,7 +98,7 @@
     height: 100%;
     display: block;
     image-rendering: pixelated;
-    border-radius: var(--screen-radius);
+    border-radius: var(--radius);
     background: #0d1330;
     transition: opacity 0.2s;
   }
@@ -117,7 +116,7 @@
     left: 3px;
     width: calc(100% - 6px);
     height: calc(100% - 6px);
-    border-radius: calc(var(--radius) - 6px);
+    border-radius: calc(var(--radius) - 3px);
     opacity: 1;
   }
   .frame.loading #shimmer { display: block; }
@@ -235,17 +234,16 @@
       padding-top: max(20px, env(safe-area-inset-top));
       padding-bottom: max(24px, env(safe-area-inset-bottom));
     }
-    /* The screen stays square. It is as wide as the column when there is
-       room; on a short screen it gets smaller (centred) rather than cropped,
-       leaving the card its minimum 256px and the buttons their 128px. */
+    /* The screen is always as wide as the column (and the text card). It is
+       square when there is room; on a short screen it gives up height and the
+       picture is cropped top and bottom, leaving the card its minimum. */
     main { max-width: none; }
-    /* --frame-size is measured in script (fitFrame); both dimensions are set
-       from it so the screen cannot come out anything but square. */
+    /* --frame-size is measured in script (fitFrame): the column width, or
+       less on a short screen. */
     .frame {
       flex: none;
-      align-self: center;
       aspect-ratio: auto;
-      width: var(--frame-size, 100%);
+      width: 100%;
       height: var(--frame-size, auto);
     }
     /* The card takes what is left and scrolls inside if that is tight. */
@@ -358,9 +356,9 @@
   }
   requestAnimationFrame(drawShimmer);
 
-  // Phone layout: the largest square screen that fits the column's width and
-  // the height left over once the card has a bare minimum and the buttons theirs.
-  // The card may shrink to this before the screen starts to; it scrolls inside.
+  // Phone layout: the screen is the column's width, and as tall as that (square)
+  // unless the height left over once the card has a bare minimum and the
+  // buttons theirs is less; then the picture is cropped top and bottom.
   const CARD_MIN = 190;
   function fitFrame() {
     const main = document.querySelector("main");
