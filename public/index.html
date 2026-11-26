@@ -10,6 +10,8 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Pixel City">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/apple-touch-icon.png">
 <title>Pixel City 3.0</title>
 <style>
   :root {
@@ -398,9 +400,9 @@
   document.fonts?.ready.then(fitText);
 
   // Layout diagnostics for phone debugging: posts the page's measurements to
-  // the server log. The server only accepts them in diagnostics mode
-  // (DIAGNOSTICS=1); otherwise this is a harmless 404.
-  setTimeout(() => {
+  // the server log, only when the page is served from a local address.
+  const localHost = /^(localhost|127\.\d+\.\d+\.\d+|\[::1\]|10\.\d+\.\d+\.\d+|192\.168\.\d+\.\d+|172\.(1[6-9]|2\d|3[01])\.\d+\.\d+|[a-z0-9-]+\.local)$/i.test(location.hostname);
+  if (localHost) setTimeout(() => {
     const probe = document.createElement("div");
     probe.style.cssText = "position:fixed;visibility:hidden;padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left)";
     document.body.append(probe);

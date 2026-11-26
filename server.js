@@ -110,10 +110,13 @@ async function generateImage({ scene, picture, options }, prompt, history) {
   return `data:${image.mime_type || "image/jpeg"};base64,${image.data}`;
 }
 
-// Diagnostics mode (DIAGNOSTICS=1 in .env, meant for local development):
-// accepts the page's layout reports, and keeps the first three levels of the
-// story on disk so reloading the page does not regenerate (and pay for) them.
-const DIAGNOSTICS = process.env.DIAGNOSTICS === "1";
+// Diagnostics and sample mode: only for requests made to this machine by a
+// local address (localhost, or its private LAN address for testing from a
+// phone), never on the public site. It accepts the page's layout reports and
+// keeps the first three levels of the story on disk, so reloading the page
+// does not regenerate (and pay for) them.
+const LOCAL_HOST = /^(localhost|127\.\d+\.\d+\.\d+|\[::1\]|10\.\d+\.\d+\.\d+|192\.168\.\d+\.\d+|172\.(1[6-9]|2\d|3[01])\.\d+\.\d+|[a-z0-9-]+\.local)(:\d+)?$/i;
+const isLocal = (req) => LOCAL_HOST.test(req.headers.host || "") && !req.headers["x-forwarded-for"];
 const CACHE_DIR = new URL("./.cache/levels/", import.meta.url);
 const CACHED_DEPTH = 3;
 
@@ -122,8 +125,8 @@ function cacheFile(prompt, history) {
   return new URL(`${history.length}-${key}.json`, CACHE_DIR);
 }
 
-async function readCachedLevel(prompt, history) {
-  if (!DIAGNOSTICS || history.length >= CACHED_DEPTH) return null;
+async function readCachedLevel(local, prompt, history) {
+  if (!local || history.length >= CACHED_DEPTH) return null;
   try {
     return JSON.parse(await readFile(cacheFile(prompt, history), "utf8"));
   } catch {
@@ -131,8 +134,8 @@ async function readCachedLevel(prompt, history) {
   }
 }
 
-async function cacheLevel(prompt, history, level) {
-  if (!DIAGNOSTICS || history.length >= CACHED_DEPTH) return;
+async function cacheLevel(local, prompt, history, level) {
+  if (!local || history.length >= CACHED_DEPTH) return;
   try {
     await mkdir(CACHE_DIR, { recursive: true });
     await writeFile(cacheFile(prompt, history), JSON.stringify(level));
@@ -192,13 +195,19 @@ createServer(async (req, res) => {
     return res.end(await readFile(new URL("./public/index.html", import.meta.url)));
   }
 
+  // Home Screen icon (iOS also asks for the -precomposed name on its own).
+  if (req.method === "GET" && /^\/apple-touch-icon(-precomposed)?\.png$/.test(req.url.split("?")[0])) {
+    res.writeHead(200, { "Content-Type": "image/png", "Cache-Control": "max-age=86400" });
+    return res.end(await readFile(new URL("./public/apple-touch-icon.png", import.meta.url)));
+  }
+
   if (req.method === "GET" && FONTS.includes(req.url)) {
     res.writeHead(200, { "Content-Type": "font/ttf", "Cache-Control": "max-age=86400" });
     return res.end(await readFile(new URL("./public" + req.url, import.meta.url)));
   }
 
   // Layout diagnostics posted by the page, for phone debugging.
-  if (DIAGNOSTICS && req.method === "POST" && req.url === "/api/debug") {
+  if (isLocal(req) && req.method === "POST" && req.url === "/api/debug") {
     try { console.log("DEBUG", JSON.stringify(await readJson(req))); } catch {}
     return send(res, 200, {});
   }
@@ -213,7 +222,8 @@ createServer(async (req, res) => {
     } catch (err) {
       return send(res, 400, { error: err.message });
     }
-    const cached = await readCachedLevel(prompt, history);
+    const local = isLocal(req);
+    const cached = await readCachedLevel(local, prompt, history);
     if (cached) return send(res, 200, cached);
     if (!underDailyCap()) {
       return send(res, 429, { error: "The city is closed for today. Come back tomorrow." });
@@ -223,7 +233,7 @@ createServer(async (req, res) => {
       const story = await generateStory(prompt, history);
       const image = await generateImage(story, prompt, history);
       const level = { scene: story.scene, options: story.options, image };
-      await cacheLevel(prompt, history, level);
+      await cacheLevel(local, prompt, history, level);
       return send(res, 200, level);
     } catch (err) {
       const message = apiMessage(err);
@@ -236,5 +246,5 @@ createServer(async (req, res) => {
 }).listen(PORT, () => {
   console.log(`Pixel City 3.0 running at http://localhost:${PORT}`);
   console.log(`Story: ${TEXT_MODEL}  Images: ${IMAGE_MODEL}`);
-  if (DIAGNOSTICS) console.log("Diagnostics mode: layout reports on, first 3 levels cached in .cache/levels");
+  console.log("Local requests only: layout reports on, first 3 levels cached in .cache/levels");
 });
