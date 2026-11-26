@@ -1,19 +1,18 @@
 {
   "name": "pixel-city-3",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
-  "type": "module",
   "scripts": {
-    "start": "node /home/leo/services/pixel-city-3/server.js",
-    "dev": "nodemon server.js"
+    "start": "node server.js",
+    "dev": "node --watch server.js"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
+  "description": "",
   "dependencies": {
-    "express": "^4.19.2",
-    "path": "^0.12.7",
-    "url": "^0.11.3"
-  }
+    "@google/genai": "^2.32.0",
+    "dotenv": "^18.0.10"
+  },
+  "type": "module"
 }
-
