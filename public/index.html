@@ -103,7 +103,10 @@
     background: #0d1330;
     transition: opacity 0.2s;
   }
-  .frame.loading #canvas { opacity: 0.45; }
+  /* While loading, the previous picture is hidden entirely: the whole screen,
+     rim included, is the shimmer's dark blue. */
+  .frame.loading { background: #0a0e28; }
+  .frame.loading #canvas { opacity: 0; }
   /* Halftone shimmer sweeping across the picture while the next level
      loads; drawn from script (drawShimmer) in the backdrop's dot style. */
   #shimmer {
