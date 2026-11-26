@@ -1,7 +1,7 @@
 import "dotenv/config";
 import { createServer } from "node:http";
 import { readFile, writeFile, mkdir } from "node:fs/promises";
-import { createHash, timingSafeEqual } from "node:crypto";
+import { createHash } from "node:crypto";
 import { GoogleGenAI } from "@google/genai";
 
 
@@ -148,7 +148,7 @@ const FONTS = ["/fonts/AnalogMonoPlus.ttf"];
 
 // Spending guard: every level costs Gemini credit, so cap how many the whole
 // site can generate per UTC day. The count is saved to a file so it survives
-// restarts, and can be reset with POST /api/admin/reset-cap (needs ADMIN_TOKEN).
+// restarts, and can be reset with POST /api/admin/reset-cap from the server itself.
 const DAILY_LEVEL_CAP = Number(process.env.DAILY_LEVEL_CAP) || 200;
 const CAP_FILE = new URL("./.cache/daily-cap.json", import.meta.url);
 let capDay = "";
@@ -181,12 +181,13 @@ function underDailyCap() {
   return true;
 }
 
+// Admin endpoints only answer requests made on the server itself: a loopback
+// connection that didn't come through the reverse proxy (which adds
+// x-forwarded-for). Run them over ssh with curl against localhost.
 function isAdmin(req) {
-  const token = process.env.ADMIN_TOKEN;
-  if (!token) return false;
-  const given = Buffer.from(String(req.headers.authorization || "").replace(/^Bearer\s+/i, ""));
-  const wanted = Buffer.from(token);
-  return given.length === wanted.length && timingSafeEqual(given, wanted);
+  const addr = req.socket.remoteAddress || "";
+  const loopback = addr === "::1" || addr.startsWith("127.") || addr.startsWith("::ffff:127.");
+  return loopback && !req.headers["x-forwarded-for"] && !req.headers["x-real-ip"];
 }
 
 async function readJson(req, limit = 20_000) {
@@ -239,7 +240,7 @@ createServer(async (req, res) => {
   }
 
   if (req.url === "/api/admin/cap" || req.url === "/api/admin/reset-cap") {
-    if (!isAdmin(req)) return send(res, 401, { error: "Unauthorized" });
+    if (!isAdmin(req)) return send(res, 403, { error: "Only available on the server itself" });
     if (req.method === "POST" && req.url === "/api/admin/reset-cap") {
       capDay = new Date().toISOString().slice(0, 10);
       levelsToday = 0;
