@@ -2,28 +2,35 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0a0a0a">
+<!-- Added to the Home Screen, the game runs full screen with the backdrop
+     behind the status bar and no address bar. -->
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Pixel City">
 <title>Pixel City 3.0</title>
 <style>
   :root {
-    --radius: 22px; --gap: 20px; --card-pad: 30px; --screen-radius: 5px;
+    --radius: 22px; --gap: 20px; --stack-gap: 30px; --card-pad: 30px; --screen-radius: calc(var(--radius) - 3px); --bezel: 0px;
     /* Text metrics. The font is pixel-exact at multiples of 10px. */
-    --text: 20px; --line: 31px; --go-text: 30px;
+    --text: 20px; --line: 27px; --go-text: 30px;
     --option-pad: 4px; --indent: 24px;
-    --cursor-w: 8px; --cursor-h: 14px; --cursor-top: 13px;
+    --cursor-w: 8px; --cursor-h: 14px; --cursor-top: 11px;
     /* Leading above the first line's capitals / below the last option's
        baseline, plus the 8px the card's border and inner line take. */
-    --ink-top: 17px; --ink-bottom: 20px;
+    --ink-top: 15px; --ink-bottom: 18px;
   }
   /* Desktop Retina: 15px is 1.5 CSS px per font pixel, which is exactly
      3 device pixels at 2x, so it stays crisp there. */
   @media (hover: hover) and (pointer: fine) and (min-resolution: 2dppx) {
     :root {
       --card-pad: 24px;
-      --text: 15px; --line: 24px; --go-text: 20px;
+      --text: 15px; --line: 21px; --go-text: 20px;
       --option-pad: 3px; --indent: 18px;
-      --cursor-w: 6px; --cursor-h: 10.5px; --cursor-top: 10px;
-      --ink-top: 15px; --ink-bottom: 17px;
+      --cursor-w: 6px; --cursor-h: 10.5px; --cursor-top: 8.5px;
+      --ink-top: 14px; --ink-bottom: 16px;
     }
   }
   @font-face {
@@ -31,12 +38,21 @@
     src: url("/fonts/AnalogMonoPlus.ttf") format("truetype");
     font-display: block;
   }
-  * { box-sizing: border-box; }
+  * {
+    box-sizing: border-box;
+    /* It is a game, not a document: no double-tap zoom, no text selection,
+       no long-press callout. Panning (scrolling the card) still works. */
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+  }
+  html { background: #0a0a0a; overscroll-behavior: none; }
   body {
     margin: 0;
     height: 100dvh;
     overflow: hidden;
-    background: #111;
+    /* No background here: the page colour is on html. */
     color: #000;
     font-family: "Analog Mono Plus", ui-monospace, Menlo, monospace;
     /* Pixel font, set like ai-pixel-art-frame: uppercase, no smoothing. Its
@@ -48,50 +64,57 @@
     text-rendering: optimizeSpeed;
     display: flex;
     justify-content: center;
-    padding: var(--gap);
+    /* Keep the game clear of the notch and home indicator. */
+    padding: max(var(--gap), env(safe-area-inset-top)) max(var(--gap), env(safe-area-inset-right))
+      max(var(--gap), env(safe-area-inset-bottom)) max(var(--gap), env(safe-area-inset-left));
+    overscroll-behavior: none;
   }
-  /* The current scene behind everything: blurred, darkened and drawn as a
-     halftone of square pixels (see drawBackground). */
-  #bg {
-    position: fixed;
-    inset: 0;
-    width: 100vw;
-    height: 100dvh;
-    z-index: -1;
-    image-rendering: pixelated;
-  }
-  main { width: 100%; max-width: min(350px, 40dvh); height: 100%; display: flex; flex-direction: column; gap: var(--gap); }
+  main { width: 100%; max-width: min(350px, 40dvh); height: 100%; display: flex; flex-direction: column; gap: var(--stack-gap); }
 
   .frame {
     position: relative;
     flex: none;
     aspect-ratio: 1;
+    /* The text card's double border without the white: a 3px black edge and
+       a 3px white line (the width of the card's white band) right at the picture's edge, overlay-blended into it. */
     background: #000;
+    border: 3px solid #000;
     border-radius: var(--radius);
-    padding: var(--gap);
+    padding: var(--bezel);
+  }
+  .frame::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border: 3px solid #fff;
+    mix-blend-mode: overlay;
+    border-radius: calc(var(--radius) - 3px);
+    pointer-events: none;
+    z-index: 2;
   }
   canvas {
     width: 100%;
     height: 100%;
     display: block;
     image-rendering: pixelated;
-    /* Strictly concentric would be 2px (frame radius minus padding); a little
-       more reads as concentric and visibly rounds the screen. */
     border-radius: var(--screen-radius);
     background: #0d1330;
     transition: opacity 0.2s;
   }
-  .frame.loading canvas { opacity: 0.45; }
-  /* Shimmer sweeping across the picture while the next level loads. */
-  .frame.loading::after {
-    content: "";
+  .frame.loading #canvas { opacity: 0.45; }
+  /* Halftone shimmer sweeping across the picture while the next level
+     loads; drawn from script (drawShimmer) in the backdrop's dot style. */
+  #shimmer {
+    display: none;
     position: absolute;
-    inset: var(--gap);
+    top: var(--bezel);
+    left: var(--bezel);
+    width: calc(100% - 2 * var(--bezel));
+    height: calc(100% - 2 * var(--bezel));
     border-radius: var(--screen-radius);
-    background: linear-gradient(105deg, rgba(16, 24, 64, 0.55) 35%, rgba(48, 78, 180, 0.6) 50%, rgba(16, 24, 64, 0.55) 65%) 100% 0 / 400% 100% no-repeat;
-    animation: shimmer 1.8s linear infinite;
+    opacity: 1;
   }
-  @keyframes shimmer { to { background-position: 0% 0; } }
+  .frame.loading #shimmer { display: block; }
 
   .dialog {
     position: relative;
@@ -147,7 +170,10 @@
     font-size: var(--text);
     line-height: var(--line);
     text-transform: uppercase;
+    /* Only the option the cursor is on is black. */
+    color: #9a9a9a;
   }
+  #options li.selected { color: #000; }
   #options li.selected::before {
     content: "";
     position: absolute;
@@ -159,28 +185,31 @@
     clip-path: polygon(0 0, 25% 0, 25% 14%, 50% 14%, 50% 28%, 75% 28%, 75% 43%, 100% 43%, 100% 57%, 75% 57%, 75% 72%, 50% 72%, 50% 86%, 25% 86%, 25% 100%, 0 100%);
   }
 
-  .pad { flex: none; display: grid; grid-template-columns: 1fr 1fr; gap: var(--gap); }
+  /* One row: up, Go, down. */
+  .pad { flex: none; display: grid; grid-template-columns: 1fr 1.3fr 1fr; gap: var(--gap); }
+  #up { order: 1; }
+  #down { order: 3; }
   .pad button {
     height: 47px;
     margin-bottom: 7px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #666;
+    background: #3d3d3d;
     border-radius: 10px;
-    box-shadow: 0 7px 0 #2e2e2e;
+    box-shadow: 0 7px 0 #1c1c1c;
     border: 0;
     padding: 0;
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
   }
-  .pad button.pressed, .pad button:active { transform: translateY(5px); box-shadow: 0 2px 0 #2e2e2e; }
-  #go.pressed, #go:active { box-shadow: 0 2px 0 #1c1c1c; }
+  .pad button.pressed, .pad button:active { transform: translateY(5px); box-shadow: 0 2px 0 #1c1c1c; }
+  #go.pressed, #go:active { box-shadow: 0 2px 0 #2e2e2e; }
   .pad button:focus { outline: none; }
   #go {
-    grid-column: 1 / -1;
-    background: #3d3d3d;
-    box-shadow: 0 7px 0 #1c1c1c;
+    order: 2;
+    background: #666;
+    box-shadow: 0 7px 0 #2e2e2e;
     color: #fff;
     font: inherit;
     font-size: var(--go-text);
@@ -190,18 +219,56 @@
   }
   .pad svg { display: block; fill: #fff; shape-rendering: crispEdges; }
 
+  /* Phones: use the full width. The text card keeps a usable height and the
+     picture frame gives up height (cropping the picture top and bottom) when
+     the screen is too short for a full square. */
+  @media (max-width: 600px) {
+    :root { --card-pad: 24px; }
+    /* Sit close to the top and bottom edges of the visible area. */
+    body {
+      padding-top: max(20px, env(safe-area-inset-top));
+      padding-bottom: max(24px, env(safe-area-inset-bottom));
+    }
+    /* The screen stays square. It is as wide as the column when there is
+       room; on a short screen it gets smaller (centred) rather than cropped,
+       leaving the card its minimum 256px and the buttons their 128px. */
+    main { max-width: none; }
+    /* --frame-size is measured in script (fitFrame); both dimensions are set
+       from it so the screen cannot come out anything but square. */
+    .frame {
+      flex: none;
+      align-self: center;
+      aspect-ratio: auto;
+      width: var(--frame-size, 100%);
+      height: var(--frame-size, auto);
+    }
+    /* The card takes what is left and scrolls inside if that is tight. */
+    .dialog { flex: 1 1 0; min-height: 0; }
+  }
+
+  /* Opened from the Home Screen (full screen); the class is set from script.
+     --screen-h is the physical screen height: on iOS the full-screen viewport
+     comes up short by about the status bar's height, leaving a gap below. */
+  html.standalone, html.standalone body { height: var(--screen-h, 100vh); }
+  html.standalone body {
+    /* Extra room at the top keeps the frame clear of the soft blur iOS draws
+       under the status bar; sit closer to the bottom than the full
+       home-indicator safe area. */
+    padding-top: calc(env(safe-area-inset-top) + 30px);
+    padding-bottom: calc(env(safe-area-inset-bottom) + 30px);
+  }
+
   @media (prefers-reduced-motion: reduce) {
     .blink::after { animation: none; width: 3ch; }
-    .frame.loading::after { animation: none; background: none; }
     canvas { transition: none; }
   }
 </style>
 </head>
 <body>
-<canvas id="bg" aria-hidden="true"></canvas>
 <main>
   <div class="frame loading" id="frame">
     <canvas id="canvas" width="256" height="256" aria-label="Scene illustration"></canvas>
+    <canvas id="shimmer" aria-hidden="true"></canvas>
   </div>
   <section class="dialog" aria-live="polite">
     <div class="dialog-scroll" id="scroll">
@@ -226,6 +293,133 @@
   </div>
 </main>
 <script>
+  // Full-screen (Home Screen) mode: flag it and tell CSS the real screen height.
+  // (iOS reports navigator.standalone but does not match the display-mode
+  // media query, so the check has to be done here rather than in CSS.)
+  const standalone = navigator.standalone === true ||
+    matchMedia("(display-mode: standalone), (display-mode: fullscreen)").matches;
+  function setScreenHeight() {
+    const portrait = matchMedia("(orientation: portrait)").matches;
+    const h = portrait ? Math.max(screen.width, screen.height) : Math.min(screen.width, screen.height);
+    document.documentElement.style.setProperty("--screen-h", h + "px");
+  }
+  if (standalone) {
+    document.documentElement.classList.add("standalone");
+    setScreenHeight();
+    addEventListener("resize", setScreenHeight);
+  }
+
+  // Loading shimmer: a diagonal band of light crossing the screen, rendered as
+  // halftone squares on the same grid as the backdrop and stepped in time so
+  // it moves like pixel art rather than a smooth gradient.
+  const shimmer = document.getElementById("shimmer");
+  const shimmerCtx = shimmer.getContext("2d");
+  const SHIMMER_PERIOD = 1800;  // ms per sweep
+  const SHIMMER_STEP = 60;      // ms per animation step
+  const stillShimmer = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  let shimmerStep = -1;
+  function drawShimmer(now) {
+    requestAnimationFrame(drawShimmer);
+    if (!frameEl.classList.contains("loading")) { shimmerStep = -1; return; }
+    const step = stillShimmer ? 0 : Math.floor(now / SHIMMER_STEP);
+    const dpr = Math.round(devicePixelRatio) || 1;
+    const w = Math.round(shimmer.clientWidth * dpr);
+    const h = Math.round(shimmer.clientHeight * dpr);
+    if (step === shimmerStep && shimmer.width === w && shimmer.height === h) return;
+    shimmerStep = step;
+    shimmer.width = w;
+    shimmer.height = h;
+    const cell = HALFTONE_CELL * dpr;
+    const cols = Math.ceil(w / cell);
+    const rows = Math.ceil(h / cell);
+    shimmerCtx.fillStyle = "rgba(10, 14, 40, 0.6)";
+    shimmerCtx.fillRect(0, 0, w, h);
+    shimmerCtx.fillStyle = "rgb(48, 78, 180)";
+    const slant = 0.3;                 // band leans like the old 105deg gradient
+    const band = cols * 0.45;          // half-width of the band, in cells
+    const span = cols + rows * slant + band * 2;
+    const phase = ((step * SHIMMER_STEP) % SHIMMER_PERIOD) / SHIMMER_PERIOD;
+    const centre = phase * span - band;
+    for (let y = 0; y < rows; y++) {
+      for (let x = 0; x < cols; x++) {
+        const d = Math.abs(x + (rows - y) * slant - centre) / band;
+        const level = stillShimmer ? 0.25 : Math.max(0, 1 - d) ** 1.5;
+        const size = Math.round(cell * Math.min(1, 0.2 + level * 0.8));
+        const off = (cell - size) >> 1;
+        shimmerCtx.fillRect(x * cell + off, y * cell + off, size, size);
+      }
+    }
+  }
+  requestAnimationFrame(drawShimmer);
+
+  // Phone layout: the largest square screen that fits the column's width and
+  // the height left over once the card has a bare minimum and the buttons theirs.
+  // The card may shrink to this before the screen starts to; it scrolls inside.
+  const CARD_MIN = 190;
+  function fitFrame() {
+    const main = document.querySelector("main");
+    const gap = parseFloat(getComputedStyle(main).rowGap) || 20;
+    const padH = document.querySelector(".pad").offsetHeight;
+    const size = Math.floor(Math.min(main.clientWidth, main.clientHeight - CARD_MIN - padH - 2 * gap));
+    document.documentElement.style.setProperty("--frame-size", Math.max(80, size) + "px");
+  }
+  fitFrame();
+  addEventListener("resize", fitFrame);
+  document.fonts?.ready.then(fitFrame);
+
+  // Phone text: start at the font's native 20px and, only if the card's text
+  // does not fit, step down to the next size that still lands every font pixel
+  // on whole device pixels (the font is drawn on a 10-per-em grid, so that is
+  // any size where size * devicePixelRatio / 10 is a whole number).
+  const TEXT_VARS = { "--text": 20, "--line": 27, "--option-pad": 4, "--indent": 24, "--cursor-w": 8, "--cursor-h": 14, "--cursor-top": 11, "--ink-top": 15, "--ink-bottom": 18 };
+  const TEXT_MIN = 13;
+  const phone = matchMedia("(max-width: 600px)");
+  const scrollBox = document.getElementById("scroll");
+  function setTextSize(px) {
+    const root = document.documentElement.style;
+    const dpr = devicePixelRatio || 1;
+    for (const [name, at20] of Object.entries(TEXT_VARS)) {
+      if (px === null) root.removeProperty(name);
+      else root.setProperty(name, (name === "--text" ? px : Math.round(at20 * px / 20 * dpr) / dpr) + "px");
+    }
+  }
+  function fitText() {
+    if (!phone.matches) return setTextSize(null);
+    const dpr = devicePixelRatio || 1;
+    let k = Math.max(1, Math.round(20 * dpr / 10));   // device px per font pixel
+    setTextSize(k * 10 / dpr);
+    while (scrollBox.scrollHeight > scrollBox.clientHeight + 1 && (k - 1) * 10 / dpr >= TEXT_MIN) {
+      k -= 1;
+      setTextSize(k * 10 / dpr);
+    }
+  }
+  new MutationObserver(fitText).observe(scrollBox, { childList: true, subtree: true, characterData: true });
+  new ResizeObserver(fitText).observe(scrollBox);
+  document.fonts?.ready.then(fitText);
+
+  // Layout diagnostics for phone debugging: posts the page's measurements to
+  // the server log. The server only accepts them in diagnostics mode
+  // (DIAGNOSTICS=1); otherwise this is a harmless 404.
+  setTimeout(() => {
+    const probe = document.createElement("div");
+    probe.style.cssText = "position:fixed;visibility:hidden;padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left)";
+    document.body.append(probe);
+    const ps = getComputedStyle(probe);
+    const rect = (el) => { const r = el.getBoundingClientRect(); return [r.top, r.bottom, r.height, r.width].map(Math.round); };
+    const bs = getComputedStyle(document.body);
+    fetch("/api/debug", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({
+      standalone, navStandalone: navigator.standalone, dmStandalone: matchMedia("(display-mode: standalone)").matches,
+      htmlClass: document.documentElement.className, inner: [innerWidth, innerHeight], screen: [screen.width, screen.height],
+      client: [document.documentElement.clientWidth, document.documentElement.clientHeight],
+      visual: visualViewport ? [Math.round(visualViewport.width), Math.round(visualViewport.height)] : null,
+      dpr: devicePixelRatio, safe: [ps.paddingTop, ps.paddingRight, ps.paddingBottom, ps.paddingLeft],
+      html: rect(document.documentElement), body: rect(document.body), bodyPad: [bs.paddingTop, bs.paddingBottom],
+      frame: rect(document.getElementById("frame")), canvas: rect(document.getElementById("canvas")), dialog: rect(document.querySelector(".dialog")), frameSize: getComputedStyle(document.documentElement).getPropertyValue("--frame-size"), text: getComputedStyle(document.documentElement).getPropertyValue("--text"), cardOverflow: document.getElementById("scroll").scrollHeight - document.getElementById("scroll").clientHeight, pad: rect(document.querySelector(".pad")), go: rect(document.getElementById("go")),
+      ua: navigator.userAgent.slice(0, 120),
+    }) }).catch(() => {});
+    probe.remove();
+  }, 800);
+
   const SEED = "Start an adventure by arriving in a new city you have never seen before.";
   const canvas = document.getElementById("canvas");
   const ctx = canvas.getContext("2d");
@@ -259,63 +453,27 @@
 
   // Draw the current picture at the screen's real device-pixel size, so the
   // browser never rescales the canvas (that rescaling is what blurs it).
-  // Centre-cropped to a square so it always fills the screen.
   let currentImg = null;
   function drawScene() {
     if (!currentImg) return;
-    const size = Math.round(canvas.clientWidth * devicePixelRatio);
-    if (canvas.width !== size) canvas.width = canvas.height = size;
+    const cw = Math.round(canvas.clientWidth * devicePixelRatio);
+    const ch = Math.round(canvas.clientHeight * devicePixelRatio);
+    if (!cw || !ch) return;
+    if (canvas.width !== cw || canvas.height !== ch) { canvas.width = cw; canvas.height = ch; }
+    // Cover: crop the picture, centred, to the screen's shape.
     const { naturalWidth: w, naturalHeight: h } = currentImg;
-    const side = Math.min(w, h);
+    const scale = Math.max(cw / w, ch / h);
+    const sw = cw / scale, sh = ch / scale;
     // Smooth only when shrinking; when enlarging keep hard pixel edges.
-    ctx.imageSmoothingEnabled = size < side;
+    ctx.imageSmoothingEnabled = scale < 1;
     ctx.imageSmoothingQuality = "high";
-    ctx.drawImage(currentImg, (w - side) / 2, (h - side) / 2, side, side, 0, 0, size, size);
+    ctx.drawImage(currentImg, (w - sw) / 2, (h - sh) / 2, sw, sh, 0, 0, cw, ch);
   }
+  new ResizeObserver(drawScene).observe(canvas);
+
   // Halftone background: the scene is blurred down to a soft colour field,
   // then each grid cell becomes one square whose size follows its brightness.
-  const bg = document.getElementById("bg");
-  const bgCtx = bg.getContext("2d");
-  const HALFTONE_CELL = 4;      // CSS px per halftone cell
-  const HALFTONE_DARKEN = 0.4;  // how much of the scene's colour survives
-  function drawBackground() {
-    if (!currentImg) return;
-    const dpr = Math.round(devicePixelRatio) || 1;
-    const cell = HALFTONE_CELL * dpr;
-    bg.width = Math.round(innerWidth * dpr);
-    bg.height = Math.round(innerHeight * dpr);
-    const cols = Math.ceil(bg.width / cell);
-    const rows = Math.ceil(bg.height / cell);
-
-    // Blur: squash the picture to 12x12, then stretch that smoothly over the
-    // grid (covering it, centred) to get one soft colour per cell.
-    const tiny = new OffscreenCanvas(12, 12);
-    tiny.getContext("2d").drawImage(currentImg, 0, 0, 12, 12);
-    const field = new OffscreenCanvas(cols, rows);
-    const fieldCtx = field.getContext("2d", { willReadFrequently: true });
-    const cover = Math.max(cols, rows);
-    fieldCtx.imageSmoothingQuality = "high";
-    fieldCtx.drawImage(tiny, (cols - cover) / 2, (rows - cover) / 2, cover, cover);
-    const px = fieldCtx.getImageData(0, 0, cols, rows).data;
-
-    bgCtx.fillStyle = "#0a0a0a";
-    bgCtx.fillRect(0, 0, bg.width, bg.height);
-    for (let y = 0; y < rows; y++) {
-      for (let x = 0; x < cols; x++) {
-        const i = (y * cols + x) * 4;
-        const r = px[i], g = px[i + 1], b = px[i + 2];
-        const lum = (0.299 * r + 0.587 * g + 0.114 * b) / 255;
-        // Brighter cell, bigger square; snapped to whole device pixels.
-        const size = Math.round(cell * Math.min(1, 0.15 + lum * 1.3));
-        if (size < 1) continue;
-        const off = Math.floor((cell - size) / 2);
-        bgCtx.fillStyle = `rgb(${r * HALFTONE_DARKEN}, ${g * HALFTONE_DARKEN}, ${b * HALFTONE_DARKEN})`;
-        bgCtx.fillRect(x * cell + off, y * cell + off, size, size);
-      }
-    }
-  }
-
-  addEventListener("resize", () => { drawScene(); drawBackground(); });
+  const HALFTONE_CELL = 4;      // CSS px per halftone cell (loading shimmer)
 
   // Ask the server for the level that follows `prompt`, and decode its image
   // up front so showing it later is instant.
@@ -376,7 +534,6 @@
       prefetchAbort?.abort();
       currentImg = data.img;
       drawScene();
-      drawBackground();
       level += 1;
       history.push(`Player chose: ${prompt} Then: ${data.scene}`);
       setScene(data.scene);
@@ -412,6 +569,27 @@
   padKeys.ArrowUp.onclick = () => select(selected - 1);
   padKeys.ArrowDown.onclick = () => select(selected + 1);
   addEventListener("keyup", (e) => padKeys[e.key]?.classList.remove("pressed"));
+  // Touch: iOS Safari does not reliably apply :active to a tapped button, and
+  // a quick tap is over before it would show, so drive the pressed look from
+  // pointer events and hold it for a moment after the finger lifts.
+  const PRESS_MIN_MS = 120;
+  document.querySelectorAll(".pad button").forEach((el) => {
+    let downAt = 0;
+    let timer = 0;
+    el.addEventListener("pointerdown", () => {
+      clearTimeout(timer);
+      downAt = performance.now();
+      el.classList.add("pressed");
+    });
+    const release = () => {
+      const wait = Math.max(0, PRESS_MIN_MS - (performance.now() - downAt));
+      clearTimeout(timer);
+      timer = setTimeout(() => el.classList.remove("pressed"), wait);
+    };
+    el.addEventListener("pointerup", release);
+    el.addEventListener("pointercancel", release);
+    el.addEventListener("pointerleave", release);
+  });
   addEventListener("blur", () => document.querySelectorAll(".pad button").forEach((el) => el.classList.remove("pressed")));
 
   play(SEED);
