@@ -1,0 +1,10 @@
+{
+  "service_id": "pixel-city-3",
+  "service_name": "Pixel City 3",
+  "domain": "https://pixel-city-3.leo.gd",
+  "host": "localhost",
+  "port": "3125",
+  "author": "leo",
+  "anthropic": false,
+  "created_on": "Thu Nov 26 12:01:55 PM EST 2026"
+}
