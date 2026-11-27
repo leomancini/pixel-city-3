@@ -1,0 +1,21 @@
+{
+ "id": "c3-d4-1-1",
+ "scene": "The lens reveals glowing secret routes leading out to the city.",
+ "options": [
+  "Ride milk float",
+  "Board ferris gondola",
+  "Climb book cart"
+ ],
+ "next": [
+  "c3-d5",
+  "c3-d0",
+  "c3-d1"
+ ],
+ "picture": "Side-view pixel art of the gallery exit balcony. The tall Latino man in a teal bomber jacket stands left of centre. On the far left, a milk float idles at a low curb. Centre, a glowing ferris gondola docks at an open railing. Far right, an open brass book-cart lift awaits passengers.",
+ "shown": [
+  "a tiny electric milk float idling at the curb on the far left",
+  "a swinging striped gondola suspended outside the wide open window at centre",
+  "a mechanical book-cart lift platform waiting open on the far right"
+ ],
+ "view": "wide"
+}

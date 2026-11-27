@@ -1,0 +1,21 @@
+{
+ "id": "c3-d5-1-0",
+ "scene": "Warm sugar melts on your tongue as three transit lines open up.",
+ "options": [
+  "Hail bicycle rickshaw",
+  "Ride spiral lift",
+  "Board ferris gondola"
+ ],
+ "next": [
+  "c3-d3",
+  "c3-d4",
+  "c3-d0"
+ ],
+ "picture": "Side-scrolling flat street view on a single ground line. On the far left, a striped bicycle rickshaw waits by the curb. Left of centre stands a brass spiral lift cage with open gate. Centre-right, the player in a teal bomber jacket munches the pastry. On the far right, a glowing ferris gondola sits docked.",
+ "shown": [
+  "a striped bicycle rickshaw with an idling driver on the far left",
+  "an ornate spiral staircase lift cage with open gate left of centre",
+  "a glowing ferris wheel gondola docked at the platform on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c3-d5-1-1",
+ "scene": "Inside the warm bakery, three strange transit portals hum behind the counter.",
+ "options": [
+  "Climb gallery staircase",
+  "Board carnival gondola",
+  "Ride book cart"
+ ],
+ "next": [
+  "c3-d4",
+  "c3-d0",
+  "c3-d1"
+ ],
+ "picture": "Side-scrolling flat bakery interior on a single ground line. On the far left stands an ornate spiral staircase lift. Up high above the bread counters hangs an open ferris wheel gondola. In the centre, the player stands looking around. On the far right, a wooden book cart rests before open lift gates.",
+ "shown": [
+  "a winding bronze spiral staircase lift with brass railing, on the far left",
+  "a striped ferris wheel gondola cabin waiting open, up high above centre",
+  "a wheeled wooden book cart sitting beside open lift gates, far right"
+ ],
+ "view": "wide"
+}

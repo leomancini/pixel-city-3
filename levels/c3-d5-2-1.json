@@ -1,0 +1,21 @@
+{
+ "id": "c3-d5-2-1",
+ "scene": "The pigeon drops a stamped brass token right into your open hand.",
+ "options": [
+  "Board night bus",
+  "Ride bicycle rickshaw",
+  "Enter spiral lift"
+ ],
+ "next": [
+  "c3-d2",
+  "c3-d3",
+  "c3-d4"
+ ],
+ "picture": "Side-scrolling flat view along the rooftop ground line. At far left waits a glowing night bus at an elevated ramp. Near left, a wooden pigeon roost stands beside the tall Latino player in teal jacket holding a token. In the center waits an ornate bicycle rickshaw. At far right, a brass spiral lift waits open.",
+ "shown": [
+  "a neon-lit night bus parked along the roof ramp at far left",
+  "a waiting bicycle rickshaw with canopy parked near the center chimney",
+  "an ornate open-cage spiral staircase lift waiting at far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c3-d5-0-0",
+ "scene": "The glowing bottle’s light reveals three waiting transit lines outside.",
+ "options": [
+  "Ride ferris wheel",
+  "Take book lift",
+  "Board night bus"
+ ],
+ "next": [
+  "c3-d0",
+  "c3-d1",
+  "c3-d2"
+ ],
+ "picture": "Flat side view along cobblestones. Player stands centre holding a glowing blue bottle. Far left sits an open ferris wheel gondola. Left stands the parked milk float. Right shows an open brass book cart lift. Far right, an idling neon night bus waits with its front folding doors wide open.",
+ "shown": [
+  "a low-hanging ferris wheel gondola waiting open on the far left",
+  "a brass book cart lift with an open gate on the right",
+  "a glowing neon night bus idling with open doors on the far right"
+ ],
+ "view": "wide"
+}

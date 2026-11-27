@@ -1,0 +1,21 @@
+{
+ "id": "c3-d4-0",
+ "scene": "The holographic map hums, unfolding glowing secret routes across the city.",
+ "options": [
+  "Tap glowing harbour",
+  "Select subway icon",
+  "Push red beacon"
+ ],
+ "next": [
+  "c3-d4-0-0",
+  "c3-d4-0-1",
+  "c3-d4-0-2"
+ ],
+ "picture": "A glowing, detailed pixel-art holographic projection fills the frame in a first-person view. The map glows with neon cyan, yellow, and magenta contour lines. The player's brown hands hover near the edge. On the left pulses a cyan harbour icon, at the centre shines a yellow subway symbol, and on the right blinks a red pyramid beacon.",
+ "shown": [
+  "a pulsing cyan light marking the sea docks on the left side of the map",
+  "a bright yellow subway icon hovering in the map's centre",
+  "a blinking red pyramid marker on the right side of the floating projection"
+ ],
+ "view": "close"
+}

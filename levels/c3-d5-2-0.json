@@ -1,0 +1,21 @@
+{
+ "id": "c3-d5-2-0",
+ "scene": "Looking down the glass pane, you spot multiple transit connections below.",
+ "options": [
+  "Ride book lift",
+  "Board night bus",
+  "Hail bicycle rickshaw"
+ ],
+ "next": [
+  "c3-d1",
+  "c3-d2",
+  "c3-d3"
+ ],
+ "picture": "Flat side view on the rooftop ground line. The tall Latino player in teal jacket kneels over the glowing central skylight. On the far left sits a mechanical book cart lift. Through a roof gap on the left, a night bus waits. On the far right stands a parked bicycle rickshaw.",
+ "shown": [
+  "a metal book cart lift platform resting on the far left roof edge",
+  "a glowing double-decker night bus idling at a stop curb on the left",
+  "a yellow bicycle rickshaw waiting beside a lamppost on the far right"
+ ],
+ "view": "wide"
+}

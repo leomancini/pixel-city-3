@@ -1,0 +1,21 @@
+{
+ "id": "c3-d5-0",
+ "scene": "Inside the milk float's cab, strange cargo sits beneath glowing dashboard dials.",
+ "options": [
+  "Check glowing bottle",
+  "Turn ignition key",
+  "Examine glovebox map"
+ ],
+ "next": [
+  "c3-d5-0-0",
+  "c3-d5-0-1",
+  "c3-d5-0-2"
+ ],
+ "picture": "Interior cab of the milk float zoomed in close. Hands rest near a polished dash. Far left, an open glovebox spills route maps. Centre displays glowing amber speedometer dials and a golden ignition key. On the right passenger seat rests an open wooden crate holding clinking, luminescent blue milk bottles.",
+ "shown": [
+  "A clinking crate of glowing blue bottles sits on the passenger seat right",
+  "A golden key rests in the ignition slot on the dashboard centre",
+  "An unlatched metal glovebox spilling paper sits open on the far left"
+ ],
+ "view": "close"
+}

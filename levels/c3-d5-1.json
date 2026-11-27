@@ -1,0 +1,21 @@
+{
+ "id": "c3-d5-1",
+ "scene": "The brass pastry robot offers you a steaming, star-shaped bun.",
+ "options": [
+  "Take the bun",
+  "Push bakery door",
+  "Check newspaper stand"
+ ],
+ "next": [
+  "c3-d5-1-0",
+  "c3-d5-1-1",
+  "c3-d5-1-2"
+ ],
+ "picture": "Side-scrolling flat street view on a single ground line. On the far left, a bright newspaper stand sits beneath a streetlamp. In the centre, the bakery's heavy wooden door is closed. Right of centre, the player in a teal bomber jacket faces a brass pastry robot on the right extending a star-shaped bun.",
+ "shown": [
+  "A steaming star-shaped pastry held out by the robot on the right",
+  "A heavy wooden door with brass knocker standing closed in the centre",
+  "A colourful newspaper stand packed with glowing tabloids on the far left"
+ ],
+ "view": "wide"
+}

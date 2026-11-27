@@ -1,0 +1,21 @@
+{
+ "id": "c3-d4-0-2",
+ "scene": "The beacon unlocks the gallery terrace where three night rides wait outside.",
+ "options": [
+  "Board night bus",
+  "Hire bicycle rickshaw",
+  "Hop on milk float"
+ ],
+ "next": [
+  "c3-d2",
+  "c3-d3",
+  "c3-d5"
+ ],
+ "picture": "Flat side view on a street terrace outside the gallery. The player in a teal bomber jacket, dark jeans, and messenger bag stands left-of-centre. On the far left waits a purple night bus at a sign. At centre waits a bicycle rickshaw. On the far right waits a boxy yellow electric milk float.",
+ "shown": [
+  "A purple double-decker night bus idling at a stop sign on the far left",
+  "A canopy bicycle rickshaw with a friendly driver seated at the centre",
+  "A small electric milk float loaded with clinking glass bottles on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c3-d5-2",
+ "scene": "You climb the iron ladder up onto the bakery's breezy gravel rooftop.",
+ "options": [
+  "Peer through skylight",
+  "Approach pigeon roost",
+  "Take hanging footbridge"
+ ],
+ "next": [
+  "c3-d5-2-0",
+  "c3-d5-2-1",
+  "c3-d5-2-2"
+ ],
+ "picture": "Flat side view along the rooftop ground line. On the left lies a glowing glass skylight. Center shows a wooden pigeon roost with a roosting pigeon. The tall Latino player in his teal jacket and messenger bag stands right of center. On the far right, a wooden hanging footbridge extends outward.",
+ "shown": [
+  "a square glass skylight glowing with bakery light, located on the left",
+  "a wooden pigeon coop with a roosting carrier pigeon, sitting in the centre",
+  "a narrow wooden suspension bridge swaying slightly on the far right"
+ ],
+ "view": "wide"
+}

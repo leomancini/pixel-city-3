@@ -1,0 +1,21 @@
+{
+ "id": "c3-d4-2-2",
+ "scene": "Parchment tucked away, you step outside the gallery to waiting transit options.",
+ "options": [
+  "Ride bicycle rickshaw",
+  "Board milk float",
+  "Enter carnival gondola"
+ ],
+ "next": [
+  "c3-d3",
+  "c3-d5",
+  "c3-d0"
+ ],
+ "picture": "Flat side view along a stone street. On the far left, a striped bicycle rickshaw waits with a driver. Next stands the player holding a curled parchment. At centre idles a turquoise milk float loaded with crates. On the far right, a glowing red ferris wheel gondola waits at a low gate.",
+ "shown": [
+  "a striped bicycle rickshaw parked on the far left with a driver",
+  "a vintage electric milk float idling at centre with glass bottles",
+  "an ornate ferris wheel gondola waiting at a platform on the far right"
+ ],
+ "view": "wide"
+}

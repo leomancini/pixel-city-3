@@ -1,0 +1,21 @@
+{
+ "id": "c3-d4-2",
+ "scene": "The glowing brass globe clicks open, revealing intricate clockwork gears.",
+ "options": [
+  "Press ruby lever",
+  "Turn gold dial",
+  "Take parchment roll"
+ ],
+ "next": [
+  "c3-d4-2-0",
+  "c3-d4-2-1",
+  "c3-d4-2-2"
+ ],
+ "picture": "First-person close-up view of the opened hollow globe filling the frame. The curved brass rim borders the view. Inside, intricate interlocking copper gears tick softly. Up high, a tiny ruby lever gleams. At centre, a numbered gold dial is fixed into the clockwork. On the right, a curled parchment roll rests in a bracket.",
+ "shown": [
+  "a tiny red ruby lever sitting up high inside the sphere",
+  "a numbered gold dial mounted at centre among the brass gears",
+  "a tightly tied parchment scroll tucked into a slot on the right"
+ ],
+ "view": "close"
+}

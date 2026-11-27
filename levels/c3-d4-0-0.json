@@ -1,0 +1,21 @@
+{
+ "id": "c3-d4-0-0",
+ "scene": "Three secret departure docks click open along the gallery floor.",
+ "options": [
+  "Board carnival gondola",
+  "Ride book lift",
+  "Catch night bus"
+ ],
+ "next": [
+  "c3-d0",
+  "c3-d1",
+  "c3-d2"
+ ],
+ "picture": "In a wide side view along a polished brass gallery floor, the player stands at the centre facing forward in his teal bomber jacket. On the far left hangs a neon ferris wheel gondola. Left of centre sits the glowing projector pedestal. On the right waits a brass book cart lift, and on the far right an open garage door reveals a purple night bus.",
+ "shown": [
+  "a swinging neon ferris wheel gondola hanging from an overhead rail on the far left",
+  "an open brass book cart lift with shelves and chains on the right",
+  "a sleek purple night bus parked inside a wide roll-up tunnel on the far right"
+ ],
+ "view": "wide"
+}

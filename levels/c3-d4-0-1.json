@@ -1,0 +1,21 @@
+{
+ "id": "c3-d4-0-1",
+ "scene": "A ticket drops out, revealing three transit gates behind the map table.",
+ "options": [
+  "Ride book cart",
+  "Catch night bus",
+  "Hire bicycle rickshaw"
+ ],
+ "next": [
+  "c3-d1",
+  "c3-d2",
+  "c3-d3"
+ ],
+ "picture": "Side-view pixel scene along Mapmakers' Gallery concourse. On the far left, a brass book-cart lift sits open on rails. Left of centre, the player stands holding a paper ticket. At centre, a purple night bus idles in an open bay. On the right, a yellow pedal rickshaw waits beside an archway.",
+ "shown": [
+  "a mechanical brass book cart lift waiting on the track, far left",
+  "a purple night bus idling at an open bay door, centre",
+  "a yellow bicycle rickshaw with a bell and striped canopy, right"
+ ],
+ "view": "wide"
+}

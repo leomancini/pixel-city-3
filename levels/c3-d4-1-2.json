@@ -1,0 +1,21 @@
+{
+ "id": "c3-d4-1-2",
+ "scene": "You climb atop the gallery catwalk overlooking three city transport connections.",
+ "options": [
+  "Board carnival gondola",
+  "Ride book lift",
+  "Catch night bus"
+ ],
+ "next": [
+  "c3-d0",
+  "c3-d1",
+  "c3-d2"
+ ],
+ "picture": "Flat side view of a bustling high catwalk. On the left, the player in teal bomber jacket stands near a docked ferris wheel gondola at far left. In the centre waits an open caged book cart lift. On the far right, a neon night bus idles beside a downward ramp.",
+ "shown": [
+  "a glowing ferris wheel gondola docked at an open balcony hatch on the far left",
+  "a caged book cart lift with an open safety gate in the centre",
+  "a neon-lit night bus idling by an exit ramp on the far right"
+ ],
+ "view": "wide"
+}

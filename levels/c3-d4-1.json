@@ -1,0 +1,21 @@
+{
+ "id": "c3-d4-1",
+ "scene": "The cartographer pauses her drawing to offer you a mysterious parchment cylinder.",
+ "options": [
+  "Take parchment tube",
+  "Peer through magnifying lens",
+  "Climb spiral ladder"
+ ],
+ "next": [
+  "c3-d4-1-0",
+  "c3-d4-1-1",
+  "c3-d4-1-2"
+ ],
+ "picture": "Side-view pixel art of a cozy drafting studio. On the left stands the tall Latino player in his teal bomber jacket and messenger bag. At centre, a drafting table holds a tied parchment cylinder, beside the seated cartographer. On the right, a brass magnifying arm extends. Far right stands a wheeled library ladder.",
+ "shown": [
+  "the tied parchment cylinder resting on the drafting table at centre",
+  "an adjustable brass magnifying arm perched on the table right",
+  "a tall wheeled library ladder resting against tall shelves far right"
+ ],
+ "view": "wide"
+}

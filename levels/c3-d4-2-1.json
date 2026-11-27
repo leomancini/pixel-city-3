@@ -1,0 +1,21 @@
+{
+ "id": "c3-d4-2-1",
+ "scene": "The dial chimes, unlocking exit doors to three waiting nighttime rides.",
+ "options": [
+  "Board night bus",
+  "Hire bicycle rickshaw",
+  "Hop on milk float"
+ ],
+ "next": [
+  "c3-d2",
+  "c3-d3",
+  "c3-d5"
+ ],
+ "picture": "A flat side view along a cobblestone curb outside the gallery. The player stands facing forward in his teal bomber jacket and jeans. On the left sits a blue double-decker bus. At centre rests a pedicab rickshaw with an umbrella canopy. On the right waits a low white milk float loaded with bottles.",
+ "shown": [
+  "a glowing double-decker night bus idling with open doors on the left",
+  "a yellow bicycle rickshaw with a nodding driver parked at centre",
+  "a quaint electric milk float loaded with crates waiting on the right"
+ ],
+ "view": "wide"
+}

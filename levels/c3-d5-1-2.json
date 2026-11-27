@@ -1,0 +1,21 @@
+{
+ "id": "c3-d5-1-2",
+ "scene": "At the colourful newsstand, transit flyers advertise three midnight destinations.",
+ "options": [
+  "Board carnival gondola",
+  "Ride book lift",
+  "Take night bus"
+ ],
+ "next": [
+  "c3-d0",
+  "c3-d1",
+  "c3-d2"
+ ],
+ "picture": "Side-scrolling flat street view on a single ground line. On the far left, a glowing neon ferris wheel gondola hangs at street level. Left of centre, the player stands beside the newsstand. In the centre sits an open brass book cart lift. On the far right waits an indigo night bus with open doors.",
+ "shown": [
+  "a glowing neon ferris wheel gondola hanging stationary on the far left",
+  "a mechanical open-sided book cart lift resting in the centre",
+  "a waiting midnight bus with open folding doors on the far right"
+ ],
+ "view": "wide"
+}
