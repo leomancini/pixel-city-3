@@ -11,106 +11,162 @@
     src: url("/fonts/AnalogMonoPlus.ttf") format("truetype");
     font-display: swap;
   }
-  :root { --line: #2a2a2a; --dim: #8a8a8a; --card: #151515; --ink: #f2f2f2; --accent: #ffd45a; }
+  :root { --dim: #8e8e93; --faint: #5a5a5e; --ink: #f4f4f5; --soft: #1a1a1c; --softer: #242427; }
   * { box-sizing: border-box; }
   html { background: #0a0a0a; color: var(--ink); }
   body {
-    margin: 0;
-    padding: 24px clamp(16px, 4vw, 40px) 80px;
-    font: 14px/1.5 ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    margin: 0 auto;
+    max-width: 1500px;
+    padding: 36px clamp(20px, 5vw, 64px) 120px;
+    font: 15px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
   }
   a { color: inherit; }
   h1, h2, .pixel {
     font-family: "Analog Mono Plus", ui-monospace, monospace;
     text-transform: uppercase;
     font-weight: normal;
+    letter-spacing: 0.02em;
     -webkit-font-smoothing: none;
   }
-  header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 24px; margin-bottom: 20px; }
+  /* A district's tree uses the whole window, however wide. */
+  body:has(.tree) { max-width: none; }
+  header { display: flex; flex-direction: column; align-items: center; gap: 12px; margin-bottom: 48px; text-align: center; }
   h1 { font-size: 20px; margin: 0; }
   h1 a { text-decoration: none; }
-  .counts { color: var(--dim); }
+  .counts { color: var(--dim); font-size: 13px; }
   .spacer { flex: 1; }
-  input[type="search"] {
-    width: min(100%, 280px);
-    padding: 8px 10px;
-    font: inherit;
-    color: var(--ink);
-    background: var(--card);
-    border: 1px solid var(--line);
-    border-radius: 8px;
-  }
-  input[type="search"]:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
   button, .button {
     font: inherit;
+    font-size: 13px;
     color: var(--ink);
-    background: var(--card);
-    border: 1px solid var(--line);
-    border-radius: 8px;
-    padding: 6px 10px;
+    background: var(--soft);
+    border: 0;
+    border-radius: 999px;
+    padding: 8px 15px;
     cursor: pointer;
     text-decoration: none;
     display: inline-block;
+    transition: background 0.15s;
   }
-  button:hover, .button:hover { border-color: #555; }
-  button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-  img { display: block; width: 100%; aspect-ratio: 1; object-fit: cover; background: #111; border-radius: 10px; }
-
-  /* Overview: one block per character, a row of their starting points. */
-  .character { margin: 0 0 36px; }
-  .character h2 { font-size: 20px; margin: 0 0 4px; }
-  .player { color: var(--dim); margin: 0 0 12px; max-width: 80ch; }
-  .starts { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 14px; }
-  .start { display: block; text-decoration: none; background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 8px; }
-  .start:hover { border-color: #666; }
-  .start strong { display: block; margin-top: 8px; }
-  .start span { color: var(--dim); }
-  .tag { display: inline-block; font-size: 11px; color: #111; background: var(--accent); border-radius: 4px; padding: 0 5px; margin-left: 6px; vertical-align: 1px; }
-  .tag.grey { background: #555; color: #eee; }
-
-  /* District view: the arrival, then a row per option. */
-  .crumbs { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 18px; }
-  .about { color: var(--dim); max-width: 90ch; margin: 0 0 20px; }
-  .arrival { display: grid; grid-template-columns: minmax(200px, 320px) 1fr; gap: 20px; align-items: start; margin-bottom: 28px; }
-  .branch { border-top: 1px solid var(--line); padding: 20px 0; }
-  .branch-head { display: flex; align-items: baseline; gap: 10px; margin-bottom: 12px; }
-  .branch-head .pixel { font-size: 20px; }
-  .steps { display: grid; grid-template-columns: minmax(180px, 1.15fr) repeat(3, minmax(150px, 1fr)); gap: 14px; align-items: start; }
-  .level { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 8px; min-width: 0; }
-  .level.wide-step { border-color: #444; }
-  .level img { cursor: zoom-in; }
-  .chose { color: var(--accent); margin: 0 0 6px; overflow-wrap: anywhere; }
-  .scene { margin: 8px 0 6px; }
-  .options { list-style: none; margin: 0; padding: 0; color: var(--dim); }
-  .options li::before { content: "▸ "; color: #555; }
-  .options a { text-decoration: underline; text-decoration-color: #555; text-underline-offset: 3px; }
-  .options a:hover { color: var(--ink); }
-  .id { color: #5c5c5c; font-size: 12px; }
-  @media (max-width: 860px) {
-    .arrival { grid-template-columns: 1fr; }
-    .steps { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  }
-
-  /* One level, large, with what the illustrator was told. */
-  dialog {
-    width: min(960px, calc(100vw - 24px));
-    max-height: calc(100dvh - 24px);
-    padding: 16px;
-    color: var(--ink);
-    background: #121212;
-    border: 1px solid #444;
+  button:hover, .button:hover { background: var(--softer); }
+  .button.current, .button.primary { background: var(--ink); color: #0a0a0a; }
+  button:focus-visible, a:focus-visible, input:focus-visible { outline: 2px solid #fff; outline-offset: 3px; }
+  img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    background: #111;
     border-radius: 16px;
   }
-  dialog::backdrop { background: rgba(0, 0, 0, 0.8); }
-  .detail { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 18px; }
-  .detail img { cursor: default; image-rendering: pixelated; }
-  .detail h3 { margin: 14px 0 4px; font-size: 12px; color: var(--dim); font-weight: normal; text-transform: uppercase; letter-spacing: 0.06em; }
-  .detail h3:first-child { margin-top: 0; }
-  .detail p, .detail ol { margin: 0; }
-  .detail ol { padding-left: 20px; }
-  .detail li span { color: var(--dim); }
-  .detail-foot { display: flex; gap: 8px; justify-content: flex-end; margin-top: 14px; }
-  @media (max-width: 700px) { .detail { grid-template-columns: 1fr; } }
+
+  /* Overview: one block per character, a row of their starting points. */
+  .tag {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 500;
+    color: var(--dim);
+    background: var(--softer);
+    border-radius: 999px;
+    padding: 1px 8px;
+    margin-left: 8px;
+    vertical-align: 1px;
+  }
+
+  /* District view: the arrival, then a row per option. */
+  .about { color: var(--dim); max-width: 62ch; margin: 0 0 14px; }
+  /* The tree grows downward in three rows: the arrival, its three choices,
+     and their nine. Nine columns; a node sits centred over its children.
+     Every node is the same size: a picture with its text underneath. */
+  .tree {
+    --gap: 18px;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(9, minmax(0, 1fr));
+    gap: 84px var(--gap);
+    align-items: start;
+  }
+  .tree svg { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; overflow: visible; }
+  .tree path { fill: none; stroke: #3a3a3e; stroke-width: 1.5; stroke-linecap: round; }
+  .node { min-width: 0; justify-self: center; }
+  /* Spanning nodes keep the width of a single column. */
+  /* Top row: every starting point, sharing the full width of the tree. */
+  .chars, .roots { grid-column: 1 / span 9; display: flex; justify-content: center; gap: var(--gap); }
+  .chars { grid-row: 1; }
+  /* No branches join the characters to this row, so it sits closer. */
+  .roots { grid-row: 2; margin-top: -44px; }
+  .chars .node, .roots .node { flex: 1 1 0; width: auto; text-decoration: none; }
+  .chars a.node { color: var(--dim); }
+  .chars a.node.current { color: var(--ink); }
+  .chars .chose { font-size: 12px; }
+  .face { aspect-ratio: 1; border-radius: 16px; background-color: var(--soft); background-repeat: no-repeat; margin-bottom: 8px; image-rendering: pixelated; }
+  .roots .chose { font-size: 14px; margin-top: 2px; }
+  .roots a.node { color: var(--dim); }
+  .node.step-2 { width: calc((100% - 2 * var(--gap)) / 3); }
+  .node.step-3 { width: 100%; }
+  /* A district reached by travelling on: one column wide, centred. */
+  .node.arrival { grid-column: 1 / span 9; width: calc((100% - 8 * var(--gap)) / 9); }
+  .node img { margin-bottom: 12px; }
+  /* Whatever isn't on the selected path is darkened, on every row. */
+  .dim img, .dim .face { filter: brightness(0.4); }
+  .dim .chose { color: var(--faint); }
+  .chose { margin: 0; font-size: 13px; font-weight: 500; line-height: 1.35; overflow-wrap: anywhere; text-align: center; text-wrap: balance; }
+  .scene { margin: 0; color: var(--dim); font-size: 12px; line-height: 1.45; }
+  /* The last step's three options, as numbers: picking one adds the district
+     it travels to underneath. */
+  .onward { display: flex; justify-content: center; gap: 6px; margin-top: 16px; }
+  /* Room for two lines of label, so every row of numbers lines up. */
+  .node.step-3 .chose { min-height: 2.7em; }
+  .onward a {
+    flex: 1 1 0;
+    aspect-ratio: 1;
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+    background: var(--soft);
+    color: var(--dim);
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  .onward a:hover { color: var(--ink); background: var(--softer); }
+  .onward a.current { color: #0b0b0c; background: var(--ink); }
+  /* Narrow screens: the same nodes as an indented outline, without branches. */
+  @media (max-width: 980px) {
+    .tree { display: block; }
+    .tree svg { display: none; }
+    .roots { display: block; }
+    .chars { flex-wrap: wrap; margin-bottom: 32px; }
+    .chars .node { display: block; flex: none; width: 72px; margin: 0; }
+    .node, .roots .node, .node.step-2, .node.step-3 {
+      width: auto;
+      display: grid;
+      grid-template-columns: 104px minmax(0, 1fr);
+      gap: 16px;
+      align-items: center;
+      margin-bottom: 22px;
+    }
+    .node img { margin: 0; }
+    .node.step-2 { margin-left: 28px; margin-top: 36px; }
+    .node.step-3 { margin-left: 56px; }
+    .scene { font-size: 13px; }
+  }
+
+  #tip {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    padding: 6px 10px;
+    border-radius: 10px;
+    background: var(--ink);
+    color: #0b0b0c;
+    font-size: 12px;
+    font-weight: 500;
+    white-space: nowrap;
+    pointer-events: none;
+  }
   .empty { color: var(--dim); padding: 40px 0; }
 </style>
 </head>
@@ -118,18 +174,13 @@
 <header>
   <h1><a href="#">Pixel City 3 Gallery</a></h1>
   <span class="counts" id="counts"></span>
-  <span class="spacer"></span>
-  <input type="search" id="search" placeholder="Search scenes and options" aria-label="Search scenes and options">
-  <a class="button" href="/">Play</a>
 </header>
+<div id="tip" role="tooltip" hidden></div>
 <main id="view"><p class="empty">Loading the story…</p></main>
 
-<dialog id="detail" aria-label="Level details"></dialog>
 
 <script>
   const view = document.getElementById("view");
-  const detail = document.getElementById("detail");
-  const search = document.getElementById("search");
   let data = null;
 
   const el = (tag, props = {}, ...children) => {
@@ -137,7 +188,33 @@
     node.append(...children.filter((c) => c != null));
     return node;
   };
-  const picture = (id, alt) => el("img", { src: `/levels/${id}.jpg?v=${data.version || 0}`, alt, loading: "lazy", decoding: "async" });
+  const picture = (id, alt) => {
+    const image = el("img", { src: `/levels/${id}.jpg?v=${data.version || 0}`, alt, loading: "lazy", decoding: "async", title: "Double-click to play from here" });
+    image.dataset.level = id;
+    return image;
+  };
+  // A small label that follows the cursor over anything with a data-tip.
+  const tip = document.getElementById("tip");
+  function moveTip(event) {
+    const text = event.target.closest?.("[data-tip]")?.dataset.tip;
+    if (!text) { tip.hidden = true; return; }
+    tip.textContent = text;
+    tip.hidden = false;
+    // Below and to the right of the cursor, kept inside the window.
+    const box = tip.getBoundingClientRect();
+    const x = Math.min(event.clientX + 14, innerWidth - box.width - 8);
+    const y = event.clientY + 18 + box.height > innerHeight ? event.clientY - box.height - 12 : event.clientY + 18;
+    tip.style.transform = `translate(${Math.max(8, x)}px, ${y}px)`;
+  }
+  view.addEventListener("mousemove", moveTip);
+  view.addEventListener("mouseleave", () => { tip.hidden = true; });
+  addEventListener("scroll", () => { tip.hidden = true; }, { passive: true });
+
+  // Double-clicking any picture starts the game at that level.
+  view.addEventListener("dblclick", (event) => {
+    const id = event.target.closest("[data-level]")?.dataset.level;
+    if (id) location.href = "/?start=" + id;
+  });
   const districtOf = (id) => id.split("-").slice(0, 2).join("-");
   const district = (id) => {
     for (const character of data.characters) {
@@ -146,131 +223,174 @@
     }
     return null;
   };
-  // Districts 4 and up are only ever openings: nothing travels to them.
-  const startOnly = (id) => Number(id.split("-")[1].slice(1)) >= 4;
 
-  function showDetail(id, chose) {
+  // Where each character stands in their first picture, as a fraction across
+  // and down, found by eye. Used to zoom the character row in on the person.
+  const FACES = {
+    c0: [0.25, 0.75], c1: [0.43, 0.73], c2: [0.35, 0.68], c3: [0.5, 0.81], c4: [0.29, 0.72],
+    c5: [0.5, 0.78], c6: [0.5, 0.78], c7: [0.33, 0.59], c8: [0.43, 0.73], c9: [0.4, 0.76],
+    c10: [0.35, 0.63], c11: [0.51, 0.81], c12: [0.38, 0.75],
+  };
+  const FACE_ZOOM = 3.2;
+  function face(character) {
+    const [x, y] = FACES[character.id] || [0.5, 0.72];
+    // The background position that puts that point in the middle of the crop.
+    const at = (f) => Math.min(100, Math.max(0, ((f * FACE_ZOOM - 0.5) / (FACE_ZOOM - 1)) * 100));
+    const crop = el("div", { className: "face", role: "img", ariaLabel: character.player });
+    crop.dataset.level = character.districts[0].id;
+    crop.style.backgroundImage = `url(/levels/${character.districts[0].id}.jpg?v=${data.version || 0})`;
+    crop.style.backgroundSize = `${FACE_ZOOM * 100}%`;
+    crop.style.backgroundPosition = `${at(x)}% ${at(y)}%`;
+    return crop;
+  }
+
+  // One node of the tree. Every step uses the same node: a thumbnail and
+  // the choice that leads to it. The last step also has its three choices
+  // as numbers; picking one adds the district it travels to underneath.
+  // `prefix` is the address of the tree down to this node's district, and
+  // `hop` is the choice already followed from that district, if any.
+  function node(id, label, step, prefix, hop) {
     const level = data.levels[id];
+    return el("div", { className: "node step-" + step },
+      picture(id, level.scene),
+      el("div", {},
+        el("p", { className: "chose", textContent: label }),
+        step === 3
+          ? el("div", { className: "onward" }, ...level.next.map((next, i) =>
+            {
+              const number = el("a", {
+                className: hop && hop.leaf === id && hop.option === i ? "current" : "",
+                href: `#${prefix}/${id}.${i}`,
+                ariaLabel: `${level.options[i]}, to ${district(next).name}`,
+                textContent: String(i + 1),
+              });
+              // Shown beside the cursor while it is over the number.
+              number.dataset.tip = `${level.options[i]} → ${district(next).name}`;
+              return number;
+            }))
+          : null));
+  }
+
+  // Curved branches from each node to its three children, redrawn whenever
+  // the layout changes.
+  let links = [];
+  function drawBranches() {
+    const tree = document.querySelector(".tree");
+    const svg = tree?.querySelector("svg");
+    if (!svg) return;
+    const box = tree.getBoundingClientRect();
+    svg.setAttribute("viewBox", `0 0 ${box.width} ${box.height}`);
+    svg.innerHTML = links.map(([from, to]) => {
+      const a = from.getBoundingClientRect();
+      const b = to.getBoundingClientRect();
+      // From under the parent down to just above the child.
+      const x1 = a.left + a.width / 2 - box.left, y1 = a.bottom - box.top + 12;
+      const x2 = b.left + b.width / 2 - box.left, y2 = b.top - box.top - 12;
+      const mid = (y1 + y2) / 2;
+      return `<path d="M${x1},${y1} C${x1},${mid} ${x2},${mid} ${x2},${y2}"/>`;
+    }).join("");
+  }
+  addEventListener("resize", drawBranches);
+
+  // The tree, top to bottom: the characters, the chosen character's starting
+  // points, the chosen one's three choices and the three after each of those.
+  // `hops` are the journeys followed on from there: each is a last-step level
+  // and which of its three options was taken. Every hop adds the district it
+  // arrives in as three more rows underneath.
+  function showDistrict(id, hops = []) {
     const place = district(id);
-    detail.replaceChildren(
-      el("div", { className: "detail" },
-        picture(id, level.scene),
-        el("div", {},
-          el("h3", { textContent: "Level" }),
-          el("p", {}, `${id} · ${place.name} · ${level.view === "close" ? "close-up view" : "wide view"}`),
-          chose ? el("h3", { textContent: "Reached by choosing" }) : null,
-          chose ? el("p", { textContent: chose }) : null,
-          el("h3", { textContent: "Scene shown to the player" }),
-          el("p", { textContent: level.scene }),
-          el("h3", { textContent: "Options, and what each points at in the picture" }),
-          el("ol", {}, ...level.options.map((option, i) =>
-            el("li", {}, option, el("span", { textContent: level.shown?.[i] ? ` — ${level.shown[i]}` : "" })))),
-          el("h3", { textContent: "What the illustrator was told is visible" }),
-          el("p", { textContent: level.picture || "(nothing recorded)" }),
-          el("h3", { textContent: "Player" }),
-          el("p", { textContent: place.character.player }),
-        ),
-      ),
-      el("div", { className: "detail-foot" },
-        el("a", { className: "button", href: `/levels/${id}.jpg?v=${data.version || 0}`, target: "_blank", rel: "noopener", textContent: "Open picture" }),
-        el("button", { textContent: "Close", onclick: () => detail.close() }),
-      ),
-    );
-    detail.showModal();
-  }
-  detail.addEventListener("click", (e) => { if (e.target === detail) detail.close(); });
-
-  // A card for one level. Options link onward when they travel to another district.
-  function levelCard(id, chose, travels) {
-    const level = data.levels[id];
-    const image = picture(id, level.scene);
-    image.onclick = () => showDetail(id, chose);
-    return el("div", { className: "level" },
-      chose ? el("p", { className: "chose", textContent: "▸ " + chose }) : null,
-      image,
-      el("p", { className: "scene" }, level.scene, level.view === "close" ? el("span", { className: "tag grey", textContent: "close-up" }) : null),
-      el("ul", { className: "options" }, ...level.options.map((option, i) =>
-        el("li", {}, travels
-          ? el("a", { href: "#" + level.next[i], textContent: `${option} → ${district(level.next[i]).name}` })
-          : option))),
-      el("p", { className: "id", textContent: id }),
-    );
-  }
-
-  function showOverview() {
-    document.title = "Pixel City 3 Gallery";
-    view.replaceChildren(...data.characters.map((character, n) =>
-      el("section", { className: "character" },
-        el("h2", { textContent: `Character ${n + 1}` }),
-        el("p", { className: "player", textContent: character.player }),
-        el("div", { className: "starts" }, ...character.districts.map((d) =>
-          el("a", { className: "start", href: "#" + d.id },
-            picture(d.id, d.name),
-            el("strong", {}, d.name, startOnly(d.id) ? el("span", { className: "tag grey", textContent: "opening only" }) : null),
-            el("span", { textContent: `arrive by ${d.transport}` })))))));
-  }
-
-  function showDistrict(id) {
-    const place = district(id);
-    const root = data.levels[id];
     document.title = `${place.name} · Pixel City 3 Gallery`;
-    const siblings = place.character.districts;
-    view.replaceChildren(
-      el("div", { className: "crumbs" },
-        el("a", { className: "button", href: "#", textContent: "← All starting points" }),
-        ...siblings.map((d) => el("a", { className: "button", href: "#" + d.id, textContent: d.name,
-          style: d.id === id ? "border-color: var(--accent)" : "" })),
-        el("span", { className: "spacer" }),
-        el("a", { className: "button", href: "/?start=" + id, textContent: "Play from here" })),
-      el("div", { className: "arrival" },
-        levelCard(id, null, false),
-        el("div", {},
-          el("h2", { style: "font-size:20px;margin:0 0 6px" }, place.name),
-          el("p", { className: "about", textContent: `Arrive by ${place.transport}. ${place.about[0].toUpperCase()}${place.about.slice(1)}.` }),
-          el("p", { className: "about", textContent: `Played by ${place.character.player}.` }),
-          el("p", { className: "about", textContent: startOnly(id)
-            ? "This district only ever appears as an opening. Its last steps travel on to this character's other districts."
-            : "Each row below is one of the three choices here, then the three choices after it. The last step always travels on to another of this character's districts." }))),
-      ...root.options.map((option, i) => {
-        const second = root.next[i];
-        return el("section", { className: "branch" },
-          el("div", { className: "branch-head" },
-            el("span", { className: "pixel", textContent: `${i + 1}. ${option}` })),
-          el("div", { className: "steps" },
-            Object.assign(levelCard(second, option, false), { className: "level wide-step" }),
-            ...data.levels[second].next.map((third, j) => levelCard(third, data.levels[second].options[j], true))));
-      }));
-    scrollTo(0, 0);
-  }
+    // The one being viewed is the root, and the branches grow down from it;
+    // the others switch to their own tree.
+    let rootNode = null;
+    const roots = el("div", { className: "roots" }, ...place.character.districts.map((d) => {
+      if (d.id !== id) return el("a", { className: "node dim", href: "#" + d.id }, picture(d.id, d.name), el("p", { className: "chose", textContent: d.name }));
+      rootNode = node(id, d.name, 1);
+      rootNode.classList.add("current");
+      return rootNode;
+    }));
+    links = [];
+    // Above them, every character. The others switch to their own first starting point.
+    const chars = el("div", { className: "chars" }, ...data.characters.map((c, n) => {
+      const current = c === place.character;
+      const item = el("a", { className: current ? "node current" : "node dim", href: "#" + (current ? id : c.districts[0].id), title: c.player },
+        face(c), el("p", { className: "chose", textContent: `Character ${n + 1}` }));
+      return item;
+    }));
 
-  function showSearch(query) {
-    const words = query.toLowerCase().split(/\s+/).filter(Boolean);
-    const hits = Object.entries(data.levels).filter(([id, level]) => {
-      const text = `${level.scene} ${level.options.join(" ")} ${level.picture || ""} ${district(id).name}`.toLowerCase();
-      return words.every((word) => text.includes(word));
+    // The two rows under a district's arrival, starting at grid row `row`.
+    // Returns the nodes and, by id, the last-step ones.
+    const below = (districtId, top, row, prefix, hop) => {
+      const leaves = {};
+      const start = data.levels[districtId];
+      // Once a journey is followed on from here, only the levels on its path
+      // stay lit: the last-step level and the choice that led to it.
+      const lit = hop && districtOf(hop.leaf) === districtId && data.levels[hop.leaf]
+        ? [hop.leaf, hop.leaf.split("-").slice(0, 3).join("-")] : null;
+      const shade = (item, itemId) => { if (lit && !lit.includes(itemId)) item.classList.add("dim"); return item; };
+      const nodes = start.options.flatMap((option, i) => {
+        const second = start.next[i];
+        const secondNode = shade(node(second, option, 2), second);
+        secondNode.style.gridArea = `${row} / ${i * 3 + 1} / auto / span 3`;
+        links.push([top, secondNode]);
+        return [secondNode, ...data.levels[second].next.map((third, j) => {
+          const thirdNode = shade(node(third, data.levels[second].options[j], 3, prefix, hop), third);
+          thirdNode.style.gridArea = `${row + 1} / ${i * 3 + j + 1}`;
+          links.push([secondNode, thirdNode]);
+          return (leaves[third] = thirdNode);
+        })];
+      });
+      return { nodes, leaves };
+    };
+
+    let prefix = id;
+    let block = below(id, rootNode, 3, prefix, hops[0]);
+    const rows = [...block.nodes];
+    let row = 5;
+    hops.forEach((hop, n) => {
+      const from = block.leaves[hop.leaf];
+      const next = from && data.levels[hop.leaf].next[hop.option];
+      if (!next) return;
+      prefix += `/${hop.leaf}.${hop.option}`;
+      // The district this journey arrives in, then its own two rows.
+      const arrival = node(next, district(next).name, 1);
+      arrival.classList.add("arrival");
+      arrival.style.gridRow = String(row);
+      // The branch comes down from the number that was picked.
+      links.push([from.querySelector(".onward a.current") || from, arrival]);
+      block = below(next, arrival, row + 1, prefix, hops[n + 1]);
+      rows.push(arrival, ...block.nodes);
+      row += 3;
     });
-    document.title = "Search · Pixel City 3 Gallery";
-    view.replaceChildren(
-      el("p", { className: "about", textContent: `${hits.length} level${hits.length === 1 ? "" : "s"} match “${query}”${hits.length > 60 ? ", showing the first 60" : ""}.` }),
-      hits.length
-        ? el("div", { className: "starts" }, ...hits.slice(0, 60).map(([id, level]) =>
-            el("a", { className: "start", href: "#" + districtOf(id) },
-              picture(id, level.scene),
-              el("strong", { textContent: district(id).name }),
-              el("span", { textContent: level.scene }))))
-        : el("p", { className: "empty", textContent: "Nothing matches. Try a single word, such as “robot” or “tram”." }));
+
+    const tree = el("div", { className: "tree" }, chars, roots, ...rows);
+    tree.insertAdjacentHTML("afterbegin", '<svg aria-hidden="true"></svg>');
+    // Moving between trees keeps your place on the page.
+    const within = Boolean(view.querySelector(".tree"));
+    view.replaceChildren(tree);
+    if (!within) scrollTo(0, 0);
+    drawBranches();
+    // Pictures and the pixel font settle after the first paint.
+    new ResizeObserver(drawBranches).observe(tree);
+    document.fonts?.ready.then(drawBranches);
   }
 
   function route() {
     if (!data) return;
-    const query = search.value.trim();
-    if (query) return showSearch(query);
-    const id = location.hash.slice(1);
-    if (id && data.levels[id] && district(id)?.id === id) return showDistrict(id);
-    showOverview();
+    // "#c0-d1/c0-d1-0-1.2/…": a starting point, then each journey followed on
+    // from it (a last-step level and the option taken).
+    const [id, ...rest] = location.hash.slice(1).split("/");
+    if (id && data.levels[id]) {
+      const hops = rest.map((part) => {
+        const [leaf, option] = part.split(".");
+        return { leaf, option: Number(option) };
+      });
+      return showDistrict(districtOf(id), id === districtOf(id) ? hops : []);
+    }
+    // Nothing chosen yet: open on the first character's first starting point.
+    showDistrict(data.characters[0].districts[0].id);
   }
-  addEventListener("hashchange", () => { search.value = ""; route(); });
-  search.addEventListener("input", route);
+  addEventListener("hashchange", route);
 
   fetch("/levels/gallery.json")
     .then((res) => { if (!res.ok) throw new Error("status " + res.status); return res.json(); })

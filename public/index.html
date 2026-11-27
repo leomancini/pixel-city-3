@@ -559,9 +559,11 @@
     if (!res.ok) throw new Error("Request failed");
     const { starts, version } = await res.json();
     storyVersion = version || 0;
-    // The gallery's "Play from here" names a starting point in the address.
-    const asked = new URLSearchParams(location.search).get("start");
-    if (starts.includes(asked)) return asked;
+    // The gallery can name any level in the address to play from: a
+    // starting point, or a level one or two steps into its district.
+    const asked = new URLSearchParams(location.search).get("start") || "";
+    const within = /^(c\d+-d\d+)(-[0-2]){0,2}$/.exec(asked);
+    if (within && starts.includes(within[1])) return asked;
     let last = null;
     try { last = localStorage.getItem("lastStart"); } catch {}
     // Ids look like c2-d1: character 2, district 1.
@@ -722,8 +724,10 @@
       setGlow(false);
       level += 1;
       // The session's first level greets the player before its scene, and
-      // asks the question that teaches how to play.
-      setScene(level === 1 ? "Welcome to Pixel City! " + data.scene + " What's next?" : data.scene);
+      // asks the question that teaches how to play. A game opened partway
+      // into a district (from the gallery) is mid-story, so it gets neither.
+      const arriving = /^c\d+-d\d+$/.test(id);
+      setScene(level === 1 && arriving ? "Welcome to Pixel City! " + data.scene + " What's next?" : data.scene);
       const next = prefetch(data.next);
       showOptions(data.options.map((text, i) => ({ label: text, action: () => play(data.next[i], next[i]) })));
     } catch (err) {
