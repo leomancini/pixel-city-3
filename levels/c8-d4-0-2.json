@@ -1,0 +1,21 @@
+{
+ "id": "c8-d4-0-2",
+ "scene": "The bell jar unlocks a roof terrace bustling with sky transports.",
+ "options": [
+  "Board hover bus",
+  "Ride gondola drone",
+  "Take hover carriage"
+ ],
+ "next": [
+  "c8-d2",
+  "c8-d3",
+  "c8-d5"
+ ],
+ "picture": "A flat side-view pixel skyport terrace atop the tower. On the far left sits a red double-decker hover bus. In the centre, a tethered gondola drone bobs gently. Next to it stands grandmother in her pink tracksuit holding her white dog. On the far right waits an ornate, horse-shaped hover carriage.",
+ "shown": [
+  "a double-decker hover bus idling with open doors on the far left",
+  "a flying gondola drone tethered to a mooring post in the centre",
+  "an ornate horse-shaped hover carriage waiting on the far right"
+ ],
+ "view": "wide"
+}

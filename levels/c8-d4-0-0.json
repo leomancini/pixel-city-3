@@ -1,0 +1,21 @@
+{
+ "id": "c8-d4-0-0",
+ "scene": "The lift whisks upward, opening directly onto Teapot Tower's breezy rooftop transit skydeck.",
+ "options": [
+  "Board hover metro",
+  "Hire flying scooter",
+  "Take hover bus"
+ ],
+ "next": [
+  "c8-d0",
+  "c8-d1",
+  "c8-d2"
+ ],
+ "picture": "A flat side-view pixel skydeck atop the tower. On the far left, a sleek hover metro waits with open doors. In the centre, the grandmother stands with her dog on its leash beside the open bronze lift. On the right, a yellow flying scooter is parked. On the far right, a red double-decker hover bus idles.",
+ "shown": [
+  "a sleek hover metro with open doors waiting on tracks at far left",
+  "a bright yellow flying scooter parked beside a sign on the right",
+  "a red double-decker hover bus idling by a curb at far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c7-d5-1-1",
+ "scene": "You climb the ice dais, revealing three routes out of the fair.",
+ "options": [
+  "Ride propeller trolley",
+  "Board hillside chairlift",
+  "Catch sleigh tram"
+ ],
+ "next": [
+  "c7-d4",
+  "c7-d0",
+  "c7-d1"
+ ],
+ "picture": "Side-view pixel art along a carved ice terrace. The boy in his orange puffer vest and kite stands at centre, waving near a hillside chairlift bench. On the far left sits an idling yellow propeller trolley on tracks. Robot penguins tap beside him. On the far right, a red-striped sleigh tram waits with open doors.",
+ "shown": [
+  "A yellow propeller trolley idling with open doors on rails, far left",
+  "An empty swinging wooden chairlift bench hanging from a cable, centre",
+  "A red-striped sleigh tram hitched to mechanical reindeer, far right"
+ ],
+ "view": "wide"
+}

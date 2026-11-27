@@ -1,0 +1,21 @@
+{
+ "id": "c7-d5-0-2",
+ "scene": "You lace up skates and glide across to the departure docks.",
+ "options": [
+  "Board reef boat",
+  "Climb into balloon",
+  "Take propeller trolley"
+ ],
+ "next": [
+  "c7-d2",
+  "c7-d3",
+  "c7-d4"
+ ],
+ "picture": "Side-view pixel art along a frozen dock line. On the far left, a glass-bottomed boat floats in slushy water. Centre left, the lanky boy balances on gleaming skates. Up high at centre, a colourful hot-air balloon bobs gently at a mooring post. On the far right, a brass propeller trolley sits on rails.",
+ "shown": [
+  "a glass-bottomed boat bobbing beside an open ice canal on the left",
+  "a tethered hot-air balloon with an open wicker basket up high centre",
+  "a wheeled propeller trolley idling on a frost-covered track on the far right"
+ ],
+ "view": "wide"
+}

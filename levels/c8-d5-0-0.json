@@ -1,0 +1,21 @@
+{
+ "id": "c8-d5-0-0",
+ "scene": "Your clever answer makes the hedge bloom, revealing three parked transit platforms.",
+ "options": [
+  "Ride hover metro",
+  "Take flying scooter",
+  "Board hover bus"
+ ],
+ "next": [
+  "c8-d0",
+  "c8-d1",
+  "c8-d2"
+ ],
+ "picture": "Flat side view. Along the lawn ground line, the grandmother in pink tracksuit stands on the far left holding her dog on lead. To her left sits the sleek hover metro. In the centre idles a turquoise flying scooter. On the right, a red double-decker hover bus floats beside the blooming hedge on the far right.",
+ "shown": [
+  "a sleek chrome hover metro car with an open door on the left",
+  "a turquoise flying scooter idling gently above a stand in the centre",
+  "a red double-decker hover bus with open doors on the right"
+ ],
+ "view": "wide"
+}

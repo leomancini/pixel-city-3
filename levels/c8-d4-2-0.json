@@ -1,0 +1,21 @@
+{
+ "id": "c8-d4-2-0",
+ "scene": "The tingling tea grants sudden lightness as exit doors slide wide open.",
+ "options": [
+  "Fly to Piazza",
+  "Board Clockworks bus",
+  "Ride Canal drone"
+ ],
+ "next": [
+  "c8-d1",
+  "c8-d2",
+  "c8-d3"
+ ],
+ "picture": "A flat side-view pixel sky-terrace at Teapot Tower. On the far left sits a winged yellow flying scooter. Centre-left stands grandmother in her pink tracksuit holding an empty cup with her dog. In the centre waits a scarlet double-decker hover bus at an open gate. On the far right hangs a passenger gondola drone.",
+ "shown": [
+  "a yellow winged flying scooter idling outside on the left terrace",
+  "a scarlet double-decker hover bus hovering by the centre departure dock",
+  "a hanging gondola drone tethered to the far right launch railing"
+ ],
+ "view": "wide"
+}

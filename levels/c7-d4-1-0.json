@@ -1,0 +1,21 @@
+{
+ "id": "c7-d4-1-0",
+ "scene": "The crane warms your hands, illuminating three strange departures at the roof's edge.",
+ "options": [
+  "Board hot-air balloon",
+  "Ride ice sled",
+  "Take hillside chairlift"
+ ],
+ "next": [
+  "c7-d3",
+  "c7-d5",
+  "c7-d0"
+ ],
+ "picture": "Flat side-view across the rooftop edge. On the far left sits a tethered striped balloon basket. The boy in his orange puffer vest holds the glowing origami crane. In the centre waits a sleek wooden ice sled upon a frost chute. On the right, a yellow chairlift hangs ready beside its pylon.",
+ "shown": [
+  "a striped hot-air balloon basket tethered on the left side",
+  "a runnered ice sled waiting at an icy slide in the centre",
+  "a dangling metal chairlift swinging beside a pylon on the far right"
+ ],
+ "view": "wide"
+}

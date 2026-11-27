@@ -1,0 +1,21 @@
+{
+ "id": "c8-d4-1-2",
+ "scene": "You climb up onto the breezy roof deck surrounded by waiting transports.",
+ "options": [
+  "Board hover metro",
+  "Ride flying scooter",
+  "Catch hover bus"
+ ],
+ "next": [
+  "c8-d0",
+  "c8-d1",
+  "c8-d2"
+ ],
+ "picture": "A flat side-view pixel sky-platform deck. On the far left, the spiral stairs emerge onto the floor. To the left, a sleek chrome hover metro rests with doors open. In the centre, grandmother in her pink tracksuit holds her leashed dog beside a turquoise flying scooter. On the right, a red double-decker hover bus idles.",
+ "shown": [
+  "a sleek chrome hover metro car with open doors on the left track",
+  "a turquoise flying scooter resting beside a helmet stand in the centre",
+  "a red double-decker hover bus idling beside a signpost on the right"
+ ],
+ "view": "wide"
+}

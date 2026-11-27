@@ -1,0 +1,21 @@
+{
+ "id": "c7-d4-1-1",
+ "scene": "You pocket the folded blueprint before three frosty outbound transit gates.",
+ "options": [
+  "Ride ice sled",
+  "Board hillside chairlift",
+  "Catch sleigh tram"
+ ],
+ "next": [
+  "c7-d5",
+  "c7-d0",
+  "c7-d1"
+ ],
+ "picture": "Flat side-view across the airport's snowy transit terrace. On the far left, the lanky boy in his orange vest slips paper into his pocket. To his left waits a sleek wooden ice sled on an icy ramp. In the centre, an empty chairlift dangles from an overhead cable. On the right, a sleigh tram idles.",
+ "shown": [
+  "a sleek wooden ice sled resting on a chilled chute on the left",
+  "a swinging double chairlift dangling from an iron cable in the centre",
+  "a bell-topped sleigh tram idling beside a candy-striped signpost on the right"
+ ],
+ "view": "wide"
+}

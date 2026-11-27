@@ -1,0 +1,21 @@
+{
+ "id": "c7-d4-2",
+ "scene": "Inside the bustling tower, whirring radar screens and wind vanes click loudly.",
+ "options": [
+  "Study brass radar",
+  "Talk to operator",
+  "Climb roof ladder"
+ ],
+ "next": [
+  "c7-d4-2-0",
+  "c7-d4-2-1",
+  "c7-d4-2-2"
+ ],
+ "picture": "Flat side-view of a wooden tower interior along a level plank floor. On the far left stands a brass console with glowing dials. In the centre, a pelican operator in headphones adjusts knobs. The lanky boy in his orange vest stands right of centre. An iron wall ladder ascends far right.",
+ "shown": [
+  "a humming green radar console with blinking sweep dials, positioned on the left",
+  "a pelican wearing large headphones sitting at a high stool in the centre",
+  "an iron ladder bolted beside an open observation hatch on the far right"
+ ],
+ "view": "wide"
+}

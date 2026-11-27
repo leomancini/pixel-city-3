@@ -1,0 +1,21 @@
+{
+ "id": "c8-d5-0",
+ "scene": "The leafy face ruffles its foliage and whispers a secret riddle.",
+ "options": [
+  "Answer the riddle",
+  "Touch brass gardener",
+  "Enter glowing portal"
+ ],
+ "next": [
+  "c8-d5-0-0",
+  "c8-d5-0-1",
+  "c8-d5-0-2"
+ ],
+ "picture": "Flat side view. On the far left, a swirling emerald portal churns within a hollow oak. The grandmother in pink tracksuit stands next to it, her white dog sniffing the grass. In the centre, the face-shaped hedge murmurs with open leafy lips. To the right stands the still brass robot gardener, before the mansion on the far right.",
+ "shown": [
+  "a talking hedge with a leafy mustache whispering in the centre",
+  "a motionless brass robot gardener holding golden shears on the right",
+  "a swirling emerald portal open inside a hollow tree far left"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c8-d4",
+ "scene": "You step off the spiral tram into the bustling base of Teapot Tower.",
+ "options": [
+  "Enter bronze lift",
+  "Pet giant cat",
+  "Order herbal tea"
+ ],
+ "next": [
+  "c8-d4-0",
+  "c8-d4-1",
+  "c8-d4-2"
+ ],
+ "picture": "A flat side-view pixel interior. On the far left, a round bronze lift emits steam puffs. Beside it stands the curled yellow tram. In the centre, grandmother in a pink tracksuit holds her white dog's lead beside a sleeping giant orange cat. On the right, a badger barista polishes cups behind a counter.",
+ "shown": [
+  "A steam-powered bronze elevator cage sits open on the far left.",
+  "A fluffy orange cat naps beside a round table in the centre.",
+  "A busy badger barista stands behind a polished counter on the right."
+ ],
+ "view": "wide"
+}

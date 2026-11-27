@@ -1,0 +1,21 @@
+{
+ "id": "c8-d4-2",
+ "scene": "The badger barista slides over a glowing turquoise cup of bubbling tea.",
+ "options": [
+  "Drink the tea",
+  "Climb spiral stairs",
+  "Check pastry case"
+ ],
+ "next": [
+  "c8-d4-2-0",
+  "c8-d4-2-1",
+  "c8-d4-2-2"
+ ],
+ "picture": "A flat side-view pixel cafe interior. On the far left, the giant orange cat snoozes. In the centre-left sits a glass pastry case of glittering biscuits. In the centre, grandmother in her pink tracksuit and her dog stand at the polished wooden counter. On the right, the badger barista waits by a steaming turquoise mug. An ornate spiral staircase curls upward on the far right.",
+ "shown": [
+  "a steaming turquoise mug sitting on the counter right in front",
+  "an ornate brass spiral staircase leading upwards on the far right",
+  "a glass display case filled with glittering crystal biscuits on the centre-left"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c8-d5-0-1",
+ "scene": "The gardener clicks to life and signals three awaiting city transports.",
+ "options": [
+  "Ride flying scooter",
+  "Board hover bus",
+  "Take gondola drone"
+ ],
+ "next": [
+  "c8-d1",
+  "c8-d2",
+  "c8-d3"
+ ],
+ "picture": "Flat side view. On the far left, a winged yellow scooter idles above the grass. Next stands the grandmother in pink tracksuit holding her white dog's lead. In the centre floats a red double-decker hover bus with open doors. The brass gardener gestures proudly toward a sleek gondola drone waiting on the far right.",
+ "shown": [
+  "A sleek winged yellow scooter idling empty on the far left grass",
+  "A red double-decker hover bus floating with doors open in the centre",
+  "A gleaming passenger gondola drone hovering patiently on the far right"
+ ],
+ "view": "wide"
+}

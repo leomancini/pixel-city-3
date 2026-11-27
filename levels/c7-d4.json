@@ -1,0 +1,21 @@
+{
+ "id": "c7-d4",
+ "scene": "You step off the propeller trolley onto Paper Plane Airport's busy rooftop.",
+ "options": [
+  "Inspect the plane",
+  "Help folding robot",
+  "Enter control tower"
+ ],
+ "next": [
+  "c7-d4-0",
+  "c7-d4-1",
+  "c7-d4-2"
+ ],
+ "picture": "Flat side-view along a level rooftop. At far left rests a giant paper glider. Next sits the idling propeller trolley. The player stands beside it wearing an orange puffer vest, white scarf, and kite. In the centre, a brass robot folds origami. On the right rises a wooden tower with an open door.",
+ "shown": [
+  "a giant folded paper glider resting on a launcher at far left",
+  "a brass folding robot creasing parchment sheets in the centre",
+  "a spiralling wooden control tower with an open door on the right"
+ ],
+ "view": "wide"
+}

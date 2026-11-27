@@ -1,0 +1,21 @@
+{
+ "id": "c7-d4-0-2",
+ "scene": "The crank rotates the launch pad, revealing three new departures.",
+ "options": [
+  "Board glass boat",
+  "Ride hot balloon",
+  "Hop on sled"
+ ],
+ "next": [
+  "c7-d2",
+  "c7-d3",
+  "c7-d5"
+ ],
+ "picture": "Flat side-view along the rotating turntable platform. The player in his orange vest and kite stands centre beside the crank. On the far left, a glass-bottomed boat floats in a canal cradle. Up high above centre, a striped hot-air balloon sways. On the right, an ice sled waits on a frosted chute.",
+ "shown": [
+  "a glass-bottomed boat resting in a rooftop launch canal on the far left",
+  "a striped hot-air balloon moored to an iron post up high above centre",
+  "a runnered ice sled parked on a frosted launch chute on the right"
+ ],
+ "view": "wide"
+}

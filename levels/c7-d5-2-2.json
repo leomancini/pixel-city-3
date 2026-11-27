@@ -1,0 +1,21 @@
+{
+ "id": "c7-d5-2-2",
+ "scene": "At the transit tent, three strange rides await your departure.",
+ "options": [
+  "Ride hot-air balloon",
+  "Board propeller trolley",
+  "Take hillside chairlift"
+ ],
+ "next": [
+  "c7-d3",
+  "c7-d4",
+  "c7-d0"
+ ],
+ "picture": "Side-view pixel art of a snow-covered transit station beside the striped tent. On the far left, a tethered hot-air balloon basket sits open. Left of centre, the lanky boy stands in orange puffer vest and white scarf. In the centre idles a propeller trolley. On the right, an empty chairlift seat dangles low.",
+ "shown": [
+  "a tethered striped hot-air balloon basket waiting open on the left",
+  "a wheeled propeller trolley idling on tracks in the centre",
+  "an empty swinging hillside chairlift seat stopped on the right"
+ ],
+ "view": "wide"
+}

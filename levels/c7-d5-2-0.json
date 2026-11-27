@@ -1,0 +1,21 @@
+{
+ "id": "c7-d5-2-0",
+ "scene": "Turning the wheel chimes hidden bells, opening three departing transport gates.",
+ "options": [
+  "Board sleigh tram",
+  "Board glass boat",
+  "Board balloon basket"
+ ],
+ "next": [
+  "c7-d1",
+  "c7-d2",
+  "c7-d3"
+ ],
+ "picture": "Side-view pixel art of three transport stations along the pond edge. On the left, a brass sleigh tram idles on rails. In the centre-left stands the boy in his orange puffer vest and kite. In the centre, a glass-bottomed boat rests at a dock. On the right, a colourful hot-air balloon floats, tied down.",
+ "shown": [
+  "a brass sleigh tram waiting on silver rails on the left",
+  "a glass-bottomed paddle boat docked at an ice pier in the centre",
+  "a striped hot-air balloon moored beside wooden steps on the right"
+ ],
+ "view": "wide"
+}

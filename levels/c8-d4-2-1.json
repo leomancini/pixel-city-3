@@ -1,0 +1,21 @@
+{
+ "id": "c8-d4-2-1",
+ "scene": "You climb to Teapot Tower's windy sky deck, overlooking three waiting transports.",
+ "options": [
+  "Board hover bus",
+  "Ride gondola drone",
+  "Take hover carriage"
+ ],
+ "next": [
+  "c8-d2",
+  "c8-d3",
+  "c8-d5"
+ ],
+ "picture": "A flat side-view pixel sky deck high above the city. On the far left, the red double-decker hover bus hovers. Left of centre, grandmother in her pink tracksuit holds her white dog's lead. In the centre, the wicker gondola drone gently bobs. On the right, the polished brass hover carriage waits.",
+ "shown": [
+  "A red double-decker hover bus idling at the loading platform on the left",
+  "A wicker gondola slung beneath a glowing mechanical drone in the centre",
+  "An ornate brass hover carriage with open passenger doors on the right"
+ ],
+ "view": "wide"
+}

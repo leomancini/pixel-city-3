@@ -1,0 +1,21 @@
+{
+ "id": "c7-d5-1",
+ "scene": "The robot penguins tap shiny tin flutes and drop an engraved brass token.",
+ "options": [
+  "Take shiny token",
+  "Climb ice dais",
+  "Follow candy tracks"
+ ],
+ "next": [
+  "c7-d5-1-0",
+  "c7-d5-1-1",
+  "c7-d5-1-2"
+ ],
+ "picture": "Side-view pixel art along the snowy pond ice. On the left, the boy in the orange vest, white scarf, and back kite looks at a gleaming brass token dropped on the ice. In the centre, three brass-geared robot penguins play tin flutes atop an ice dais. On the right, sled tracks lead to a festive striped tent.",
+ "shown": [
+  "a gleaming brass token lying on the ice near the player's boots",
+  "the tiered ice performance dais standing directly in the centre",
+  "striped sled tracks leading away toward a candy-striped tent on the right"
+ ],
+ "view": "wide"
+}

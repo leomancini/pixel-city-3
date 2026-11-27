@@ -1,0 +1,21 @@
+{
+ "id": "c7-d4-0-1",
+ "scene": "The unfolded map reveals transit routes charting three departing journeys across Pixel City.",
+ "options": [
+  "Board sleigh tram",
+  "Take glass boat",
+  "Ride hot balloon"
+ ],
+ "next": [
+  "c7-d1",
+  "c7-d2",
+  "c7-d3"
+ ],
+ "picture": "Flat side-view along the rooftop edge platform. On the far left, a snowy sleigh tram sits waiting by a wooden kiosk. In the centre, the lanky boy in his orange vest holds the open map beside a moored glass-bottomed canal boat. On the far right, a colourful striped hot-air balloon floats gently beside an anchor.",
+ "shown": [
+  "a frosty sleigh tram parked at a ticket kiosk on the far left",
+  "a sleek glass-bottomed canal boat moored at the pier in the centre",
+  "a striped hot-air balloon tethered to an iron ring on the far right"
+ ],
+ "view": "wide"
+}

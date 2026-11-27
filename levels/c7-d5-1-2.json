@@ -1,0 +1,21 @@
+{
+ "id": "c7-d5-1-2",
+ "scene": "The candy tracks end at a bustling transit dock across the frozen pond.",
+ "options": [
+  "Ride hillside chairlift",
+  "Board sleigh tram",
+  "Board glass boat"
+ ],
+ "next": [
+  "c7-d0",
+  "c7-d1",
+  "c7-d2"
+ ],
+ "picture": "Side-view pixel art of an icy transit terminal on a snowy ground line. On the far left, a hillside chairlift dangles ready at a wooden ramp. To the left, the boy in an orange vest, white scarf, and back kite stands facing forward. In the centre sits a crimson sleigh tram. On the far right, a glass-bottomed boat floats in thawed water.",
+ "shown": [
+  "a dangling two-seat chairlift swinging gently at an open station on the far left",
+  "a crimson runnered sleigh tram idling on gleaming rails in the centre",
+  "a glass-bottomed motorboat moored along a wooden slipway on the far right"
+ ],
+ "view": "wide"
+}

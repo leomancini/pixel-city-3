@@ -1,0 +1,21 @@
+{
+ "id": "c7-d5-1-0",
+ "scene": "The gleaming token opens turnstiles leading outward to three grand new rides.",
+ "options": [
+  "Board striped balloon",
+  "Catch propeller trolley",
+  "Ride hillside chairlift"
+ ],
+ "next": [
+  "c7-d3",
+  "c7-d4",
+  "c7-d0"
+ ],
+ "picture": "Pixel art along a snowy fair boundary line. On the left stands the boy in an orange puffer vest holding his shiny token. At far left rests a tethered hot-air balloon. In the centre, a propeller-driven wooden trolley idles on frosted rails. On the far right, a hillside chairlift dangles ready for boarding.",
+ "shown": [
+  "A tethered yellow-and-red hot-air balloon basket resting at the far left gate",
+  "A wooden trolley with a whirling brass propeller waiting on tracks at centre",
+  "A swaying two-seat metal ski chairlift dangling from an icy pylon at far right"
+ ],
+ "view": "wide"
+}

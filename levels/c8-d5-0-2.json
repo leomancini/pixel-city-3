@@ -1,0 +1,21 @@
+{
+ "id": "c8-d5-0-2",
+ "scene": "You tumble through the swirling portal into Pixel City's grand transit terminal.",
+ "options": [
+  "Ride hover bus",
+  "Board gondola drone",
+  "Catch spiral tram"
+ ],
+ "next": [
+  "c8-d2",
+  "c8-d3",
+  "c8-d4"
+ ],
+ "picture": "Flat side view. Along a metallic platform, the grandmother in pink tracksuit stands on the left, holding her white dog's lead. On the far left sits a red double-decker hover bus. In the centre floats a tethered drone gondola with striped awnings. On the far right waits a brass spiral tram on corkscrew tracks.",
+ "shown": [
+  "a bright red double-decker hover bus idling at the far left bay",
+  "a striped gondola hanging beneath a buzzing drone tethered in the centre",
+  "a sleek spiral tram resting on coiled rails on the far right"
+ ],
+ "view": "wide"
+}

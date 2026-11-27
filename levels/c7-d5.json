@@ -1,0 +1,21 @@
+{
+ "id": "c7-d5",
+ "scene": "You step off the ice sled directly into the festive frozen pond fair.",
+ "options": [
+  "Visit chestnut cart",
+  "Watch penguin band",
+  "Inspect ice fish"
+ ],
+ "next": [
+  "c7-d5-0",
+  "c7-d5-1",
+  "c7-d5-2"
+ ],
+ "picture": "Side-view pixel art along a frozen pond. On the far left sits a steaming chestnut cart. Left of centre, the player stands beside his parked wooden ice sled, wearing his orange vest and kite. In the centre, three robot penguins perform on an ice dais. On the right rises a glowing carved ice fish.",
+ "shown": [
+  "a steaming brass chestnut cart with red wheels on the far left",
+  "three clockwork robot penguins playing brass trumpets in the centre",
+  "a giant glowing ice sculpture of an anglerfish on the right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c7-d5-2",
+ "scene": "Inside the giant carved ice fish, a tiny brass wheel ticks softly.",
+ "options": [
+  "Turn brass wheel",
+  "Peep into mouth",
+  "Walk to tent"
+ ],
+ "next": [
+  "c7-d5-2-0",
+  "c7-d5-2-1",
+  "c7-d5-2-2"
+ ],
+ "picture": "Side-view pixel art along the snowy pond bank. On the left stands the lanky boy in his orange puffer vest and white scarf, peering closely. In the centre, the translucent carved ice fish sculpture reveals an embedded brass wheel. On the right, the open-mouthed fish head gleams, while further right stands a striped warming tent.",
+ "shown": [
+  "A tiny brass wheel set in the centre of the ice fish belly.",
+  "The wide open fish mouth carved on the right side of the sculpture.",
+  "A striped warming tent glowing with yellow lantern light on the far right."
+ ],
+ "view": "wide"
+}

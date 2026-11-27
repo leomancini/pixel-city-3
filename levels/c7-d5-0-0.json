@@ -1,0 +1,21 @@
+{
+ "id": "c7-d5-0-0",
+ "scene": "A warm chestnut fuels your spirit before three grand transport stations.",
+ "options": [
+  "Ride hillside chairlift",
+  "Board sleigh tram",
+  "Take glass boat"
+ ],
+ "next": [
+  "c7-d0",
+  "c7-d1",
+  "c7-d2"
+ ],
+ "picture": "A snowy transport terminal beside the pond. On the far left, a hillside chairlift platform holds swinging empty chairs. Left of centre stands the boy in orange puffer vest, holding an empty paper cone. At centre idles a red sleigh tram on ice tracks. On the far right, a glass-bottomed boat is tied to a dock.",
+ "shown": [
+  "a dangling metal chairlift station with swinging yellow chairs on the far left",
+  "a long red sleigh tram idling on polished ice tracks at centre",
+  "a moored glass-bottomed motorboat floating at a snowy wooden pier on the far right"
+ ],
+ "view": "wide"
+}

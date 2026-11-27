@@ -1,0 +1,21 @@
+{
+ "id": "c8-d4-0-1",
+ "scene": "The lift shoots upward, opening onto the windy rooftop flight deck.",
+ "options": [
+  "Ride flying scooter",
+  "Board hover bus",
+  "Hail gondola drone"
+ ],
+ "next": [
+  "c8-d1",
+  "c8-d2",
+  "c8-d3"
+ ],
+ "picture": "A flat side view of the tower rooftop flight deck. On the far left sits a yellow flying scooter. Left of centre stands the grandmother in pink with her dog. In the centre waits a double-decker hover bus. On the far right hovers a wicker gondola drone tethered to a brass bollard.",
+ "shown": [
+  "a sleek yellow flying scooter parked on a launch pad on the far left",
+  "a blue double-decker hover bus with open doors in the centre",
+  "a floating wicker gondola drone hovering quietly on the far right"
+ ],
+ "view": "wide"
+}

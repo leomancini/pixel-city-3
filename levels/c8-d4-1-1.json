@@ -1,0 +1,21 @@
+{
+ "id": "c8-d4-1-1",
+ "scene": "The steaming brew fills you with energy, unlocking three tower exit docks.",
+ "options": [
+  "Take hover carriage",
+  "Board hover metro",
+  "Ride flying scooter"
+ ],
+ "next": [
+  "c8-d5",
+  "c8-d0",
+  "c8-d1"
+ ],
+ "picture": "A flat side-view pixel sky-dock atop the tower. On the left, a gilded hover carriage floats beside a passenger gate. In the centre, the grandmother stands sipping an empty teacup with her white dog beside an open hover metro door. On the right, a yellow flying scooter idles on an angled metal ramp.",
+ "shown": [
+  "an ornate gilded hover carriage parked at an open dock on the left",
+  "a sleek hover metro train waiting at the centre gate with doors open",
+  "a bright yellow flying scooter parked beside a launch ramp on the right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c7-d5-0-1",
+ "scene": "The painted board lists whimsical transports departing across the frozen fairground.",
+ "options": [
+  "Board sleigh tram",
+  "Board glass boat",
+  "Board hot-air balloon"
+ ],
+ "next": [
+  "c7-d1",
+  "c7-d2",
+  "c7-d3"
+ ],
+ "picture": "Side-view pixel art of a bustling fairground depot. On the far left stands the boy in his orange vest and kite, holding chestnuts. Left, a brass sleigh tram idles on rails. At centre, a glass-bottomed boat bobs at a pier. Right, a striped hot-air balloon basket waits tethered. Far right stands a station lamp.",
+ "shown": [
+  "a brass sleigh tram idling at a snowy platform on the left",
+  "a glass-bottomed canal boat tethered to an icy pier at centre",
+  "a striped hot-air balloon basket tethered to a post on the right"
+ ],
+ "view": "wide"
+}

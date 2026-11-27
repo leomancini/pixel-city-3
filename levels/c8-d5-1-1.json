@@ -1,0 +1,21 @@
+{
+ "id": "c8-d5-1-1",
+ "scene": "The gardener's chest pops open, beaming a glowing transit map.",
+ "options": [
+  "Ride spiral tram",
+  "Board hover metro",
+  "Mount flying scooter"
+ ],
+ "next": [
+  "c8-d4",
+  "c8-d0",
+  "c8-d1"
+ ],
+ "picture": "Flat side view. On the far left, a tiny red spiral tram sits on corkscrew rails. Left of centre, the grandmother in pink tracksuit and white dog stand beside the open-chested brass gardener. Centre, a sleek hover metro floats above a low platform. On the right, a yellow twin-engine flying scooter rests on the lawn.",
+ "shown": [
+  "a winding corkscrew rail track and small red tram on the far left",
+  "a sleek floating silver carriage waiting at a raised platform in the centre",
+  "a bright yellow jet scooter resting on kickstands on the right"
+ ],
+ "view": "wide"
+}

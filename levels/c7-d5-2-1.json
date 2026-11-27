@@ -1,0 +1,21 @@
+{
+ "id": "c7-d5-2-1",
+ "scene": "Peering into the icy jaws reveals three departing routes beyond the shore.",
+ "options": [
+  "Board glass boat",
+  "Ride hot-air balloon",
+  "Climb propeller trolley"
+ ],
+ "next": [
+  "c7-d2",
+  "c7-d3",
+  "c7-d4"
+ ],
+ "picture": "Side-view pixel art along the snowy pond shore. On the far left, a glass-bottomed boat idles by a wooden jetty. Towards the left stands the boy in his orange vest and kite. In the centre, a tethered hot-air balloon basket rests on snow. On the far right, a yellow propeller trolley waits on tracks.",
+ "shown": [
+  "a glass-bottomed boat bobbing in open water at the far left jetty",
+  "a tethered hot-air balloon floating up high above a central wicker basket",
+  "a wheeled propeller trolley idling along a wooden track on the far right"
+ ],
+ "view": "wide"
+}

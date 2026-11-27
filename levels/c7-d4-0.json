@@ -1,0 +1,21 @@
+{
+ "id": "c7-d4-0",
+ "scene": "You peer closely at the giant paper glider's strange folding seams.",
+ "options": [
+  "Climb inside cockpit",
+  "Unfurl wing map",
+  "Turn launch crank"
+ ],
+ "next": [
+  "c7-d4-0-0",
+  "c7-d4-0-1",
+  "c7-d4-0-2"
+ ],
+ "picture": "Flat side-view along a level rooftop edge. At far left, the giant paper glider rests on wooden struts, showing an open cockpit. The player in his orange puffer vest, white scarf, and kite stands examining the centre wing. On the right, a rusty mechanical winding crank rises from the roof floor.",
+ "shown": [
+  "a hollow folded paper cockpit sitting open on the glider at far left",
+  "an ink-drawn aerial map stamped across the wide paper wing at centre",
+  "a rusty metal winding crank sticking out from the ground on the right"
+ ],
+ "view": "wide"
+}
