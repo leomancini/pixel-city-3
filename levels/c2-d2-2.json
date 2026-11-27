@@ -1,0 +1,20 @@
+{
+ "id": "c2-d2-2",
+ "scene": "The dispenser rattles, dropping a glowing blue kelp wafer.",
+ "options": [
+  "Take the wafer",
+  "Enter submerged archway",
+  "Call elevator"
+ ],
+ "next": [
+  "c2-d2-2-0",
+  "c2-d2-2-1",
+  "c2-d2-2-2"
+ ],
+ "picture": "A flat side view of the aquarium hall. Far left stands a closed glass elevator. Left, the yellow food dispenser holds a glowing blue wafer in its tray. Centre, the player in her purple wheelchair reaches toward it. Right, swimming fish fill a tall wall tank beside an open glass archway on the far right.",
+ "shown": [
+  "a glowing blue kelp wafer resting in the yellow dispenser tray on the left",
+  "a water-filled glass archway leading into darkness on the far right",
+  "a glass elevator with closed glowing doors waiting on the far left"
+ ]
+}

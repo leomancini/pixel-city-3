@@ -1,0 +1,20 @@
+{
+ "id": "c1-d3-2-2",
+ "scene": "Pushing through the beads, you reach the transit terrace.",
+ "options": [
+  "Board Arcade monorail",
+  "Ride funicular car",
+  "Take water taxi"
+ ],
+ "next": [
+  "c1-d1",
+  "c1-d2",
+  "c1-d0"
+ ],
+ "picture": "Flat pixel-art side view along a concrete transit terrace. On the far left, a red funicular railway car sits on angled tracks. Next to it stands the elderly East Asian man in his blue flat cap and orange cardigan holding his cane. Up high above, a monorail car waits at a gantry. On the right, a yellow water taxi bobs at a dock.",
+ "shown": [
+  "a sleek suspended monorail car waiting up high above a gangway",
+  "a slanted red funicular railway car stopped on tracks on the far left",
+  "a yellow water taxi boat tied to a dock on the right"
+ ]
+}

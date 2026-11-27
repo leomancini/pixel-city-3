@@ -1,0 +1,20 @@
+{
+ "id": "c2-d2-0",
+ "scene": "The octopus taps back, sliding a damp brass key across.",
+ "options": [
+  "Take the key",
+  "Turn aquarium valve",
+  "Enter sunken tunnel"
+ ],
+ "next": [
+  "c2-d2-0-0",
+  "c2-d2-0-1",
+  "c2-d2-0-2"
+ ],
+ "picture": "A flat side view along wet blue tile. Far left, a huge purple octopus presses against its tank glass. Left, a damp brass key sits on the floor. Centre, the player in her purple wheelchair pauses near a red pipe valve. Right, floating kelp fills a tall column. Far right, an open flooded archway awaits.",
+ "shown": [
+  "A shiny brass key lying on the blue floor tile on the left",
+  "A red mechanical wheel valve fixed to a pipe in the centre",
+  "A dark tiled archway flooded with ankle-deep water at the far right"
+ ]
+}

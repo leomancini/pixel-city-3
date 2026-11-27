@@ -1,0 +1,20 @@
+{
+ "id": "c2-d3-2-1",
+ "scene": "The warm caramel is delicious! Three exits now beckon.",
+ "options": [
+  "Board Sky Airship",
+  "Catch delivery truck",
+  "Ride glass elevator"
+ ],
+ "next": [
+  "c2-d0",
+  "c2-d1",
+  "c2-d2"
+ ],
+ "picture": "Flat side view. In the refinery, the South Asian girl in her purple wheelchair sits left of centre, licking a caramel spoon. On the far left, an open hangar door reveals a tethered brass airship. Right, a yellow striped delivery truck idles. On the far right stands the glowing glass elevator.",
+ "shown": [
+  "a tethered brass airship waiting outside an open hangar door on the far left",
+  "a striped candy delivery truck idling at a loading bay on the right",
+  "the illuminated glass sugar elevator waiting with open doors on the far right"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "id": "c1-d0-2-1",
+ "scene": "The cat purrs musical chimes and reveals three travel tickets.",
+ "options": [
+  "Ride monorail",
+  "Board funicular",
+  "Take rickshaw"
+ ],
+ "next": [
+  "c1-d1",
+  "c1-d2",
+  "c1-d3"
+ ],
+ "picture": "A flat side view along a lively transit terminal. On the far left rests a red funicular railway car. Up high runs a concrete beam carrying a sleek yellow monorail car. Left of centre, the elderly man pats the silver cat atop its crate. On the far right stands a driverless green rickshaw.",
+ "shown": [
+  "a sleek yellow monorail door waits open on an elevated track up high",
+  "a red funicular car sits ready at its slanted rail stop on the far left",
+  "a green automated rickshaw stands waiting with its passenger seat empty on the far right"
+ ]
+}

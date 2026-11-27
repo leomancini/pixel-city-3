@@ -1,0 +1,20 @@
+{
+ "id": "c2-d1-0-0",
+ "scene": "The droid's key unlocks transit portals across the yard!",
+ "options": [
+  "Board Sky Airship",
+  "Take Glass Elevator",
+  "Board Steam Train"
+ ],
+ "next": [
+  "c2-d0",
+  "c2-d2",
+  "c2-d3"
+ ],
+ "picture": "Flat side-view yard. Far left, a brass airship gondola floats with an open hatch ladder lowered. Left, the girl in teal hoodie and purple wheelchair clutches a brass key beside the cheerful yellow droid. Centre, a transparent cylindrical glass elevator stands with glowing doors open. Far right, a pink steam train sits ready.",
+ "shown": [
+  "A moored brass airship ladder hangs waiting on the far left.",
+  "A transparent glass elevator shaft sits with open doors in the centre.",
+  "A puffing pink steam train engine stands waiting on the far right."
+ ]
+}

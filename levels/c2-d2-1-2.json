@@ -1,0 +1,20 @@
+{
+ "id": "c2-d2-1-2",
+ "scene": "The arch leads outside to a multi-depot transit hub!",
+ "options": [
+  "Board the airship",
+  "Climb delivery truck",
+  "Take steam train"
+ ],
+ "next": [
+  "c2-d0",
+  "c2-d1",
+  "c2-d3"
+ ],
+ "picture": "A flat side view along a concrete depot platform. Far left, a moored brass airship with an extended ramp waits to launch. Left, the girl sits in her purple wheelchair. Centre, a yellow delivery truck with open doors idles on the platform. Right, a colourful steam train puffs pink smoke along tracks.",
+ "shown": [
+  "A moored brass airship with an open gangplank waits far left.",
+  "An idling yellow delivery truck with open rear doors sits centre.",
+  "A striped steam train puffing sweet pink smoke stands right."
+ ]
+}

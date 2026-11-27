@@ -1,0 +1,20 @@
+{
+ "id": "c1-d3-1-1",
+ "scene": "Key pocketed, you reach Grand Junction Station.",
+ "options": [
+  "Ride hill funicular",
+  "Board water taxi",
+  "Catch alley monorail"
+ ],
+ "next": [
+  "c1-d2",
+  "c1-d0",
+  "c1-d1"
+ ],
+ "picture": "Flat pixel-art side view along a wide transit concourse. On the far left sits a glass funicular car. Left of centre, a striped water taxi floats by a wooden post. In the centre, the elderly man in blue cap and orange cardigan holds his brass key. On the far right waits an open monorail carriage.",
+ "shown": [
+  "a steep glass funicular car resting on tracks on the far left",
+  "a bobbing striped water taxi moored to a dock post on the left",
+  "a sleek red monorail carriage with open doors on the far right"
+ ]
+}

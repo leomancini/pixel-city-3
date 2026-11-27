@@ -1,0 +1,20 @@
+{
+ "id": "c2-d0-1-0",
+ "scene": "Your new pass unlocks transit gates across the breezy dock.",
+ "options": [
+  "Take glass elevator",
+  "Board steam train",
+  "Ride delivery truck"
+ ],
+ "next": [
+  "c2-d2",
+  "c2-d3",
+  "c2-d1"
+ ],
+ "picture": "Pixel art flat side view of Sky Dock. On the far left, a glass elevator capsule waits open. Left of centre sits the girl in her purple wheelchair holding her pass. At centre, a puffing steam locomotive sits boarded at a gate. On the far right, a yellow delivery truck idles with its door open.",
+ "shown": [
+  "a transparent glass elevator capsule with sliding doors open on the far left",
+  "a brass-striped steam locomotive idling puffing smoke at the centre gate",
+  "a yellow boxy delivery truck with an open passenger door on the far right"
+ ]
+}

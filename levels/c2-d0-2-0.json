@@ -1,0 +1,20 @@
+{
+ "id": "c2-d0-2-0",
+ "scene": "The flowers sneeze glitter, revealing a bustling transit depot.",
+ "options": [
+  "Take steam train",
+  "Climb delivery truck",
+  "Ride glass elevator"
+ ],
+ "next": [
+  "c2-d3",
+  "c2-d1",
+  "c2-d2"
+ ],
+ "picture": "Pixel art flat side view of a rooftop transit hub. On the far left, a candy-striped steam train sits on tracks. In the centre, the South Asian girl in her teal hoodie and purple wheelchair is dusted with sparkling pollen. To her right idles a yellow delivery truck. A glowing glass elevator waits far right.",
+ "shown": [
+  "a candy-striped steam train puffing sweet vapor on the far left",
+  "a yellow robotic delivery truck idling with its back doors open on the right",
+  "a transparent elevator shaft glowing soft blue on the far right"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "id": "c1-d2-1-0",
+ "scene": "The glowing key activates transport gates across the hilltop.",
+ "options": [
+  "Ride the monorail",
+  "Hire the rickshaw",
+  "Board water taxi"
+ ],
+ "next": [
+  "c1-d1",
+  "c1-d3",
+  "c1-d0"
+ ],
+ "picture": "Flat side-scrolling view. On the far left sits a sleek red monorail car with doors open. Left of centre, the player in blue cap and orange cardigan holds the glowing key aloft. At centre waits an empty bicycle rickshaw. Far right, a striped wooden boat bobs at a stone dock along the hill's edge.",
+ "shown": [
+  "a sleek red monorail car idling at an open gate on the far left",
+  "a bicycle rickshaw with green cushions waiting unattended at the centre",
+  "a bobbing striped canal boat moored at a stone dock on the far right"
+ ]
+}

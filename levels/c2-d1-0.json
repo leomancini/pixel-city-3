@@ -1,0 +1,20 @@
+{
+ "id": "c2-d1-0",
+ "scene": "You catch a cog; the delighted droid beeps and rolls forward.",
+ "options": [
+  "Take shiny key",
+  "Climb conveyor belt",
+  "Ring service bell"
+ ],
+ "next": [
+  "c2-d1-0-0",
+  "c2-d1-0-1",
+  "c2-d1-0-2"
+ ],
+ "picture": "Flat side-view yard. Far left, the yellow delivery truck sits parked. Left, the round yellow droid happily holds out a brass key. Beside it, the South Asian girl in her teal hoodie and purple wheelchair holds a caught gear. Centre, a sloped rubber conveyor belt leads up. Far right, a desk bell sits on a pole.",
+ "shown": [
+  "a dangling brass key held out by the yellow droid on the left",
+  "a sloped rubber conveyor belt leading into a lit tunnel at the centre",
+  "a shiny metal desk bell mounted on a rusted pole on the far right"
+ ]
+}

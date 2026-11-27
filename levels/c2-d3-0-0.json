@@ -1,0 +1,20 @@
+{
+ "id": "c2-d3-0-0",
+ "scene": "The lever opens exit gates revealing three waiting transports.",
+ "options": [
+  "Fly to Sky Dock",
+  "Drive to Robot Yard",
+  "Take glass elevator"
+ ],
+ "next": [
+  "c2-d0",
+  "c2-d1",
+  "c2-d2"
+ ],
+ "picture": "Flat side view. On the left stands a yellow delivery truck by an open roll-up bay. The South Asian girl in her purple wheelchair sits left of centre near the lowered lever. Up high moors a striped airship basket at a balcony. On the far right waits a glowing glass elevator with open doors.",
+ "shown": [
+  "a striped airship basket moored at an open balcony up high",
+  "a yellow delivery truck parked idling at a garage door on the left",
+  "a glowing glass elevator with doors sliding open on the far right"
+ ]
+}

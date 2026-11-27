@@ -1,0 +1,20 @@
+{
+ "id": "c2-d0-2-2",
+ "scene": "The tram drops you at Sky Station transit plaza.",
+ "options": [
+  "Ride glass elevator",
+  "Board steam train",
+  "Climb delivery truck"
+ ],
+ "next": [
+  "c2-d2",
+  "c2-d3",
+  "c2-d1"
+ ],
+ "picture": "Pixel art flat side view of a bustling transit station floor. On the far left stands a transparent glass elevator shaft. To its right, the South Asian girl in her teal hoodie sits in her purple wheelchair. In the centre waits a red steam train. On the far right is a yellow delivery truck.",
+ "shown": [
+  "A tall glass elevator shaft with glowing water pipes on the far left.",
+  "A striped red steam train waiting puffed at a platform in the centre.",
+  "A yellow flatbed delivery truck parked with its ramp down on the far right."
+ ]
+}

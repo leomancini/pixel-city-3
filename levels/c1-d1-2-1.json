@@ -1,0 +1,20 @@
+{
+ "id": "c1-d1-2-1",
+ "scene": "The attendant happily hands you three travel transit passes.",
+ "options": [
+  "Take water taxi",
+  "Ride the funicular",
+  "Hail the rickshaw"
+ ],
+ "next": [
+  "c1-d0",
+  "c1-d2",
+  "c1-d3"
+ ],
+ "picture": "Inside the transit lobby on one level floor. The bearded player in blue cap and orange cardigan stands centre holding travel passes. On the far left, a blue water taxi floats by a canal dock. On the right, a glass funicular waits behind gates. On the far right, a red bicycle rickshaw sits parked.",
+ "shown": [
+  "a blue water taxi waiting at a dock door on the far left",
+  "a steep glass funicular tram waiting behind iron gates on the right",
+  "a parked red bicycle rickshaw waiting by an open exit on the far right"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "id": "c1-d2-0-2",
+ "scene": "The funicular drops you at Grand Transit Plaza.",
+ "options": [
+  "Take the rickshaw",
+  "Board water taxi",
+  "Ride the monorail"
+ ],
+ "next": [
+  "c1-d3",
+  "c1-d0",
+  "c1-d1"
+ ],
+ "picture": "Side-scrolling view of a bustling lower transit plaza. On the far left, a red-canopied rickshaw waits beside a friendly driver. The player in his blue flat cap and orange cardigan stands left of centre with his cane. In the centre, a water taxi floats tied to a low dock. Far right, an elevated monorail platform door stands open.",
+ "shown": [
+  "a wheeled rickshaw with a waiting puller on the far left",
+  "a turquoise water taxi tied to the stone canal dock centre",
+  "a gleaming monorail car waiting at an open platform far right"
+ ]
+}

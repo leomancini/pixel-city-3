@@ -1,0 +1,20 @@
+{
+ "id": "c1-d1-2-0",
+ "scene": "The machine jackpots, spitting transit passes onto the colourful arcade plaza.",
+ "options": [
+  "Ride the rickshaw",
+  "Board water taxi",
+  "Catch funicular railway"
+ ],
+ "next": [
+  "c1-d3",
+  "c1-d0",
+  "c1-d2"
+ ],
+ "picture": "Outside the arcade along a single level plaza floor. The player in his blue cap and orange cardigan stands centre holding glowing tickets with his wooden cane. On the far left, a red bicycle rickshaw waits. To the right, a striped water taxi floats by a dock. Up high on the far right sits a glass funicular car.",
+ "shown": [
+  "A red bicycle rickshaw parked waiting on the far left of the plaza",
+  "A striped water taxi moored at a wooden pier on the right",
+  "A steep glass funicular car resting on tracks up high at far right"
+ ]
+}

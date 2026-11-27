@@ -1,0 +1,20 @@
+{
+ "id": "c1-d2-0-1",
+ "scene": "The notebook maps three routes off the windy hilltop.",
+ "options": [
+  "Take the monorail",
+  "Hire the rickshaw",
+  "Hail water taxi"
+ ],
+ "next": [
+  "c1-d1",
+  "c1-d3",
+  "c1-d0"
+ ],
+ "picture": "Flat side-scrolling view along a stone hill terrace. On the far left, a bicycle rickshaw waits beside a lantern. Left of centre, the player in blue flat cap and orange cardigan stands holding a cane, reading the table notebook. Up high, a suspended monorail car hangs from a rail. Far right, a water taxi floats beside pier steps.",
+ "shown": [
+  "a sleek suspended monorail car on an overhead rail up high",
+  "a waiting bicycle rickshaw with a canopy parked on the far left",
+  "a striped water taxi moored to the stone pier on the far right"
+ ]
+}

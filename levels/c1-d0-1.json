@@ -1,0 +1,20 @@
+{
+ "id": "c1-d0-1",
+ "scene": "Inside the warm tea house, aromatic steam curls.",
+ "options": [
+  "Greet the brewer",
+  "Play board game",
+  "Take back stairs"
+ ],
+ "next": [
+  "c1-d0-1-0",
+  "c1-d0-1-1",
+  "c1-d0-1-2"
+ ],
+ "picture": "A flat side view inside a floating crimson tea house. On the far left, a robotic tea-brewer tends steaming copper kettles behind a counter. An elderly East Asian man in a blue flat cap, orange cardigan, holding a wooden cane stands left of centre. Centre sits a low table with a checkered board. A spiral staircase rises far right.",
+ "shown": [
+  "A robotic barista with steam pipes whistling at the tea counter on the far left.",
+  "A checkered board sitting untouched on a low wooden table in the centre.",
+  "A narrow wooden spiral staircase leading upward at the far right."
+ ]
+}

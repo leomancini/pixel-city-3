@@ -1,0 +1,20 @@
+{
+ "id": "c2-d1-1-1",
+ "scene": "Your pocketed wrench activates three departure gates ahead.",
+ "options": [
+  "Board steam train",
+  "Board the airship",
+  "Enter glass elevator"
+ ],
+ "next": [
+  "c2-d3",
+  "c2-d0",
+  "c2-d2"
+ ],
+ "picture": "A flat side view along a bustling transit depot edge. Far left, a striped steam train sits puffing pink smoke. Left, the girl in her purple wheelchair pockets the glowing blue tool. Up high, a brass airship floats anchored to a pylon. Far right, an illuminated glass cylindrical elevator waits open.",
+ "shown": [
+  "a striped steam train puffing sweet peppermint smoke at the far left platform",
+  "a brass airship tethered with ropes floating steadily up high",
+  "a transparent cylindrical elevator with glowing buttons waiting open at far right"
+ ]
+}

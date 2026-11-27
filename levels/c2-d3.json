@@ -1,0 +1,20 @@
+{
+ "id": "c2-d3",
+ "scene": "You arrive at Candy Foundry by steam train.",
+ "options": [
+  "Inspect taffy crane",
+  "Taste sugar furnace",
+  "Enter caramel refinery"
+ ],
+ "next": [
+  "c2-d3-0",
+  "c2-d3-1",
+  "c2-d3-2"
+ ],
+ "picture": "Flat side view. On the left sits the puffing brass steam train on tracks. Beside it, the South Asian girl in her teal hoodie sits in her purple wheelchair. A pink taffy crane pulls sweets on the far left. A glowing sugar furnace warms the centre, while a striped refinery door waits far right.",
+ "shown": [
+  "a mechanical taffy puller stretching pink candy on the far left",
+  "a glowing brick sugar furnace with open iron grate at the centre",
+  "a striped doorway leading into the caramel refinery on the far right"
+ ]
+}

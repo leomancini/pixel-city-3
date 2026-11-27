@@ -1,0 +1,20 @@
+{
+ "id": "c1-d0-1-0",
+ "scene": "The brewer hands you transit tokens.",
+ "options": [
+  "Ride funicular railway",
+  "Take pedal rickshaw",
+  "Board overhead monorail"
+ ],
+ "next": [
+  "c1-d2",
+  "c1-d3",
+  "c1-d1"
+ ],
+ "picture": "A flat side view of a bustling canal interchange. On the far left, a brass funicular car waits with open doors. Left stands the elderly East Asian man in his blue cap and orange cardigan, holding his cane and transit tokens. Centre, a driver waits on a pedal rickshaw. Far right, a sleek monorail sits docked.",
+ "shown": [
+  "a brass funicular railway car with open sliding doors on the far left",
+  "a striped pedal rickshaw waiting with its driver seated at the centre",
+  "a sleek red monorail coach docked at a platform on the far right"
+ ]
+}

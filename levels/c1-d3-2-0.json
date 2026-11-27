@@ -1,0 +1,20 @@
+{
+ "id": "c1-d3-2-0",
+ "scene": "The artisan hands you travel tokens as thanks.",
+ "options": [
+  "Ride hill funicular",
+  "Take water taxi",
+  "Board alley monorail"
+ ],
+ "next": [
+  "c1-d2",
+  "c1-d0",
+  "c1-d1"
+ ],
+ "picture": "Flat pixel-art side view on an open riverside transit concourse. On the far left sits a red funicular railway car with open doors. In the centre, the bearded elderly player in blue cap and orange cardigan holds his cane and gleaming tokens. To the right, a wooden water taxi idles. On the far right, a neon monorail awaits passengers.",
+ "shown": [
+  "a steep red funicular railway car waiting on the far left",
+  "a striped canal water taxi idling at a pier on the right",
+  "a sleek neon monorail car stopped at a platform on the far right"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "id": "c2-d3-0",
+ "scene": "The clacking crane drops sticky taffy near you.",
+ "options": [
+  "Pull glowing lever",
+  "Scoop warm taffy",
+  "Ride conveyor belt"
+ ],
+ "next": [
+  "c2-d3-0-0",
+  "c2-d3-0-1",
+  "c2-d3-0-2"
+ ],
+ "picture": "Flat side view. On the far left, a blinking yellow control lever is set into the pink taffy crane base. The South Asian girl in her teal hoodie sits in her purple wheelchair left of centre. In the centre hangs a dripping lump of pink taffy. A rubber conveyor belt leads far right.",
+ "shown": [
+  "a blinking yellow control lever mounted on the crane base on the far left",
+  "a dripping lump of pink taffy dangling from the crane claw at the centre",
+  "a moving rubber conveyor belt rolling into a tunnel on the far right"
+ ]
+}

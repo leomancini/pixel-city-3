@@ -1,0 +1,20 @@
+{
+ "id": "c1-d1-2-2",
+ "scene": "Upstairs, the open-air rooftop station offers three routes away.",
+ "options": [
+  "Take the funicular",
+  "Hire the rickshaw",
+  "Board water taxi"
+ ],
+ "next": [
+  "c1-d2",
+  "c1-d3",
+  "c1-d0"
+ ],
+ "picture": "Along the rooftop dock, the elderly bearded player in his blue cap and orange cardigan leans on his cane facing forward. On the left waits a red funicular carriage on sloped tracks. In the centre, a robotic frog sits atop a yellow rickshaw. On the right, a blue striped water taxi floats beside the deck.",
+ "shown": [
+  "a red cable funicular car waiting with open door on the left",
+  "a mechanical frog seated on a yellow cycle rickshaw at the centre",
+  "a striped canal boat tied to a mooring ring on the right"
+ ]
+}

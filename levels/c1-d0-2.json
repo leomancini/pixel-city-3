@@ -1,0 +1,20 @@
+{
+ "id": "c1-d0-2",
+ "scene": "Across the bridge, a bustling alley offers strange sights.",
+ "options": [
+  "Inspect vending machine",
+  "Pet robotic cat",
+  "Enter antique shop"
+ ],
+ "next": [
+  "c1-d0-2-0",
+  "c1-d0-2-1",
+  "c1-d0-2-2"
+ ],
+ "picture": "A flat side view of a brick alleyway. On the far left hums a turquoise vending machine. An elderly East Asian man in a blue flat cap and orange cardigan leans on his wooden cane left of centre. Centre, a robotic silver cat sits upon a wooden crate. A narrow doorway beckons far right.",
+ "shown": [
+  "a glowing turquoise vending machine dispensing mystery eggs on the far left",
+  "a silver mechanical cat sitting politely on a wooden crate centre",
+  "a narrow wooden doorway under a lantern on the far right"
+ ]
+}

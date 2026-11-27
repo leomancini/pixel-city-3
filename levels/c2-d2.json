@@ -1,0 +1,20 @@
+{
+ "id": "c2-d2",
+ "scene": "You roll into Glass Aquarium Hall. Giant glowing tanks hum.",
+ "options": [
+  "Wake the octopus",
+  "Touch jellyfish tank",
+  "Press dispenser button"
+ ],
+ "next": [
+  "c2-d2-0",
+  "c2-d2-1",
+  "c2-d2-2"
+ ],
+ "picture": "A flat side view of a tiled hall. Far left, an open glass elevator sits with illuminated doors. Left, a sleepy octopus naps in a wide tank. Centre, the player sits in her purple wheelchair beside a glowing jellyfish cylinder. Right, a yellow food dispenser stands beside a submerged archway leading far right.",
+ "shown": [
+  "a huge sleepy octopus curled inside a glass tank on the left",
+  "a glowing cylinder filled with pink jellyfish in the centre",
+  "a bright yellow fish food dispenser standing on the right"
+ ]
+}

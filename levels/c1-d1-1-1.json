@@ -1,0 +1,20 @@
+{
+ "id": "c1-d1-1-1",
+ "scene": "The comics reveal transit maps across town.",
+ "options": [
+  "Hail the rickshaw",
+  "Board water taxi",
+  "Take the funicular"
+ ],
+ "next": [
+  "c1-d3",
+  "c1-d0",
+  "c1-d2"
+ ],
+ "picture": "Flat pixel side view. On the far left waits a red pedicab rickshaw. Centre-left, the elderly player in flat cap and orange cardigan holds his cane, examining an open city comic map. To his right, an arched gate reveals a docked yellow water taxi. On the far right, an angled funicular car rests on steep tracks.",
+ "shown": [
+  "a wheeled rickshaw waiting by a sign on the far left",
+  "a yellow water taxi docked at a canal gate on the right",
+  "a glass funicular car on rails waiting on the far right"
+ ]
+}

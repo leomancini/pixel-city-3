@@ -1,0 +1,20 @@
+{
+ "id": "c1-d3-1",
+ "scene": "The pulled goldfish kite drops a shiny brass key!",
+ "options": [
+  "Unlock alley gate",
+  "Take brass key",
+  "Board street trolley"
+ ],
+ "next": [
+  "c1-d3-1-0",
+  "c1-d3-1-1",
+  "c1-d3-1-2"
+ ],
+ "picture": "Flat pixel-art side view along the brick street. On the far left stands a padlocked iron alley gate. In the centre, the bearded elderly man in blue flat cap and orange cardigan leans on his wooden cane, looking at a small brass key lying on the ground. On the far right waits a bright yellow trolley with open doors.",
+ "shown": [
+  "A rusted iron alley gate on the far left, secured with heavy chains.",
+  "A glinting brass key resting on the stone pavement at the centre.",
+  "A bright yellow trolley stopped on rails along the far right side."
+ ]
+}

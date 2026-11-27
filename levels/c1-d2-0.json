@@ -1,0 +1,20 @@
+{
+ "id": "c1-d2-0",
+ "scene": "The telescope reveals a glowing zeppelin hovering near rooftops.",
+ "options": [
+  "Adjust brass focus",
+  "Check astronomer notebook",
+  "Board descending funicular"
+ ],
+ "next": [
+  "c1-d2-0-0",
+  "c1-d2-0-1",
+  "c1-d2-0-2"
+ ],
+ "picture": "Flat side-scrolling view. A yellow funicular railway car waits with open doors on the far left. To the left, a sleeping astronomer rests beside an open star notebook on a wooden table. The elderly East Asian player stands right of centre, peering up high into the eyepiece and brass focus wheel of a mounted telescope.",
+ "shown": [
+  "A notched brass focus wheel attached to the telescope eyepiece up high",
+  "An open leather-bound star notebook resting on the wooden table left",
+  "A yellow funicular railway car waiting with doors open on the far left"
+ ]
+}

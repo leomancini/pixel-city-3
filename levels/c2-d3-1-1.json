@@ -1,0 +1,20 @@
+{
+ "id": "c2-d3-1-1",
+ "scene": "The pulled lever opens three exit bays!",
+ "options": [
+  "Take glass elevator",
+  "Board the airship",
+  "Climb delivery truck"
+ ],
+ "next": [
+  "c2-d2",
+  "c2-d0",
+  "c2-d1"
+ ],
+ "picture": "Flat side view. In the centre, the South Asian girl in her purple wheelchair and teal hoodie watches walls slide open beside the copper lever. On the far left sits an open glass elevator. Up high hangs a moored brass airship. On the far right waits a bright yellow delivery truck.",
+ "shown": [
+  "A transparent glass elevator waiting open at the station on the far left",
+  "A moored miniature brass airship tethered to a platform up high",
+  "A yellow candy delivery truck parked with its cabin open on the far right"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "id": "c1-d2-2-2",
+ "scene": "The orrery reveals a secret transit balcony.",
+ "options": [
+  "Take the monorail",
+  "Hire the rickshaw",
+  "Board water taxi"
+ ],
+ "next": [
+  "c1-d1",
+  "c1-d3",
+  "c1-d0"
+ ],
+ "picture": "Flat side-scrolling view of a cliffside transit balcony. On the far left, a silver monorail car waits with doors open. To the left, a red pedal rickshaw sits empty. The elderly East Asian player in blue cap and orange cardigan stands centre with his cane. On the right, a blue water taxi floats.",
+ "shown": [
+  "a sleek suspended monorail car idling at an open gate far left",
+  "a red pedal rickshaw waiting quietly beside the player on the left",
+  "a blue canal water taxi moored at a dock on the right"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "id": "c2-d0-1",
+ "scene": "The vendor smiles, offering an aerial tram pass and glowing maps.",
+ "options": [
+  "Take tram pass",
+  "Study neon map",
+  "Enter red gondola"
+ ],
+ "next": [
+  "c2-d0-1-0",
+  "c2-d0-1-1",
+  "c2-d0-1-2"
+ ],
+ "picture": "Pixel art side view on a sky platform. On the left stands a glowing neon city map kiosk. Left of centre sits the girl in her purple wheelchair and teal hoodie. At centre, a friendly robot vendor holds out a shiny holographic pass. On the far right waits an open red aerial tram gondola.",
+ "shown": [
+  "a shiny holographic pass held out by the vendor at centre",
+  "a brightly glowing pixelated city map kiosk standing on the left",
+  "an empty red aerial tram car waiting open on the far right"
+ ]
+}

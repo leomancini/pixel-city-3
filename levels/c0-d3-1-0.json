@@ -1,6 +1,6 @@
 {
  "id": "c0-d3-1-0",
- "scene": "The glowing cog unlocks the transit hub outside. Which trip to take?",
+ "scene": "The glowing cog unlocks the transit hub outside.",
  "options": [
   "Ride cable car",
   "Board subway train",

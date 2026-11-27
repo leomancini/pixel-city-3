@@ -1,0 +1,20 @@
+{
+ "id": "c2-d0-0",
+ "scene": "The yellow crane hums beside an unlocked rusty toolbox.",
+ "options": [
+  "Open metal toolbox",
+  "Pull glowing lever",
+  "Greet ticket vendor"
+ ],
+ "next": [
+  "c2-d0-0-0",
+  "c2-d0-0-1",
+  "c2-d0-0-2"
+ ],
+ "picture": "Pixel art side view on a wooden platform. On the far left sits a rusty metal toolbox. Next to it on the left stands the yellow crane with a glowing green lever. In the centre, the South Asian girl in her purple wheelchair looks at the machine. A ticket vendor stands by a booth at the right.",
+ "shown": [
+  "A rusty metal toolbox sitting on the platform at the far left",
+  "A glowing green lever set into the yellow crane console on the left",
+  "A cheerful ticket vendor standing by a booth at the right"
+ ]
+}

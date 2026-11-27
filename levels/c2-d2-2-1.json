@@ -1,0 +1,20 @@
+{
+ "id": "c2-d2-2-1",
+ "scene": "The tunnel opens onto a bustling multi-transit terminal dock.",
+ "options": [
+  "Board the airship",
+  "Ride delivery truck",
+  "Board steam train"
+ ],
+ "next": [
+  "c2-d0",
+  "c2-d1",
+  "c2-d3"
+ ],
+ "picture": "A flat side view along a wide transit deck. Far left is the archway exit. Left waits a moored brass airship. Centre sits the South Asian girl in her purple wheelchair and teal hoodie. Right stands an idling orange delivery truck. Far right rests a candy-striped steam train puffing vapour on tracks.",
+ "shown": [
+  "a tethered brass airship waiting with open hatch on the left",
+  "a square orange delivery truck parked idling on the right",
+  "a striped steam train puffing sweet vapour on the far right"
+ ]
+}

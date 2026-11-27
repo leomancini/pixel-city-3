@@ -1,0 +1,20 @@
+{
+ "id": "c2-d1-1-2",
+ "scene": "Beyond the rusted doorway lies Transit Hub.",
+ "options": [
+  "Board Sky Airship",
+  "Enter Glass Elevator",
+  "Catch Steam Train"
+ ],
+ "next": [
+  "c2-d0",
+  "c2-d2",
+  "c2-d3"
+ ],
+ "picture": "Flat side-view Transit Hub. Far left, the rusted doorway stands open. Left, a brass airship is tethered with its gangway down. Centre, the South Asian girl in her purple wheelchair pauses. Right, an open round glass elevator glows blue. Far right, a pink striped steam train puffs white smoke along tracks.",
+ "shown": [
+  "a tethered brass airship waiting with open hatch on the left",
+  "a glowing glass elevator capsule open on the right",
+  "a pink striped steam train puffing clouds on the far right"
+ ]
+}

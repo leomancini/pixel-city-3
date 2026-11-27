@@ -1,0 +1,20 @@
+{
+ "id": "c2-d0-0-0",
+ "scene": "The open toolbox contains transport tokens for three waiting rides.",
+ "options": [
+  "Ride delivery truck",
+  "Take glass elevator",
+  "Board steam train"
+ ],
+ "next": [
+  "c2-d1",
+  "c2-d2",
+  "c2-d3"
+ ],
+ "picture": "Pixel art side view on Sky Dock platform. On the far left, a flatbed delivery truck idles. Left of centre, an open rusty toolbox sits on the ground. In the centre, the South Asian girl in her purple wheelchair holds three tokens. On the right, an open glass elevator glows. Far right waits a red steam train.",
+ "shown": [
+  "a flatbed delivery truck parked waiting with engine running on the far left",
+  "a glowing glass elevator shaft with its door open on the right",
+  "a red steam train waiting at the platform on the far right"
+ ]
+}

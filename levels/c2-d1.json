@@ -1,0 +1,20 @@
+{
+ "id": "c2-d1",
+ "scene": "You roll off the delivery truck into bustling Robot Repair Yard.",
+ "options": [
+  "Help clumsy droid",
+  "Inspect workbench",
+  "Search parts bin"
+ ],
+ "next": [
+  "c2-d1-0",
+  "c2-d1-1",
+  "c2-d1-2"
+ ],
+ "picture": "A flat side-view yard. Far left, an open yellow delivery truck. Left, a round yellow droid juggles loose cogs. Next, the South Asian girl with a black braid in a teal hoodie sits in her purple wheelchair. Centre, a wooden workbench sparks with glowing wires. Right, an overflowing green parts bin sits beside scrap.",
+ "shown": [
+  "a wobbly round yellow droid juggling metal cogs on the left",
+  "a wooden workbench covered in glowing tubes and sparking wires at the centre",
+  "an overflowing green bin full of shiny gears on the right"
+ ]
+}

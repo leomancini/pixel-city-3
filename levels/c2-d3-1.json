@@ -1,0 +1,20 @@
+{
+ "id": "c2-d3-1",
+ "scene": "The furnace's warm caramel crust tastes amazing.",
+ "options": [
+  "Catch bubble",
+  "Pull copper lever",
+  "Pet jelly salamander"
+ ],
+ "next": [
+  "c2-d3-1-0",
+  "c2-d3-1-1",
+  "c2-d3-1-2"
+ ],
+ "picture": "Flat side view. In the centre, the South Asian girl in teal hoodie licks caramel residue off a spoon beside the glowing sugar furnace. A shiny copper lever sits left on the furnace wall. Up high, a sparkling sugar bubble floats. On the right, an orange jelly salamander naps near a warm floor grate.",
+ "shown": [
+  "A giant sparkling sugar bubble floating up high above the furnace",
+  "A shiny copper lever sticking out from the furnace on the left",
+  "A drowsy orange jelly salamander napping beside a grate on the right"
+ ]
+}

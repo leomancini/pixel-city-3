@@ -1,0 +1,20 @@
+{
+ "id": "c1-d2-1-1",
+ "scene": "The star chart reveals three secret city routes.",
+ "options": [
+  "Hail green rickshaw",
+  "Board water taxi",
+  "Climb monorail stairs"
+ ],
+ "next": [
+  "c1-d3",
+  "c1-d0",
+  "c1-d1"
+ ],
+ "picture": "Flat side-scrolling view. On the far left, a driver waits beside a green bicycle rickshaw. In the centre, the player leans on his cane, looking at the purple-coated astronomer pointing to an open parchment. On the right, a yellow water taxi bobs at a wooden pier. Up high on the far right, metal monorail stairs ascend.",
+ "shown": [
+  "A green bicycle rickshaw waiting parked at the far left",
+  "A yellow water taxi moored at a jetty on the right",
+  "An elevated monorail boarding platform up high on the far right"
+ ]
+}

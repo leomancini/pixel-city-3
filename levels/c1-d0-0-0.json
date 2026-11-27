@@ -1,0 +1,20 @@
+{
+ "id": "c1-d0-0-0",
+ "scene": "The boat glides to a lively transit dock.",
+ "options": [
+  "Ride monorail",
+  "Take funicular",
+  "Hail rickshaw"
+ ],
+ "next": [
+  "c1-d1",
+  "c1-d2",
+  "c1-d3"
+ ],
+ "picture": "A flat side view along a wide wooden transit deck. Far left sits an open-doored silver monorail car. Up high rests a tilted red funicular car. Centre stands an elderly East Asian man in a blue flat cap and orange cardigan with a wooden cane. Far right waits a driver on a brass-trimmed rickshaw.",
+ "shown": [
+  "a sleek silver monorail car waiting with doors open, on the far left",
+  "a red wooden funicular tram resting on a sloped track, up high",
+  "a brass-trimmed pedal rickshaw with a friendly driver seated, far right"
+ ]
+}

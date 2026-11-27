@@ -1,0 +1,20 @@
+{
+ "id": "c2-d1-2",
+ "scene": "You uncover a talking brass wrench inside the overflowing bin.",
+ "options": [
+  "Take brass wrench",
+  "Roll through archway",
+  "Examine rusted radio"
+ ],
+ "next": [
+  "c2-d1-2-0",
+  "c2-d1-2-1",
+  "c2-d1-2-2"
+ ],
+ "picture": "A flat side-view pixel yard. Far left, an antique rusted radio flashes a red light. Left, the girl with a black braid in a teal hoodie sits in her purple wheelchair. Centre, a green parts bin holds a brass wrench with digital eyes. Far right, an open pink neon archway leads outside.",
+ "shown": [
+  "A shining brass wrench with blinking digital eyes sitting atop the green bin, centre.",
+  "A tall open neon archway glowing pink on the far right.",
+  "An antique rusted radio with a flashing red light on the far left."
+ ]
+}

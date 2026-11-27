@@ -1,0 +1,20 @@
+{
+ "id": "c2-d0-1-2",
+ "scene": "The red gondola delivers you to Grand Transit Plaza.",
+ "options": [
+  "Board delivery truck",
+  "Take glass elevator",
+  "Catch steam train"
+ ],
+ "next": [
+  "c2-d1",
+  "c2-d2",
+  "c2-d3"
+ ],
+ "picture": "Pixel art side view of a bustling transit hub along one ground line. On the far left sits a yellow delivery truck. Left of centre, the girl in her purple wheelchair and teal hoodie rolls off the gondola ramp. At centre waits a glowing glass elevator. On the far right chugs a colourful steam train.",
+ "shown": [
+  "a yellow delivery truck on the far left, parked with open back doors",
+  "a transparent glass elevator at centre with glowing doors waiting open",
+  "a striped steam train engine idling on tracks on the far right"
+ ]
+}

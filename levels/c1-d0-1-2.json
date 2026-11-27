@@ -1,0 +1,20 @@
+{
+ "id": "c1-d0-1-2",
+ "scene": "The rooftop opens to a transit hub.",
+ "options": [
+  "Ride the monorail",
+  "Board the funicular",
+  "Hire the rickshaw"
+ ],
+ "next": [
+  "c1-d1",
+  "c1-d2",
+  "c1-d3"
+ ],
+ "picture": "A flat side view along a wide wooden rooftop terminal. On the far left, a sleek suspended monorail waits at a gantry. An elderly East Asian man in a blue flat cap, orange cardigan, holding a wooden cane stands on the left. In the centre sits a glass-domed funicular carriage. Far right, a brass rickshaw rests.",
+ "shown": [
+  "a sleek suspended monorail car on an overhead rail, far left",
+  "a glass-domed funicular carriage waiting on angled tracks, centre",
+  "a two-wheeled brass rickshaw with a friendly toad driver, far right"
+ ]
+}

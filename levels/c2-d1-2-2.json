@@ -1,0 +1,20 @@
+{
+ "id": "c2-d1-2-2",
+ "scene": "The radio broadcasts three departure gates across the yard.",
+ "options": [
+  "Enter glass elevator",
+  "Board steam train",
+  "Climb into airship"
+ ],
+ "next": [
+  "c2-d2",
+  "c2-d3",
+  "c2-d0"
+ ],
+ "picture": "A flat side-view pixel yard. Far left, a glass elevator stands with glowing open doors. Left, the girl with a black braid in her purple wheelchair tunes the rusted radio. Right, a striped steam train idles on tracks. Up high, a moored yellow airship bobs beside a metal ladder at the far right.",
+ "shown": [
+  "a transparent glass elevator with glowing doors waiting at the far left",
+  "a striped steam locomotive idling with open passenger doors at the right",
+  "a moored yellow airship bobbing on a launch platform up high"
+ ]
+}

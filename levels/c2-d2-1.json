@@ -1,0 +1,20 @@
+{
+ "id": "c2-d2-1",
+ "scene": "The jellyfish flash neon pink! A secret floor hatch pops open.",
+ "options": [
+  "Enter glowing hatch",
+  "Inspect food dispenser",
+  "Roll through archway"
+ ],
+ "next": [
+  "c2-d2-1-0",
+  "c2-d2-1-1",
+  "c2-d2-1-2"
+ ],
+ "picture": "A flat side view along a tiled aquarium floor. Left, a yellow fish-food dispenser stands on the tiles. Centre left, the player in her purple wheelchair looks down. Centre, an open floor hatch glows bright blue beside the cylinder of flashing pink jellyfish. Right, a wide submerged glass archway leads far right.",
+ "shown": [
+  "an open floor hatch glowing with blue light in the centre floor",
+  "a yellow fish-food dispenser standing quietly on the left side",
+  "a wide submerged glass archway open on the far right"
+ ]
+}

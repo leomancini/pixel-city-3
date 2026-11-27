@@ -1,0 +1,20 @@
+{
+ "id": "c1-d0-0",
+ "scene": "The taxi driver takes your coins and points ahead.",
+ "options": [
+  "Step aboard",
+  "Take offered map",
+  "Inspect coin meter"
+ ],
+ "next": [
+  "c1-d0-0-0",
+  "c1-d0-0-1",
+  "c1-d0-0-2"
+ ],
+ "picture": "A flat side view along a stone promenade. On the far left, a yellow water taxi idles with an open gate. Next to it on the left, a smiling driver holds a rolled map. Centre, a brass meter sits on a post. Right of centre, an elderly East Asian man in blue flat cap, orange cardigan, holding a wooden cane faces left. Far right, the canal wall.",
+ "shown": [
+  "an open passenger gate onto the yellow water taxi on the far left",
+  "a rolled parchment map held by the driver on the left",
+  "a ticking brass coin meter mounted on a wooden dock post in the centre"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "id": "c1-d3-0-2",
+ "scene": "The doorway leads to a grand transit hub.",
+ "options": [
+  "Ride hill funicular",
+  "Take water taxi",
+  "Board alley monorail"
+ ],
+ "next": [
+  "c1-d2",
+  "c1-d0",
+  "c1-d1"
+ ],
+ "picture": "Flat pixel-art side view along a stone platform floor. On the far left sits a waiting glass funicular on slanted tracks. In the centre stands the bearded man in his blue cap and orange cardigan with his wooden cane. To his right bobs a green striped water taxi, and on the far right waits an open monorail.",
+ "shown": [
+  "a glass-domed funicular railway car waiting on the far left",
+  "a striped water taxi bobbing in a canal channel on the right",
+  "a sleek suspended monorail car stationed open on the far right"
+ ]
+}

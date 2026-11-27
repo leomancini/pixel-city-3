@@ -1,0 +1,20 @@
+{
+ "id": "c1-d0",
+ "scene": "You step onto the cobblestones of Canal Quarter.",
+ "options": [
+  "Pay taxi driver",
+  "Enter tea house",
+  "Cross arched bridge"
+ ],
+ "next": [
+  "c1-d0-0",
+  "c1-d0-1",
+  "c1-d0-2"
+ ],
+ "picture": "A flat side view along a stone canal promenade. On the far left, a yellow water taxi idles in the water. An elderly East Asian man in blue flat cap, orange cardigan, holding a wooden cane stands centre. To his right, an open crimson tea house floats, and a stone bridge spans the canal far right.",
+ "shown": [
+  "a yellow wooden water taxi idling far left with a smiling driver inside",
+  "a floating teahouse door painted crimson, standing wide open on the right",
+  "a stone arched bridge with carved dragon railings on the far right"
+ ]
+}

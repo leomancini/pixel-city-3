@@ -1,0 +1,20 @@
+{
+ "id": "c2-d3-2-0",
+ "scene": "Turning the valve unlocks outward factory transports.",
+ "options": [
+  "Take glass elevator",
+  "Board sweet airship",
+  "Climb delivery truck"
+ ],
+ "next": [
+  "c2-d2",
+  "c2-d0",
+  "c2-d1"
+ ],
+ "picture": "Flat side view. Inside the vast refinery dispatch hub, the South Asian girl in her teal hoodie sits in her purple wheelchair at centre. Far left, an open glass elevator tube awaits. Up high, a pink candy airship hangs moored to the rafters. Far right sits an idling yellow delivery truck with open side doors.",
+ "shown": [
+  "a tall glass elevator tube with sliding doors open on the far left",
+  "a tethered pink airship gondola floating up high with its boarding ramp down",
+  "a yellow boxy delivery truck idling with open side doors on the far right"
+ ]
+}

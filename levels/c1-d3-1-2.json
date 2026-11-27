@@ -1,0 +1,20 @@
+{
+ "id": "c1-d3-1-2",
+ "scene": "The trolley brings you to Grand Transit Hub.",
+ "options": [
+  "Take water taxi",
+  "Ride monorail",
+  "Board funicular railway"
+ ],
+ "next": [
+  "c1-d0",
+  "c1-d1",
+  "c1-d2"
+ ],
+ "picture": "Flat pixel-art side view of Grand Transit Hub. On the far left, a striped water taxi bobs at a canal dock. In the centre, the bearded elderly man in blue flat cap and orange cardigan leans on his wooden cane. Up high rests an open monorail. On the far right waits a red funicular.",
+ "shown": [
+  "a striped water taxi bobbing at a low canal dock on the far left",
+  "a sleek silver monorail car waiting with doors open up high",
+  "a red angled funicular car sitting on an uphill track on the far right"
+ ]
+}

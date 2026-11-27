@@ -1,6 +1,6 @@
 {
  "id": "c0-d0-2-1",
- "scene": "The conductor deposits you at Harbor Central transit hub. Which way onward?",
+ "scene": "The conductor deposits you at Harbor Central transit hub.",
  "options": [
   "Take cable car",
   "Board subway train",

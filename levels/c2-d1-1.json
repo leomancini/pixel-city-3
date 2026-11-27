@@ -1,0 +1,20 @@
+{
+ "id": "c2-d1-1",
+ "scene": "Sparking wires reveal an ancient blinking terminal on the workbench.",
+ "options": [
+  "Tap neon screen",
+  "Pocket glowing wrench",
+  "Enter rusted doorway"
+ ],
+ "next": [
+  "c2-d1-1-0",
+  "c2-d1-1-1",
+  "c2-d1-1-2"
+ ],
+ "picture": "A flat side-view yard. Far left, the yellow droid watches. Left, a glowing blue tool rests on a rack. Centre, the girl in her purple wheelchair inspects the workbench where a neon terminal blinks. Right, a mechanical arm dangles idle. Far right, an open sliding door flickers with orange lights.",
+ "shown": [
+  "an illuminated green terminal blinking on the wooden workbench at centre",
+  "a pulsing blue tool resting on a metal rack to the left",
+  "an open metallic sliding door framed by flashing orange bulbs on the far right"
+ ]
+}

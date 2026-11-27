@@ -1,0 +1,20 @@
+{
+ "id": "c2-d3-1-0",
+ "scene": "The popped bubble rains glowing sugar, uncovering three loading bays.",
+ "options": [
+  "Board delivery truck",
+  "Take glass elevator",
+  "Board the airship"
+ ],
+ "next": [
+  "c2-d1",
+  "c2-d2",
+  "c2-d0"
+ ],
+ "picture": "Flat side view. Left of centre, the South Asian girl in her purple wheelchair wipes sparkling sugar dust off her teal hoodie. On the far left, a yellow delivery truck idles. In the centre, an open glass elevator tube glows. On the far right, a striped airship bobs at a ramp.",
+ "shown": [
+  "A yellow delivery truck sits idling at an open loading door on the far left.",
+  "A transparent glass elevator tube stands with glowing open doors in the centre.",
+  "A striped passenger airship floats tied to an outdoor mooring ramp on the far right."
+ ]
+}

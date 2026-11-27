@@ -1,0 +1,20 @@
+{
+ "id": "c1-d2",
+ "scene": "You arrive at breezy Observatory Hill.",
+ "options": [
+  "Peer through telescope",
+  "Wake sleepy astronomer",
+  "Enter observatory dome"
+ ],
+ "next": [
+  "c1-d2-0",
+  "c1-d2-1",
+  "c1-d2-2"
+ ],
+ "picture": "Flat side-scrolling view. On the far left sits the yellow funicular railway car at its platform. An astronomer snoozes at a wooden table with rolled star charts to the left. The elderly East Asian player stands centre with his cane. Up high points a large brass telescope, beside a copper dome on the far right.",
+ "shown": [
+  "a large brass telescope on a tripod pointing up high",
+  "a dozing astronomer slumped over open star charts on the left",
+  "a round copper dome with an open doorway on the far right"
+ ]
+}

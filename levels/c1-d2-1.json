@@ -1,0 +1,20 @@
+{
+ "id": "c1-d2-1",
+ "scene": "The awakened astronomer drops a glowing brass key.",
+ "options": [
+  "Take glowing key",
+  "Inspect star chart",
+  "Enter copper dome"
+ ],
+ "next": [
+  "c1-d2-1-0",
+  "c1-d2-1-1",
+  "c1-d2-1-2"
+ ],
+ "picture": "Flat side-scrolling view. On the left, an alert astronomer in a purple coat holds an unrolled star chart. At centre, the elderly player in orange cardigan and blue cap points his cane at a glowing brass key lying on the ground. To the far right stands the copper dome with its heavy wooden door shut.",
+ "shown": [
+  "a tiny glowing brass key resting on the stone ground at centre",
+  "an unrolled constellation map held by the surprised astronomer on the left",
+  "a heavy arched wooden door set into the copper dome on the far right"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "id": "c1-d3-2-1",
+ "scene": "The dragon lantern springs to life, lighting a multi-platform transit hub.",
+ "options": [
+  "Take water taxi",
+  "Ride the monorail",
+  "Board funicular railway"
+ ],
+ "next": [
+  "c1-d0",
+  "c1-d1",
+  "c1-d2"
+ ],
+ "picture": "Flat pixel-art side view. On the far left, a green water taxi bobs at a dock. In the centre, the elderly East Asian man in his blue cap and orange cardigan holds his cane, smiling. To his right sits a yellow monorail car at a platform gate, and far right waits a red funicular carriage.",
+ "shown": [
+  "a green water taxi bobbing beside a low wooden dock on the far left",
+  "a sleek yellow monorail car idling at an open platform gate on the right",
+  "a red glass-topped funicular carriage waiting on slanted rails on the far right"
+ ]
+}

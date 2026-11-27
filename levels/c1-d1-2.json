@@ -1,0 +1,20 @@
+{
+ "id": "c1-d1-2",
+ "scene": "Inside the loud pinball parlour, bright machines flicker wildly.",
+ "options": [
+  "Insert token",
+  "Greet the attendant",
+  "Climb spiral stairs"
+ ],
+ "next": [
+  "c1-d1-2-0",
+  "c1-d1-2-1",
+  "c1-d1-2-2"
+ ],
+ "picture": "Inside a bustling parlour on one level floor. The bearded player in blue cap and orange cardigan stands centre with his wooden cane. On the far left, a golden pinball table blinks. To the right stands a roller-skating panda attendant holding plushies. On the far right, a brass staircase coils up high.",
+ "shown": [
+  "a vintage golden pinball table blinking on the far left",
+  "a roller-skating panda attendant holding prize plushies on the right",
+  "a swirling brass staircase rising up high on the far right"
+ ]
+}

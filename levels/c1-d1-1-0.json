@@ -1,0 +1,20 @@
+{
+ "id": "c1-d1-1-0",
+ "scene": "Holding the token, you reach a three-way transit hub.",
+ "options": [
+  "Ride funicular",
+  "Hire rickshaw",
+  "Board water taxi"
+ ],
+ "next": [
+  "c1-d2",
+  "c1-d3",
+  "c1-d0"
+ ],
+ "picture": "Flat pixel side view along a stone promenade. Far left, an angled glass funicular railway rests on steep tracks. The player, an elderly man in blue cap and orange cardigan with a cane, holds a shiny token left of centre. Centre, a solar rickshaw with a smiling driver waits. Far right, a turquoise water taxi bobs beside a low wooden pier.",
+ "shown": [
+  "an angled glass funicular cabin on tracks far left, door open",
+  "a solar rickshaw with a friendly driver waiting patiently at centre",
+  "a bobbing turquoise water taxi docked at a pier on the far right"
+ ]
+}

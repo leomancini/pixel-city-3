@@ -1,0 +1,20 @@
+{
+ "id": "c1-d1-0-0",
+ "scene": "Key pocketed, you reach Grand Junction where three routes await.",
+ "options": [
+  "Board water taxi",
+  "Take funicular railway",
+  "Hail the rickshaw"
+ ],
+ "next": [
+  "c1-d0",
+  "c1-d2",
+  "c1-d3"
+ ],
+ "picture": "Pixel art street view. An elderly East Asian man in blue flat cap and orange cardigan stands holding his wooden cane right of centre. On the far left sits a striped water taxi by a pier. A glass funicular car rests at a gate in the centre. A bicycle rickshaw waits on the far right.",
+ "shown": [
+  "a striped motorized water taxi moored at a wooden pier on the far left",
+  "a glass funicular car docked at its track gate in the centre",
+  "a waiting bicycle rickshaw with red seat cushions on the far right"
+ ]
+}

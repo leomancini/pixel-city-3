@@ -1,0 +1,20 @@
+{
+ "id": "c1-d0-2-0",
+ "scene": "The vending machine dispenses transit passes for three waiting journeys.",
+ "options": [
+  "Take the rickshaw",
+  "Board the monorail",
+  "Ride the funicular"
+ ],
+ "next": [
+  "c1-d3",
+  "c1-d1",
+  "c1-d2"
+ ],
+ "picture": "A flat side view of a vibrant transit concourse. Far left rests a striped rickshaw beside its standing puller. Centre left stands an elderly East Asian man in a blue flat cap and orange cardigan holding a wooden cane. A yellow monorail waits centre with doors open. Far right, a red funicular sits ready.",
+ "shown": [
+  "a striped rickshaw parked far left with its driver holding the handles",
+  "a sleek yellow monorail car sitting at the centre platform with doors open",
+  "a red angled funicular railway car waiting on sloped rails far right"
+ ]
+}

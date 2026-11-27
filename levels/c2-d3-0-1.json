@@ -1,0 +1,20 @@
+{
+ "id": "c2-d3-0-1",
+ "scene": "Your taffy reveals a transport courtyard outside.",
+ "options": [
+  "Board delivery truck",
+  "Take glass elevator",
+  "Board sky airship"
+ ],
+ "next": [
+  "c2-d1",
+  "c2-d2",
+  "c2-d0"
+ ],
+ "picture": "Flat side view. On the far left sits a yellow delivery truck with its ramp open. The South Asian girl in her teal hoodie holds a warm taffy ball in her purple wheelchair left of centre. Right of centre stands an open glass elevator tube. A striped airship gondola rests on the far right.",
+ "shown": [
+  "a yellow delivery truck on the far left with its back ramp lowered",
+  "a tall glass elevator tube right of centre with its doors open",
+  "a moored striped airship gondola on the far right with boarding steps"
+ ]
+}

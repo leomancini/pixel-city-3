@@ -1,0 +1,20 @@
+{
+ "id": "c2-d0",
+ "scene": "You roll into breezy Sky Dock as your airship docks.",
+ "options": [
+  "Inspect cargo crane",
+  "Greet ticket vendor",
+  "Call elevator"
+ ],
+ "next": [
+  "c2-d0-0",
+  "c2-d0-1",
+  "c2-d0-2"
+ ],
+ "picture": "Pixel art side view on a wooden platform. On the left sits the moored patched airship. A yellow cargo crane stands far left. Left of centre, a South Asian girl with a black braid in a teal hoodie sits in a purple wheelchair. A ticket vendor waits at centre, and a brass elevator waits far right.",
+ "shown": [
+  "a yellow mechanical cargo crane humming on the far left",
+  "a friendly ticket vendor leaning on a wooden booth at centre",
+  "a brass elevator door with a glowing red button on the far right"
+ ]
+}

@@ -1,6 +1,6 @@
 {
  "id": "c0-d0-2",
- "scene": "Inside the rattling tram, strange crates surround you. What do you inspect?",
+ "scene": "Inside the rattling tram, strange crates surround you.",
  "options": [
   "Examine humming crate",
   "Talk to conductor",

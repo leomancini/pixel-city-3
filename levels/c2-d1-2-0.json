@@ -1,0 +1,20 @@
+{
+ "id": "c2-d1-2-0",
+ "scene": "The wrench hums happily in your lap, revealing three outgoing transit gates.",
+ "options": [
+  "Board steam train",
+  "Climb into airship",
+  "Enter glass elevator"
+ ],
+ "next": [
+  "c2-d3",
+  "c2-d0",
+  "c2-d2"
+ ],
+ "picture": "Flat side-view pixel transit platform. Far left, a smoking brass steam train waits on rails. Left of centre, the South Asian girl in teal hoodie sits in her purple wheelchair holding the brass wrench. Up high in the centre floats an airship basket. Far right, an illuminated glass elevator tube stands ready.",
+ "shown": [
+  "A puffing steam train idling on tracks at the far left",
+  "A moored striped airship basket waiting up high above the centre",
+  "A transparent glass elevator tube with open doors on the far right"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "id": "c2-d1-2-1",
+ "scene": "You glide through the archway into a grand transit terminal.",
+ "options": [
+  "Board the airship",
+  "Enter glass elevator",
+  "Catch steam train"
+ ],
+ "next": [
+  "c2-d0",
+  "c2-d2",
+  "c2-d3"
+ ],
+ "picture": "A flat side-view pixel transit terminal along a polished metal floor. Left, the girl with a black braid in a teal hoodie sits in her purple wheelchair beside the glowing neon archway. Up high, an airship floats beside a gangway. Centre, a glass elevator stands open. Far right waits a striped steam train.",
+ "shown": [
+  "a tethered brass airship waiting with an open ramp, floating up high",
+  "a transparent cylindrical elevator with open doors, standing at the centre",
+  "a brightly striped steam train puffing sweet vapour, waiting at the far right"
+ ]
+}

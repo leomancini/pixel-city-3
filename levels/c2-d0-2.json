@@ -1,0 +1,20 @@
+{
+ "id": "c2-d0-2",
+ "scene": "The brass elevator opens into a buzzing rooftop garden.",
+ "options": [
+  "Smell neon flowers",
+  "Talk to robot",
+  "Board garden tram"
+ ],
+ "next": [
+  "c2-d0-2-0",
+  "c2-d0-2-1",
+  "c2-d0-2-2"
+ ],
+ "picture": "Pixel art flat side view of a rooftop garden. Far left grows a plot of glowing neon flowers. Near the left, the South Asian girl in her teal hoodie sits in her purple wheelchair. In the centre, a tin gardener robot holds a silver watering can. A small wooden tram sits idle far right.",
+ "shown": [
+  "A patch of glowing neon blossoms planted along the far left",
+  "A wheeled gardener robot watering grass in the centre",
+  "A wooden tram with open doors waiting on tracks far right"
+ ]
+}

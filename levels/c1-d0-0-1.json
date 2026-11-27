@@ -1,0 +1,20 @@
+{
+ "id": "c1-d0-0-1",
+ "scene": "The unrolled map reveals three bustling transit connections.",
+ "options": [
+  "Ride funicular railway",
+  "Hire rickshaw",
+  "Board monorail"
+ ],
+ "next": [
+  "c1-d2",
+  "c1-d3",
+  "c1-d1"
+ ],
+ "picture": "A flat side view along a wide transit concourse. On the far left, a glass funicular car rests on steep tracks. Centre left, an elderly East Asian man in a blue flat cap and orange cardigan holds an open map. Centre, a red bicycle rickshaw waits beside him. On the right, a silver monorail carriage pauses with open doors.",
+ "shown": [
+  "a glass funicular car on a steep incline track on the left",
+  "a red bicycle rickshaw with a waiting rider at the centre",
+  "a streamlined monorail carriage resting on an elevated beam on the right"
+ ]
+}

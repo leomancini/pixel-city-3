@@ -1,0 +1,20 @@
+{
+ "id": "c1-d2-0-0",
+ "scene": "Clearer views reveal three busy transport stops down below.",
+ "options": [
+  "Take water taxi",
+  "Ride the monorail",
+  "Hire the rickshaw"
+ ],
+ "next": [
+  "c1-d0",
+  "c1-d1",
+  "c1-d3"
+ ],
+ "picture": "Flat side-scrolling view. On the far left, a striped canal dock holds an idling water taxi. Up high runs a sleek monorail car on an overhead rail. In the centre, the elderly player holds his cane near the telescope. On the far right waits a parked red cycle rickshaw with its driver.",
+ "shown": [
+  "a blue striped canal dock with a moored water taxi on the far left",
+  "a sleek silver monorail car idling at an elevated platform up high",
+  "a bright red cycle rickshaw with an attentive driver waiting on the far right"
+ ]
+}

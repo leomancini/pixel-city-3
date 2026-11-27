@@ -88,7 +88,7 @@ Continuity comes first. This is one continuous story, not a series of unrelated 
 - The player is always ${PLAYER}.
 
 Fields:
-- "scene": at most 12 words, in second person, present tense, describing a single place or moment that would make a good picture, ending with a short question about what to do.
+- "scene": at most 12 words, in second person, present tense, describing a single place or moment that would make a good picture. Just the moment: do not end with a question such as "What next?", "Where to?" or "What now?", because the options below already ask it.
 - "options": exactly three distinct actions the player could take next. Each has:
   - "label": 2 or 3 short words, starting with a verb, no trailing punctuation. The three lead in genuinely different directions.
   - "shown": 6 to 14 words naming the specific thing in the picture this option acts on, where it is in the picture (far left, left, centre, right, far right, or up high) and the state it is in BEFORE the option is taken. Three different things in three different parts of the picture.
@@ -119,6 +119,13 @@ const STORY_FORMAT = {
     required: ["scene", "options", "picture"],
   },
 };
+
+// Drop a stock closing question ("What next?", "Where to now?"): the options
+// under the scene already ask it.
+function tidyScene(scene) {
+  const cut = scene.trim().replace(/(?<=[.!…])\s+(?:\S+\s+){0,4}\S+\?$/, "");
+  return cut || scene.trim();
+}
 
 // The page sends each past step as "Player chose: <option> Then: <scene>".
 // The last one is the scene the player was just looking at.
@@ -155,6 +162,7 @@ async function generateStory(player, prompt, history, previous, extra = "") {
   if (typeof story.scene !== "string" || !Array.isArray(story.options) || story.options.length < 3) {
     throw new Error("Story model returned an unexpected shape");
   }
+  story.scene = tidyScene(story.scene);
   const options = story.options.slice(0, 3).map((o) => ({
     label: String(o?.label ?? o),
     shown: typeof o?.shown === "string" ? o.shown : "",

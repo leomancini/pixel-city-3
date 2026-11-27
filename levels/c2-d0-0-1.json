@@ -1,0 +1,20 @@
+{
+ "id": "c2-d0-0-1",
+ "scene": "The crane drops a transit deck revealing three new routes.",
+ "options": [
+  "Ride glass elevator",
+  "Board steam train",
+  "Hop delivery truck"
+ ],
+ "next": [
+  "c2-d2",
+  "c2-d3",
+  "c2-d1"
+ ],
+ "picture": "Pixel art side view along a wide transit deck. On the far left stands the yellow crane. Next on the left rests a tubular glass elevator with open doors. The South Asian girl in her purple wheelchair sits left of centre. In the centre waits a striped steam train, and an open orange delivery truck waits far right.",
+ "shown": [
+  "a tubular glass elevator on the left with glowing sea-blue doors open",
+  "a striped red steam train waiting on tracks at the centre",
+  "an orange delivery truck parked on the far right with hatch open"
+ ]
+}

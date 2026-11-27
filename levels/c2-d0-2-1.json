@@ -1,0 +1,20 @@
+{
+ "id": "c2-d0-2-1",
+ "scene": "The robot beeps, pointing out three departing transit lines.",
+ "options": [
+  "Take delivery truck",
+  "Ride glass elevator",
+  "Board steam train"
+ ],
+ "next": [
+  "c2-d1",
+  "c2-d2",
+  "c2-d3"
+ ],
+ "picture": "Pixel art flat side view of the Sky Dock transit hub. Far left, a yellow delivery truck idles with its ramp lowered. The girl in her teal hoodie sits in her purple wheelchair left of centre beside the friendly tin robot. In the centre waits an open glass elevator, while a steam train sits far right.",
+ "shown": [
+  "a yellow boxy delivery truck idling far left with its ramp down",
+  "a glowing glass elevator shaft standing centre with open doors",
+  "a striped steam train puffing sweet pink smoke on tracks far right"
+ ]
+}

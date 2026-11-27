@@ -1,0 +1,20 @@
+{
+ "id": "c1-d1",
+ "scene": "You step into neon-lit Arcade Alley from the sleek monorail.",
+ "options": [
+  "Play claw machine",
+  "Talk to clerk",
+  "Enter pinball parlour"
+ ],
+ "next": [
+  "c1-d1-0",
+  "c1-d1-1",
+  "c1-d1-2"
+ ],
+ "picture": "Pixel art street view. The player stands centre with a cane, blue cap, and orange cardigan. On the left, the silver monorail doors stay open. Far left sits a glowing claw machine. To the player's right is a ticket counter with a robot clerk. Far right is a flashing beaded doorway.",
+ "shown": [
+  "a glowing glass claw crane filled with plush pixel cats on the far left",
+  "a robotic cashier wearing an apron behind a ticket counter on the right",
+  "an open beaded curtain doorway flashing with colourful strobes on the far right"
+ ]
+}

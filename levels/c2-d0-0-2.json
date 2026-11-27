@@ -1,0 +1,20 @@
+{
+ "id": "c2-d0-0-2",
+ "scene": "The friendly vendor stamps three transit passes on the counter.",
+ "options": [
+  "Take steam train",
+  "Board delivery truck",
+  "Enter glass elevator"
+ ],
+ "next": [
+  "c2-d3",
+  "c2-d1",
+  "c2-d2"
+ ],
+ "picture": "Pixel art side view on the platform. Far left, a red steam train puffs smoke. Left of centre, the vendor booth displays three stamped passes. In the centre sits the South Asian girl in her purple wheelchair. On the right, a yellow delivery truck rests, and far right stands an open glass elevator.",
+ "shown": [
+  "a gleaming red steam train waiting puffing smoke on the far left",
+  "a boxy yellow delivery truck parked with its ramp down on the right",
+  "a glowing glass elevator shaft with open doors on the far right"
+ ]
+}

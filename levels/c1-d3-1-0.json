@@ -1,0 +1,20 @@
+{
+ "id": "c1-d3-1-0",
+ "scene": "The unlocked gate reveals Grand Transit Plaza's lively terminals.",
+ "options": [
+  "Ride monorail",
+  "Board funicular",
+  "Hail water taxi"
+ ],
+ "next": [
+  "c1-d1",
+  "c1-d2",
+  "c1-d0"
+ ],
+ "picture": "Flat pixel-art side view along a stone platform. On the far left, a silver monorail carriage waits on elevated rails. To the left of centre, the elderly bearded man in cap and cardigan stands with his cane. In the centre sits a red funicular tram. On the far right, a striped water taxi bobs.",
+ "shown": [
+  "A sleek silver monorail carriage sitting on elevated rails on the far left",
+  "A steep red funicular tram resting at its wooden station in the centre",
+  "A striped water taxi moored beside a stone dock on the far right"
+ ]
+}

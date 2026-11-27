@@ -1,6 +1,6 @@
 {
  "id": "c0-d1-1-0",
- "scene": "Tapping the can summons a travel robot with three departure gates. Board which?",
+ "scene": "Tapping the can summons a travel robot with three departure gates.",
  "options": [
   "Board subway train",
   "Board street tram",

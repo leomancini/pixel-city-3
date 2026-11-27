@@ -1,0 +1,20 @@
+{
+ "id": "c2-d1-0-1",
+ "scene": "The belt lifts you to Transit Junction's bustling boarding platform.",
+ "options": [
+  "Take glass elevator",
+  "Board steam train",
+  "Climb into airship"
+ ],
+ "next": [
+  "c2-d2",
+  "c2-d3",
+  "c2-d0"
+ ],
+ "picture": "A flat side-view transit station on a level steel deck. Far left, an open glass elevator glows softly. Left of centre, the South Asian girl in her purple wheelchair sits at the top of the conveyor belt. Right, a striped steam train sits steaming. Far right, a tethered brass airship floats beside the railing.",
+ "shown": [
+  "a glowing glass elevator shaft with open doors waiting on the far left",
+  "a puffing candy-striped steam train waiting at the platform on the right",
+  "a moored brass airship gondola floating open-doored on the far right"
+ ]
+}

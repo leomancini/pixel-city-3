@@ -1,6 +1,6 @@
 {
  "id": "c0-d0-0-0",
- "scene": "The bottle holds a glowing transit token. Which ride do you choose?",
+ "scene": "The bottle holds a glowing transit token.",
  "options": [
   "Take cable car",
   "Board subway train",

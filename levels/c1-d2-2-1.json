@@ -1,0 +1,20 @@
+{
+ "id": "c1-d2-2-1",
+ "scene": "The roof terrace overlooks transport hubs. Which will you ride away on?",
+ "options": [
+  "Take water taxi",
+  "Board monorail car",
+  "Hire cycle rickshaw"
+ ],
+ "next": [
+  "c1-d0",
+  "c1-d1",
+  "c1-d3"
+ ],
+ "picture": "Flat side-scrolling view of the observatory's open roof terrace. On the left sits a canal dock where a striped water taxi floats. The player stands in the centre with his blue cap, orange cardigan, and wooden cane. Up high, an elevated monorail car rests on its track. On the right waits a yellow cycle rickshaw.",
+ "shown": [
+  "a striped water taxi moored at a canal dock on the left",
+  "a sleek monorail car waiting at an elevated track up high",
+  "a bright yellow cycle rickshaw parked by a signpost on the right"
+ ]
+}

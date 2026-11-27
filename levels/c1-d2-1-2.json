@@ -1,0 +1,20 @@
+{
+ "id": "c1-d2-1-2",
+ "scene": "Inside the dome, a panoramic transit hub awaits.",
+ "options": [
+  "Take water taxi",
+  "Ride monorail",
+  "Hire rickshaw"
+ ],
+ "next": [
+  "c1-d0",
+  "c1-d1",
+  "c1-d3"
+ ],
+ "picture": "Flat side-scrolling view. On the far left, a striped water taxi bobs at a pier. At centre, the elderly player with his white beard, blue cap, and orange cardigan leans on his wooden cane. Up high, a suspended red monorail car rests at a boarding gate. On the far right waits an ornate golden rickshaw.",
+ "shown": [
+  "a striped canal water taxi idling at a wooden pier on the far left",
+  "a sleek red monorail car waiting at a platform up high",
+  "a golden passenger rickshaw parked beside its driver on the far right"
+ ]
+}

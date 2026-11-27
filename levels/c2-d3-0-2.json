@@ -1,0 +1,20 @@
+{
+ "id": "c2-d3-0-2",
+ "scene": "The belt rolls into the dispatch bay.",
+ "options": [
+  "Take glass elevator",
+  "Board the airship",
+  "Climb into truck"
+ ],
+ "next": [
+  "c2-d2",
+  "c2-d0",
+  "c2-d1"
+ ],
+ "picture": "Flat side view. Along a tiled floor, a glass elevator stands open on the far left. Left of centre, the South Asian girl in her teal hoodie sits in her purple wheelchair at the conveyor belt end. Up high in the centre, an airship is moored. On the far right waits an idling delivery truck.",
+ "shown": [
+  "A transparent glass elevator tube with glowing buttons sits waiting on the far left.",
+  "A docked striped airship floats tethered up high above the platform centre.",
+  "A yellow flatbed delivery truck sits parked with its ramp down on the far right."
+ ]
+}

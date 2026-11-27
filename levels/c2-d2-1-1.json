@@ -1,0 +1,20 @@
+{
+ "id": "c2-d2-1-1",
+ "scene": "The dispenser clicks, vending three transit tokens for city lines!",
+ "options": [
+  "Ride steam train",
+  "Board the airship",
+  "Catch delivery truck"
+ ],
+ "next": [
+  "c2-d3",
+  "c2-d0",
+  "c2-d1"
+ ],
+ "picture": "A flat side view along a wet tile floor. On the far left, a red miniature steam train puffs steam on low rails. Centre left, the dispenser drops coins. Centre, the girl in her purple wheelchair holds tokens. Up high, an airship basket hovers. Far right, a yellow box truck idles.",
+ "shown": [
+  "a miniature steam train platform with smoking engine on the far left",
+  "a moored brass airship gondola basket floating open up high",
+  "an idling yellow delivery truck with open doors on the far right"
+ ]
+}

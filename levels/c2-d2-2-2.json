@@ -1,0 +1,20 @@
+{
+ "id": "c2-d2-2-2",
+ "scene": "The glass lift whisks you to the multi-transit plaza.",
+ "options": [
+  "Board delivery truck",
+  "Ride steam train",
+  "Take airship"
+ ],
+ "next": [
+  "c2-d1",
+  "c2-d3",
+  "c2-d0"
+ ],
+ "picture": "A flat side view along the open-air roof transit plaza. Far left, a yellow delivery truck idles with open rear doors. Left of centre sits the glass elevator shaft. Centre, the player in her purple wheelchair rolls onto the platform. Right, a puffing striped steam train waits beside a moored brass airship on the far right.",
+ "shown": [
+  "a yellow delivery truck with open back doors idling on the far left",
+  "a striped steam train puffing sweet pink smoke waiting on the right",
+  "a moored brass airship with an extended ramp floating on the far right"
+ ]
+}

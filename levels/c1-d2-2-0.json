@@ -1,0 +1,20 @@
+{
+ "id": "c1-d2-2-0",
+ "scene": "The wall panels slide open, revealing transit links.",
+ "options": [
+  "Ride rickshaw",
+  "Board water taxi",
+  "Catch monorail"
+ ],
+ "next": [
+  "c1-d3",
+  "c1-d0",
+  "c1-d1"
+ ],
+ "picture": "Flat side-scrolling view through opened observatory walls. On the far left, a red rickshaw and driver wait on a stone path. The elderly East Asian man in blue flat cap and orange cardigan stands centre holding his cane. On the right, a striped water taxi waits. Far right, an idling monorail sits ready.",
+ "shown": [
+  "A red rickshaw and smiling driver waiting on the far left path",
+  "A striped water taxi moored at a wooden dock on the right",
+  "A sleek monorail car idling at an elevated platform far right"
+ ]
+}

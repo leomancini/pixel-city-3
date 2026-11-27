@@ -1,0 +1,20 @@
+{
+ "id": "c1-d1-0-1",
+ "scene": "A hard shake rattles the machine, swinging open three transit gates!",
+ "options": [
+  "Ride to Hill",
+  "Hire rickshaw",
+  "Board water taxi"
+ ],
+ "next": [
+  "c1-d2",
+  "c1-d3",
+  "c1-d0"
+ ],
+ "picture": "Pixel art street view. The player in his blue flat cap, orange cardigan, and cane stands centre, next to the rattled claw machine. On the far left, a red funicular carriage sits waiting on tracks. Left of centre, a yellow rickshaw waits with a driver. Right of centre, a water taxi floats by a gate.",
+ "shown": [
+  "A red funicular carriage waiting on tilted tracks at the far left",
+  "A friendly driver leaning on a yellow rickshaw on the left",
+  "A blue water taxi bobbing by the open dock gate on the right"
+ ]
+}

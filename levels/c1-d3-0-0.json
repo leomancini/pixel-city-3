@@ -1,0 +1,20 @@
+{
+ "id": "c1-d3-0-0",
+ "scene": "The cooling tea refreshes you at the crossroads terminal.",
+ "options": [
+  "Board water taxi",
+  "Take the monorail",
+  "Ride the funicular"
+ ],
+ "next": [
+  "c1-d0",
+  "c1-d1",
+  "c1-d2"
+ ],
+ "picture": "Flat pixel-art side view along a stone terminal platform. On the far left, a teal water taxi floats beside a low pier. In the centre stands the bearded man in his blue cap and orange cardigan holding an empty teacup and wooden cane, beneath steps leading up high to an open yellow monorail car. On the far right, a red funicular tram waits on angled rails.",
+ "shown": [
+  "a teal water taxi docked at a wooden pier on the far left",
+  "a sleek yellow monorail door sliding open up high above the centre stairs",
+  "a red slanted funicular tram waiting on tracks on the far right"
+ ]
+}

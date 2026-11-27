@@ -1,0 +1,20 @@
+{
+ "id": "c2-d2-0-0",
+ "scene": "The brass key unlocks the transit foyer doors.",
+ "options": [
+  "Board Sky Dock airship",
+  "Ride repair truck",
+  "Catch steam train"
+ ],
+ "next": [
+  "c2-d0",
+  "c2-d1",
+  "c2-d3"
+ ],
+ "picture": "A flat side view of the aquarium transit foyer along polished stone. Up high, a moored brass airship waits beside an open boarding hatch. Left, a yellow robot delivery truck idles with ramp down. Centre, the player in her purple wheelchair holds a brass key. Far right, a pink-striped steam train puffs vapour.",
+ "shown": [
+  "a moored brass airship waiting beside an open hatch, up high",
+  "a yellow robot delivery truck idling with its ramp down, left",
+  "a pink-striped steam train puffing sweet vapour, far right"
+ ]
+}

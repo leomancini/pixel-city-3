@@ -1,0 +1,20 @@
+{
+ "id": "c1-d3-2",
+ "scene": "Inside the warm workshop, colourful paper creations surround you.",
+ "options": [
+  "Help craft maker",
+  "Touch dragon lantern",
+  "Exit rear doorway"
+ ],
+ "next": [
+  "c1-d3-2-0",
+  "c1-d3-2-1",
+  "c1-d3-2-2"
+ ],
+ "picture": "Flat pixel-art side view inside a bright workshop. On the left, an artisan works at a wooden craft bench. Centre, the elderly East Asian man in blue cap and orange cardigan stands holding his cane. Up high, a magnificent glowing dragon lantern hangs. On the far right hangs a swaying beaded rear doorway.",
+ "shown": [
+  "a cheerful lantern maker gluing red paper at a bench on the left",
+  "a giant glowing dragon lantern suspended from the ceiling up high",
+  "a beaded curtain swaying in an open doorway on the far right"
+ ]
+}

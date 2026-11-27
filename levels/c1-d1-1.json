@@ -1,0 +1,20 @@
+{
+ "id": "c1-d1-1",
+ "scene": "The friendly robot clerk offers a brass token and pointing finger.",
+ "options": [
+  "Take shiny token",
+  "Inspect comic rack",
+  "Board spiral stairs"
+ ],
+ "next": [
+  "c1-d1-1-0",
+  "c1-d1-1-1",
+  "c1-d1-1-2"
+ ],
+ "picture": "Flat pixel side view. On the left stands a colourful rotating comic book rack. The elderly player with cane, flat cap, and orange cardigan stands centre. To his right, a boxy robot clerk behind a ticket booth holds out a brass token on the counter. On the far right rises an illuminated spiral staircase.",
+ "shown": [
+  "a gleaming brass token resting on the counter to the right",
+  "a colourful rotating metal comic book rack on the far left",
+  "a glowing spiral metal staircase leading upward on the far right"
+ ]
+}

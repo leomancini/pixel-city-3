@@ -1,0 +1,20 @@
+{
+ "id": "c2-d2-2-0",
+ "scene": "Holding the glowing wafer, you spot three waiting exits outside.",
+ "options": [
+  "Board steam train",
+  "Board the airship",
+  "Ride delivery truck"
+ ],
+ "next": [
+  "c2-d3",
+  "c2-d0",
+  "c2-d1"
+ ],
+ "picture": "A flat side view of the aquarium exit bay. Far left, a brass steam train puffs smoke on tracks. Centre, the South Asian girl in her purple wheelchair and teal hoodie holds the glowing wafer. Up high, a red airship is moored to a tower. Far right, an idling yellow delivery truck waits.",
+ "shown": [
+  "a brass steam train waiting on tracks at the far left",
+  "a tethered red airship floating beside a mast up high",
+  "a yellow boxy delivery truck idling at the far right"
+ ]
+}

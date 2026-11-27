@@ -1,0 +1,20 @@
+{
+ "id": "c1-d1-1-2",
+ "scene": "Up the spiral stairs, an open transit terrace awaits you.",
+ "options": [
+  "Take water taxi",
+  "Board the funicular",
+  "Hail the rickshaw"
+ ],
+ "next": [
+  "c1-d0",
+  "c1-d2",
+  "c1-d3"
+ ],
+ "picture": "Flat pixel side view. On the far left, a yellow water taxi bobs beside a dock. The elderly player with white beard, orange cardigan, blue cap, and cane stands centre on the stone terrace. Up high on the right waits an angled glass funicular. On the far right sits a pedal-powered brass rickshaw.",
+ "shown": [
+  "a sleek yellow water taxi bobbing at an open dock on the far left",
+  "a steep glass funicular tram waiting with doors open up high on the right",
+  "a mechanical rickshaw with glowing green wheels waiting on the far right"
+ ]
+}

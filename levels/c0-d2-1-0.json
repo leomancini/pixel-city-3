@@ -1,6 +1,6 @@
 {
  "id": "c0-d2-1-0",
- "scene": "The merchant gifts you transit tokens with the key. Where next?",
+ "scene": "The merchant gifts you transit tokens with the key.",
  "options": [
   "Ride cable car",
   "Board street tram",

@@ -1,0 +1,20 @@
+{
+ "id": "c1-d0-1-1",
+ "scene": "Winning the match, you step outside to transit lines.",
+ "options": [
+  "Take the rickshaw",
+  "Board the monorail",
+  "Ride the funicular"
+ ],
+ "next": [
+  "c1-d3",
+  "c1-d1",
+  "c1-d2"
+ ],
+ "picture": "A flat side view along a lively canal-side transit dock. An elderly East Asian man in a blue flat cap and orange cardigan stands holding his wooden cane, left of centre. On the far left waits a brass mechanical rickshaw. Centre sits an idling yellow monorail car. On the far right waits a glass funicular carriage.",
+ "shown": [
+  "a mechanical rickshaw with glowing wheels parked on the far left",
+  "a sleek yellow monorail car sitting at a platform in the centre",
+  "a glass-walled funicular railway carriage resting on rails on the far right"
+ ]
+}

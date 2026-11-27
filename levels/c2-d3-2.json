@@ -1,0 +1,20 @@
+{
+ "id": "c2-d3-2",
+ "scene": "Inside the warm caramel refinery, sweet machinery hums.",
+ "options": [
+  "Turn brass valve",
+  "Taste bubbling vat",
+  "Ride sugar elevator"
+ ],
+ "next": [
+  "c2-d3-2-0",
+  "c2-d3-2-1",
+  "c2-d3-2-2"
+ ],
+ "picture": "Flat side view. Inside the warm refinery, the South Asian girl in her teal hoodie sits in her purple wheelchair on the left. On the far left, a brass valve wheel gleams on pipes. Centre, a bubbling copper caramel vat churns. On the far right stands an open glass sugar elevator.",
+ "shown": [
+  "A large brass valve wheel attached to a dripping pipe on the far left",
+  "A wide copper vat filled with bubbling gold caramel standing in the centre",
+  "An open glass sugar elevator with glowing buttons waiting at the far right"
+ ]
+}

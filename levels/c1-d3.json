@@ -1,0 +1,20 @@
+{
+ "id": "c1-d3",
+ "scene": "You step off the rickshaw into bustling Paper Lantern Row.",
+ "options": [
+  "Taste hot dumpling",
+  "Inspect goldfish kite",
+  "Enter lantern workshop"
+ ],
+ "next": [
+  "c1-d3-0",
+  "c1-d3-1",
+  "c1-d3-2"
+ ],
+ "picture": "Flat pixel-art side view along a brick street. On the far left, a vendor tends a steaming bamboo basket. Left of centre sits an empty two-wheeled rickshaw. In the centre, an elderly East Asian man in a blue cap, orange cardigan, and wooden cane looks up at an orange goldfish kite hanging up high. On the far right, a glowing lantern workshop doorway stands open.",
+ "shown": [
+  "a steaming bamboo basket on a wooden cart on the far left",
+  "a large orange paper goldfish kite hanging up high above you",
+  "an open curtained doorway glowing with yellow light on the far right"
+ ]
+}

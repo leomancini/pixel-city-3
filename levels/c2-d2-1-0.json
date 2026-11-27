@@ -1,0 +1,20 @@
+{
+ "id": "c2-d2-1-0",
+ "scene": "Dropping down the hatch, you enter a secret underground depot.",
+ "options": [
+  "Take delivery truck",
+  "Board steam train",
+  "Catch small airship"
+ ],
+ "next": [
+  "c2-d1",
+  "c2-d3",
+  "c2-d0"
+ ],
+ "picture": "A flat side view along a concrete depot floor. Far left, a yellow delivery truck stands with open rear doors. Centre left, the player sits in her purple wheelchair beside a drop pipe. Centre, a small steam train rests on rails. Far right, an anchored brass airship floats beside a wooden ramp.",
+ "shown": [
+  "A yellow delivery truck with open doors waits parked on the far left",
+  "A striped steam train idles quietly on tracks in the centre",
+  "A tethered brass airship sways gently near a ramp on the far right"
+ ]
+}

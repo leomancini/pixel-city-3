@@ -1,0 +1,20 @@
+{
+ "id": "c2-d3-1-2",
+ "scene": "The tickled salamander melts the exit gates open.",
+ "options": [
+  "Board airship",
+  "Hop in truck",
+  "Enter glass elevator"
+ ],
+ "next": [
+  "c2-d0",
+  "c2-d1",
+  "c2-d2"
+ ],
+ "picture": "Flat side view. In the centre, the South Asian girl in her purple wheelchair pats the happy jelly salamander. On the far left, a yellow delivery truck idles with its door open. Up high, a striped airship is tethered to a brass catwalk. On the far right stands an illuminated glass elevator.",
+ "shown": [
+  "a striped airship moored up high to a brass balcony rail",
+  "a yellow delivery truck parked open on the far left",
+  "a glowing glass elevator waiting open on the far right"
+ ]
+}

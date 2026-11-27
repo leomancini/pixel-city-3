@@ -1,0 +1,20 @@
+{
+ "id": "c1-d0-2-2",
+ "scene": "Inside the antique shop, three strange transit portals wait.",
+ "options": [
+  "Ride funicular railway",
+  "Hire cycle rickshaw",
+  "Board elevated monorail"
+ ],
+ "next": [
+  "c1-d2",
+  "c1-d3",
+  "c1-d1"
+ ],
+ "picture": "A flat side view of a cluttered antique transit parlour. On the far left, a polished brass funicular car sits with open doors. Left of centre, an elderly East Asian man in a blue flat cap and orange cardigan stands with a wooden cane. Centre rests an ornate pedal rickshaw. Far right waits a red monorail.",
+ "shown": [
+  "a brass funicular railway car waiting with doors open on the far left",
+  "a pedal rickshaw with a velvet seat waiting silently in the centre",
+  "a sleek red monorail carriage resting at an indoor boarding gate far right"
+ ]
+}

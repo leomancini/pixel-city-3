@@ -1,0 +1,20 @@
+{
+ "id": "c2-d2-0-1",
+ "scene": "The turned valve drains a wall, revealing three transit bays.",
+ "options": [
+  "Board delivery truck",
+  "Take steam train",
+  "Ride mooring airship"
+ ],
+ "next": [
+  "c2-d1",
+  "c2-d3",
+  "c2-d0"
+ ],
+ "picture": "A flat side view along a drained stone floor. Far left, a yellow delivery truck rests with its ramp lowered. Left, the girl sits in her purple wheelchair beside the turned red valve. Centre right, a candy-striped steam train puffs beside an open gateway. Far right, a brass airship gondola sways at a low mooring post.",
+ "shown": [
+  "a yellow box truck parked with its open ramp down on the far left",
+  "a puffing candy-striped steam train waiting at a platform on the centre right",
+  "a small brass gondola airship moored to a tower on the far right"
+ ]
+}

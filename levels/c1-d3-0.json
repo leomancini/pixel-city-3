@@ -1,0 +1,20 @@
+{
+ "id": "c1-d3-0",
+ "scene": "The savory dumpling bites back with spicy bean chili.",
+ "options": [
+  "Drink herbal tea",
+  "Tug goldfish string",
+  "Step through door"
+ ],
+ "next": [
+  "c1-d3-0-0",
+  "c1-d3-0-1",
+  "c1-d3-0-2"
+ ],
+ "picture": "Flat pixel-art side view along a brick street. On the far left, a vendor beside a wooden food cart offers a blue porcelain teapot. In the centre, the bearded man in his blue cap and orange cardigan holds his cane, puffing steam from his mouth. Up high hangs the orange goldfish kite with a golden dangling string. On the far right, the open doorway glows warm yellow.",
+ "shown": [
+  "A blue porcelain teapot on the food cart at the far left",
+  "A golden dangling string hanging from the goldfish kite up high",
+  "The brightly glowing lantern workshop doorway standing open on the far right"
+ ]
+}

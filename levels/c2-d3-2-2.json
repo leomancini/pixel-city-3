@@ -1,0 +1,20 @@
+{
+ "id": "c2-d3-2-2",
+ "scene": "The sugar elevator shoots up to the foundry roof depot.",
+ "options": [
+  "Board delivery truck",
+  "Take glass elevator",
+  "Board brass airship"
+ ],
+ "next": [
+  "c2-d1",
+  "c2-d2",
+  "c2-d0"
+ ],
+ "picture": "Flat side view. On the factory rooftop deck, the South Asian girl in her teal hoodie sits in her purple wheelchair on the far left. Left, a yellow delivery truck rests with an open ramp. Centre, a transparent elevator tube glimmers with buttons. Right, a brass airship is moored to a post.",
+ "shown": [
+  "A yellow delivery truck sits idling with its ramp down on the left.",
+  "A towering glass elevator tube stands with glowing buttons in the centre.",
+  "A striped brass airship bobs at a mooring post on the right."
+ ]
+}

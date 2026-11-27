@@ -1,0 +1,20 @@
+{
+ "id": "c1-d0-0-2",
+ "scene": "The brass meter prints transit passes for three waiting rides.",
+ "options": [
+  "Ride bicycle rickshaw",
+  "Board suspended monorail",
+  "Take funicular railway"
+ ],
+ "next": [
+  "c1-d3",
+  "c1-d1",
+  "c1-d2"
+ ],
+ "picture": "A flat side view along a stone promenade. Far left, a green bicycle rickshaw sits parked. Left of centre, an elderly East Asian man in a blue flat cap, orange cardigan, holding a wooden cane, stands beside an open brass meter. Up high, an overhead track holds a red monorail car. Far right, a wooden funicular car waits on slanted rails.",
+ "shown": [
+  "a green bicycle rickshaw parked with an empty passenger bench on the far left",
+  "a sleek red monorail car idling at an open door up high",
+  "a wooden funicular carriage waiting on slanted rails on the far right"
+ ]
+}

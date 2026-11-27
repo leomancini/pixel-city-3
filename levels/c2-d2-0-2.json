@@ -1,0 +1,20 @@
+{
+ "id": "c2-d2-0-2",
+ "scene": "The tunnel opens to Transit Plaza where three routes wait.",
+ "options": [
+  "Ride steam train",
+  "Board the airship",
+  "Climb into truck"
+ ],
+ "next": [
+  "c2-d3",
+  "c2-d0",
+  "c2-d1"
+ ],
+ "picture": "A flat side view along a wide stone platform. Far left, a brass steam train puffs white vapour on low tracks. Centre, the player in her purple wheelchair pauses by a ticket booth. Up high, a blue airship swings from mooring ropes. Far right, a yellow delivery truck sits parked with its door open.",
+ "shown": [
+  "a brass steam train idling on tracks with open doors at far left",
+  "a tethered blue airship gondola swinging gently up high",
+  "a yellow delivery truck parked with its cabin door ajar at far right"
+ ]
+}
