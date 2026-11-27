@@ -535,7 +535,7 @@
     if (!res.ok) throw new Error("Request failed");
     const data = await res.json();
     const img = new Image();
-    img.src = "/levels/" + id + ".jpg";
+    img.src = "/levels/" + id + ".jpg?v=" + storyVersion;
     await img.decode();
     return { ...data, img };
   }
@@ -553,10 +553,12 @@
 
   // Every session starts somewhere different, and so with a different
   // character: never where the last session on this device started.
+  let storyVersion = 0;   // changes whenever the story is rebuilt
   async function pickStart() {
     const res = await fetch("/levels/index.json");
     if (!res.ok) throw new Error("Request failed");
-    const { starts } = await res.json();
+    const { starts, version } = await res.json();
+    storyVersion = version || 0;
     // The gallery's "Play from here" names a starting point in the address.
     const asked = new URLSearchParams(location.search).get("start");
     if (starts.includes(asked)) return asked;

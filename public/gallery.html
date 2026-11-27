@@ -137,7 +137,7 @@
     node.append(...children.filter((c) => c != null));
     return node;
   };
-  const picture = (id, alt) => el("img", { src: `/levels/${id}.jpg`, alt, loading: "lazy", decoding: "async" });
+  const picture = (id, alt) => el("img", { src: `/levels/${id}.jpg?v=${data.version || 0}`, alt, loading: "lazy", decoding: "async" });
   const districtOf = (id) => id.split("-").slice(0, 2).join("-");
   const district = (id) => {
     for (const character of data.characters) {
@@ -172,7 +172,7 @@
         ),
       ),
       el("div", { className: "detail-foot" },
-        el("a", { className: "button", href: `/levels/${id}.jpg`, target: "_blank", rel: "noopener", textContent: "Open picture" }),
+        el("a", { className: "button", href: `/levels/${id}.jpg?v=${data.version || 0}`, target: "_blank", rel: "noopener", textContent: "Open picture" }),
         el("button", { textContent: "Close", onclick: () => detail.close() }),
       ),
     );

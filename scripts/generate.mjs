@@ -391,7 +391,10 @@ async function writeIndex() {
   for (let c = 0; c < CHARACTERS.length; c++) {
     if ((await levelsOf(c)).length === DISTRICTS[c].length * 13) for (let d = 0; d < DISTRICTS[c].length; d++) starts.push(idOf(c, d, []));
   }
-  await writeFile(new URL("index.json", OUT), JSON.stringify({ starts }));
+  // Pictures are cached by browsers for a day. The pages add this number to
+  // every picture address, so a rebuilt story is never shown with old pictures.
+  const version = Date.now();
+  await writeFile(new URL("index.json", OUT), JSON.stringify({ version, starts }));
   // Everything in one file for the gallery page: who plays where, and every
   // playable level's text and links.
   const characters = [];
@@ -409,7 +412,7 @@ async function writeIndex() {
       levels[id] = { scene, options, next, picture, shown, view };
     }
   }
-  await writeFile(new URL("gallery.json", OUT), JSON.stringify({ characters, levels }));
+  await writeFile(new URL("gallery.json", OUT), JSON.stringify({ version, characters, levels }));
 }
 
 await mkdir(OUT, { recursive: true });
