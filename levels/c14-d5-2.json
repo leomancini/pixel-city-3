@@ -17,5 +17,31 @@
   "A tiny brass handheld frequency meter sitting in the drawer centre",
   "A heavy rusted skeleton key stuck in a lockbox far right"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "You slide out the wooden drawer and find three curious gizmos inside.",
+   "options": [
+    "Take glowing card",
+    "Inspect brass meter",
+    "Twist rusty key"
+   ]
+  },
+  {
+   "scene": "The timber drawer smells like motor oil, holding gadgets and loose screws.",
+   "options": [
+    "Pick up card",
+    "Check small meter",
+    "Turn old key"
+   ]
+  },
+  {
+   "scene": "A violet glow shines inside the drawer beside an analog dial.",
+   "options": [
+    "Reach for card",
+    "Test dial meter",
+    "Unlock iron box"
+   ]
+  }
+ ]
 }

@@ -17,5 +17,31 @@
   "A painted hanging silk scroll pinned flat to the wall on the left",
   "A latticed bamboo screen sliding door shut on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "A gracious host gestures toward a steaming cup on the low wooden table.",
+   "options": [
+    "Taste warm tea",
+    "View painted scroll",
+    "Slide lattice door"
+   ]
+  },
+  {
+   "scene": "Paper lanterns glow softly over tatami mats as sweet, herbal steam rises.",
+   "options": [
+    "Drink hot tea",
+    "Study mountain art",
+    "Slide right screen"
+   ]
+  },
+  {
+   "scene": "Resting your boots on the tatami, you hum {tune} in the cozy tea house.",
+   "options": [
+    "Enjoy fresh tea",
+    "Inspect silk scroll",
+    "Unlatch sliding screen"
+   ]
+  }
+ ]
 }

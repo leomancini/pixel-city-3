@@ -16,5 +16,31 @@
   "A puffing steam train idling on tracks at the far left",
   "A moored striped airship basket waiting up high above the centre",
   "A transparent glass elevator tube with open doors on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "Blue sparks flutter from your new wrench as travelers bustle across the dusk platform.",
+   "options": [
+    "Ride steam train",
+    "Reach the airship",
+    "Take glass elevator"
+   ]
+  },
+  {
+   "scene": "The friendly tool glows warmly while you wonder where to find {quest}.",
+   "options": [
+    "Catch the train",
+    "Board the airship",
+    "Step inside elevator"
+   ]
+  },
+  {
+   "scene": "Soft chimes echo around the busy station platform as your wrench lights up.",
+   "options": [
+    "Hop on train",
+    "Access high airship",
+    "Use warm elevator"
+   ]
+  }
  ]
 }

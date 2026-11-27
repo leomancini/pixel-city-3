@@ -17,5 +17,31 @@
   "a purple night bus idling at a rooftop ramp stop on the right",
   "a striped ferris wheel gondola swaying beside the rail on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "You reach the rooftop, where three whimsical rides await under the twilight sky.",
+   "options": [
+    "Take book elevator",
+    "Hop on bus",
+    "Step inside gondola"
+   ]
+  },
+  {
+   "scene": "Cool evening air greets you as strange transit routes pause high above the streets.",
+   "options": [
+    "Use library hoist",
+    "Catch purple bus",
+    "Board ferris cart"
+   ]
+  },
+  {
+   "scene": "While searching for {quest}, three curious ways onward wait across the rooftop.",
+   "options": [
+    "Try book lift",
+    "Climb on bus",
+    "Enter wheel carriage"
+   ]
+  }
+ ]
 }

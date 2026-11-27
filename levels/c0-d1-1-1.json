@@ -16,5 +16,31 @@
   "a waiting yellow street tram parked at the open platform on the far left",
   "a blue harbour ferry idling beside a wooden dock gate in the centre",
   "a glowing neon subway train door standing open on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "Magic sparkles swirl across the docks as three evening rides unlock for you.",
+   "options": [
+    "Ride yellow tram",
+    "Climb on ferry",
+    "Hop on subway"
+   ]
+  },
+  {
+   "scene": "Glowing stardust drifts through the cool twilight, pointing toward three different adventures.",
+   "options": [
+    "Board the tram",
+    "Take blue boat",
+    "Enter neon train"
+   ]
+  },
+  {
+   "scene": "Glittering pollen floats over the water while you keep looking for {quest}.",
+   "options": [
+    "Catch the tram",
+    "Board blue ferry",
+    "Ride the subway"
+   ]
+  }
  ]
 }

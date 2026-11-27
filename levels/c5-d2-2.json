@@ -17,5 +17,31 @@
   "A glowing vacuum-tube radio hums softly on a table at the centre.",
   "A pedal-powered wicker helicopter rests on an open launchpad on far right."
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Warm lanterns glow inside a cozy domed treehouse high in the branches.",
+   "options": [
+    "Aim the telescope",
+    "Tweak radio dials",
+    "Hop in copter"
+   ]
+  },
+  {
+   "scene": "You arrive in a breezy sky workshop, still searching for {quest}.",
+   "options": [
+    "Check starry scope",
+    "Tune humming radio",
+    "Try wicker copter"
+   ]
+  },
+  {
+   "scene": "Star charts and strange flying machines fill this secret leafy treetop hideout.",
+   "options": [
+    "Inspect brass telescope",
+    "Adjust radio knobs",
+    "Climb into copter"
+   ]
+  }
+ ]
 }

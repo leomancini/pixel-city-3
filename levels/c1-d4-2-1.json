@@ -17,5 +17,31 @@
   "a red-hooded rickshaw with a smiling driver parked in the centre",
   "a brass hand-cranked trolley resting on gleaming rails on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Steam puffs as twilight glows, opening three pathways toward finding {quest}.",
+   "options": [
+    "Take funicular tram",
+    "Climb into rickshaw",
+    "Try handcar trolley"
+   ]
+  },
+  {
+   "scene": "Hissing steam clouds swirl above three rides ready for your next trip.",
+   "options": [
+    "Enter railway car",
+    "Choose red rickshaw",
+    "Hop on handcar"
+   ]
+  },
+  {
+   "scene": "Warm steam fills the platform air as three different vehicles await you.",
+   "options": [
+    "Board steep tram",
+    "Ride the rickshaw",
+    "Use rail handcar"
+   ]
+  }
+ ]
 }

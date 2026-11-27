@@ -17,5 +17,31 @@
   "a costumed acrobat juggling glowing blue rings while balancing right of centre",
   "a wooden rope ladder hanging down from a raised trapdoor on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "A performer juggles shining hoops under the high, striped ceiling.",
+   "options": [
+    "Open brass box",
+    "Greet the juggler",
+    "Ascend rope ladder"
+   ]
+  },
+  {
+   "scene": "Warm lantern light fills the tent as you keep hunting for {quest}.",
+   "options": [
+    "Examine golden chest",
+    "Watch ring performer",
+    "Take ladder up"
+   ]
+  },
+  {
+   "scene": "A sparkling box rests on velvet near a crowd of curious onlookers.",
+   "options": [
+    "Check fancy box",
+    "Approach the performer",
+    "Scale tall ladder"
+   ]
+  }
+ ]
 }

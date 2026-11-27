@@ -17,5 +17,31 @@
   "a transparent cylindrical elevator with open doors in the centre",
   "a striped red steam engine puffing white clouds on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The green energy cell glows bright on the busy station platform.",
+   "options": [
+    "Climb into airship",
+    "Ride glowing lift",
+    "Board puffing locomotive"
+   ]
+  },
+  {
+   "scene": "Holding the humming battery, you watch three distinct vehicles waiting to depart.",
+   "options": [
+    "Head up ramp",
+    "Step inside elevator",
+    "Take red train"
+   ]
+  },
+  {
+   "scene": "Engines rumble softly while you search for clues about {quest}.",
+   "options": [
+    "Try yellow blimp",
+    "Use glass lift",
+    "Hop on train"
+   ]
+  }
+ ]
 }

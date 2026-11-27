@@ -17,5 +17,31 @@
   "a sleek yellow monorail car idling at an elevated platform up high",
   "a red angled funicular railway car waiting at a ramp on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Whirring rollers churn out fresh paper while three clever rides wait nearby.",
+   "options": [
+    "Take the boat",
+    "Climb to monorail",
+    "Board the funicular"
+   ]
+  },
+  {
+   "scene": "Steam rises around giant paper rolls as you choose your next ride.",
+   "options": [
+    "Hop on taxi",
+    "Ride yellow monorail",
+    "Enter inclined car"
+   ]
+  },
+  {
+   "scene": "Gears clatter as you search for {quest} among three busy departures.",
+   "options": [
+    "Board river boat",
+    "Take overhead monorail",
+    "Try the funicular"
+   ]
+  }
+ ]
 }

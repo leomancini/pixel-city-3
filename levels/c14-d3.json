@@ -17,5 +17,31 @@
   "a clunky wheeled sorting robot holding a feather duster in the centre",
   "a tall metal rack brimming with colourful hooked umbrellas on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The cavernous depot echoes with the quiet clatter of busy machinery.",
+   "options": [
+    "Check yellow trunk",
+    "Wave to robot",
+    "Browse the umbrellas"
+   ]
+  },
+  {
+   "scene": "You arrive under dim arched lights, still searching for {quest}.",
+   "options": [
+    "Examine locked chest",
+    "Approach the bot",
+    "Check colourful umbrellas"
+   ]
+  },
+  {
+   "scene": "Piles of forgotten luggage surround a bustling Lost and Found booth.",
+   "options": [
+    "Study golden box",
+    "Talk to automaton",
+    "Sift umbrella stand"
+   ]
+  }
+ ]
 }

@@ -16,5 +16,31 @@
   "a blue ferryboat docked at a wooden pier on the far left",
   "a tiled subway stairwell with an open iron gate at centre",
   "a yellow vintage street tram waiting at a stop on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "The clockwork bee hovers above the bustling rooftop transit hub as dusk falls.",
+   "options": [
+    "Take blue ferry",
+    "Head down subway",
+    "Hop on tram"
+   ]
+  },
+  {
+   "scene": "Salty harbour air fills the breeze as commuters gather near the transit gates.",
+   "options": [
+    "Board wooden pier",
+    "Descend subway stairs",
+    "Enter yellow tram"
+   ]
+  },
+  {
+   "scene": "The little golden bee hums along to {tune} above the lively terminal.",
+   "options": [
+    "Climb onto boat",
+    "Walk downstairs",
+    "Ride the tram"
+   ]
+  }
  ]
 }

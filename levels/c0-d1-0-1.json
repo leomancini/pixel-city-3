@@ -16,5 +16,31 @@
   "a sleek silver subway train idling at an open hatch on the left",
   "a yellow street tram stopped on gleaming rails at centre",
   "a blue harbour ferry floating in an indoor canal on the right"
+ ],
+ "variants": [
+  {
+   "scene": "Sunset glows through tall glass panes over bustling leafy platforms.",
+   "options": [
+    "Board silver train",
+    "Climb aboard tram",
+    "Hop onto ferry"
+   ]
+  },
+  {
+   "scene": "Hanging ferns sway above the busy docks and tracks at dusk.",
+   "options": [
+    "Enter subway train",
+    "Take yellow tram",
+    "Step onto ferry"
+   ]
+  },
+  {
+   "scene": "You pause under warm lamps, still thinking of {quest}.",
+   "options": [
+    "Ride lower subway",
+    "Board center tram",
+    "Take blue boat"
+   ]
+  }
  ]
 }

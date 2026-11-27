@@ -16,5 +16,31 @@
   "A red cable car hanging open on a wire up high on the left",
   "An open glowing subway staircase entrance with tiled steps at the centre",
   "A green street tram idling with doors open on tracks at the far right"
+ ],
+ "variants": [
+  {
+   "scene": "Your boots land softly by the stairs while humming {tune}.",
+   "options": [
+    "Catch overhead car",
+    "Enter tiled subway",
+    "Hop on tram"
+   ]
+  },
+  {
+   "scene": "Neon lights reflect on wet pavement across the lively evening square.",
+   "options": [
+    "Climb to cableway",
+    "Head underground",
+    "Board green trolley"
+   ]
+  },
+  {
+   "scene": "City travelers bustle past as you shake rain off your umbrella.",
+   "options": [
+    "Board cable car",
+    "Take subway stairs",
+    "Ride the tram"
+   ]
+  }
  ]
 }

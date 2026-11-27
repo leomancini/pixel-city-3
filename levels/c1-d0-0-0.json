@@ -16,5 +16,31 @@
   "a sleek silver monorail car waiting with doors open, on the far left",
   "a red wooden funicular tram resting on a sloped track, up high",
   "a brass-trimmed pedal rickshaw with a friendly driver seated, far right"
+ ],
+ "variants": [
+  {
+   "scene": "You tap your cane on the wooden dock under the purple dusk sky.",
+   "options": [
+    "Board the train",
+    "Climb the tramway",
+    "Wave to rickshaw"
+   ]
+  },
+  {
+   "scene": "Lanterns glow softly along the water as you ponder {quest} across the docks.",
+   "options": [
+    "Hop on train",
+    "Catch the tram",
+    "Flag down rickshaw"
+   ]
+  },
+  {
+   "scene": "Warm lights greet you as commuters stroll past the harbor platform.",
+   "options": [
+    "Take the train",
+    "Ride hillside tram",
+    "Hire the rickshaw"
+   ]
+  }
  ]
 }

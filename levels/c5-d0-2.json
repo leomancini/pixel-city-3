@@ -17,5 +17,31 @@
   "a chipped, slightly protruding red brick under the beast's belly in the centre",
   "a narrow coin slot hidden within the dragon's glowing eye on the right"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "The mechanical dragon mural hides curious gadgets right inside the brick wall.",
+   "options": [
+    "Spin brass dial",
+    "Wiggle loose brick",
+    "Slip coin in"
+   ]
+  },
+  {
+   "scene": "You peer close at the spray-painted metal beast humming with hidden mechanisms.",
+   "options": [
+    "Rotate the dial",
+    "Pull out brick",
+    "Drop coin in"
+   ]
+  },
+  {
+   "scene": "Cool brickwork smells of fresh paint, hiding secrets beneath the painted dragon.",
+   "options": [
+    "Twist metal dial",
+    "Tug protruding brick",
+    "Push coin through"
+   ]
+  }
+ ]
 }

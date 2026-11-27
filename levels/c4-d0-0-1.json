@@ -17,5 +17,31 @@
   "a wooden cable tram resting at an open turnstile in the centre",
   "a sleek trolley with a curved glass roof waiting on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Swirling rainbow mist rises from the jar, guiding your search for {quest}.",
+   "options": [
+    "Enter bronze lift",
+    "Board wooden tram",
+    "Catch glass trolley"
+   ]
+  },
+  {
+   "scene": "Sparkling vapor drifts through the dusk, drifting toward the three waiting rides.",
+   "options": [
+    "Try gear lift",
+    "Hop on tram",
+    "Climb aboard trolley"
+   ]
+  },
+  {
+   "scene": "Magic smoke curls up, pointing past fruit stalls toward the evening transit.",
+   "options": [
+    "Use winding lift",
+    "Take central tram",
+    "Ride glowing trolley"
+   ]
+  }
+ ]
 }

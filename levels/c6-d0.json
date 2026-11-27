@@ -17,5 +17,31 @@
   "a tall wooden rack pinned with glossy black-and-white photos at the centre",
   "an antique brass folding camera resting atop a merchant counter on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The evening air smells like photo fixer as you step onto the cobbled square.",
+   "options": [
+    "Visit red tent",
+    "View hanging prints",
+    "Inspect antique camera"
+   ]
+  },
+  {
+   "scene": "You hop off the tram, your camera bouncing, still searching for {quest}.",
+   "options": [
+    "Enter glowing tent",
+    "Study hanging pictures",
+    "Approach camera stall"
+   ]
+  },
+  {
+   "scene": "Streetlamps flicker to life over the busy twilight market outside the tram.",
+   "options": [
+    "Peek inside tent",
+    "Scan picture display",
+    "Admire brass camera"
+   ]
+  }
+ ]
 }

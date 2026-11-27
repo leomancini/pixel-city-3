@@ -17,5 +17,31 @@
   "an orange cable car cabin waiting suspended on cables up high",
   "a lit subway stairwell with open turnstiles on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The clock bell dings, unlocking the iron gates to the busy harbor square.",
+   "options": [
+    "Take the ferry",
+    "Climb to cablecar",
+    "Head into subway"
+   ]
+  },
+  {
+   "scene": "Gears click inside the grandfather clock as pathways open across the rainy plaza.",
+   "options": [
+    "Board passenger ferry",
+    "Hop on cablecar",
+    "Enter train station"
+   ]
+  },
+  {
+   "scene": "The iron gates swing wide, offering three exciting ways to continue seeking {quest}.",
+   "options": [
+    "Choose canal boat",
+    "Ride the cablecar",
+    "Take subway stairs"
+   ]
+  }
+ ]
 }

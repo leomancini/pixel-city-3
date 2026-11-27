@@ -17,5 +17,31 @@
   "a striped zeppelin anchored to a tall radio mast in the centre",
   "a massive glowing clocktower with swinging golden gears on the right"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "The spyglass crosshairs reveal three marvelous evening wonders across the glowing city rooftops.",
+   "options": [
+    "Inspect glowing greenhouse",
+    "Observe moored airship",
+    "Study ticking clocktower"
+   ]
+  },
+  {
+   "scene": "Through the circular lens, twilight skyline views tempt your curious eyes.",
+   "options": [
+    "View leafy glasshouse",
+    "Watch tethered zeppelin",
+    "Check great clock"
+   ]
+  },
+  {
+   "scene": "Looking for {quest}, the round brass scope frames three high-up rooftop wonders.",
+   "options": [
+    "Examine roof greenhouse",
+    "Follow striped airship",
+    "Gaze at clocktower"
+   ]
+  }
+ ]
 }

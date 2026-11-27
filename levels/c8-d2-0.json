@@ -17,5 +17,31 @@
   "a gleaming brass rotary dial with glowing numerals in the centre",
   "a coin slot above a loose copper token lying on the right"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "The wooden booth smells of old polish, with polished brass gears gleaming softly inside.",
+   "options": [
+    "Pick up handset",
+    "Spin brass wheel",
+    "Drop in coin"
+   ]
+  },
+  {
+   "scene": "Humming {tune}, you step up to the vintage mechanical telephone machine.",
+   "options": [
+    "Take the receiver",
+    "Rotate number disc",
+    "Slot the penny"
+   ]
+  },
+  {
+   "scene": "A shiny token rests on the tray beside a lovely old-fashioned brass dial.",
+   "options": [
+    "Uncradle black phone",
+    "Wind the dial",
+    "Feed the slot"
+   ]
+  }
+ ]
 }

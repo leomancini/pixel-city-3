@@ -17,5 +17,31 @@
   "a glowing crane claw machine sitting in the centre",
   "a brightly lit spiral walkway on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Your wheels roll across the floor beneath bright neon lights and electronic music.",
+   "options": [
+    "Hop on pad",
+    "Try claw game",
+    "Take spiral ramp"
+   ]
+  },
+  {
+   "scene": "Humming {tune}, you coast past lively pixel screens and red torii gates.",
+   "options": [
+    "Play rhythm game",
+    "Drop a coin",
+    "Skate up ramp"
+   ]
+  },
+  {
+   "scene": "Glowing game cabinets and chiming synth chimes fill the cavernous multi-level arcade.",
+   "options": [
+    "Test dance stage",
+    "Win claw prize",
+    "Ascend lighted ramp"
+   ]
+  }
+ ]
 }

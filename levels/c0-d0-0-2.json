@@ -16,5 +16,31 @@
   "a sleek yellow street tram with open doors on the left",
   "a glass cable car suspended from a wire up high",
   "an illuminated subway entrance with tiled stairs on the right"
+ ],
+ "variants": [
+  {
+   "scene": "Dusk settles over the busy station as neon signs flicker to life.",
+   "options": [
+    "Hop on tram",
+    "Catch cable car",
+    "Enter subway station"
+   ]
+  },
+  {
+   "scene": "Commuters bustle past you while searching for clues about {quest}.",
+   "options": [
+    "Board yellow tram",
+    "Climb to gondola",
+    "Head downstairs underground"
+   ]
+  },
+  {
+   "scene": "Wires hum overhead as city travelers hurry toward their evening rides.",
+   "options": [
+    "Ride the tram",
+    "Take sky car",
+    "Descend subway steps"
+   ]
+  }
  ]
 }

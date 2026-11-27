@@ -16,5 +16,31 @@
   "A turquoise harbour ferry tied to a pier dock on the far left",
   "A lit subway entrance staircase leading underground in the centre",
   "A bright yellow street tram idling with doors open on the right"
+ ],
+ "variants": [
+  {
+   "scene": "Salty harbour air fills the breeze on this bustling sunset transit dock.",
+   "options": [
+    "Hop on ferry",
+    "Head downstairs",
+    "Step onto tram"
+   ]
+  },
+  {
+   "scene": "You reach the pier station, still searching across the city for {quest}.",
+   "options": [
+    "Board the ferry",
+    "Enter the subway",
+    "Ride the tram"
+   ]
+  },
+  {
+   "scene": "Sunset glows behind the skyline as evening commuters gather by the platforms.",
+   "options": [
+    "Take the boat",
+    "Go underground",
+    "Hop aboard tram"
+   ]
+  }
  ]
 }

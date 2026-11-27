@@ -17,5 +17,31 @@
   "a striped bicycle rickshaw with a nodding driver waiting in the centre",
   "a neon-lit ferris wheel gondola docked at an open portal on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Warm brick vaults echo with humming gears and three curious ways onward.",
+   "options": [
+    "Take book lift",
+    "Hail pedal cab",
+    "Enter neon car"
+   ]
+  },
+  {
+   "scene": "Lanterns glow softly above unusual transit stops while you still seek {quest}.",
+   "options": [
+    "Use cargo lift",
+    "Take striped rickshaw",
+    "Step inside gondola"
+   ]
+  },
+  {
+   "scene": "Pipes clatter overhead as three odd rides wait along the platform.",
+   "options": [
+    "Climb book elevator",
+    "Choose cycle rickshaw",
+    "Try ferris car"
+   ]
+  }
+ ]
 }

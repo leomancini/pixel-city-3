@@ -16,5 +16,31 @@
   "a vintage golden pinball table blinking on the far left",
   "a roller-skating panda attendant holding prize plushies on the right",
   "a swirling brass staircase rising up high on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "Electronic chimes echo off the rugs as neon lights blink everywhere.",
+   "options": [
+    "Play golden pinball",
+    "Wave to panda",
+    "Ascend brass stairs"
+   ]
+  },
+  {
+   "scene": "A skating panda holds plush prizes while you hum {tune}.",
+   "options": [
+    "Try pinball game",
+    "Approach friendly panda",
+    "Head upstairs"
+   ]
+  },
+  {
+   "scene": "Flashing arcade screens glow under the high mezzanine and twisting metal steps.",
+   "options": [
+    "Drop a coin",
+    "Chat with panda",
+    "Walk upstairs"
+   ]
+  }
  ]
 }

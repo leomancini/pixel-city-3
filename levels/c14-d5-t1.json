@@ -34,5 +34,49 @@
    "then": "Step off at Rainmaker Rooftops",
    "next": "c14-d2"
   }
+ ],
+ "variants": [
+  {
+   "scene": "Dim yellow lights sway overhead as the cable car glides through purple dusk.",
+   "options": [
+    "Turn radio knob",
+    "Take warm cup",
+    "Check brass chute"
+   ],
+   "beats": [
+    "Static clears into a lively accordion tune that gets feet tapping. The car bumps into the Gear Bridge station bumper, and pneumatic doors hiss open.",
+    "The sweet, spiced cider warms your hands through the paper cup. Cable wheels hum to a stop against the dock, and sliding doors rattle wide.",
+    "A chime rings as a shiny metal token plinks into your palm. Giant gears lock outside, and the exit doors slide open with a gentle whoosh."
+   ],
+   "ride_on": "You keep your seat, coasting past Gear Bridge through the mist. At the end depot, you board a creaky window-cleaner gondola that floats all the way to Rainmaker Rooftops."
+  },
+  {
+   "scene": "Luggage rests in overhead racks while evening colors streak past the window glass.",
+   "options": [
+    "Adjust tabletop radio",
+    "Sip offered cider",
+    "Inspect mail slot"
+   ],
+   "beats": [
+    "You twist the dial until accordion music bounces happily through the compartment. The vehicle thuds against the Gear Bridge buffer, and the pneumatic doors open.",
+    "A sip of clove cider takes the chill away. Outside, the cables slow as the car settles into Gear Bridge and the doors pull apart smoothly.",
+    "A satisfying ping sounds and a thick brass token clatters down. The car docks against massive gears, and the exit doors slide open to the platform."
+   ],
+   "ride_on": "Passing Gear Bridge, you ride all the way to the depot. There, you switch into a swaying window-cleaner gondola that hoists you up toward Rainmaker Rooftops."
+  },
+  {
+   "scene": "A mechanical parrot perches behind you while you ponder your hunt for {quest}.",
+   "options": [
+    "Twist radio dial",
+    "Receive steaming cup",
+    "Tap pneumatic box"
+   ],
+   "beats": [
+    "Fiddling with the dial brings in a jolly accordion jig. With a sudden jolt, the car docks at Gear Bridge and the heavy doors hiss open.",
+    "You take the hot cup, enjoying the cinnamon scent. The rattling cables ease to a halt at Gear Bridge, and the sliding doors part before you.",
+    "You pull the flap and catch a smooth brass token as bells ring. The car brakes at Gear Bridge, and the doors glide open right on time."
+   ],
+   "ride_on": "You stay aboard as the car rolls on, gliding beyond Gear Bridge. At the terminal depot, you catch an old window-cleaner gondola rising right to Rainmaker Rooftops."
+  }
  ]
 }

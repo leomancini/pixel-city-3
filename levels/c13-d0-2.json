@@ -17,5 +17,31 @@
   "an ornate round door handle floating unattached on the centre left",
   "a glowing geometric pixel tile resting on the ground at the far left"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "A swirl of sparkling aqua light whirls open right before your eyes.",
+   "options": [
+    "Enter glowing arch",
+    "Turn floating handle",
+    "Check shiny tile"
+   ]
+  },
+  {
+   "scene": "Electric cyan mist hums as the mural peels back into an impossible portal.",
+   "options": [
+    "Cross swirling portal",
+    "Touch antique knob",
+    "Examine glowing square"
+   ]
+  },
+  {
+   "scene": "You wonder if {quest} waits beyond this dazzling swirl of bright turquoise light.",
+   "options": [
+    "Walk into light",
+    "Reach for doorknob",
+    "Study sidewalk tile"
+   ]
+  }
+ ]
 }

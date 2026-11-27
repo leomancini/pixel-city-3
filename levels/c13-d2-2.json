@@ -17,5 +17,31 @@
   "a glowing blue soda cup standing on a low stool at far right",
   "a metal maintenance ladder bolted to a neon billboard wall on the left"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "You kick back in the deckchair and spot a brass box humming underneath.",
+   "options": [
+    "Check humming dispenser",
+    "Grab cold soda",
+    "Scale wall ladder"
+   ]
+  },
+  {
+   "scene": "Resting comfortably under dusk skies, you hum {tune} while sketching rooftop views.",
+   "options": [
+    "Study brass box",
+    "Sip rooftop drink",
+    "Ascend cinema ladder"
+   ]
+  },
+  {
+   "scene": "Relaxing on the breezy cinema roof, you notice a dispenser right beneath you.",
+   "options": [
+    "Examine brass machine",
+    "Pick up cup",
+    "Use metal ladder"
+   ]
+  }
+ ]
 }

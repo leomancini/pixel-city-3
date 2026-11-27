@@ -17,5 +17,31 @@
   "a plump grey seagull napping on a wooden dock bollard on the far left",
   "a shiny bronze trash can shaped like a whale standing on the left"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The friendly walrus hands you a cool blue ice cream cone.",
+   "options": [
+    "Enter lighthouse tower",
+    "Greet sleepy seagull",
+    "Check whale bin"
+   ]
+  },
+  {
+   "scene": "Salty ocean breezes swirl as you hold your sweet blue treat.",
+   "options": [
+    "Ascend winding steps",
+    "Stroke perched bird",
+    "Examine whale can"
+   ]
+  },
+  {
+   "scene": "You enjoy your chilly snack beneath the warm glow of the lighthouse.",
+   "options": [
+    "Explore spiral stairway",
+    "Pat resting gull",
+    "Search whale trashcan"
+   ]
+  }
+ ]
 }

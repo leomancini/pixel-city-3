@@ -17,5 +17,31 @@
   "a glowing purple double-decker bus waiting at the attached sky-ramp on the right",
   "a yellow bicycle rickshaw with a friendly driver parked at the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Cool evening air rushes across the high platform as strange sky vehicles gather.",
+   "options": [
+    "Enter striped cabin",
+    "Hop on bus",
+    "Take pedicab ride"
+   ]
+  },
+  {
+   "scene": "You step onto the bridge, still humming {tune} while options await.",
+   "options": [
+    "Ride ferris car",
+    "Board purple bus",
+    "Hail cycle rickshaw"
+   ]
+  },
+  {
+   "scene": "Warm library light spills behind you, lighting up a bustling upper bridge.",
+   "options": [
+    "Climb into gondola",
+    "Take night bus",
+    "Flag yellow rickshaw"
+   ]
+  }
+ ]
 }

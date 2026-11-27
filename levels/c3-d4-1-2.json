@@ -17,5 +17,31 @@
   "a caged book cart lift with an open safety gate in the centre",
   "a neon-lit night bus idling by an exit ramp on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "High above the twilight skyline, three lively departures await your next move.",
+   "options": [
+    "Enter glowing gondola",
+    "Take book elevator",
+    "Hop on bus"
+   ]
+  },
+  {
+   "scene": "Cool rooftop air greets you as you continue searching for {quest}.",
+   "options": [
+    "Step inside gondola",
+    "Board cargo lift",
+    "Catch the bus"
+   ]
+  },
+  {
+   "scene": "Lanterns glow softly along the platform while engines hum into the purple night.",
+   "options": [
+    "Ride ornate gondola",
+    "Use library elevator",
+    "Board night bus"
+   ]
+  }
+ ]
 }

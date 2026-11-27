@@ -17,5 +17,31 @@
   "a striped ice-cream kiosk with a serving hatch in the centre",
   "a tall spiral lighthouse with a closed brass door on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Salty sea breezes greet you as the giant lighthouse beam sweeps overhead.",
+   "options": [
+    "Try glowing arcade",
+    "Order sweet scoop",
+    "Open tower door"
+   ]
+  },
+  {
+   "scene": "Stepping onto the boardwalk, you hum {tune} while gazing around the lively pier.",
+   "options": [
+    "Visit neon parlor",
+    "Get ice cream",
+    "Enter striped tower"
+   ]
+  },
+  {
+   "scene": "Neon lights twinkle beside the sweet kiosk and the tall spiral lighthouse.",
+   "options": [
+    "Join arcade games",
+    "Grab frozen treat",
+    "Ascend the lighthouse"
+   ]
+  }
+ ]
 }

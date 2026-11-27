@@ -17,5 +17,31 @@
   "an empty plush purple reclining seat positioned to the right",
   "a star projector console with illuminated buttons on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Constellations shimmer across the giant glass ceiling as you roll onto the deck.",
+   "options": [
+    "Study giant orrery",
+    "Test purple recliner",
+    "Tap luminous console"
+   ]
+  },
+  {
+   "scene": "A sea of pixel stars glows above, reminding you of {tune}.",
+   "options": [
+    "Examine brass planetarium",
+    "Try velvet lounger",
+    "Operate star controls"
+   ]
+  },
+  {
+   "scene": "Starlight washes over the observatory floor just outside your shuttle's warm ramp.",
+   "options": [
+    "View mechanical planets",
+    "Rest on chaise",
+    "Press glowing switches"
+   ]
+  }
+ ]
 }

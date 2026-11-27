@@ -17,5 +17,31 @@
   "a wooden kiosk with steaming bamboo baskets on the right",
   "a swinging rope bridge swaying gently on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Your roller skates clatter onto the wooden platform high above the misty gorge.",
+   "options": [
+    "Pet tin cub",
+    "Order steamed bun",
+    "Traverse rope bridge"
+   ]
+  },
+  {
+   "scene": "Glowing paper lanterns sway softly as you look around for {quest}.",
+   "options": [
+    "Tickle mechanical panda",
+    "Grab warm snack",
+    "Tiptoe across bridge"
+   ]
+  },
+  {
+   "scene": "Sweet steam drifts from the food stand nestled deep inside the mountain forest.",
+   "options": [
+    "Greet small robot",
+    "Purchase fresh bun",
+    "Venture onto bridge"
+   ]
+  }
+ ]
 }

@@ -16,5 +16,31 @@
   "a mounted brass telescope on a tripod pointing outward at the far left",
   "a small furry monkey curled up asleep on a blanket in the centre",
   "a creaky swaying suspension bridge spanning toward another tower on the right"
+ ],
+ "variants": [
+  {
+   "scene": "The evening breeze cools your cheeks high above the busy market docks.",
+   "options": [
+    "Use brass telescope",
+    "Gently pat monkey",
+    "Traverse suspension bridge"
+   ]
+  },
+  {
+   "scene": "You reach the wooden walkway, still searching for clues about {quest}.",
+   "options": [
+    "Check the telescope",
+    "Stroke sleeping monkey",
+    "Walk across bridge"
+   ]
+  },
+  {
+   "scene": "Warm lanterns glow as gentle harbour waves lap the timbers below your feet.",
+   "options": [
+    "Look through telescope",
+    "Tickle snoozing monkey",
+    "Cross high bridge"
+   ]
+  }
  ]
 }

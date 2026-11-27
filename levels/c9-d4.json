@@ -17,5 +17,31 @@
   "a steep curved orange skate ramp dipping down at the centre",
   "a hovering cheerful camera drone waving mechanical hands on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Your skates hit the deck as sunset paints the lively rooftop railway platform.",
+   "options": [
+    "Buy cool smoothie",
+    "Ride the halfpipe",
+    "Wave to drone"
+   ]
+  },
+  {
+   "scene": "Neon lights glow warmly while you look around, still searching for {quest}.",
+   "options": [
+    "Get blended drink",
+    "Skate the ramp",
+    "Greet floating camera"
+   ]
+  },
+  {
+   "scene": "Whirring blenders and rolling wheels echo along the elevated city transit stop.",
+   "options": [
+    "Grab fruity smoothie",
+    "Tackle orange ramp",
+    "Salute hovering robot"
+   ]
+  }
+ ]
 }

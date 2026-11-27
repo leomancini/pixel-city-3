@@ -17,5 +17,31 @@
   "a glowing double-decker night bus idling at a stop curb on the left",
   "a yellow bicycle rickshaw waiting beside a lamppost on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Warm light filters up while city streets hum beneath the dusk sky.",
+   "options": [
+    "Take book lift",
+    "Catch purple bus",
+    "Hire pedicab"
+   ]
+  },
+  {
+   "scene": "Pigeons coo nearby as you peek down at the twilight avenues.",
+   "options": [
+    "Use cargo lift",
+    "Take city bus",
+    "Wave to rickshaw"
+   ]
+  },
+  {
+   "scene": "You hum {tune} while scanning the quiet street below for travel options.",
+   "options": [
+    "Lower rooftop lift",
+    "Hop on bus",
+    "Pedal away"
+   ]
+  }
+ ]
 }

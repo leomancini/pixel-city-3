@@ -17,5 +17,31 @@
   "a yellow hand-cranked trolley standing on rails in the centre",
   "a green wooden water taxi bobbing by steps on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Three grand departure gates swing open under the glowing platform lanterns.",
+   "options": [
+    "Ride the rickshaw",
+    "Climb on trolley",
+    "Step onto boat"
+   ]
+  },
+  {
+   "scene": "The brass figure bows low, granting you passage to continue seeking {quest}.",
+   "options": [
+    "Take the rickshaw",
+    "Mount the trolley",
+    "Board water taxi"
+   ]
+  },
+  {
+   "scene": "Cool canal air drifts inside as three different rides await your choice.",
+   "options": [
+    "Choose the rickshaw",
+    "Hop on trolley",
+    "Try the boat"
+   ]
+  }
+ ]
 }

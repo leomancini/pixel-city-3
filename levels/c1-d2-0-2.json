@@ -17,5 +17,31 @@
   "A blue-striped boat bobbing beside steps down to water on the right",
   "A sleek glass-domed monorail train doors open at a platform far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The great clock glows against the dusk as evening travelers rush about the plaza.",
+   "options": [
+    "Take the rickshaw",
+    "Try the boat",
+    "Hop on monorail"
+   ]
+  },
+  {
+   "scene": "Evening air cools the canal while you wonder where to search for {quest}.",
+   "options": [
+    "Choose bicycle cart",
+    "Catch the boat",
+    "Enter the train"
+   ]
+  },
+  {
+   "scene": "Street lamps flicker on beside the water, offering three cozy ways to travel tonight.",
+   "options": [
+    "Wave to rickshaw",
+    "Descend to boat",
+    "Board sleek monorail"
+   ]
+  }
+ ]
 }

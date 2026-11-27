@@ -17,5 +17,31 @@
   "a brass-striped steam train puffing candy-scented vapor at a platform on the right",
   "a sleek indigo star shuttle with a lowered ramp parked on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Three colorful energy turnstiles hum alive under the sparkling twilight sky.",
+   "options": [
+    "Take glass elevator",
+    "Ride steam train",
+    "Board indigo shuttle"
+   ]
+  },
+  {
+   "scene": "Sweet candy-scented steam drifts past as the neon gates light the platform.",
+   "options": [
+    "Enter open lift",
+    "Catch the train",
+    "Ascend spaceship ramp"
+   ]
+  },
+  {
+   "scene": "Neon gates flicker on, humming along to {tune} under the stars.",
+   "options": [
+    "Use tube elevator",
+    "Hop on train",
+    "Enter star rocket"
+   ]
+  }
+ ]
 }

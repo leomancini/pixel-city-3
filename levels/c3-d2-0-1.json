@@ -17,5 +17,31 @@
   "a striped bicycle rickshaw idling under a neon sign on the left",
   "a painted ferris wheel gondola hanging from an indoor rail on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The music stand holds a glowing chart of hidden subway lines.",
+   "options": [
+    "Enter library lift",
+    "Take pedicab ride",
+    "Hop inside gondola"
+   ]
+  },
+  {
+   "scene": "Bright transit tracks shine across the paper, still hummed like {tune}.",
+   "options": [
+    "Step inside elevator",
+    "Flag down tricycle",
+    "Climb into cable-car"
+   ]
+  },
+  {
+   "scene": "You study neon routes mapped upon the illuminated stand.",
+   "options": [
+    "Use shelf elevator",
+    "Wave at pedicab",
+    "Mount colorful gondola"
+   ]
+  }
+ ]
 }

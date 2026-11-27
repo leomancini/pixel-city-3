@@ -34,5 +34,49 @@
    "then": "Step off at Gear Bridge",
    "next": "c14-d1"
   }
+ ],
+ "variants": [
+  {
+   "scene": "A pink neon hound hums beside you inside the warm tow truck cab.",
+   "options": [
+    "Touch glowing hound",
+    "Adjust CB dials",
+    "Chat with driver"
+   ],
+   "beats": [
+    "The neon dachshund gives a crackling static bark and blinks electric blue just as the truck glides smoothly into the hospital bay and the cab door unlatches.",
+    "Catchy synth notes burble from the dashboard speaker, perfectly matching the speedometer's amber glow as the heavy truck rolls into the bustling workshop and swings its door open wide.",
+    "The lizard driver chuckles, handing you a phosphor voucher as the truck halts by busy glass-blowing tables, its heavy door swinging open to bright neon crackles."
+   ],
+   "ride_on": "You roll past the hospital gates without stopping. At the depot, you transfer onto the clanking bridge crawler, which carries you up to steaming soup pots and bustling stalls across Gear Bridge."
+  },
+  {
+   "scene": "City lights streak past as your scaly chauffeur steers the rumbling tow truck.",
+   "options": [
+    "Examine bright pup",
+    "Twiddle radio knobs",
+    "Check next stop"
+   ],
+   "beats": [
+    "A playful zap of blue light flashes along the glowing dog as the tow truck halts gently in the hospital garage, its passenger door clicking open.",
+    "A cheerful retro synth tune hums over the airwaves, vibrating the cozy cab just as the truck enters the open workshop and the door unlocks with a hiss.",
+    "Your driver grins toothily, sliding you a shiny phosphor voucher as the truck eases alongside glowing glass-craft benches, opening its door to warm humming lights."
+   ],
+   "ride_on": "Passing the hospital, you keep riding all the way to the depot. There, you catch the clanking bridge crawler as it rattles up toward fragrant soup stalls along high Gear Bridge."
+  },
+  {
+   "scene": "Your mind hums with {tune} while the neon dachshund shines upon the seat.",
+   "options": [
+    "Check neon dog",
+    "Turn radio dial",
+    "Question friendly driver"
+   ],
+   "beats": [
+    "Sparking blue with a perky neon yip, the glowing dachshund buzzes happily as the truck eases to a halt inside the hospital driveway and pops open its door.",
+    "A warm wave of synth melodies drifts across the dashboard as the tow truck purrs past the workshop entrance, swinging its sturdy passenger door wide open.",
+    "With a hearty reptilian chuckle, the driver offers a phosphor voucher as the truck parks neatly by glass-bending workbenches, opening its cab to lively neon sizzles."
+   ],
+   "ride_on": "Leaving the hospital behind, you ride directly to the depot and board the clanking bridge crawler, climbing up into the misty air toward savoury soup stands lining Gear Bridge."
+  }
  ]
 }

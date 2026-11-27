@@ -17,5 +17,31 @@
   "a low glass-roofed trolley idling on tracks at the centre",
   "a gilded cage lift surrounded by winding iron stairs on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Sunset glows as three different rides await on the breezy stone bridge.",
+   "options": [
+    "Climb into cable-car",
+    "Ride glass trolley",
+    "Step inside lift"
+   ]
+  },
+  {
+   "scene": "You hum {tune} while choosing which bridge transport to take next.",
+   "options": [
+    "Hop on tram",
+    "Board low trolley",
+    "Use spiral elevator"
+   ]
+  },
+  {
+   "scene": "Lamplight sparkles over the bustling bridge platforms and three ready rides.",
+   "options": [
+    "Enter red tram",
+    "Catch center trolley",
+    "Take birdcage elevator"
+   ]
+  }
+ ]
 }

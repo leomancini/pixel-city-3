@@ -34,5 +34,49 @@
    "then": "Step off at Midnight Radio Repair",
    "next": "c14-d5"
   }
+ ],
+ "variants": [
+  {
+   "scene": "A warm lantern glows while the cozy lift squeaks along its cables.",
+   "options": [
+    "Rub circular glass",
+    "Greet bird pilot",
+    "Check shiny pail"
+   ],
+   "beats": [
+    "You scrub away the sparkly froth, glimpse a gleaming spire, and feel the gondola dock at Rainmaker Rooftops as the exit swings wide.",
+    "The pigeon conductor gives a soft trill, handing you a damp umbrella token right as the cables clunk and the entryway slides back.",
+    "A winding toy frog jumps from the neon broth and lands safely in your pocket while the lift bumps to a gentle, open stop."
+   ],
+   "ride_on": "Riding past the rooftop, you dodge an unruly cloud, hop in a sputtering sidecar motorbike at the end of the line, and zip to Midnight Radio Repair."
+  },
+  {
+   "scene": "Lavender foam drifts across the windows while you ponder {quest}.",
+   "options": [
+    "Clear foamy window",
+    "Chat with pilot",
+    "Peep in bucket"
+   ],
+   "beats": [
+    "Wiping the shimmering bubbles reveals a tall lightning-catcher spire just as the car rattles into Rainmaker Rooftops and opens up.",
+    "The operator makes a friendly coo and offers a soggy token for umbrellas. With a hiss of iron cables, the doors pull apart.",
+    "A mechanical frog leaps straight out of the sparkling green liquid into your coat, just as the gondola stops and the exit parts."
+   ],
+   "ride_on": "You skip the stop, sail around a puff of cloud, and board a noisy sidecar motorbike at the terminus for a ride to Midnight Radio Repair."
+  },
+  {
+   "scene": "Cables hum overhead as the yellow car rises through the evening chill.",
+   "options": [
+    "Clean round window",
+    "Question the driver",
+    "Examine glowing tub"
+   ],
+   "beats": [
+    "You clear the iridescent lather and spot a lightning spire as the lift clatters into Rainmaker Rooftops, opening its iron grating.",
+    "After a gentle bird chirp, the pilot gifts you a wet umbrella token. The pulleys lock tightly, letting the heavy doors slide aside.",
+    "Out of the bright green wash jumps a wind-up frog into your pocket, right as the ride halts and reveals the misty air."
+   ],
+   "ride_on": "Floating past the rooftop and ducking a stray cloud, you catch an energetic sidecar motorbike at the final station bound for Midnight Radio Repair."
+  }
  ]
 }

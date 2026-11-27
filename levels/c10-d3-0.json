@@ -17,5 +17,31 @@
   "a sparkling purple fuse dangling from a stacked barrel in the centre",
   "an open workshop doorway spilling bright red lanterns and smoke on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Your skates click on stone as you hoist a glowing drum of powder.",
+   "options": [
+    "Adjust chest dials",
+    "Check sparkling fuse",
+    "Visit dragon shop"
+   ]
+  },
+  {
+   "scene": "Golden light warms your hands while the friendly brass robot hums along.",
+   "options": [
+    "Turn robot dials",
+    "Examine purple sparkler",
+    "Step inside doorway"
+   ]
+  },
+  {
+   "scene": "You carry the bright barrel past fireworks, still wondering about {quest}.",
+   "options": [
+    "Tune robot gauges",
+    "Watch sizzle fuse",
+    "Head inside shop"
+   ]
+  }
+ ]
 }

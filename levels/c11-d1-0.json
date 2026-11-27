@@ -17,5 +17,31 @@
   "a massive flashing circular button glowing yellow on the right console",
   "a dark flap on the far right bottom corner waiting empty"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "The metal claw hangs still above a mountain of colorful robot hamster plushies.",
+   "options": [
+    "Nudge red joystick",
+    "Hit yellow button",
+    "Check prize slot"
+   ]
+  },
+  {
+   "scene": "Bright arcade lights pulse as your headphones hum along to {tune}.",
+   "options": [
+    "Steer red stick",
+    "Press big button",
+    "Peek in chute"
+   ]
+  },
+  {
+   "scene": "Dozens of wide-eyed plush toys stare up past the glass at you.",
+   "options": [
+    "Guide the joystick",
+    "Slam glowing button",
+    "Examine drop flap"
+   ]
+  }
+ ]
 }

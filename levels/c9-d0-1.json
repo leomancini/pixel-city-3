@@ -17,5 +17,31 @@
   "a golden raffle token dispensed from the robot's chest slot, right",
   "a small propeller drone carrying a bento box hovering up high"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "A friendly brass tea robot happily serves hot drinks beneath the glowing red lanterns.",
+   "options": [
+    "Sip green tea",
+    "Grab shiny token",
+    "Chase flying drone"
+   ]
+  },
+  {
+   "scene": "Steam curls from fresh tea while the robot whistles {tune} on the lively platform.",
+   "options": [
+    "Taste warm tea",
+    "Collect yellow token",
+    "Track cargo drone"
+   ]
+  },
+  {
+   "scene": "The polite mechanical vendor offers a hot bowl while gears click and whir softly.",
+   "options": [
+    "Sample fragrant tea",
+    "Accept glowing ticket",
+    "Watch little drone"
+   ]
+  }
+ ]
 }

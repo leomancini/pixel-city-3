@@ -17,5 +17,31 @@
   "a large glowing dial covered in weather symbols on the machine right",
   "a steep iron fire escape ladder attached to the wall far left"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "A fluffy purple cloud drizzles neon glitter over the rooftop lab.",
+   "options": [
+    "Catch purple drizzle",
+    "Check weather dial",
+    "Climb tall ladder"
+   ]
+  },
+  {
+   "scene": "Sparkling violet raindrops splash beside you, smelling like cool ozone.",
+   "options": [
+    "Reach toward cloud",
+    "Read glowing dial",
+    "Scale side ladder"
+   ]
+  },
+  {
+   "scene": "Glowy rain sprinkles down while you still wonder where {quest} went.",
+   "options": [
+    "Touch glowing sprinkles",
+    "Inspect bronze dial",
+    "Ascend iron ladder"
+   ]
+  }
+ ]
 }

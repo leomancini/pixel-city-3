@@ -17,5 +17,31 @@
   "a folded museum blueprint tucked into the saddle pouch on the left",
   "an open glass skylight hatch resting on the roof tiles far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The mechanical dinosaur clicks and whirs to life beneath your red sneakers.",
+   "options": [
+    "Yank neck lever",
+    "Stash paper map",
+    "Jump toward skylight"
+   ]
+  },
+  {
+   "scene": "You balance atop the metal dinosaur while {tune} hums in your head.",
+   "options": [
+    "Tug control lever",
+    "Pocket the map",
+    "Hop into skylight"
+   ]
+  },
+  {
+   "scene": "Gears grind softly inside the robo-raptor high above the rooftop dig site.",
+   "options": [
+    "Shift bronze lever",
+    "Pack blueprint safe",
+    "Dive through skylight"
+   ]
+  }
+ ]
 }

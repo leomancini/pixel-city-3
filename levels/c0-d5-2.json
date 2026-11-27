@@ -17,5 +17,31 @@
   "a cork board pinned with fluttering notes in the centre",
   "an arched wooden doorway standing open on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Warm glowing lanterns and bubbling kettles welcome you into the cozy wooden gazebo.",
+   "options": [
+    "Sip hot tea",
+    "Inspect the notices",
+    "Head outside right"
+   ]
+  },
+  {
+   "scene": "You rest your boots while humming {tune} under the rain-tapping gazebo roof.",
+   "options": [
+    "Try fresh tea",
+    "Check pin board",
+    "Leave via archway"
+   ]
+  },
+  {
+   "scene": "Gentle tea steam mingles with the scent of rain inside the bright shelter.",
+   "options": [
+    "Order warm tea",
+    "Browse the board",
+    "Walk out back"
+   ]
+  }
+ ]
 }

@@ -16,5 +16,31 @@
   "a striped canal water taxi idling at a wooden pier on the far left",
   "a sleek red monorail car waiting at a platform up high",
   "a golden passenger rickshaw parked beside its driver on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "Under the copper dome, travel options hum across water, rail, and stone.",
+   "options": [
+    "Board canal boat",
+    "Climb to monorail",
+    "Choose golden rickshaw"
+   ]
+  },
+  {
+   "scene": "Quiet purple water laps below as you search for {quest} in the bustling station.",
+   "options": [
+    "Take river taxi",
+    "Catch red train",
+    "Hump into rickshaw"
+   ]
+  },
+  {
+   "scene": "Warm lanterns glow inside the grand cavern filled with buzzing city transit.",
+   "options": [
+    "Hop on boat",
+    "Take overhead monorail",
+    "Ride the rickshaw"
+   ]
+  }
  ]
 }

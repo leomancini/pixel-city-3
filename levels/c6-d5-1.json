@@ -17,5 +17,31 @@
   "a schematic pinned to the engineer's rolling toolbox, centre",
   "an open steam-vent hatch set into the brick wall, right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "A friendly mechanic passes you a buzzing glowing fuse on the alley roof.",
+   "options": [
+    "Install the fuse",
+    "Check the blueprint",
+    "Crawl through duct"
+   ]
+  },
+  {
+   "scene": "The engineer offers a bright neon cylinder while humming {tune} under his breath.",
+   "options": [
+    "Slot fuse inside",
+    "Study the schematic",
+    "Climb into hatch"
+   ]
+  },
+  {
+   "scene": "Cool evening air swirls around you as you take the glowing power cell.",
+   "options": [
+    "Place the fuse",
+    "Read glowing blueprint",
+    "Go into duct"
+   ]
+  }
+ ]
 }

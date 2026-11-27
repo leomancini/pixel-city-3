@@ -17,5 +17,31 @@
   "a motorized book cart lift with lever waiting on the centre floor",
   "a purring night bus idling through an open tent flap far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Magic sparkles lift glowing paper tickets high into the dim circus tent.",
+   "options": [
+    "Try wheeled rickshaw",
+    "Drive book trolley",
+    "Enter idling bus"
+   ]
+  },
+  {
+   "scene": "Luminous bus passes float from the brass chest as spectators watch quietly.",
+   "options": [
+    "Hop in rickshaw",
+    "Steer motorized cart",
+    "Catch the bus"
+   ]
+  },
+  {
+   "scene": "Sparkling tickets swirl upward, reminding you of {tune} as you ponder your next move.",
+   "options": [
+    "Climb into rickshaw",
+    "Use library cart",
+    "Climb on bus"
+   ]
+  }
+ ]
 }

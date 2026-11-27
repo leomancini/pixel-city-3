@@ -17,5 +17,31 @@
   "a framed parchment transit map posted in the centre of the console",
   "a tall red lever standing upright on the right control pedestal"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "Steam puffs softly beside glowing diagrams inside the cozy monorail control cabin.",
+   "options": [
+    "Twist wheel valve",
+    "Study the chart",
+    "Push red handle"
+   ]
+  },
+  {
+   "scene": "Pipes hiss warmly while you hum {tune} beside the lit transit screens.",
+   "options": [
+    "Spin metal wheel",
+    "Check line map",
+    "Throw red switch"
+   ]
+  },
+  {
+   "scene": "Warm light glows over complex subway charts and clicking copper gauges.",
+   "options": [
+    "Rotate pipe valve",
+    "Inspect route display",
+    "Pull control lever"
+   ]
+  }
+ ]
 }

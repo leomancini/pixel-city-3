@@ -17,5 +17,31 @@
   "a yellow taped note with lightning hazard symbols placed in the centre",
   "a glowing copper sphere sparking with mini bolts positioned up high"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "A trapped electric bolt snaps and hisses inside the heavy rooftop chamber.",
+   "options": [
+    "Rotate round meter",
+    "Check paper note",
+    "Reach copper sphere"
+   ]
+  },
+  {
+   "scene": "Bright sparks illuminate the glass tank as ozone tickles your nose.",
+   "options": [
+    "Twist base gauge",
+    "Study caution notice",
+    "Touch sparking ball"
+   ]
+  },
+  {
+   "scene": "Crackling lightning pulses inside the jar while you remember searching for {quest}.",
+   "options": [
+    "Adjust brass dial",
+    "Examine warning sign",
+    "Nudge top dome"
+   ]
+  }
+ ]
 }

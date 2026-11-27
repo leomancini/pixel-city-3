@@ -17,5 +17,31 @@
   "a polished brass windup key protruding from the parrot's wing on the left",
   "a dangling stamped copper label hanging from the perch on the right"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "The little clockwork bird hums quietly on its wooden perch.",
+   "options": [
+    "Drop coin in",
+    "Wind the key",
+    "Check metal tag"
+   ]
+  },
+  {
+   "scene": "Green light glows in the parrot's eye as gears whir inside.",
+   "options": [
+    "Feed chest slot",
+    "Twist winding key",
+    "Examine hanging tag"
+   ]
+  },
+  {
+   "scene": "You gently steady your hands near the curious, clacking brass bird.",
+   "options": [
+    "Slip coin inside",
+    "Crank side key",
+    "Inspect dangling tag"
+   ]
+  }
+ ]
 }

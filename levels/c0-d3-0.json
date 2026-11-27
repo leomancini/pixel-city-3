@@ -17,5 +17,31 @@
   "a small silver toggle switch resting in the centre",
   "a dangling blue velvet ribbon on the right"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "Brass gears click rhythmically behind the cracked clock face as you lean in close.",
+   "options": [
+    "Wind the key",
+    "Flip the switch",
+    "Tug the ribbon"
+   ]
+  },
+  {
+   "scene": "Golden cogs spin softly under cracked glass, waiting for your next move.",
+   "options": [
+    "Twist metal key",
+    "Nudge tiny toggle",
+    "Grab blue ribbon"
+   ]
+  },
+  {
+   "scene": "The giant clock ticks along in time with {tune}.",
+   "options": [
+    "Turn winding key",
+    "Flick center switch",
+    "Pull silk ribbon"
+   ]
+  }
+ ]
 }

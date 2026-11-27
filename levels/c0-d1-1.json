@@ -16,5 +16,31 @@
   "a shiny copper watering can resting on a potting table on the far left",
   "a glowing blue blossom nodding gently from a clay pot in the centre",
   "a heavy wooden trapdoor set into the brick floor on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "Pink lights glow warmly over misty leaves and hanging baskets.",
+   "options": [
+    "Touch shiny can",
+    "Sniff blue blossom",
+    "Lift wooden trapdoor"
+   ]
+  },
+  {
+   "scene": "A blue blossom hums {tune} under the cozy glass roof.",
+   "options": [
+    "Check watering can",
+    "Inspect singing flower",
+    "Check floor trapdoor"
+   ]
+  },
+  {
+   "scene": "Lush ferns rustle softly while sweet garden air fills the glass room.",
+   "options": [
+    "Clink metal can",
+    "Approach glowing flower",
+    "Peer down trapdoor"
+   ]
+  }
  ]
 }

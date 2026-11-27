@@ -16,5 +16,31 @@
   "a transparent glass elevator with glowing doors waiting at the far left",
   "a striped steam locomotive idling with open passenger doors at the right",
   "a moored yellow airship bobbing on a launch platform up high"
+ ],
+ "variants": [
+  {
+   "scene": "Crackling static announces three different departures across the twilight rail yard.",
+   "options": [
+    "Take glass elevator",
+    "Ride steam train",
+    "Ascend to airship"
+   ]
+  },
+  {
+   "scene": "The glowing radio hums with three bright routes out of town.",
+   "options": [
+    "Try glowing elevator",
+    "Catch idling train",
+    "Reach yellow blimp"
+   ]
+  },
+  {
+   "scene": "A friendly radio voice lists three speedy ways to continue searching for {quest}.",
+   "options": [
+    "Use lit lift",
+    "Hop on train",
+    "Board high airship"
+   ]
+  }
  ]
 }

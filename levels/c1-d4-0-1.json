@@ -17,5 +17,31 @@
   "a wooden funicular carriage waiting beside track stairs on the right",
   "a passenger rickshaw with red lanterns parked on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The gates click wide, welcoming you and the child to three wonderful rides.",
+   "options": [
+    "Take yellow train",
+    "Climb uphill trolley",
+    "Hop in rickshaw"
+   ]
+  },
+  {
+   "scene": "Under the twilight glass, three grand journeys wait beyond the brass lift doors.",
+   "options": [
+    "Board monorail car",
+    "Enter wooden funicular",
+    "Choose lantern rickshaw"
+   ]
+  },
+  {
+   "scene": "You hum {tune} while gazing at all the new ways to travel.",
+   "options": [
+    "Catch sleek train",
+    "Ride cable carriage",
+    "Try rolling rickshaw"
+   ]
+  }
+ ]
 }

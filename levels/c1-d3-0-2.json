@@ -16,5 +16,31 @@
   "a glass-domed funicular railway car waiting on the far left",
   "a striped water taxi bobbing in a canal channel on the right",
   "a sleek suspended monorail car stationed open on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "You arrive at a bustling brick station full of tracks and canal water.",
+   "options": [
+    "Board steep tram",
+    "Try canal boat",
+    "Catch sleek monorail"
+   ]
+  },
+  {
+   "scene": "Under iron arches, you hum {tune} while watching boats and trains gather.",
+   "options": [
+    "Climb into funicular",
+    "Hop on ferry",
+    "Enter upper train"
+   ]
+  },
+  {
+   "scene": "Gentle waves lap below the platform as engines hum beneath the glass ceiling.",
+   "options": [
+    "Ride glowing tram",
+    "Board striped boat",
+    "Choose high monorail"
+   ]
+  }
  ]
 }

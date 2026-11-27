@@ -17,5 +17,31 @@
   "a glowing blue dial set into the robot gardener's chest on the left",
   "the pair of towering double doors standing slightly ajar on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The mechanical gardener pauses its shears, presenting an ornate key upon its palm.",
+   "options": [
+    "Grab the key",
+    "Poke blue dial",
+    "Walk inside"
+   ]
+  },
+  {
+   "scene": "Whirring gears click softly as the brass robot holds out a shiny key.",
+   "options": [
+    "Accept the key",
+    "Touch glowing core",
+    "Head inside"
+   ]
+  },
+  {
+   "scene": "A friendly automaton extends a copper key before the towering, clock-covered mansion.",
+   "options": [
+    "Pick up key",
+    "Press chest dial",
+    "Approach the entrance"
+   ]
+  }
+ ]
 }

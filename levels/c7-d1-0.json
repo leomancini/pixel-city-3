@@ -17,5 +17,31 @@
   "a ticking wooden penguin clock resting on a workbench at the centre",
   "a hinged wooden trapdoor with a hanging rope up high far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Blue sparks bubble warmly while a toy penguin rests on the workbench.",
+   "options": [
+    "Stir blue vat",
+    "Wind toy penguin",
+    "Pull attic rope"
+   ]
+  },
+  {
+   "scene": "Gears tick softly while you keep looking for {quest} among the bright toys.",
+   "options": [
+    "Paddle glitter vat",
+    "Key penguin toy",
+    "Reach hatch rope"
+   ]
+  },
+  {
+   "scene": "A glowing copper kettle hums with steam beneath rows of carved bird toys.",
+   "options": [
+    "Mix the vat",
+    "Crank clockwork penguin",
+    "Unlatch attic door"
+   ]
+  }
+ ]
 }

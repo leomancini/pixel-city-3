@@ -17,5 +17,31 @@
   "A yellow twin-rotor spray-can drone hovering up high above the street",
   "A vibrant digital pixel wall shifting into fresh violet patterns on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "A colorful tram drops you off beneath a glowing purple pixel wall.",
+   "options": [
+    "Scale bamboo poles",
+    "Grab flying drone",
+    "Inspect glowing wall"
+   ]
+  },
+  {
+   "scene": "Fresh paint scents the dusk air as you search Mural Mile for {quest}.",
+   "options": [
+    "Ascend bamboo frame",
+    "Snag yellow drone",
+    "Tap digital display"
+   ]
+  },
+  {
+   "scene": "You hop onto the sidewalk while twin rotors whir high overhead.",
+   "options": [
+    "Climb tall scaffold",
+    "Reach for drone",
+    "Feel pixel screen"
+   ]
+  }
+ ]
 }

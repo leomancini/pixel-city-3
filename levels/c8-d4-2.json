@@ -17,5 +17,31 @@
   "an ornate brass spiral staircase leading upwards on the far right",
   "a glass display case filled with glittering crystal biscuits on the centre-left"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "A polite badger hands you a cup of glowing, minty herbal brew.",
+   "options": [
+    "Sip the brew",
+    "Head upstairs",
+    "View the pastries"
+   ]
+  },
+  {
+   "scene": "Your warm cup glows brightly as you hum {tune} to your puppy.",
+   "options": [
+    "Taste the tea",
+    "Ascend winding steps",
+    "Inspect pastry display"
+   ]
+  },
+  {
+   "scene": "Sweet steam rises from the glowing turquoise mug upon the wooden counter.",
+   "options": [
+    "Drink your beverage",
+    "Climb the staircase",
+    "Browse the treats"
+   ]
+  }
+ ]
 }

@@ -34,5 +34,49 @@
    "then": "Step off at Gear Bridge",
    "next": "c14-d1"
   }
+ ],
+ "variants": [
+  {
+   "scene": "The warm railway carriage clatters onward as overhead brass tubes whistle with mail.",
+   "options": [
+    "Inspect glowing parcel",
+    "Assist badger conductor",
+    "Pull mail lever"
+   ],
+   "beats": [
+    "A sleepy melody hums from the box, turning your beard electric blue! Metal wheels screech to a stop at Lost Property Depot, and the doors slide open wide.",
+    "The badger hands you a shiny golden parcel token with a grateful nod. The brakes let out a long hiss as the train arrives, sliding its doors open.",
+    "A cloud of purple powder floats out, uncovering a tiny singing clockwork sparrow. The carriage slows smoothly into Lost Property Depot, and the passenger doors slide open."
+   ],
+   "ride_on": "You remain in your seat. A stray stamp glides past your nose before you switch over to the bridge crawler, chugging along to the busy stalls of giant Gear Bridge."
+  },
+  {
+   "scene": "You hum {tune} while riding the cozy mail car beneath glowing lanterns.",
+   "options": [
+    "Examine radiant package",
+    "Sort letters together",
+    "Lift delivery hatch"
+   ],
+   "beats": [
+    "Soft musical notes drift from the parcel, glowing and painting your grey beard sky blue. The train grinds neatly to a stop at Lost Property Depot, doors rolling open.",
+    "For helping stack envelopes, the badger conductor awards you a gleaming golden parcel token. Right then, the train eases into Lost Property Depot and the doors pop open.",
+    "Violet sparkles drift into the air, revealing a wind-up sparrow chirping merrily inside. With a low bump, the train reaches Lost Property Depot and its doors slide wide."
+   ],
+   "ride_on": "You stay put as the station rolls away. Catching the rumbling bridge crawler instead, you head straight for the bustling market stalls crossing giant Gear Bridge."
+  },
+  {
+   "scene": "Paper envelopes rustle softly inside the dim subway car as wheels click-clack along.",
+   "options": [
+    "Check shining box",
+    "Help busy badger",
+    "Flip red handle"
+   ],
+   "beats": [
+    "The mysterious crate sings a sweet bedtime song that turns your beard bright blue! The train screeches into Lost Property Depot and the doors instantly glide open.",
+    "The polite conductor gifts you a twinkling golden parcel token for your kindness. Air brakes hiss loudly as the carriage reaches Lost Property Depot and the doors part.",
+    "Puffs of purple dust sparkle in the air, showing a tiny mechanical sparrow singing inside. The car glides to a stop at Lost Property Depot, opening its doors."
+   ],
+   "ride_on": "You decide to stay aboard. Watching a loose postage stamp drift across the aisle, you board the bridge crawler toward the bustling vendor stalls of giant Gear Bridge."
+  }
  ]
 }

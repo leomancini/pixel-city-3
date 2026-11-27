@@ -16,5 +16,31 @@
   "A steel subway train idling behind an open sliding gate on the far left.",
   "A yellow street tram waiting beside an open glass archway in the centre.",
   "A blue harbour ferry floating by an open wooden pier gate far right."
+ ],
+ "variants": [
+  {
+   "scene": "A friendly multi-screen robot greets you beside three buzzing ways to travel onward.",
+   "options": [
+    "Take the subway",
+    "Ride the tram",
+    "Hop on ferry"
+   ]
+  },
+  {
+   "scene": "Cool evening air swirls as the clanking robot offers three different routes ahead.",
+   "options": [
+    "Enter subway car",
+    "Catch the tram",
+    "Board the ferry"
+   ]
+  },
+  {
+   "scene": "Still searching for {quest}, you face three waiting rides beside the harbour.",
+   "options": [
+    "Ride the subway",
+    "Climb on tram",
+    "Take harbour boat"
+   ]
+  }
  ]
 }

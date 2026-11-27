@@ -16,5 +16,31 @@
   "a low river barge moored at a dock door on the left",
   "a brass spiral lift with an open gate at the centre",
   "a red mountain cable tram waiting on tracks at the right"
+ ],
+ "variants": [
+  {
+   "scene": "You step onto a busy platform connecting a boat, tram, and spiral lift.",
+   "options": [
+    "Cross the gangplank",
+    "Step inside lift",
+    "Climb into tram"
+   ]
+  },
+  {
+   "scene": "Under tall stone arches, three magical routes wait to help your search for {quest}.",
+   "options": [
+    "Ride canal boat",
+    "Enter brass elevator",
+    "Board red tram"
+   ]
+  },
+  {
+   "scene": "Lanterns glow over water and tracks as gears click in the golden cage.",
+   "options": [
+    "Hop on barge",
+    "Use winding lift",
+    "Take the tram"
+   ]
+  }
  ]
 }

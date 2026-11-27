@@ -17,5 +17,31 @@
   "a dangling copper antenna wire swaying gently on the far left",
   "an upright metal ladder bolted to the radio mast on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "A neon cat glows bright blue above the satellite dish with a hum.",
+   "options": [
+    "Pet neon cat",
+    "Reach hanging wire",
+    "Scale tall ladder"
+   ]
+  },
+  {
+   "scene": "The receiver sparks, beaming a cheerful glowing kitten into the dusk breeze.",
+   "options": [
+    "Touch light cat",
+    "Grab swaying cable",
+    "Climb tower ladder"
+   ]
+  },
+  {
+   "scene": "Static whirs as a projected blue cat floats right before your eyes.",
+   "options": [
+    "Poke digital cat",
+    "Hold dangling wire",
+    "Ascend metal ladder"
+   ]
+  }
+ ]
 }

@@ -16,5 +16,31 @@
   "a tethered brass airship waiting with an open ramp, floating up high",
   "a transparent cylindrical elevator with open doors, standing at the centre",
   "a brightly striped steam train puffing sweet vapour, waiting at the far right"
+ ],
+ "variants": [
+  {
+   "scene": "You enter the bustling terminal, your magic wrench humming with excitement.",
+   "options": [
+    "Climb into airship",
+    "Use glowing lift",
+    "Ride the train"
+   ]
+  },
+  {
+   "scene": "Under the massive arched ceiling, you wonder if {quest} waits above or below.",
+   "options": [
+    "Take high airship",
+    "Try middle elevator",
+    "Hop on train"
+   ]
+  },
+  {
+   "scene": "Train whistles and humming gears echo across the grand station platforms.",
+   "options": [
+    "Visit sky blimp",
+    "Step inside lift",
+    "Board passenger train"
+   ]
+  }
  ]
 }

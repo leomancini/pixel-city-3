@@ -16,5 +16,31 @@
   "A rusted iron alley gate on the far left, secured with heavy chains.",
   "A glinting brass key resting on the stone pavement at the centre.",
   "A bright yellow trolley stopped on rails along the far right side."
+ ],
+ "variants": [
+  {
+   "scene": "A shimmering brass key clatters onto the cobblestones beneath the glowing fish.",
+   "options": [
+    "Open padlocked gate",
+    "Pick up key",
+    "Ride yellow trolley"
+   ]
+  },
+  {
+   "scene": "The hanging lantern fish releases a shiny key onto the street below.",
+   "options": [
+    "Unchain iron gate",
+    "Collect brass key",
+    "Hop on trolley"
+   ]
+  },
+  {
+   "scene": "A bright key twinkles on the pavement near the locked alleyway.",
+   "options": [
+    "Try alley lock",
+    "Grab shiny key",
+    "Catch the tram"
+   ]
+  }
  ]
 }

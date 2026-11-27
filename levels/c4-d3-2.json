@@ -16,5 +16,31 @@
   "a hanging brass bell on a post at the far left",
   "a giant calm capybara soaking in a tiled bath at the centre",
   "a swaying wooden rope bridge anchored on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "Steam curls from the warm waters, while dusk paints the distant peaks purple.",
+   "options": [
+    "Sound the bell",
+    "Wave to capybara",
+    "Traverse suspension bridge"
+   ]
+  },
+  {
+   "scene": "You smell cedar and sulfur as you pause, humming {tune} above the clouds.",
+   "options": [
+    "Chime the bell",
+    "Approach the capybara",
+    "Walk the bridge"
+   ]
+  },
+  {
+   "scene": "Lanterns glow softly along the stone terrace high above the mountain mist.",
+   "options": [
+    "Toll brass bell",
+    "Say hello capybara",
+    "Brave rope bridge"
+   ]
+  }
  ]
 }

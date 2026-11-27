@@ -16,5 +16,31 @@
   "a striped ferry gangway waiting at the dock edge on the left",
   "a dangling glass gondola docked at an aerial cable station up high",
   "a bell-ringing green street tram idling on rails at the far right"
+ ],
+ "variants": [
+  {
+   "scene": "The blue fruit shines as dusk falls over three waiting city rides.",
+   "options": [
+    "Board the ferry",
+    "Take cable car",
+    "Hop on tram"
+   ]
+  },
+  {
+   "scene": "Humming {tune}, you hold the light beside ferries, trams, and sky cars.",
+   "options": [
+    "Cross ferry gangway",
+    "Ride the gondola",
+    "Catch green tram"
+   ]
+  },
+  {
+   "scene": "Your glowing prize lights up three lively ways to travel across town.",
+   "options": [
+    "Take harbor ferry",
+    "Climb in gondola",
+    "Board street tram"
+   ]
+  }
  ]
 }

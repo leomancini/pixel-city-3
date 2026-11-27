@@ -17,5 +17,31 @@
   "a pulsating blue book perched on an open reading lectern in the centre",
   "a narrow wooden rope bridge stretching into another stack aisle on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Up on the wooden walkway, a blue book sparkles with cool magic light.",
+   "options": [
+    "Aim brass telescope",
+    "Grab glowing book",
+    "Walk rope bridge"
+   ]
+  },
+  {
+   "scene": "High above the quiet readers, old paper smells drift past the high shelves.",
+   "options": [
+    "Peer through telescope",
+    "Inspect glowing tome",
+    "Traverse rope bridge"
+   ]
+  },
+  {
+   "scene": "Looking out across the grand archive, you wonder if {quest} is hidden here.",
+   "options": [
+    "Adjust brass telescope",
+    "Open glowing book",
+    "Step onto bridge"
+   ]
+  }
+ ]
 }

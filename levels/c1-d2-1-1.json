@@ -16,5 +16,31 @@
   "A green bicycle rickshaw waiting parked at the far left",
   "A yellow water taxi moored at a jetty on the right",
   "An elevated monorail boarding platform up high on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "By warm lantern light, the unfolded chart shows three paths through the nighttime city.",
+   "options": [
+    "Take green rickshaw",
+    "Hop on boat",
+    "Climb up stairs"
+   ]
+  },
+  {
+   "scene": "Looking for {quest}, you study the ancient map together beside the dark water.",
+   "options": [
+    "Call the rickshaw",
+    "Ride water taxi",
+    "Head up stairs"
+   ]
+  },
+  {
+   "scene": "The paper map points three different ways across the quiet canal docks.",
+   "options": [
+    "Wave to rickshaw",
+    "Enter yellow boat",
+    "Ascend iron stairs"
+   ]
+  }
  ]
 }

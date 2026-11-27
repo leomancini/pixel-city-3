@@ -17,5 +17,31 @@
   "an open maintenance panel buzzing with sparks on the robot's chest at right",
   "a sparkly purple bowling ball sitting in a return rack on the left"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The multi-armed brass robot hands you a warm, glowing yellow bowling pin.",
+   "options": [
+    "Grab flying pin",
+    "Check sparking chest",
+    "Launch sparkly ball"
+   ]
+  },
+  {
+   "scene": "Neon lights hum as you catch a shiny pin from the juggling automaton.",
+   "options": [
+    "Snatch juggling pin",
+    "Examine robot circuits",
+    "Send purple ball"
+   ]
+  },
+  {
+   "scene": "The tall brass juggler shares a warm, brightly glowing pin with you.",
+   "options": [
+    "Catch yellow pin",
+    "Fix open panel",
+    "Bowl purple sphere"
+   ]
+  }
+ ]
 }

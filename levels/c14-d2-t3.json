@@ -34,5 +34,49 @@
    "then": "Step off at Neon Sign Hospital",
    "next": "c14-d4"
   }
+ ],
+ "variants": [
+  {
+   "scene": "A winged parcel hovers inside the clattering mail train carriage at twilight.",
+   "options": [
+    "Snag winged parcel",
+    "Greet badger clerk",
+    "Twist overhead valve"
+   ],
+   "beats": [
+    "You grab the winged box, but it pecks your finger and swoops toward the opening doors as the train halts at Lost Property Depot.",
+    "The badger gives a polite nod and hands you a tiny velvet key just as the brakes hiss open at Lost Property Depot.",
+    "Lavender steam puffs into the air, steadying the bumpy ride until the mail train rolls safely into Lost Property Depot and its doors open."
+   ],
+   "ride_on": "You ride past the platform and watch the city flicker by. At the final stop, a friendly tow truck driver gives you a lift straight to Neon Sign Hospital."
+  },
+  {
+   "scene": "Sunset glows outside the rattling train window while you hum {tune}.",
+   "options": [
+    "Grab flying mail",
+    "Talk to badger",
+    "Adjust brass pipe"
+   ],
+   "beats": [
+    "You catch the fluttering parcel, but it playfully bites your mitten and zips outside as the carriages stop at Lost Property Depot.",
+    "The badger whispers postal secrets and presses a velvet key into your coat pocket right as the doors part at Lost Property Depot.",
+    "A fragrant cloud of lavender mist gushes forth, calming the squeaky wheels as the train pulls into Lost Property Depot and the doors part."
+   ],
+   "ride_on": "Remaining aboard, you leave the depot behind and ride to the end of the line. A cheerful tow truck scoops you up and drops you off at Neon Sign Hospital."
+  },
+  {
+   "scene": "Paper parcels and copper pipes shudder inside the busy evening mail carriage.",
+   "options": [
+    "Trap winged box",
+    "Ask sorting badger",
+    "Crank steam valve"
+   ],
+   "beats": [
+    "Your hands cup the little winged package, but it pinches your palm and darts out as the train stops at Lost Property Depot.",
+    "The smart badger bows, slipping a soft velvet key into your hand just before the brakes squeal and the Depot doors slide wide.",
+    "Sweet lavender vapour fills the compartment, softening the ride until the train brakes smoothly and the doors open at Lost Property Depot."
+   ],
+   "ride_on": "Skipping the depot, you let the rails carry you to the terminal. From there, you hitch a ride on an amiable tow truck right to Neon Sign Hospital."
+  }
  ]
 }

@@ -16,5 +16,31 @@
   "a tubular glass elevator on the left with glowing sea-blue doors open",
   "a striped red steam train waiting on tracks at the centre",
   "an orange delivery truck parked on the far right with hatch open"
+ ],
+ "variants": [
+  {
+   "scene": "The lever clicks, opening three busy routes across the twilight sky dock.",
+   "options": [
+    "Enter glowing elevator",
+    "Take red train",
+    "Climb orange truck"
+   ]
+  },
+  {
+   "scene": "Engines rumble as three fresh paths open up for your search for {quest}.",
+   "options": [
+    "Roll into elevator",
+    "Board passenger train",
+    "Catch delivery truck"
+   ]
+  },
+  {
+   "scene": "Lanterns flicker over the wooden platform, revealing three different rides ahead.",
+   "options": [
+    "Try glass elevator",
+    "Ride chugging train",
+    "Check parked truck"
+   ]
+  }
  ]
 }

@@ -16,5 +16,31 @@
   "a striped beehive dripping golden honey, standing on the left",
   "a glass greenhouse door glowing with pink light in the centre",
   "a huge purple radish sprouting from soil on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "The cable car drops you off amid buzzing bees, lush crops, and cozy sunset light.",
+   "options": [
+    "Lick sweet honey",
+    "Open pink greenhouse",
+    "Tug enormous radish"
+   ]
+  },
+  {
+   "scene": "You hop out onto the grassy rooftop, humming {tune} above the bustling city.",
+   "options": [
+    "Sample dripping comb",
+    "Explore warm greenhouse",
+    "Harvest colossal radish"
+   ]
+  },
+  {
+   "scene": "Fresh herbs, warm honey, and glowing glass greet your boots at the rooftop stop.",
+   "options": [
+    "Try fresh honey",
+    "Visit pink greenhouse",
+    "Pull massive radish"
+   ]
+  }
  ]
 }

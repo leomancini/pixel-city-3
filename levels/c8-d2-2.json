@@ -17,5 +17,31 @@
   "a friendly four-armed robot barista polishing a teacup at the centre counter",
   "a cork board pinned with fluttering notes hanging on the right wall"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The cosy tea room smells of fresh scones and warm cinnamon spice.",
+   "options": [
+    "Check tiered cakes",
+    "Greet robot server",
+    "Browse cork board"
+   ]
+  },
+  {
+   "scene": "Golden lamps glow softly while you hum {tune} inside the snug cafe.",
+   "options": [
+    "View pastry tower",
+    "Talk to automaton",
+    "Scan paper notices"
+   ]
+  },
+  {
+   "scene": "Brass kettles whistle merrily above polished timber floors and steaming cups.",
+   "options": [
+    "Eye sweet treats",
+    "Approach metal barista",
+    "Check wall bulletin"
+   ]
+  }
+ ]
 }

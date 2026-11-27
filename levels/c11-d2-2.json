@@ -17,5 +17,31 @@
   "swirling neon carp leaping through the mist on the far left",
   "a rainbow cable tram idling at the far right platform"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Rainbow lights glitter above as sweet mist drifts over the glass walkway.",
+   "options": [
+    "Play laser harp",
+    "Toss carp treats",
+    "Board rainbow tram"
+   ]
+  },
+  {
+   "scene": "Headphones humming with {tune}, you step onto the shimmering bridge above the river.",
+   "options": [
+    "Strum light harp",
+    "Scatter carp feed",
+    "Head toward tram"
+   ]
+  },
+  {
+   "scene": "Glowing glass tiles shine beneath your sneakers near the bustling river station.",
+   "options": [
+    "Pluck harp strings",
+    "Feed glowing fish",
+    "Visit tram stop"
+   ]
+  }
+ ]
 }

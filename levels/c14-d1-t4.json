@@ -34,5 +34,49 @@
    "then": "Step off at Rainmaker Rooftops",
    "next": "c14-d2"
   }
+ ],
+ "variants": [
+  {
+   "scene": "The rusty tow truck rumbles onward as sunset bathes the cluttered cabin in violet.",
+   "options": [
+    "Fiddle with radio",
+    "Pry taped box",
+    "Stroke little dog"
+   ],
+   "beats": [
+    "Cheerful synth tunes burst through the fuzz just as brakes squeal. The truck halts, and the door opens to a warm, humming pink glow.",
+    "A delicate glass pretzel gleams inside. You pocket the trinket as the truck pulls up and its door creaks wide before a glowing shop.",
+    "The sleepy little hound gives a cozy grunt against your leg. The engine idles down, and the door springs open to dazzling neon signs."
+   ],
+   "ride_on": "The driver hands you mints as you cruise past the hospital glow. At the final depot, an outdoor window-cleaner gondola lifts you up to Rainmaker Rooftops."
+  },
+  {
+   "scene": "You jolt along over the bridge while humming {tune} above the noisy engine.",
+   "options": [
+    "Dial the receiver",
+    "Check metal compartment",
+    "Pat the pug"
+   ],
+   "beats": [
+    "Crisp synth brass blares over the speakers as the truck eases to a stop. Its door unlocks onto a brilliant pink radiance.",
+    "Peeling the tape reveals a tiny pretzel spun from glowing glass. Tucking it away, you hear the engine die as bright neon welcomes you outside.",
+    "A wrinkly face nuzzles your knee with a contented sigh. The vehicle halts, its door clicking open toward a flurry of colorful lights."
+   ],
+   "ride_on": "Snacking on peppermints, you ride past the hospital into the night. A cable gondola used by window cleaners hoists you right up into Rainmaker Rooftops."
+  },
+  {
+   "scene": "Old paper scraps rustle across the floorboards of the roaring, sunset-lit truck cabin.",
+   "options": [
+    "Adjust glowing radio",
+    "Inspect taped cabinet",
+    "Soothe the dog"
+   ],
+   "beats": [
+    "Bouncy synth beats fill the air while the heavy truck glides to a stop. The door flings wide into a sea of electric magenta.",
+    "You discover a shining glass pretzel tucked inside. It slips into your corduroy coat right as the brakes hiss and the glowing workshop appears.",
+    "The chubby dog twitches its paws peacefully against you. Wheels stop turning, and the door swings ajar to reveal a buzzing rainbow of signs."
+   ],
+   "ride_on": "You share driver's peppermints past the glowing hospital wards. When the cab stops, you hop inside a window-cleaner gondola that rises straight to Rainmaker Rooftops."
+  }
  ]
 }

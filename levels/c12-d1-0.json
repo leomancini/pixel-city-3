@@ -17,5 +17,31 @@
   "a row of numbered wooden shoe lockers stands shut at the far left",
   "an arched hallway strung with red lanterns stands open on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Warm bathwater bubbles softly as lantern light glows through the rising steam.",
+   "options": [
+    "Ding the bell",
+    "Check wooden locker",
+    "Walk down hallway"
+   ]
+  },
+  {
+   "scene": "You wheel your bicycle inside, thinking of {quest} amid the soothing mist.",
+   "options": [
+    "Tap desk bell",
+    "Inspect tall locker",
+    "Pass under lanterns"
+   ]
+  },
+  {
+   "scene": "Sweet cedar scent drifts from the bubbling pool into the cozy wooden lobby.",
+   "options": [
+    "Ring counter bell",
+    "Try shoe locker",
+    "Head past lanterns"
+   ]
+  }
+ ]
 }

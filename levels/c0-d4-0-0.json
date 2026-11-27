@@ -17,5 +17,31 @@
   "a subway entrance with tiled stairs descending below on the centre ground",
   "a yellow street tram with open sliding doors on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Key tucked away safely, you face three glowing ways forward in the rain.",
+   "options": [
+    "Enter cable car",
+    "Head downstairs",
+    "Hop on tram"
+   ]
+  },
+  {
+   "scene": "Rain taps your umbrella as three cozy transit rides wait for you.",
+   "options": [
+    "Ride cable car",
+    "Descend to subway",
+    "Catch yellow tram"
+   ]
+  },
+  {
+   "scene": "Pocketing the key, you hum {tune} beside the rainy station platform.",
+   "options": [
+    "Climb into cable car",
+    "Walk down stairs",
+    "Board yellow tram"
+   ]
+  }
+ ]
 }

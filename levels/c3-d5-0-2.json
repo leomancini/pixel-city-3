@@ -17,5 +17,31 @@
   "a yellow bicycle rickshaw parked right of centre with a waiting driver",
   "a brass spiral staircase lift ascending up high on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Fresh bakery smells fill the dusk air as you check your open paper map.",
+   "options": [
+    "Hop on bus",
+    "Take yellow rickshaw",
+    "Climb spiral lift"
+   ]
+  },
+  {
+   "scene": "You study the map outside the bakery while looking for {quest}.",
+   "options": [
+    "Catch red bus",
+    "Hail bike rickshaw",
+    "Enter tall lift"
+   ]
+  },
+  {
+   "scene": "Warm shop lights glow while you plan your route by the evening street.",
+   "options": [
+    "Ride double-decker bus",
+    "Pedal away rickshaw",
+    "Use brass lift"
+   ]
+  }
+ ]
 }

@@ -17,5 +17,31 @@
   "a mechanical robotic raptor skeleton clicking its jaws in the centre",
   "a glass gift shop door with neon signs on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "A metallic dinosaur stands tall under the purple evening sky on the rooftop.",
+   "options": [
+    "Uncover sand fossils",
+    "Climb robot raptor",
+    "Browse the shop"
+   ]
+  },
+  {
+   "scene": "Cool rooftop air greets you as you keep searching for {quest}.",
+   "options": [
+    "Examine the bones",
+    "Mount metal beast",
+    "Visit gift store"
+   ]
+  },
+  {
+   "scene": "Bright neon glows through the shop window beside a robotic dinosaur skeleton.",
+   "options": [
+    "Search the sandpit",
+    "Hop on raptor",
+    "Go inside shop"
+   ]
+  }
+ ]
 }

@@ -17,5 +17,31 @@
   "a printed schematic taped inside the lid in the centre",
   "a small brass key tucked on the right ledge"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "Dust tickles your nose as your hands sort through old cardboard jackets.",
+   "options": [
+    "Take golden record",
+    "Read taped sketch",
+    "Snag metal key"
+   ]
+  },
+  {
+   "scene": "Cardboard rustles gently while you thumb past rows of mysterious vintage tunes.",
+   "options": [
+    "Slide out gold",
+    "Check robot print",
+    "Pocket the key"
+   ]
+  },
+  {
+   "scene": "A faint melody reminiscent of {tune} whispers as you dig inside the chest.",
+   "options": [
+    "Reach for gold",
+    "Study robot paper",
+    "Take small key"
+   ]
+  }
+ ]
 }

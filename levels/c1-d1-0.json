@@ -17,5 +17,31 @@
   "a mysterious golden egg sitting stationary in the centre prize pit",
   "a sleeping calico plush wedged on the right beneath the metal claw"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "Your hand steadies the joystick as the metal crane hovers above colorful prizes.",
+   "options": [
+    "Snag tin robot",
+    "Hook golden egg",
+    "Nudge calico cat"
+   ]
+  },
+  {
+   "scene": "Bright glass reflects neon lights as the mechanical claw waits for your command.",
+   "options": [
+    "Take robot toy",
+    "Catch shiny egg",
+    "Pinch sleeping cat"
+   ]
+  },
+  {
+   "scene": "Leaning on your cane, you hum {tune} while sizing up the prize chute.",
+   "options": [
+    "Grip windup robot",
+    "Clutch gold capsule",
+    "Lift plush cat"
+   ]
+  }
+ ]
 }

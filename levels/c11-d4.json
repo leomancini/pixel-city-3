@@ -17,5 +17,31 @@
   "a tiered fountain spewing green goo, bubbling in the centre",
   "a floating spherical selfie robot blinking a camera lens on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "You hop out of the brass pod, headphones humming {tune}.",
+   "options": [
+    "Check bright kicks",
+    "Poke green fountain",
+    "Smile at drone"
+   ]
+  },
+  {
+   "scene": "A glowing green fountain gurgles as you step across the glossy floor tiles.",
+   "options": [
+    "Inspect neon high-tops",
+    "Prod strange goo",
+    "Wave to camera"
+   ]
+  },
+  {
+   "scene": "The escalator pod doors slide open beneath the towering glass ceiling.",
+   "options": [
+    "Admire fancy shoes",
+    "Sample fizzy slime",
+    "Greet floating bot"
+   ]
+  }
+ ]
 }

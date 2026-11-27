@@ -16,5 +16,31 @@
   "a glowing brass gear resting on the workbench to the far right",
   "a smiling clockmaker with magnifying goggles standing in the doorway on the right",
   "a steaming copper kettle resting on a small stove to the left"
+ ],
+ "variants": [
+  {
+   "scene": "You step into the warm, ticking workshop as the smiling clockmaker welcomes you.",
+   "options": [
+    "Touch shining gear",
+    "Wave to maker",
+    "Inspect warm kettle"
+   ]
+  },
+  {
+   "scene": "Clocks tick softly while you wonder if anyone here has seen {quest}.",
+   "options": [
+    "Grab bright gear",
+    "Say hello maker",
+    "Watch hot kettle"
+   ]
+  },
+  {
+   "scene": "A cozy stove crackles inside the shop surrounded by ticking pendulum clocks.",
+   "options": [
+    "Reach for cog",
+    "Speak to clockmaker",
+    "Visit small stove"
+   ]
+  }
  ]
 }

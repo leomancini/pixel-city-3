@@ -16,5 +16,31 @@
   "A brass spiral lift cage with open gate stands on the far left.",
   "A red mountain cable tram waits on rails in the centre.",
   "A green wooden river barge bobs at a dock on the far right."
+ ],
+ "variants": [
+  {
+   "scene": "The bearded weaver studies your glowing blueprint under the purple dusk sky.",
+   "options": [
+    "Enter brass elevator",
+    "Climb aboard tram",
+    "Step onto barge"
+   ]
+  },
+  {
+   "scene": "You unroll the blue map beside the tracks, wondering where {quest} is hidden.",
+   "options": [
+    "Try spiral lift",
+    "Hop on tram",
+    "Board wooden boat"
+   ]
+  },
+  {
+   "scene": "Golden streetlamps hum warmly as the old weaver admires your shimmering blueprint.",
+   "options": [
+    "Use gilded lift",
+    "Catch red tram",
+    "Take green barge"
+   ]
+  }
  ]
 }

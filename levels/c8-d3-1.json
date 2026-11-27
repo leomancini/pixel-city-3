@@ -17,5 +17,31 @@
   "the velvet sleeve of the masked cat-costumed reveller standing in centre",
   "a stone bridge arching over misty canal water on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "A masked cat reveller offers you a shining, intricate golden cube.",
+   "options": [
+    "Inspect glowing cube",
+    "Touch patterned fabric",
+    "Climb stone bridge"
+   ]
+  },
+  {
+   "scene": "Golden light spills over the canal stones from the cat's mysterious cube.",
+   "options": [
+    "Examine golden cube",
+    "Feel patterned sleeve",
+    "Walk over bridge"
+   ]
+  },
+  {
+   "scene": "You hum {tune} while the masked figure presents a bright, puzzle-carved box.",
+   "options": [
+    "Solve mysterious box",
+    "Pet velvet arm",
+    "Head across bridge"
+   ]
+  }
+ ]
 }

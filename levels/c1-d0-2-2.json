@@ -16,5 +16,31 @@
   "a brass funicular railway car waiting with doors open on the far left",
   "a pedal rickshaw with a velvet seat waiting silently in the centre",
   "a sleek red monorail carriage resting at an indoor boarding gate far right"
+ ],
+ "variants": [
+  {
+   "scene": "Clocks tick softly beside three unusual ways to travel.",
+   "options": [
+    "Take brass tram",
+    "Climb into rickshaw",
+    "Try red train"
+   ]
+  },
+  {
+   "scene": "You lean on your cane, still wondering where to find {quest}.",
+   "options": [
+    "Board golden funicular",
+    "Take cozy rickshaw",
+    "Enter red carriage"
+   ]
+  },
+  {
+   "scene": "Lanterns glow warmly over strange vehicles waiting on rugs and rails.",
+   "options": [
+    "Ride glowing tram",
+    "Choose velvet rickshaw",
+    "Catch red train"
+   ]
+  }
  ]
 }

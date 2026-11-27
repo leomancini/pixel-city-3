@@ -16,5 +16,31 @@
   "A moored brass airship ladder hangs waiting on the far left.",
   "A transparent glass elevator shaft sits with open doors in the centre.",
   "A puffing pink steam train engine stands waiting on the far right."
+ ],
+ "variants": [
+  {
+   "scene": "Three grand travel routes open wide across the bustling workshop platform.",
+   "options": [
+    "Climb into airship",
+    "Enter glass elevator",
+    "Ride steam train"
+   ]
+  },
+  {
+   "scene": "Pink steam puffs softly as you ponder {quest} beside your mechanical friend.",
+   "options": [
+    "Visit brass airship",
+    "Use central lift",
+    "Catch the train"
+   ]
+  },
+  {
+   "scene": "Warm lights glow from waiting transports under the purple evening sky.",
+   "options": [
+    "Board moored airship",
+    "Step inside elevator",
+    "Hop on train"
+   ]
+  }
  ]
 }

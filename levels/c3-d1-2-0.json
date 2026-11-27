@@ -17,5 +17,31 @@
   "a striped ferris wheel gondola docked high up on the right",
   "a glowing purple double-decker night bus idling at the far right curb"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "You check your map as twilight settles softly over the elevated walkway.",
+   "options": [
+    "Take pedicab",
+    "Climb into gondola",
+    "Hop on bus"
+   ]
+  },
+  {
+   "scene": "Humming {tune}, you glance around the busy bridge for your next ride.",
+   "options": [
+    "Ride yellow trike",
+    "Enter wheel cabin",
+    "Board purple bus"
+   ]
+  },
+  {
+   "scene": "Cool evening air greets you on the platform beside the glowing city skyline.",
+   "options": [
+    "Hire bicycle rickshaw",
+    "Ride ferris gondola",
+    "Take night bus"
+   ]
+  }
+ ]
 }

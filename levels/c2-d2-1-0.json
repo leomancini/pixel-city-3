@@ -16,5 +16,31 @@
   "A yellow delivery truck with open doors waits parked on the far left",
   "A striped steam train idles quietly on tracks in the centre",
   "A tethered brass airship sways gently near a ramp on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "Steam puffs as you roll into a hidden underground vehicle bay.",
+   "options": [
+    "Climb into truck",
+    "Ride steam train",
+    "Hop in airship"
+   ]
+  },
+  {
+   "scene": "You arrive in a secret depot, still searching for {quest}.",
+   "options": [
+    "Pick yellow truck",
+    "Board old train",
+    "Board brass airship"
+   ]
+  },
+  {
+   "scene": "Three strange rides wait quietly in the dim, echoing transit station.",
+   "options": [
+    "Choose parked truck",
+    "Enter steam train",
+    "Take mini airship"
+   ]
+  }
  ]
 }

@@ -17,5 +17,31 @@
   "a curved red listening booth with closed glass doors on the right",
   "a huge glowing disc spinning slowly on an overhead mount up high"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "You leave the metal lift, bathed in soft purple neon and groovy tunes.",
+   "options": [
+    "Search the crate",
+    "Try the booth",
+    "Inspect ceiling disc"
+   ]
+  },
+  {
+   "scene": "Exiting the elevator, you hum {tune} beneath a gigantic glowing record.",
+   "options": [
+    "Flip through sleeves",
+    "Check listening pod",
+    "Study neon record"
+   ]
+  },
+  {
+   "scene": "Warm neon lights greet you as you step out among towering shelves.",
+   "options": [
+    "Rifle through records",
+    "Step inside booth",
+    "Look up overhead"
+   ]
+  }
+ ]
 }

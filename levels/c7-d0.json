@@ -17,5 +17,31 @@
   "a wooden tea hut with steaming chimney standing on the right",
   "a smiling girl holding a huge dragon kite spool in the centre"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The evening breeze ruffles your scarf as the lift delivers you to the ridge.",
+   "options": [
+    "Check wind socks",
+    "Visit tea hut",
+    "Greet kite flyer"
+   ]
+  },
+  {
+   "scene": "Fresh alpine air greets you on the grassy bluff under a purple sky.",
+   "options": [
+    "Watch wind socks",
+    "Step inside hut",
+    "Approach the flyer"
+   ]
+  },
+  {
+   "scene": "You arrive at the scenic hilltop, still wondering where to search for {quest}.",
+   "options": [
+    "Study wind socks",
+    "Head inside hut",
+    "Speak with girl"
+   ]
+  }
+ ]
 }

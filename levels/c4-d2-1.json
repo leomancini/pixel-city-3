@@ -16,5 +16,31 @@
   "a glowing green capsule popping out from a metal pipe up high",
   "a circular iron sorting hatch swung wide open on the left",
   "a sturdy wooden ladder leading out through an open hatch on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "Gears clatter as the brass pipe overhead pops open with a green hiss.",
+   "options": [
+    "Grab glowing capsule",
+    "Check open hatch",
+    "Use wooden ladder"
+   ]
+  },
+  {
+   "scene": "The lever clicks! Pigeons flutter above while a pneumatic cylinder rattles into view.",
+   "options": [
+    "Snatch green tube",
+    "Peer down hatch",
+    "Climb right ladder"
+   ]
+  },
+  {
+   "scene": "A glowing message canister shoots from the pipe with a loud clank.",
+   "options": [
+    "Catch green capsule",
+    "Examine floor hatch",
+    "Scale side ladder"
+   ]
+  }
  ]
 }

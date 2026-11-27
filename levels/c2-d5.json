@@ -17,5 +17,31 @@
   "a giant white turbine tower base with an access valve in the centre",
   "a glowing chequered race ramp starting line on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The sky gondola delivers you to this buzzing, windy rooftop race track.",
+   "options": [
+    "Check yellow pitkart",
+    "Turn base valve",
+    "Approach race ramp"
+   ]
+  },
+  {
+   "scene": "Cool evening air greets you as you roll onto the high metal platform.",
+   "options": [
+    "Study robotic kart",
+    "Rotate giant wheel",
+    "Head to ramp"
+   ]
+  },
+  {
+   "scene": "You arrive at the turbine deck, still humming {tune} in the breeze.",
+   "options": [
+    "Examine mechanical kart",
+    "Twist turbine hatch",
+    "Roll toward ramp"
+   ]
+  }
+ ]
 }

@@ -17,5 +17,31 @@
   "a caged brass book cart lift with open metal lattice doors in the centre",
   "a yellow bicycle rickshaw with an idling driver waiting on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Strings of fairy lights glow above you on this bustling evening rooftop.",
+   "options": [
+    "Enter glowing gondola",
+    "Step inside lift",
+    "Take yellow rickshaw"
+   ]
+  },
+  {
+   "scene": "A gentle twilight breeze greets you as you keep looking for {quest}.",
+   "options": [
+    "Board ferris wheel",
+    "Use brass lift",
+    "Wave down rickshaw"
+   ]
+  },
+  {
+   "scene": "You reach the rooftop terrace where city lights meet the starry sky.",
+   "options": [
+    "Hop into gondola",
+    "Enter caged lift",
+    "Hire bicycle rickshaw"
+   ]
+  }
+ ]
 }

@@ -17,5 +17,31 @@
   "a glossy rubber hamburger resting on the centre counter",
   "a pair of swinging silver doors on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Studio lights glow overhead as a glowing jukebox lights up the movie diner.",
+   "options": [
+    "Use the jukebox",
+    "Inspect the burger",
+    "Push swinging doors"
+   ]
+  },
+  {
+   "scene": "You wonder if {quest} is hidden behind this bright backlot diner counter.",
+   "options": [
+    "Choose a song",
+    "Take plastic burger",
+    "Check back kitchen"
+   ]
+  },
+  {
+   "scene": "Warm neon hums across the checkerboard floor of the cozy film set diner.",
+   "options": [
+    "Start colorful jukebox",
+    "Touch shiny burger",
+    "Enter double doors"
+   ]
+  }
+ ]
 }

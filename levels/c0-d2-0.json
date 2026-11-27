@@ -16,5 +16,31 @@
   "a steaming ceramic pot of glowing blue broth sitting on the left cart",
   "a friendly badger chef wearing a striped apron standing in the centre",
   "a dark brick archway lit by hanging neon cables on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "A friendly badger in an apron greets you beside a glowing blue soup cart.",
+   "options": [
+    "Sample glowing soup",
+    "Greet badger chef",
+    "Explore dark tunnel"
+   ]
+  },
+  {
+   "scene": "Bright blue steam rises from the pot as lanterns flicker overhead in the bustling market.",
+   "options": [
+    "Sip bubbly broth",
+    "Chat with badger",
+    "Head inside archway"
+   ]
+  },
+  {
+   "scene": "The warm soup smells delicious while you wonder if anyone here has seen {quest}.",
+   "options": [
+    "Try the soup",
+    "Speak with chef",
+    "Walk into tunnel"
+   ]
+  }
  ]
 }

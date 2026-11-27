@@ -34,5 +34,49 @@
    "then": "Step off at Gear Bridge",
    "next": "c14-d1"
   }
+ ],
+ "variants": [
+  {
+   "scene": "Cool night air rushes past as you cruise across the glittering skyline.",
+   "options": [
+    "Twist metal dial",
+    "Watch metal bird",
+    "Open canvas sack"
+   ],
+   "beats": [
+    "A clear radio melody crackles to life from the dashboard speaker just as the sidecar touches down and the depot doors open.",
+    "The fluttering mechanical bird drops a bright vacuum tube into your hand right as the motorbike rolls inside and the sliding doors open.",
+    "Your fingers pull out a springy copper coil from the bag just as the sidecar settles onto the floor and the big doors open."
+   ],
+   "ride_on": "You breeze past Midnight Radio Repair with a friendly wave. At the end of the line, you hop onto a clanking bridge crawler bound for the whirring towers of Gear Bridge."
+  },
+  {
+   "scene": "Stars twinkle above purple skies while your sidecar hums through the city.",
+   "options": [
+    "Adjust glowing dial",
+    "Check flying bird",
+    "Search floor bag"
+   ],
+   "beats": [
+    "Faint station chatter resolves into cheerful music as the sidecar steers smoothly inside and the glass entrance doors open.",
+    "The clockwork flyer releases a warm, glowing glass tube neatly into your palms as the motorcycle lands and the hangar doors open.",
+    "You unearth a tidy spool of copper wire from the pouch just as the sidecar glides to a stop and the wide doors open."
+   ],
+   "ride_on": "Leaving Midnight Radio Repair behind in the neon glow, you ride to the final stop and climb aboard a clattering bridge crawler headed straight for bustling Gear Bridge."
+  },
+  {
+   "scene": "Your corduroy coat rustles while humming {tune} above the purple towers.",
+   "options": [
+    "Click dashboard knob",
+    "Study robotic pigeon",
+    "Check canvas bag"
+   ],
+   "beats": [
+    "The needle swings and broadcasts a crisp broadcast chime right as the sidecar slips indoors and the garage entrance doors open.",
+    "A gleaming vacuum tube falls gently into your lap from the mechanical pigeon just as the bike parks and the shop doors open.",
+    "You fish out a buzzing bundle of copper wire right as the sidecar coasts onto the ramp and the steel doors open."
+   ],
+   "ride_on": "You watch Midnight Radio Repair fade into the distance. At the final platform, you transfer to the lumbering bridge crawler that clanks right up toward Gear Bridge."
+  }
  ]
 }

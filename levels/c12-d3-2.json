@@ -17,5 +17,31 @@
   "a friendly badger mechanic in leather goggles standing in the centre behind an anvil",
   "a rolled-down wooden slatted shutter set into the far right workshop wall"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Warm lantern light glows on cogs while a badger taps at an anvil.",
+   "options": [
+    "Turn frog key",
+    "Greet badger mechanic",
+    "Raise wooden shutter"
+   ]
+  },
+  {
+   "scene": "You park your bicycle amidst shelves of metal parts and ticking clocks.",
+   "options": [
+    "Crank brass frog",
+    "Ask the badger",
+    "Lift roller door"
+   ]
+  },
+  {
+   "scene": "You hum {tune} while gazing at the clever workshop around you.",
+   "options": [
+    "Wind toy frog",
+    "Speak to badger",
+    "Roll up shutter"
+   ]
+  }
+ ]
 }

@@ -16,5 +16,31 @@
   "a flatbed delivery truck parked waiting with engine running on the far left",
   "a glowing glass elevator shaft with its door open on the right",
   "a red steam train waiting at the platform on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "Shiny glowing tokens rest inside the trunk as engines rumble around you.",
+   "options": [
+    "Climb into truck",
+    "Enter glass elevator",
+    "Hop on train"
+   ]
+  },
+  {
+   "scene": "The toolbox clicks open to reveal tickets for three sky-high adventures.",
+   "options": [
+    "Choose the truck",
+    "Ride the lift",
+    "Catch the train"
+   ]
+  },
+  {
+   "scene": "You scoop up glowing tokens while wondering where {quest} might be hidden.",
+   "options": [
+    "Board flatbed truck",
+    "Try glass lift",
+    "Take red locomotive"
+   ]
+  }
  ]
 }

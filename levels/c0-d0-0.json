@@ -16,5 +16,31 @@
   "a corked bottle filled with glittering blue liquid on the stall's counter at centre",
   "a six-armed purple octopus wearing a sailor cap standing behind the counter at left",
   "an arched wooden ramp leading up into the city skyline at far right"
+ ],
+ "variants": [
+  {
+   "scene": "A cheery octopus in a sailor hat tends a stall of sparkling dockside treasures.",
+   "options": [
+    "Check blue bottle",
+    "Offer copper coin",
+    "Climb wooden ramp"
+   ]
+  },
+  {
+   "scene": "Under the purple dusk, seaweed hangs above the friendly sea captain's glowing counter.",
+   "options": [
+    "Examine sparkling jar",
+    "Pay octopus vendor",
+    "Take winding walkway"
+   ]
+  },
+  {
+   "scene": "Salty breezes swirl as you wonder if the cap-wearing octopus has seen {quest}.",
+   "options": [
+    "Study corked bottle",
+    "Give shiny coin",
+    "Ascend boardwalk stairs"
+   ]
+  }
  ]
 }

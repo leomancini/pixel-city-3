@@ -16,5 +16,31 @@
   "a circular wooden hot spring tub on the left bubbling with water",
   "a bright yellow snack cart right of the player with steam rising",
   "a carved stone staircase on the far right leading upward"
+ ],
+ "variants": [
+  {
+   "scene": "The cable car brings you to a warm cliffside terrace bathed in dusk.",
+   "options": [
+    "Check bubbling tub",
+    "Browse food cart",
+    "Head upstairs"
+   ]
+  },
+  {
+   "scene": "Lanterns glow softly as you search the mountain village for {quest}.",
+   "options": [
+    "Touch warm water",
+    "Greet cart vendor",
+    "Take stone steps"
+   ]
+  },
+  {
+   "scene": "Sweet steam drifts from a food cart and the wooden hot springs.",
+   "options": [
+    "Examine hot tub",
+    "Approach snack stall",
+    "Ascend stone stairs"
+   ]
+  }
  ]
 }

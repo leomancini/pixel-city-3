@@ -17,5 +17,31 @@
   "An unfolded parchment map pegged to a wicker stand on the centre",
   "A wooden ladder leading up a tall mooring tower on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "A kind artisan weaves golden reeds beside her display of sturdy woven baskets.",
+   "options": [
+    "Take golden reed",
+    "Check standing map",
+    "Scale tall tower"
+   ]
+  },
+  {
+   "scene": "Sunset glows while a weaver works near bundles of stiff, sun-dried stalks.",
+   "options": [
+    "Pull a stalk",
+    "Read parchment map",
+    "Climb the ladder"
+   ]
+  },
+  {
+   "scene": "The craftswoman plaits basket straw, humming {tune} against the dusk breeze.",
+   "options": [
+    "Grab one reed",
+    "View pinned map",
+    "Ascend mooring tower"
+   ]
+  }
+ ]
 }

@@ -17,5 +17,31 @@
   "a sleek purple night bus idling beside a signpost in the centre",
   "a yellow bicycle rickshaw with a friendly driver waiting on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Cool twilight greets you above the library alongside three evening rides.",
+   "options": [
+    "Enter glowing gondola",
+    "Catch purple bus",
+    "Hop in rickshaw"
+   ]
+  },
+  {
+   "scene": "You reach the breezy bridge platform, still searching for {quest}.",
+   "options": [
+    "Step inside gondola",
+    "Board double-decker bus",
+    "Pick yellow rickshaw"
+   ]
+  },
+  {
+   "scene": "Three curious ways forward wait under the purple city skyline.",
+   "options": [
+    "Try illuminated gondola",
+    "Take purple bus",
+    "Choose pedal rickshaw"
+   ]
+  }
+ ]
 }

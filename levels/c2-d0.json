@@ -16,5 +16,31 @@
   "a yellow mechanical cargo crane humming on the far left",
   "a friendly ticket vendor leaning on a wooden booth at centre",
   "a brass elevator door with a glowing red button on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "Sunset warms the wooden platform as you arrive high above the purple clouds.",
+   "options": [
+    "Check yellow crane",
+    "Approach ticket booth",
+    "Press elevator button"
+   ]
+  },
+  {
+   "scene": "You hum {tune} while the grand airship settles against the dock.",
+   "options": [
+    "Study cargo crane",
+    "Talk to vendor",
+    "Summon brass lift"
+   ]
+  },
+  {
+   "scene": "Salty high-altitude breezes sweep across the bustling planks of the sky port.",
+   "options": [
+    "Examine tall crane",
+    "Visit ticket seller",
+    "Call the lift"
+   ]
+  }
  ]
 }

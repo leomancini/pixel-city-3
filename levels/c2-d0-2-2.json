@@ -16,5 +16,31 @@
   "A tall glass elevator shaft with glowing water pipes on the far left.",
   "A striped red steam train waiting puffed at a platform in the centre.",
   "A yellow flatbed delivery truck parked with its ramp down on the far right."
+ ],
+ "variants": [
+  {
+   "scene": "A crimson locomotive chugs puffs of smoke into the dusky sky.",
+   "options": [
+    "Take glass elevator",
+    "Hop on train",
+    "Enter yellow truck"
+   ]
+  },
+  {
+   "scene": "Airships drift above while you search the busy rooftop depot for {quest}.",
+   "options": [
+    "Use tall elevator",
+    "Catch the train",
+    "Roll up ramp"
+   ]
+  },
+  {
+   "scene": "The platform bustles with commuters under strings of glowing lanterns.",
+   "options": [
+    "Enter glass elevator",
+    "Take steam train",
+    "Board cargo truck"
+   ]
+  }
  ]
 }

@@ -16,5 +16,31 @@
   "an open passenger gate onto the yellow water taxi on the far left",
   "a rolled parchment map held by the driver on the left",
   "a ticking brass coin meter mounted on a wooden dock post in the centre"
+ ],
+ "variants": [
+  {
+   "scene": "The friendly driver holds out a canal map and shows the way.",
+   "options": [
+    "Board the taxi",
+    "Grab the map",
+    "Check coin meter"
+   ]
+  },
+  {
+   "scene": "Water laps the stones as the driver points down the lantern-lit canal.",
+   "options": [
+    "Enter yellow boat",
+    "Accept paper map",
+    "Study round meter"
+   ]
+  },
+  {
+   "scene": "You hum {tune} while the driver cheerfully points toward the grand stone bridge.",
+   "options": [
+    "Hop on taxi",
+    "Take city map",
+    "View brass meter"
+   ]
+  }
  ]
 }

@@ -16,5 +16,31 @@
   "A red cable tram waiting open-doored on an overhead track on the left",
   "A sleek glass-roofed trolley idling at a painted curb in the centre",
   "A brass-caged spiral elevator shaft with an open gate on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "The warm treat sparkles with honey, while a friendly tabby watches nearby.",
+   "options": [
+    "Take upper tram",
+    "Ride glowing streetcar",
+    "Step inside lift"
+   ]
+  },
+  {
+   "scene": "Golden crumbs scatter as you ponder {quest} beside the busy tracks.",
+   "options": [
+    "Climb to tram",
+    "Hop on trolley",
+    "Use caged lift"
+   ]
+  },
+  {
+   "scene": "Evening air cools around you while lively evening transit calls in three directions.",
+   "options": [
+    "Mount upper railcar",
+    "Board lower car",
+    "Try brass lift"
+   ]
+  }
  ]
 }

@@ -17,5 +17,31 @@
   "three clockwork robot penguins playing brass trumpets in the centre",
   "a giant glowing ice sculpture of an anglerfish on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Trumpet music drifts across the pond as you park your trusty wooden sled.",
+   "options": [
+    "Smell roasted chestnuts",
+    "Hear brass penguins",
+    "View frozen anglerfish"
+   ]
+  },
+  {
+   "scene": "You slide ashore, still humming {tune} while cozy winter crowds gather all around.",
+   "options": [
+    "Warm by cart",
+    "Enjoy musical penguins",
+    "Check lantern fish"
+   ]
+  },
+  {
+   "scene": "Crisp winter air greets you beside the busy, lantern-lit frozen festival pond.",
+   "options": [
+    "Head toward roaster",
+    "Listen to penguins",
+    "Admire glowing sculpture"
+   ]
+  }
+ ]
 }

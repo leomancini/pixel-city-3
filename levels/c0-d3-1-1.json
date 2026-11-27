@@ -16,5 +16,31 @@
   "a glowing subway station stairwell leading underground on the far left",
   "a striped ferry gangway attached to a waiting boat on the right",
   "a bright red cable car cabin dangling from cables up high"
+ ],
+ "variants": [
+  {
+   "scene": "The friendly clockmaker waves toward three ways to cross Pixel City tonight.",
+   "options": [
+    "Head down stairs",
+    "Cross ferry ramp",
+    "Catch cable car"
+   ]
+  },
+  {
+   "scene": "Outside the ticking shop, three cozy rides wait by the canal.",
+   "options": [
+    "Enter glowing station",
+    "Hop on ferry",
+    "Ride overhead tram"
+   ]
+  },
+  {
+   "scene": "She gestures toward city transit while you hum {tune}.",
+   "options": [
+    "Go underground",
+    "Walk aboard boat",
+    "Climb into cableway"
+   ]
+  }
  ]
 }

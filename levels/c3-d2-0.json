@@ -17,5 +17,31 @@
   "a metal music stand holding handwritten sheet music in the centre",
   "a short wooden spiral staircase with a brass railing on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Warm jazz fills the dim room as stage lights glow overhead.",
+   "options": [
+    "Drop in coin",
+    "Inspect sheet music",
+    "Take spiral stairs"
+   ]
+  },
+  {
+   "scene": "The band plays smooth brass notes under the low basement pipes.",
+   "options": [
+    "Tip the band",
+    "Check music stand",
+    "Go upstairs"
+   ]
+  },
+  {
+   "scene": "The groovy trumpet notes remind you of {tune}.",
+   "options": [
+    "Toss a coin",
+    "Study the notes",
+    "Climb the steps"
+   ]
+  }
+ ]
 }

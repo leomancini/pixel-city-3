@@ -17,5 +17,31 @@
   "A small vintage matchbook lying next to the candle in the centre",
   "An ornate brass spiral staircase leading upward on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Brass horns play while candlelight glints off your table's tiny folded bird.",
+   "options": [
+    "Open paper bird",
+    "Light a match",
+    "Head up stairs"
+   ]
+  },
+  {
+   "scene": "The band swings as you rest beside a folded teal crane.",
+   "options": [
+    "Inspect folded crane",
+    "Take matchbook",
+    "Take spiral steps"
+   ]
+  },
+  {
+   "scene": "Soft jazz drowns out {tune} while you settle at the little table.",
+   "options": [
+    "Unwrap origami crane",
+    "Use matchbook",
+    "Ascend brass staircase"
+   ]
+  }
+ ]
 }

@@ -17,5 +17,31 @@
   "a mounted brass hilltop telescope pointed down towards the city on the far left",
   "a rustic wooden tea hut with steam curling from its open door on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The girl points to a shimmering golden ribbon tangled in the breeze.",
+   "options": [
+    "Unsnarl golden ribbon",
+    "Peer through telescope",
+    "Visit tea hut"
+   ]
+  },
+  {
+   "scene": "She grins and gestures up at the glowing knots drifting above the grass.",
+   "options": [
+    "Loosen shiny ribbon",
+    "Use brass telescope",
+    "Head inside hut"
+   ]
+  },
+  {
+   "scene": "Wind whips your scarf as the girl points toward the fluttering golden loop.",
+   "options": [
+    "Fix twisted ribbon",
+    "Check the telescope",
+    "Step into hut"
+   ]
+  }
+ ]
 }

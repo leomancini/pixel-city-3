@@ -17,5 +17,31 @@
   "a brass book cart lift with an open gate on the right",
   "a glowing neon night bus idling with open doors on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The bottle glows softly as three unusual rides wait along the quiet street.",
+   "options": [
+    "Climb into gondola",
+    "Enter book kiosk",
+    "Hop on bus"
+   ]
+  },
+  {
+   "scene": "You hold the luminous milk while humming {tune} before three open doors.",
+   "options": [
+    "Try ferris wheel",
+    "Step inside lift",
+    "Catch night bus"
+   ]
+  },
+  {
+   "scene": "Blue light sparkles over your jacket, showing three ways to travel onward.",
+   "options": [
+    "Ride the wheel",
+    "Use wooden lift",
+    "Take the bus"
+   ]
+  }
+ ]
 }

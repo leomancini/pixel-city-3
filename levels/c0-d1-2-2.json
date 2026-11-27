@@ -16,5 +16,31 @@
   "A gleaming underground train waiting at an open platform hatch on the far left.",
   "A jaunty yellow cable tram parked on rooftop tracks at the centre.",
   "A colourful ferry docked beside a roof canal chute on the far right."
+ ],
+ "variants": [
+  {
+   "scene": "The radish blazes brightly in your hands as three rides wait to leave.",
+   "options": [
+    "Take the subway",
+    "Hop on tram",
+    "Catch the ferry"
+   ]
+  },
+  {
+   "scene": "Warm firelight shines across the garden roof, showing three ways to travel onward.",
+   "options": [
+    "Enter subway car",
+    "Board yellow tram",
+    "Ride the ferry"
+   ]
+  },
+  {
+   "scene": "Sparks crackle from your spicy snack, revealing three vehicles ready to depart.",
+   "options": [
+    "Choose subway train",
+    "Climb aboard tram",
+    "Board rooftop ferry"
+   ]
+  }
  ]
 }

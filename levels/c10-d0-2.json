@@ -17,5 +17,31 @@
   "a brass cat-shaped tip jar sitting on the tea counter centre",
   "a steep checkered exit ramp sloping downward on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Sweet tea aroma fills the rooftop dusk under the glowing neon octopus.",
+   "options": [
+    "Sip blue tea",
+    "Feed brass cat",
+    "Coast down ramp"
+   ]
+  },
+  {
+   "scene": "You hum {tune} while cool drinks sparkle on the purple rooftop bar.",
+   "options": [
+    "Taste blue drink",
+    "Drop shiny token",
+    "Roll down ramp"
+   ]
+  },
+  {
+   "scene": "A glowing octopus sign flashes as fresh drinks sparkle along the counter.",
+   "options": [
+    "Grab blue cup",
+    "Tip brass cat",
+    "Slide down exit"
+   ]
+  }
+ ]
 }

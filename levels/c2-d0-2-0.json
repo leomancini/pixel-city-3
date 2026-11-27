@@ -16,5 +16,31 @@
   "a candy-striped steam train puffing sweet vapor on the far left",
   "a yellow robotic delivery truck idling with its back doors open on the right",
   "a transparent elevator shaft glowing soft blue on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "Glowing petals shower you in sparkle beside a busy skyward station platform.",
+   "options": [
+    "Board striped train",
+    "Enter yellow truck",
+    "Use glass lift"
+   ]
+  },
+  {
+   "scene": "Shimmering floral dust floats as engines rumble beneath the glowing twilight lanterns.",
+   "options": [
+    "Catch steam train",
+    "Hop inside truck",
+    "Take glowing elevator"
+   ]
+  },
+  {
+   "scene": "Bright blooms sparkle around you while you search the depot for {quest}.",
+   "options": [
+    "Ride steam train",
+    "Inspect open truck",
+    "Enter glass elevator"
+   ]
+  }
  ]
 }

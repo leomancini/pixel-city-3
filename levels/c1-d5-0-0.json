@@ -17,5 +17,31 @@
   "A sleek monorail carriage resting on overhead tracks up high in the centre",
   "A glass-walled funicular car waiting on a steep rail track far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Bright blue liquid shoots upward, showering the dock in brilliant, glowing drops.",
+   "options": [
+    "Step onto boat",
+    "Climb to monorail",
+    "Hop on funicular"
+   ]
+  },
+  {
+   "scene": "The barrel erupts with sparkling blue spray while you hum {tune}.",
+   "options": [
+    "Enter the boat",
+    "Catch the monorail",
+    "Use the funicular"
+   ]
+  },
+  {
+   "scene": "A dazzling blue fountain blasts high into the cool twilight air.",
+   "options": [
+    "Take the boat",
+    "Board the monorail",
+    "Ride the funicular"
+   ]
+  }
+ ]
 }

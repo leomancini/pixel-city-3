@@ -17,5 +17,31 @@
   "a sleek neon star shuttle idling on the pad on the right",
   "a docked striped zeppelin airship tethered to the mast on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "You arrive atop the sky platform as evening settles over the sprawling city.",
+   "options": [
+    "Ride steam train",
+    "Enter glowing shuttle",
+    "Climb into zeppelin"
+   ]
+  },
+  {
+   "scene": "Engines hum around you as you search the bustling transit hub for {quest}.",
+   "options": [
+    "Take golden train",
+    "Board neon craft",
+    "Ascend to airship"
+   ]
+  },
+  {
+   "scene": "Steam puffs into the twilight air beside futuristic pads and high docking towers.",
+   "options": [
+    "Hop on locomotive",
+    "Hop into shuttle",
+    "Board tethered blimp"
+   ]
+  }
+ ]
 }

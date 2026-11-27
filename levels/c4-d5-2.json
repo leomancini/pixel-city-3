@@ -17,5 +17,31 @@
   "a striped skate rental booth with lit counter on the far right",
   "a small glowing two-seater garden buggy idling on the far left"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The sparkly blue flower twinkles in your hand, chiming like {tune}.",
+   "options": [
+    "Store in bag",
+    "Visit skate stall",
+    "Hop into buggy"
+   ]
+  },
+  {
+   "scene": "Your luminous flower glints brightly beneath the twinkling glass greenhouse roof.",
+   "options": [
+    "Pack in satchel",
+    "Check skate counter",
+    "Climb in cart"
+   ]
+  },
+  {
+   "scene": "Cool fountain spray drifts past as your glittering blossom glows softly.",
+   "options": [
+    "Pocket the flower",
+    "Head toward booth",
+    "Enter glitter buggy"
+   ]
+  }
+ ]
 }

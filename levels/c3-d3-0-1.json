@@ -17,5 +17,31 @@
   "a glowing blue night bus waiting at the arched gate right",
   "a striped ferris wheel gondola hanging open at the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Gears turn overhead as cozy transit options await across the wooden station platform.",
+   "options": [
+    "Take book elevator",
+    "Hop on bus",
+    "Climb into gondola"
+   ]
+  },
+  {
+   "scene": "Holding the brass token, you search for clues about {quest} inside the hub.",
+   "options": [
+    "Use book lift",
+    "Board the bus",
+    "Enter wheel gondola"
+   ]
+  },
+  {
+   "scene": "Cables creak gently while glowing terminals power three peculiar ways across town.",
+   "options": [
+    "Ride cargo lift",
+    "Take blue bus",
+    "Try ferris car"
+   ]
+  }
+ ]
 }

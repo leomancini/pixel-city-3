@@ -16,5 +16,31 @@
   "a glowing glass elevator shaft with open doors waiting on the far left",
   "a puffing candy-striped steam train waiting at the platform on the right",
   "a moored brass airship gondola floating open-doored on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "At the top, the station bustles with steam, chatter, and great travel machines.",
+   "options": [
+    "Use glass lift",
+    "Hop on train",
+    "Board big airship"
+   ]
+  },
+  {
+   "scene": "You reach the wide platform, still searching for {quest} under sunset skies.",
+   "options": [
+    "Enter tall elevator",
+    "Ride steam locomotive",
+    "Enter floating airship"
+   ]
+  },
+  {
+   "scene": "Cool twilight air greets you on the breezy metal transit deck.",
+   "options": [
+    "Try glass elevator",
+    "Catch steam train",
+    "Visit brass airship"
+   ]
+  }
  ]
 }

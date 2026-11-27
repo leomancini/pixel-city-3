@@ -17,5 +17,31 @@
   "a yellow monorail car idling at an open gate in the centre",
   "a red angled funicular railway car waiting on tracks on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The checkered pier platform hums as evening falls over the busy canal terminal.",
+   "options": [
+    "Board green boat",
+    "Enter yellow train",
+    "Climb into tram"
+   ]
+  },
+  {
+   "scene": "Cool harbor breezes whistle softly, reminding you of {tune} as you ponder your route.",
+   "options": [
+    "Hop on taxi",
+    "Catch yellow monorail",
+    "Take red railway"
+   ]
+  },
+  {
+   "scene": "Lanterns glow upon the grand iron arches, illuminating three charming ways forward.",
+   "options": [
+    "Ride water taxi",
+    "Board center train",
+    "Use red funicular"
+   ]
+  }
+ ]
 }

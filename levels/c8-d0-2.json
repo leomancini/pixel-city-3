@@ -17,5 +17,31 @@
   "a gleaming silver desk bell on a round wooden counter in the centre",
   "an open woven basket hooked to a slack zipline on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "A cool breeze greets your little pup high up on the steel platform.",
+   "options": [
+    "Check telescope",
+    "Ding counter bell",
+    "Enter woven basket"
+   ]
+  },
+  {
+   "scene": "City lights twinkle below as you keep searching for {quest} atop the tower.",
+   "options": [
+    "Try brass telescope",
+    "Tap desk bell",
+    "Hop in basket"
+   ]
+  },
+  {
+   "scene": "Warm lanterns glow softly beneath the winding metal stairs in the starry night.",
+   "options": [
+    "Use railing telescope",
+    "Press silver bell",
+    "Climb into basket"
+   ]
+  }
+ ]
 }

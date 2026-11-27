@@ -17,5 +17,31 @@
   "a mustachioed visitor in a bowler hat standing right of centre",
   "an arched ceiling hatch standing closed at the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Your boots clank into place, flipping you neatly onto the grand tiled ceiling.",
+   "options": [
+    "Examine woven art",
+    "Say hello",
+    "Open ceiling door"
+   ]
+  },
+  {
+   "scene": "You click upside down, your sketchbook safe as people stroll far below you.",
+   "options": [
+    "Study large tapestry",
+    "Approach dapper fellow",
+    "Reach top hatch"
+   ]
+  },
+  {
+   "scene": "Magnets hum underfoot while you search above the hall for {quest}.",
+   "options": [
+    "View glowing rug",
+    "Chat with gentleman",
+    "Climb through hatch"
+   ]
+  }
+ ]
 }

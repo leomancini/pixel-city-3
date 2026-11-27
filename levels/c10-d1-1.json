@@ -17,5 +17,31 @@
   "a red glass cruet of chili oil in the centre",
   "a spiralling yellow noodle conveyor belt on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Steam curls from your bowl while the badger chef proudly watches you slurp.",
+   "options": [
+    "Compliment the badger",
+    "Take spicy oil",
+    "Hop on conveyor"
+   ]
+  },
+  {
+   "scene": "Warm ginger broth fills the air as noodles slide down the big chute.",
+   "options": [
+    "Talk to cook",
+    "Snatch the oil",
+    "Ride noodle slide"
+   ]
+  },
+  {
+   "scene": "The savory broth warms you up as you keep hunting for {quest}.",
+   "options": [
+    "Ask the chef",
+    "Reach for sauce",
+    "Scale the chute"
+   ]
+  }
+ ]
 }

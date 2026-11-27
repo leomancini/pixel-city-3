@@ -34,5 +34,49 @@
    "then": "Step off at Gear Bridge",
    "next": "c14-d1"
   }
+ ],
+ "variants": [
+  {
+   "scene": "Rain patters on the glass while your metallic driver cheerfully hums along.",
+   "options": [
+    "Twist CB dial",
+    "Peek in cooler",
+    "Point to flamingo"
+   ],
+   "beats": [
+    "Warm synth melodies chime across the cab as the truck rolls to a stop under buzzing violet lamps. The door swings wide at Neon Sign Hospital.",
+    "Frosty violet rays beam from the lid, cooling your face until the truck honks twice and brakes. The side door unlocks with a welcoming click.",
+    "With a gentle tap, the flamingo flares into electric pink light. The truck glides smoothly through open hangar doors that hiss to welcome you."
+   ],
+   "ride_on": "Waving goodbye to the hospital, you rumble onward to the depot. A clattering bridge crawler lifts you straight up into the giant ticking cogs of Gear Bridge."
+  },
+  {
+   "scene": "Your robot chauffeur steers through the soggy city while humming {tune}.",
+   "options": [
+    "Adjust CB radio",
+    "Check violet cooler",
+    "Touch mirror flamingo"
+   ],
+   "beats": [
+    "Fuzzy static melts into mellow synthesizer chords as the truck docks beneath flickering neon tubes. The passenger door glides open right onto Neon Sign Hospital.",
+    "You glimpse buzzing argon tubes chilling safely inside. The driver honks twice, braking beside glowing torches as your door snaps unlocked for you.",
+    "A soft finger flick makes the little bird glow blazing pink. The truck trundles inside wide hangar bay doors that part with a pneumatic sigh."
+   ],
+   "ride_on": "You roll past the hospital and rattle toward the main depot. There, you switch into a rumbling bridge crawler that climbs toward the churning gears of Gear Bridge."
+  },
+  {
+   "scene": "The cozy cab rattles steadily as rain blurs the glowing city streets.",
+   "options": [
+    "Click CB knob",
+    "Open blue cooler",
+    "Nudge dangling flamingo"
+   ],
+   "beats": [
+    "Lively synth notes whistle over the speaker as the truck coasts under humming purple lights. The side door slides open to reveal Neon Sign Hospital.",
+    "Inside rests icy argon glass glowing purple and buzzing softly. The driver taps the horn twice, pulling to the curb as your door clicks ajar.",
+    "The tiny bird lights up with brilliant pink sunshine at a tap. The truck drives smoothly inside, and the tall hangar doors hiss shut behind."
+   ],
+   "ride_on": "Leaving the hospital behind, you ride along to the terminal. You hop aboard a clanking crawler that carries you up among the spinning wheels of Gear Bridge."
+  }
  ]
 }

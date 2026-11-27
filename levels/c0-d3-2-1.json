@@ -16,5 +16,31 @@
   "a blue ferryboat ticket machine glowing brightly on the far left",
   "a dangling red cable car waiting open on the catwalk railing right",
   "an illuminated subway hatch and iron ladder down on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "The clockwork pigeon rattles happily, pointing out three different paths across Pixel City.",
+   "options": [
+    "Use ferry terminal",
+    "Enter cable car",
+    "Head down subway"
+   ]
+  },
+  {
+   "scene": "Gears grind overhead as your metallic bird friend chirps directions into the warmth.",
+   "options": [
+    "Buy ferry ride",
+    "Ride cable car",
+    "Use subway hatch"
+   ]
+  },
+  {
+   "scene": "The brass bird rattles its wings, clicking about where to seek {quest}.",
+   "options": [
+    "Take harbour ferry",
+    "Board cable car",
+    "Climb into subway"
+   ]
+  }
  ]
 }

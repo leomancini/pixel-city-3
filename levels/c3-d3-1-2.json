@@ -17,5 +17,31 @@
   "a mechanical brass book cart lift with open metal gate at centre",
   "a vintage neon-lit night bus idling with its passenger door open right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The wooden boardwalk hums softly with evening visitors beside the purple water.",
+   "options": [
+    "Board ferris wheel",
+    "Enter brass elevator",
+    "Hop on bus"
+   ]
+  },
+  {
+   "scene": "You stroll past bright neon signs while searching for {quest} along the pier.",
+   "options": [
+    "Climb into gondola",
+    "Use cargo lift",
+    "Catch the bus"
+   ]
+  },
+  {
+   "scene": "Cool harbor air blows across the dock as machines clink under twilight skies.",
+   "options": [
+    "Try ferris wheel",
+    "Step inside lift",
+    "Enter purple bus"
+   ]
+  }
+ ]
 }

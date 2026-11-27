@@ -17,5 +17,31 @@
   "a foaming purple beverage in a tall cup held in the centre",
   "a flickering rolled city map lying on the bar counter on the right"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "The robot octopus serves a bubbly berry drink while humming {tune} on loop.",
+   "options": [
+    "Drop in coin",
+    "Sip bubbly drink",
+    "Take glowing map"
+   ]
+  },
+  {
+   "scene": "Whirring metal tentacles blend cold drinks behind the cozy neon snack bar.",
+   "options": [
+    "Fill tip jar",
+    "Taste purple treat",
+    "Pick up blueprint"
+   ]
+  },
+  {
+   "scene": "Your red sleeve warms you while you hold the frosty purple glass.",
+   "options": [
+    "Leave nice tip",
+    "Try frosty drink",
+    "Swipe blue hologram"
+   ]
+  }
+ ]
 }

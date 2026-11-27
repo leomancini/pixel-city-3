@@ -17,5 +17,31 @@
   "a striped red switch coated in hardened sugar in the centre",
   "a gleaming copper chime button labeled alarm on the right"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "Pink, sugary goo drips down the brass controls of the taffy crane.",
+   "options": [
+    "Rotate the dial",
+    "Flip the switch",
+    "Push big button"
+   ]
+  },
+  {
+   "scene": "The warm air smells of melted sugar as steam drifts from pipes above.",
+   "options": [
+    "Twist brass knob",
+    "Click candy toggle",
+    "Tap copper button"
+   ]
+  },
+  {
+   "scene": "Puffs of smoke rise behind the gum-splattered control deck before you.",
+   "options": [
+    "Crank metal dial",
+    "Toggle striped switch",
+    "Hit alarm bell"
+   ]
+  }
+ ]
 }

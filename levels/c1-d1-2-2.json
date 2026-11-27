@@ -16,5 +16,31 @@
   "a red cable funicular car waiting with open door on the left",
   "a mechanical frog seated on a yellow cycle rickshaw at the centre",
   "a striped canal boat tied to a mooring ring on the right"
+ ],
+ "variants": [
+  {
+   "scene": "Cool twilight air greets you on the platform as motors hum softly.",
+   "options": [
+    "Ride the cablecar",
+    "Hail frog rickshaw",
+    "Step onto boat"
+   ]
+  },
+  {
+   "scene": "Lanterns glow beside three ways forward while you search for {quest}.",
+   "options": [
+    "Enter red funicular",
+    "Choose pedal carriage",
+    "Hop into boat"
+   ]
+  },
+  {
+   "scene": "The canal laps gently against the deck beneath the evening sky.",
+   "options": [
+    "Catch the tram",
+    "Try cycle rickshaw",
+    "Take canal boat"
+   ]
+  }
  ]
 }

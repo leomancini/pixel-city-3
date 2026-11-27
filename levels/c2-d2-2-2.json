@@ -16,5 +16,31 @@
   "a yellow delivery truck with open back doors idling on the far left",
   "a striped steam train puffing sweet pink smoke waiting on the right",
   "a moored brass airship with an extended ramp floating on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "The elevator doors open onto the busy station under the sunset sky.",
+   "options": [
+    "Climb into truck",
+    "Catch the train",
+    "Board the airship"
+   ]
+  },
+  {
+   "scene": "You roll onto the platform as pink smoke billows into the twilight air.",
+   "options": [
+    "Enter yellow truck",
+    "Hop on train",
+    "Climb aboard airship"
+   ]
+  },
+  {
+   "scene": "You hum {tune} as vehicles get ready to depart across Pixel City.",
+   "options": [
+    "Inspect the truck",
+    "Board steam train",
+    "Reach the zeppelin"
+   ]
+  }
  ]
 }

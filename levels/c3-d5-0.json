@@ -17,5 +17,31 @@
   "A golden key rests in the ignition slot on the dashboard centre",
   "An unlatched metal glovebox spilling paper sits open on the far left"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "The quiet cab smells of vanilla while amber dials glow softly beside you.",
+   "options": [
+    "Touch glowing bottle",
+    "Twist the key",
+    "Inspect folded map"
+   ]
+  },
+  {
+   "scene": "You sit behind the wheel, still humming {tune} while peering around the dim cab.",
+   "options": [
+    "Inspect crate bottles",
+    "Start the engine",
+    "Read glovebox papers"
+   ]
+  },
+  {
+   "scene": "A wooden crate clinks gently beside your seat under the warm dashboard lights.",
+   "options": [
+    "Grab blue bottle",
+    "Turn brass key",
+    "Unfold paper map"
+   ]
+  }
+ ]
 }

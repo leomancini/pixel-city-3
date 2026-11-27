@@ -17,5 +17,31 @@
   "a canopy bicycle rickshaw with an idle driver in the centre",
   "an illuminated ferris wheel gondola hanging open on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Your glowing book lights up a lively promenade with three distinct ways to travel.",
+   "options": [
+    "Hop on bus",
+    "Hire the rickshaw",
+    "Ride the gondola"
+   ]
+  },
+  {
+   "scene": "Lanterns glow softly along the stone bridge while you search on for {quest}.",
+   "options": [
+    "Catch purple bus",
+    "Hail pedal rickshaw",
+    "Step inside gondola"
+   ]
+  },
+  {
+   "scene": "Evening air cools the bridge deck where three very different rides await departure.",
+   "options": [
+    "Climb into bus",
+    "Choose the rickshaw",
+    "Board big wheel"
+   ]
+  }
+ ]
 }

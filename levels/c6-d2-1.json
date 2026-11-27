@@ -17,5 +17,31 @@
   "a numbered glass dial embedded in the broad green petal, left",
   "a glowing red switch shaped like a stamens pod, right"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "A clockwork frog sits clutching a tiny key in the lotus bloom.",
+   "options": [
+    "Snatch little key",
+    "Twist clock dial",
+    "Push red button"
+   ]
+  },
+  {
+   "scene": "Brass machinery gleams inside the pink petals floating in the canal.",
+   "options": [
+    "Grab brass key",
+    "Adjust glass dial",
+    "Tap red dome"
+   ]
+  },
+  {
+   "scene": "Cold water ripples around the pad as you hum {tune}.",
+   "options": [
+    "Pry key loose",
+    "Spin round dial",
+    "Hit red switch"
+   ]
+  }
+ ]
 }

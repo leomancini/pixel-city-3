@@ -16,5 +16,31 @@
   "a glowing fish stall lined with sparkling blue jellyfish on ice at centre",
   "a tall yellow cargo crane with an attached metal ladder on the right",
   "an open-air cargo tram waiting with open sliding doors on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "Your green boots hit the wooden pier under glowing neon fish signs.",
+   "options": [
+    "Check fish market",
+    "Scale yellow crane",
+    "Hop inside tram"
+   ]
+  },
+  {
+   "scene": "You arrive at the bustling docks, still searching for {quest}.",
+   "options": [
+    "Inspect seafood stall",
+    "Climb the crane",
+    "Enter cargo tram"
+   ]
+  },
+  {
+   "scene": "Salty harbor air greets you beside a stall full of glowing blue jellyfish.",
+   "options": [
+    "Visit fish counter",
+    "Climb crane rungs",
+    "Step onto tram"
+   ]
+  }
  ]
 }

@@ -17,5 +17,31 @@
   "A glowing glass skylight hatch bolted shut in the centre floor",
   "A tiny yellow zeppelin tethered to a roof post on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Cool evening air greets you on the breezy city rooftop.",
+   "options": [
+    "Check telescope",
+    "Pry skylight open",
+    "Climb into zeppelin"
+   ]
+  },
+  {
+   "scene": "Chimney smoke drifts past as you search around for {quest}.",
+   "options": [
+    "Look through lens",
+    "Lift glowing hatch",
+    "Hop inside blimp"
+   ]
+  },
+  {
+   "scene": "Festive party lights glow above the quiet brick chimneys.",
+   "options": [
+    "Use brass telescope",
+    "Unbolt glass hatch",
+    "Board yellow airship"
+   ]
+  }
+ ]
 }

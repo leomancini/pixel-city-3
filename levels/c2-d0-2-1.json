@@ -16,5 +16,31 @@
   "a yellow boxy delivery truck idling far left with its ramp down",
   "a glowing glass elevator shaft standing centre with open doors",
   "a striped steam train puffing sweet pink smoke on tracks far right"
+ ],
+ "variants": [
+  {
+   "scene": "A small clanking robot shows you three ways to travel across the sky.",
+   "options": [
+    "Climb into truck",
+    "Enter glass lift",
+    "Hop on train"
+   ]
+  },
+  {
+   "scene": "Pink engine smoke drifts as the little metal guide points out your rides.",
+   "options": [
+    "Roll up ramp",
+    "Take central lift",
+    "Catch steam train"
+   ]
+  },
+  {
+   "scene": "Under warm string lights, the robot gestures toward three paths across town.",
+   "options": [
+    "Pick yellow truck",
+    "Use glass elevator",
+    "Choose steam engine"
+   ]
+  }
  ]
 }

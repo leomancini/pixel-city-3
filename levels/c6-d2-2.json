@@ -17,5 +17,31 @@
   "a striped newsagent booth with paper stacks on the left",
   "a cherry-red vintage tram with doors open on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "You reach the bustling tiled concourse beneath grand brick arches.",
+   "options": [
+    "Check overhead board",
+    "Visit striped stand",
+    "Hop on tram"
+   ]
+  },
+  {
+   "scene": "The clacking timetable echoes overhead as you keep looking for {quest}.",
+   "options": [
+    "Inspect the schedule",
+    "Browse the papers",
+    "Enter vintage tram"
+   ]
+  },
+  {
+   "scene": "Commuters bustle past a bright newsstand and a gleaming red tram.",
+   "options": [
+    "Study arrival screen",
+    "Walk to kiosk",
+    "Step aboard tram"
+   ]
+  }
+ ]
 }

@@ -17,5 +17,31 @@
   "a gleaming oversized glass pen nib resting in a velvet box on the desk centre-right",
   "an open archway spilling warm steam into the street on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "A friendly automaton extends a curling page of fresh ink towards you.",
+   "options": [
+    "Inspect the scroll",
+    "Grab glass nib",
+    "Step inside mill"
+   ]
+  },
+  {
+   "scene": "Humming {tune}, you admire the robot's neat parchment on this cobblestone street.",
+   "options": [
+    "Unroll the parchment",
+    "Pick up nib",
+    "Visit steamy workshop"
+   ]
+  },
+  {
+   "scene": "The mechanical scribe holds out wet calligraphy by a glowing tub of ink.",
+   "options": [
+    "Examine robot scroll",
+    "Collect glass nib",
+    "Explore paper factory"
+   ]
+  }
+ ]
 }

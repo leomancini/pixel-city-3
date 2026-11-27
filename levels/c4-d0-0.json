@@ -17,5 +17,31 @@
   "A large spherical jar buzzing with violet fireflies in the centre.",
   "A dangling paper price tag written in silver ink on the right."
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "Curious blue jars glow softly on the wooden stall, shimmering like captured stars.",
+   "options": [
+    "Uncork runic jar",
+    "Tap glowing bowl",
+    "Snag paper tag"
+   ]
+  },
+  {
+   "scene": "A mysterious potion glows purple inside its bowl while you wonder about {quest}.",
+   "options": [
+    "Open carved lid",
+    "Knock on glass",
+    "Take price slip"
+   ]
+  },
+  {
+   "scene": "Twin jars of magical blue liquid sparkle quietly beside a wrapped paper bundle.",
+   "options": [
+    "Loosen etched cap",
+    "Touch round vessel",
+    "Grab dangling tag"
+   ]
+  }
+ ]
 }

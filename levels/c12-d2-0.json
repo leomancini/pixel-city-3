@@ -17,5 +17,31 @@
   "a rolled parchment tied to the roof of the centre model locomotive",
   "a golden winding key stuck in a clockwork windmill on the right"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "Steam puffs gently from the miniature train inside the station display.",
+   "options": [
+    "Pull red lever",
+    "Grab rolled parchment",
+    "Wind toy windmill"
+   ]
+  },
+  {
+   "scene": "You lean over the diorama while humming {tune} under your breath.",
+   "options": [
+    "Switch track lever",
+    "Untie rooftop scroll",
+    "Twist clockwork key"
+   ]
+  },
+  {
+   "scene": "Tiny trees, figures, and tracks fill the charming wooden display case.",
+   "options": [
+    "Nudge track switch",
+    "Inspect tied scroll",
+    "Crank golden key"
+   ]
+  }
+ ]
 }

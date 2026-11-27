@@ -17,5 +17,31 @@
   "a yellow delivery truck idling with its ramp down in the centre",
   "a glowing tubular glass elevator door waiting open on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "You arrive at the open platform, humming {tune} as travelers rush around you.",
+   "options": [
+    "Enter brass airship",
+    "Inspect yellow van",
+    "Ride tube elevator"
+   ]
+  },
+  {
+   "scene": "The open air terminal is full of busy workers and gentle twilight breezes.",
+   "options": [
+    "Cross airship gangway",
+    "Check cargo truck",
+    "Enter glass lift"
+   ]
+  },
+  {
+   "scene": "You reach the docking deck where huge engines hum against the sky.",
+   "options": [
+    "Board steampunk zeppelin",
+    "Hop inside van",
+    "Use illuminated elevator"
+   ]
+  }
+ ]
 }

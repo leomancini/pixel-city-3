@@ -17,5 +17,31 @@
   "a hinged brass magnifying lens mounted over the glass centre",
   "a dangling purple velvet drawstring pouch tied on the right"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "A tiny clockwork castle ticks quietly inside the frosty street cart.",
+   "options": [
+    "Twist brass wheel",
+    "Look through lens",
+    "Untie purple pouch"
+   ]
+  },
+  {
+   "scene": "Gears spin silently under glass while little bulbs glow in the snowy chill.",
+   "options": [
+    "Crank pipe valve",
+    "Adjust round glass",
+    "Check silk bag"
+   ]
+  },
+  {
+   "scene": "Warm lights glitter across the miniature brass city trapped in snow.",
+   "options": [
+    "Rotate rusty valve",
+    "Use magnifier lens",
+    "Loosen drawstring pouch"
+   ]
+  }
+ ]
 }

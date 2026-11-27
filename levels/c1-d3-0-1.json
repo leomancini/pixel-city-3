@@ -16,5 +16,31 @@
   "A sleek blue monorail car waiting at a platform on the left",
   "A wooden funicular railway car stopped on an inclined track up high",
   "A striped water taxi bobbing beside a wooden dock on the right"
+ ],
+ "variants": [
+  {
+   "scene": "The flying goldfish reveals a transit map while you seek {quest}.",
+   "options": [
+    "Take blue monorail",
+    "Climb into funicular",
+    "Hop on boat"
+   ]
+  },
+  {
+   "scene": "Lanterns glow softly around the big hanging transit chart overhead.",
+   "options": [
+    "Enter sleek train",
+    "Try steep funicular",
+    "Board little boat"
+   ]
+  },
+  {
+   "scene": "Water laps against the stone dock under the glowing golden fish.",
+   "options": [
+    "Board blue monorail",
+    "Ride hillside tram",
+    "Take river taxi"
+   ]
+  }
  ]
 }

@@ -17,5 +17,31 @@
   "a glowing copper compass lying open in the stallkeeper's palm on the right",
   "a dangling hemp rope ladder swaying on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The friendly vendor offers you a shining brass trinket at his bridge workshop.",
+   "options": [
+    "Examine music box",
+    "Take glowing compass",
+    "Ascend rope ladder"
+   ]
+  },
+  {
+   "scene": "A warm golden compass glints while giant iron gears turn in the bridge above.",
+   "options": [
+    "Check clockwork box",
+    "Purchase small compass",
+    "Scale the ladder"
+   ]
+  },
+  {
+   "scene": "The craftsman displays a magical contraption, reminding you of {quest}.",
+   "options": [
+    "Study ornate box",
+    "Grab bright compass",
+    "Use rope ladder"
+   ]
+  }
+ ]
 }

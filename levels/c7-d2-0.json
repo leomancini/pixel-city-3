@@ -17,5 +17,31 @@
   "A spiky purple sea urchin tucked into rocks on the pool's far right",
   "A ticking brass miniature crab scuttling across the white pebble bottom in the centre"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "Curious wonders glint inside the tide pool among the glowing green seaweed.",
+   "options": [
+    "Take brass compass",
+    "Touch spiky urchin",
+    "Snag clockwork crab"
+   ]
+  },
+  {
+   "scene": "Sunlight ripples across tiny treasures resting quietly under the clear salt water.",
+   "options": [
+    "Reach for compass",
+    "Nudge purple urchin",
+    "Scoop up crab"
+   ]
+  },
+  {
+   "scene": "You peer down at the rocky pool, still searching for {quest}.",
+   "options": [
+    "Retrieve brass compass",
+    "Tap glowing urchin",
+    "Trap mechanical crab"
+   ]
+  }
+ ]
 }

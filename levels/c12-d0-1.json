@@ -17,5 +17,31 @@
   "a gleaming brass tap sticking out of the blue ceramic pot on the left",
   "a single glowing yellow pinecone dangling from a low needle cluster on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Pine needles smell fresh as a tiny wooden ladder invites you upward.",
+   "options": [
+    "Ascend tiny ladder",
+    "Twist brass tap",
+    "Harvest golden cone"
+   ]
+  },
+  {
+   "scene": "The ancient miniature pine rests peacefully beside the quiet garden tram track.",
+   "options": [
+    "Scale little ladder",
+    "Turn brass valve",
+    "Take glowing cone"
+   ]
+  },
+  {
+   "scene": "Soft evening light glows while you wonder where {quest} might be hidden.",
+   "options": [
+    "Mount wooden ladder",
+    "Open brass spigot",
+    "Pick bright pinecone"
+   ]
+  }
+ ]
 }

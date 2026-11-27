@@ -17,5 +17,31 @@
   "a chalkboard listing curious winter treats hanging on the cart at centre",
   "a pair of polished iron ice skates resting on the snow far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Steam rises as the smiling vendor passes you a cone of roasted chestnuts.",
+   "options": [
+    "Taste a chestnut",
+    "Check the menu",
+    "Lace up skates"
+   ]
+  },
+  {
+   "scene": "Sweet roasted smells fill the snowy air as you take the hot snack.",
+   "options": [
+    "Munch warm chestnut",
+    "Inspect the chalkboard",
+    "Put on skates"
+   ]
+  },
+  {
+   "scene": "The cart vendor gives you hot chestnuts while you whistle {tune}.",
+   "options": [
+    "Nibble a chestnut",
+    "Study the board",
+    "Try the skates"
+   ]
+  }
+ ]
 }

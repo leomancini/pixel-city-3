@@ -17,5 +17,31 @@
   "a tiny tied parchment label tucked in the centre seed compartment",
   "a small engraved number dial clicking on the drawer's right rim"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "The green-lined drawer glides out, holding curious treasures in each velvet section.",
+   "options": [
+    "Lift blue pod",
+    "Untie paper scroll",
+    "Twist numbered dial"
+   ]
+  },
+  {
+   "scene": "You gently pull the wooden drawer open to inspect three quiet compartments.",
+   "options": [
+    "Grab glowing seed",
+    "Open rolled parchment",
+    "Spin golden dial"
+   ]
+  },
+  {
+   "scene": "Soft blue light sparkles inside the open drawer, while hums of {tune} echo.",
+   "options": [
+    "Pick bright pod",
+    "Read tied note",
+    "Rotate brass wheel"
+   ]
+  }
+ ]
 }

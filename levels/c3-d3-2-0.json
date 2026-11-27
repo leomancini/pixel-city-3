@@ -17,5 +17,31 @@
   "a glowing carnival ferris wheel gondola docked at the platform centre",
   "a clanking brass book cart lift open on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Pigeons flutter into the violet sky, uncovering three rooftop rides waiting for you.",
+   "options": [
+    "Enter night bus",
+    "Climb into gondola",
+    "Step inside lift"
+   ]
+  },
+  {
+   "scene": "Cool twilight air stirs as three rooftop transports hum with gentle evening lights.",
+   "options": [
+    "Hop on bus",
+    "Board carnival gondola",
+    "Enter library lift"
+   ]
+  },
+  {
+   "scene": "Looking for {quest}, you discover three whimsical vehicles idling across the rooftop.",
+   "options": [
+    "Catch the bus",
+    "Try ferris gondola",
+    "Ride bookshelf elevator"
+   ]
+  }
+ ]
 }

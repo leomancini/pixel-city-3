@@ -17,5 +17,31 @@
   "a luminous purple night bus idling at a marked post in the centre",
   "a striped bicycle rickshaw with a velvet passenger seat on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Under hanging lanterns, three peculiar rides wait on the festival dock.",
+   "options": [
+    "Take book lift",
+    "Hop on bus",
+    "Take bicycle rickshaw"
+   ]
+  },
+  {
+   "scene": "A costumed performer points you toward transport choices beside the carnival tents.",
+   "options": [
+    "Try vertical cart",
+    "Enter purple bus",
+    "Pick velvet rickshaw"
+   ]
+  },
+  {
+   "scene": "Cool evening air carries laughter as you consider your travel options for {quest}.",
+   "options": [
+    "Climb book lift",
+    "Catch night bus",
+    "Pedal away rickshaw"
+   ]
+  }
+ ]
 }

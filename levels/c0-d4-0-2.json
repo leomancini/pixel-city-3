@@ -17,5 +17,31 @@
   "A wooden ferry dock with a painted sign in the centre.  ",
   "A yellow cable car hanging from an overhead wire up high.  "
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Puddles mirror evening neon as commuters hurry past by the misty water.",
+   "options": [
+    "Hop on tram",
+    "Head to ferry",
+    "Catch cable car"
+   ]
+  },
+  {
+   "scene": "Cool raindrops patter down while you ponder your hunt for {quest}.",
+   "options": [
+    "Enter red tram",
+    "Walk to ferry",
+    "Take cable car"
+   ]
+  },
+  {
+   "scene": "Dusk settles softly over the busy waterfront terminal as transit engines hum.",
+   "options": [
+    "Climb aboard tram",
+    "Board passenger ferry",
+    "Ride sky car"
+   ]
+  }
+ ]
 }

@@ -17,5 +17,31 @@
   "a monocled visitor hovering quietly above the floor to the right",
   "an ornate valve wheel protruding from a ceiling pipe at far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Your sneakers touch down firmly onto the inverted gallery floor above.",
+   "options": [
+    "Study neon portrait",
+    "Say hello patron",
+    "Twist brass wheel"
+   ]
+  },
+  {
+   "scene": "Up here, gravity flips while you wonder if {quest} hides among these portraits.",
+   "options": [
+    "Examine glowing art",
+    "Wave to gentleman",
+    "Rotate pipe valve"
+   ]
+  },
+  {
+   "scene": "You balance on the ceiling corridor as pipes hum softly overhead.",
+   "options": [
+    "View bright picture",
+    "Approach hovering man",
+    "Turn pipe wheel"
+   ]
+  }
+ ]
 }

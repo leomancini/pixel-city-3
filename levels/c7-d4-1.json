@@ -17,5 +17,31 @@
   "a blue blueprint poking out of a wicker scrap basket on the far left",
   "a striped yellow wooden ramp sloping upward on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The friendly metal bot presents a warm, shining origami bird with a gentle whir.",
+   "options": [
+    "Accept glowing bird",
+    "Grab blue rolled-plans",
+    "Ascend yellow ramp"
+   ]
+  },
+  {
+   "scene": "Golden light radiates from the paper crane balanced upon the robot's bronze palm.",
+   "options": [
+    "Take shining crane",
+    "Snag rolled blueprint",
+    "Walk up ramp"
+   ]
+  },
+  {
+   "scene": "Sunset breeze rustles your scarf as the robot holds out its glowing paper creation.",
+   "options": [
+    "Receive bright crane",
+    "Pocket basket blueprint",
+    "Head up ramp"
+   ]
+  }
+ ]
 }

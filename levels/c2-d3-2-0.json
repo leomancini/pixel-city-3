@@ -16,5 +16,31 @@
   "a tall glass elevator tube with sliding doors open on the far left",
   "a tethered pink airship gondola floating up high with its boarding ramp down",
   "a yellow boxy delivery truck idling with open side doors on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "Steam hisses as travel routes across the sugary factory open up for you.",
+   "options": [
+    "Enter glass lift",
+    "Reach pink airship",
+    "Hop into truck"
+   ]
+  },
+  {
+   "scene": "Warm sweet air swirls while you wonder if {quest} waits higher up.",
+   "options": [
+    "Ride glowing elevator",
+    "Board floating blimp",
+    "Check yellow truck"
+   ]
+  },
+  {
+   "scene": "Fresh engine rumbles blend with the sweet smell of bubbling candy vats.",
+   "options": [
+    "Try tall elevator",
+    "Climb to airship",
+    "Sneak inside truck"
+   ]
+  }
  ]
 }

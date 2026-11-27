@@ -17,5 +17,31 @@
   "a steaming jade kettle whistling merrily on the service counter, right",
   "a narrow wrought-iron spiral staircase winding upward, far left"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The oversized ginger cat stretches happily, jiggling shiny keys on its collar.",
+   "options": [
+    "Grab shiny keys",
+    "Sample fresh tea",
+    "Head upstairs"
+   ]
+  },
+  {
+   "scene": "Your warm scritches make the enormous cat roll over and show off keys.",
+   "options": [
+    "Snag collar keys",
+    "Try hot brew",
+    "Ascend winding steps"
+   ]
+  },
+  {
+   "scene": "Fluffy purrs shake the platform as bright keys gleam on the cat's neck.",
+   "options": [
+    "Take cat keys",
+    "Sip green kettle",
+    "Use metal staircase"
+   ]
+  }
+ ]
 }

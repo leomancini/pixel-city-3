@@ -17,5 +17,31 @@
   "A purple night bus sits at the curb on the right",
   "A blue harbour ferry waits docked at the far right pier"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The brass key glows brightly as evening rain falls softly over the plaza.",
+   "options": [
+    "Catch red tram",
+    "Hop on bus",
+    "Board blue ferry"
+   ]
+  },
+  {
+   "scene": "Holding the shining key, you hum {tune} while planning your next ride.",
+   "options": [
+    "Take red tram",
+    "Climb on bus",
+    "Choose blue ferry"
+   ]
+  },
+  {
+   "scene": "Golden light from the magic key gleams on wet stones by the fountain.",
+   "options": [
+    "Ride the tram",
+    "Enter purple bus",
+    "Board the ferry"
+   ]
+  }
+ ]
 }

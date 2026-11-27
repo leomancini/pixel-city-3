@@ -34,5 +34,49 @@
    "then": "Step off at Lost Property Depot",
    "next": "c14-d3"
   }
+ ],
+ "variants": [
+  {
+   "scene": "Moth lamps hum softly as the funicular climbs into the purple evening sky.",
+   "options": [
+    "Open purple box",
+    "Assist the conductor",
+    "Examine woven basket"
+   ],
+   "beats": [
+    "You unlatch the tiny box to find a mechanical compass. Its needle quivers toward the sky as the car reaches Comet Watch Rooftop and the doors slide open.",
+    "You steady a spinning cog on the pedestal. The conductor beams, gifting you a brass token just as the car slows at Comet Watch Rooftop and doors open wide.",
+    "A speckled pigeon wiggles free, nudging a tiny paper star map into your fingers. It flaps beside you as the tram reaches Comet Watch Rooftop and the doors part."
+   ],
+   "ride_on": "You remain aboard through the quiet mountain mist. Switching onto the rumbling mail train at the final stop, you clatter straight into the sprawling Lost Property Depot."
+  },
+  {
+   "scene": "Warm lights flicker while the cable car hums softly above the rocky heights.",
+   "options": [
+    "Check bench box",
+    "Tune the gears",
+    "Peek in basket"
+   ],
+   "beats": [
+    "Inside sits an intricate star-seeking compass. It clicks excitedly toward the heavens just as the car docks at Comet Watch Rooftop and the entryway rolls open.",
+    "Together you balance the golden mechanism. The grateful driver hands you an embossed brass coin as the funicular halts at Comet Watch Rooftop and the doors slide apart.",
+    "The gentle passenger's basket opens, releasing a feathered friend with a folded night sky diagram right as the car brakes at Comet Watch Rooftop and doors swing open."
+   ],
+   "ride_on": "Staying in your seat, you ride along the winding track until the line ends. You hop aboard the loud mail train, pulling into the huge, cluttered Lost Property Depot."
+  },
+  {
+   "scene": "Brass cogs click inside the cabin while glowing insect shades sway in rhythm.",
+   "options": [
+    "Inspect small chest",
+    "Help with engine",
+    "Search shaking basket"
+   ],
+   "beats": [
+    "You lift the brass latch, revealing a curious brass compass whirring with glee as the funicular glides into Comet Watch Rooftop and the carriage doors pull open.",
+    "You help align the heavy clockwork. The conductor tips his cap with a shiny comet token when the vehicle arrives at Comet Watch Rooftop and the doors roll apart.",
+    "A cozy messenger bird rustles, offering you a crumpled constellation scroll from its perch as the carriage reaches Comet Watch Rooftop and the doors slide open wide."
+   ],
+   "ride_on": "You wait through the stop, gliding smoothly to the end of the line. Bounding across to the rattly mail train, you roll into the treasure-filled Lost Property Depot."
+  }
  ]
 }

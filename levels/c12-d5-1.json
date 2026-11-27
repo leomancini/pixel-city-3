@@ -17,5 +17,31 @@
   "a tiny silver teapot resting on a walnut table in the centre",
   "an arched wooden door opening to an illuminated stone path on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Warm lamplight glows from a cozy dining nook tucked inside the giant pumpkin.",
+   "options": [
+    "Share fresh sprout",
+    "Grab mini teapot",
+    "Walk down path"
+   ]
+  },
+  {
+   "scene": "A tiny tea set waits inside the carved gourd, smelling like sweet pie.",
+   "options": [
+    "Gift leafy pot",
+    "Pocket ceramic teapot",
+    "Tread garden path"
+   ]
+  },
+  {
+   "scene": "You hum {tune} while admiring the tiny wooden chairs inside the pumpkin.",
+   "options": [
+    "Give green plant",
+    "Snatch little teapot",
+    "Stroll stone walkway"
+   ]
+  }
+ ]
 }

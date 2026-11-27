@@ -17,5 +17,31 @@
   "An illuminated service hatch standing wide open in the centre tower.",
   "A yellow robotic pitkart idling with flashing hazard lights on the far right."
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Wind roars as giant blades spin above, sparking deck systems into action.",
+   "options": [
+    "Take glowing elevator",
+    "Head inside tower",
+    "Hop on pitkart"
+   ]
+  },
+  {
+   "scene": "Green lights flicker awake on the platform, humming to the turbine's rhythm.",
+   "options": [
+    "Use platform lift",
+    "Check lit doorway",
+    "Climb into pitkart"
+   ]
+  },
+  {
+   "scene": "Fresh power rushes through the deck as you continue your search for {quest}.",
+   "options": [
+    "Lower the lift",
+    "Roll through hatch",
+    "Steer yellow pitkart"
+   ]
+  }
+ ]
 }

@@ -16,5 +16,31 @@
   "A yellow delivery truck sits idling at an open loading door on the far left.",
   "A transparent glass elevator tube stands with glowing open doors in the centre.",
   "A striped passenger airship floats tied to an outdoor mooring ramp on the far right."
+ ],
+ "variants": [
+  {
+   "scene": "Sparkles shower down over the docks as three different rides wait for you.",
+   "options": [
+    "Climb into truck",
+    "Enter glass elevator",
+    "Hop aboard airship"
+   ]
+  },
+  {
+   "scene": "Golden sparkles drift past the sleepy orange lizard as three exits open up.",
+   "options": [
+    "Ride the truck",
+    "Use the elevator",
+    "Board the airship"
+   ]
+  },
+  {
+   "scene": "Sweet sugar dust twinkles down, lighting up three fantastic ways to keep travelling.",
+   "options": [
+    "Try delivery truck",
+    "Ride glass elevator",
+    "Explore the airship"
+   ]
+  }
  ]
 }

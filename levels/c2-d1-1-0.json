@@ -17,5 +17,31 @@
   "A puffy steam train stopped at a low platform on the left.",
   "A tethered brass airship waiting beside an open gangway on the right."
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The table falls quiet, leaving three ways out across the busy terminal.",
+   "options": [
+    "Take glass lift",
+    "Enter steam train",
+    "Climb into airship"
+   ]
+  },
+  {
+   "scene": "Steam curls softly under twilight skies as travel routes open up nearby.",
+   "options": [
+    "Use elevator shaft",
+    "Catch the locomotive",
+    "Hop aboard airship"
+   ]
+  },
+  {
+   "scene": "Safe from sparks, you hum {tune} while planning your next ride.",
+   "options": [
+    "Try the lift",
+    "Board the train",
+    "Choose the airship"
+   ]
+  }
+ ]
 }

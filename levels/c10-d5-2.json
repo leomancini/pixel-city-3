@@ -17,5 +17,31 @@
   "a mechanical brass canary perching inside a hanging cage up high",
   "a mounted wooden steering wheel ticking against the wall on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Your skates roll smoothly across the quiet purple rug on the upper landing.",
+   "options": [
+    "Check wooden armoire",
+    "Inspect caged bird",
+    "Spin ship helm"
+   ]
+  },
+  {
+   "scene": "Up on the mezzanine, chandeliers glow softly as you search for {quest}.",
+   "options": [
+    "Unlock carved wardrobe",
+    "Greet brass canary",
+    "Rotate wall wheel"
+   ]
+  },
+  {
+   "scene": "Warm chandelier light shines on the high hallway above the grand hotel lobby.",
+   "options": [
+    "Search tall closet",
+    "Examine golden cage",
+    "Steer wall wheel"
+   ]
+  }
+ ]
 }

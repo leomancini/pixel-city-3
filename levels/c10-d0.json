@@ -17,5 +17,31 @@
   "a glittering disco-ball drone hovering up high near the centre",
   "a neon-lit bubble-tea bar with glowing taps on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Your wheels roll across the neon-lit rooftop as sunset colors the sky.",
+   "options": [
+    "Greet skate robot",
+    "Jump at drone",
+    "Buy bubble tea"
+   ]
+  },
+  {
+   "scene": "You skate past the escalator while humming {tune} under the sparkling disco drone.",
+   "options": [
+    "Check yellow bot",
+    "Catch disco drone",
+    "Visit tea bar"
+   ]
+  },
+  {
+   "scene": "A glowing grid floor welcomes your skates to the breezy rooftop party.",
+   "options": [
+    "Approach rental robot",
+    "Reach for drone",
+    "Get sweet drink"
+   ]
+  }
+ ]
 }

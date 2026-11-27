@@ -17,5 +17,31 @@
   "a colourful pedal rickshaw with a waving robot driver on the left",
   "a bobbing striped water taxi tied to an illuminated right pier"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "You clutch your golden capsule prize as evening lanterns glow across the pier.",
+   "options": [
+    "Take funicular tram",
+    "Hail robot rickshaw",
+    "Hop aboard ferry"
+   ]
+  },
+  {
+   "scene": "Your prize capsule is safe in hand while {tune} hums by the water.",
+   "options": [
+    "Board hillside train",
+    "Choose pedal rickshaw",
+    "Catch water taxi"
+   ]
+  },
+  {
+   "scene": "Tucking away the prize capsule, three different harbor rides wait for your journey.",
+   "options": [
+    "Enter glass car",
+    "Ride robot tricycle",
+    "Step onto boat"
+   ]
+  }
+ ]
 }

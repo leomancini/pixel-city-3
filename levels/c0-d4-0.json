@@ -17,5 +17,31 @@
   "a glowing dryer with swirling neon clothes in the centre",
   "open glass doors leading into the rain on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The ginger cat purrs softly, nudging a tiny brass key onto the blue seat.",
+   "options": [
+    "Grab brass key",
+    "Check spinning dryer",
+    "Step outside into rain"
+   ]
+  },
+  {
+   "scene": "Warm laundry scents drift by while humming {tune} as a little brass key drops.",
+   "options": [
+    "Pick up key",
+    "Inspect glowing dryer",
+    "Leave into rain"
+   ]
+  },
+  {
+   "scene": "The sleepy cat winks at you, flicking a shiny brass key onto the chair.",
+   "options": [
+    "Collect small key",
+    "Approach swirling dryer",
+    "Head outside now"
+   ]
+  }
+ ]
 }

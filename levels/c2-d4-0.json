@@ -17,5 +17,31 @@
   "a glowing ruby sphere spinning slowly in the centre of the brass rings",
   "a tall glowing terminal humming with turquoise lights on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Golden gears click as brass orbits dance beneath the painted starry dome.",
+   "options": [
+    "Rotate base handle",
+    "Tap red globe",
+    "Check computer desk"
+   ]
+  },
+  {
+   "scene": "The mechanical universe clicks smoothly while you wonder where {quest} might be hidden.",
+   "options": [
+    "Wound silver lever",
+    "Nudge pink sphere",
+    "Visit control screen"
+   ]
+  },
+  {
+   "scene": "Polished rings spin gently, carrying miniature worlds past the quiet observatory windows.",
+   "options": [
+    "Spin metallic crank",
+    "Reach for ruby",
+    "Approach glowing monitors"
+   ]
+  }
+ ]
 }

@@ -17,5 +17,31 @@
   "Insulated black tongs resting on a yellow tool cart, at the centre.",
   "A rusted wall breaker box with switches thrown, on the far left."
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Pink neon sparks crackle brightly, lighting up an iron hatch in the concrete floor.",
+   "options": [
+    "Pull floor ring",
+    "Take rubber tongs",
+    "Check open breakers"
+   ]
+  },
+  {
+   "scene": "A warm buzz tingles through the air, highlighting a hidden metal floor hatch.",
+   "options": [
+    "Open trapdoor ring",
+    "Pick up tongs",
+    "Inspect electrical box"
+   ]
+  },
+  {
+   "scene": "Whistling {tune}, you watch neon sparks reveal a trapdoor beneath the glowing bird.",
+   "options": [
+    "Heave hatch handle",
+    "Snatch tool tongs",
+    "Study breaker switches"
+   ]
+  }
+ ]
 }

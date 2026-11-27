@@ -17,5 +17,31 @@
   "An open iron caged lift humming gently by a pillar on the right",
   "A green water taxi moored at the canal stone pier on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The neat ink map shows three clear paths through the quiet district.",
+   "options": [
+    "Take yellow rickshaw",
+    "Enter iron lift",
+    "Hop on boat"
+   ]
+  },
+  {
+   "scene": "Fresh ink gleams in the dusk, detailing your choice of travel.",
+   "options": [
+    "Wave to rickshaw",
+    "Step inside lift",
+    "Try canal boat"
+   ]
+  },
+  {
+   "scene": "Three journeys are drawn, each leading deeper into your search for {quest}.",
+   "options": [
+    "Hire solar rickshaw",
+    "Use open lift",
+    "Catch water taxi"
+   ]
+  }
+ ]
 }

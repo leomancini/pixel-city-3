@@ -16,5 +16,31 @@
   "a striped water taxi bobbing at a low canal dock on the far left",
   "a sleek silver monorail car waiting with doors open up high",
   "a red angled funicular car sitting on an uphill track on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "You arrive at the busy multistory station as evening twilight settles over the city.",
+   "options": [
+    "Board canal boat",
+    "Catch upper train",
+    "Climb red car"
+   ]
+  },
+  {
+   "scene": "Humming {tune}, you step onto the platform where city travelers rush all around.",
+   "options": [
+    "Choose canal boat",
+    "Try overhead train",
+    "Ride hillside tram"
+   ]
+  },
+  {
+   "scene": "The vast transit hub bustles with cozy commuters and three exciting ways forward.",
+   "options": [
+    "Take river taxi",
+    "Ride high train",
+    "Enter inclined tram"
+   ]
+  }
  ]
 }

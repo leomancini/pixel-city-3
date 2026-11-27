@@ -16,5 +16,31 @@
   "A stall stacked with glowing indigo spice jars on the left.",
   "A giant polished copper kettle hanging over coals in the centre.",
   "A hemp rope ladder dangling from bridge rafters on the right."
+ ],
+ "variants": [
+  {
+   "scene": "Salty river air and warm cinnamon scents greet you beneath the stone arches.",
+   "options": [
+    "Examine blue jars",
+    "Tap giant kettle",
+    "Ascend rope ladder"
+   ]
+  },
+  {
+   "scene": "Lanterns glow softly along the docks as you continue your search for {quest}.",
+   "options": [
+    "Check indigo jars",
+    "Strike warm kettle",
+    "Scale tall ladder"
+   ]
+  },
+  {
+   "scene": "Chattering crowds and crackling fire coals welcome you to the twilight market.",
+   "options": [
+    "Browse blue jars",
+    "Clink hanging kettle",
+    "Climb the ladder"
+   ]
+  }
  ]
 }

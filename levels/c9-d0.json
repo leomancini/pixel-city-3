@@ -17,5 +17,31 @@
   "a brass four-armed robot balancing porcelain teapots, standing at the centre",
   "a glowing red circular moon gate entrance on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Your skates clatter onto the platform under rows of warm red lanterns.",
+   "options": [
+    "Sniff hot buns",
+    "Wave at automaton",
+    "Enter glowing arch"
+   ]
+  },
+  {
+   "scene": "You glide outside humming {tune} while steam rises around the bustling platform.",
+   "options": [
+    "Buy fresh dumplings",
+    "Meet brass server",
+    "Cross blue gateway"
+   ]
+  },
+  {
+   "scene": "Neon lights reflect on your jacket as the dragon train lets you out.",
+   "options": [
+    "Try dim sum",
+    "Approach teapot robot",
+    "Skate through portal"
+   ]
+  }
+ ]
 }

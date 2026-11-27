@@ -17,5 +17,31 @@
   "a chrome robot frozen mid-spin in the centre",
   "a taut cable on the right running down to a ramen stall"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "You pop up onto a breezy rooftop party lit by crisscrossing beam lights.",
+   "options": [
+    "Touch mixer console",
+    "Battle spin bot",
+    "Ride wire down"
+   ]
+  },
+  {
+   "scene": "The crowd claps along as colourful spotlights crisscross above the rooftop dance circle.",
+   "options": [
+    "Play synthesizer board",
+    "Dance against robot",
+    "Glide across cable"
+   ]
+  },
+  {
+   "scene": "You emerge under glowing party bulbs, still wondering where {quest} might be hidden.",
+   "options": [
+    "Check audio booth",
+    "Face chrome dancer",
+    "Take high zipline"
+   ]
+  }
+ ]
 }

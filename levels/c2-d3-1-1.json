@@ -16,5 +16,31 @@
   "A transparent glass elevator waiting open at the station on the far left",
   "A moored miniature brass airship tethered to a platform up high",
   "A yellow candy delivery truck parked with its cabin open on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "Gears rattle overhead as three grand exit routes unlock across the cozy factory.",
+   "options": [
+    "Enter glass elevator",
+    "Reach the airship",
+    "Hop into truck"
+   ]
+  },
+  {
+   "scene": "Whistles blow and three great ways out power up around the roaring furnace.",
+   "options": [
+    "Ride glowing lift",
+    "Steer mini blimp",
+    "Take yellow truck"
+   ]
+  },
+  {
+   "scene": "Steam hisses politely, revealing three different escape routes ready for your {quest}.",
+   "options": [
+    "Try illuminated lift",
+    "Mount rooftop blimp",
+    "Board cargo truck"
+   ]
+  }
  ]
 }

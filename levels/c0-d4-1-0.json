@@ -17,5 +17,31 @@
   "a bright yellow street tram idling with headlights on at the centre platform",
   "a turquoise harbour ferry bobbing gently at the right pier with lowered ramp"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "You step onto a quiet station platform where three different rides await.",
+   "options": [
+    "Enter silver subway",
+    "Hop on tram",
+    "Board blue ferry"
+   ]
+  },
+  {
+   "scene": "Water laps against the wooden dock as warm station lamps glow overhead.",
+   "options": [
+    "Ride the subway",
+    "Take yellow tram",
+    "Cross wooden ramp"
+   ]
+  },
+  {
+   "scene": "Humming tracks and rippling waves call you forward on your search for {quest}.",
+   "options": [
+    "Choose the subway",
+    "Climb aboard tram",
+    "Step onto boat"
+   ]
+  }
+ ]
 }

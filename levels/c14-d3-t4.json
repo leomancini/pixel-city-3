@@ -34,5 +34,49 @@
    "then": "Step off at Midnight Radio Repair",
    "next": "c14-d5"
   }
+ ],
+ "variants": [
+  {
+   "scene": "The cosy truck cab hums softly as twilight city lights glide past outside.",
+   "options": [
+    "Fiddle with dial",
+    "Unlatch the lunchbox",
+    "Chat with driver"
+   ],
+   "beats": [
+    "Crisp jazz snaps through the speakers, matching the street's flashing signs. The tow truck halts inside Neon Sign Hospital and clicks its door open.",
+    "Inside sits a warm, glowing glass pretzel that softly lights the cab. The truck slows by bright glass-shaping tables, and the passenger door pops open.",
+    "With a grin, the driver gives you a neon glass lightning bolt. The truck glides through the garage into Neon Sign Hospital, its door unlocking."
+   ],
+   "ride_on": "You skip the hospital stop, riding along dim backstreets to the depot. Swapping into a buzzing sidecar motorbike, you chug toward Midnight Radio Repair beneath towers of warm glass valves."
+  },
+  {
+   "scene": "Pine scents sway overhead while you search the glowing purple avenues for {quest}.",
+   "options": [
+    "Adjust green tuner",
+    "Check inside lunchbox",
+    "Ask the driver"
+   ],
+   "beats": [
+    "Bouncy horn tunes burst from the dashboard, dancing with neon reflections. The truck eases into the buzzing Neon Sign Hospital as the side door opens.",
+    "Lifting the lid reveals a glass pretzel gleaming like a golden lantern. The truck parks alongside vibrant workshop benches, its door swinging smoothly ajar.",
+    "The driver hands over a souvenir glass spark with a bright chuckle. You roll into Neon Sign Hospital, where the truck stops and the door opens."
+   ],
+   "ride_on": "Waving goodbye to the hospital, you coast to the final stop. You climb into a noisy sidecar motorbike, rattling off to Midnight Radio Repair beneath piles of glowing amplifier tubes."
+  },
+  {
+   "scene": "Dangling air fresheners dance as the tow truck rumbles into the bright city.",
+   "options": [
+    "Turn radio dial",
+    "Open tin lunchbox",
+    "Speak to driver"
+   ],
+   "beats": [
+    "Merry jazz crackles to life over the humming engine. The tow truck gently stops inside Neon Sign Hospital, popping its cab door wide to the glow.",
+    "You peek inside to find an illuminated glass pretzel glowing pleasantly. The truck halts near colourful glassblowing desks and the door swings outward.",
+    "The driver smiles warmly, offering a glowing neon lightning bolt. The truck pulls right into Neon Sign Hospital, parting its passenger door for your arrival."
+   ],
+   "ride_on": "Riding past the hospital gates, you reach the end of the line. You hop into a sputtering sidecar motorbike and motor up to Midnight Radio Repair under stacks of shining valves."
+  }
  ]
 }

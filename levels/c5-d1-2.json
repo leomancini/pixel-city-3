@@ -17,5 +17,31 @@
   "a glossy blue manga issue in the center metal slot",
   "a sealed golden superhero comic tucked in the right wire bracket"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "Three cool comic books wait on the wire stand before you.",
+   "options": [
+    "Pick alien comic",
+    "Browse robot manga",
+    "Choose gold issue"
+   ]
+  },
+  {
+   "scene": "You rest your hands on the rack, humming {tune} to yourself.",
+   "options": [
+    "Select alien comic",
+    "Open robot manga",
+    "Take gold issue"
+   ]
+  },
+  {
+   "scene": "Fresh ink smells drift from three exciting issues on the squeaky stand.",
+   "options": [
+    "Pull alien comic",
+    "Check robot manga",
+    "Reach gold issue"
+   ]
+  }
+ ]
 }

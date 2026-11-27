@@ -17,5 +17,31 @@
   "A cluster of whirring gears jammed by a key in the centre",
   "An open arched service doorway on the far right releasing hissing steam"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The brass robot points toward giant cogs stuck on a silver key.",
+   "options": [
+    "Pull red lever",
+    "Check stuck cogs",
+    "Enter misty doorway"
+   ]
+  },
+  {
+   "scene": "Whirring wheels shudder to a halt while white steam billows through an archway.",
+   "options": [
+    "Yank large lever",
+    "Examine key wedge",
+    "Wade through steam"
+   ]
+  },
+  {
+   "scene": "Your mechanical pal gestures at the giant gears, still seeking {quest}.",
+   "options": [
+    "Reach for switch",
+    "Study giant mechanism",
+    "Head inside door"
+   ]
+  }
+ ]
 }

@@ -17,5 +17,31 @@
   "a neon green bamboo shoot resting in the panda open paw centre",
   "the narrow wooden rope bridge swaying over the misty gorge on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The friendly robot panda opens its chest box under the starry night sky.",
+   "options": [
+    "Check shiny cogs",
+    "Grab neon bamboo",
+    "Cross rope bridge"
+   ]
+  },
+  {
+   "scene": "Green light glows brightly from the mechanical panda on the mountain platform.",
+   "options": [
+    "Study the gears",
+    "Pick up bamboo",
+    "Walk rope bridge"
+   ]
+  },
+  {
+   "scene": "Steam smells delicious as the panda presents a shiny prize by the cableway.",
+   "options": [
+    "Examine robot gears",
+    "Take green shoot",
+    "Head across bridge"
+   ]
+  }
+ ]
 }

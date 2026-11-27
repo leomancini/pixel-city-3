@@ -17,5 +17,31 @@
   "a brass robotic octopus wearing a bowtie behind the counter on the left",
   "a brightly blinking neon jukebox with colorful vinyl records spinning on far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The brass octopus bartender serves up a tall, glowing cosmic milkshake with two straws.",
+   "options": [
+    "Drink the shake",
+    "Greet the octopus",
+    "Use the jukebox"
+   ]
+  },
+  {
+   "scene": "A swirled purple shake sparkles beside you while the robotic octopus dries a glass.",
+   "options": [
+    "Taste the milkshake",
+    "Pat the octopus",
+    "Start the jukebox"
+   ]
+  },
+  {
+   "scene": "You rest your skates as the bowtie-wearing octopus delivers your colorful sparkling treat.",
+   "options": [
+    "Try the shake",
+    "Praise the octopus",
+    "Choose a song"
+   ]
+  }
+ ]
 }

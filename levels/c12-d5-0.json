@@ -17,5 +17,31 @@
   "a woven basket brimming with star-shaped neon fruit on the far left",
   "a leafy stone archway glowing with fairy lights on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "A bubbly purple soda sparkles under lanterns as the gecko vendor smiles.",
+   "options": [
+    "Sip purple soda",
+    "Inspect glowing fruit",
+    "Walk through arch"
+   ]
+  },
+  {
+   "scene": "Humid greenhouse air swirls around your bike while the violet cooler fizzes gently.",
+   "options": [
+    "Taste fizzing drink",
+    "Check star fruit",
+    "Enter leafy archway"
+   ]
+  },
+  {
+   "scene": "You hum {tune} while steam rises from your sparkling violet beverage.",
+   "options": [
+    "Try violet cooler",
+    "View bright fruit",
+    "Head down path"
+   ]
+  }
+ ]
 }

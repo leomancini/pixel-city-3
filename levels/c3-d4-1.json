@@ -17,5 +17,31 @@
   "an adjustable brass magnifying arm perched on the table right",
   "a tall wheeled library ladder resting against tall shelves far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The friendly cartographer gestures toward a tied scroll resting across her drafting table.",
+   "options": [
+    "Grab the scroll",
+    "Check the lens",
+    "Scale the ladder"
+   ]
+  },
+  {
+   "scene": "Smelling fresh ink, you wonder if her rolled map holds clues about {quest}.",
+   "options": [
+    "Accept the tube",
+    "Inspect through glass",
+    "Ascend book ladder"
+   ]
+  },
+  {
+   "scene": "The woman smiles warmly and points out a rolled blueprint on the workbench.",
+   "options": [
+    "Pick up scroll",
+    "Use brass magnifier",
+    "Climb tall ladder"
+   ]
+  }
+ ]
 }

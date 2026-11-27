@@ -17,5 +17,31 @@
   "a floating golden trophy in the centre above the ramp curve",
   "a glowing rooftop noodle shack with flat awning on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "You shoot off the orange curve into the glowing twilight sky.",
+   "options": [
+    "Ride sparking wire",
+    "Snatch gold cup",
+    "Hit shack roof"
+   ]
+  },
+  {
+   "scene": "Midair, the aroma of hot ramen drifts up past your skates.",
+   "options": [
+    "Skate electric cable",
+    "Catch floating prize",
+    "Drop onto diner"
+   ]
+  },
+  {
+   "scene": "Spectators cheer as you fly sky-high above the city roofs.",
+   "options": [
+    "Grind live wire",
+    "Snag shiny trophy",
+    "Land on eatery"
+   ]
+  }
+ ]
 }

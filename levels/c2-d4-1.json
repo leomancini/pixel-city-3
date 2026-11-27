@@ -17,5 +17,31 @@
   "a blinking red switch mounted on the lounger armrest centre",
   "a closed circular floor hatch with a spiral latch far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Cosmic constellations sparkle across the giant glass dome as you rest below.",
+   "options": [
+    "Turn brass telescope",
+    "Click armrest switch",
+    "Lift round hatch"
+   ]
+  },
+  {
+   "scene": "You recline comfortably while humming {tune} under the swirling pixelated galaxy.",
+   "options": [
+    "Aim brass projector",
+    "Push seat button",
+    "Unlatch floor door"
+   ]
+  },
+  {
+   "scene": "Glowing star charts drift softly across the observatory's vaulted glass ceiling.",
+   "options": [
+    "Adjust standing projector",
+    "Hit red switch",
+    "Unlock spiral hatch"
+   ]
+  }
+ ]
 }

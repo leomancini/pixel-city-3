@@ -17,5 +17,31 @@
   "a giant ornate birdcage pavilion with a swinging gate on the right",
   "a squat tin keeper robot holding an oil can in the centre"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Steam hisses as you arrive at the brass pavilion, clutching your sketchbook.",
+   "options": [
+    "Feed giraffe crane",
+    "Inspect bird cage",
+    "Assist tin keeper"
+   ]
+  },
+  {
+   "scene": "Gears click and whir while you search the platform for {quest}.",
+   "options": [
+    "Pet tall crane",
+    "Step inside cage",
+    "Aid little robot"
+   ]
+  },
+  {
+   "scene": "Lanterns glow warmly along the cobbled track as clockwork creatures turn.",
+   "options": [
+    "Approach metal giraffe",
+    "Visit brass aviary",
+    "Greet round bot"
+   ]
+  }
+ ]
 }

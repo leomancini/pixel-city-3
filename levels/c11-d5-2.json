@@ -17,5 +17,31 @@
   "a ribbed metallic frequency dial set into the metal panel far left",
   "an empty glowing cassette drive slot waiting open on the right"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "Neon wires hum softly as a bright pixel grid lights up the console.",
+   "options": [
+    "Touch glowing square",
+    "Twist metal dial",
+    "Load blank cassette"
+   ]
+  },
+  {
+   "scene": "A retro rhythm screen sparkles with lively waveforms, waiting for your next input.",
+   "options": [
+    "Press central node",
+    "Rotate gold knob",
+    "Slide tape inside"
+   ]
+  },
+  {
+   "scene": "The glowing digital grid hums, perfectly matching the beat of {tune}.",
+   "options": [
+    "Tap bright core",
+    "Spin heavy dial",
+    "Pop tape in"
+   ]
+  }
+ ]
 }

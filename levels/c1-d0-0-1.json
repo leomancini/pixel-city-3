@@ -16,5 +16,31 @@
   "a glass funicular car on a steep incline track on the left",
   "a red bicycle rickshaw with a waiting rider at the centre",
   "a streamlined monorail carriage resting on an elevated beam on the right"
+ ],
+ "variants": [
+  {
+   "scene": "You check your map as glowing lanterns light the busy multi-level plaza.",
+   "options": [
+    "Take steep funicular",
+    "Wave down rickshaw",
+    "Climb to train"
+   ]
+  },
+  {
+   "scene": "Dusk falls over the station while you study the streets for {quest}.",
+   "options": [
+    "Try cliff railway",
+    "Hail red rickshaw",
+    "Catch overhead train"
+   ]
+  },
+  {
+   "scene": "The paper map crinkles gently in the cool purple twilight air.",
+   "options": [
+    "Board cliffside tram",
+    "Choose pedal cab",
+    "Hop on monorail"
+   ]
+  }
  ]
 }

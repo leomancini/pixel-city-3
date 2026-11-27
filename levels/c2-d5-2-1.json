@@ -17,5 +17,31 @@
   "a brass puffing steam train halted at the centre platform dock",
   "a sleek star shuttle resting with an open hatch on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Steam and cool evening air mingle on the bustling skyway platform.",
+   "options": [
+    "Enter glass elevator",
+    "Hop on train",
+    "Board sleek shuttle"
+   ]
+  },
+  {
+   "scene": "You wheel past the neon turnstiles, humming {tune} above the rooftop hum.",
+   "options": [
+    "Use tall elevator",
+    "Catch steam train",
+    "Climb into shuttle"
+   ]
+  },
+  {
+   "scene": "Three grand rides wait side by side under the giant looped track.",
+   "options": [
+    "Take round elevator",
+    "Ride puffing train",
+    "Try star shuttle"
+   ]
+  }
+ ]
 }

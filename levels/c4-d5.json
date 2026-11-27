@@ -17,5 +17,31 @@
   "a gardener in neon overalls coasting on roller blades at the centre",
   "a raised planter of pulsating blue chrysanthemums on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The escalator delivers you to a sparkling terrace filled with luminous blooms and music.",
+   "options": [
+    "Check musical fountain",
+    "Wave at skater",
+    "Gather glowing flower"
+   ]
+  },
+  {
+   "scene": "Glowing notes chime in the air, humming softly just like {tune}.",
+   "options": [
+    "Visit melody fountain",
+    "Greet roller gardener",
+    "Touch blue blossoms"
+   ]
+  },
+  {
+   "scene": "Neon lights twinkle over the smooth skating rink beside shimmering fountain waters.",
+   "options": [
+    "Examine splashy fountain",
+    "Call skating gardener",
+    "Snip glowing bloom"
+   ]
+  }
+ ]
 }

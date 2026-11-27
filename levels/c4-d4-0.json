@@ -17,5 +17,31 @@
   "a water-stained parchment map tucked beneath the kettle handle at centre",
   "the wooden entrance steps leading rightward toward the garden pavilion"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "Steam curls from the giant kettle above glowing coals on the stone path.",
+   "options": [
+    "Twist brass knob",
+    "Examine cloth map",
+    "Climb pavilion stairs"
+   ]
+  },
+  {
+   "scene": "Warm embers crackle under the kettle, where an intriguing paper map hangs.",
+   "options": [
+    "Rotate brass valve",
+    "Study parchment map",
+    "Approach the pavilion"
+   ]
+  },
+  {
+   "scene": "Herbal steam rises gently, humming like {tune} over the hot hearth coals.",
+   "options": [
+    "Adjust kettle valve",
+    "Check old map",
+    "Head toward pavilion"
+   ]
+  }
+ ]
 }

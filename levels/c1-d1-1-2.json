@@ -16,5 +16,31 @@
   "a sleek yellow water taxi bobbing at an open dock on the far left",
   "a steep glass funicular tram waiting with doors open up high on the right",
   "a mechanical rickshaw with glowing green wheels waiting on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "The cool pier breeze brings three different ways to travel across twilight waters.",
+   "options": [
+    "Ride the ferry",
+    "Climb the tram",
+    "Choose the rickshaw"
+   ]
+  },
+  {
+   "scene": "City lanterns glow as you step out, still searching for {quest}.",
+   "options": [
+    "Catch harbor boat",
+    "Take cable car",
+    "Signal the rickshaw"
+   ]
+  },
+  {
+   "scene": "Commuters wait along the wooden deck beneath violet skies and buzzing neon signs.",
+   "options": [
+    "Try the boat",
+    "Ride cliffside tram",
+    "Call green rickshaw"
+   ]
+  }
  ]
 }

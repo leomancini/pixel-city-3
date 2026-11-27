@@ -17,5 +17,31 @@
   "a rusty iron ladder bolted to the lighthouse wall on far right",
   "a barnacle-encrusted wooden cargo crate sitting closed on far left"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The smiling seal claps its flippers and slides a heavy key your way.",
+   "options": [
+    "Grab the key",
+    "Scale the ladder",
+    "Inspect the crate"
+   ]
+  },
+  {
+   "scene": "A joyful bark echoes across the reef as the seal presents a key.",
+   "options": [
+    "Pick up key",
+    "Climb the ladder",
+    "Open the crate"
+   ]
+  },
+  {
+   "scene": "You pet the cheerful seal, who nudges a shiny key closer to you.",
+   "options": [
+    "Take the key",
+    "Ascend iron ladder",
+    "Search the crate"
+   ]
+  }
+ ]
 }

@@ -17,5 +17,31 @@
   "A tiled subway stairwell with an illuminated neon train sign on the left",
   "A red street tram stopped with open doors on rails on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The paper glows warm and bright, granting you unlimited rides tonight.",
+   "options": [
+    "Take cable car",
+    "Head downstairs",
+    "Ride the tram"
+   ]
+  },
+  {
+   "scene": "Your glowing golden ticket hums softly as you ponder your search for {quest}.",
+   "options": [
+    "Climb to car",
+    "Descend to subway",
+    "Board the tram"
+   ]
+  },
+  {
+   "scene": "Raindrops tap your umbrella while the paper map lights up three rainy routes.",
+   "options": [
+    "Catch aerial car",
+    "Go underground",
+    "Step onto tram"
+   ]
+  }
+ ]
 }

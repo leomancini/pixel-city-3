@@ -17,5 +17,31 @@
   "a giant striped paper crane swooping down up high near the centre",
   "a narrow wooden control booth with a glowing green door on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "A breeze rustles your sketchbook as colorful folded birds drift overhead.",
+   "options": [
+    "Study folding machine",
+    "Reach for crane",
+    "Visit control booth"
+   ]
+  },
+  {
+   "scene": "Paper wings swirl through the breezy air, humming along to {tune}.",
+   "options": [
+    "Check brass machine",
+    "Snag striped crane",
+    "Open green door"
+   ]
+  },
+  {
+   "scene": "You leave the glass tube beneath giant paper birds soaring through the workshop.",
+   "options": [
+    "Examine clacking press",
+    "Grab swooping crane",
+    "Step inside booth"
+   ]
+  }
+ ]
 }

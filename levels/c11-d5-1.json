@@ -17,5 +17,31 @@
   "a glowing turquoise drumstick resting on the drum kit in the centre",
   "a yellow zipline handle suspended from a taut cable on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The friendly robot high-fives you, and an illuminated floor hatch flips wide open.",
+   "options": [
+    "Descend glowing hatch",
+    "Take bright drumstick",
+    "Grab hanging zipline"
+   ]
+  },
+  {
+   "scene": "Metal fingers slap yours, popping open a secret floor door that glows brightly.",
+   "options": [
+    "Use floor ladder",
+    "Snag neon drumstick",
+    "Catch yellow zipline"
+   ]
+  },
+  {
+   "scene": "Your cheerful high-five triggers a rooftop trapdoor to swing open below the drums.",
+   "options": [
+    "Enter open hatch",
+    "Pick up drumstick",
+    "Ride the zipline"
+   ]
+  }
+ ]
 }

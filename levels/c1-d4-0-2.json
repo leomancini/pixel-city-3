@@ -17,5 +17,31 @@
   "a parked velvet rickshaw and driver waiting patiently in the centre",
   "a wooden hand-cranked trolley sitting on narrow iron tracks on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Key tucked away safely, you hum {tune} along the scenic overlook.",
+   "options": [
+    "Take cable car",
+    "Engage the rickshaw",
+    "Hop on handcar"
+   ]
+  },
+  {
+   "scene": "Under dusky skies, several quaint mountain transports await your choice.",
+   "options": [
+    "Enter glass tram",
+    "Hail the rickshaw",
+    "Try handcar trolley"
+   ]
+  },
+  {
+   "scene": "Lanterns flicker warmly beside the tracks as you decide your next route.",
+   "options": [
+    "Climb into funicular",
+    "Choose velvet rickshaw",
+    "Mount rail trolley"
+   ]
+  }
+ ]
 }

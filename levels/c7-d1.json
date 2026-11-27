@@ -17,5 +17,31 @@
   "a huge brass wind-up key turning slowly in a glass pedestal centre",
   "a red vendor cart loaded with glowing snow globes on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Crisp snow crunches underfoot outside the cozy workshop as purple dusk falls.",
+   "options": [
+    "Visit warm shop",
+    "Turn brass key",
+    "Check vendor cart"
+   ]
+  },
+  {
+   "scene": "You hop onto the snowy platform, still searching for {quest}.",
+   "options": [
+    "Walk inside workshop",
+    "Crank large key",
+    "View snow globes"
+   ]
+  },
+  {
+   "scene": "Lanterns glow softly along the snowy street beside the quiet tram tracks.",
+   "options": [
+    "Go inside shop",
+    "Wind brass key",
+    "Examine globe cart"
+   ]
+  }
+ ]
 }

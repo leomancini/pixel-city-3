@@ -17,5 +17,31 @@
   "a wheeled rickshaw with a nodding driver parked at centre",
   "a turquoise water taxi tied to a dock on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "At the quiet canal dock, three lively rides wait beneath the purple twilight.",
+   "options": [
+    "Take red train",
+    "Hail pedal rickshaw",
+    "Catch water taxi"
+   ]
+  },
+  {
+   "scene": "While searching for {quest}, you pause beside the canal near three patient drivers.",
+   "options": [
+    "Climb aboard train",
+    "Pick cycle rickshaw",
+    "Hop into boat"
+   ]
+  },
+  {
+   "scene": "Cool evening air whispers over the stone terrace as three neat routes await.",
+   "options": [
+    "Enter monorail car",
+    "Choose pedal trike",
+    "Step onto boat"
+   ]
+  }
+ ]
 }

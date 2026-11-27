@@ -17,5 +17,31 @@
   "a yellow snack van with an open serving hatch on the right",
   "a vibrant spray-painted concrete mural wall standing at the centre"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Your red sneakers hit the pavement under the bright stadium floodlights.",
+   "options": [
+    "Scale tall ladder",
+    "Buy warm snacks",
+    "Study painted mural"
+   ]
+  },
+  {
+   "scene": "You arrive at the bustling plaza, still humming {tune} to yourself.",
+   "options": [
+    "Ascend the ladder",
+    "Visit snack van",
+    "Check graffiti wall"
+   ]
+  },
+  {
+   "scene": "Leaving the purple shuttle behind, you grip your skateboard in the evening breeze.",
+   "options": [
+    "Head up ladder",
+    "Get tasty food",
+    "Examine colourful wall"
+   ]
+  }
+ ]
 }

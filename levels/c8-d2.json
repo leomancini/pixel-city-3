@@ -17,5 +17,31 @@
   "A brass robot in a bowler hat tips his cane at centre.",
   "A warm tea shop door is slightly open on the far right."
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Steam puffs around you as the flying bus leaves you on the damp street.",
+   "options": [
+    "Try phone booth",
+    "Wave at gentleman",
+    "Pop inside cafe"
+   ]
+  },
+  {
+   "scene": "You stroll through the misty gears, still searching for {quest} in the city.",
+   "options": [
+    "Use call box",
+    "Say hello politely",
+    "Check tea shop"
+   ]
+  },
+  {
+   "scene": "Big clock gears turn overhead while rain gently patters on the cobblestones.",
+   "options": [
+    "Open red booth",
+    "Talk to automaton",
+    "Go for tea"
+   ]
+  }
+ ]
 }

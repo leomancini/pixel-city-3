@@ -34,5 +34,49 @@
    "then": "Step off at Comet Watch Rooftop",
    "next": "c14-d0"
   }
+ ],
+ "variants": [
+  {
+   "scene": "The cable car hums as neon city lights glide past the misty windows.",
+   "options": [
+    "Flatten paper map",
+    "Wind brass finch",
+    "Chat with mechanic"
+   ],
+   "beats": [
+    "You smooth the crinkled paper, revealing a hidden pathway to tasty bridge noodle shops just as the car docks and the doors slide open.",
+    "A quick turn of the key makes the metal bird chirp a cheerful melody, prompting the conductor to pull the doors open wide.",
+    "The mechanic explains how to safely bypass huge spinning cogs and gives you a wrench ticket while the brakes hiss and doors rumble open."
+   ],
+   "ride_on": "You remain aboard as Gear Bridge disappears. Following a quick change at the terminal, the night funicular carries you up to Comet Watch Rooftop, packed with cocoa robots and deckchairs."
+  },
+  {
+   "scene": "Overhead lamps flicker while you sway to the rhythmic hum of {tune}.",
+   "options": [
+    "Assist map reader",
+    "Check ticking cage",
+    "Ask tea drinker"
+   ],
+   "beats": [
+    "Together you fold the unruly sheet, spotting a quiet shortcut toward fragrant noodle stalls right when the vehicle halts and doors clatter open.",
+    "You wind the toy bird until it whistles a merry jingle, and the conductor responds by parting the entrance doors right away.",
+    "He gives you handy advice on slipping past moving machine parts, passing you a brass wrench ticket as the cabin thumps and doors glide open."
+   ],
+   "ride_on": "You ride along into the dark as Gear Bridge recedes. One smooth transfer at the main terminal leads to the night funicular, rising up toward Comet Watch Rooftop's cozy cocoa robots."
+  },
+  {
+   "scene": "The carriage rattles steadily across the skyline above glowing streets.",
+   "options": [
+    "Sort floppy blueprint",
+    "Tweak golden bird",
+    "Question friendly engineer"
+   ],
+   "beats": [
+    "You press the map flat, pinpointing a clever back route to the bridge's noodle stands as the car stops and its doors swing open.",
+    "Twisting the tiny key sets the brass bird singing a lively song, cueing the conductor to shove the side doors open.",
+    "He shares useful tips for dodging giant clockwork teeth, handing over a stamped wrench ticket just as the brakes squeal and doors roll open."
+   ],
+   "ride_on": "You sit tight while Gear Bridge shrinks away. After switching lines at the bustling terminal, the night funicular lifts you toward Comet Watch Rooftop, full of friendly cocoa robots and deckchairs."
+  }
  ]
 }

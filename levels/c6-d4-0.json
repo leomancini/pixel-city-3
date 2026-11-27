@@ -17,5 +17,31 @@
   "a wooden prop crate stamped with warning tape on the far left",
   "a wheeled camera dolly sitting idle on tracks to the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The friendly robot gestures toward a glowing blue clipboard right in your hands.",
+   "options": [
+    "Study the lines",
+    "Pry wooden box",
+    "Ride the track"
+   ]
+  },
+  {
+   "scene": "Neon lights hum behind you while the robot presents a glowing blue script.",
+   "options": [
+    "Check blue pages",
+    "Inspect hazard crate",
+    "Board camera cart"
+   ]
+  },
+  {
+   "scene": "Holding the glowing pages, you still wonder if {quest} is hidden on set.",
+   "options": [
+    "Scan the pages",
+    "Unlatch wooden crate",
+    "Climb on dolly"
+   ]
+  }
+ ]
 }

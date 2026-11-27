@@ -16,5 +16,31 @@
   "a teal water taxi docked at a wooden pier on the far left",
   "a sleek yellow monorail door sliding open up high above the centre stairs",
   "a red slanted funicular tram waiting on tracks on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "The sweet herbal tea soothes you as evening travel hums around the busy terminal.",
+   "options": [
+    "Board the boat",
+    "Climb to monorail",
+    "Enter red tram"
+   ]
+  },
+  {
+   "scene": "Cool tea settles the spice while you ponder {quest} among all the evening traffic.",
+   "options": [
+    "Catch water taxi",
+    "Ride high monorail",
+    "Take steep tram"
+   ]
+  },
+  {
+   "scene": "Fresh tea cools your tongue at the lively transit hub by the glowing water.",
+   "options": [
+    "Hop on boat",
+    "Head upstairs",
+    "Try inclined train"
+   ]
+  }
  ]
 }

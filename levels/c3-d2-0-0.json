@@ -17,5 +17,31 @@
   "a brass book cart lift with an open gate and lever, centre",
   "a striped bicycle rickshaw with an idling driver ready to depart, far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The brass gate swings wide as lively jazz fills the warm platform air.",
+   "options": [
+    "Enter neon car",
+    "Step inside lift",
+    "Hire rickshaw ride"
+   ]
+  },
+  {
+   "scene": "Sweet horn music plays, reminding you of {tune} as three routes appear.",
+   "options": [
+    "Climb into gondola",
+    "Use vintage lift",
+    "Hop on rickshaw"
+   ]
+  },
+  {
+   "scene": "Gears whir softly and a golden entrance opens behind the jazz band.",
+   "options": [
+    "Pick carnival car",
+    "Enter brass lift",
+    "Catch the rickshaw"
+   ]
+  }
+ ]
 }

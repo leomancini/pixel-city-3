@@ -17,5 +17,31 @@
   "a sleek monorail car waiting at a glass-walled platform on the right",
   "a two-wheeled rickshaw attended by a driver on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "A pigeon swoops down from the glowing rooftop greenhouse, dropping shiny brass coins.",
+   "options": [
+    "Board canal boat",
+    "Ride the monorail",
+    "Take the rickshaw"
+   ]
+  },
+  {
+   "scene": "While hunting for {quest}, three glittering tokens fall from a fluttering grey pigeon.",
+   "options": [
+    "Ride water taxi",
+    "Catch the monorail",
+    "Choose the rickshaw"
+   ]
+  },
+  {
+   "scene": "A bird drops three glowing tokens onto the busy canal promenade before you.",
+   "options": [
+    "Try water taxi",
+    "Enter the monorail",
+    "Use the rickshaw"
+   ]
+  }
+ ]
 }

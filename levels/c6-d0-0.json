@@ -17,5 +17,31 @@
   "a masked chemist holding glass tongs standing silently in the centre",
   "a slit curtain draped with thick velvet fabric on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "A gloved developer watches you quietly under strung-up photographs in the dim tent.",
+   "options": [
+    "Examine bubbling tray",
+    "Greet the chemist",
+    "Part velvet curtain"
+   ]
+  },
+  {
+   "scene": "Warm lamplight glows as you wonder if {quest} could be hidden here.",
+   "options": [
+    "View chemical liquid",
+    "Question masked chemist",
+    "Try fabric exit"
+   ]
+  },
+  {
+   "scene": "Vapor rises from glass bottles as string-hung pictures dry above patterned rugs.",
+   "options": [
+    "Check shallow tray",
+    "Speak to chemist",
+    "Peek through curtain"
+   ]
+  }
+ ]
 }

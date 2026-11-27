@@ -16,5 +16,31 @@
   "a tethered brass airship waiting outside an open hangar door on the far left",
   "a striped candy delivery truck idling at a loading bay on the right",
   "the illuminated glass sugar elevator waiting with open doors on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "Fresh caramel tastes heavenly as three exciting routes open before you.",
+   "options": [
+    "Board brass airship",
+    "Hop inside truck",
+    "Enter glass elevator"
+   ]
+  },
+  {
+   "scene": "Mmm, sweet gooey bliss! Now pick your next path across the bustling refinery floor.",
+   "options": [
+    "Climb into airship",
+    "Catch striped truck",
+    "Step inside elevator"
+   ]
+  },
+  {
+   "scene": "Sweet steam swirls around you as you ponder clues about {quest}.",
+   "options": [
+    "Take tethered airship",
+    "Ride yellow truck",
+    "Use lighted elevator"
+   ]
+  }
  ]
 }

@@ -17,5 +17,31 @@
   "a moored striped airship rocking gently at the middle bay gate, centre",
   "a yellow robotic delivery truck with its cargo ramp lowered, far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The teal terminal lights up three ready departures beneath the starry windows.",
+   "options": [
+    "Take steam train",
+    "Ride the zeppelin",
+    "Enter cargo truck"
+   ]
+  },
+  {
+   "scene": "Pink smoke curls as you wonder if {quest} waits along these paths.",
+   "options": [
+    "Catch the train",
+    "Hop on blimp",
+    "Roll up ramp"
+   ]
+  },
+  {
+   "scene": "Three grand travel gates hum with power along the starry platform.",
+   "options": [
+    "Board the locomotive",
+    "Float in airship",
+    "Check yellow truck"
+   ]
+  }
+ ]
 }

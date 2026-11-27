@@ -17,5 +17,31 @@
   "a friendly badger wearing an embroidered apron sitting right of centre",
   "a round wooden hatch door fitted with brass bolts on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "A cosy tea barge rocks gently while dried herbs dangle from the rafters.",
+   "options": [
+    "Sample hot brew",
+    "Talk to badger",
+    "Inspect round hatch"
+   ]
+  },
+  {
+   "scene": "Warm lanterns glow as you remember {tune} over the whistling kettle.",
+   "options": [
+    "Check singing kettle",
+    "Greet busy host",
+    "Unlatch wooden door"
+   ]
+  },
+  {
+   "scene": "Sweet herbal steam drifts across the wooden cabin beside the dark harbour.",
+   "options": [
+    "Try boiled tea",
+    "Join seated friend",
+    "Turn brass handle"
+   ]
+  }
+ ]
 }

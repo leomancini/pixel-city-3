@@ -34,5 +34,49 @@
    "then": "Step off at Midnight Radio Repair",
    "next": "c14-d5"
   }
+ ],
+ "variants": [
+  {
+   "scene": "The wooden cabin creaks along the track while humming {tune}.",
+   "options": [
+    "Untangle striped scarf",
+    "Watch spinning cogs",
+    "Nudge copper lever"
+   ],
+   "beats": [
+    "You loosen a snag in her wool, earning a cozy knitted patch. With a slow hiss, the crawler docks beside a steamy soup stall, doors sliding wide.",
+    "Behind the glass, giant cog teeth grind peacefully in the sunset. The cabin eases to a standstill, sliding its doors open to a bustling walkway of tools.",
+    "A cheerful bell rings from the console, rolling a little commemorative gear into your fingers. The crawler gently brakes, opening onto Gear Bridge."
+   ],
+   "ride_on": "You ride beyond the stop, surprising the sleepy driver at the controls. Switching over to a roaring sidecar motorbike, you zoom off toward the bright valves of Midnight Radio Repair."
+  },
+  {
+   "scene": "Warm lamplight glows as the timber tram rattles high above the city.",
+   "options": [
+    "Wind dropped yarn",
+    "Inspect the porthole",
+    "Tap loose lever"
+   ],
+   "beats": [
+    "You help gather her stray yarn, and she happily presents you with a stitched wool square. The crawler pulls in and doors part before a whistling soup stall.",
+    "You press close to see enormous brass wheels turn slowly together. The tram glides to a stop, opening right onto the lively tool walkway.",
+    "The small control clicks, popping a shiny souvenir gear right into your hand. With a soft thump, the car stops and doors open over Gear Bridge."
+   ],
+   "ride_on": "Remaining aboard, you roll past the bridge and wake the quiet driver. You hop into a sputtering sidecar motorbike, darting toward the glowing neon glow of Midnight Radio Repair."
+  },
+  {
+   "scene": "Rhythmic clicks fill the air as the car ascends toward the crossing.",
+   "options": [
+    "Fix tangled knitting",
+    "Gaze through porthole",
+    "Shift small lever"
+   ],
+   "beats": [
+    "You sort out the striped wool stitches, and the passenger gives you a bright knitted keepsake. The car halts smoothly as doors open near a whistling soup stall.",
+    "Massive interlocking teeth spin steadily beyond the glass frame. The cabin sighs to a halt, parting its doors to reveal the crowded tool walkway.",
+    "The control rattles softly and dispenses a tiny metal gear token for you. Shuddering gently to a stop, the crawler opens its doors onto Gear Bridge."
+   ],
+   "ride_on": "Riding past the station, you startle the drowsy driver at his desk. You transfer quickly onto a loud sidecar motorbike, racing to the warm lights of Midnight Radio Repair."
+  }
  ]
 }

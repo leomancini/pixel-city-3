@@ -16,5 +16,31 @@
   "a huge sleepy octopus curled inside a glass tank on the left",
   "a glowing cylinder filled with pink jellyfish in the centre",
   "a bright yellow fish food dispenser standing on the right"
+ ],
+ "variants": [
+  {
+   "scene": "Cool blue light shines across the tiled floor as pink jellyfish float by.",
+   "options": [
+    "Tap octopus glass",
+    "Watch jellyfish swim",
+    "Inspect yellow machine"
+   ]
+  },
+  {
+   "scene": "Water bubbles all around while you wonder if {quest} could be here.",
+   "options": [
+    "Greet sleepy octopus",
+    "Reach toward jellyfish",
+    "Use snack dispenser"
+   ]
+  },
+  {
+   "scene": "A sleepy octopus rests peacefully beneath the gentle neon signs above.",
+   "options": [
+    "Rouse resting octopus",
+    "Admire glowing jellies",
+    "Check yellow vendor"
+   ]
+  }
  ]
 }

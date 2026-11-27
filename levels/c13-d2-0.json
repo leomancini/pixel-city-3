@@ -17,5 +17,31 @@
   "a brass cloud projector angled toward the sky on the right",
   "a bolted metal service hatch set in the floor on the left"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Steam rises from the fresh popcorn bag as the little drone hovers nearby.",
+   "options": [
+    "Eat a bite",
+    "Point the projector",
+    "Lift the hatch"
+   ]
+  },
+  {
+   "scene": "Hot butter smells delicious while you wonder if {quest} could be up here.",
+   "options": [
+    "Try the popcorn",
+    "Turn brass projector",
+    "Check metal hatch"
+   ]
+  },
+  {
+   "scene": "A warm purple bag fills with snacks right beside the brass projector.",
+   "options": [
+    "Grab some popcorn",
+    "Adjust the projector",
+    "Inspect rooftop hatch"
+   ]
+  }
+ ]
 }

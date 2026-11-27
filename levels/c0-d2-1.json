@@ -16,5 +16,31 @@
   "a gleaming brass key held out by the lizard merchant in the centre",
   "a locked wooden chest bound in vines sitting on the far left",
   "a brick archway glowing with blue mushrooms on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "A friendly lizard merchant holds up a shiny brass key for you.",
+   "options": [
+    "Take the key",
+    "Inspect the chest",
+    "Explore glowing tunnel"
+   ]
+  },
+  {
+   "scene": "The lizard merchant dangles a shiny key above a rug covered in gears.",
+   "options": [
+    "Grab brass key",
+    "Check vine chest",
+    "Walk into tunnel"
+   ]
+  },
+  {
+   "scene": "Warm noodles simmer as a lizard merchant offers a bright brass key.",
+   "options": [
+    "Accept brass key",
+    "Try wooden chest",
+    "Head down tunnel"
+   ]
+  }
  ]
 }

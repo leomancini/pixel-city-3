@@ -17,5 +17,31 @@
   "a purple night bus idling at an open bay door, centre",
   "a yellow bicycle rickshaw with a bell and striped canopy, right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Holding your new pass, you scan the busy platform for your next ride.",
+   "options": [
+    "Board brass cart",
+    "Take purple bus",
+    "Hop on rickshaw"
+   ]
+  },
+  {
+   "scene": "A ticket prints as you wonder if {quest} waits down one of these routes.",
+   "options": [
+    "Enter tram lift",
+    "Board night bus",
+    "Pick yellow rickshaw"
+   ]
+  },
+  {
+   "scene": "With ticket in hand, three peculiar rides idle past the glowing turnstiles.",
+   "options": [
+    "Climb into tram",
+    "Ride the bus",
+    "Choose pedal rickshaw"
+   ]
+  }
+ ]
 }

@@ -17,5 +17,31 @@
   "a sloped funicular car waiting on a steep track on the right",
   "a brass rickshaw with a robot driver waiting on the far left"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "A freshly stamped parchment chart reveals three grand ways to leave the workshop.",
+   "options": [
+    "Board top monorail",
+    "Climb into funicular",
+    "Engage robot rickshaw"
+   ]
+  },
+  {
+   "scene": "The warm paper smells of wood pulp, charting escapes while humming {tune}.",
+   "options": [
+    "Catch the monorail",
+    "Ride sloped funicular",
+    "Hail the rickshaw"
+   ]
+  },
+  {
+   "scene": "Lantern light glows over drying charts and three unusual ways out.",
+   "options": [
+    "Mount upper monorail",
+    "Use steep funicular",
+    "Choose mechanical rickshaw"
+   ]
+  }
+ ]
 }

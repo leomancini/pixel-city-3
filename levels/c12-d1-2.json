@@ -17,5 +17,31 @@
   "A rickety wooden ladder leaning against the chimney wall on the far right",
   "A curtained wooden bathhouse door resting slightly ajar on the far left"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The calico wakes with a long stretch, uncovering a shiny brass key.",
+   "options": [
+    "Grab the key",
+    "Climb the ladder",
+    "Enter the bathhouse"
+   ]
+  },
+  {
+   "scene": "The calico rolls over happily, uncovering a shiny brass key under its paw.",
+   "options": [
+    "Pick up key",
+    "Scale wooden ladder",
+    "Step through curtains"
+   ]
+  },
+  {
+   "scene": "As you hum {tune}, the calico stretches and reveals a brass key.",
+   "options": [
+    "Snag brass key",
+    "Ascend tall ladder",
+    "Visit warm bathhouse"
+   ]
+  }
+ ]
 }

@@ -17,5 +17,31 @@
   "a heavy red floor switch mounted in the centre beside the gate",
   "a gleaming silver key hanging on a small hook on the right"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "Curious symbols glow around the brass dial while a red switch rests nearby.",
+   "options": [
+    "Rotate the dial",
+    "Throw red lever",
+    "Grab the key"
+   ]
+  },
+  {
+   "scene": "Resting your cane on the rail, you study the strange mechanical lift controls.",
+   "options": [
+    "Spin golden dial",
+    "Push red toggle",
+    "Take silver key"
+   ]
+  },
+  {
+   "scene": "A mysterious brass console hums quietly, still holding no hint of {quest}.",
+   "options": [
+    "Twist brass dial",
+    "Pull red switch",
+    "Snatch the key"
+   ]
+  }
+ ]
 }

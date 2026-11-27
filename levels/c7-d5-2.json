@@ -17,5 +17,31 @@
   "The wide open fish mouth carved on the right side of the sculpture.",
   "A striped warming tent glowing with yellow lantern light on the far right."
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The glowing angler fish sculpture sparkles brightly over the chilly frozen pond.",
+   "options": [
+    "Spin brass wheel",
+    "Check sharp mouth",
+    "Visit cozy tent"
+   ]
+  },
+  {
+   "scene": "You hum {tune} as frosty air swirls around the glowing ice lantern.",
+   "options": [
+    "Rotate tiny wheel",
+    "Peer inside jaws",
+    "Head toward tent"
+   ]
+  },
+  {
+   "scene": "A warm light dangles over the frozen fish while clockwork ticks within.",
+   "options": [
+    "Twist clockwork wheel",
+    "Look into mouth",
+    "Approach glowing tent"
+   ]
+  }
+ ]
 }

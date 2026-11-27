@@ -16,5 +16,31 @@
   "a mechanical rickshaw with glowing wheels parked on the far left",
   "a sleek yellow monorail car sitting at a platform in the centre",
   "a glass-walled funicular railway carriage resting on rails on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "Fresh evening air greets you at the bustling waterfront station.",
+   "options": [
+    "Try the rickshaw",
+    "Enter yellow train",
+    "Climb into funicular"
+   ]
+  },
+  {
+   "scene": "Lanterns glow softly above as you look for {quest} among the commuters.",
+   "options": [
+    "Hire the rickshaw",
+    "Hop on train",
+    "Take glass lift"
+   ]
+  },
+  {
+   "scene": "Cool harbor breezes whistle past quiet travelers on the wooden platform.",
+   "options": [
+    "Board the rickshaw",
+    "Catch the train",
+    "Use steep tram"
+   ]
+  }
  ]
 }

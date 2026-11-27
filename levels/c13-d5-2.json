@@ -17,5 +17,31 @@
   "a giant blackboard filled with colorful formulas on the far left",
   "a circular brass pneumatic hatch sealed tightly on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Your greeting surprises the scientist, who fumbles and drops a glowing electric clipboard.",
+   "options": [
+    "Snatch floating tablet",
+    "Inspect formula board",
+    "Unbolt massive door"
+   ]
+  },
+  {
+   "scene": "Humming {tune}, you watch the startled researcher fling a shiny clipboard into the air.",
+   "options": [
+    "Grab luminous pad",
+    "Read chalkboard notes",
+    "Turn vault handle"
+   ]
+  },
+  {
+   "scene": "The scientist gasps at your arrival, tossing a bright blue clipboard toward the floor.",
+   "options": [
+    "Catch floating board",
+    "Check equation wall",
+    "Open circular hatch"
+   ]
+  }
+ ]
 }

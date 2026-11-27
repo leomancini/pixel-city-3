@@ -17,5 +17,31 @@
   "A brass mini steam train parked along tracks in the centre.",
   "A small striped airship docked at an open portal on the right."
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The brass projector beams three starry portals onto the cosmic dome above.",
+   "options": [
+    "Use glass elevator",
+    "Ride steam train",
+    "Board small airship"
+   ]
+  },
+  {
+   "scene": "Constellation gates shimmer overhead while you ponder your search for {quest}.",
+   "options": [
+    "Try glass lift",
+    "Climb aboard train",
+    "Pilot tiny zeppelin"
+   ]
+  },
+  {
+   "scene": "Three glowing arches sparkle across the starlit ceiling of the observatory.",
+   "options": [
+    "Enter glowing elevator",
+    "Take brass train",
+    "Hop into airship"
+   ]
+  }
+ ]
 }

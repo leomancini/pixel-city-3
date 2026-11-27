@@ -17,5 +17,31 @@
   "a glowing digital editing screen in the centre displaying cute stickers",
   "a sparkly vinyl exit curtain hanging closed on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "A glittery purple curtain hangs beside you inside the glowing pink photo booth.",
+   "options": [
+    "Drop coin inside",
+    "Tap glowing screen",
+    "Push curtain aside"
+   ]
+  },
+  {
+   "scene": "Neon lights twinkle as you hum {tune} inside the quiet sticker booth.",
+   "options": [
+    "Feed coin slot",
+    "Select cute stickers",
+    "Draw sparkling drape"
+   ]
+  },
+  {
+   "scene": "Pastel lights glow softly against the cozy walls of the rooftop photo booth.",
+   "options": [
+    "Slide coin in",
+    "Press screen icons",
+    "Open shiny curtain"
+   ]
+  }
+ ]
 }

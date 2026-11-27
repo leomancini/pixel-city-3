@@ -17,5 +17,31 @@
   "a glass-walled funicular car parked on steep tracks up high right",
   "a red canopy rickshaw and driver waiting curbside on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Sunset warms the pier as you stroll along with your trusty wooden cane.",
+   "options": [
+    "Board yellow boat",
+    "Take the tram",
+    "Hire red rickshaw"
+   ]
+  },
+  {
+   "scene": "You carry your toy robot along the bustling wooden dock at dusk.",
+   "options": [
+    "Hop on boat",
+    "Catch the funicular",
+    "Choose the rickshaw"
+   ]
+  },
+  {
+   "scene": "Humming {tune}, you walk past travelers under the soft evening sky.",
+   "options": [
+    "Ride water taxi",
+    "Climb the railway",
+    "Take the rickshaw"
+   ]
+  }
+ ]
 }

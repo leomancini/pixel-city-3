@@ -17,5 +17,31 @@
   "a hand-drawn parchment map of flight currents pinned in the centre",
   "a curled orange fox napping on a braided mat on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The cozy wooden hut is warm, smelling of dried herbs and woodsmoke.",
+   "options": [
+    "Buy hot tea",
+    "Check wind map",
+    "Stroke sleeping fox"
+   ]
+  },
+  {
+   "scene": "Inside, a kettle gently steams beside hanging herbs and friendly travelers.",
+   "options": [
+    "Get warm drink",
+    "Read parchment map",
+    "Gently pet fox"
+   ]
+  },
+  {
+   "scene": "You step into the warm hut while humming {tune}.",
+   "options": [
+    "Pour barley tea",
+    "Examine flight map",
+    "Pat napping fox"
+   ]
+  }
+ ]
 }

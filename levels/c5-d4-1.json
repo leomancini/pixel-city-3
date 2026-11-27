@@ -17,5 +17,31 @@
   "a glowing square pedestal with a floating pixel cube at centre",
   "a massive yellow zipper closed tight along a doorway on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "A glowing cube floats above a soft, colorful floor inside the bouncy palace.",
+   "options": [
+    "Scale rope ladder",
+    "Check glowing pedestal",
+    "Unzip huge door"
+   ]
+  },
+  {
+   "scene": "Air pumps hum softly beneath quilted tiles as kids play in the bounce castle.",
+   "options": [
+    "Ascend purple ladder",
+    "Examine floating cube",
+    "Tug large zipper"
+   ]
+  },
+  {
+   "scene": "Bunting hangs overhead while you search for clues about {quest} inside the vibrant fort.",
+   "options": [
+    "Climb left ladder",
+    "Touch neon pedestal",
+    "Pull giant zipper"
+   ]
+  }
+ ]
 }

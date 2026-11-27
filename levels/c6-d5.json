@@ -17,5 +17,31 @@
   "a repair crew tinkering with a sparking hologram generator in the centre",
   "a tall metal service ladder bolted to the wall on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Your scissor lift halts near a sparking projector humming with neon energy.",
+   "options": [
+    "Take glowing paint",
+    "Assist repair crew",
+    "Scale tall ladder"
+   ]
+  },
+  {
+   "scene": "You arrive above the alley while humming {tune} against the dusk.",
+   "options": [
+    "Grab luminous paint",
+    "Join repair crew",
+    "Ascend service ladder"
+   ]
+  },
+  {
+   "scene": "The scissor lift stops as sparks burst from a noisy hologram machine.",
+   "options": [
+    "Snag glowing paint",
+    "Aid working crew",
+    "Use metal ladder"
+   ]
+  }
+ ]
 }

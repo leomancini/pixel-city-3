@@ -17,5 +17,31 @@
   "a pulsing green neon visor lying on the right side of the chest",
   "a checkered downward exit ramp sloping away on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The friendly metal rental bot opens wide, showing off handy skate gear.",
+   "options": [
+    "Pick rocket booster",
+    "Choose green visor",
+    "Roll down ramp"
+   ]
+  },
+  {
+   "scene": "A bronze robot pops open its chest under the floating disco ball.",
+   "options": [
+    "Take rocket part",
+    "Grab glowing visor",
+    "Use checkered ramp"
+   ]
+  },
+  {
+   "scene": "You hum {tune} while checking the gadgets inside the robot's belly.",
+   "options": [
+    "Snag rocket booster",
+    "Pick neon visor",
+    "Coast down ramp"
+   ]
+  }
+ ]
 }

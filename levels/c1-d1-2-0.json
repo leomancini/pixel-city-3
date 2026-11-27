@@ -16,5 +16,31 @@
   "A red bicycle rickshaw parked waiting on the far left of the plaza",
   "A striped water taxi moored at a wooden pier on the right",
   "A steep glass funicular car resting on tracks up high at far right"
+ ],
+ "variants": [
+  {
+   "scene": "Glowing transit tickets flutter into your hands beneath neon arcade signs by the water.",
+   "options": [
+    "Take the rickshaw",
+    "Hop on boat",
+    "Climb to funicular"
+   ]
+  },
+  {
+   "scene": "Prize passes fan out in your grip as evening settles along the boardwalk.",
+   "options": [
+    "Hire bicycle rickshaw",
+    "Take water taxi",
+    "Ride the tram"
+   ]
+  },
+  {
+   "scene": "You pocket lucky tickets, still humming {tune} above the gentle harbor waves.",
+   "options": [
+    "Choose red rickshaw",
+    "Board striped boat",
+    "Take cliffside railway"
+   ]
+  }
  ]
 }

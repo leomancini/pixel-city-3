@@ -16,5 +16,31 @@
   "a striped airship moored up high to a brass balcony rail",
   "a yellow delivery truck parked open on the far left",
   "a glowing glass elevator waiting open on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "The glowing salamander happily purrs as sweet orange syrup melts the tall gate.",
+   "options": [
+    "Reach the blimp",
+    "Climb in truck",
+    "Take the elevator"
+   ]
+  },
+  {
+   "scene": "Gooey caramel dissolves the brass gate while the warm critter beams at you.",
+   "options": [
+    "Ride the blimp",
+    "Check yellow truck",
+    "Try glass elevator"
+   ]
+  },
+  {
+   "scene": "Sticky candy drips off the melted bars while you search for {quest}.",
+   "options": [
+    "Head to airship",
+    "Inspect delivery truck",
+    "Use glass elevator"
+   ]
+  }
  ]
 }

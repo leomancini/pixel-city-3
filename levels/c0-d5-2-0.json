@@ -17,5 +17,31 @@
   "a tiled subway entrance stairwell leading down on the far left",
   "a red street tram waiting with open doors on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Warm tea in hand, you look up at the twilight transit options.",
+   "options": [
+    "Take cable car",
+    "Head down subway",
+    "Hop on tram"
+   ]
+  },
+  {
+   "scene": "Rain splashes softly on the platform while you wonder about {quest}.",
+   "options": [
+    "Climb to car",
+    "Enter the subway",
+    "Board the tram"
+   ]
+  },
+  {
+   "scene": "Steam curls from your cup amid the hum of city transit.",
+   "options": [
+    "Ride the cable",
+    "Walk downstairs",
+    "Step onto tram"
+   ]
+  }
+ ]
 }

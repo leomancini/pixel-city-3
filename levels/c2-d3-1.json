@@ -16,5 +16,31 @@
   "A giant sparkling sugar bubble floating up high above the furnace",
   "A shiny copper lever sticking out from the furnace on the left",
   "A drowsy orange jelly salamander napping beside a grate on the right"
+ ],
+ "variants": [
+  {
+   "scene": "The warm, crunchy candy treat tastes like sweet honey and toasted vanilla.",
+   "options": [
+    "Reach for bubble",
+    "Tug copper lever",
+    "Stroke warm salamander"
+   ]
+  },
+  {
+   "scene": "Chewing sweet caramel, you hum {tune} beside the glowing brick furnace.",
+   "options": [
+    "Pop giant bubble",
+    "Yank copper handle",
+    "Tickle gummy salamander"
+   ]
+  },
+  {
+   "scene": "Delicious melted sugar warms the factory air with a rich caramel scent.",
+   "options": [
+    "Grab sparkling bubble",
+    "Flip copper switch",
+    "Pat sleeping salamander"
+   ]
+  }
  ]
 }

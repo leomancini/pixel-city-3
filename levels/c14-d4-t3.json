@@ -34,5 +34,49 @@
    "then": "Step off at Comet Watch Rooftop",
    "next": "c14-d0"
   }
+ ],
+ "variants": [
+  {
+   "scene": "The mail car clatters softly while a neon envelope glows upon the floorboards.",
+   "options": [
+    "Open purple letter",
+    "Assist mechanical bird",
+    "Wrench hot valve"
+   ],
+   "beats": [
+    "You read the glowing letter's goofy warning about escaped umbrellas. With a loud clatter, the train halts at Lost Property Depot and its doors slide wide.",
+    "You drop loose envelopes into the clockwork bird's sorter, gaining a round brass token. The brakes squeal, and doors slide open right at the depot.",
+    "Twisting the valve lets out fragrant purple steam that eases the engine. The car glides to a stop, opening doors to great heaps of lost luggage."
+   ],
+   "ride_on": "You remain inside while the depot vanishes behind. Rolling to the final switch, you catch the night funicular upward to the warm, cocoa-scented air of Comet Watch Rooftop."
+  },
+  {
+   "scene": "You hum {tune} while riding through the twilight inside the rattling post car.",
+   "options": [
+    "Check shiny mail",
+    "Feed sorting pigeon",
+    "Crank steam pipe"
+   ],
+   "beats": [
+    "A quick peek reveals a funny warning about mischievous umbrellas. Wheels screech over cold rails as the train docks and the depot doors roll back.",
+    "You toss scattered postcards toward the mechanical pigeon, receiving a shiny brass token. Pneumatic brakes wheeze, and the passenger doors part before the depot.",
+    "You turn the hot wheel, venting violet mist that calms the rumbling train. The cars slide to a halt, opening wide to the depot's towering stacks."
+   ],
+   "ride_on": "You stay aboard as the station drifts away. At the line's end, you transfer to the night funicular, rising up toward the sweet cocoa glow of Comet Watch Rooftop."
+  },
+  {
+   "scene": "Overhead pipes hum warmly as letters drift from the glass delivery chute.",
+   "options": [
+    "Inspect glowing parcel",
+    "Sort stray letters",
+    "Twist glowing pipe"
+   ],
+   "beats": [
+    "You unfold the violet paper to read silly notes on runaway umbrellas. The engine slows with a clunk, and the depot doors part smoothly.",
+    "Sliding stray envelopes into the metal bird's cart earns you a polished brass token. The car jerks to a stop and depot doors open ahead.",
+    "A stout turn vents sweet purple vapor, slowing the train down gently. It pulls into the depot station, where the doors roll open right away."
+   ],
+   "ride_on": "You ride past the stop into the dark. Reaching the terminus, you switch to the cozy night funicular, soaring straight to the cocoa warmth of Comet Watch Rooftop."
+  }
  ]
 }

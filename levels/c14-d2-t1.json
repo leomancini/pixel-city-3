@@ -34,5 +34,49 @@
    "then": "Step off at Neon Sign Hospital",
    "next": "c14-d4"
   }
+ ],
+ "variants": [
+  {
+   "scene": "Brass birds flutter through the cozy train cabin, serving hot drinks at dusk.",
+   "options": [
+    "Sip the tea",
+    "Read glowing map",
+    "Inspect tied basket"
+   ],
+   "beats": [
+    "Spiced cinnamon steam drifts up, warming your hands. The train slows with a click-clack, and the doors slide open at Gear Bridge.",
+    "Tiny lights reveal an unexpected detour beneath the gears. With a cheerful rumble, the train brakes at Gear Bridge, and its doors roll wide.",
+    "Untying the cord, you spot three sleepy baby grease-monkeys curled in a knot. Air hisses softly as the train arrives and doors slide open at Gear Bridge."
+   ],
+   "ride_on": "You remain in your seat past the station. At the end line, you catch a sturdy tow truck that rumbles straight toward Neon Sign Hospital."
+  },
+  {
+   "scene": "Inside the twilight crawler, {tune} hums over the rattle of mechanical wings.",
+   "options": [
+    "Accept hot cup",
+    "Check route display",
+    "Untie wicker basket"
+   ],
+   "beats": [
+    "A sip of sweet cinnamon brew chases away the evening chill. The vehicle slows to a friendly halt, and doors open wide at Gear Bridge.",
+    "A flicker of brass dials traces a winding shortcut ahead. The carriage eases into the platform with a hiss, opening its doors at Gear Bridge.",
+    "Peering through the wicker weave, you see three tiny, snoozing grease-monkeys cuddled together. The train bumps gently to a stop, its doors sliding open at Gear Bridge."
+   ],
+   "ride_on": "You ride along as the car rumbles past the stop. At the final yard, you hitch a ride aboard a tow truck heading for Neon Sign Hospital."
+  },
+  {
+   "scene": "Clockwork pigeons carry fresh mugs as dusk glows outside the train windows.",
+   "options": [
+    "Grab the mug",
+    "View route chart",
+    "Open the basket"
+   ],
+   "beats": [
+    "The warm cinnamon drink fills you with cozy comfort. Iron wheels squeak to a steady halt, and the carriage doors open onto Gear Bridge.",
+    "The brass transit board glows, marking an alternate track. With a resonant thud, the train docks and parts its doors at Gear Bridge.",
+    "Inside the weave, three sleeping grease-monkeys twitch their tiny paws in sweet dreams. The crawler settles at Gear Bridge, sliding its heavy doors open."
+   ],
+   "ride_on": "You stay aboard while the car rolls on. Reaching the end of the line, you hop onto a yellow tow truck bound for Neon Sign Hospital."
+  }
  ]
 }

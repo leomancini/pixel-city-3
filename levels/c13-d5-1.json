@@ -17,5 +17,31 @@
   "the startled goggled scientist holding a silver clipboard on the right",
   "a humming vacuum tube chute with open brass hatch far left"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "A giant glowing sphere hovers warmly between your hands, sparkling with tiny constellations.",
+   "options": [
+    "Examine star patterns",
+    "Wave to scientist",
+    "Approach glowing chute"
+   ]
+  },
+  {
+   "scene": "Sparkles dance around you as bright star charts twirl within the floating bubble.",
+   "options": [
+    "Inspect inner cosmos",
+    "Summon the scientist",
+    "Head toward hatch"
+   ]
+  },
+  {
+   "scene": "The iridescent sphere lights the room while you hum {tune} in amazement.",
+   "options": [
+    "Read glowing map",
+    "Beckon the researcher",
+    "Walk to chute"
+   ]
+  }
+ ]
 }

@@ -17,5 +17,31 @@
   "a glowing circular red flipper button waiting on the left side",
   "an unlit metallic coin slot sitting directly in the centre"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "The retro pinball machine glows brightly as you lean in, gripping the frame.",
+   "options": [
+    "Yank spring plunger",
+    "Push big button",
+    "Drop shiny token"
+   ]
+  },
+  {
+   "scene": "Pixel City glitters under the glass while {tune} hums softly in your mind.",
+   "options": [
+    "Pull metal handle",
+    "Hit round button",
+    "Slide token inside"
+   ]
+  },
+  {
+   "scene": "Bright neon ramps sparkle as your hands rest ready on the glass edge.",
+   "options": [
+    "Release silver spring",
+    "Tap red button",
+    "Slot copper coin"
+   ]
+  }
+ ]
 }

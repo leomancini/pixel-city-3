@@ -16,5 +16,31 @@
   "A large brass valve wheel attached to a dripping pipe on the far left",
   "A wide copper vat filled with bubbling gold caramel standing in the centre",
   "An open glass sugar elevator with glowing buttons waiting at the far right"
+ ],
+ "variants": [
+  {
+   "scene": "Steam rises around you as rich caramel churns in giant copper pots.",
+   "options": [
+    "Spin big wheel",
+    "Sample warm batch",
+    "Step inside lift"
+   ]
+  },
+  {
+   "scene": "Golden syrup drips from pipes while you search everywhere for {quest}.",
+   "options": [
+    "Twist metal valve",
+    "Check caramel pot",
+    "Board bright elevator"
+   ]
+  },
+  {
+   "scene": "Clockwork gears click as the air fills with sweet, buttery steam.",
+   "options": [
+    "Crank pipe valve",
+    "Scoop hot syrup",
+    "Enter glass elevator"
+   ]
+  }
  ]
 }

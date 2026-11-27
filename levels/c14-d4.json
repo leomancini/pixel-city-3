@@ -17,5 +17,31 @@
   "a welder in a metal apron holding a blowtorch at the centre",
   "a tall pink flamingo sign flickering with wild sparks on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "A neon flamingo crackles with pink light across the bustling workshop.",
+   "options": [
+    "Check glass table",
+    "Greet the welder",
+    "Ponder glowing bird"
+   ]
+  },
+  {
+   "scene": "You smell warm metal as bright sparks scatter across the open garage floor.",
+   "options": [
+    "Browse work bench",
+    "Approach the worker",
+    "Examine fiery flamingo"
+   ]
+  },
+  {
+   "scene": "You arrive looking for {quest} amidst buzzing neon signs and glowing tools.",
+   "options": [
+    "Study glass tubes",
+    "Ask the welder",
+    "Reach toward flamingo"
+   ]
+  }
+ ]
 }

@@ -17,5 +17,31 @@
   "a motionless brass robot gardener holding golden shears on the right",
   "a swirling emerald portal open inside a hollow tree far left"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The gigantic shrub murmurs a leafy riddle through its green mustache.",
+   "options": [
+    "Solve the riddle",
+    "Tap brass gardener",
+    "Step through portal"
+   ]
+  },
+  {
+   "scene": "Freshly cut leaves flutter as the huge hedge sighs a curious puzzle.",
+   "options": [
+    "Guess the answer",
+    "Inspect metal gardener",
+    "Approach swirling portal"
+   ]
+  },
+  {
+   "scene": "The green giant whispers a leafy secret while you search for {quest}.",
+   "options": [
+    "Hear the riddle",
+    "Check brass gardener",
+    "Walk into portal"
+   ]
+  }
+ ]
 }

@@ -17,5 +17,31 @@
   "A jaunty pilot in goggles sitting in an airship cabin on the right.nn",
   "A thick steel zipline cable angling down toward the far right.nn"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Sunset paints the sky pink as you reach the high wooden platform.",
+   "options": [
+    "Use brass telescope",
+    "Greet goggled pilot",
+    "Ride steel cable"
+   ]
+  },
+  {
+   "scene": "Cool evening breeze hums through the beams while you think of {tune}.",
+   "options": [
+    "Check mounted telescope",
+    "Wave to captain",
+    "Zip down cable"
+   ]
+  },
+  {
+   "scene": "Up by the moored airship, the vast green fields stretch far below.",
+   "options": [
+    "Look through telescope",
+    "Hail the pilot",
+    "Slide the cable"
+   ]
+  }
+ ]
 }

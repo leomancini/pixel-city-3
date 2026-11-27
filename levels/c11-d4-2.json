@@ -17,5 +17,31 @@
   "a stone fountain bubbling with bright green slime, on the left",
   "a shimmering doorway leading into a neon-lit glass maze, far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The floating bot chimes softly and spits out your freshly printed photo pass.",
+   "options": [
+    "Grab the pass",
+    "Poke green slime",
+    "Walk into maze"
+   ]
+  },
+  {
+   "scene": "Bright camera sparkles fade as a card slides out of the shiny drone.",
+   "options": [
+    "Take glossy card",
+    "Examine glowing fountain",
+    "Explore glass cube"
+   ]
+  },
+  {
+   "scene": "Your souvenir photo ejects while {tune} keeps playing in your large headphones.",
+   "options": [
+    "Snatch the souvenir",
+    "Inspect bubbling slime",
+    "Step through glass"
+   ]
+  }
+ ]
 }

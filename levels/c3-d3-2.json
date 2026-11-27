@@ -17,5 +17,31 @@
   "a yellowed paper note pinned to the central wooden pole",
   "a red metal ladder leading down the exterior brick wall right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Fresh laundry flutters in the evening breeze beside a busy pigeon coop.",
+   "options": [
+    "Inspect pigeon cage",
+    "Check pinned paper",
+    "Descend red ladder"
+   ]
+  },
+  {
+   "scene": "Pigeons coo softly near a wooden windmill as you search for {quest}.",
+   "options": [
+    "Unlatch bird coop",
+    "Examine posted message",
+    "Take metal ladder"
+   ]
+  },
+  {
+   "scene": "A colorful quilt hangs near a wooden pole with an old note.",
+   "options": [
+    "Open wire cage",
+    "Read yellow notice",
+    "Use rooftop ladder"
+   ]
+  }
+ ]
 }

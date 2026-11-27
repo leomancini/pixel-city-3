@@ -17,5 +17,31 @@
   "a brass coin slot flashing on the automated noodle dispenser on the left",
   "a glowing neon staircase winding upward on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Steam curls from spicy ramen on the shiny counter while your headphones hum.",
+   "options": [
+    "Taste hot ramen",
+    "Insert shiny coin",
+    "Take winding steps"
+   ]
+  },
+  {
+   "scene": "A warm red bowl rests before you as you hum {tune}.",
+   "options": [
+    "Slurp spicy broth",
+    "Feed coin slot",
+    "Head upstairs"
+   ]
+  },
+  {
+   "scene": "Fresh ramen steams under neon signs while diner patrons chat softly around you.",
+   "options": [
+    "Enjoy dinner",
+    "Pay the machine",
+    "Ascend blue stairs"
+   ]
+  }
+ ]
 }

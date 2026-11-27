@@ -17,5 +17,31 @@
   "a neon holographic idol stage flickering with light at the far right",
   "a green mechanical dragon hang-glider tethered to a post on the far left"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Warm steam swirls from your fresh treat as lantern light glimmers above the bridge.",
+   "options": [
+    "Check pottery jars",
+    "Watch holographic idols",
+    "Mount winged flyer"
+   ]
+  },
+  {
+   "scene": "Chewy rice cakes warm your hands while you hum {tune} on the windy deck.",
+   "options": [
+    "View brown pots",
+    "Visit neon dancers",
+    "Hop on dragon"
+   ]
+  },
+  {
+   "scene": "A spicy aroma fills the twilight air right beside the steaming food cart.",
+   "options": [
+    "Examine big urns",
+    "Skate toward performance",
+    "Climb green beast"
+   ]
+  }
+ ]
 }

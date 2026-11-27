@@ -17,5 +17,31 @@
   "A plump striped badger curled asleep beneath the cart on the right",
   "A tall wooden mooring ladder standing upright on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Colorful ribbons flutter softly as the friendly merchant welcomes you to his cart.",
+   "options": [
+    "Examine shiny spool",
+    "Stroke quiet badger",
+    "Scale tall ladder"
+   ]
+  },
+  {
+   "scene": "The breeze carries sunset warmth and rustling silk across the meadow.",
+   "options": [
+    "Touch copper thread",
+    "Greet snoozing badger",
+    "Ascend wooden rungs"
+   ]
+  },
+  {
+   "scene": "Bright streamers wave in the wind while you still keep searching for {quest}.",
+   "options": [
+    "Check metallic spool",
+    "Pat sleeping creature",
+    "Climb mooring ladder"
+   ]
+  }
+ ]
 }

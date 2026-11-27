@@ -17,5 +17,31 @@
   "a yellow robotic delivery truck with open cargo doors standing in the centre",
   "a glowing cylindrical glass elevator with open sliding doors on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "A cavernous garage opens below, filled with busy mechanics and glowing vehicles.",
+   "options": [
+    "Board brass airship",
+    "Hop into truck",
+    "Ride glass elevator"
+   ]
+  },
+  {
+   "scene": "You arrive in a subterranean dock, still humming {tune} as sparks dance nearby.",
+   "options": [
+    "Climb into airship",
+    "Board yellow truck",
+    "Take glowing elevator"
+   ]
+  },
+  {
+   "scene": "Whirring conveyor bots and busy engineers fill this vast, metal-walled underground bay.",
+   "options": [
+    "Approach the airship",
+    "Check delivery truck",
+    "Step inside elevator"
+   ]
+  }
+ ]
 }

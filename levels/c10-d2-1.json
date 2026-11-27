@@ -17,5 +17,31 @@
   "a steel condiment bar with colorful squeeze bottles on the far left",
   "a creaky rope bridge swaying gently on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The friendly badger hands you a sweet, steaming panda-shaped bun.",
+   "options": [
+    "Taste warm bun",
+    "Check sauce station",
+    "Traverse rope bridge"
+   ]
+  },
+  {
+   "scene": "You accept a fresh steamed bun above the misty valley treetops.",
+   "options": [
+    "Eat hot snack",
+    "Visit sauce cart",
+    "Walk across bridge"
+   ]
+  },
+  {
+   "scene": "Steam curls from the cute panda bun while you hum {tune}.",
+   "options": [
+    "Nibble the bun",
+    "Browse condiment bottles",
+    "Head across bridge"
+   ]
+  }
+ ]
 }

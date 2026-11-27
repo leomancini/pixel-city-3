@@ -16,5 +16,31 @@
   "a striped rickshaw parked far left with its driver holding the handles",
   "a sleek yellow monorail car sitting at the centre platform with doors open",
   "a red angled funicular railway car waiting on sloped rails far right"
+ ],
+ "variants": [
+  {
+   "scene": "Three rides wait beneath glowing neon signs in the twilight station.",
+   "options": [
+    "Try the rickshaw",
+    "Enter yellow monorail",
+    "Climb red funicular"
+   ]
+  },
+  {
+   "scene": "Humming {tune}, you clutch your freshly printed transit ticket.",
+   "options": [
+    "Hail the rickshaw",
+    "Catch the monorail",
+    "Step inside funicular"
+   ]
+  },
+  {
+   "scene": "The platform buzzes with commuters beside three colorful vehicles.",
+   "options": [
+    "Choose the rickshaw",
+    "Hop on monorail",
+    "Take the funicular"
+   ]
+  }
  ]
 }

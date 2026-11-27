@@ -17,5 +17,31 @@
   "a brass wind-up monkey perched on a wooden barrel in the centre",
   "a curtained doorway glowing with pink paper lanterns on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Pink paper lanterns glow beside the busy canal as sweet spices fill the air.",
+   "options": [
+    "Sample blue spice",
+    "Tickle brass monkey",
+    "Visit curtained gazebo"
+   ]
+  },
+  {
+   "scene": "Your little dog sniffs around the lively canal terrace, still hoping to spot {quest}.",
+   "options": [
+    "Try glowing dust",
+    "Greet clockwork monkey",
+    "Step inside pavilion"
+   ]
+  },
+  {
+   "scene": "Evening settles over the cozy canal terrace as curious shoppers mingle by the stalls.",
+   "options": [
+    "Inspect glowing powder",
+    "Stroke metal monkey",
+    "Join glowing teahouse"
+   ]
+  }
+ ]
 }

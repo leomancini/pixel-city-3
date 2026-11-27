@@ -16,5 +16,31 @@
   "a large brass wheel mounted on a support column to the left",
   "a winding iron spiral staircase leading upward on the far left",
   "a motorized brass orrery with illuminated crystal planets on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "Starlight spills through the open dome as astronomers study the twilight sky.",
+   "options": [
+    "Spin brass wheel",
+    "Ascend spiral staircase",
+    "Examine glowing orrery"
+   ]
+  },
+  {
+   "scene": "A warm breeze drifts in while you keep searching for {quest}.",
+   "options": [
+    "Rotate large wheel",
+    "Go upstairs",
+    "View colorful orrery"
+   ]
+  },
+  {
+   "scene": "Clockwork clicks quietly beneath the grand, curved roof of the dome.",
+   "options": [
+    "Turn iron wheel",
+    "Climb the stairs",
+    "Check mechanical planets"
+   ]
+  }
  ]
 }

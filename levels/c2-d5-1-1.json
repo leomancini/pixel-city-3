@@ -17,5 +17,31 @@
   "a striped yellow airship tethered at the open centre dock gate",
   "a boxy electric delivery truck idling at the far right platform"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Three different rides wait across the busy hangar floor, all ready to leave.",
+   "options": [
+    "Climb into shuttle",
+    "Head to airship",
+    "Hop in truck"
+   ]
+  },
+  {
+   "scene": "You roll into the bustling launch bay as engines hum all around you.",
+   "options": [
+    "Take the shuttle",
+    "Board the blimp",
+    "Ride the van"
+   ]
+  },
+  {
+   "scene": "Engines rumble as you seek {quest} across the busy hangar platforms.",
+   "options": [
+    "Enter sleek shuttle",
+    "Reach docked airship",
+    "Try green van"
+   ]
+  }
+ ]
 }

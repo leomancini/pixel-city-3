@@ -16,5 +16,31 @@
   "A coin-operated steel binocular mounted on the railings on the far left",
   "A lighted yellow crane cabin with an open doorway at centre",
   "A taut steel zipline angling downward off the crane arm on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "High up on the crane bridge, twilight washes over the purple skyline.",
+   "options": [
+    "Check view viewer",
+    "Inspect lit booth",
+    "Ride the cable"
+   ]
+  },
+  {
+   "scene": "A sea breeze blows softly as you still search for {quest}.",
+   "options": [
+    "Use harbor telescope",
+    "Step inside cab",
+    "Glide down line"
+   ]
+  },
+  {
+   "scene": "Your green boots clatter against the metal platform above the misty docks.",
+   "options": [
+    "Look through scope",
+    "Explore yellow cabin",
+    "Zipline to safety"
+   ]
+  }
  ]
 }

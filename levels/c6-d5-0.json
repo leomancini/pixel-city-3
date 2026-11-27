@@ -17,5 +17,31 @@
   "a shut iron service door with an electronic keypad on the left",
   "a tiny floating maintenance droid hovering erratically in the centre"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The neon-tipped brush glows bright blue as paint drips onto the pavement.",
+   "options": [
+    "Ascend tall ladder",
+    "Tag keypad door",
+    "Check buzzing droid"
+   ]
+  },
+  {
+   "scene": "You hold the glowing brush, wondering if {friend} would like this shiny paint.",
+   "options": [
+    "Scale brick ladder",
+    "Paint iron door",
+    "Watch floating bot"
+   ]
+  },
+  {
+   "scene": "Cyan light spills from the brush while sparks crackle overhead in the alley.",
+   "options": [
+    "Use wall ladder",
+    "Daub steel door",
+    "Approach sparky drone"
+   ]
+  }
+ ]
 }

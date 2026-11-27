@@ -17,5 +17,31 @@
   "a round bronze door with gear locks on the far right",
   "a tall wheeled wooden ladder resting against bookshelves at far left"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "A mysterious hooded figure presents a bright, magical parchment beside a massive vault.",
+   "options": [
+    "Accept shimmering parchment",
+    "Inspect gear vault",
+    "Ascend tall ladder"
+   ]
+  },
+  {
+   "scene": "You adjust your messenger bag as the cloaked scholar offers an illuminated scroll.",
+   "options": [
+    "Grab bright scroll",
+    "Check round portal",
+    "Mount wooden ladder"
+   ]
+  },
+  {
+   "scene": "The quiet librarian holds out clues, but you wonder about {quest}.",
+   "options": [
+    "Take gleaming manuscript",
+    "Study heavy doorway",
+    "Scale library ladder"
+   ]
+  }
+ ]
 }

@@ -17,5 +17,31 @@
   "An ornate brass key resting quietly in the center.",
   "A glowing cyan crystal knob mounted to the wooden panel on the right."
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "A warm glow spills from the hollow nook, revealing three hidden treasures.",
+   "options": [
+    "Open sealed envelope",
+    "Grab ornate key",
+    "Turn glowing knob"
+   ]
+  },
+  {
+   "scene": "You lean into the round wooden hollow, breathing in the scent of cedar.",
+   "options": [
+    "Check wax letter",
+    "Pocket brass key",
+    "Rotate crystal handle"
+   ]
+  },
+  {
+   "scene": "Tucked inside the dark hollow, a cyan crystal sparkles beside an old letter.",
+   "options": [
+    "Unseal the letter",
+    "Collect metal key",
+    "Grip crystal knob"
+   ]
+  }
+ ]
 }

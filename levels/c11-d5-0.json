@@ -17,5 +17,31 @@
   "a notched brass frequency dial positioned on the far left edge",
   "a rubber grid of flashing amber drum buttons on the far right"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "Your hands rest over the humming controls, ready to drop the next beat.",
+   "options": [
+    "Slide purple fader",
+    "Twist gold knob",
+    "Tap amber pad"
+   ]
+  },
+  {
+   "scene": "Neon lights reflect off the mixing board as you try out {tune}.",
+   "options": [
+    "Move neon slider",
+    "Rotate numbered dial",
+    "Press drum pad"
+   ]
+  },
+  {
+   "scene": "Crisp studio monitors buzz while glowing pads warm up under your fingers.",
+   "options": [
+    "Shift center crossfader",
+    "Spin metallic wheel",
+    "Strike lit square"
+   ]
+  }
+ ]
 }

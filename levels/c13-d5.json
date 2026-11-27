@@ -17,5 +17,31 @@
   "a huge shimmering prism bubble drifting slowly down in the centre",
   "a tall scientist wearing oversized goggles taking notes on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "You leave the glass lift as glowing tubes hum softly all around you.",
+   "options": [
+    "Study brass console",
+    "Touch swirl bubble",
+    "Wave to scientist"
+   ]
+  },
+  {
+   "scene": "A giant swirling rainbow bubble floats silently right past your lift.",
+   "options": [
+    "Check control dials",
+    "Pop giant bubble",
+    "Ask the scientist"
+   ]
+  },
+  {
+   "scene": "Still searching for {quest}, you step into the hum of the strange lab.",
+   "options": [
+    "Examine brass machine",
+    "Reach toward bubble",
+    "Approach the scientist"
+   ]
+  }
+ ]
 }

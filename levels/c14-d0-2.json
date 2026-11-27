@@ -17,5 +17,31 @@
   "a brightly lit glass greenhouse perched atop a spire in the centre",
   "a notched brass adjustment dial mounted near the eyepiece on the right"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "Your telescope lens frames a drifting purple airship and a glowing rooftop greenhouse.",
+   "options": [
+    "Follow drifting blimp",
+    "Inspect bright greenhouse",
+    "Adjust brass wheel"
+   ]
+  },
+  {
+   "scene": "Through the sights, you scan the starry skyline, still searching for {quest}.",
+   "options": [
+    "Watch night zeppelin",
+    "View glass garden",
+    "Spin notched dial"
+   ]
+  },
+  {
+   "scene": "Crosshairs cut across the purple night sky, city spires, and a quiet greenhouse.",
+   "options": [
+    "Trace floating airship",
+    "Study rooftop plants",
+    "Rotate focus knob"
+   ]
+  }
+ ]
 }

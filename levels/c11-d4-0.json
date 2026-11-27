@@ -17,5 +17,31 @@
   "A glowing holographic tag flutters from the center shoe shelf.",
   "A suited frog clerk stands holding a shoehorn on the right."
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The neon sneakers glow bright while a stylish frog clerk watches politely.",
+   "options": [
+    "Sample pink high-tops",
+    "Inspect holographic tag",
+    "Speak to clerk"
+   ]
+  },
+  {
+   "scene": "Bright shelves hum with light as you search the mall for {quest}.",
+   "options": [
+    "Test pink shoes",
+    "Read floating tag",
+    "Greet frog clerk"
+   ]
+  },
+  {
+   "scene": "Glass cases beam colorful shoes across the shiny, reflective floor.",
+   "options": [
+    "Reach for high-tops",
+    "Check glowing tag",
+    "Talk with clerk"
+   ]
+  }
+ ]
 }

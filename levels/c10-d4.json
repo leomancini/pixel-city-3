@@ -17,5 +17,31 @@
   "a chrome diner bar lined with swirling pastel milkshake taps on the right",
   "a mechanical pin-setting robot juggling glowing yellow bowling pins far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Your skates click onto the platform while hums of glowing bowling lanes surround you.",
+   "options": [
+    "Check round car",
+    "Buy sweet drink",
+    "Assist juggle bot"
+   ]
+  },
+  {
+   "scene": "You roll past purple lounge seats, still humming {tune} under the sparkling disco tile.",
+   "options": [
+    "Examine pod tram",
+    "Visit diner counter",
+    "Approach juggling machine"
+   ]
+  },
+  {
+   "scene": "Bright signs shine overhead as you roll toward the busy lanes and retro counter.",
+   "options": [
+    "Study round train",
+    "Grab fancy shake",
+    "Watch pin juggler"
+   ]
+  }
+ ]
 }

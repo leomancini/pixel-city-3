@@ -17,5 +17,31 @@
   "the open doorway of the red wooden tea pavilion at centre",
   "steep mossy stone steps winding upward on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "A shiny silver key sparkles among the fresh tea bushes in your hand.",
+   "options": [
+    "Open wooden chest",
+    "Step inside pavilion",
+    "Ascend stone stairs"
+   ]
+  },
+  {
+   "scene": "Holding the bright key, you wonder if this place holds clues to {quest}.",
+   "options": [
+    "Try garden chest",
+    "Visit tea house",
+    "Walk up steps"
+   ]
+  },
+  {
+   "scene": "Lantern light glows as you find a curious little key beside the tea.",
+   "options": [
+    "Check mossy chest",
+    "Enter warm pavilion",
+    "Head up stairs"
+   ]
+  }
+ ]
 }

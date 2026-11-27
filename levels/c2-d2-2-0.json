@@ -16,5 +16,31 @@
   "a brass steam train waiting on tracks at the far left",
   "a tethered red airship floating beside a mast up high",
   "a yellow boxy delivery truck idling at the far right"
+ ],
+ "variants": [
+  {
+   "scene": "The blue wafer glows softly as three grand rides prepare to depart.",
+   "options": [
+    "Take steam train",
+    "Climb to airship",
+    "Hop in truck"
+   ]
+  },
+  {
+   "scene": "With your wafer held tight, three different routes call to you.",
+   "options": [
+    "Enter brass train",
+    "Choose red airship",
+    "Catch yellow truck"
+   ]
+  },
+  {
+   "scene": "Steam hisses, engines hum, and three adventures wait beneath the twilight sky.",
+   "options": [
+    "Catch the train",
+    "Ascend to airship",
+    "Board yellow truck"
+   ]
+  }
  ]
 }

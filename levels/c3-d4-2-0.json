@@ -17,5 +17,31 @@
   "a glowing midnight-blue night bus idling at a gate in the centre",
   "a yellow bicycle rickshaw with a nodding driver on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Gears grind to a halt, unveiling three peculiar ways to leave the station.",
+   "options": [
+    "Take library lift",
+    "Enter blue bus",
+    "Signal cycle rickshaw"
+   ]
+  },
+  {
+   "scene": "Three secret bays slide open wide beneath the glowing antique clocks.",
+   "options": [
+    "Climb book elevator",
+    "Hop on bus",
+    "Flag down rickshaw"
+   ]
+  },
+  {
+   "scene": "You wonder where to search for {quest} among these three newfound exits.",
+   "options": [
+    "Enter book cart",
+    "Catch the bus",
+    "Wave to rickshaw"
+   ]
+  }
+ ]
 }

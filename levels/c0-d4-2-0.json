@@ -17,5 +17,31 @@
   "A lit ferry boat docked at the wooden pier in the centre",
   "A glowing suspended cable car hanging stationary on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Your glowing token sparkles in the drizzle along the busy wooden pier.",
+   "options": [
+    "Catch the tram",
+    "Hop on ferry",
+    "Take cable car"
+   ]
+  },
+  {
+   "scene": "Rain patters on the dock while you wonder where {quest} might be.",
+   "options": [
+    "Enter yellow tram",
+    "Board the ferry",
+    "Climb to cablecar"
+   ]
+  },
+  {
+   "scene": "City lights reflect across the dark water as travel options hum all around.",
+   "options": [
+    "Ride the tram",
+    "Try the ferry",
+    "Board cable car"
+   ]
+  }
+ ]
 }

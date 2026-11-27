@@ -16,5 +16,31 @@
   "a red cable tram suspended from a wire at the far left",
   "a striped canal barge bobbing against the pier in the centre",
   "a glass-walled spiral elevator tower humming on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "Mountain air sweeps over the busy docks as lanterns glow in the twilight.",
+   "options": [
+    "Board cable tram",
+    "Step onto barge",
+    "Enter spiral elevator"
+   ]
+  },
+  {
+   "scene": "You hum {tune} while commuters bustle past the docks and towers.",
+   "options": [
+    "Catch cable tram",
+    "Hop on barge",
+    "Climb spiral lift"
+   ]
+  },
+  {
+   "scene": "The river ripples gently beneath the lively junction of stairs and railings.",
+   "options": [
+    "Try cable tram",
+    "Join river barge",
+    "Use spiral lift"
+   ]
+  }
  ]
 }

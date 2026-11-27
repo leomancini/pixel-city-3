@@ -17,5 +17,31 @@
   "a large red iron valve bolted to a groaning copper pipe in the centre",
   "a yellow metal ladder bolted to a chimney stack on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Steam puffs around you as cool evening air settles across the city rooftops.",
+   "options": [
+    "Check bubbling jar",
+    "Twist red wheel",
+    "Scale yellow ladder"
+   ]
+  },
+  {
+   "scene": "You adjust your brass telescope, still hoping to spot {quest} across the skyline.",
+   "options": [
+    "Examine cloud tank",
+    "Crank copper valve",
+    "Ascend roof ladder"
+   ]
+  },
+  {
+   "scene": "The yellow cable gondola creaks behind you near the hissing roof pipes.",
+   "options": [
+    "Study glass cylinder",
+    "Spin iron valve",
+    "Climb tall ladder"
+   ]
+  }
+ ]
 }

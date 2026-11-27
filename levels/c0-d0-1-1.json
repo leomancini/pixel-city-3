@@ -16,5 +16,31 @@
   "a sleek street tram with open folding doors waiting on the far left",
   "an orange cable car hanging open at a suspended platform up high",
   "a tiled subway stairwell with a lit neon sign on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "You step onto the platform as twilight turns the city sky purple.",
+   "options": [
+    "Ride the tram",
+    "Climb to cable car",
+    "Head into subway"
+   ]
+  },
+  {
+   "scene": "The busy transit hub hums while you continue searching for {quest}.",
+   "options": [
+    "Hop on tram",
+    "Take orange car",
+    "Walk down stairs"
+   ]
+  },
+  {
+   "scene": "Dusk settles over the tracks and cozy glowing lights flicker on.",
+   "options": [
+    "Enter street tram",
+    "Board the gondola",
+    "Visit neon subway"
+   ]
+  }
  ]
 }

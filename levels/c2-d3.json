@@ -16,5 +16,31 @@
   "a mechanical taffy puller stretching pink candy on the far left",
   "a glowing brick sugar furnace with open iron grate at the centre",
   "a striped doorway leading into the caramel refinery on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "Sweet steam fills the station air as your train pulls up to the platform.",
+   "options": [
+    "Check taffy crane",
+    "Sample sugar furnace",
+    "Visit caramel refinery"
+   ]
+  },
+  {
+   "scene": "You arrive at the bustling factory, still humming {tune} as workers gather nearby.",
+   "options": [
+    "Examine pink taffy",
+    "Taste sweet furnace",
+    "Roll into refinery"
+   ]
+  },
+  {
+   "scene": "The great brick oven glows warmly as sweet smells drift across the stone platform.",
+   "options": [
+    "Watch taffy puller",
+    "Try furnace sugar",
+    "Head inside refinery"
+   ]
+  }
  ]
 }

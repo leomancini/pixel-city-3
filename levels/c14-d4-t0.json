@@ -34,5 +34,49 @@
    "then": "Step off at Gear Bridge",
    "next": "c14-d1"
   }
+ ],
+ "variants": [
+  {
+   "scene": "Warm lamplight hums inside the cable car as purple night fills the windows.",
+   "options": [
+    "Open velvet pouch",
+    "Adjust brass dial",
+    "Wake robot conductor"
+   ],
+   "beats": [
+    "Tucked inside is a gleaming brass star-wheel dial. The carriage gently clunks to a halt at Comet Watch Rooftop, sliding its doors open wide to the twinkling sky.",
+    "A soft purple tint washes over the skylight, showing starlit constellations. The cable car docks nicely at Comet Watch Rooftop, opening its doors right beside cheerful cocoa robots.",
+    "The tin conductor hums a friendly musical chime and presents a punchcard schedule. Ding! The doors glide back as you reach the fresh air of Comet Watch Rooftop."
+   ],
+   "ride_on": "You keep your seat as the tram sails high past quiet spires. At the end line, you switch to a trusty bridge crawler that clatters toward the revolving Gear Bridge."
+  },
+  {
+   "scene": "Holding the brass rail, you hum {tune} while the city glides down below.",
+   "options": [
+    "Check velvet purse",
+    "Click glowing dial",
+    "Greet metal conductor"
+   ],
+   "beats": [
+    "A miniature brass star-wheel dial rests within the soft fabric. Gears rumble to a stop at Comet Watch Rooftop, and the doors slide open under a dome of stars.",
+    "The overhead panes shift to deep violet, revealing maps of glowing constellations. The carriage eases into Comet Watch Rooftop, doors parting beside bustling, friendly cocoa robots.",
+    "With a sweet mechanical chime, the sleeping robot blinks awake and shares a punchcard schedule. A cheerful ding rings out as the doors open onto Comet Watch Rooftop."
+   ],
+   "ride_on": "Riding past the stop, you drift above sleepy rooftops into misty clouds. At the terminus, you board a clanking bridge crawler bound for the giant, spinning Gear Bridge."
+  },
+  {
+   "scene": "Neon lights blur beneath the ascending cabin as commuters quietly read their papers.",
+   "options": [
+    "Examine patterned pouch",
+    "Twist wall dial",
+    "Nudge sleepy robot"
+   ],
+   "beats": [
+    "You discover an intricate brass star-wheel dial nestled safely inside. The car thuds gently into Comet Watch Rooftop, parting its doors beneath a canopy of brilliant stars.",
+    "Twisting the gauge turns the ceiling glass purple, unveiling hidden constellations. The funicular pulls into Comet Watch Rooftop, sliding doors wide next to smiling cocoa-serving robots.",
+    "A pleasant chime trills from the automaton, who politely offers a punchcard comet timetable. Ding! The funicular halts and slides open onto the cool Comet Watch Rooftop platform."
+   ],
+   "ride_on": "You stay aboard while the car climbs softly through nighttime clouds. At the final stop, you catch a sturdy bridge crawler that rolls directly to the busy Gear Bridge."
+  }
  ]
 }

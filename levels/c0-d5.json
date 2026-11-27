@@ -17,5 +17,31 @@
   "a stone frog fountain spouting bubbling water, standing in the centre",
   "a giant umbrella-shaped shelter with striped fabric and bench seats on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Your green boots squelch onto the wet stones of glowing Puddle Park.",
+   "options": [
+    "Watch pool reflection",
+    "Check stone frog",
+    "Join striped gazebo"
+   ]
+  },
+  {
+   "scene": "Rain patters softly against your umbrella as you search for {quest}.",
+   "options": [
+    "Look into water",
+    "Visit bubbly fountain",
+    "Walk under shelter"
+   ]
+  },
+  {
+   "scene": "City lights twinkle across the wet garden around the froggie fountain.",
+   "options": [
+    "Peer at puddle",
+    "Approach carved frog",
+    "Head inside canopy"
+   ]
+  }
+ ]
 }

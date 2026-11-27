@@ -17,5 +17,31 @@
   "a floating pixelated route projector hovering right of centre",
   "a steep striped loop ramp leading upward at the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Your wheels sparkle across glowing blue glass beneath the towering evening city skyline.",
+   "options": [
+    "Hit glowing arrows",
+    "Scan route holo",
+    "Ride sky loop"
+   ]
+  },
+  {
+   "scene": "Cool twilight air rushes past while you hum {tune} beside the humming track.",
+   "options": [
+    "Roll onto boost",
+    "Study floating map",
+    "Climb corkscrew curve"
+   ]
+  },
+  {
+   "scene": "Neon arrows pulse behind you as a massive curved coaster track looms ahead.",
+   "options": [
+    "Touch neon pad",
+    "Inspect circuit display",
+    "Enter giant loop"
+   ]
+  }
+ ]
 }

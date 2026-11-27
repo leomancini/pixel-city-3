@@ -17,5 +17,31 @@
   "the whirring mirrored drone directly overhead, clutching its dangling silver harness",
   "a glowing neon power cable slanting downward to the far left"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Your skates dangle high above the rooftops as the glittering disco drone carries you.",
+   "options": [
+    "Land on walkway",
+    "Scramble up drone",
+    "Grind glowing cable"
+   ]
+  },
+  {
+   "scene": "Cool evening air rushes past while you cling to the sparkling flying ball.",
+   "options": [
+    "Drop onto glass",
+    "Pull yourself higher",
+    "Ride the line"
+   ]
+  },
+  {
+   "scene": "Sparkles dance across the brick skyline as you swing above the busy glass corridor.",
+   "options": [
+    "Hop to skybridge",
+    "Climb the frame",
+    "Zip down wire"
+   ]
+  }
+ ]
 }

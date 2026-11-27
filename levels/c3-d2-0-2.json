@@ -17,5 +17,31 @@
   "a glowing neon ferris wheel gondola hanging open in the centre",
   "a brass book cart lift with an open sliding grille on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Three strange rides wait beneath neon glyphs while you hum {tune}.",
+   "options": [
+    "Pedal the rickshaw",
+    "Enter hanging car",
+    "Step inside elevator"
+   ]
+  },
+  {
+   "scene": "Glowing signs shine above a rickshaw, a suspended cart, and a brass lift.",
+   "options": [
+    "Hop on tricycle",
+    "Climb into gondola",
+    "Use book lift"
+   ]
+  },
+  {
+   "scene": "Secret transit options wait on the brick platform under humming neon signs.",
+   "options": [
+    "Ride the rickshaw",
+    "Board middle cabin",
+    "Enter gated lift"
+   ]
+  }
+ ]
 }

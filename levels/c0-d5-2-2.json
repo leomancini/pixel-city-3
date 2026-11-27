@@ -17,5 +17,31 @@
   "a glowing purple night bus parked with hazard lights blinking at the centre stop",
   "a blue harbour ferry moored to a wooden dock on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Gentle rain falls as city lights glow across the wide transit platforms.",
+   "options": [
+    "Hop on tram",
+    "Catch purple bus",
+    "Board harbor ferry"
+   ]
+  },
+  {
+   "scene": "Puddles ripple on the pier while you ponder your search for {quest}.",
+   "options": [
+    "Enter yellow tram",
+    "Climb on bus",
+    "Step onto ferry"
+   ]
+  },
+  {
+   "scene": "Cool evening drizzle covers the bustling docks, depot, and waiting rides.",
+   "options": [
+    "Take the tram",
+    "Ride the bus",
+    "Cross to ferry"
+   ]
+  }
+ ]
 }

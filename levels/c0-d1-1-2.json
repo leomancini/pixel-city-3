@@ -16,5 +16,31 @@
   "a blue ferryboat docked at a wooden pier on the far left",
   "a tiled subway stairwell with an open metal turnstile in the centre",
   "a yellow street tram waiting with open doors on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "Salty evening air greets you on the bustling pier by three waiting routes.",
+   "options": [
+    "Board the ferry",
+    "Enter the subway",
+    "Catch the tram"
+   ]
+  },
+  {
+   "scene": "You climb onto the wooden deck while humming {tune} under the dusky sky.",
+   "options": [
+    "Cross the gangplank",
+    "Descend tiled stairs",
+    "Hop on tram"
+   ]
+  },
+  {
+   "scene": "Tides lap against the pilings as evening commuters gather by land and sea.",
+   "options": [
+    "Take blue boat",
+    "Head downstairs",
+    "Climb aboard tram"
+   ]
+  }
  ]
 }

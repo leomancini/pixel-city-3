@@ -16,5 +16,31 @@
   "A patch of glowing neon blossoms planted along the far left",
   "A wheeled gardener robot watering grass in the centre",
   "A wooden tram with open doors waiting on tracks far right"
+ ],
+ "variants": [
+  {
+   "scene": "Warm lantern light glows above a lively rooftop high in the clouds.",
+   "options": [
+    "Sniff glowing blooms",
+    "Greet watering bot",
+    "Climb on tram"
+   ]
+  },
+  {
+   "scene": "The elevator chimes open as you hum {tune} to the evening air.",
+   "options": [
+    "Check sparkling flowers",
+    "Ask robotic gardener",
+    "Hop aboard tram"
+   ]
+  },
+  {
+   "scene": "Fresh garden mist and sparkling purple blooms welcome you to the roof.",
+   "options": [
+    "Examine bright petals",
+    "Wave to robot",
+    "Catch the tram"
+   ]
+  }
  ]
 }

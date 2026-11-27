@@ -17,5 +17,31 @@
   "a waiting blue double-decker bus with doors open on the right",
   "a canopied bicycle rickshaw with a waving driver on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The milk float hums softly as twilight settles over the glowing arcade street.",
+   "options": [
+    "Enter cart lift",
+    "Climb on bus",
+    "Catch the rickshaw"
+   ]
+  },
+  {
+   "scene": "Headlights beam into the cool evening as bustling crowds gather near the arcade.",
+   "options": [
+    "Try cart lift",
+    "Hop on bus",
+    "Wave to rickshaw"
+   ]
+  },
+  {
+   "scene": "The float idle glows, making you hum {tune} beside the busy night traffic.",
+   "options": [
+    "Use cart lift",
+    "Step onto bus",
+    "Ride the rickshaw"
+   ]
+  }
+ ]
 }

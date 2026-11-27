@@ -17,5 +17,31 @@
   "a glass seed hopper on a pedestal glowing softly in the centre",
   "a spiral copper ladder leading up through an open hatch far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Metallic hummingbirds flutter under the glass dome while tiny gears tick softly.",
+   "options": [
+    "Grab swinging key",
+    "Check seed jar",
+    "Scale spiral staircase"
+   ]
+  },
+  {
+   "scene": "Golden mechanical birds chirp overhead as you search the conservatory for {quest}.",
+   "options": [
+    "Snag dangling key",
+    "Examine glowing hopper",
+    "Head up stairs"
+   ]
+  },
+  {
+   "scene": "Coppery birds hover midair, clicking gently inside the grand glass pavilion.",
+   "options": [
+    "Take winding key",
+    "Study center dispenser",
+    "Ascend winding steps"
+   ]
+  }
+ ]
 }

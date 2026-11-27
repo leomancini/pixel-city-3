@@ -17,5 +17,31 @@
   "A teal water taxi idling at a wooden dock slip in the centre",
   "A red glass-domed funicular railway car stopped on tracks on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Tucking the plush cat close, you pause by the twilight canal.",
+   "options": [
+    "Take yellow pedicab",
+    "Hop aboard boat",
+    "Reach red tram"
+   ]
+  },
+  {
+   "scene": "Softly humming {tune}, you cradle your plush prize beside the calm water.",
+   "options": [
+    "Ride canopy cycle",
+    "Step onto boat",
+    "Walk toward tram"
+   ]
+  },
+  {
+   "scene": "You hold your prize cat under one arm along the stone waterfront.",
+   "options": [
+    "Flag down tricycle",
+    "Catch teal boat",
+    "Board track car"
+   ]
+  }
+ ]
 }

@@ -34,5 +34,49 @@
    "then": "Step off at Gear Bridge",
    "next": "c14-d1"
   }
+ ],
+ "variants": [
+  {
+   "scene": "The cosy cable car creaks softly while you hum {tune}.",
+   "options": [
+    "Clear the window",
+    "Turn the crank",
+    "Sample the bubbles"
+   ],
+   "beats": [
+    "A quick swipe clears the pane just as a silver weather-kite leads the car safely into port. The doors hiss wide.",
+    "You heave the brass winch until the gears click, settling the car against rooftop rain barrels. The doors rattle open.",
+    "The bright lather sparkles like sweet peppermint soda! With a soft bump against mist tanks, the cabin doors slide apart."
+   ],
+   "ride_on": "You sit tight as the platform slips away, ducking a cold raindrop. At the final station you board the bridge crawler, rolling right up to Gear Bridge."
+  },
+  {
+   "scene": "Warm lights hum overhead as frothy suds splash against the chilly window.",
+   "options": [
+    "Rub the glass",
+    "Crank the winch",
+    "Taste the suds"
+   ],
+   "beats": [
+    "Your sleeve rubs a circle clear as a shimmering weather-kite steers you toward the landing. The passenger doors hiss open.",
+    "You haul on the heavy spool until it catches, bringing the gondola gently beside rainwater barrels. The doors rattle open.",
+    "A tiny dab tastes just like fizzy mint candy! The floor thuds lightly beside tall cloud reservoirs, and the doors slide open."
+   ],
+   "ride_on": "You keep your seat as the stop glides by, missing a splash of rain. At the terminus you switch to the bridge crawler, arriving just as Gear Bridge appears."
+  },
+  {
+   "scene": "Neon suds shine on the floorboards inside the gently swaying cabin.",
+   "options": [
+    "Clean the pane",
+    "Wind the gear",
+    "Try the foam"
+   ],
+   "beats": [
+    "You sweep away the mist as a sleek weather-kite guides the craft into the station dock. The doors hiss open.",
+    "You turn the squeaking handle until it locks, parking the cabin right next to wooden rain barrels. The doors rattle open.",
+    "The glowing lather tickles your tongue like cool peppermint! The car nudges against big cloud tanks, and the doors slide open."
+   ],
+   "ride_on": "You remain aboard while the stop drifts past, avoiding a stray raindrop. Switching to the bridge crawler at the line's end, you pull in beside Gear Bridge."
+  }
  ]
 }

@@ -17,5 +17,31 @@
   "a brass birdcage elevator with its latticed gate slid wide open on the left",
   "an intricate pixel-woven map hanging quietly on the polished wood wall on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The brass robot beeps a greeting and offers you an ornate silver key.",
+   "options": [
+    "Accept the key",
+    "Step inside elevator",
+    "Inspect the tapestry"
+   ]
+  },
+  {
+   "scene": "Whirring softly, the small metal bellhop holds out a shiny room key.",
+   "options": [
+    "Grab the key",
+    "Board the lift",
+    "Check hanging tapestry"
+   ]
+  },
+  {
+   "scene": "Warm chandeliers glow overhead while the bellhop extends a bright silver key.",
+   "options": [
+    "Take silver key",
+    "Ride the lift",
+    "Study the tapestry"
+   ]
+  }
+ ]
 }

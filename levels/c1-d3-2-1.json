@@ -16,5 +16,31 @@
   "a green water taxi bobbing beside a low wooden dock on the far left",
   "a sleek yellow monorail car idling at an open platform gate on the right",
   "a red glass-topped funicular carriage waiting on slanted rails on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "A glowing dragon flies overhead as three different rides wait along the water.",
+   "options": [
+    "Board green boat",
+    "Catch yellow train",
+    "Climb red car"
+   ]
+  },
+  {
+   "scene": "The sparkling dragon lights the busy station while you continue seeking {quest}.",
+   "options": [
+    "Take river taxi",
+    "Enter yellow monorail",
+    "Ride angled train"
+   ]
+  },
+  {
+   "scene": "Golden sparkles float beneath the dragon, welcoming you to the riverside transit station.",
+   "options": [
+    "Try water taxi",
+    "Hop on monorail",
+    "Enter funicular"
+   ]
+  }
  ]
 }

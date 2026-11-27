@@ -17,5 +17,31 @@
   "a brass book cart lift with an open gate in the centre",
   "a pedal-powered bicycle rickshaw waiting by a tunnel exit on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Three curious vehicles wait beneath the dim brick arches behind the bar.",
+   "options": [
+    "Enter striped gondola",
+    "Step inside lift",
+    "Take red rickshaw"
+   ]
+  },
+  {
+   "scene": "Brass horns play while three secret transit options appear before you.",
+   "options": [
+    "Climb into gondola",
+    "Use brass lift",
+    "Hop on rickshaw"
+   ]
+  },
+  {
+   "scene": "You scan three secret getaways, still searching for {quest}.",
+   "options": [
+    "Board hanging gondola",
+    "Try book lift",
+    "Choose pedal rickshaw"
+   ]
+  }
+ ]
 }

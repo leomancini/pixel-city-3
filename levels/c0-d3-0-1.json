@@ -17,5 +17,31 @@
   "an illuminated tiled subway entrance with open turnstiles right of centre",
   "a blue passenger ferry moored at a canal gate on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The clock chimes as three different routes illuminate across the bustling square.",
+   "options": [
+    "Climb into tram",
+    "Enter glowing subway",
+    "Step onto ferry"
+   ]
+  },
+  {
+   "scene": "Turnstiles click unlocked while search clues for {quest} point in every direction.",
+   "options": [
+    "Catch the tram",
+    "Head downstairs underground",
+    "Board the boat"
+   ]
+  },
+  {
+   "scene": "Lanterns glow softly as engines hum by the tracks, stairs, and water.",
+   "options": [
+    "Hop inside tram",
+    "Descend to subway",
+    "Walk aboard ferry"
+   ]
+  }
+ ]
 }

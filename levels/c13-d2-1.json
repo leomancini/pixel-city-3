@@ -17,5 +17,31 @@
   "a forgotten neon-rimmed umbrella propped against an empty striped deckchair on the right",
   "a painted metal fire ladder attached to the cinema marquee, far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Whimsical neon kittens dance in the night sky from the rooftop projector.",
+   "options": [
+    "Swap glass reel",
+    "Take neon umbrella",
+    "Scale spiral ladder"
+   ]
+  },
+  {
+   "scene": "Glowing blue cats beam upward, reminding you of {tune} as you smile.",
+   "options": [
+    "Change slide wheel",
+    "Pick up umbrella",
+    "Ascend fire ladder"
+   ]
+  },
+  {
+   "scene": "A bright beam of animated cats lights up the cinema rooftop.",
+   "options": [
+    "Load slide wheel",
+    "Snag glowing umbrella",
+    "Use metal ladder"
+   ]
+  }
+ ]
 }

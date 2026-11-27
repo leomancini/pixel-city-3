@@ -16,5 +16,31 @@
   "a turquoise passenger ferry bobbing at the wooden dock on the far left",
   "a glass cable car hanging open on an overhead wire up high",
   "a bright red street tram resting on steel tracks on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "Warm lanterns glow as bustling travelers gather at this secret underground hub.",
+   "options": [
+    "Board the ferry",
+    "Climb to cable car",
+    "Hop on tram"
+   ]
+  },
+  {
+   "scene": "You smell cool water and machine oil while humming {tune} on the stone platform.",
+   "options": [
+    "Take turquoise boat",
+    "Ride sky car",
+    "Enter red tram"
+   ]
+  },
+  {
+   "scene": "Water ripples gently beside the busy platform under the giant vaulted ceiling.",
+   "options": [
+    "Catch the ferry",
+    "Use cable car",
+    "Board red tram"
+   ]
+  }
  ]
 }

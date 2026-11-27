@@ -17,5 +17,31 @@
   "a dropped golden winding key lying on the ground at the far left",
   "an ornate brass turnstile gate waiting closed on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The clock doors fly open, sending a golden mechanical bird fluttering high above.",
+   "options": [
+    "Reach for bird",
+    "Inspect small key",
+    "Head through gate"
+   ]
+  },
+  {
+   "scene": "A shiny clockwork hummingbird flutters out while you softly hum {tune}.",
+   "options": [
+    "Grab the bird",
+    "Check dropped key",
+    "Pass the turnstile"
+   ]
+  },
+  {
+   "scene": "Gears whir up above, releasing a tiny brass bird into the evening air.",
+   "options": [
+    "Chase the bird",
+    "Pick up key",
+    "Use the gate"
+   ]
+  }
+ ]
 }

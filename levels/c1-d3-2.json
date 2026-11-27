@@ -16,5 +16,31 @@
   "a cheerful lantern maker gluing red paper at a bench on the left",
   "a giant glowing dragon lantern suspended from the ceiling up high",
   "a beaded curtain swaying in an open doorway on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "A glowing orange dragon hangs above as fresh glue scents the cozy workshop.",
+   "options": [
+    "Assist lantern artisan",
+    "Reach for dragon",
+    "Part beaded curtain"
+   ]
+  },
+  {
+   "scene": "Bright lanterns glow all around as you listen for hums of {tune}.",
+   "options": [
+    "Aid the crafter",
+    "Admire glowing dragon",
+    "Step past curtain"
+   ]
+  },
+  {
+   "scene": "Warm light fills the room where paper lanterns dangle from wooden rafters.",
+   "options": [
+    "Join busy maker",
+    "Inspect hanging dragon",
+    "Leave through doorway"
+   ]
+  }
  ]
 }

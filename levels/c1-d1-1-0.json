@@ -16,5 +16,31 @@
   "an angled glass funicular cabin on tracks far left, door open",
   "a solar rickshaw with a friendly driver waiting patiently at centre",
   "a bobbing turquoise water taxi docked at a pier on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "Warm lanterns glow as three different rides wait along the quiet canal docks.",
+   "options": [
+    "Take incline car",
+    "Hail solar cart",
+    "Hop on boat"
+   ]
+  },
+  {
+   "scene": "You hum {tune} while deciding how to travel across the twilight city.",
+   "options": [
+    "Enter glass tram",
+    "Wave to driver",
+    "Step onto ferry"
+   ]
+  },
+  {
+   "scene": "Gentle waves lap the stone pier as multiple travel choices await your coin.",
+   "options": [
+    "Climb tramway stairs",
+    "Choose roofed tricycle",
+    "Catch water launch"
+   ]
+  }
  ]
 }

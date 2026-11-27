@@ -16,5 +16,31 @@
   "a sleek suspended monorail car idling at an open gate far left",
   "a red pedal rickshaw waiting quietly beside the player on the left",
   "a blue canal water taxi moored at a dock on the right"
+ ],
+ "variants": [
+  {
+   "scene": "Night falls over the water as engines and harbor lanterns softly glow.",
+   "options": [
+    "Ride the monorail",
+    "Hail the rickshaw",
+    "Hop on taxi"
+   ]
+  },
+  {
+   "scene": "A cool breeze blows along the platform while you hum {tune}.",
+   "options": [
+    "Catch the monorail",
+    "Pick the rickshaw",
+    "Take water taxi"
+   ]
+  },
+  {
+   "scene": "You step onto the stone dock where three clever rides await travelers.",
+   "options": [
+    "Enter monorail car",
+    "Try the rickshaw",
+    "Enter water taxi"
+   ]
+  }
  ]
 }

@@ -17,5 +17,31 @@
   "a mechanical book cart lift with an open gate in the centre",
   "a purple night bus waiting at a roadside stop on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The warm brass coin glints beneath the purple twilight sky.",
+   "options": [
+    "Enter glowing gondola",
+    "Step inside lift",
+    "Take purple bus"
+   ]
+  },
+  {
+   "scene": "You hold the token while humming {tune} on the windy rooftop.",
+   "options": [
+    "Try ferris wheel",
+    "Climb into lift",
+    "Hop on bus"
+   ]
+  },
+  {
+   "scene": "Three strange travel routes wait along the quiet rooftop platform.",
+   "options": [
+    "Board ferris car",
+    "Use book lift",
+    "Board night bus"
+   ]
+  }
+ ]
 }

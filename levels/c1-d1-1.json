@@ -16,5 +16,31 @@
   "a gleaming brass token resting on the counter to the right",
   "a colourful rotating metal comic book rack on the far left",
   "a glowing spiral metal staircase leading upward on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "A cheerful robot cashier slides a shiny coin onto the wooden counter.",
+   "options": [
+    "Grab the coin",
+    "Browse comic stand",
+    "Climb spiral stairs"
+   ]
+  },
+  {
+   "scene": "Humming {tune}, you see the metal clerk point to a brass coin.",
+   "options": [
+    "Pocket the token",
+    "Check comic display",
+    "Head upstairs"
+   ]
+  },
+  {
+   "scene": "Blinking lights glow as the counter clerk offers you a bright arcade token.",
+   "options": [
+    "Accept bright token",
+    "Read funny comics",
+    "Ascend winding steps"
+   ]
+  }
  ]
 }

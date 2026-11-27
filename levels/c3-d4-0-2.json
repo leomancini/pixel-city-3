@@ -17,5 +17,31 @@
   "A canopy bicycle rickshaw with a friendly driver seated at the centre",
   "A small electric milk float loaded with clinking glass bottles on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Three rides wait outside the glowing art gallery under the purple evening sky.",
+   "options": [
+    "Take purple bus",
+    "Hail pedal rickshaw",
+    "Ride milk float"
+   ]
+  },
+  {
+   "scene": "Outside the museum, three quirky vehicles idle along the quiet twilight street.",
+   "options": [
+    "Catch double-decker bus",
+    "Wave down rickshaw",
+    "Climb on float"
+   ]
+  },
+  {
+   "scene": "You step onto the sidewalk while humming {tune}, spotting three night rides.",
+   "options": [
+    "Enter double-decker",
+    "Pick cycle rickshaw",
+    "Choose milk truck"
+   ]
+  }
+ ]
 }

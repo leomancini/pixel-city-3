@@ -16,5 +16,31 @@
   "a yellow delivery truck on the far left, parked with open back doors",
   "a transparent glass elevator at centre with glowing doors waiting open",
   "a striped steam train engine idling on tracks on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "The gondola ramp lets down, opening into a buzzing twilight hub of travel.",
+   "options": [
+    "Climb into truck",
+    "Ride glass elevator",
+    "Hop on train"
+   ]
+  },
+  {
+   "scene": "You roll out onto the platform, humming {tune} above the gentle railway chugs.",
+   "options": [
+    "Inspect the truck",
+    "Enter tall elevator",
+    "Board the train"
+   ]
+  },
+  {
+   "scene": "Neon signs glow over the bustling transit deck as steam floats into the air.",
+   "options": [
+    "Sneak inside truck",
+    "Use center elevator",
+    "Take puffing train"
+   ]
+  }
  ]
 }

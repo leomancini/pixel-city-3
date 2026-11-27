@@ -16,5 +16,31 @@
   "a miniature steam train platform with smoking engine on the far left",
   "a moored brass airship gondola basket floating open up high",
   "an idling yellow delivery truck with open doors on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "Golden transit tokens clatter into the dispenser tray beside glowing jellyfish.",
+   "options": [
+    "Take steam train",
+    "Climb into airship",
+    "Hop inside truck"
+   ]
+  },
+  {
+   "scene": "Three shiny ride tokens tumble out of the machine while you hum {tune}.",
+   "options": [
+    "Board mini train",
+    "Enter floating basket",
+    "Ride yellow truck"
+   ]
+  },
+  {
+   "scene": "The yellow vending machine rattles loudly and spills shiny brass tokens out.",
+   "options": [
+    "Catch little train",
+    "Mount airship basket",
+    "Flag down truck"
+   ]
+  }
  ]
 }

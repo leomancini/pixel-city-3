@@ -558,11 +558,34 @@
   // Every session starts somewhere different, and so with a different
   // character: never where the last session on this device started.
   let storyVersion = 0;   // changes whenever the story is rebuilt
+  const slots = {};       // {quest}, {friend}, {tune} for this playthrough
+  let sinceSlot = 9;      // levels since a slot was last mentioned
+  const fill = (text) => String(text).replace(/\{(\w+)\}/g, (all, name) => slots[name] ?? all);
+  const hasSlot = (text) => /\{\w+\}/.test(text);
+
+  // Each level has its own wording and up to three more, all written to fit
+  // the same picture. Pick one, but mention a slot at most every few levels.
+  function wording(data) {
+    const all = [data, ...(data.variants || [])].map((v) => ({
+      scene: v.scene,
+      options: v.options,
+      beats: v.beats || data.beats,
+      rideOn: v.ride_on || data.after?.[1]?.beat,
+    }));
+    const quiet = all.filter((v) => !hasSlot(v.scene));
+    const pool = sinceSlot < 3 && quiet.length ? quiet : all;
+    const pick = pool[Math.floor(Math.random() * pool.length)];
+    sinceSlot = hasSlot(pick.scene) ? 0 : sinceSlot + 1;
+    return { scene: fill(pick.scene), options: pick.options.map(fill), beats: pick.beats?.map(fill), rideOn: pick.rideOn && fill(pick.rideOn) };
+  }
   async function pickStart() {
     const res = await fetch("/levels/index.json");
     if (!res.ok) throw new Error("Request failed");
-    const { starts, version } = await res.json();
+    const { starts, version, slots: lists } = await res.json();
     storyVersion = version || 0;
+    // This playthrough's quest, pen pal and tune, kept until the page closes.
+    const any = (list) => list[Math.floor(Math.random() * list.length)];
+    if (lists) for (const [name, list] of Object.entries(lists)) slots[name] ??= any(list);
     // The gallery can name any level in the address to play from: a
     // starting point, or a level one or two steps into its district.
     const asked = new URLSearchParams(location.search).get("start") || "";
@@ -731,7 +754,10 @@
       // asks the question that teaches how to play. A game opened partway
       // into a district (from the gallery) is mid-story, so it gets neither.
       const arriving = /^c\d+-d\d+$/.test(id);
-      setScene(level === 1 && arriving ? "Welcome to Pixel City! " + data.scene + " What's next?" : data.scene);
+      const words = wording(data);
+      const welcome = "Welcome to Pixel City! " + (slots.quest ? "You're here looking for " + slots.quest + ". " : "");
+      if (level === 1 && arriving) sinceSlot = 0;
+      setScene(level === 1 && arriving ? welcome + words.scene + " What's next?" : words.scene);
       const next = prefetch(data.next);
       // On a ride, a choice first plays out as a line of text under the same
       // picture; then on to wherever the ride arrives.
@@ -743,14 +769,14 @@
         return data.after.map((stop, k) => ({
           label: stop.label,
           action: stop.beat
-            ? () => { setScene(stop.beat); showOptions([{ label: stop.then, action: () => play(stop.next, ahead[k]) }]); }
+            ? () => { setScene(k === 1 && words.rideOn ? words.rideOn : stop.beat); showOptions([{ label: stop.then, action: () => play(stop.next, ahead[k]) }]); }
             : () => play(stop.next, ahead[k]),
         }));
       };
-      showOptions(data.options.map((text, i) => ({
+      showOptions(words.options.map((text, i) => ({
         label: text,
-        action: data.beats?.[i]
-          ? () => { setScene(data.beats[i]); showOptions(stops()); }
+        action: words.beats?.[i]
+          ? () => { setScene(words.beats[i]); showOptions(stops()); }
           : () => play(data.next[i], next[i]),
       })));
     } catch (err) {

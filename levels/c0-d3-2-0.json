@@ -16,5 +16,31 @@
   "a glowing stair hatch to the subway platform on the far left",
   "a docked wooden water-ferry waiting beside a canal dock on the right",
   "a dangling red cable car swaying from an overhead cable up high"
+ ],
+ "variants": [
+  {
+   "scene": "Warm steam clears, showing three cozy ways to travel through the clock tower.",
+   "options": [
+    "Climb downstairs",
+    "Catch little boat",
+    "Hop inside tram"
+   ]
+  },
+  {
+   "scene": "As gears click, you keep searching for {quest} among three newly opened routes.",
+   "options": [
+    "Enter glowing hatch",
+    "Step onto boat",
+    "Board high tram"
+   ]
+  },
+  {
+   "scene": "Hissing pipes reveal three quiet rides waiting beneath the giant clock face.",
+   "options": [
+    "Head downstairs",
+    "Ride small ferry",
+    "Take high car"
+   ]
+  }
  ]
 }
