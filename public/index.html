@@ -439,6 +439,9 @@
   const optionsEl = document.getElementById("options");
 
   let level = 0;
+  // Set by the gallery when it opens the game at a district it reached partway
+  // through a journey, rather than at a starting point.
+  const midway = new URLSearchParams(location.search).has("mid");
   let busy = false;
   let selected = 0;
 
@@ -587,9 +590,9 @@
     const any = (list) => list[Math.floor(Math.random() * list.length)];
     if (lists) for (const [name, list] of Object.entries(lists)) slots[name] ??= any(list);
     // The gallery can name any level in the address to play from: a
-    // starting point, or a level one or two steps into its district.
+    // starting point, a level one or two steps into its district, or a ride.
     const asked = new URLSearchParams(location.search).get("start") || "";
-    const within = /^(c\d+-d\d+)(-[0-2]){0,2}$/.exec(asked);
+    const within = /^(c\d+-d\d+)((-[0-2]){0,2}|-t\d+)$/.exec(asked);
     if (within && starts.includes(within[1])) return asked;
     let last = null;
     try { last = localStorage.getItem("lastStart"); } catch {}
@@ -752,8 +755,9 @@
       level += 1;
       // The session's first level greets the player before its scene, and
       // asks the question that teaches how to play. A game opened partway
-      // into a district (from the gallery) is mid-story, so it gets neither.
-      const arriving = /^c\d+-d\d+$/.test(id);
+      // into a district (from the gallery) is mid-story, so it gets neither;
+      // nor does one opened at a district the gallery reached by travelling on.
+      const arriving = /^c\d+-d\d+$/.test(id) && !midway;
       const words = wording(data);
       const welcome = "Welcome to Pixel City! " + (slots.quest ? "You're here looking for " + slots.quest + ". " : "");
       if (level === 1 && arriving) sinceSlot = 0;

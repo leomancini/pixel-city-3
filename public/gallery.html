@@ -89,8 +89,8 @@
     gap: 84px var(--gap);
     align-items: start;
   }
-  .tree svg { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; overflow: visible; }
-  .tree path { fill: none; stroke: #3a3a3e; stroke-width: 1.5; stroke-linecap: round; }
+  .tree > svg { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; overflow: visible; }
+  .tree > svg path { fill: none; stroke: #3a3a3e; stroke-width: 1.5; stroke-linecap: round; }
   .node { min-width: 0; justify-self: center; }
   /* Spanning nodes keep the width of a single column. */
   /* Top row: every starting point, sharing the full width of the tree. */
@@ -110,7 +110,20 @@
   .node.step-3 { width: 100%; }
   /* A district reached by travelling on: one column wide, centred. */
   .node.arrival { grid-column: 1 / span 9; width: calc((100% - 8 * var(--gap)) / 9); }
-  .node img { margin-bottom: 12px; }
+  /* A picture and, while the cursor is over it, a button to play from there. */
+  .shot { position: relative; margin-bottom: 12px; }
+  .chars .shot { margin-bottom: 8px; }
+  .shot img, .shot .face { display: block; margin: 0; }
+  .play {
+    position: absolute; top: 6px; right: 6px;
+    display: grid; place-items: center;
+    width: 28px; height: 28px; border-radius: 10px; /* picture corner (16) less the 6px inset */
+    background: rgba(10, 10, 10, 0.82); color: #fff;
+    opacity: 0; cursor: pointer;
+  }
+  .play svg { width: 12px; height: 12px; pointer-events: none; fill: currentColor; }
+  .shot:hover .play, .play:focus-visible { opacity: 1; }
+  .play:hover { background: #000; }
   /* Whatever isn't on the selected path is darkened, on every row. */
   .dim img, .dim .face { filter: brightness(0.4); }
   .dim .chose { color: var(--faint); }
@@ -138,7 +151,7 @@
   /* Narrow screens: the same nodes as an indented outline, without branches. */
   @media (max-width: 980px) {
     .tree { display: block; }
-    .tree svg { display: none; }
+    .tree > svg { display: none; }
     .roots { display: block; margin-top: 0; }
     .chars { flex-wrap: wrap; margin-bottom: 32px; }
     .chars .node { display: block; flex: none; width: 72px; margin: 0; }
@@ -150,7 +163,7 @@
       align-items: center;
       margin-bottom: 22px;
     }
-    .node img { margin: 0; }
+    .node .shot { margin: 0; }
     .node.step-2 { margin-left: 28px; margin-top: 36px; }
     .node.step-3 { margin-left: 56px; }
     .scene { font-size: 13px; }
@@ -192,11 +205,16 @@
     node.append(...children.filter((c) => c != null));
     return node;
   };
-  const picture = (id, alt) => {
-    const image = el("img", { src: `/levels/${id}.jpg?v=${data.version || 0}`, alt, loading: "lazy", decoding: "async", title: "Double-click to play from here" });
-    image.dataset.level = id;
-    return image;
+  // A picture with its play button. `mid` marks a district reached partway
+  // through a journey, which the game then opens without its welcome.
+  const framed = (inner, id, mid) => {
+    const play = el("span", { className: "play", role: "button", tabIndex: 0, title: "Play from here", ariaLabel: "Play from here" });
+    play.innerHTML = '<svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 1.2v9.6L10.5 6z"/></svg>';
+    play.dataset.play = id + (mid ? "&mid=1" : "");
+    return el("div", { className: "shot" }, inner, play);
   };
+  const picture = (id, alt, mid) =>
+    framed(el("img", { src: `/levels/${id}.jpg?v=${data.version || 0}`, alt, loading: "lazy", decoding: "async" }), id, mid);
   // A small label that follows the cursor over anything with a data-tip.
   const tip = document.getElementById("tip");
   function moveTip(event) {
@@ -214,11 +232,15 @@
   view.addEventListener("mouseleave", () => { tip.hidden = true; });
   addEventListener("scroll", () => { tip.hidden = true; }, { passive: true });
 
-  // Double-clicking any picture starts the game at that level.
-  view.addEventListener("dblclick", (event) => {
-    const id = event.target.closest("[data-level]")?.dataset.level;
-    if (id) location.href = "/?start=" + id;
-  });
+  // The play button on a picture starts the game at that level.
+  const playFrom = (event) => {
+    const play = event.target.closest(".play");
+    if (!play || (event.type === "keydown" && event.key !== "Enter" && event.key !== " ")) return;
+    event.preventDefault();
+    location.href = "/?start=" + play.dataset.play;
+  };
+  view.addEventListener("click", playFrom);
+  view.addEventListener("keydown", playFrom);
   const districtOf = (id) => id.split("-").slice(0, 2).join("-");
   // A ride (c0-d1-t3) is the trip from one district to another; where an
   // option leads, look through the ride to the district it arrives in.
@@ -245,11 +267,10 @@
     // The background position that puts that point in the middle of the crop.
     const at = (f) => Math.min(100, Math.max(0, ((f * FACE_ZOOM - 0.5) / (FACE_ZOOM - 1)) * 100));
     const crop = el("div", { className: "face", role: "img", ariaLabel: character.player });
-    crop.dataset.level = character.districts[0].id;
     crop.style.backgroundImage = `url(/levels/${character.districts[0].id}.jpg?v=${data.version || 0})`;
     crop.style.backgroundSize = `${FACE_ZOOM * 100}%`;
     crop.style.backgroundPosition = `${at(x)}% ${at(y)}%`;
-    return crop;
+    return framed(crop, character.districts[0].id);
   }
 
   // One node of the tree. Every step uses the same node: a thumbnail and
@@ -257,10 +278,10 @@
   // as numbers; picking one adds the district it travels to underneath.
   // `prefix` is the address of the tree down to this node's district, and
   // `hop` is the choice already followed from that district, if any.
-  function node(id, label, step, prefix, hop) {
+  function node(id, label, step, prefix, hop, mid) {
     const level = data.levels[id];
     return el("div", { className: "node step-" + step },
-      picture(id, level.scene),
+      picture(id, level.scene, mid),
       el("div", {},
         el("p", { className: "chose", textContent: label }),
         step === 3
@@ -307,7 +328,6 @@
   // arrives in as three more rows underneath.
   function showDistrict(id, hops = []) {
     const place = district(id);
-    document.title = `${place.name} · Pixel City 3 Gallery`;
     // The one being viewed is the root, and the branches grow down from it;
     // the others switch to their own tree.
     let rootNode = null;
@@ -364,7 +384,7 @@
       // ride if there is one, to the district it arrives in and its two rows.
       let above = from.querySelector(".onward a.current") || from;
       if (isRide(next)) {
-        const ride = node(next, data.levels[hop.leaf].options[hop.option], 1);
+        const ride = node(next, data.levels[hop.leaf].options[hop.option], 1, null, null, true);
         ride.classList.add("arrival");
         ride.style.gridRow = String(row);
         links.push([above, ride]);
@@ -372,7 +392,7 @@
         above = ride;
         row += 1;
       }
-      const arrival = node(arrivalOf(next), district(arrivalOf(next)).name, 1);
+      const arrival = node(arrivalOf(next), district(arrivalOf(next)).name, 1, null, null, true);
       arrival.classList.add("arrival");
       arrival.style.gridRow = String(row);
       links.push([above, arrival]);
