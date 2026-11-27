@@ -1,0 +1,21 @@
+{
+ "id": "c13-d0-0-2",
+ "scene": "The painter points out three wild transit stations docked along the roof.",
+ "options": [
+  "Ride carousel train",
+  "Enter pneumatic pod",
+  "Board bubble lift"
+ ],
+ "next": [
+  "c13-d3",
+  "c13-d4",
+  "c13-d5"
+ ],
+ "picture": "Side-scrolling view along the high rooftop platform. On the far left sits a whirring brass carousel train on rail tracks. The girl stands left of centre with her sketchbook. Up high in the centre sits an open pneumatic tube pod. To her right, the masked painter points right toward a floating bubble lift.",
+ "shown": [
+  "a mechanical brass carousel train idling on tracks on the far left",
+  "a clear glass tube pod with open hatch up high centre",
+  "a shimmering giant soap-bubble basket tethered on the far right"
+ ],
+ "view": "wide"
+}

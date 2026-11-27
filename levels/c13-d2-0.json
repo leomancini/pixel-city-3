@@ -1,0 +1,21 @@
+{
+ "id": "c13-d2-0",
+ "scene": "The yellow drone chirps, dispensing warm buttered popcorn into a purple bag.",
+ "options": [
+  "Taste fresh popcorn",
+  "Aim cloud projector",
+  "Open metal hatch"
+ ],
+ "next": [
+  "c13-d2-0-0",
+  "c13-d2-0-1",
+  "c13-d2-0-2"
+ ],
+ "picture": "Side-view pixel art along the rooftop. Left, a closed iron roof hatch lies flat. Left-centre, the yellow drone hovers beside the Pacific Islander girl in her blue windbreaker and cargo shorts, sketchbook underarm, holding a purple popcorn bag at centre. Right, the brass cloud projector gleams. Far right, pink neon roof railings glow.",
+ "shown": [
+  "a steaming purple paper bag of popcorn held at centre",
+  "a brass cloud projector angled toward the sky on the right",
+  "a bolted metal service hatch set in the floor on the left"
+ ],
+ "view": "wide"
+}

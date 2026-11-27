@@ -1,0 +1,21 @@
+{
+ "id": "c13-d3-2-1",
+ "scene": "You dislodge the key, sparking the zoo's multi-tier transit hub to life.",
+ "options": [
+  "Board rooftop gondola",
+  "Enter pneumatic pod",
+  "Ride bubble lift"
+ ],
+ "next": [
+  "c13-d2",
+  "c13-d4",
+  "c13-d5"
+ ],
+ "picture": "Side view along a level metal concourse. On the far left, a striped gondola hangs ready from overhead cables. Left of centre, the player holds the freed brass key. In the centre sits an open capsule pod in a pneumatic tube. Far right, a shimmering soap-bubble lift awaits inside an open glass column.",
+ "shown": [
+  "a striped rooftop gondola dangling from an overhead cable on the far left",
+  "a gleaming brass pneumatic tube pod with an open hatch in the centre",
+  "a giant glowing bubble lift floating inside a glass shaft on the far right"
+ ],
+ "view": "wide"
+}

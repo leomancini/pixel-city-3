@@ -1,0 +1,21 @@
+{
+ "id": "c13-d2-2",
+ "scene": "You recline in the striped chair, discovering a hidden ticket dispenser beneath.",
+ "options": [
+  "Inspect ticket dispenser",
+  "Take soda cup",
+  "Climb roof ladder"
+ ],
+ "next": [
+  "c13-d2-2-0",
+  "c13-d2-2-1",
+  "c13-d2-2-2"
+ ],
+ "picture": "Side-view pixel art of a rooftop cinema. Left, a tall yellow maintenance ladder climbs a wall. Centre, a teenage Pacific Islander girl in a sky-blue windbreaker reclines in a striped red deckchair with a brass ticket dispenser beneath the seat. Right, a low wooden stool holds a glowing blue soda cup.",
+ "shown": [
+  "a humming brass ticket dispenser tucked under the armrest at centre",
+  "a glowing blue soda cup standing on a low stool at far right",
+  "a metal maintenance ladder bolted to a neon billboard wall on the left"
+ ],
+ "view": "wide"
+}

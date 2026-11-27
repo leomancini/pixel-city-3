@@ -1,0 +1,21 @@
+{
+ "id": "c1-d5-1",
+ "scene": "The brass robot pauses its quill, offering you a fresh parchment scroll.",
+ "options": [
+  "Read robot scroll",
+  "Take glass nib",
+  "Enter paper mill"
+ ],
+ "next": [
+  "c1-d5-1-0",
+  "c1-d5-1-1",
+  "c1-d5-1-2"
+ ],
+ "picture": "Side-view pixel art along a level cobbled sidewalk. Left, the elderly East Asian man in blue cap and orange cardigan leans on his cane. Centre-right, an ornate brass robot sits behind a dark wooden desk, offering a rolled scroll while a glass nib rests in a box. Far right, an open archway leads into the paper mill.",
+ "shown": [
+  "a freshly inked rolled scroll held out by the brass robot on the right",
+  "a gleaming oversized glass pen nib resting in a velvet box on the desk centre-right",
+  "an open archway spilling warm steam into the street on the far right"
+ ],
+ "view": "wide"
+}

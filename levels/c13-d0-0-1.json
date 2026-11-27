@@ -1,0 +1,21 @@
+{
+ "id": "c13-d0-0-1",
+ "scene": "You slide down the rope onto a buzzing elevated transit deck.",
+ "options": [
+  "Board rooftop gondola",
+  "Ride carousel train",
+  "Enter tube pod"
+ ],
+ "next": [
+  "c13-d2",
+  "c13-d3",
+  "c13-d4"
+ ],
+ "picture": "Side-scrolling flat view of a wooden rooftop transit deck. On the far left hangs a suspended striped gondola cabin. To its right stands the Pacific Islander girl clutching her sketchbook. In the centre sits a brass clockwork carousel train, and on the far right waits a glassy pneumatic capsule dock.",
+ "shown": [
+  "a striped passenger gondola dangling from an overhead cable, far left, open door waiting",
+  "a brass clockwork carousel train puffing steam on mini tracks, centre, hatch open",
+  "a clear pneumatic tube capsule resting in a suction dock, far right, hatch open"
+ ],
+ "view": "wide"
+}

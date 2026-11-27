@@ -1,0 +1,21 @@
+{
+ "id": "c13-d1-2-0",
+ "scene": "The glowing canvas reveals three secret transit exits hidden along the cornice.",
+ "options": [
+  "Board rooftop gondola",
+  "Ride carousel train",
+  "Enter tube pod"
+ ],
+ "next": [
+  "c13-d2",
+  "c13-d3",
+  "c13-d4"
+ ],
+ "picture": "A flat side-view along the museum ceiling line. On the far left, a wicker rooftop gondola sways at an open roof arch. To the left, the Pacific Islander girl stands admiring the glowing canvas. In the centre sits a tiny brass clockwork carousel train. On the far right waits a glass pneumatic pod.",
+ "shown": [
+  "a dangling wicker gondola waiting outside an open skylight on the far left",
+  "a brass clockwork carousel train idling at a ceiling platform in the centre",
+  "a glass pneumatic tube capsule with an open hatch on the far right"
+ ],
+ "view": "wide"
+}

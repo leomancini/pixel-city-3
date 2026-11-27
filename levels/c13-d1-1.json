@@ -1,0 +1,21 @@
+{
+ "id": "c13-d1-1",
+ "scene": "The brass guard robot chirps, projecting a floating map of the gallery.",
+ "options": [
+  "Study hologram map",
+  "Take glowing badge",
+  "Enter archive duct"
+ ],
+ "next": [
+  "c13-d1-1-0",
+  "c13-d1-1-1",
+  "c13-d1-1-2"
+ ],
+ "picture": "A flat side view inside the gravity museum. Far left stands the empty glass lift. The Pacific Islander girl stands left of centre, sketchbook tucked under her arm. Centre, the round brass robot hovers with open belly hatch. Right of centre glows a blue holographic map. An open vent sits at far right.",
+ "shown": [
+  "a flickering blue hologram glowing bright right of centre before the guard",
+  "a visitor badge lying inside the guard robot's open belly hatch at centre",
+  "an open ventilation grate low on the wall at far right"
+ ],
+ "view": "wide"
+}

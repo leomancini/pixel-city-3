@@ -1,0 +1,21 @@
+{
+ "id": "c13-d1-0",
+ "scene": "The magnetic boots lock on, snapping you straight up onto the ceiling.",
+ "options": [
+  "Inspect hanging tapestry",
+  "Greet upside gentleman",
+  "Enter high hatch"
+ ],
+ "next": [
+  "c13-d1-0-0",
+  "c13-d1-0-1",
+  "c13-d1-0-2"
+ ],
+ "picture": "A flat side view along the ceiling floorline. The girl stands centre upside down in chunky boots with her sketchbook. Far left hangs a glowing geometric tapestry. Right of centre, a mustachioed visitor in a bowler hat sips tea. At far right, a round brass hatch is shut tight on the floor.",
+ "shown": [
+  "a vast glowing tapestry hanging flat at the far left",
+  "a mustachioed visitor in a bowler hat standing right of centre",
+  "an arched ceiling hatch standing closed at the far right"
+ ],
+ "view": "wide"
+}

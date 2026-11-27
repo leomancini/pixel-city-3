@@ -1,0 +1,21 @@
+{
+ "id": "c13-d1-0-1",
+ "scene": "The gentleman tips his bowler and unlocks three strange transit departure gates.",
+ "options": [
+  "Board rooftop gondola",
+  "Ride carousel train",
+  "Enter tube pod"
+ ],
+ "next": [
+  "c13-d2",
+  "c13-d3",
+  "c13-d4"
+ ],
+ "picture": "A flat side view along the ceiling concourse. The girl stands left of centre holding her sketchbook. To her left, an open arch reveals a swaying wicker rooftop gondola. Beside her, the mustachioed gentleman points toward an idling brass carousel train at centre. At far right sits a docked glass pneumatic tube pod.",
+ "shown": [
+  "a wicker gondola suspended outside an open window on the left",
+  "a brass clockwork carousel train idling at a centre platform gate",
+  "a sleek glass pneumatic tube pod docked at the far right"
+ ],
+ "view": "wide"
+}

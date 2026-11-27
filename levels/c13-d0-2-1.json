@@ -1,0 +1,21 @@
+{
+ "id": "c13-d0-2-1",
+ "scene": "The bronze knob twists, unfolding three colorful transit portals along the alley.",
+ "options": [
+  "Ride carousel train",
+  "Board tube pod",
+  "Take bubble lift"
+ ],
+ "next": [
+  "c13-d3",
+  "c13-d4",
+  "c13-d5"
+ ],
+ "picture": "Side-scrolling view along a brick platform. On the far left, a tiny brass carousel train rests on rails. The Pacific Islander girl stands centre left, holding the turned knob, sketchbook tucked underarm. In the centre, an open pneumatic glass pod awaits. On the right, a giant glowing bubble lift floats tethered.",
+ "shown": [
+  "a miniature brass carousel train with open carriages idling on the far left",
+  "a glass pneumatic pod open and waiting in the centre",
+  "a shimmering iridescent bubble floating gently above a tether ring on the right"
+ ],
+ "view": "wide"
+}

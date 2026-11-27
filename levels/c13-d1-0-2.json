@@ -1,0 +1,21 @@
+{
+ "id": "c13-d1-0-2",
+ "scene": "The brass hatch opens downward, dumping you into a bustling transit junction.",
+ "options": [
+  "Board carousel train",
+  "Enter pneumatic pod",
+  "Take bubble lift"
+ ],
+ "next": [
+  "c13-d3",
+  "c13-d4",
+  "c13-d5"
+ ],
+ "picture": "A flat side view along a polished tile groundline. The girl stands left of centre, upright again, sketchbook underarm. At far left sits a whirring clockwork carousel train on brass tracks. In the centre, an open glass pneumatic capsule waits in a pipe. At far right floats an iridescent bubble lift.",
+ "shown": [
+  "a mechanical carousel train with brass animal cars idling on rails at far left",
+  "a clear glass capsule pod parked inside a vertical suction pipe in the centre",
+  "an enormous shimmering soap-bubble elevator hovering over a floor grate at far right"
+ ],
+ "view": "wide"
+}

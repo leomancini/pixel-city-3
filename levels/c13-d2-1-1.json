@@ -1,0 +1,21 @@
+{
+ "id": "c13-d2-1-1",
+ "scene": "The glowing umbrella pops open, illuminating three strange transit stations along the ledge.",
+ "options": [
+  "Enter bubble lift",
+  "Board splattered tram",
+  "Step through door"
+ ],
+ "next": [
+  "c13-d5",
+  "c13-d0",
+  "c13-d1"
+ ],
+ "picture": "Pixel art rooftop in flat side view. Far left, a floating soap-bubble lift bobs at a brass dock. Centre-left, the Pacific Islander teenage girl holds open a neon umbrella, sketchbook tucked underarm. Centre, a rainbow paint-splattered aerial tram sits on rails with open doors. Far right, an upside-down revolving door lift glows brightly.",
+ "shown": [
+  "a giant shimmering soap-bubble elevator tethered to a brass dock on the far left",
+  "a brightly paint-splattered aerial tram docked at the central rooftop platform",
+  "a mirrored revolving elevator door glowing with inverted signs on the far right"
+ ],
+ "view": "wide"
+}

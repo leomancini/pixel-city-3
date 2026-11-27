@@ -1,0 +1,21 @@
+{
+ "id": "c13-d0-1-2",
+ "scene": "The toggle clicks, projecting hologram arrows toward three lively transit gates.",
+ "options": [
+  "Enter museum lift",
+  "Board rooftop gondola",
+  "Ride carousel train"
+ ],
+ "next": [
+  "c13-d1",
+  "c13-d2",
+  "c13-d3"
+ ],
+ "picture": "A flat side view along the pavement of Mural Mile. On the far left stands an open glass revolving door lift. In the centre, the Pacific Islander girl holds her sketchbook as the drone floats overhead. To the right waits a dangling striped gondola, and on the far right idles a brass carousel train.",
+ "shown": [
+  "a glass revolving door lift standing open on the far left",
+  "a striped rooftop gondola dangling from a low cable on the right",
+  "a brass clockwork carousel train idling along tracks on the far right"
+ ],
+ "view": "wide"
+}

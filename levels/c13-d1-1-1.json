@@ -1,0 +1,21 @@
+{
+ "id": "c13-d1-1-1",
+ "scene": "The glowing badge unlocks three transit gates lined along the museum's terrace.",
+ "options": [
+  "Ride bubble lift",
+  "Board colourful tram",
+  "Take rooftop gondola"
+ ],
+ "next": [
+  "c13-d5",
+  "c13-d0",
+  "c13-d2"
+ ],
+ "picture": "A flat side view along the museum's open terrace platform. At far left floats an open bubble lift capsule. Left of centre stands the Pacific Islander girl, wearing a glowing museum badge on her sky-blue windbreaker, sketchbook underarm. Centre sits an idling paint-splattered tram. Far right sways a red-and-white rooftop gondola cabin.",
+ "shown": [
+  "a floating spherical bubble lift waiting open at the far left gate",
+  "a paint-splattered tram idling on glowing rails in the centre gate",
+  "a striped rooftop gondola swaying gently at the far right gate"
+ ],
+ "view": "wide"
+}

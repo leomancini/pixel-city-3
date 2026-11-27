@@ -1,0 +1,21 @@
+{
+ "id": "c1-d5-0",
+ "scene": "A carved cork bung seals glowing blue liquid bubbling inside the barrel.",
+ "options": [
+  "Pull the bung",
+  "Read brass gauge",
+  "Pick up spanner"
+ ],
+ "next": [
+  "c1-d5-0-0",
+  "c1-d5-0-1",
+  "c1-d5-0-2"
+ ],
+ "picture": "First-person close-up view of the top of the oak barrel. On the left, a wooden bung seals the bubbling blue ink. In the centre, a ticking round brass pressure gauge shows high pressure. On the right, a rusty spanner lies on the dark wooden rim. Blue droplets steam gently upward.",
+ "shown": [
+  "a carved wooden bung jammed tight in the barrel lid on the left",
+  "a tarnished brass pressure dial ticking rapidly in the centre",
+  "a rusty metal spanner resting on the rim to the right"
+ ],
+ "view": "close"
+}

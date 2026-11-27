@@ -1,0 +1,21 @@
+{
+ "id": "c13-d2-1-0",
+ "scene": "The reel clatters, opening transport hatches all across the cinema roof.",
+ "options": [
+  "Enter pneumatic pod",
+  "Board bubble lift",
+  "Catch splattered tram"
+ ],
+ "next": [
+  "c13-d4",
+  "c13-d5",
+  "c13-d0"
+ ],
+ "picture": "Pixel art rooftop in flat side view. Far left, an open pneumatic tube pod waits on tracks. Left, the player in sky-blue windbreaker and high bun stands beside the brass projector. Centre, a floating iridescent bubble lift hovers open. Far right, an open paint-splattered tram rests on rooftop rails under neon lights.",
+ "shown": [
+  "a sleek glass pneumatic tube pod sitting open on the far left",
+  "a shimmering giant soap-bubble platform floating open at centre",
+  "a colorful paint-splattered rooftop tram waiting open on the far right"
+ ],
+ "view": "wide"
+}

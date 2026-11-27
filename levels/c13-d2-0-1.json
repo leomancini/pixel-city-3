@@ -1,0 +1,21 @@
+{
+ "id": "c13-d2-0-1",
+ "scene": "The projector beam reveals three waiting transit stations suspended along the roof.",
+ "options": [
+  "Enter revolving lift",
+  "Board carousel train",
+  "Climb tube pod"
+ ],
+ "next": [
+  "c13-d1",
+  "c13-d3",
+  "c13-d4"
+ ],
+ "picture": "Side-view pixel art along the rooftop. Far left, an illuminated revolving glass lift rests open. The Pacific Islander girl stands left-centre beside the projector, holding her popcorn bag and sketchbook. Centre, a brass clockwork carousel train waits on rooftop tracks. Far right, a sleek glass pneumatic tube pod sits open at its silver launch chute.",
+ "shown": [
+  "a glowing glass revolving-door lift cabin waiting open on the far left",
+  "a brass clockwork carousel train idling on roof rails at the centre",
+  "a clear pneumatic tube pod docked at a silver hatch far right"
+ ],
+ "view": "wide"
+}

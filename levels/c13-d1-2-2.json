@@ -1,0 +1,21 @@
+{
+ "id": "c13-d1-2-2",
+ "scene": "The turned valve hisses loudly, popping open three brand-new museum transit exits.",
+ "options": [
+  "Enter pneumatic pod",
+  "Board bubble lift",
+  "Catch spotted tram"
+ ],
+ "next": [
+  "c13-d4",
+  "c13-d5",
+  "c13-d0"
+ ],
+ "picture": "Flat side-view along the upside-down ceiling gallery. At far left rests an open glass pneumatic pod. Left of centre stands the Pacific Islander girl, windbreaker rustling, near the turned brass valve. Right of centre bobs an iridescent bubble platform tied down by rope. At far right waits an open paint-splattered tram.",
+ "shown": [
+  "a sleek glass pneumatic tube pod sitting open on the far left",
+  "an iridescent hovering bubble platform anchored right of centre",
+  "a colorful paint-splattered tram waiting at a doorway on the far right"
+ ],
+ "view": "wide"
+}

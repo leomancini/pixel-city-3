@@ -1,0 +1,21 @@
+{
+ "id": "c13-d1-1-0",
+ "scene": "The glowing blueprint highlights three museum exits to the wider city.",
+ "options": [
+  "Board tube pod",
+  "Enter bubble lift",
+  "Catch paint tram"
+ ],
+ "next": [
+  "c13-d4",
+  "c13-d5",
+  "c13-d0"
+ ],
+ "picture": "A flat side view of the museum terminal. Far left, a glass pneumatic tube pod sits open in a brass dock. Left of centre stands the Pacific Islander girl holding her sketchbook, looking ahead. Centre hovers the spherical guard robot. Up high floats a tethered bubble lift. Far right sits a painted tram.",
+ "shown": [
+  "a glass pneumatic pod waiting in an open suction gate at far left",
+  "a floating iridescent sphere tethered beside the gallery ceiling up high",
+  "a rainbow-splashed tram idling through open loading doors at far right"
+ ],
+ "view": "wide"
+}

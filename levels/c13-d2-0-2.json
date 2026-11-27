@@ -1,0 +1,21 @@
+{
+ "id": "c13-d2-0-2",
+ "scene": "The hatch opens to reveal three strange transit docks below the roof.",
+ "options": [
+  "Ride carousel train",
+  "Enter tube pod",
+  "Take bubble lift"
+ ],
+ "next": [
+  "c13-d3",
+  "c13-d4",
+  "c13-d5"
+ ],
+ "picture": "Side-view pixel art along a transit deck. Far left, a brass carousel train shaped like mechanical beasts idles. Left, the Pacific Islander girl holds popcorn with sketchbook tucked. Centre, an upright glass pneumatic tube pod waits open. Far right, a large iridescent bubble lift hovers above an open railing hatch.",
+ "shown": [
+  "a winding brass carousel train waiting on tracks at the far left",
+  "a clear glass pneumatic capsule glowing brightly at the centre",
+  "a shimmering purple sphere platform floating gently on the far right"
+ ],
+ "view": "wide"
+}

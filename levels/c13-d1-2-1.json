@@ -1,0 +1,21 @@
+{
+ "id": "c13-d1-2-1",
+ "scene": "The floating gentleman tips his bowler hat and gestures toward three departures.",
+ "options": [
+  "Board carousel train",
+  "Enter pneumatic pod",
+  "Take bubble lift"
+ ],
+ "next": [
+  "c13-d3",
+  "c13-d4",
+  "c13-d5"
+ ],
+ "picture": "A flat side-view along the gallery ceiling floor. At far left, a ticking brass carousel train waits on upside-down rails. Left of centre, the Pacific Islander girl stands facing right, sketchbook tucked underarm. Right of centre, the floating gentleman gestures politely. At centre sits an open pneumatic pod hatch; at far right bobs an iridescent bubble lift.",
+ "shown": [
+  "a miniature clockwork carousel train idling quietly at the far left ceiling platform",
+  "a clear glass capsule waiting inside an open tube hatch at centre",
+  "an iridescent hovering bubble cage tethered by glowing ribbons at far right"
+ ],
+ "view": "wide"
+}

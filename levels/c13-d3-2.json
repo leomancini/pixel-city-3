@@ -1,0 +1,21 @@
+{
+ "id": "c13-d3-2",
+ "scene": "The tin keeper robot points an oily finger toward jammed brass machinery.",
+ "options": [
+  "Grab lever",
+  "Inspect jammed gears",
+  "Follow steam pipes"
+ ],
+ "next": [
+  "c13-d3-2-0",
+  "c13-d3-2-1",
+  "c13-d3-2-2"
+ ],
+ "picture": "Side view on a level cobblestone floor. On the far left, a red lever protrudes from a brass engine. Centre-left, the player with sketchbook stands near the tin keeper robot pointing right. In the centre, large exposed brass gears jam on a fallen key. Far right, an open arched service doorway vents steam.",
+ "shown": [
+  "A red emergency lever sticking out on the far left machinery casing",
+  "A cluster of whirring gears jammed by a key in the centre",
+  "An open arched service doorway on the far right releasing hissing steam"
+ ],
+ "view": "wide"
+}

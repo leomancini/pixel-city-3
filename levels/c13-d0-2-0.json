@@ -1,0 +1,21 @@
+{
+ "id": "c13-d0-2-0",
+ "scene": "The glowing corridor opens into a grand transit terminal bustling with departures.",
+ "options": [
+  "Board rooftop gondola",
+  "Ride carousel train",
+  "Enter tube pod"
+ ],
+ "next": [
+  "c13-d2",
+  "c13-d3",
+  "c13-d4"
+ ],
+ "picture": "Side-scrolling flat terminal platform. On the far left sits a ticket kiosk. Left, a red rooftop gondola hangs ready. Centre, the Pacific Islander girl stands with sketchbook underarm. Centre right, a brass clockwork carousel train idles on mini-tracks. Far right, an open glass pneumatic tube pod rests upright against the wall.",
+ "shown": [
+  "a dangling red rooftop gondola on the left with an open hatch",
+  "a brass clockwork carousel train idling centre right on glowing rails",
+  "a clear glass pneumatic tube pod sitting open on the far right"
+ ],
+ "view": "wide"
+}

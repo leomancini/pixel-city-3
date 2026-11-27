@@ -1,0 +1,21 @@
+{
+ "id": "c13-d2-2-0",
+ "scene": "The brass dispenser clicks, printing three strange transit vouchers onto the rooftop.",
+ "options": [
+  "Enter revolving lift",
+  "Board carousel train",
+  "Ride tube pod"
+ ],
+ "next": [
+  "c13-d1",
+  "c13-d3",
+  "c13-d4"
+ ],
+ "picture": "Side-view pixel art of the cinema rooftop edge. Far left, a glass revolving door elevator glows quietly. Left, the player in a blue windbreaker holds three fresh tickets. Centre, an ornate clockwork carousel train waits on rooftop rails. Far right, an open capsule sits inside a polished brass pneumatic tube dock.",
+ "shown": [
+  "a glowing glass revolving door elevator standing shut on the far left",
+  "a brass clockwork carousel train idling along track at the centre",
+  "an open pneumatic glass pod waiting in its docking station far right"
+ ],
+ "view": "wide"
+}

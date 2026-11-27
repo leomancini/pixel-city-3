@@ -1,0 +1,21 @@
+{
+ "id": "c13-d3-0-0",
+ "scene": "The green key unlocks an arched plaza bustling with unusual transit gates.",
+ "options": [
+  "Board splattered tram",
+  "Enter revolving lift",
+  "Take rooftop gondola"
+ ],
+ "next": [
+  "c13-d0",
+  "c13-d1",
+  "c13-d2"
+ ],
+ "picture": "Side-scrolling view of a busy paved depot platform. Far left, a paint-splattered tram sits on tracks. Centre-left, the Pacific Islander girl holds her sketchbook and shining green key. Centre, an ornate glass revolving door lift waits. Far right, a striped rooftop gondola sways gently beside an iron boarding ramp.",
+ "shown": [
+  "a colorful paint-splattered tram waiting with open doors on tracks at the far left",
+  "a glass revolving door lift glowing with brass dials in the centre",
+  "a striped rooftop gondola hanging from overhead cables at the far right"
+ ],
+ "view": "wide"
+}

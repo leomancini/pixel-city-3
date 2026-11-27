@@ -1,0 +1,21 @@
+{
+ "id": "c13-d0-2-2",
+ "scene": "The tile clicks, unlocking three bizarre transit gates along the sidewalk curb.",
+ "options": [
+  "Enter pneumatic pod",
+  "Board bubble lift",
+  "Push revolving door"
+ ],
+ "next": [
+  "c13-d4",
+  "c13-d5",
+  "c13-d1"
+ ],
+ "picture": "Side-scrolling view along the brick sidewalk. On the far left, an open pneumatic tube pod waits inside a brass pipe. Centre left, the Pacific Islander girl stands holding the glowing geometric tile, sketchbook underarm. In the centre, a tethered, shimmering bubble platform bobs. On the right, a brass revolving door lift stands open.",
+ "shown": [
+  "a sleek glass pneumatic tube pod sitting open on the far left",
+  "a floating, translucent giant soap bubble platform anchored in the centre",
+  "a brass revolving door lift standing ready on the right"
+ ],
+ "view": "wide"
+}

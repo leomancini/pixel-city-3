@@ -1,0 +1,21 @@
+{
+ "id": "c13-d5-2-2",
+ "scene": "You slip through the hatch onto a bustling, multi-tiered transit platform.",
+ "options": [
+  "Board carousel train",
+  "Enter tube pod",
+  "Catch mural tram"
+ ],
+ "next": [
+  "c13-d3",
+  "c13-d4",
+  "c13-d0"
+ ],
+ "picture": "Pixel art side view on a level platform floor. On the far left sits a brass clockwork train shaped like a carousel. Left-centre, the player stands with sketchbook underarm. Centre sits an open glass pneumatic tube pod. Far right, a vibrant paint-splattered tram sits with its folding doors open.",
+ "shown": [
+  "a brass clockwork carousel train with open doors on the left track",
+  "a glass pneumatic pod sitting open in its dock at the centre",
+  "a colourful paint-splattered tram waiting at the platform edge on the far right"
+ ],
+ "view": "wide"
+}
