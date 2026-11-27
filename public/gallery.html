@@ -102,7 +102,7 @@
   .chars a.node { color: var(--dim); }
   .chars a.node.current { color: var(--ink); }
   /* Fifteen across is tight: break between the words, never inside one. */
-  .chars .chose { font-size: 11px; overflow-wrap: normal; word-break: keep-all; }
+  .chars .chose { overflow-wrap: normal; word-break: keep-all; }
   .face { aspect-ratio: 1; border-radius: 16px; background-color: var(--soft); background-repeat: no-repeat; margin-bottom: 8px; image-rendering: pixelated; }
   .roots .chose { font-size: 14px; margin-top: 2px; }
   .roots a.node { color: var(--dim); }
@@ -322,7 +322,7 @@
     const chars = el("div", { className: "chars" }, ...data.characters.map((c, n) => {
       const current = c === place.character;
       const item = el("a", { className: current ? "node current" : "node dim", href: "#" + (current ? id : c.districts[0].id), title: c.player },
-        face(c), el("p", { className: "chose", textContent: `Character ${n + 1}` }));
+        face(c), el("p", { className: "chose", textContent: String(n + 1) }));
       return item;
     }));
 
