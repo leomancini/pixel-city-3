@@ -628,6 +628,125 @@ Write two things, in second person, present tense, playful and suitable for all 
   failed += 1;
 }
 
+// Variants: three more wordings of each level's text, so no two playthroughs
+// read alike. Each is written while looking at the level's own picture, and
+// keeps its choices meaning the same thing in the same order, since the
+// picture behind each choice shows that exact result. The page picks one at
+// random each time a level is shown.
+//
+// Slots are filled once per playthrough, from these lists, and are never
+// drawn, so they can never disagree with a picture.
+const SLOTS = {
+  // Something the player is looking for. It is never found or seen.
+  quest: ["a lost brass key", "the city's best dumpling", "a song they heard in a dream", "a runaway paper kite", "the lighthouse keeper's missing hat", "a postcard that came with no return address", "the oldest clock in the city", "a cat named Biscuit", "a recipe for midnight soup", "a door that only opens at dusk", "the end of a very long scarf", "a map with one street missing", "a firefly that glows green", "a lucky blue marble", "the person who whistles every evening", "a library book ten years overdue", "the shop that sells bottled thunder", "a ticket to a show nobody remembers", "the reason the pigeons fly in circles", "a seed that grows overnight"],
+  // A pen pal they keep writing to.
+  friend: ["Ama", "Bao", "Camila", "Dev", "Elif", "Farida", "Gus", "Hana", "Ines", "Jun", "Kofi", "Leila", "Mateo", "Nia", "Oskar", "Priya", "Quinn", "Rosa", "Sami", "Tomas", "Yara", "Zeke"],
+  // A tune stuck in their head.
+  tune: ["a jingle from a cereal advert", "a lullaby with no words", "the theme from an old cartoon", "a busker's accordion waltz", "a bouncy ice-cream-van tune", "a song about a moon made of cheese", "a march played on kazoos", "a slow jazz melody", "a tune their grandmother used to hum", "the beeping of a crosswalk"],
+};
+const SLOT_NOTE = `You may use these slots, written exactly like this, braces included. Each is filled once per playthrough with something different:
+- {quest}: something the player is searching the city for, such as "a lost brass key". It is never found, never seen and never in the picture: you may only say they are still looking, wonder where it is, or ask about it.
+- {friend}: the first name of a pen pal the player writes to about the trip.
+- {tune}: a tune stuck in the player's head, such as "a lullaby with no words".
+Most levels should use no slot at all. Use one only when the moment invites it (arriving somewhere, a quiet pause, writing or looking around), in at most one of the three versions, only in its scene, and only in a sentence that reads naturally with any of the examples filled in. Never use any other braces.`;
+
+const VARIANTS_FORMAT = (ride) => ({
+  type: "text",
+  mime_type: "application/json",
+  schema: {
+    type: "object",
+    properties: {
+      versions: {
+        type: "array",
+        minItems: 3,
+        maxItems: 3,
+        items: {
+          type: "object",
+          properties: {
+            scene: { type: "string" },
+            options: { type: "array", minItems: 3, maxItems: 3, items: { type: "string" } },
+            ...(ride ? { beats: { type: "array", minItems: 3, maxItems: 3, items: { type: "string" } }, ride_on: { type: "string" } } : {}),
+          },
+          required: ["scene", "options", ...(ride ? ["beats", "ride_on"] : [])],
+        },
+      },
+    },
+    required: ["versions"],
+  },
+});
+
+// What led to a level, so its variants still read as the result of it.
+async function leadIn(id) {
+  const ride = RIDE_ID.exec(id);
+  if (ride) {
+    const [c, a] = id.split("-").map((x) => Number(x.slice(1)));
+    return `The player has just boarded this vehicle, leaving ${DISTRICTS[c][a][0]}.`;
+  }
+  const parts = id.split("-");
+  if (parts.length === 2) {
+    const [c, d] = parts.map((x) => Number(x.slice(1)));
+    return `The player has just arrived in ${DISTRICTS[c][d][0]} by ${DISTRICTS[c][d][1]}.`;
+  }
+  const parent = await exists(parts.slice(0, -1).join("-"));
+  const chose = parent?.options?.[Number(parts.at(-1))];
+  return parent ? `Just before this, the player saw: "${parent.scene}" and chose "${chose}". This level shows the result.` : "";
+}
+
+const slotsIn = (text) => [...String(text).matchAll(/\{([^}]*)\}/g)].map((m) => m[1]);
+
+async function addVariants(id) {
+  const level = await exists(id);
+  if (!level || level.variants) return;
+  if (ledger.usd >= BUDGET) { stopped = true; return; }
+  const c = Number(id.split("-")[0].slice(1));
+  const ride = Boolean(level.beats);
+  const image = (await readFile(new URL(`${id}.jpg`, OUT))).toString("base64");
+  const input = `The attached image is this level's picture. ${await leadIn(id)}
+The level's text now:
+- scene: "${level.scene}"
+- options, in order: ${level.options.map((o, i) => `${i + 1}. "${o}" (acts on: ${level.shown?.[i] || "see the picture"})`).join("; ")}
+${ride ? `- what happens after each option, as the vehicle pulls in: ${level.beats.map((b, i) => `${i + 1}. ${b}`).join(" ")}
+- if they stay on past the stop: ${level.after?.[1]?.beat || ""}\n` : ""}
+Write three new versions of this text. Each describes exactly the same moment and the same picture, in different words: notice different things that are really in the picture, or sounds, smells and feelings that fit it. Keep the playful tone and second person, present tense.
+- "scene": at most 14 words. Do not end with a question.
+- "options": the same three actions, in the same order, each acting on the same thing as before and meaning the same thing, reworded: 2 or 3 short words, starting with a verb, no trailing punctuation.${ride ? `
+- "beats": the same three outcomes, in the same order, reworded, each at most 30 words, keeping what happens and ending as the vehicle pulls in and its doors open.
+- "ride_on": the stay-on line reworded, at most 35 words, keeping where they change and where they arrive.` : ""}
+Each version must be a clear, natural sentence a child could read aloud and understand. Never draw attention to anyone's body or disability; if the player's own prosthetic leg comes up at all, call it a prosthetic leg.
+Never add a person, animal or object that is not in the picture, never give anyone a name, and never move or change anything: later scenes depend on the picture exactly as it is.
+${SLOT_NOTE}`;
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      const interaction = await ai.interactions.create({
+        model: TEXT_MODEL,
+        system_instruction: `You write the text for Pixel City 3.0, a choose-your-own-adventure pixel-art game, shown in a small retro dialogue box. The player is always ${CHARACTERS[c]}. Keep it suitable for all ages.`,
+        input: [{ type: "image", mime_type: "image/jpeg", data: image }, { type: "text", text: input }],
+        response_format: VARIANTS_FORMAT(ride),
+        generation_config: { thinking_level: "low" },
+        store: false,
+      });
+      spend("text", interaction.usage);
+      const versions = JSON.parse(interaction.output_text).versions || [];
+      const ok = versions.length === 3 && versions.every((v) =>
+        typeof v.scene === "string" && v.scene.trim() &&
+        Array.isArray(v.options) && v.options.length === level.options.length && v.options.every((o) => typeof o === "string" && o.trim() && !slotsIn(o).length) &&
+        slotsIn(v.scene).every((s) => s in SLOTS) &&
+        (!ride || (Array.isArray(v.beats) && v.beats.length === 3 && v.beats.every((b) => typeof b === "string" && b.trim() && !slotsIn(b).length) && typeof v.ride_on === "string" && v.ride_on.trim() && !slotsIn(v.ride_on).length)));
+      if (!ok) throw new Error("Variants model returned an unexpected shape");
+      const variants = versions.map((v) => ({ scene: tidyScene(v.scene), options: v.options.map((o) => o.trim().replace(/[.!]$/, "")), ...(ride ? { beats: v.beats, ride_on: v.ride_on } : {}) }));
+      await writeFile(new URL(`${id}.json`, OUT), JSON.stringify({ ...level, variants }, null, 1));
+      await saveLedger();
+      console.log(`${id} variants  $${ledger.usd.toFixed(2)}  ${variants.map((v) => v.scene).join(" / ")}`);
+      return;
+    } catch (err) {
+      console.error(`${id} variants attempt ${attempt} failed: ${String(err.message).slice(0, 200)}`);
+      await saveLedger();
+      await new Promise((r) => setTimeout(r, 4000 * attempt));
+    }
+  }
+  failed += 1;
+}
+
 // Point every last step's options at the ride for that route, where one exists.
 async function rewireRides(c) {
   for (let a = 0; a < DISTRICTS[c].length; a++) {
@@ -679,7 +798,7 @@ async function writeIndex() {
   // Pictures are cached by browsers for a day. The pages add this number to
   // every picture address, so a rebuilt story is never shown with old pictures.
   const version = Date.now();
-  await writeFile(new URL("index.json", OUT), JSON.stringify({ version, starts }));
+  await writeFile(new URL("index.json", OUT), JSON.stringify({ version, starts, slots: SLOTS }));
   // Everything in one file for the gallery page: who plays where, and every
   // playable level's text and links.
   const characters = [];
@@ -721,6 +840,16 @@ if (PILOT) {
     await rewireRides(c);
     await writeIndex();
   }
+} else if (process.argv.includes("--variants")) {
+  //   node scripts/generate.mjs --variants 14 3   more wordings for characters 14 and 3
+  const who = process.argv.slice(process.argv.indexOf("--variants") + 1).filter((x) => /^\d+$/.test(x)).map(Number);
+  const ids = [];
+  for (const c of who.length ? who : CHARACTERS.map((_, c) => c)) ids.push(...(await levelsOf(c)), ...(await ridesOf(c)));
+  // Arrivals, then rides, then the first choices, then the last steps.
+  const depth = (id) => (RIDE_ID.test(id) ? 1.5 : id.split("-").length - 2);
+  ids.sort((x, y) => depth(x) - depth(y));
+  await Promise.all(ids.map((id) => slot(() => addVariants(id))));
+  await writeIndex();
 } else if (process.argv.includes("--redraw")) {
   //   node scripts/generate.mjs --redraw c14-d0-t3 c14-d1-t0   redraw these rides
   for (const id of process.argv.filter((x) => RIDE_ID.test(x))) {
