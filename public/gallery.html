@@ -99,7 +99,8 @@
   .chars .node, .roots .node { flex: 1 1 0; width: auto; text-decoration: none; }
   .chars a.node { color: var(--dim); }
   .chars a.node.current { color: var(--ink); }
-  .chars .chose { font-size: 12px; }
+  /* Fifteen across is tight: break between the words, never inside one. */
+  .chars .chose { font-size: 11px; overflow-wrap: normal; word-break: keep-all; }
   .face { aspect-ratio: 1; border-radius: 16px; background-color: var(--soft); background-repeat: no-repeat; margin-bottom: 8px; image-rendering: pixelated; }
   .roots .chose { font-size: 14px; margin-top: 2px; }
   .roots a.node { color: var(--dim); }
@@ -136,7 +137,7 @@
   @media (max-width: 980px) {
     .tree { display: block; }
     .tree svg { display: none; }
-    .roots { display: block; }
+    .roots { display: block; margin-top: 0; }
     .chars { flex-wrap: wrap; margin-bottom: 32px; }
     .chars .node { display: block; flex: none; width: 72px; margin: 0; }
     .node, .roots .node, .node.step-2, .node.step-3 {
