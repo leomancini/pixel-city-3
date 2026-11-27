@@ -1,0 +1,38 @@
+{
+ "id": "c14-d1-t4",
+ "scene": "You ride along inside the tow truck's rumbling, cluttered cabin.",
+ "options": [
+  "Tune the radio",
+  "Open the glovebox",
+  "Pet sleeping pug"
+ ],
+ "beats": [
+  "Static pops into jaunty synth jazz as the truck rolls to a stop. The door swings wide to a dazzling, buzzing pink glow.",
+  "Inside rests a glowing miniature glass pretzel. You slip it into your jacket just as the truck stops and the door opens into the humming neon workshop.",
+  "The pug snorts softly and rests its chin on your knee. The truck purrs to a halt, and the door pops open to a kaleidoscope of flickering signs."
+ ],
+ "next": [
+  "c14-d4",
+  "c14-d4",
+  "c14-d4"
+ ],
+ "picture": "Flat side-view across the tow truck's wide cabin interior. On the far left sits a bulky glowing radio. The driver grips the wheel on the left. At centre, the player sits beside a taped glovebox. On the right, a snoring pug curls up on the passenger bench. Through the windshield, Gear Bridge recedes.",
+ "shown": [
+  "a bulky dashboard radio with glowing dials on the left",
+  "a taped-shut metal glovebox below the dash at centre",
+  "a wrinkled pug snoring softly on the seat on the right"
+ ],
+ "view": "interior",
+ "after": [
+  {
+   "label": "Step off at Neon Sign Hospital",
+   "next": "c14-d4"
+  },
+  {
+   "label": "Stay on",
+   "beat": "The driver waves as you rumble past the glowing hospital, sharing peppermints until the route ends. You transfer to a window-cleaner gondola that hoists you straight up into Rainmaker Rooftops.",
+   "then": "Step off at Rainmaker Rooftops",
+   "next": "c14-d2"
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "id": "c14-d4-t3",
+ "scene": "A pneumatic tube drops glowing envelopes onto the rumbling mail train floor.",
+ "options": [
+  "Read glowing envelope",
+  "Help sort mail",
+  "Turn brass valve"
+ ],
+ "beats": [
+  "You unfold the glowing note, chuckling at its neon warning about runaway umbrellas. With a metallic screech, the mail train glides into Lost Property Depot and the doors slide open.",
+  "You flick errant letters into the pigeon's copper hopper, earning a shiny brass receipt token. Brakes hiss, and the doors part before the depot's towering shelves.",
+  "A quick twist releases a puff of violet steam, sending the train coasting smoothly to the bumpers. The depot doors open wide to reveal mountains of forgotten hats."
+ ],
+ "next": [
+  "c14-d3",
+  "c14-d3",
+  "c14-d3"
+ ],
+ "picture": "Side-scrolling interior of a rattling train carriage. On the far left, a purple envelope sits on the floor beneath a pneumatic glass chute. Centre-left, the player stands in an orange jacket. In the centre, a mechanical pigeon perches beside a canvas sorter bag. On the far right, a hissing brass pipe valve glows overhead.",
+ "shown": [
+  "a luminous purple envelope sitting sealed on the floor at the far left",
+  "a mechanical pigeon perched beside an open canvas sorter bag in the centre",
+  "a hissing overhead brass pipe valve glowing hot on the far right"
+ ],
+ "view": "interior",
+ "after": [
+  {
+   "label": "Step off at Lost Property Depot",
+   "next": "c14-d3"
+  },
+  {
+   "label": "Stay on",
+   "beat": "You stay aboard as the depot fades behind you. The train rattles to the line's end, where you board the night funicular, climbing steadily toward the cocoa-scented glow of Comet Watch Rooftop.",
+   "then": "Step off at Comet Watch Rooftop",
+   "next": "c14-d0"
+  }
+ ]
+}

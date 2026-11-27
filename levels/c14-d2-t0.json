@@ -1,0 +1,38 @@
+{
+ "id": "c14-d2-t0",
+ "scene": "The clanking car glides skyward over glowing rain barrels and cloud tanks.",
+ "options": [
+  "Trade snacks",
+  "Crank music box",
+  "Read wall route"
+ ],
+ "beats": [
+  "You trade a pocket mint for dried sourfruit as the car docks, the cabin chime ringing as the doors glide open.",
+  "A tinny chime ripples overhead, coaxing sleepy fireflies from the ceiling vent just as the doors open at the terrace.",
+  "Tracing the neon line reveals a hidden observatory spur, right as the funicular halts and slides its brass doors wide."
+ ],
+ "next": [
+  "c14-d0",
+  "c14-d0",
+  "c14-d0"
+ ],
+ "picture": "Inside a slanting glass-and-brass cabin, a passenger sits left clutching starfruit chips. The player stands centre in corduroy jacket and beanie, brass telescope slung. Up high, a winding music box gleams on the ceiling beam. On the right, a route map glows. Outside, rooftop rain barrels glow far below.",
+ "shown": [
+  "a passenger holding a bag of starfruit chips on the left",
+  "a brass lullaby box mounted beneath the window up high",
+  "a glowing constellation map frame mounted on the right wall"
+ ],
+ "view": "interior",
+ "after": [
+  {
+   "label": "Step off at Comet Watch Rooftop",
+   "next": "c14-d0"
+  },
+  {
+   "label": "Stay on",
+   "beat": "The car glides past the platform, whistling softly into the dark. At the terminus, a friendly tow truck picks you up and rumbles into Neon Sign Hospital amidst flickering, mended rainbow glass.",
+   "then": "Step off at Neon Sign Hospital",
+   "next": "c14-d4"
+  }
+ ]
+}

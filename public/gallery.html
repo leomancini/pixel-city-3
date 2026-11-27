@@ -218,6 +218,10 @@
     if (id) location.href = "/?start=" + id;
   });
   const districtOf = (id) => id.split("-").slice(0, 2).join("-");
+  // A ride (c0-d1-t3) is the trip from one district to another; where an
+  // option leads, look through the ride to the district it arrives in.
+  const isRide = (id) => /-t\d+$/.test(id);
+  const arrivalOf = (id) => (isRide(id) ? data.levels[id].next[0] : id);
   const district = (id) => {
     for (const character of data.characters) {
       const found = character.districts.find((d) => d.id === districtOf(id));
@@ -263,11 +267,11 @@
               const number = el("a", {
                 className: hop && hop.leaf === id && hop.option === i ? "current" : "",
                 href: `#${prefix}/${id}.${i}`,
-                ariaLabel: `${level.options[i]}, to ${district(next).name}`,
+                ariaLabel: `${level.options[i]}, to ${district(arrivalOf(next)).name}`,
                 textContent: String(i + 1),
               });
               // Shown beside the cursor while it is over the number.
-              number.dataset.tip = `${level.options[i]} → ${district(next).name}`;
+              number.dataset.tip = `${level.options[i]} → ${district(arrivalOf(next)).name}`;
               return number;
             }))
           : null));
@@ -354,13 +358,23 @@
       const next = from && data.levels[hop.leaf].next[hop.option];
       if (!next) return;
       prefix += `/${hop.leaf}.${hop.option}`;
-      // The district this journey arrives in, then its own two rows.
-      const arrival = node(next, district(next).name, 1);
+      // The branch comes down from the number that was picked, through the
+      // ride if there is one, to the district it arrives in and its two rows.
+      let above = from.querySelector(".onward a.current") || from;
+      if (isRide(next)) {
+        const ride = node(next, data.levels[hop.leaf].options[hop.option], 1);
+        ride.classList.add("arrival");
+        ride.style.gridRow = String(row);
+        links.push([above, ride]);
+        rows.push(ride);
+        above = ride;
+        row += 1;
+      }
+      const arrival = node(arrivalOf(next), district(arrivalOf(next)).name, 1);
       arrival.classList.add("arrival");
       arrival.style.gridRow = String(row);
-      // The branch comes down from the number that was picked.
-      links.push([from.querySelector(".onward a.current") || from, arrival]);
-      block = below(next, arrival, row + 1, prefix, hops[n + 1]);
+      links.push([above, arrival]);
+      block = below(arrivalOf(next), arrival, row + 1, prefix, hops[n + 1]);
       rows.push(arrival, ...block.nodes);
       row += 3;
     });

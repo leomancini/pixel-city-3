@@ -1,0 +1,38 @@
+{
+ "id": "c14-d0-t2",
+ "scene": "The gondola sways gently as soapy suds bubble outside the glass.",
+ "options": [
+  "Wipe the steam",
+  "Help wind rope",
+  "Taste glowing foam"
+ ],
+ "beats": [
+  "You wipe the glass just as a silver weather-kite guides the gondola into the dock. The doors hiss open to Rainmaker Rooftops.",
+  "You crank the stubborn gear until it clicks, easing the gondola against rain barrels. The doors rattle open onto the misty rooftop.",
+  "The foam fizzes like mint soda on your tongue! The floor bumps gently against cloud tanks, and the cabin doors slide wide open."
+ ],
+ "next": [
+  "c14-d2",
+  "c14-d2",
+  "c14-d2"
+ ],
+ "picture": "Side view inside the narrow metal gondola. On the far left, a fogged oval window pane looks out on receding telescopes. At centre-left, the player in burnt-orange jacket, beanie, and telescope rests his prosthetic leg. In the centre, a brass winch clacks. On the right, a turquoise glowing wash-bucket sits near passenger benches.",
+ "shown": [
+  "a fogged oval window pane on the far left",
+  "a mechanical winch clacking noisily in the centre",
+  "a soapy bucket glowing bright turquoise on the right"
+ ],
+ "view": "interior",
+ "after": [
+  {
+   "label": "Step off at Rainmaker Rooftops",
+   "next": "c14-d2"
+  },
+  {
+   "label": "Stay on",
+   "beat": "You stay put as the gondola glides past, dodging a stray raindrop. At the terminus, you hop aboard the bridge crawler, arriving just as Gear Bridge turns into view.",
+   "then": "Step off at Gear Bridge",
+   "next": "c14-d1"
+  }
+ ]
+}

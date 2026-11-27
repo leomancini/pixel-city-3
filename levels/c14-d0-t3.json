@@ -1,0 +1,38 @@
+{
+ "id": "c14-d0-t3",
+ "scene": "You ride the rumbling mail train as brass pneumatic tubes hiss overhead.",
+ "options": [
+  "Read glowing parcel",
+  "Help sorting conductor",
+  "Open mail chute"
+ ],
+ "beats": [
+  "The parcel hums a gentle lullaby, tinting your grey beard bright blue. The train squeals to a halt at Lost Property Depot, and the doors slide open.",
+  "The badger conductor happily slips you a shiny golden parcel token for your trouble. Right on cue, the brakes hiss and the doors open at Lost Property Depot.",
+  "Violet dust puffs out, revealing a chirping clockwork sparrow inside. With a gentle jolt, the train arrives at Lost Property Depot, its doors sliding wide."
+ ],
+ "next": [
+  "c14-d3",
+  "c14-d3",
+  "c14-d3"
+ ],
+ "picture": "Inside the train, from left to right along the level carriage floor: a glowing parcel sits beside a post sack, the player in corduroy jacket and prosthetic leg leans on a bench, a badger conductor sorts envelopes at a cubby, and a brass wall chute with a lever stands near the exit.",
+ "shown": [
+  "a softly glowing, stamped parcel sitting on the floor at the far left",
+  "a badger conductor wearing brass spectacles sorting letters in the centre",
+  "a polished brass mail chute hatch sealed with a red lever on the right"
+ ],
+ "view": "interior",
+ "after": [
+  {
+   "label": "Step off at Lost Property Depot",
+   "next": "c14-d3"
+  },
+  {
+   "label": "Stay on",
+   "beat": "You stay put as the depot slips past. A rogue stamp flutters by before you swap to the bridge crawler, rumbling straight toward the bustling stalls of giant Gear Bridge.",
+   "then": "Step off at Gear Bridge",
+   "next": "c14-d1"
+  }
+ ]
+}

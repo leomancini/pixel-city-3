@@ -1,0 +1,38 @@
+{
+ "id": "c14-d3-t5",
+ "scene": "The brass sidecar rattles smoothly past cavernous depot shelves into darkness.",
+ "options": [
+  "Turn dashboard dial",
+  "Tap rider's shoulder",
+  "Open glove box"
+ ],
+ "beats": [
+  "Warm saxophone music bursts from the speaker as the bike skids to a neat halt. Midnight Radio Repair's glowing doorway slides wide open beside you.",
+  "The courier beeps pleasantly and hands you a spare vacuum tube. The bike rolls to a halt, and Midnight Radio Repair's workshop doors slide open.",
+  "You find a glowing frequency chart inside and fold it neatly away. The engine cuts as the sidecar glides inside, the workshop doors sliding open wide."
+ ],
+ "next": [
+  "c14-d5",
+  "c14-d5",
+  "c14-d5"
+ ],
+ "picture": "Pixel art flat side view. On a dark street line, a motorcycle with attached brass sidecar speeds rightward. On the far left, a sleek robot courier steers. Centre, the player sits bundled in the sidecar beside a copper dial. To the right, a latched glove box. Depot shelves blur past outside.",
+ "shown": [
+  "a crackling copper radio dial set on the sidecar console at centre",
+  "the leather-jacketed robotic courier steering the motorbike on the far left",
+  "a tiny brass latch shut on a dashboard compartment to the right"
+ ],
+ "view": "interior",
+ "after": [
+  {
+   "label": "Step off at Midnight Radio Repair",
+   "next": "c14-d5"
+  },
+  {
+   "label": "Stay on",
+   "beat": "You zoom past the repair shop, ducking under a fluttering laundry line. At the terminus you hop into a rumbling tow truck, pulling up outside the buzzing, colourful Neon Sign Hospital.",
+   "then": "Step off at Neon Sign Hospital",
+   "next": "c14-d4"
+  }
+ ]
+}

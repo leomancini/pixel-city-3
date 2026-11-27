@@ -1,0 +1,38 @@
+{
+ "id": "c14-d3-t2",
+ "scene": "The open gondola hums as soapy suds float past towering city bricks.",
+ "options": [
+  "Wipe bubbly porthole",
+  "Talk to operator",
+  "Inspect rattling bucket"
+ ],
+ "beats": [
+  "You squeegee the soapy glass clear, spotting a lightning-catcher spire just as the gondola docks at Rainmaker Rooftops and its metal gate swings wide.",
+  "The operator coos cheerfully and presses a damp umbrella token into your hand. The cables lock, and the exit doors slide open.",
+  "A tiny clockwork frog springs from the glowing green suds straight into your pocket! The gondola jolts to a halt, opening its doors to the mist."
+ ],
+ "next": [
+  "c14-d2",
+  "c14-d2",
+  "c14-d2"
+ ],
+ "picture": "Flat side view inside the narrow yellow gondola floor. Far left, a foam-caked round porthole. Centre-left, the player leans on his prosthetic leg in orange corduroy. Centre, a pigeon-headed operator grips brass levers. Right, a sloshing bucket glows green. Far right, cables rise upward through open air.",
+ "shown": [
+  "a circular glass porthole covered in thick iridescent foam on the far left",
+  "a pigeon-headed operator in yellow overalls steering levers at the centre",
+  "a sloshing metal pail glowing with strange luminescent green water on the right"
+ ],
+ "view": "interior",
+ "after": [
+  {
+   "label": "Step off at Rainmaker Rooftops",
+   "next": "c14-d2"
+  },
+  {
+   "label": "Stay on",
+   "beat": "You stay put as the gondola glides past the roof, dodging a rogue cloud puff. At the terminus, you hop into a sputtering sidecar motorbike that zips you straight to Midnight Radio Repair.",
+   "then": "Step off at Midnight Radio Repair",
+   "next": "c14-d5"
+  }
+ ]
+}

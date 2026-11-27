@@ -1,0 +1,38 @@
+{
+ "id": "c14-d4-t1",
+ "scene": "The crawler rattles along its cable toward the churning bridge gears.",
+ "options": [
+  "Help folded passenger",
+  "Inspect rattling cage",
+  "Consult grease monkey"
+ ],
+ "beats": [
+  "You crisp up her creased blueprint, uncovering a secret shortcut to the bridge's noodle stalls just as the crawler docks and clanks its doors open.",
+  "You give the tiny key a twist. The brass bird trills a jaunty tune, signaling the conductor to slide the exit doors wide open.",
+  "He shares clever tricks for dodging turning gears, handing you a wrench ticket as the brakes hiss and the platform doors rumble open."
+ ],
+ "next": [
+  "c14-d1",
+  "c14-d1",
+  "c14-d1"
+ ],
+ "picture": "Inside the rattling brass tram car, a level row of rivets runs along the floor. On the far left sits a woman with a large paper map. In the centre, the player stands beside a caged clockwork bird. To the right, a tea-drinking mechanic sits by large floor levers. Outside the rectangular windows, glowing neon signs recede.",
+ "shown": [
+  "a woman struggling with an origami map on the bench to the left",
+  "a brass birdcage holding a ticking mechanical finch at the centre",
+  "a boiler-suited mechanic sipping tea beside heavy lever controls on the far right"
+ ],
+ "view": "interior",
+ "after": [
+  {
+   "label": "Step off at Gear Bridge",
+   "next": "c14-d1"
+  },
+  {
+   "label": "Stay on",
+   "beat": "You stay put as Gear Bridge fades behind. After a brisk transfer at the terminal, the night funicular hoists you up toward Comet Watch Rooftop, brimming with cocoa robots and deckchairs.",
+   "then": "Step off at Comet Watch Rooftop",
+   "next": "c14-d0"
+  }
+ ]
+}

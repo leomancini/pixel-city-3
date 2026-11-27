@@ -1,0 +1,38 @@
+{
+ "id": "c14-d2-t4",
+ "scene": "Inside the rumbling cab, miniature rainclouds leak through the open dashboard vents.",
+ "options": [
+  "Turn radio knob",
+  "Catch leaky cloud",
+  "Inspect green toolbox"
+ ],
+ "beats": [
+  "A cheerful electric jingle blares through harmless static sparks just as the truck brakes smoothly inside the buzzing, glowing neon workshop, pop-sliding the cab doors wide.",
+  "You scoop the cool puff into your palm where it tickles into sweet lime drizzle, just as the truck halts among giant luminous letters and the doors swing open.",
+  "Inside lies a glowing glass tube shaped like an ampersand, which you carefully pocket right as the truck halts inside the glowing workshop and the doors clunk open."
+ ],
+ "next": [
+  "c14-d4",
+  "c14-d4",
+  "c14-d4"
+ ],
+ "picture": "Inside the flat-bench tow truck cab. A burly driver steers on the far left next to a glowing radio dial. The player sits centre in his corduroy jacket and beanie. Up high drifts a tiny raining cloud. On the right bench sits a green toolbox, with rooftop tanks visible through windows.",
+ "shown": [
+  "a crackling dashboard radio with a glowing red dial on the left",
+  "a tiny puffy grey stormcloud drifting near the ceiling up high",
+  "a dented metal toolbox latched shut on the bench seat at the right"
+ ],
+ "view": "interior",
+ "after": [
+  {
+   "label": "Step off at Neon Sign Hospital",
+   "next": "c14-d4"
+  },
+  {
+   "label": "Stay on",
+   "beat": "You stay put as the truck cruises past Neon Sign Hospital, breezing under a sparkling sky. At the terminal, you hop a whistling mail train straight to the bustling Lost Property Depot.",
+   "then": "Step off at Lost Property Depot",
+   "next": "c14-d3"
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "id": "c14-d4-t5",
+ "scene": "Rushing through alleys, you bump along inside the rattling metal sidecar.",
+ "options": [
+  "Tune the radio",
+  "Check glove compartment",
+  "Signal the driver"
+ ],
+ "beats": [
+  "You dial past crackling static into swinging jazz trumpet riffs just as the bike screeches into Midnight Radio Repair and its doors glide open.",
+  "You pop the wooden latch and pocket a humming vacuum tube right as the sidecar skids inside Midnight Radio Repair and the doors roll wide.",
+  "You tap the driver's leather shoulder; they nod and cut the engine as the sidecar glides into Midnight Radio Repair and its doors part."
+ ],
+ "next": [
+  "c14-d5",
+  "c14-d5",
+  "c14-d5"
+ ],
+ "picture": "Side-view pixel scene inside the moving sidecar. On the far left sits a closed wooden glovebox. To its left, a small red radio glows. Centre, the player sits in the leather seat. On the right, the goggled driver steers the attached bike along the ground line.",
+ "shown": [
+  "a crackling dashboard radio with glowing red dials on the left",
+  "a closed wooden glove compartment latched shut on the far left",
+  "the driver clad in goggles steering the connected motorbike on the right"
+ ],
+ "view": "interior",
+ "after": [
+  {
+   "label": "Step off at Midnight Radio Repair",
+   "next": "c14-d5"
+  },
+  {
+   "label": "Stay on",
+   "beat": "Zooming past the repair shop, you catch a drifting neon leaf before switching to the midnight funicular at the line's end. The glass car glides upward, docking right at Comet Watch Rooftop.",
+   "then": "Step off at Comet Watch Rooftop",
+   "next": "c14-d0"
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "id": "c14-d2-t5",
+ "scene": "Wind whips your beanie as the motorized sidecar buzzes along rooftops.",
+ "options": [
+  "Tweak glovebox radio",
+  "Inspect canvas pouch",
+  "Signal helmeted driver"
+ ],
+ "beats": [
+  "You dial past static until singing toasters harmonize through the speaker. The sidecar skids outside Midnight Radio Repair, and the door pops open.",
+  "Unbuckling the pouch reveals glowing vacuum tubes cushioned in velvet. The driver brakes firmly outside Midnight Radio Repair as the sidecar door swings wide.",
+  "You tap the driver's shoulder, and they nod toward flickering neon signs. The motor purrs to a stop at Midnight Radio Repair, its door unlatching."
+ ],
+ "next": [
+  "c14-d5",
+  "c14-d5",
+  "c14-d5"
+ ],
+ "picture": "Flat side view. Inside the motorized rig, the dashboard radio sits on the left, the player in burnt-orange corduroy sits centre with a canvas pouch between his knees, and the helmeted driver steers on the right. Rooftop rainbow sprinklers and cloud tanks whiz past in a low strip behind.",
+ "shown": [
+  "a tiny buzzing dashboard radio on the left with a red tuning knob",
+  "a bulging leather tool pouch resting centre between your knees",
+  "the leather-jacketed driver on the right gripping vibrating chrome handlebars"
+ ],
+ "view": "interior",
+ "after": [
+  {
+   "label": "Step off at Midnight Radio Repair",
+   "next": "c14-d5"
+  },
+  {
+   "label": "Stay on",
+   "beat": "You stay seated as the bike zooms past, catching a rogue soap bubble before the terminal. Transferring to the mail train, you clatter into the umbrella-stacked cavern of Lost Property Depot.",
+   "then": "Step off at Lost Property Depot",
+   "next": "c14-d3"
+  }
+ ]
+}

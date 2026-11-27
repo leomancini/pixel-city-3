@@ -1,0 +1,38 @@
+{
+ "id": "c14-d4-t2",
+ "scene": "The open gondola rises steadily through glowing neon mist into misty skies.",
+ "options": [
+  "Crank the winch",
+  "Wipe soapy glass",
+  "Pet sleepy crow"
+ ],
+ "beats": [
+  "You crank the grooved winch briskly, speeding the climb until the gondola docks beside a humming cloud condenser and the gate clicks open.",
+  "You squeegee a clear circle through sudsy glass, revealing rainbow sprinklers just as the gondola bumps safely to a halt and slides its door wide.",
+  "The sleepy crow caws softly, nudging a brass rain-token into your palm as the gondola settles beside giant wooden cisterns and unlatches its gate."
+ ],
+ "next": [
+  "c14-d2",
+  "c14-d2",
+  "c14-d2"
+ ],
+ "picture": "A flat side view inside the metal-railed window-cleaner gondola. On the far left sits a bronze gear crank. The player stands left of centre in orange corduroy and beanie. In the centre, a goggled crow rests on a toolbox. On the right, a sudsy glass pane faces outward toward rising rooftop silos.",
+ "shown": [
+  "a heavy bronze gear crank mounted on the far left railing",
+  "a foam-coated glass windscreen on the right side of the deck",
+  "a black crow wearing goggles roosting on a tool crate in the centre"
+ ],
+ "view": "interior",
+ "after": [
+  {
+   "label": "Step off at Rainmaker Rooftops",
+   "next": "c14-d2"
+  },
+  {
+   "label": "Stay on",
+   "beat": "You stay aboard as cool mist tickles your cheeks, riding past the stop to the terminal. After switching to the night funicular, you roll gently into the starry chatter of Comet Watch Rooftop.",
+   "then": "Step off at Comet Watch Rooftop",
+   "next": "c14-d0"
+  }
+ ]
+}

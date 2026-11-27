@@ -1,0 +1,38 @@
+{
+ "id": "c14-d5-t2",
+ "scene": "The creaky gondola rises, carrying a bucket, winch, and napping pigeon.",
+ "options": [
+  "Turn brass winch",
+  "Inspect bubble bucket",
+  "Wake sleepy pigeon"
+ ],
+ "beats": [
+  "You crank the winch faster, surging through a mist bank until the gondola clanks to a halt beside giant rain barrels. The grated doors slide open.",
+  "You stir the glowing foam, releasing a floating iridescent bubble. The cradle bumps smoothly against an iron mooring, and the cage gate unlatches with a happy ring.",
+  "The pigeon coos indignantly and drops a brass key before fluttering up. The gondola glides into the misty rooftop dock, its accordion gate rolling back."
+ ],
+ "next": [
+  "c14-d2",
+  "c14-d2",
+  "c14-d2"
+ ],
+ "picture": "Inside the yellow metal gondola, arranged along one floor from left to right: a brass winch drum, the middle-aged Black man in his burnt-orange jacket, a foaming bucket of blue suds, and a plump pigeon in a knit cap resting on an iron railing. Sky glows purple through the railing bars.",
+ "shown": [
+  "a heavy brass winch with a worn wooden handle on the left",
+  "a metal pail frothing with luminescent blue suds in the centre",
+  "a plump grey pigeon wearing a tiny knit hat on the right"
+ ],
+ "view": "interior",
+ "after": [
+  {
+   "label": "Step off at Rainmaker Rooftops",
+   "next": "c14-d2"
+  },
+  {
+   "label": "Stay on",
+   "beat": "You stay put as the gondola breezes past the rooftops, a stray cloud tickling your beanie. At the terminus, you board a clanking bridge crawler that rattles toward Gear Bridge's turning cogs.",
+   "then": "Step off at Gear Bridge",
+   "next": "c14-d1"
+  }
+ ]
+}

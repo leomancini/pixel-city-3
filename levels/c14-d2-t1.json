@@ -1,0 +1,38 @@
+{
+ "id": "c14-d2-t1",
+ "scene": "Inside the rumbling crawler, mechanical pigeons deliver warm tea to passengers.",
+ "options": [
+  "Take the teacup",
+  "Study route map",
+  "Check wicker crate"
+ ],
+ "beats": [
+  "The fragrant cinnamon tea warms you thoroughly. Gears grind to a halt at Gear Bridge, and the doors slide open to the bustling walkway.",
+  "The blinking bulbs reveal a hidden bypass under the turning cogs. With a hearty clang, the crawler docks at Gear Bridge, its heavy doors parting.",
+  "You peek inside to find three sleeping miniature grease-monkeys curled like donuts. With a pneumatic hiss, the doors slide wide at Gear Bridge."
+ ],
+ "next": [
+  "c14-d1",
+  "c14-d1",
+  "c14-d1"
+ ],
+ "picture": "Inside the side-scrolling crawler cabin, a level floor runs left to right. On the far left, a mechanical brass pigeon offers tea. The player in orange jacket and beanie stands left of centre. Up high, a glowing mechanical route map clicks. On the right, a rattling wicker basket sits on a green bench.",
+ "shown": [
+  "a tiny clockwork pigeon holding a steaming ceramic cup on the left",
+  "an illuminated brass route board clicking above the aisle up high",
+  "a tied wicker basket rattling on an empty seat on the right"
+ ],
+ "view": "interior",
+ "after": [
+  {
+   "label": "Step off at Gear Bridge",
+   "next": "c14-d1"
+  },
+  {
+   "label": "Stay on",
+   "beat": "You stay put as the crawler rattles past the stop, humming to a distant horn. At the terminal, you hop a tow truck bound for the glowing hum of Neon Sign Hospital.",
+   "then": "Step off at Neon Sign Hospital",
+   "next": "c14-d4"
+  }
+ ]
+}

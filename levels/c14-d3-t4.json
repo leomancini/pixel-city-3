@@ -1,0 +1,38 @@
+{
+ "id": "c14-d3-t4",
+ "scene": "Inside the rumbling cab, neon flickers replace the depot outside.",
+ "options": [
+  "Tune the radio",
+  "Open metal lunchbox",
+  "Question the driver"
+ ],
+ "beats": [
+  "Static crackles into lively jazz that syncs with passing sparks. The tow truck brakes inside the buzzing Neon Sign Hospital, its passenger door popping wide.",
+  "A glowing glass pretzel radiates warm light from within the tin. The truck pulls up beside colourful glass-bending benches and the door swings smoothly open.",
+  "The driver winks, handing you a bent neon lightning bolt souvenir. The truck rolls through the garage doors into Neon Sign Hospital, opening up to welcome you."
+ ],
+ "next": [
+  "c14-d4",
+  "c14-d4",
+  "c14-d4"
+ ],
+ "picture": "Flat side-view cutaway of the truck cab. On the far left, a glowing green radio sits on the dashboard. In the left-centre, the player sits in an orange jacket with telescope and prosthetic leg. In the centre rests a closed tin lunchbox. On the right, a friendly overall-clad driver steers.",
+ "shown": [
+  "a bulky retro radio glowing green on the dashboard on the far left",
+  "a dented tin lunchbox sitting shut on the centre seat",
+  "a cheerful mechanic in greasy overalls steering on the right"
+ ],
+ "view": "interior",
+ "after": [
+  {
+   "label": "Step off at Neon Sign Hospital",
+   "next": "c14-d4"
+  },
+  {
+   "label": "Stay on",
+   "beat": "You wave past the hospital, rolling down quiet alleys until the truck's route ends. You transfer into a sputtering sidecar motorbike, puttering up outside Midnight Radio Repair beneath stacks of glowing valves.",
+   "then": "Step off at Midnight Radio Repair",
+   "next": "c14-d5"
+  }
+ ]
+}

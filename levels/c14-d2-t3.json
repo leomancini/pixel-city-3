@@ -1,0 +1,38 @@
+{
+ "id": "c14-d2-t3",
+ "scene": "Inside the rattling mail train, pneumatic tubes hiss above velvet passenger seats.",
+ "options": [
+  "Catch blue parcel",
+  "Chat with badger",
+  "Turn brass valve"
+ ],
+ "beats": [
+  "You snatch the fluttering letter, but it nips your thumb and flutters toward the sliding doors as the train halts at Lost Property Depot.",
+  "The badger nods wisely and slips a velvet key into your palm just as the brakes hiss and the Depot doors slide wide.",
+  "Warm lavender steam billows from the pipe, soothing the rattling carriage as it glides to a stop and the doors part at the Depot."
+ ],
+ "next": [
+  "c14-d3",
+  "c14-d3",
+  "c14-d3"
+ ],
+ "picture": "Flat side view inside the mail carriage. At far left, a winged envelope hovers. On the left, a badger in a vest sorts mail. Centre stands the player in his orange jacket and beanie. Up high, overhead pipes feature a brass valve. On the right, windows show receding rooftops.",
+ "shown": [
+  "a fluttering parcel with tiny feather wings, mid-air at the far left",
+  "a dapper badger postal clerk sorting cartas at a desk on the left",
+  "a gleaming pressure valve attached to overhead copper pipes up high"
+ ],
+ "view": "interior",
+ "after": [
+  {
+   "label": "Step off at Lost Property Depot",
+   "next": "c14-d3"
+  },
+  {
+   "label": "Stay on",
+   "beat": "You stay put as the Depot slips away, watching telegraph poles whizz past until the line ends. Hitching a ride on a friendly tow truck, you pull up outside the buzzing, colourful Neon Sign Hospital.",
+   "then": "Step off at Neon Sign Hospital",
+   "next": "c14-d4"
+  }
+ ]
+}

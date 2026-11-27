@@ -1,0 +1,38 @@
+{
+ "id": "c14-d0-t1",
+ "scene": "The clanking cabin sways gently as gears hum beneath the floor.",
+ "options": [
+  "Inspect luggage rack",
+  "Chat with conductor",
+  "Turn brass dial"
+ ],
+ "beats": [
+  "Inside rests a tame clockwork cricket that chirps cheerfully just as the crawler docks at Gear Bridge and the doors slide open.",
+  "She trades a shiny gear token for your comet rumor, then gives the whistle a cheerful toot as the doors open at Gear Bridge.",
+  "Sweet cinnamon steam puffs into the cabin with a soft hiss, just as the crawler glides into Gear Bridge and the doors open wide."
+ ],
+ "next": [
+  "c14-d1",
+  "c14-d1",
+  "c14-d1"
+ ],
+ "picture": "Side view inside the crawler cabin. On the far left sits a passenger bench under a luggage rack holding a shaking wicker basket. The player stands centre with telescope slung. To the right, an apron-clad conductor polishes a brass horn beside a wall mounted with a shiny steam pipe and brass dial.",
+ "shown": [
+  "a vibrating wicker trunk tied with purple string up high on the left rack",
+  "a conductor in an apron polishing a brass horn, seated on the right",
+  "a polished brass wheel on a rattling steam pipe on the far right"
+ ],
+ "view": "interior",
+ "after": [
+  {
+   "label": "Step off at Gear Bridge",
+   "next": "c14-d1"
+  },
+  {
+   "label": "Stay on",
+   "beat": "You stay put as the crawler rumbles past, rocking like a cradle. At the line's end, a squeaky window-cleaner gondola whisks you up into the swirling cloud tanks of Rainmaker Rooftops.",
+   "then": "Step off at Rainmaker Rooftops",
+   "next": "c14-d2"
+  }
+ ]
+}

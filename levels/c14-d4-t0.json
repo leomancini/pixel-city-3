@@ -1,0 +1,38 @@
+{
+ "id": "c14-d4-t0",
+ "scene": "The funicular glides upward as glowing neon signs shrink below the glass.",
+ "options": [
+  "Inspect velvet bag",
+  "Turn brass dial",
+  "Chat with conductor"
+ ],
+ "beats": [
+  "Inside lies a brass star-wheel dial. The carriage clunks to a halt at the Comet Watch Rooftop, and the doors slide open under the starry sky.",
+  "The ceiling glass tints purple to reveal glowing constellations. The funicular docks smoothly at Comet Watch Rooftop, parting its doors beside cheerful cocoa robots.",
+  "The robot wakes with a musical chime and hands you a punchcard comet schedule. Ding! The doors open onto the breezy Comet Watch Rooftop platform."
+ ],
+ "next": [
+  "c14-d0",
+  "c14-d0",
+  "c14-d0"
+ ],
+ "picture": "Flat side view inside the tilted glass-walled funicular. On the far left sits an embroidered velvet pouch on a green velvet bench. The player stands centre with telescope slung. Up high, an ornate brass dial glows. On the far right, a tin conductor robot naps against the exit door.",
+ "shown": [
+  "a mysterious embroidered velvet pouch sitting on an empty seat on the left",
+  "an ornate brass cabin dial glowing softly on the wall up high",
+  "a sleeping robot conductor wearing a pillbox cap on the far right"
+ ],
+ "view": "interior",
+ "after": [
+  {
+   "label": "Step off at Comet Watch Rooftop",
+   "next": "c14-d0"
+  },
+  {
+   "label": "Stay on",
+   "beat": "You stay put as the funicular climbs into the clouds, rattling softly over sleepy spires. At the terminus, you hop onto a bridge crawler that clanks straight toward the bustling, rotating Gear Bridge.",
+   "then": "Step off at Gear Bridge",
+   "next": "c14-d1"
+  }
+ ]
+}

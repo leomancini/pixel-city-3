@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3000;
 const FONTS = ["/fonts/AnalogMonoPlus.ttf"];
 
 // levels/index.json, c0-d1.json, c0-d1-2-0.jpg and so on.
-const LEVEL_FILE = /^\/levels\/(index\.json|gallery\.json|c\d+-d\d+(?:-\d)*\.(?:json|jpg))$/;
+const LEVEL_FILE = /^\/levels\/(index\.json|gallery\.json|c\d+-d\d+(?:-\d|-t\d+)*\.(?:json|jpg))$/;
 
 // Layout diagnostics: only for requests made to this machine by a local
 // address (localhost, or its private LAN address for testing from a phone),
