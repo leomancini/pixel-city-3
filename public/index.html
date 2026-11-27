@@ -557,6 +557,9 @@
     const res = await fetch("/levels/index.json");
     if (!res.ok) throw new Error("Request failed");
     const { starts } = await res.json();
+    // The gallery's "Play from here" names a starting point in the address.
+    const asked = new URLSearchParams(location.search).get("start");
+    if (starts.includes(asked)) return asked;
     let last = null;
     try { last = localStorage.getItem("lastStart"); } catch {}
     // Ids look like c2-d1: character 2, district 1.
@@ -697,7 +700,9 @@
       setGlow(true);
       optionsEl.innerHTML = "";
       actions = [];
-      setScene(level === 0 ? "Entering the city" : "Level " + (level + 1) + " loading", true);
+      // The first load is too quick to need a message; the text box stays empty.
+      if (level === 0) { setScene("", true); sceneEl.classList.remove("blink"); }
+      else setScene("Level " + (level + 1) + " loading", true);
     }
     try {
       id ??= await pickStart();

@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3000;
 const FONTS = ["/fonts/AnalogMonoPlus.ttf"];
 
 // levels/index.json, c0-d1.json, c0-d1-2-0.jpg and so on.
-const LEVEL_FILE = /^\/levels\/(index\.json|c\d+-d\d+(?:-\d)*\.(?:json|jpg))$/;
+const LEVEL_FILE = /^\/levels\/(index\.json|gallery\.json|c\d+-d\d+(?:-\d)*\.(?:json|jpg))$/;
 
 // Layout diagnostics: only for requests made to this machine by a local
 // address (localhost, or its private LAN address for testing from a phone),
@@ -38,6 +38,12 @@ createServer(async (req, res) => {
   if (req.method === "GET" && (path === "/" || path === "/index.html")) {
     res.writeHead(200, { "Content-Type": "text/html; charset=utf-8" });
     return res.end(await readFile(new URL("./public/index.html", import.meta.url)));
+  }
+
+  // Every starting point and path, laid out for browsing.
+  if (req.method === "GET" && (path === "/gallery" || path === "/gallery/")) {
+    res.writeHead(200, { "Content-Type": "text/html; charset=utf-8" });
+    return res.end(await readFile(new URL("./public/gallery.html", import.meta.url)));
   }
 
   // Home Screen icon (iOS also asks for the -precomposed name on its own).

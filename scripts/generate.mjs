@@ -392,12 +392,32 @@ async function writeIndex() {
     if ((await levelsOf(c)).length === DISTRICTS[c].length * 13) for (let d = 0; d < DISTRICTS[c].length; d++) starts.push(idOf(c, d, []));
   }
   await writeFile(new URL("index.json", OUT), JSON.stringify({ starts }));
+  // Everything in one file for the gallery page: who plays where, and every
+  // playable level's text and links.
+  const characters = [];
+  const levels = {};
+  for (let c = 0; c < CHARACTERS.length; c++) {
+    const ids = await levelsOf(c);
+    if (ids.length !== DISTRICTS[c].length * 13) continue;
+    characters.push({
+      id: `c${c}`,
+      player: CHARACTERS[c],
+      districts: DISTRICTS[c].map(([name, transport, about], d) => ({ id: idOf(c, d, []), name, transport, about })),
+    });
+    for (const id of ids) {
+      const { scene, options, next, picture, shown, view } = await exists(id);
+      levels[id] = { scene, options, next, picture, shown, view };
+    }
+  }
+  await writeFile(new URL("gallery.json", OUT), JSON.stringify({ characters, levels }));
 }
 
 await mkdir(OUT, { recursive: true });
 const startedAt = ledger.usd;
 if (PILOT) {
   await build(0, 0, [], null, []);
+} else if (process.argv.includes("--index")) {
+  // Only rewrite index.json and gallery.json from what is already on disk.
 } else {
   // Arrivals first, so every district exists before anything links to it.
   // One character at a time, and only if the budget covers all of theirs:

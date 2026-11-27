@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0a0a0a">
+<title>Pixel City 3 Gallery</title>
+<style>
+  @font-face {
+    font-family: "Analog Mono Plus";
+    src: url("/fonts/AnalogMonoPlus.ttf") format("truetype");
+    font-display: swap;
+  }
+  :root { --line: #2a2a2a; --dim: #8a8a8a; --card: #151515; --ink: #f2f2f2; --accent: #ffd45a; }
+  * { box-sizing: border-box; }
+  html { background: #0a0a0a; color: var(--ink); }
+  body {
+    margin: 0;
+    padding: 24px clamp(16px, 4vw, 40px) 80px;
+    font: 14px/1.5 ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  }
+  a { color: inherit; }
+  h1, h2, .pixel {
+    font-family: "Analog Mono Plus", ui-monospace, monospace;
+    text-transform: uppercase;
+    font-weight: normal;
+    -webkit-font-smoothing: none;
+  }
+  header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 24px; margin-bottom: 20px; }
+  h1 { font-size: 20px; margin: 0; }
+  h1 a { text-decoration: none; }
+  .counts { color: var(--dim); }
+  .spacer { flex: 1; }
+  input[type="search"] {
+    width: min(100%, 280px);
+    padding: 8px 10px;
+    font: inherit;
+    color: var(--ink);
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+  }
+  input[type="search"]:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+  button, .button {
+    font: inherit;
+    color: var(--ink);
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 6px 10px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+  }
+  button:hover, .button:hover { border-color: #555; }
+  button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  img { display: block; width: 100%; aspect-ratio: 1; object-fit: cover; background: #111; border-radius: 10px; }
+
+  /* Overview: one block per character, a row of their starting points. */
+  .character { margin: 0 0 36px; }
+  .character h2 { font-size: 20px; margin: 0 0 4px; }
+  .player { color: var(--dim); margin: 0 0 12px; max-width: 80ch; }
+  .starts { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 14px; }
+  .start { display: block; text-decoration: none; background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 8px; }
+  .start:hover { border-color: #666; }
+  .start strong { display: block; margin-top: 8px; }
+  .start span { color: var(--dim); }
+  .tag { display: inline-block; font-size: 11px; color: #111; background: var(--accent); border-radius: 4px; padding: 0 5px; margin-left: 6px; vertical-align: 1px; }
+  .tag.grey { background: #555; color: #eee; }
+
+  /* District view: the arrival, then a row per option. */
+  .crumbs { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 18px; }
+  .about { color: var(--dim); max-width: 90ch; margin: 0 0 20px; }
+  .arrival { display: grid; grid-template-columns: minmax(200px, 320px) 1fr; gap: 20px; align-items: start; margin-bottom: 28px; }
+  .branch { border-top: 1px solid var(--line); padding: 20px 0; }
+  .branch-head { display: flex; align-items: baseline; gap: 10px; margin-bottom: 12px; }
+  .branch-head .pixel { font-size: 20px; }
+  .steps { display: grid; grid-template-columns: minmax(180px, 1.15fr) repeat(3, minmax(150px, 1fr)); gap: 14px; align-items: start; }
+  .level { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 8px; min-width: 0; }
+  .level.wide-step { border-color: #444; }
+  .level img { cursor: zoom-in; }
+  .chose { color: var(--accent); margin: 0 0 6px; overflow-wrap: anywhere; }
+  .scene { margin: 8px 0 6px; }
+  .options { list-style: none; margin: 0; padding: 0; color: var(--dim); }
+  .options li::before { content: "▸ "; color: #555; }
+  .options a { text-decoration: underline; text-decoration-color: #555; text-underline-offset: 3px; }
+  .options a:hover { color: var(--ink); }
+  .id { color: #5c5c5c; font-size: 12px; }
+  @media (max-width: 860px) {
+    .arrival { grid-template-columns: 1fr; }
+    .steps { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+
+  /* One level, large, with what the illustrator was told. */
+  dialog {
+    width: min(960px, calc(100vw - 24px));
+    max-height: calc(100dvh - 24px);
+    padding: 16px;
+    color: var(--ink);
+    background: #121212;
+    border: 1px solid #444;
+    border-radius: 16px;
+  }
+  dialog::backdrop { background: rgba(0, 0, 0, 0.8); }
+  .detail { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 18px; }
+  .detail img { cursor: default; image-rendering: pixelated; }
+  .detail h3 { margin: 14px 0 4px; font-size: 12px; color: var(--dim); font-weight: normal; text-transform: uppercase; letter-spacing: 0.06em; }
+  .detail h3:first-child { margin-top: 0; }
+  .detail p, .detail ol { margin: 0; }
+  .detail ol { padding-left: 20px; }
+  .detail li span { color: var(--dim); }
+  .detail-foot { display: flex; gap: 8px; justify-content: flex-end; margin-top: 14px; }
+  @media (max-width: 700px) { .detail { grid-template-columns: 1fr; } }
+  .empty { color: var(--dim); padding: 40px 0; }
+</style>
+</head>
+<body>
+<header>
+  <h1><a href="#">Pixel City 3 Gallery</a></h1>
+  <span class="counts" id="counts"></span>
+  <span class="spacer"></span>
+  <input type="search" id="search" placeholder="Search scenes and options" aria-label="Search scenes and options">
+  <a class="button" href="/">Play</a>
+</header>
+<main id="view"><p class="empty">Loading the story…</p></main>
+
+<dialog id="detail" aria-label="Level details"></dialog>
+
+<script>
+  const view = document.getElementById("view");
+  const detail = document.getElementById("detail");
+  const search = document.getElementById("search");
+  let data = null;
+
+  const el = (tag, props = {}, ...children) => {
+    const node = Object.assign(document.createElement(tag), props);
+    node.append(...children.filter((c) => c != null));
+    return node;
+  };
+  const picture = (id, alt) => el("img", { src: `/levels/${id}.jpg`, alt, loading: "lazy", decoding: "async" });
+  const districtOf = (id) => id.split("-").slice(0, 2).join("-");
+  const district = (id) => {
+    for (const character of data.characters) {
+      const found = character.districts.find((d) => d.id === districtOf(id));
+      if (found) return { ...found, character };
+    }
+    return null;
+  };
+  // Districts 4 and up are only ever openings: nothing travels to them.
+  const startOnly = (id) => Number(id.split("-")[1].slice(1)) >= 4;
+
+  function showDetail(id, chose) {
+    const level = data.levels[id];
+    const place = district(id);
+    detail.replaceChildren(
+      el("div", { className: "detail" },
+        picture(id, level.scene),
+        el("div", {},
+          el("h3", { textContent: "Level" }),
+          el("p", {}, `${id} · ${place.name} · ${level.view === "close" ? "close-up view" : "wide view"}`),
+          chose ? el("h3", { textContent: "Reached by choosing" }) : null,
+          chose ? el("p", { textContent: chose }) : null,
+          el("h3", { textContent: "Scene shown to the player" }),
+          el("p", { textContent: level.scene }),
+          el("h3", { textContent: "Options, and what each points at in the picture" }),
+          el("ol", {}, ...level.options.map((option, i) =>
+            el("li", {}, option, el("span", { textContent: level.shown?.[i] ? ` — ${level.shown[i]}` : "" })))),
+          el("h3", { textContent: "What the illustrator was told is visible" }),
+          el("p", { textContent: level.picture || "(nothing recorded)" }),
+          el("h3", { textContent: "Player" }),
+          el("p", { textContent: place.character.player }),
+        ),
+      ),
+      el("div", { className: "detail-foot" },
+        el("a", { className: "button", href: `/levels/${id}.jpg`, target: "_blank", rel: "noopener", textContent: "Open picture" }),
+        el("button", { textContent: "Close", onclick: () => detail.close() }),
+      ),
+    );
+    detail.showModal();
+  }
+  detail.addEventListener("click", (e) => { if (e.target === detail) detail.close(); });
+
+  // A card for one level. Options link onward when they travel to another district.
+  function levelCard(id, chose, travels) {
+    const level = data.levels[id];
+    const image = picture(id, level.scene);
+    image.onclick = () => showDetail(id, chose);
+    return el("div", { className: "level" },
+      chose ? el("p", { className: "chose", textContent: "▸ " + chose }) : null,
+      image,
+      el("p", { className: "scene" }, level.scene, level.view === "close" ? el("span", { className: "tag grey", textContent: "close-up" }) : null),
+      el("ul", { className: "options" }, ...level.options.map((option, i) =>
+        el("li", {}, travels
+          ? el("a", { href: "#" + level.next[i], textContent: `${option} → ${district(level.next[i]).name}` })
+          : option))),
+      el("p", { className: "id", textContent: id }),
+    );
+  }
+
+  function showOverview() {
+    document.title = "Pixel City 3 Gallery";
+    view.replaceChildren(...data.characters.map((character, n) =>
+      el("section", { className: "character" },
+        el("h2", { textContent: `Character ${n + 1}` }),
+        el("p", { className: "player", textContent: character.player }),
+        el("div", { className: "starts" }, ...character.districts.map((d) =>
+          el("a", { className: "start", href: "#" + d.id },
+            picture(d.id, d.name),
+            el("strong", {}, d.name, startOnly(d.id) ? el("span", { className: "tag grey", textContent: "opening only" }) : null),
+            el("span", { textContent: `arrive by ${d.transport}` })))))));
+  }
+
+  function showDistrict(id) {
+    const place = district(id);
+    const root = data.levels[id];
+    document.title = `${place.name} · Pixel City 3 Gallery`;
+    const siblings = place.character.districts;
+    view.replaceChildren(
+      el("div", { className: "crumbs" },
+        el("a", { className: "button", href: "#", textContent: "← All starting points" }),
+        ...siblings.map((d) => el("a", { className: "button", href: "#" + d.id, textContent: d.name,
+          style: d.id === id ? "border-color: var(--accent)" : "" })),
+        el("span", { className: "spacer" }),
+        el("a", { className: "button", href: "/?start=" + id, textContent: "Play from here" })),
+      el("div", { className: "arrival" },
+        levelCard(id, null, false),
+        el("div", {},
+          el("h2", { style: "font-size:20px;margin:0 0 6px" }, place.name),
+          el("p", { className: "about", textContent: `Arrive by ${place.transport}. ${place.about[0].toUpperCase()}${place.about.slice(1)}.` }),
+          el("p", { className: "about", textContent: `Played by ${place.character.player}.` }),
+          el("p", { className: "about", textContent: startOnly(id)
+            ? "This district only ever appears as an opening. Its last steps travel on to this character's other districts."
+            : "Each row below is one of the three choices here, then the three choices after it. The last step always travels on to another of this character's districts." }))),
+      ...root.options.map((option, i) => {
+        const second = root.next[i];
+        return el("section", { className: "branch" },
+          el("div", { className: "branch-head" },
+            el("span", { className: "pixel", textContent: `${i + 1}. ${option}` })),
+          el("div", { className: "steps" },
+            Object.assign(levelCard(second, option, false), { className: "level wide-step" }),
+            ...data.levels[second].next.map((third, j) => levelCard(third, data.levels[second].options[j], true))));
+      }));
+    scrollTo(0, 0);
+  }
+
+  function showSearch(query) {
+    const words = query.toLowerCase().split(/\s+/).filter(Boolean);
+    const hits = Object.entries(data.levels).filter(([id, level]) => {
+      const text = `${level.scene} ${level.options.join(" ")} ${level.picture || ""} ${district(id).name}`.toLowerCase();
+      return words.every((word) => text.includes(word));
+    });
+    document.title = "Search · Pixel City 3 Gallery";
+    view.replaceChildren(
+      el("p", { className: "about", textContent: `${hits.length} level${hits.length === 1 ? "" : "s"} match “${query}”${hits.length > 60 ? ", showing the first 60" : ""}.` }),
+      hits.length
+        ? el("div", { className: "starts" }, ...hits.slice(0, 60).map(([id, level]) =>
+            el("a", { className: "start", href: "#" + districtOf(id) },
+              picture(id, level.scene),
+              el("strong", { textContent: district(id).name }),
+              el("span", { textContent: level.scene }))))
+        : el("p", { className: "empty", textContent: "Nothing matches. Try a single word, such as “robot” or “tram”." }));
+  }
+
+  function route() {
+    if (!data) return;
+    const query = search.value.trim();
+    if (query) return showSearch(query);
+    const id = location.hash.slice(1);
+    if (id && data.levels[id] && district(id)?.id === id) return showDistrict(id);
+    showOverview();
+  }
+  addEventListener("hashchange", () => { search.value = ""; route(); });
+  search.addEventListener("input", route);
+
+  fetch("/levels/gallery.json")
+    .then((res) => { if (!res.ok) throw new Error("status " + res.status); return res.json(); })
+    .then((json) => {
+      data = json;
+      const districts = data.characters.reduce((n, c) => n + c.districts.length, 0);
+      const levels = Object.keys(data.levels).length;
+      document.getElementById("counts").textContent =
+        `${data.characters.length} characters · ${districts} starting points · ${districts * 9} paths · ${levels} levels`;
+      route();
+    })
+    .catch((err) => {
+      view.replaceChildren(el("p", { className: "empty", textContent: "Could not load the story (" + err.message + "). Reload to try again." }));
+    });
+</script>
+</body>
+</html>
