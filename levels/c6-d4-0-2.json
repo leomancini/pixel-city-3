@@ -1,0 +1,21 @@
+{
+ "id": "c6-d4-0-2",
+ "scene": "The dolly zips to the studio edge, revealing three strange exits.",
+ "options": [
+  "Row to garden",
+  "Take freight lift",
+  "Ride scissor lift"
+ ],
+ "next": [
+  "c6-d2",
+  "c6-d3",
+  "c6-d5"
+ ],
+ "picture": "Pixel art flat side view. On the far left, a small wooden rowing boat bobs in a flooded canal. Left of centre, the boy with curly hair and denim jacket stands on the dolly, holding his camera and glowing script. On the right, a heavy freight lift waits. On the far right stands a yellow scissor lift.",
+ "shown": [
+  "a wooden rowing boat bobbing in flooded tracks on the far left",
+  "a metal freight lift with open lattice gates on the right",
+  "a yellow scissor lift with a raised control lever on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c14-d2-0-1",
+ "scene": "The tapped glass zaps, waking rooftop transports idling along the misty rim.",
+ "options": [
+  "Ride bridge crawler",
+  "Board mail train",
+  "Flag tow truck"
+ ],
+ "next": [
+  "c14-d1",
+  "c14-d3",
+  "c14-d4"
+ ],
+ "picture": "A flat side view along a rooftop landing. At far left, an eight-legged metal bridge crawler waits by a gantry. To the left stands the middle-aged Black man with grey beard, burnt-orange corduroy jacket and brass telescope. In the centre sits a brass mail train with open hatch. On far right idles a hovering tow truck.",
+ "shown": [
+  "a mechanical multi-legged crawler vehicle waiting on track rails at far left",
+  "a brass pneumatic mail train with open passenger hatch at centre",
+  "a yellow hovering tow truck idling by the curb on far right"
+ ],
+ "view": "wide"
+}

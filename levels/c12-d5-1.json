@@ -1,0 +1,21 @@
+{
+ "id": "c12-d5-1",
+ "scene": "A carved window reveals a miniature fairy tea party inside the pumpkin.",
+ "options": [
+  "Offer potted seedling",
+  "Take tiny teapot",
+  "Follow stone path"
+ ],
+ "next": [
+  "c12-d5-1-0",
+  "c12-d5-1-1",
+  "c12-d5-1-2"
+ ],
+ "picture": "Side-view along the tiled floor. On the left, the grandfather in navy apron stands holding his bicycle with plant crate. In the centre, the huge hollowed pumpkin features an open carved window, displaying a tiny illuminated walnut table with a teapot. On the right, an arched wooden door leads out to a mossy path.",
+ "shown": [
+  "his own bicycle crate loaded with green potted seedlings on the left",
+  "a tiny silver teapot resting on a walnut table in the centre",
+  "an arched wooden door opening to an illuminated stone path on the right"
+ ],
+ "view": "wide"
+}

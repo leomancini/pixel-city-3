@@ -1,0 +1,21 @@
+{
+ "id": "c9-d4-1-1",
+ "scene": "You snatch the golden trophy and stick the landing at transit junction.",
+ "options": [
+  "Board weather balloon",
+  "Enter dragon train",
+  "Climb cable pod"
+ ],
+ "next": [
+  "c9-d5",
+  "c9-d0",
+  "c9-d1"
+ ],
+ "picture": "A flat side view along a wide sky platform. On the far left, a wicker basket rests tethered beneath a striped weather balloon. Near the middle, the player in red bomber jacket and white skates proudly clutches a gold trophy beside an open maglev dragon train. On the right, a round wooden cable pod awaits boarding.",
+ "shown": [
+  "a wicker basket tethered to a striped balloon on the far left",
+  "a sleek maglev dragon train with open doors at the centre",
+  "a round wooden cloud cable pod swaying on the right"
+ ],
+ "view": "wide"
+}

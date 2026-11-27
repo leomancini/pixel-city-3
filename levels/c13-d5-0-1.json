@@ -1,0 +1,21 @@
+{
+ "id": "c13-d5-0-1",
+ "scene": "The switch hums, unlocking three dazzling transit portals across the laboratory floor.",
+ "options": [
+  "Enter revolving lift",
+  "Board rooftop gondola",
+  "Ride carousel train"
+ ],
+ "next": [
+  "c13-d1",
+  "c13-d2",
+  "c13-d3"
+ ],
+ "picture": "Pixel art side view along a polished laboratory floor. On the far left stands a brass inverted revolving lift. Centre-left stands the girl in windbreaker holding her sketchbook. Up high hangs an open wicker rooftop gondola attached to wires. On the far right, a miniature clockwork carousel train waits on rails.",
+ "shown": [
+  "an inverted brass revolving door lift waiting open on the far left",
+  "a striped rooftop gondola hooked to an overhead cable up high",
+  "a winding clockwork carousel train idling quietly on tracks on the far right"
+ ],
+ "view": "wide"
+}

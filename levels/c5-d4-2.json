@@ -1,0 +1,21 @@
+{
+ "id": "c5-d4-2",
+ "scene": "You shoot out the slide into a sunny courtyard filled with foam.",
+ "options": [
+  "Dig in foam",
+  "Turn brass valve",
+  "Open garden gate"
+ ],
+ "next": [
+  "c5-d4-2-0",
+  "c5-d4-2-1",
+  "c5-d4-2-2"
+ ],
+ "picture": "Pixel art side-view of a bouncy courtyard. Far left curls the yellow slide exit. In the centre, the boy with messy dark hair and red sneakers stands holding his skateboard. Left lies a heap of turquoise foam. Right sits a brass water valve, and far right an open wooden garden gate leads outward.",
+ "shown": [
+  "a bubbling mound of turquoise foam sits piled on the left",
+  "a large brass water valve bolted to a pipe on the right",
+  "a swinging wooden garden gate standing unlatched at the far right"
+ ],
+ "view": "wide"
+}

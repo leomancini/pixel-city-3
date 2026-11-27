@@ -1,0 +1,21 @@
+{
+ "id": "c12-d4-0-2",
+ "scene": "The dial clicks, sliding the wall back to reveal three waiting transports.",
+ "options": [
+  "Ride bento express",
+  "Board koi boat",
+  "Catch glass tram"
+ ],
+ "next": [
+  "c12-d2",
+  "c12-d3",
+  "c12-d5"
+ ],
+ "picture": "Side-view pixel art of a vast transit junction. The grandfather in his apron stands beside his plant-laden bicycle. On the left, a yellow bento express train waits on tracks with open doors. In the centre, a wooden koi-shaped boat floats at a water gate. On the right, an illuminated glass tram sits ready.",
+ "shown": [
+  "a sleek yellow bento express train on the left with open doors",
+  "a mechanical carved koi-shaped boat floating in a canal lock in the centre",
+  "a glowing glass tram idling at a platform on the right"
+ ],
+ "view": "wide"
+}

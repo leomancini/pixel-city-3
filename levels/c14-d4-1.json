@@ -1,0 +1,21 @@
+{
+ "id": "c14-d4-1",
+ "scene": "The welder lifts her visor and offers you a crackling test wand.",
+ "options": [
+  "Take test wand",
+  "Study schematics clipboard",
+  "Climb roof ladder"
+ ],
+ "next": [
+  "c14-d4-1-0",
+  "c14-d4-1-1",
+  "c14-d4-1-2"
+ ],
+ "picture": "Flat side-view across the concrete floor. On the left hangs a glowing blue clipboard from a tool rack. Next to it stands the player in orange jacket and beanie. At the centre, the welder holds out a buzzing neon test wand. On the far right, an iron ladder leads straight up through a ceiling hatch.",
+ "shown": [
+  "a crackling neon test wand held out by the welder at the centre",
+  "a glowing blue clipboard hanging on a tool rack on the left",
+  "a metal ladder bolted upright against the brick wall on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c8-d5",
+ "scene": "You step from the hover carriage onto the mansion's sprawling lawn.",
+ "options": [
+  "Greet the hedge",
+  "Inspect the gardener",
+  "Enter clock mansion"
+ ],
+ "next": [
+  "c8-d5-0",
+  "c8-d5-1",
+  "c8-d5-2"
+ ],
+ "picture": "Flat side view. On the far left sits a polished brass hover carriage hovering just above the ground line. The grandmother in pink tracksuit and glasses stands beside it, leash in hand beside her small white dog. To her right stands a face-shaped hedge, then a brass robot gardener holding giant shears. On the far right is the grand open doorway of the clock-covered mansion.",
+ "shown": [
+  "a tall hedge shaped like an open face on the left",
+  "a brass robot gardener holding shears in the centre",
+  "a towering mansion front with ticking clocks on the right"
+ ],
+ "view": "wide"
+}

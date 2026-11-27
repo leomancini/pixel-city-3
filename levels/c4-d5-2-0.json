@@ -1,0 +1,21 @@
+{
+ "id": "c4-d5-2-0",
+ "scene": "The blossom safely tucked away, three garden transit gates unlock together.",
+ "options": [
+  "Board glass trolley",
+  "Enter spiral lift",
+  "Take cable tram"
+ ],
+ "next": [
+  "c4-d1",
+  "c4-d2",
+  "c4-d3"
+ ],
+ "picture": "A flat side view along a polished garden concourse. On the far left, a glass-roofed trolley waits on illuminated rails. Left of centre, the player in lilac headscarf and mustard coat pats her glowing brown satchel. At centre, a spiraling glass lift door glides open. On the far right hangs a mountain cable tram.",
+ "shown": [
+  "a sleek glass-roofed trolley resting on tracks at the far left",
+  "an ornate spiral glass elevator with glowing gears at centre",
+  "a suspended mountain cable tram hooked to high cables on the far right"
+ ],
+ "view": "wide"
+}

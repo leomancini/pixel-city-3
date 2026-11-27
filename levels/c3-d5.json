@@ -1,0 +1,21 @@
+{
+ "id": "c3-d5",
+ "scene": "You step off the milk float onto the bustling Night Bakery Street.",
+ "options": [
+  "Inspect milk float",
+  "Visit pastry robot",
+  "Climb roof ladder"
+ ],
+ "next": [
+  "c3-d5-0",
+  "c3-d5-1",
+  "c3-d5-2"
+ ],
+ "picture": "Side-scrolling street scene on a single ground line. On the far left sits an electric milk float. The player in teal bomber jacket stands left of center. Center shows a warm bakery window beneath an iron ladder fixed up high. On the right, a brass pastry robot kneads dough beneath an awning.",
+ "shown": [
+  "a vintage electric milk float parked on the far left",
+  "a brass pastry robot kneading dough under an awning on the right",
+  "an iron ladder fixed up high above the center bakery window"
+ ],
+ "view": "wide"
+}

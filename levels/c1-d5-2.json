@@ -1,0 +1,21 @@
+{
+ "id": "c1-d5-2",
+ "scene": "Inside the humming mill, giant rollers press wet pulp into parchment.",
+ "options": [
+  "Inspect drying pulp",
+  "Turn brass valve",
+  "Climb wooden catwalk"
+ ],
+ "next": [
+  "c1-d5-2-0",
+  "c1-d5-2-1",
+  "c1-d5-2-2"
+ ],
+ "picture": "Side-view pixel art of a mill interior. On the far left, a steaming wooden vat holds wet paper pulp. Left of centre, the elderly East Asian player in cap and cardigan leans on his cane. Centre, large steel rollers flank a brass wheel valve. Far right, a wooden ladder leads up to a catwalk.",
+ "shown": [
+  "A steaming wooden vat of blue-tinted paper pulp on the far left.",
+  "A gleaming brass wheel valve mounted on pipes in the centre.",
+  "A sturdy wooden ladder leading to an elevated gantry on the far right."
+ ],
+ "view": "wide"
+}

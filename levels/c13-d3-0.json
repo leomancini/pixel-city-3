@@ -1,0 +1,21 @@
+{
+ "id": "c13-d3-0",
+ "scene": "The brass crane swallows your copper token and coughs up a glowing key.",
+ "options": [
+  "Grab glowing key",
+  "Sketch the crane",
+  "Enter cogway tunnel"
+ ],
+ "next": [
+  "c13-d3-0-0",
+  "c13-d3-0-1",
+  "c13-d3-0-2"
+ ],
+ "picture": "Side-scrolling view on flat cobblestones. On the far left, the towering brass crane bends low, mouth open with a dangling green key. Centre-left, the Pacific Islander girl in sky-blue windbreaker reaches forward with her sketchbook tucked under her arm. Far right, an open cogway tunnel glows with spinning gears.",
+ "shown": [
+  "A bright neon-green key dangling from the crane's open beak on the far left",
+  "A blank page in the player's sketchbook held underarm at centre-left",
+  "A dark brick archway glowing with spinning gears on the far right"
+ ],
+ "view": "wide"
+}

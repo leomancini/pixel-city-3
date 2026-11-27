@@ -1,0 +1,21 @@
+{
+ "id": "c5-d5-1-0",
+ "scene": "The raptor springs over the ledge, landing by a buzzing transit dock.",
+ "options": [
+  "Board paddle steamer",
+  "Ride trampoline lift",
+  "Catch skate shuttle"
+ ],
+ "next": [
+  "c5-d3",
+  "c5-d4",
+  "c5-d0"
+ ],
+ "picture": "A flat side view along a concrete dock edge. On the left, a red paddle steamer bobs at the pier. In the centre, the boy stands holding his skateboard beneath a suspended trampoline lift platform hanging up high. On the right, a yellow skate shuttle van waits with its side door slid open.",
+ "shown": [
+  "A bright red paddle steamer idling at the water dock on the left",
+  "A bouncing trampoline cable lift platform suspended up high in the centre",
+  "A yellow skate-park shuttle van parked with its door open on the right"
+ ],
+ "view": "wide"
+}

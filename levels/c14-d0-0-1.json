@@ -1,0 +1,21 @@
+{
+ "id": "c14-d0-0-1",
+ "scene": "The flyer lists three transit hubs departing from this very roof edge.",
+ "options": [
+  "Board the gondola",
+  "Catch mail train",
+  "Hail tow truck"
+ ],
+ "next": [
+  "c14-d2",
+  "c14-d3",
+  "c14-d4"
+ ],
+ "picture": "Flat side view. Along one rooftop ground line: on the far left hangs a striped window-cleaner gondola. The player stands left of centre holding a steaming mug and reading the pinned flyer on the star-shaped cart. In the centre waits a red pneumatic mail train. On the far right, a yellow tow truck hovers.",
+ "shown": [
+  "a striped window-cleaner gondola swinging empty on ropes on the far left",
+  "a tiny red pneumatic mail train idling on tracks in the centre",
+  "a yellow flying tow truck hovering by the curb on the far right"
+ ],
+ "view": "wide"
+}

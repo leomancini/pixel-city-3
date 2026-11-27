@@ -1,0 +1,21 @@
+{
+ "id": "c12-d4-2-1",
+ "scene": "The tank clicks open, revealing transit tubes to distant city sectors.",
+ "options": [
+  "Ride bento express",
+  "Board koi boat",
+  "Take glass tram"
+ ],
+ "next": [
+  "c12-d2",
+  "c12-d3",
+  "c12-d5"
+ ],
+ "picture": "Side-view pixel art along one ground line. On the left, a silver bento express pod sits ready on an elevated rail. The grandfather with his bicycle and plant crate stands left of centre. In the centre, an orange koi-shaped boat bobs at a canal dock. On the far right, a round glass tram glows bright green on tracks.",
+ "shown": [
+  "a sleek bento express tube capsule waiting on the left platform",
+  "a wooden koi-shaped boat moored at the canal dock in the centre",
+  "an illuminated glass tram idling on tracks on the far right"
+ ],
+ "view": "wide"
+}

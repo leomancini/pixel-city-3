@@ -1,0 +1,21 @@
+{
+ "id": "c14-d5-1",
+ "scene": "Static crackles into singing voices across the console's glowing dials.",
+ "options": [
+  "Twist main knob",
+  "Check taped map",
+  "Flip power toggle"
+ ],
+ "next": [
+  "c14-d5-1-0",
+  "c14-d5-1-1",
+  "c14-d5-1-2"
+ ],
+ "picture": "First-person close-up of the vintage radio's control panel. At centre, a circular amber-glowing frequency display hums above a large fluted bakelite knob. On the left, a hand-annotated paper tram route is taped to the metal chassis. To the right, glowing vacuum tubes warm the casing near an upright brass toggle switch.",
+ "shown": [
+  "A heavy bakelite tuning knob sitting in the centre of the console face",
+  "A faded city tram map taped to the left of the glowing dials",
+  "A gleaming brass toggle switch flicked upward on the far right"
+ ],
+ "view": "close"
+}

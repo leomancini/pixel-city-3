@@ -1,0 +1,21 @@
+{
+ "id": "c12-d4-2",
+ "scene": "You enter an overgrown chamber where bioluminescent mushrooms illuminate ancient hydroponic tanks.",
+ "options": [
+  "Pick glowing mushroom",
+  "Inspect glass tank",
+  "Climb spiral stairs"
+ ],
+ "next": [
+  "c12-d4-2-0",
+  "c12-d4-2-1",
+  "c12-d4-2-2"
+ ],
+ "picture": "Side-view pixel art along one ground line. On the far left, bright blue mushrooms sprout across damp stone. To the left stands the grandfather in his navy apron, pushing his bicycle of potted plants. In the centre, a bubbling glass hydroponic tank glows green. On the far right, a wrought-iron spiral staircase winds upward.",
+ "shown": [
+  "a cluster of glowing blue mushrooms sprouting on the far left",
+  "a bubbling hydroponic glass tank holding a leafy vine in the centre",
+  "a wrought-iron spiral staircase winding upward on the far right"
+ ],
+ "view": "wide"
+}

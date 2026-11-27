@@ -1,0 +1,21 @@
+{
+ "id": "c11-d4-0-1",
+ "scene": "The hologram flashes transit passes instead of prices, leading across the city.",
+ "options": [
+  "Ride moving walkway",
+  "Board hover ferry",
+  "Take karaoke lift"
+ ],
+ "next": [
+  "c11-d1",
+  "c11-d2",
+  "c11-d3"
+ ],
+ "picture": "Side-view pixel art of an open mall concourse transit hub. Far left, an illuminated neon moving walkway ramp hums. Left, the silver-haired boy in a mint hoodie and headphones holds his travel pass. Centre, a docked river hover ferry idles. Far right, a brightly lit cylindrical glass karaoke lift waits with open doors.",
+ "shown": [
+  "an illuminated neon moving walkway ramp running smoothly on the far left",
+  "a sleek river hover ferry floating beside a dock at the centre",
+  "a glowing cylindrical glass karaoke lift with open doors on the far right"
+ ],
+ "view": "wide"
+}

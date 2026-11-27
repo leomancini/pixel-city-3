@@ -1,0 +1,21 @@
+{
+ "id": "c11-d4-2-2",
+ "scene": "You navigate the reflective maze and exit onto a bustling transit mezzanine.",
+ "options": [
+  "Take karaoke lift",
+  "Ride freight elevator",
+  "Board rail pod"
+ ],
+ "next": [
+  "c11-d3",
+  "c11-d5",
+  "c11-d0"
+ ],
+ "picture": "Side-view pixel art along a chrome mezzanine floor. On the far left, a glowing glass karaoke elevator sits waiting. Left of centre stands the silver-haired boy in mint hoodie with his dance bag. Heavy metal freight elevator doors rest shut at centre. Far right, an open light-rail pod awaits passengers at a glowing platform.",
+ "shown": [
+  "a circular neon glass lift tube waiting on the far left",
+  "heavy metal freight elevator doors sitting closed at the centre",
+  "a sleek light-rail pod docked at the far right platform"
+ ],
+ "view": "wide"
+}

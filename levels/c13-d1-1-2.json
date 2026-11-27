@@ -1,0 +1,21 @@
+{
+ "id": "c13-d1-1-2",
+ "scene": "Crawling through the museum vent, you tumble onto a breezy rooftop depot.",
+ "options": [
+  "Board paint tram",
+  "Ride rooftop gondola",
+  "Catch carousel train"
+ ],
+ "next": [
+  "c13-d0",
+  "c13-d2",
+  "c13-d3"
+ ],
+ "picture": "A flat side view along a wide rooftop transport platform under daylight. Far left sits a paint-splattered tram on rails. Left of centre, the Pacific Islander girl stands dusting off her cargo shorts, sketchbook under arm, by an open vent. Right of centre, a rooftop gondola hangs from a cable. Far right sits a clockwork carousel train.",
+ "shown": [
+  "a colorful paint-splattered tram waiting with open doors on tracks on the far left",
+  "a striped rooftop gondola cabin swaying beside a dock hook right of centre",
+  "a brass clockwork carousel train with animal cars waiting at far right"
+ ],
+ "view": "wide"
+}

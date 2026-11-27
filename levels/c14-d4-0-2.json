@@ -1,0 +1,21 @@
+{
+ "id": "c14-d4-0-2",
+ "scene": "The lighted torch sparks a bright sign, opening the garage bay doors.",
+ "options": [
+  "Board cleaner gondola",
+  "Ride mail train",
+  "Take sidecar motorbike"
+ ],
+ "next": [
+  "c14-d2",
+  "c14-d3",
+  "c14-d5"
+ ],
+ "picture": "Side view along the hospital garage floor. On the far left, a yellow cleaner gondola hangs past a railing. To the left, a red mail train rests on tracks. Centre, the player stands holding a lit torch. On the far right, an idling turquoise sidecar motorbike points outside through wide doors.",
+ "shown": [
+  "a yellow window-cleaner gondola swinging outside the open wall on the far left",
+  "a miniature red mail train stopped along indoor floor tracks on the left",
+  "a turquoise sidecar motorbike idling near the open bay on the far right"
+ ],
+ "view": "wide"
+}

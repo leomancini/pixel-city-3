@@ -1,0 +1,21 @@
+{
+ "id": "c10-d4-0",
+ "scene": "Inside the monorail pod, a glowing dashboard whirs with strange dials.",
+ "options": [
+  "Turn brass key",
+  "Flip red toggle",
+  "Read route map"
+ ],
+ "next": [
+  "c10-d4-0-0",
+  "c10-d4-0-1",
+  "c10-d4-0-2"
+ ],
+ "picture": "A close-up view of the spherical pod's curved control panel. On the left, an ornate brass key sits half-turned in an ignition cylinder. In the centre, a prominent red toggle switch blinks under a clear safety cover. On the right, a neon holographic city map displays glowing rail lines.",
+ "shown": [
+  "a tarnished brass key resting inside an ignition slot on the left",
+  "a bright red covered toggle switch blinking rapidly in the centre",
+  "a holographic route map glowing softly on the right"
+ ],
+ "view": "close"
+}

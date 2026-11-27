@@ -1,0 +1,21 @@
+{
+ "id": "c7-d4-2-0",
+ "scene": "The glowing green screen tracks three departing transit routes across pixelated skies.",
+ "options": [
+  "Board sleigh tram",
+  "Catch glass boat",
+  "Ride giant balloon"
+ ],
+ "next": [
+  "c7-d1",
+  "c7-d2",
+  "c7-d3"
+ ],
+ "picture": "A round green radar console fills the frame. On the screen, miniature glowing icons reveal three destinations: on the far left, a snowy tram depot route; in the centre, a deep-sea harbor trail; on the right, floating balloon trajectories. Three labelled departure doors line the brass console casing.",
+ "shown": [
+  "a frosted gate marked Snow Globe Works standing ready on the far left",
+  "a glowing harbor-bound gangway ticket stall waiting in the middle left",
+  "a wicker balloon basket tethered beside an open launch bay on the far right"
+ ],
+ "view": "wide"
+}

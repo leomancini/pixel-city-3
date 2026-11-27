@@ -1,0 +1,21 @@
+{
+ "id": "c0-d5-2",
+ "scene": "Inside the dry shelter, colorful tea stalls steam quietly beside wooden benches.",
+ "options": [
+  "Taste hot tea",
+  "Read notice board",
+  "Exit through back"
+ ],
+ "next": [
+  "c0-d5-2-0",
+  "c0-d5-2-1",
+  "c0-d5-2-2"
+ ],
+ "picture": "A flat side view inside a dry wooden shelter. On the far left, a tea stall holds a steaming kettle. The player stands left of centre in her yellow coat and green boots, holding her red umbrella. In the centre hangs a bulletin board. On the far right, an open wooden doorway leads outside.",
+ "shown": [
+  "a steaming ceramic kettle sitting on a small wooden counter on the left",
+  "a cork board pinned with fluttering notes in the centre",
+  "an arched wooden doorway standing open on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c10-d5-0",
+ "scene": "The bell chime summons a tiny glowing key from a hidden drawer.",
+ "options": [
+  "Grab glowing key",
+  "Greet the bellhop",
+  "Ride dumbwaiter lift"
+ ],
+ "next": [
+  "c10-d5-0-0",
+  "c10-d5-0-1",
+  "c10-d5-0-2"
+ ],
+ "picture": "A flat side view of the quirky hotel lobby. At the left, the mahogany desk now has a small secret drawer slid open, revealing a glowing key. The player stands left of centre in her red jacket and roller skates. At centre, the brass cubic bellhop blinks. On the far right is a miniature open dumbwaiter lift.",
+ "shown": [
+  "a pulsing golden key resting on a velvet cushion at the left desk",
+  "the cubic brass bellhop robot tilting its square head at centre",
+  "an open brass dumbwaiter shaft with a dangling rope on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c14-d5-0-1",
+ "scene": "The wound parrot squawks three destinations, sliding back three platform departure doors.",
+ "options": [
+  "Board bridge crawler",
+  "Ride rooftop gondola",
+  "Catch mail train"
+ ],
+ "next": [
+  "c14-d1",
+  "c14-d2",
+  "c14-d3"
+ ],
+ "picture": "Side view of the repair shop's rear transit bay. On the left, a steel crawler pod rests on tracks. In the centre, the player stands beside the brass parrot on its perch. Up high, a yellow window-cleaner gondola dangles from a hatch. On the right, a red mail train waits with open doors.",
+ "shown": [
+  "a heavy steel crawling pod waiting open on rails at far left",
+  "a yellow suspended window-cleaner basket hanging at a hatch up high",
+  "a red pneumatic tube mail carriage idling at a platform on right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c3-d4",
+ "scene": "You step off the spiral staircase lift into bustling Mapmakers' Gallery.",
+ "options": [
+  "Touch floating map",
+  "Talk to cartographer",
+  "Inspect spinning globe"
+ ],
+ "next": [
+  "c3-d4-0",
+  "c3-d4-1",
+  "c3-d4-2"
+ ],
+ "picture": "Side-view pixel art of a wooden gallery hall. On the far left stands the ornate brass spiral staircase lift. The tall Latino player in his teal bomber jacket stands nearby. On the left, a holographic map floats mid-air. At centre, a cartographer sketches. On the right, a robot spins a large globe.",
+ "shown": [
+  "A glowing holographic parchment hovering mid-air on the left",
+  "A mapmaker in green overalls sketching at a wooden desk at centre",
+  "A brass robot busily rotating a giant mosaic globe on the right"
+ ],
+ "view": "wide"
+}

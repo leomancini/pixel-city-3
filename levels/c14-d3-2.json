@@ -1,0 +1,21 @@
+{
+ "id": "c14-d3-2",
+ "scene": "You uncover a glowing parasol and an odd ticket inside the rack.",
+ "options": [
+  "Read depot ticket",
+  "Open glowing parasol",
+  "Board cargo elevator"
+ ],
+ "next": [
+  "c14-d3-2-0",
+  "c14-d3-2-1",
+  "c14-d3-2-2"
+ ],
+ "picture": "Flat side view. Along the stone depot floor, an open steel cargo elevator sits far left. Left of centre sits a wheeled sorting robot. The player stands right of centre beside an ornate wooden umbrella rack on the right, which holds a glowing teal parasol and a printed slip poking out.",
+ "shown": [
+  "a printed slip poking from the umbrella stand on the right",
+  "a luminous teal parasol resting inside the umbrella rack on the right",
+  "an open steel cargo elevator with a lit lantern on the far left"
+ ],
+ "view": "wide"
+}

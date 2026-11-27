@@ -1,0 +1,21 @@
+{
+ "id": "c13-d4-1-1",
+ "scene": "You land beside the bronze robot, who politely gestures toward three rooftop exits.",
+ "options": [
+  "Ride bubble lift",
+  "Board paint-splattered tram",
+  "Enter revolving lift"
+ ],
+ "next": [
+  "c13-d5",
+  "c13-d0",
+  "c13-d1"
+ ],
+ "picture": "Flat side-scrolling view along a tiled rooftop edge. Far left floats a shimmering bubble lift tethered to a brass post. Left of center stands the girl, sketchbook under arm, facing the bronze robot sitting with teapot. Right sits a colorful paint-splattered tram at a curb. Far right stands a brass revolving door lift.",
+ "shown": [
+  "a shimmering spherical bubble lift hovering gently on the far left platform",
+  "a colorful tram covered in bright paint splashes waiting in the center",
+  "an ornate brass revolving door lift spinning slowly on the far right"
+ ],
+ "view": "wide"
+}

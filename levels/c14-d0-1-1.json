@@ -1,0 +1,21 @@
+{
+ "id": "c14-d0-1-1",
+ "scene": "The pressed tile unlocks rooftop gates, revealing three curious city transports.",
+ "options": [
+  "Ride sidecar bike",
+  "Board bridge crawler",
+  "Take cleaner gondola"
+ ],
+ "next": [
+  "c14-d5",
+  "c14-d1",
+  "c14-d2"
+ ],
+ "picture": "Side-scrolling wide view along the level rooftop. On the far left, a retro motorbike and sidecar idles beside an open gate. Left of centre stands the player in corduroy jacket with brass telescope, watching the unlocked transit stations. At centre, a multi-legged bridge crawler rests on steel rails. On the far right, a yellow gondola hangs from rooftop cables.",
+ "shown": [
+  "a vintage motorbike with sidecar idling quietly on the far left",
+  "a legged rail capsule docked on metal rails at centre",
+  "a suspended yellow window-cleaner gondola resting against the ledge on far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c14-d4",
+ "scene": "You step off the tow truck into the humming Neon Sign Hospital.",
+ "options": [
+  "Inspect glass bench",
+  "Talk to welder",
+  "Touch sparking flamingo"
+ ],
+ "next": [
+  "c14-d4-0",
+  "c14-d4-1",
+  "c14-d4-2"
+ ],
+ "picture": "Flat side-view along a concrete workshop floor. Far left sits the yellow tow truck cab. On the left, a wooden worktable holds unlit glass tubes. Beside it, the player stands with short grey beard, orange jacket, and prosthetic leg. At the centre, a masked welder works. On the right, a flickering pink flamingo sign sparks.",
+ "shown": [
+  "a wooden worktable with cold neon glass tubes, resting on the left",
+  "a welder in a metal apron holding a blowtorch at the centre",
+  "a tall pink flamingo sign flickering with wild sparks on the right"
+ ],
+ "view": "wide"
+}

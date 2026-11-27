@@ -1,0 +1,21 @@
+{
+ "id": "c11-d5-1-1",
+ "scene": "The glowing drumstick unlocks three transit gates along the rooftop rim.",
+ "options": [
+  "Ride escalator pod",
+  "Board light rail",
+  "Take moving walkway"
+ ],
+ "next": [
+  "c11-d4",
+  "c11-d0",
+  "c11-d1"
+ ],
+ "picture": "Flat side-view across the rooftop edge. On the left, a glass escalator pod with doors open. Left of centre, the silver-haired boy in mint hoodie holds a glowing drumstick. Centre, a docked light-rail pod idles quietly. Far right, an entry gate leads onto a glowing moving walkway.",
+ "shown": [
+  "a glass escalator pod waiting open on an illuminated track on the left",
+  "a sleek hovering light-rail pod docked at a small platform in the centre",
+  "a glowing moving walkway stretching outward from a barrier on the far right"
+ ],
+ "view": "wide"
+}

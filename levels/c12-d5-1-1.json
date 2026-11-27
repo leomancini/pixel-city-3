@@ -1,0 +1,21 @@
+{
+ "id": "c12-d5-1-1",
+ "scene": "The tiny teapot whistles softly in your apron pocket beside the exits.",
+ "options": [
+  "Take garden lift",
+  "Board garden tram",
+  "Catch retro streetcar"
+ ],
+ "next": [
+  "c12-d4",
+  "c12-d0",
+  "c12-d1"
+ ],
+ "picture": "Side-view along the greenhouse terrace. On the far left, a brass elevator stands waiting. Left of centre, the grandfather in navy apron holds his bicycle, tiny teapot glowing in his pocket. In the centre sits an open green tram. On the far right, a red streetcar idles beside an open tunnel.",
+ "shown": [
+  "A brass trellis elevator with open accordion gate, waiting on the far left.",
+  "A leaf-topped monorail tram parked with doors open, in the centre.",
+  "A brick-red retro streetcar idling by an arched tunnel, on the far right."
+ ],
+ "view": "wide"
+}

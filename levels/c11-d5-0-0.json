@@ -1,0 +1,21 @@
+{
+ "id": "c11-d5-0-0",
+ "scene": "A sliding glass wall parts, revealing transit lines across the rooftop ledge.",
+ "options": [
+  "Board light-rail pod",
+  "Take moving walkway",
+  "Enter river hovercraft"
+ ],
+ "next": [
+  "c11-d0",
+  "c11-d1",
+  "c11-d2"
+ ],
+ "picture": "Flat side view along the rooftop floor. On the far left, a sleek light-rail pod sits open. Left of centre, the silver-haired boy in a mint hoodie and dance bag stands beside the console. In the centre, a blue moving walkway leads right. On the far right, a yellow river hover ferry bobs beside a dock.",
+ "shown": [
+  "A sleek silver light-rail pod waiting on a rail on the far left",
+  "A humming glowing blue moving walkway stretching toward the right",
+  "A yellow river hover ferry floating beside a dock on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c13-d2-2-1",
+ "scene": "Sipping the soda, three whimsical rooftop transit gates click wide open.",
+ "options": [
+  "Board carousel train",
+  "Enter pneumatic pod",
+  "Take bubble lift"
+ ],
+ "next": [
+  "c13-d3",
+  "c13-d4",
+  "c13-d5"
+ ],
+ "picture": "Side-view pixel art of the rooftop edge. Far left, a brass carousel train with mechanical animal seats sits on raised rails. Left-of-centre, the Pacific Islander girl stands holding a glowing blue soda cup and her sketchbook. Right, a clear pneumatic tube pod sits open. Far right, a large iridescent bubble lift bobs gently.",
+ "shown": [
+  "a miniature brass clockwork carousel train waiting on tracks far left",
+  "a glass capsule resting inside an upright metal suction tube right",
+  "a translucent glowing bubble elevator suspended from overhead cables far right"
+ ],
+ "view": "wide"
+}

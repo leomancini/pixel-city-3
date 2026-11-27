@@ -1,0 +1,21 @@
+{
+ "id": "c0-d5-0-2",
+ "scene": "The bronze key sparks, unlocking three bustling transit gates along the park.",
+ "options": [
+  "Board subway train",
+  "Catch street tram",
+  "Ride night bus"
+ ],
+ "next": [
+  "c0-d2",
+  "c0-d3",
+  "c0-d4"
+ ],
+ "picture": "A flat side view along a wet cobblestone ground line. On the far left, a tiled subway entrance glows beneath neon signs. In the centre sits a yellow street tram with open doors. The player in yellow raincoat stands mid-right holding a glowing bronze key. On the far right waits an indigo night bus.",
+ "shown": [
+  "a glowing tiled subway stairwell on the far left with open turnstiles",
+  "a bright yellow street tram idling in the centre with open doors",
+  "a glowing blue double-decker night bus idling on the far right"
+ ],
+ "view": "wide"
+}

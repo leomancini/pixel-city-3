@@ -1,0 +1,21 @@
+{
+ "id": "c5-d4-1-1",
+ "scene": "The glowing cube unfolds, displaying three outbound transit portals along the back wall.",
+ "options": [
+  "Board school bus",
+  "Take skate shuttle",
+  "Board double decker"
+ ],
+ "next": [
+  "c5-d5",
+  "c5-d0",
+  "c5-d1"
+ ],
+ "picture": "Pixel art side-view inside the deflated back wall with a level ground line. On the far left waits a yellow school bus. In the left-centre, the boy holds his skateboard, facing right. Centre sits the humming cube pedestal beside a teal skate-park shuttle. Far right, a red double-decker bus idles.",
+ "shown": [
+  "a yellow school bus parked at an open left exit",
+  "a sleek teal skate-park shuttle idling at the central ramp",
+  "a tall red double-decker bus waiting beside a right gateway"
+ ],
+ "view": "wide"
+}

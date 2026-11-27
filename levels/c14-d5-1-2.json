@@ -1,0 +1,21 @@
+{
+ "id": "c14-d5-1-2",
+ "scene": "The back wall folds away, revealing three bustling night-transit docks under neon signs.",
+ "options": [
+  "Ride night funicular",
+  "Board bridge crawler",
+  "Climb into gondola"
+ ],
+ "next": [
+  "c14-d0",
+  "c14-d1",
+  "c14-d2"
+ ],
+ "picture": "A flat side view inside the opened radio shop. On the left stands a brass night funicular cabin with its door open. The player stands beside it. At centre rests an idling multi-legged bridge crawler with gangway down. On the far right hangs an empty yellow window-cleaner gondola swaying gently.",
+ "shown": [
+  "an empty brass night funicular cabin waiting with open door on far left",
+  "a multi-legged metal bridge crawler idling with its gangway down at centre",
+  "a yellow window-cleaner gondola dangling from twin cables on the far right"
+ ],
+ "view": "wide"
+}

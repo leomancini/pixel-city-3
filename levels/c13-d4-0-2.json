@@ -1,0 +1,21 @@
+{
+ "id": "c13-d4-0-2",
+ "scene": "You climb atop the high gantry where three whimsical transit platforms wait.",
+ "options": [
+  "Board rooftop gondola",
+  "Catch carousel train",
+  "Enter bubble lift"
+ ],
+ "next": [
+  "c13-d2",
+  "c13-d3",
+  "c13-d5"
+ ],
+ "picture": "Flat side-scrolling view along the high steel gantry catwalk. The Pacific Islander girl stands left of centre, clutching her sketchbook. Far left hangs the waiting yellow rooftop gondola. In the centre rests the ornate brass carousel train with mechanical horses. On the far right bobs the glowing round bubble lift.",
+ "shown": [
+  "a yellow wicker gondola hanging from an overhead cable on the left platform",
+  "a winding brass clockwork carousel train idling on tracks in the centre",
+  "a shimmering glass bubble lift with open hatch on the right platform"
+ ],
+ "view": "wide"
+}

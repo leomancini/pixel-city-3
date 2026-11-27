@@ -1,0 +1,21 @@
+{
+ "id": "c1-d4-0-1",
+ "scene": "The switch flips, ringing three transit gates wide open across the pavilion.",
+ "options": [
+  "Ride Arcade Monorail",
+  "Board Hill Funicular",
+  "Hail Row Rickshaw"
+ ],
+ "next": [
+  "c1-d1",
+  "c1-d2",
+  "c1-d3"
+ ],
+ "picture": "A wide flat side view along the tiled Chess Pavilion floor. On the far left sits a waiting yellow monorail. The elderly man in an orange cardigan stands centrally beside the open lift with his cane. To his right waits a wooden funicular car, and on the far right waits a parked rickshaw.",
+ "shown": [
+  "a sleek yellow monorail car idling at an open gate on the far left",
+  "a wooden funicular carriage waiting beside track stairs on the right",
+  "a passenger rickshaw with red lanterns parked on the far right"
+ ],
+ "view": "wide"
+}

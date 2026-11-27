@@ -1,0 +1,21 @@
+{
+ "id": "c1-d5-0-1",
+ "scene": "The whistling gauge vents blue steam, revealing three bustling transit departures.",
+ "options": [
+  "Ride Arcade monorail",
+  "Board Observatory funicular",
+  "Hail lantern rickshaw"
+ ],
+ "next": [
+  "c1-d1",
+  "c1-d2",
+  "c1-d3"
+ ],
+ "picture": "A wide side-scrolling street scene along Fountain Pen Lane. On the far left sits a red monorail car with doors open. In the centre, a brass funicular carriage rests on angled rails. The elderly player with white beard, blue cap, and orange cardigan stands right of centre beside the steaming barrel. On the far right waits a parked wooden rickshaw.",
+ "shown": [
+  "a sleek red monorail car waiting with open doors on the far left",
+  "a slanted brass funicular carriage stationed at the platform in the centre",
+  "a wooden rickshaw with glowing paper lanterns parked on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c8-d4-0",
+ "scene": "Inside the bronze lift, ornate dials click as steam valves hiss gently.",
+ "options": [
+  "Turn brass dial",
+  "Pull red lever",
+  "Inspect bell jar"
+ ],
+ "next": [
+  "c8-d4-0-0",
+  "c8-d4-0-1",
+  "c8-d4-0-2"
+ ],
+ "picture": "A flat side-view pixel interior of a round bronze elevator cabin. On the left, a large brass dial with numbers glows faintly. In the centre, grandmother in her pink tracksuit holds her white dog on its lead. On the right, a red lever stands upright. Up high sits a bell jar holding a key.",
+ "shown": [
+  "a giant glowing brass floor dial on the wall on the left",
+  "a gleaming red steam lever mounted on the wall on the right",
+  "a glass bell jar containing a floating key on a shelf up high"
+ ],
+ "view": "wide"
+}

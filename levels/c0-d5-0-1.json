@@ -1,0 +1,21 @@
+{
+ "id": "c0-d5-0-1",
+ "scene": "The wet origami unfolds into a shimmering transit pass across Pixel City.",
+ "options": [
+  "Board cable car",
+  "Enter subway train",
+  "Hop on tram"
+ ],
+ "next": [
+  "c0-d1",
+  "c0-d2",
+  "c0-d3"
+ ],
+ "picture": "A flat side view of a rainy stone plaza. On the left, a tiled subway entrance leads downward under neon signs. In the centre, the young Black woman in yellow raincoat holds a glowing folded paper ticket. Up high, a suspended cable car hangs from thick cables. On the right, a red street tram waits.",
+ "shown": [
+  "A glass-domed cable car waiting open on an elevated wire up high",
+  "A tiled subway stairwell with an illuminated neon train sign on the left",
+  "A red street tram stopped with open doors on rails on the right"
+ ],
+ "view": "wide"
+}

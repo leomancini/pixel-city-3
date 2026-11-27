@@ -1,0 +1,21 @@
+{
+ "id": "c14-d2-2",
+ "scene": "You crest the ladder onto a breezy weather-vane catwalk.",
+ "options": [
+  "Turn brass dial",
+  "Scan with telescope",
+  "Cross skybridge"
+ ],
+ "next": [
+  "c14-d2-2-0",
+  "c14-d2-2-1",
+  "c14-d2-2-2"
+ ],
+ "picture": "A flat side-view along a steel catwalk. On the far left, a humming round barometer with a large brass dial. Centre stands the player in his burnt-orange jacket, beanie, and prosthetic leg, brass telescope over his shoulder. Right sits a giant spinning copper rooster vane. Far right, an arched metal skybridge leads away.",
+ "shown": [
+  "a humming barometer with a large brass dial on the far left",
+  "the telescope slung over the player's shoulder standing in the centre",
+  "a narrow arched skybridge extending off the platform on the far right"
+ ],
+ "view": "wide"
+}

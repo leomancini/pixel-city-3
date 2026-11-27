@@ -1,0 +1,21 @@
+{
+ "id": "c8-d5-1-0",
+ "scene": "The gardener's copper key triggers three transit portals across the lawn.",
+ "options": [
+  "Board gondola drone",
+  "Ride spiral tram",
+  "Enter hover metro"
+ ],
+ "next": [
+  "c8-d3",
+  "c8-d4",
+  "c8-d0"
+ ],
+ "picture": "Flat side view. On the far left, a striped gondola drone hovers with tied ropes. Left-of-centre, the grandmother in pink tracksuit holds her white dog and the key. Centre sits a spiral tram on brass tracks. The robot stands beside it, while far right waits an open hover metro car.",
+ "shown": [
+  "a striped gondola drone hovering gently on the far left",
+  "a brass spiral tram waiting at a curved track centre",
+  "a sleek hover metro car with open doors far right"
+ ],
+ "view": "wide"
+}

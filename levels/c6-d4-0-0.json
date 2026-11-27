@@ -1,0 +1,21 @@
+{
+ "id": "c6-d4-0-0",
+ "scene": "The script reveals glowing stage directions pointing toward three hidden city exits.",
+ "options": [
+  "Board night tram",
+  "Take service elevator",
+  "Row small boat"
+ ],
+ "next": [
+  "c6-d0",
+  "c6-d1",
+  "c6-d2"
+ ],
+ "picture": "Pixel art flat side view. On the far left, a glowing night tram sits on tracks. In the centre, an open metal service elevator stands with call lights blinking. The curly-haired boy in a denim jacket stands between them reading his script. On the right, a wooden rowing boat bobs in dark water.",
+ "shown": [
+  "a glowing yellow night tram parked on rails at the far left",
+  "an open grated service elevator waiting in a shaft at the centre",
+  "a wooden rowing boat tied to a wet dock on the right"
+ ],
+ "view": "wide"
+}

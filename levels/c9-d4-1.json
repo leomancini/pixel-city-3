@@ -1,0 +1,21 @@
+{
+ "id": "c9-d4-1",
+ "scene": "You zoom down the bright halfpipe and catch big neon air.",
+ "options": [
+  "Grind overhead cable",
+  "Grab spinning trophy",
+  "Land on noodle-shop"
+ ],
+ "next": [
+  "c9-d4-1-0",
+  "c9-d4-1-1",
+  "c9-d4-1-2"
+ ],
+ "picture": "A flat side view along the neon halfpipe. On the far left rises the orange ramp lip. In the centre, the player leaps in mid-air in her red bomber jacket and white skates, reaching upward. Directly above her hovers a glowing gold trophy. Up high spans a thick sparking cable. On the right, a flat-roofed noodle shack awaits.",
+ "shown": [
+  "a sparking steel cable up high stretching overhead between twin towers",
+  "a floating golden trophy in the centre above the ramp curve",
+  "a glowing rooftop noodle shack with flat awning on the right"
+ ],
+ "view": "wide"
+}

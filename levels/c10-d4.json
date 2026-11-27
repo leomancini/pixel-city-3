@@ -1,0 +1,21 @@
+{
+ "id": "c10-d4",
+ "scene": "You glide off the bowling-ball monorail into the buzzing neon lanes.",
+ "options": [
+  "Inspect spherical monorail",
+  "Order milkshake",
+  "Help pin robot"
+ ],
+ "next": [
+  "c10-d4-0",
+  "c10-d4-1",
+  "c10-d4-2"
+ ],
+ "picture": "A flat side view of Neon Bowling Alley. Far left sits an open spherical monorail pod. Left of centre, the player stands on roller skates. Centre displays glowing bowling lanes beneath sparkling disco ceiling tiles. On the right stands a chrome milkshake bar, and far right, a pin-setting robot juggles neon pins.",
+ "shown": [
+  "a giant hollow bowling-ball pod resting open on the track far left",
+  "a chrome diner bar lined with swirling pastel milkshake taps on the right",
+  "a mechanical pin-setting robot juggling glowing yellow bowling pins far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c13-d3-0-2",
+ "scene": "The cogway tunnel opens onto a multi-tiered transit hub overlooking the skyline.",
+ "options": [
+  "Ride rooftop gondola",
+  "Board pneumatic pod",
+  "Take bubble lift"
+ ],
+ "next": [
+  "c13-d2",
+  "c13-d4",
+  "c13-d5"
+ ],
+ "picture": "Side-scrolling view on a flat iron platform. Far left, a striped gondola car hangs open beneath an overhead cable. Centre-left, the Pacific Islander girl stands with sketchbook in hand. Centre, an open glass tube pod rests on an angled track. Far right, an iridescent bubble lift bobs over an open gate.",
+ "shown": [
+  "a striped rooftop gondola dangling from an overhead wire on the far left",
+  "a sleek glass pneumatic tube pod sitting open on a track at centre",
+  "a giant shimmering soap-bubble lift floating beside a brass gate on the far right"
+ ],
+ "view": "wide"
+}

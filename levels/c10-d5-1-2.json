@@ -1,0 +1,21 @@
+{
+ "id": "c10-d5-1-2",
+ "scene": "The woven tapestry reveals secret transit portals waiting beyond the lobby wall.",
+ "options": [
+  "Take rooftop escalator",
+  "Board noodle monorail",
+  "Ride bamboo car"
+ ],
+ "next": [
+  "c10-d0",
+  "c10-d1",
+  "c10-d2"
+ ],
+ "picture": "A flat side view of the lobby's back concourse. On the far left, a gleaming gold escalator ascends upward under bright arrows. The player stands facing right in red bomber jacket and roller skates. In the centre, a bowl-shaped noodle-cart monorail sits docked. On the far right, a green bamboo cable car waits open.",
+ "shown": [
+  "A neon arrow pointing up a gold rooftop escalator on the far left.",
+  "A steaming red noodle-cart monorail docked at a doorway in the centre.",
+  "A round woven bamboo cable car resting on a rail at far right."
+ ],
+ "view": "wide"
+}

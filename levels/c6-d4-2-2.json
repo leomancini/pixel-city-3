@@ -1,0 +1,21 @@
+{
+ "id": "c6-d4-2-2",
+ "scene": "The kitchen doors swing open into a massive studio staging bay.",
+ "options": [
+  "Take freight lift",
+  "Ride scissor lift",
+  "Board night tram"
+ ],
+ "next": [
+  "c6-d3",
+  "c6-d5",
+  "c6-d0"
+ ],
+ "picture": "Pixel art flat side view of a vast soundstage bay. On the far left, an open steel freight lift waits. The curly-haired boy in a denim jacket stands left of centre. Beside him sits a yellow scissor lift. On the far right, a green night tram rests on rail tracks beside glowing signs.",
+ "shown": [
+  "a heavy steel freight lift with open lattice gates on the far left",
+  "an electric yellow scissor lift platform parked near the centre",
+  "a glowing green studio night tram waiting at tracks on the far right"
+ ],
+ "view": "wide"
+}

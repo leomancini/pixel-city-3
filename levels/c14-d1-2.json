@@ -1,0 +1,21 @@
+{
+ "id": "c14-d1-2",
+ "scene": "Inside the rumbling tram, brass dials tick and passengers doze.",
+ "options": [
+  "Inspect brass dials",
+  "Greet sleeping passenger",
+  "Pull stop cord"
+ ],
+ "next": [
+  "c14-d1-2-0",
+  "c14-d1-2-1",
+  "c14-d1-2-2"
+ ],
+ "picture": "Side-view pixel art inside a clattering yellow tram. On the far left sits an automated dashboard of brass dials. Next is a sleeping lizardfolk passenger hugging a briefcase. Centre stands the bearded player holding an overhead strap. Right of him sits an empty plush booth, and up high hangs a bright red stop cord.",
+ "shown": [
+  "a humming dashboard panel with ticking dials and gauges on the far left",
+  "a lizardfolk commuter sleeping with an oversized briefcase on a bench left of centre",
+  "a dangling red braided cable hanging from the ceiling beam up high"
+ ],
+ "view": "wide"
+}

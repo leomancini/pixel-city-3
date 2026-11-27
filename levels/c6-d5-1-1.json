@@ -1,0 +1,21 @@
+{
+ "id": "c6-d5-1-1",
+ "scene": "The engineer unfolds a glowing schematic revealing three distinct transit routes.",
+ "options": [
+  "Take golf cart",
+  "Board night tram",
+  "Ride service elevator"
+ ],
+ "next": [
+  "c6-d4",
+  "c6-d0",
+  "c6-d1"
+ ],
+ "picture": "Side-scrolling view of the alley's exit hub. On the far left, a yellow golf-cart shuttle idles by striped barriers. Left of centre, the boy in the denim jacket looks at a blueprint. In the centre, an open glowing night tram rests on tracks. On the right, a steel service elevator awaits with open gates.",
+ "shown": [
+  "a yellow golf-cart shuttle idling by the kerb on the left",
+  "a glowing night tram waiting with doors open at the centre",
+  "a steel cage service elevator with an open sliding gate on the right"
+ ],
+ "view": "wide"
+}

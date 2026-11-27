@@ -1,0 +1,21 @@
+{
+ "id": "c14-d0-2-1",
+ "scene": "Lowering your telescope, three transport couriers pull up across the platform.",
+ "options": [
+  "Board mail train",
+  "Climb tow truck",
+  "Ride sidecar motorbike"
+ ],
+ "next": [
+  "c14-d3",
+  "c14-d4",
+  "c14-d5"
+ ],
+ "picture": "A flat rooftop platform under starry night skies. On the far left, a red pneumatic mail train sits with open hatch. Standing left-centre, the player in burnt-orange jacket rests his telescope. In the centre idles a yellow tow truck. On the right, a courier waves from a sidecar motorbike.",
+ "shown": [
+  "a tubular red mail train waiting on tracks on the far left",
+  "a flatbed tow truck idling in the centre with its door ajar",
+  "a green motorcycle with an empty striped passenger sidecar on the right"
+ ],
+ "view": "wide"
+}

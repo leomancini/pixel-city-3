@@ -1,0 +1,21 @@
+{
+ "id": "c11-d4-2-1",
+ "scene": "The green slime tingles warm, rippling open three glowing transport portals.",
+ "options": [
+  "Board hover ferry",
+  "Ride karaoke lift",
+  "Take freight elevator"
+ ],
+ "next": [
+  "c11-d2",
+  "c11-d3",
+  "c11-d5"
+ ],
+ "picture": "Side-view pixel art along the mall concourse floor. On the far left, a river hover ferry bobs by an open gate. Next stands the bubbling fountain, where the silver-haired boy pulls his dripping hand back. At centre-right waits the glass karaoke lift with open doors, and far right stands an open steel freight elevator.",
+ "shown": [
+  "a sleek river hover ferry floating by a low gate on the far left",
+  "a glowing glass karaoke lift waiting with doors parted at centre-right",
+  "a heavy steel freight elevator with yellow stripes open on the far right"
+ ],
+ "view": "wide"
+}

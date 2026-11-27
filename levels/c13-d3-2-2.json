@@ -1,0 +1,21 @@
+{
+ "id": "c13-d3-2-2",
+ "scene": "Following the pipes through the archway, you reach a bustling transit hub.",
+ "options": [
+  "Board tube pod",
+  "Take bubble lift",
+  "Ride vibrant tram"
+ ],
+ "next": [
+  "c13-d4",
+  "c13-d5",
+  "c13-d0"
+ ],
+ "picture": "Side view along a tiled platform. On the far left, a glass pneumatic tube pod sits open. Centre-left, the player stands holding her sketchbook. In the centre, an iridescent spherical bubble lift bobs beside a metal gangway. On the far right, a yellow tram covered in bright rainbow paint splatters waits with doors open.",
+ "shown": [
+  "a glass pneumatic pod open on a curved rail on the far left",
+  "an iridescent floating bubble lift tethered to a platform on the centre",
+  "a colorful paint-splattered tram idling with open doors on the far right"
+ ],
+ "view": "wide"
+}

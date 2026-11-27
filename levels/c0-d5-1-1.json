@@ -1,0 +1,21 @@
+{
+ "id": "c0-d5-1-1",
+ "scene": "The buoyant lilypad drifts to an open transit dock overlooking three routes.",
+ "options": [
+  "Board night bus",
+  "Board harbour ferry",
+  "Ride cable car"
+ ],
+ "next": [
+  "c0-d4",
+  "c0-d0",
+  "c0-d1"
+ ],
+ "picture": "Flat side view along a wet wooden dock. On the far left, a purple night bus idles with open doors. Left of centre, the player in yellow raincoat stands upon the docked green lilypad. Centre right floats a blue harbour ferry, and on the far right an orange cable car waits at a metal boarding pylon.",
+ "shown": [
+  "a sleek purple night bus idling at a stop sign on the far left",
+  "a bobbing blue harbour ferry moored to the wooden dock at centre right",
+  "an orange cable car hanging open at its boarding tower on the far right"
+ ],
+ "view": "wide"
+}

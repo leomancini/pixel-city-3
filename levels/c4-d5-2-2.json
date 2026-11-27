@@ -1,0 +1,21 @@
+{
+ "id": "c4-d5-2-2",
+ "scene": "The neon buggy brings you to the garden's bustling transit terminus.",
+ "options": [
+  "Ride cable tram",
+  "Board garden gondola",
+  "Catch river barge"
+ ],
+ "next": [
+  "c4-d3",
+  "c4-d4",
+  "c4-d0"
+ ],
+ "picture": "A flat side view along the transit platform. On the far left, a red mountain cable tram sits ready on overhead wires. The player in mustard coat and lilac headscarf steps out of the neon buggy, brown satchel slung across her shoulder. At centre floats a green striped garden gondola. On the far right waits a wide wooden river barge.",
+ "shown": [
+  "a red mountain cable tram idling beside a snowy map, on the left",
+  "a green striped garden gondola docked at a wooden pier, at centre",
+  "a wide wooden river barge stacked with fragrant spice crates, on the right"
+ ],
+ "view": "wide"
+}

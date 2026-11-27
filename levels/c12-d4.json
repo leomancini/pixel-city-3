@@ -1,0 +1,21 @@
+{
+ "id": "c12-d4",
+ "scene": "You step off the garden lift into the quiet Seed Library Vault.",
+ "options": [
+  "Open glowing drawer",
+  "Greet robot librarian",
+  "Enter moss room"
+ ],
+ "next": [
+  "c12-d4-0",
+  "c12-d4-1",
+  "c12-d4-2"
+ ],
+ "picture": "Side-view pixel art along one ground line. Far left is the open glass garden lift. On the left, a tall wooden card catalogue with one glowing brass drawer. Next stands the grandfather with his bicycle of potted plants. Centre sits a wheeled brass robot librarian. Right, an arched mossy doorway leads into darkness.",
+ "shown": [
+  "a tiny glowing brass drawer in a tall cabinet on the left",
+  "a wheeled brass robot holding a water can in the centre",
+  "an arched wooden doorway lined with glowing green moss on the right"
+ ],
+ "view": "wide"
+}

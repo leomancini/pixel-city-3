@@ -1,0 +1,21 @@
+{
+ "id": "c3-d4-1-0",
+ "scene": "Tucking the tube safely away, you exit onto the busy transit terrace.",
+ "options": [
+  "Hail bicycle rickshaw",
+  "Board milk float",
+  "Enter wheel gondola"
+ ],
+ "next": [
+  "c3-d3",
+  "c3-d5",
+  "c3-d0"
+ ],
+ "picture": "A flat side-view pixel art terrace under evening lamplight. On the far left, a yellow bicycle rickshaw waits by a striped awning. Left of centre stands the player holding his bag. At centre sits an idle cream-colored milk float. On the right, a glowing red ferris wheel gondola rests at a boarding gate.",
+ "shown": [
+  "A yellow bicycle rickshaw with a canopy parked waiting on the far left",
+  "A low electric milk float stacked with rattling bottles sitting at centre",
+  "An open glowing ferris wheel gondola docked against the railing on the right"
+ ],
+ "view": "wide"
+}

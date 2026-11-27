@@ -1,0 +1,21 @@
+{
+ "id": "c2-d5-0-2",
+ "scene": "The red lever raises three glowing departure gates across the wide deck.",
+ "options": [
+  "Enter glass elevator",
+  "Board steam train",
+  "Climb star shuttle"
+ ],
+ "next": [
+  "c2-d2",
+  "c2-d3",
+  "c2-d4"
+ ],
+ "picture": "Flat side view on the breezy platform deck. On the far left sits a tall glass elevator with open doors. Left of centre, a South Asian girl in a teal hoodie sits in her purple wheelchair beside the yellow pitkart. At the right waits a brass steam train. On the far right rests an indigo star shuttle.",
+ "shown": [
+  "a cylindrical transparent glass elevator shaft on the far left with sliding doors open",
+  "a brass-striped steam train puffing candy-scented vapor at a platform on the right",
+  "a sleek indigo star shuttle with a lowered ramp parked on the far right"
+ ],
+ "view": "wide"
+}

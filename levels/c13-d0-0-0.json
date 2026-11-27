@@ -1,0 +1,21 @@
+{
+ "id": "c13-d0-0-0",
+ "scene": "The popped lunchbox projects holographic transit passes across the breezy rooftop.",
+ "options": [
+  "Enter revolving lift",
+  "Board rooftop gondola",
+  "Catch carousel train"
+ ],
+ "next": [
+  "c13-d1",
+  "c13-d2",
+  "c13-d3"
+ ],
+ "picture": "Side-scrolling flat view across the high rooftop platform. On the far left, an upside-down revolving door lift hums with yellow light. Centre-left, the girl in her windbreaker holds her sketchbook, beside the open pink lunchbox beaming holograms. Up high hangs a stationary wicker gondola, while on the right idles a brass carousel train.",
+ "shown": [
+  "a striped revolving door lift standing open on the far left",
+  "a dangling wicker gondola waiting hooked to a cable up high",
+  "a miniature clockwork carousel train idling on a rail on the right"
+ ],
+ "view": "wide"
+}

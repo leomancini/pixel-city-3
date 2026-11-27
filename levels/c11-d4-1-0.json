@@ -1,0 +1,21 @@
+{
+ "id": "c11-d4-1-0",
+ "scene": "You bounce up the slime bridge onto a busy transit platform.",
+ "options": [
+  "Enter karaoke lift",
+  "Take freight elevator",
+  "Board rail pod"
+ ],
+ "next": [
+  "c11-d3",
+  "c11-d5",
+  "c11-d0"
+ ],
+ "picture": "Side-view pixel art of a vibrant elevated mezzanine transit platform. Far left, a glass karaoke lift glows with disco lights. Left, the silver-haired boy in mint hoodie and headphones lands grinning. Centre, a sturdy open freight elevator stands waiting. Right, a glowing destination directory sign. Far right, a sleek light-rail pod sits parked.",
+ "shown": [
+  "a glowing glass capsule elevator with a microphone handle on the far left",
+  "a heavy steel elevator with open scissor gates in the centre",
+  "a sleek neon light-rail pod with open sliding doors on the far right"
+ ],
+ "view": "wide"
+}

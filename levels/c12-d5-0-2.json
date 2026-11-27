@@ -1,0 +1,21 @@
+{
+ "id": "c12-d5-0-2",
+ "scene": "The glowing archway opens onto a busy transit junction beneath glass arches.",
+ "options": [
+  "Ride bento express",
+  "Board koi boat",
+  "Take garden lift"
+ ],
+ "next": [
+  "c12-d2",
+  "c12-d3",
+  "c12-d4"
+ ],
+ "picture": "Side-view along a stone transit concourse. Far left sits the sleek lacquered Bento Express train with open doors. Left, the player stands pushing his plant bicycle. Right of centre, a metallic orange koi boat floats at a water gate. Far right, an open brass birdcage lift waits beneath glowing fern signage.",
+ "shown": [
+  "a sleek train shaped like a lacquer lunchbox on the far left",
+  "a mechanical fish-shaped ferry floating at a dock right of centre",
+  "a copper birdcage elevator waiting open on the far right"
+ ],
+ "view": "wide"
+}

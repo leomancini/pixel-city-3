@@ -1,0 +1,21 @@
+{
+ "id": "c10-d4-1-1",
+ "scene": "The metallic octopus chirps, spinning open exits to the bustling city.",
+ "options": [
+  "Enter revolving door",
+  "Ride rooftop escalator",
+  "Board noodle monorail"
+ ],
+ "next": [
+  "c10-d5",
+  "c10-d0",
+  "c10-d1"
+ ],
+ "picture": "A flat side view of the retro diner lounge. Far left stands a patterned brass revolving door. Left sits the player in her red bomber jacket and roller skates on a diner stool. Centre, a neon pink escalator ascends through the ceiling. Right is the happy brass octopus. Far right, an open noodle-cart monorail waits.",
+ "shown": [
+  "a brass revolving door marked Hotel standing still on the far left",
+  "a neon pink escalator rising up through the ceiling in the centre",
+  "a yellow noodle-shaped cart waiting at an open platform on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c8-d4-1-0",
+ "scene": "The glowing keys unlock three transport gates along the tower terrace.",
+ "options": [
+  "Board gondola drone",
+  "Ride hover carriage",
+  "Enter hover metro"
+ ],
+ "next": [
+  "c8-d3",
+  "c8-d5",
+  "c8-d0"
+ ],
+ "picture": "A flat side-view pixel scene along an outdoor terrace. On the far left, a striped gondola drone floats beside a post. Left of centre, grandmother in her pink tracksuit holds three brass keys while her white dog watches. In the centre, an ornate hover carriage idles. On the far right, a hover metro waits with doors open.",
+ "shown": [
+  "a striped gondola drone hovering empty at a mooring post on the far left",
+  "a gilded hover carriage humming softly beside open gates in the centre",
+  "a sleek hover metro train waiting at a platform on the far right"
+ ],
+ "view": "wide"
+}

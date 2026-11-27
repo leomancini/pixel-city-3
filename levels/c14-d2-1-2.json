@@ -1,0 +1,21 @@
+{
+ "id": "c14-d2-1-2",
+ "scene": "The brass bird clicks happily, lighting rooftop departure gates across the ledge.",
+ "options": [
+  "Ride night funicular",
+  "Board bridge crawler",
+  "Catch mail train"
+ ],
+ "next": [
+  "c14-d0",
+  "c14-d1",
+  "c14-d3"
+ ],
+ "picture": "Side-scrolling flat rooftop view. Far left, a night funicular car rests at a glowing platform. Left of centre, the player stands beside the brass seagull. At centre, a yellow bridge crawler sits with hatch open. Far right, a red mail train waits on tracks. Violet sparks linger up high.",
+ "shown": [
+  "a sleek night funicular car idling with open doors on the far left",
+  "a multi-legged yellow crawler vehicle parked with its hatch open at centre",
+  "a red mail train car waiting on rooftop tracks on the far right"
+ ],
+ "view": "wide"
+}

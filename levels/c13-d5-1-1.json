@@ -1,0 +1,21 @@
+{
+ "id": "c13-d5-1-1",
+ "scene": "The delighted scientist hands you departure tokens pointing to three exit gates.",
+ "options": [
+  "Ride tube pod",
+  "Board splattered tram",
+  "Take revolving lift"
+ ],
+ "next": [
+  "c13-d4",
+  "c13-d0",
+  "c13-d1"
+ ],
+ "picture": "Side-view pixel art: on the level floor, an open pneumatic tube pod waits far left. Left of centre, the Pacific Islander player holds her sketchbook and star-gleaming bubble. Right of centre, the excited scientist gestures toward an open paint-splattered tram at a dock. On the far right stands a glowing revolving lift.",
+ "shown": [
+  "a glass pneumatic tube pod sitting open on the track far left",
+  "a paint-splattered tram waiting at an open dock centre",
+  "a glowing revolving door lift humming on the far right"
+ ],
+ "view": "wide"
+}

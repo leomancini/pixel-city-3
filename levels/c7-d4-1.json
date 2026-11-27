@@ -1,0 +1,21 @@
+{
+ "id": "c7-d4-1",
+ "scene": "The brass robot beeps cheerfully, offering you a glowing folded paper crane.",
+ "options": [
+  "Take glowing crane",
+  "Tuck crane blueprint",
+  "Climb runway ramp"
+ ],
+ "next": [
+  "c7-d4-1-0",
+  "c7-d4-1-1",
+  "c7-d4-1-2"
+ ],
+ "picture": "Flat side-view along the level rooftop. On the far left sits a wicker scrap basket. The lanky boy in his orange vest and kite stands facing right. In the centre, the brass automaton holds out a glowing paper crane. To the right, a striped wooden launch ramp angles upward into the open sky.",
+ "shown": [
+  "a glowing golden origami crane resting on the robot's flat metallic palm at centre",
+  "a blue blueprint poking out of a wicker scrap basket on the far left",
+  "a striped yellow wooden ramp sloping upward on the far right"
+ ],
+ "view": "wide"
+}

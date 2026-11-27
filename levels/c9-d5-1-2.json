@@ -1,0 +1,21 @@
+{
+ "id": "c9-d5-1-2",
+ "scene": "The tool chest pops open, revealing three glowing transit passes to distant districts.",
+ "options": [
+  "Board dragon maglev",
+  "Ride cable pod",
+  "Catch bullet train"
+ ],
+ "next": [
+  "c9-d0",
+  "c9-d1",
+  "c9-d2"
+ ],
+ "picture": "Pixel art flat side view of the open rooftop transit station. On the far left sits the open red tool chest. On the left, a maglev dragon train idles. In the centre, the player stands beside an open cloud cable pod hanging on wire. On the right, a bullet train door stands open.",
+ "shown": [
+  "a sleek golden dragon train parked along the magnetic rail on the left",
+  "a wicker cloud cable pod hanging open from cables at centre",
+  "a pink-striped bullet train waiting at the sleek terminal platform on the right"
+ ],
+ "view": "wide"
+}

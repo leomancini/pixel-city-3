@@ -1,0 +1,21 @@
+{
+ "id": "c1-d4",
+ "scene": "You step from the slow lift into the bustling, tiled Chess Pavilion.",
+ "options": [
+  "Inspect the lift",
+  "Challenge the automaton",
+  "Taste hot tea"
+ ],
+ "next": [
+  "c1-d4-0",
+  "c1-d4-1",
+  "c1-d4-2"
+ ],
+ "picture": "Flat side view. Along one level checkered floor, an ornate open brass lift sits far left. An elderly East Asian man in a blue cap, orange cardigan, and holding a cane stands left. In the centre, a seated brass automaton faces a giant chessboard. On the right, a round tea table holds a steaming teapot.",
+ "shown": [
+  "an ornate brass cage lift with open mesh doors on the far left",
+  "a wind-up brass automaton sitting behind an oversized chessboard in the centre",
+  "a steaming ceramic teapot placed on a round garden table on the right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c11-d5-1-0",
+ "scene": "You climb down into an underground transit concourse humming with transit portals.",
+ "options": [
+  "Enter karaoke lift",
+  "Ride escalator pod",
+  "Board light-rail pod"
+ ],
+ "next": [
+  "c11-d3",
+  "c11-d4",
+  "c11-d0"
+ ],
+ "picture": "Side-view along a sleek tiled concourse. Far left, a metal ladder drops from the ceiling hatch. Left, a luminous glass lift with open doors. Centre-left, the silver-haired boy in his mint hoodie. Centre, a mirrored escalator pod entrance. Right, a glowing light-rail pod sits docked at a platform. Far right, a route map screen.",
+ "shown": [
+  "a glowing glass lift pod with open sliding doors on the left",
+  "a mirrored escalator pod descending past flashing arrows in the centre",
+  "a sleek neon light-rail pod waiting at a platform on the right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c10-d4-1-2",
+ "scene": "The thumping jukebox triggers wall panels to reveal three quirky transit exits.",
+ "options": [
+  "Ride rooftop escalator",
+  "Board noodle monorail",
+  "Catch bamboo car"
+ ],
+ "next": [
+  "c10-d0",
+  "c10-d1",
+  "c10-d2"
+ ],
+ "picture": "A flat side view along the opened diner wall. Far left sits a glowing rooftop escalator leading up. Left, the player in red bomber jacket and roller skates taps her foot. Centre waits an open noodle-cart monorail cabin. Right, the glowing jukebox plays tunes. Far right, an open bamboo cable car dangles patiently.",
+ "shown": [
+  "a glowing neon escalator ascending upwards, located on the far left",
+  "a steaming giant noodle bowl monorail car waiting at centre",
+  "a green bamboo cable car suspended from a wire, on the far right"
+ ],
+ "view": "wide"
+}

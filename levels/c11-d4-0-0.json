@@ -1,0 +1,21 @@
+{
+ "id": "c11-d4-0-0",
+ "scene": "The pulsating sneakers bounce you clean out into the busy mall hub.",
+ "options": [
+  "Ride light-rail pod",
+  "Take moving walkway",
+  "Board hover ferry"
+ ],
+ "next": [
+  "c11-d0",
+  "c11-d1",
+  "c11-d2"
+ ],
+ "picture": "Side-view pixel art of an open mall transit concourse. Far left, an elevated light-rail pod waits with doors open. Left-centre, the silver-haired boy in a mint hoodie sports glowing magenta sneakers and headphones. Right, an illuminated moving walkway rolls forward. Far right, a river hover ferry bobs beside an embarkation gate.",
+ "shown": [
+  "a sleek pod waiting on tracks at far left with doors sliding open",
+  "a flat glowing conveyor strip running toward neon signs at right",
+  "a river hovercraft docked at a gleaming water gate on far right"
+ ],
+ "view": "wide"
+}

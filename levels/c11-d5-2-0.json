@@ -1,0 +1,21 @@
+{
+ "id": "c11-d5-2-0",
+ "scene": "The pulsing grid unlocks three neon transit exits across the rooftop.",
+ "options": [
+  "Ride moving walkway",
+  "Board hover ferry",
+  "Enter karaoke lift"
+ ],
+ "next": [
+  "c11-d1",
+  "c11-d2",
+  "c11-d3"
+ ],
+ "picture": "A flat side view along the rooftop platform. The silver-haired boy in a mint-green hoodie stands centre. On the far left runs an illuminated moving walkway. To the left is the dark studio console. On the right waits a hovering river ferry, and on the far right sits an open glass karaoke lift.",
+ "shown": [
+  "an illuminated flat moving walkway humming quietly on the far left side",
+  "a streamlined river hover ferry docked with open doors on the right",
+  "a glowing cylindrical glass karaoke lift with open doors on the far right"
+ ],
+ "view": "wide"
+}

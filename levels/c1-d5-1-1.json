@@ -1,0 +1,21 @@
+{
+ "id": "c1-d5-1-1",
+ "scene": "Holding the shimmering glass nib, you discover three busy travel docks ahead.",
+ "options": [
+  "Ride slow lift",
+  "Board water taxi",
+  "Catch monorail"
+ ],
+ "next": [
+  "c1-d4",
+  "c1-d0",
+  "c1-d1"
+ ],
+ "picture": "Side-view pixel art along a level quay. Far left, an open brass birdcage lift waits. Left-of-centre, the elderly East Asian man in blue cap and orange cardigan holds a glowing glass nib. Centre-right, a striped water taxi bobs at a wooden mooring. Far right, an access ladder rises to a sleek red monorail car.",
+ "shown": [
+  "a brass birdcage lift with open doors waiting on the far left",
+  "a striped canal water taxi bobbing at a low dock on the right",
+  "a sleek red monorail car idling at an elevated platform far right"
+ ],
+ "view": "wide"
+}

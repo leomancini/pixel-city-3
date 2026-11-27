@@ -1,0 +1,21 @@
+{
+ "id": "c10-d4-2-1",
+ "scene": "The robot clicks open a rear hatch revealing three unusual transit exits.",
+ "options": [
+  "Ride cable car",
+  "Board lantern balloon",
+  "Enter revolving door"
+ ],
+ "next": [
+  "c10-d2",
+  "c10-d3",
+  "c10-d5"
+ ],
+ "picture": "Flat side view of the rear lane exit. On the far left sits a bamboo cable car docked at an open railing. Left of centre, the player in her red bomber jacket and roller skates holds a glowing pin beside the open brass robot. Up high floats a paper-lantern balloon basket. Far right stands a brass revolving door.",
+ "shown": [
+  "a green bamboo cable car suspended over a dock on the left",
+  "a glowing red paper-lantern balloon floating tethered up high",
+  "a patterned brass revolving door framed in puzzle motifs on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c11-d5-0",
+ "scene": "The audio console glows as synth frequencies ripple across the mixing deck.",
+ "options": [
+  "Push glowing crossfader",
+  "Turn brass dial",
+  "Hit square sampler"
+ ],
+ "next": [
+  "c11-d5-0-0",
+  "c11-d5-0-1",
+  "c11-d5-0-2"
+ ],
+ "picture": "A first-person close view looking directly down onto the illuminated mixing console. Two hands with mint-green cuffs rest over the surface. On the far left sits a notched brass dial with glowing green numbers. In the center glows a lit violet crossfader. On the far right is a four-by-four grid of pulsing amber buttons.",
+ "shown": [
+  "a bright violet horizontal crossfader sitting in the center of the console",
+  "a notched brass frequency dial positioned on the far left edge",
+  "a rubber grid of flashing amber drum buttons on the far right"
+ ],
+ "view": "close"
+}

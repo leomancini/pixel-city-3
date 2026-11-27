@@ -1,0 +1,21 @@
+{
+ "id": "c14-d4-1-1",
+ "scene": "The clipboard reveals route maps to three urgent midnight repair calls.",
+ "options": [
+  "Ride sidecar motorbike",
+  "Board night funicular",
+  "Catch bridge crawler"
+ ],
+ "next": [
+  "c14-d5",
+  "c14-d0",
+  "c14-d1"
+ ],
+ "picture": "Flat side-view along the concrete shop floor and out into the night. On the far left sits a yellow sidecar motorbike. The player in orange jacket and beanie stands left of centre holding the glowing clipboard. At centre, a vertical funicular cab stands open. On the right, a low mechanical bridge crawler idles on tracks.",
+ "shown": [
+  "A idling yellow sidecar motorbike parked by the open bay on the left",
+  "A glass-walled funicular cabin docked at the central hillside shaft",
+  "A multi-legged mechanized bridge crawler vehicle waiting on the right track"
+ ],
+ "view": "wide"
+}

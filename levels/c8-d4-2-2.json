@@ -1,0 +1,21 @@
+{
+ "id": "c8-d4-2-2",
+ "scene": "The opened pastry case reveals magical travel tokens for three distant destinations.",
+ "options": [
+  "Board gondola drone",
+  "Take hover carriage",
+  "Ride hover metro"
+ ],
+ "next": [
+  "c8-d3",
+  "c8-d5",
+  "c8-d0"
+ ],
+ "picture": "A flat side-view pixel lobby where grandmother and her white dog stand holding travel tokens. On the left, open brass doors lead to a waiting gondola drone. In the centre, an open archway frames a gilded hover carriage. On the right, a sliding gate opens to a docked hover metro train.",
+ "shown": [
+  "A tethered gondola drone waiting outside the open brass doors on the left.",
+  "A gilded hover carriage idling at the curbside archway in the centre.",
+  "A sleek hover metro train docked at the glowing platform on the right."
+ ],
+ "view": "wide"
+}

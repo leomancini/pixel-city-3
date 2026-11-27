@@ -1,0 +1,21 @@
+{
+ "id": "c6-d5-2-0",
+ "scene": "The tuned beam illuminates three unusual exits along the high catwalk platform.",
+ "options": [
+  "Take service elevator",
+  "Board rowing boat",
+  "Ride freight lift"
+ ],
+ "next": [
+  "c6-d1",
+  "c6-d2",
+  "c6-d3"
+ ],
+ "picture": "Flat side-scrolling view of the catwalk platform. On the far left sits an open service elevator glowing with buttons. The curly-haired boy in a denim jacket and glasses stands left of centre with his camera. At centre, a wooden rowing boat floats in an elevated canal. On the far right, a sturdy freight lift waits open.",
+ "shown": [
+  "an open metal service elevator with glowing call buttons on the far left",
+  "a tethered wooden rowing boat floating in an elevated water flume at centre",
+  "a heavy iron freight lift with grated sliding gates on the far right"
+ ],
+ "view": "wide"
+}

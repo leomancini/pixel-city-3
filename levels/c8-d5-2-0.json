@@ -1,0 +1,21 @@
+{
+ "id": "c8-d5-2-0",
+ "scene": "The clock swings open, revealing a sunlit transit balcony filled with rides.",
+ "options": [
+  "Ride flying scooter",
+  "Board hover bus",
+  "Take gondola drone"
+ ],
+ "next": [
+  "c8-d1",
+  "c8-d2",
+  "c8-d3"
+ ],
+ "picture": "Flat side view. Inside the opened clock wall, an outdoor sky terrace extends across the frame. The grandmother in her pink tracksuit stands centre-left holding her white dog's lead. Left sits a sleek yellow flying scooter. Centre floats a red double-decker hover bus at a platform. Far right, a striped gondola drone gently bobs.",
+ "shown": [
+  "a sleek yellow flying scooter parked on the open terrace on the left",
+  "a tall red double-decker hover bus hovering by the middle dock",
+  "a striped gondola drone moored to a brass pole on the far right"
+ ],
+ "view": "wide"
+}

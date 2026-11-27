@@ -1,0 +1,21 @@
+{
+ "id": "c13-d5-2-1",
+ "scene": "The blackboard chalk slides aside, revealing transit docks beyond the shattered wall.",
+ "options": [
+  "Board rooftop gondola",
+  "Ride carousel train",
+  "Enter pneumatic pod"
+ ],
+ "next": [
+  "c13-d2",
+  "c13-d3",
+  "c13-d4"
+ ],
+ "picture": "Side-view pixel art: on the level floor, a parted blackboard reveals an open-air transit bay. On the far left, a hanging yellow gondola sways. Left-centre, the player stands with sketchbook underarm. Centre sits an idling clockwork carousel train with mechanical brass ponies. Far right, a glass pneumatic tube pod rests open.",
+ "shown": [
+  "a striped yellow passenger gondola hanging empty on a cable on the far left",
+  "a tiny clockwork train with painted carousel horses idling at a center platform",
+  "a clear glass transit tube pod sitting open on the far right track"
+ ],
+ "view": "wide"
+}

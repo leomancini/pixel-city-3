@@ -1,0 +1,21 @@
+{
+ "id": "c14-d1-1-2",
+ "scene": "You climb atop the steel truss platform overlooking three distinct departures.",
+ "options": [
+  "Ride night funicular",
+  "Board window gondola",
+  "Catch mail train"
+ ],
+ "next": [
+  "c14-d0",
+  "c14-d2",
+  "c14-d3"
+ ],
+ "picture": "Side-view pixel art along an elevated truss platform. Far left sits an angular night funicular car at an incline track. Left of centre, the player in his burnt-orange jacket stands holding his telescope. Centre hangs an empty yellow window-cleaner gondola. Right, a lantern glows. Far right rests a waiting green mail train.",
+ "shown": [
+  "a sleek night funicular car with glowing windows parked far left",
+  "a dangling window-cleaner gondola swinging gently from cables in the centre",
+  "a puffing green mail train engine resting far right"
+ ],
+ "view": "wide"
+}

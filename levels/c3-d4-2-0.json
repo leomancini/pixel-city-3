@@ -1,0 +1,21 @@
+{
+ "id": "c3-d4-2-0",
+ "scene": "The ruby lever unlocks wall panels, uncovering three strange exit transit gates.",
+ "options": [
+  "Ride book cart",
+  "Board night bus",
+  "Hail bicycle rickshaw"
+ ],
+ "next": [
+  "c3-d1",
+  "c3-d2",
+  "c3-d3"
+ ],
+ "picture": "Flat side view. Along the polished parquet floor from left to right: a brass book cart lift cage sits with its gate ajar; the player stands in his teal bomber jacket and messenger bag near the open globe; a low-slung night bus idles in a portal; a yellow bicycle rickshaw waits.",
+ "shown": [
+  "a caged brass book cart lift hanging open on the far left",
+  "a glowing midnight-blue night bus idling at a gate in the centre",
+  "a yellow bicycle rickshaw with a nodding driver on the far right"
+ ],
+ "view": "wide"
+}

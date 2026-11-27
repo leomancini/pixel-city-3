@@ -1,0 +1,21 @@
+{
+ "id": "c13-d4-0",
+ "scene": "The brass mechanism rattles, spitting out patterned sheets and whirring gears.",
+ "options": [
+  "Turn red valve",
+  "Grab gold paper",
+  "Climb maintenance ladder"
+ ],
+ "next": [
+  "c13-d4-0-0",
+  "c13-d4-0-1",
+  "c13-d4-0-2"
+ ],
+ "picture": "Flat side-scrolling view along a metal floor. Far left sits the rumbling brass folding machine's intake hopper with a red valve wheel. The Pacific Islander girl stands left of centre, reaching toward the moving rubber conveyor belt holding a gleaming gold folded paper at centre. Right stands the machine frame with an attached ladder.",
+ "shown": [
+  "a large red valve wheel attached to the brass hopper on the left",
+  "a shimmering gold folded sheet poised on the rubber belt at centre",
+  "a slender metal ladder mounted against the machine frame on the right"
+ ],
+ "view": "wide"
+}

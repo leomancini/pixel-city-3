@@ -1,0 +1,21 @@
+{
+ "id": "c5-d5-2-2",
+ "scene": "You climb onto an open sky-dock offering departures across the city.",
+ "options": [
+  "Board paddle steamer",
+  "Ride trampoline lift",
+  "Take skate shuttle"
+ ],
+ "next": [
+  "c5-d3",
+  "c5-d4",
+  "c5-d0"
+ ],
+ "picture": "Side-view rooftop dock along a wooden deck. On the far left, a red paddle steamer floats at a ramp. Left of centre, the boy in green stripes stands holding his skateboard. In the centre up high, a yellow trampoline lift platform hovers. On the far right, a skate-park shuttle bus waits with open doors.",
+ "shown": [
+  "A red paddle steamer moored to a canal ramp on the far left",
+  "A bouncing yellow trampoline lift platform bouncing gently up high in the centre",
+  "A colourful mini skate-park shuttle bus parked on the far right"
+ ],
+ "view": "wide"
+}

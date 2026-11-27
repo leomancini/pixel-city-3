@@ -1,0 +1,21 @@
+{
+ "id": "c9-d4-2-1",
+ "scene": "The glass elevator brings you into the buzzing Central Transit Spire.",
+ "options": [
+  "Board bullet train",
+  "Board solar junk",
+  "Board weather balloon"
+ ],
+ "next": [
+  "c9-d2",
+  "c9-d3",
+  "c9-d5"
+ ],
+ "picture": "A flat side-scrolling cross section of the Transit Spire along one level floor. On the far left, a pink bullet train sits open at its gate. The player stands left of centre, facing right in her red bomber jacket and roller skates. Right of centre docks a solar-sail junk, and far right waits a yellow weather balloon.",
+ "shown": [
+  "a sleek pink bullet train idling with open doors on the far left platform",
+  "a wooden solar junk ship moored at an open dock right of centre",
+  "a tethered yellow weather balloon basket ready for boarding on the far right"
+ ],
+ "view": "wide"
+}

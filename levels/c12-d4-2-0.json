@@ -1,0 +1,21 @@
+{
+ "id": "c12-d4-2-0",
+ "scene": "The plucked mushroom reveals a secret transit hub below the mossy floor.",
+ "options": [
+  "Ride retro streetcar",
+  "Catch bento express",
+  "Board koi boat"
+ ],
+ "next": [
+  "c12-d1",
+  "c12-d2",
+  "c12-d3"
+ ],
+ "picture": "Side-view pixel art along one ground line. On the far left, a retro streetcar sits ready on steel rails. To the left, the grandfather holds a glowing blue mushroom, pushing his plant bicycle. In the centre, a red-roofed bento express train waits. On the far right, a mechanical koi-shaped boat floats beside a stone dock.",
+ "shown": [
+  "a vintage cream-and-green streetcar idling on tracks on the far left",
+  "a sleek bento-themed rail car waiting at a platform in the centre",
+  "a carved koi-shaped passenger boat tied to a mooring on the far right"
+ ],
+ "view": "wide"
+}

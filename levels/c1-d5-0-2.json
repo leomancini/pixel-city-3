@@ -1,0 +1,21 @@
+{
+ "id": "c1-d5-0-2",
+ "scene": "Spanner pocketed, you reach the busy transit plaza at the street's end.",
+ "options": [
+  "Ride the funicular",
+  "Hire the rickshaw",
+  "Board the lift"
+ ],
+ "next": [
+  "c1-d2",
+  "c1-d3",
+  "c1-d4"
+ ],
+ "picture": "Side-view pixel scene along a cobbled plaza platform. The elderly man in his blue cap and orange cardigan stands holding his cane, a rusty spanner sticking from his pocket. On the far left sits a funicular car on slanting tracks. In the centre waits a two-wheeled rickshaw. Far right stands a tall brass elevator cage.",
+ "shown": [
+  "a glass funicular car on angled rails waiting open far left",
+  "a striped bicycle rickshaw with a nodding driver waiting in centre",
+  "an ornate brass cage lift with sliding gate shut far right"
+ ],
+ "view": "wide"
+}

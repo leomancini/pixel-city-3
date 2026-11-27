@@ -1,0 +1,21 @@
+{
+ "id": "c6-d4-2-1",
+ "scene": "The prop burger clicks like a lever, sliding diner walls completely open.",
+ "options": [
+  "Row the boat",
+  "Enter freight lift",
+  "Climb scissor lift"
+ ],
+ "next": [
+  "c6-d2",
+  "c6-d3",
+  "c6-d5"
+ ],
+ "picture": "Pixel art flat side view of the opened set. Along the level floor, a small wooden rowing boat floats in an indoor canal on the far left. The curly-haired boy stands left of centre holding a hollow rubber burger. A metal freight lift stands open in the centre, and an extended yellow scissor lift waits on the far right.",
+ "shown": [
+  "A wooden rowing boat bobbing in a watery channel on the far left",
+  "A heavy open freight lift with an amber light in the centre",
+  "A yellow scissor lift platform with safety rails on the far right"
+ ],
+ "view": "wide"
+}

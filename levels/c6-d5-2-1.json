@@ -1,0 +1,21 @@
+{
+ "id": "c6-d5-2-1",
+ "scene": "The metal bird chirps cheerfully, projecting a vibrant city transit map.",
+ "options": [
+  "Row to subway",
+  "Ride freight lift",
+  "Board golf cart"
+ ],
+ "next": [
+  "c6-d2",
+  "c6-d3",
+  "c6-d4"
+ ],
+ "picture": "A flat side view along the rooftop catwalk platform. On the far left, a small wooden rowing boat rests in a flooded runoff chute. The curly-haired boy in a denim jacket stands left of centre smiling at the mechanical bird. At centre right, an open freight lift waits. On the far right sits an electric golf-cart.",
+ "shown": [
+  "a wooden rowing boat moored at a watery drain chute far left",
+  "an open metal freight lift cage waiting with lit buttons centre right",
+  "a yellow electric golf-cart shuttle idling on an extension platform far right"
+ ],
+ "view": "wide"
+}

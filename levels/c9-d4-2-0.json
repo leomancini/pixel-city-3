@@ -1,0 +1,21 @@
+{
+ "id": "c9-d4-2-0",
+ "scene": "The snatched card activates transit gates for three distant sky districts.",
+ "options": [
+  "Board cloud pod",
+  "Take bullet train",
+  "Board solar junk"
+ ],
+ "next": [
+  "c9-d1",
+  "c9-d2",
+  "c9-d3"
+ ],
+ "picture": "A flat side view of the grand transit sky-dock. On the left hangs an open round cable pod. The player in her red bomber jacket and roller skates stands left-centre holding the glowing passcard. In the centre sits an idling pink bullet train. On the right, a docked wooden solar-sail junk gently bobs.",
+ "shown": [
+  "a dangling round cloud cable pod waiting open on the left",
+  "a sleek pink bullet train idling with open doors at centre",
+  "a docked solar-sail junk ship with glowing sails on the right"
+ ],
+ "view": "wide"
+}

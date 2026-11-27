@@ -1,0 +1,21 @@
+{
+ "id": "c14-d5-2-0",
+ "scene": "The snatched purple keycard unlocks transit doors across the back wall.",
+ "options": [
+  "Board bridge crawler",
+  "Climb into gondola",
+  "Hop mail train"
+ ],
+ "next": [
+  "c14-d1",
+  "c14-d2",
+  "c14-d3"
+ ],
+ "picture": "Side view across the workshop interior. On the far left, the player holds the glowing purple card. Beside him, an open hatch reveals a six-legged bridge crawler. Centre, a tall window bay frames a suspended window-cleaner gondola. On the far right, a miniature red mail train sits at a loading chute.",
+ "shown": [
+  "a yellow-legged bridge crawler idling beside an open archway on the left",
+  "a striped window-cleaner gondola swaying outside a glass hatch in the centre",
+  "a miniature red mail train puffing steam through a chute on the right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c13-d1-2",
+ "scene": "You climb upward and step upside down onto the polished ceiling floor.",
+ "options": [
+  "Inspect glowing painting",
+  "Greet floating patron",
+  "Turn brass valve"
+ ],
+ "next": [
+  "c13-d1-2-0",
+  "c13-d1-2-1",
+  "c13-d1-2-2"
+ ],
+ "picture": "A flat side-view along the gallery ceiling line. At far left hangs an inverted neon portrait. The Pacific Islander girl stands left of centre, feet planted firmly against the ceiling. To her right floats a suited patron with a monocle. At far right, a brass pipe sprouts a red valve wheel.",
+ "shown": [
+  "a neon portrait hanging upside down on the wall at far left",
+  "a monocled visitor hovering quietly above the floor to the right",
+  "an ornate valve wheel protruding from a ceiling pipe at far right"
+ ],
+ "view": "wide"
+}

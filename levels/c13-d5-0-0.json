@@ -1,0 +1,21 @@
+{
+ "id": "c13-d5-0-0",
+ "scene": "Turning the valve hissingly slides open three giant transit airlocks.",
+ "options": [
+  "Board paint-splattered tram",
+  "Enter revolving lift",
+  "Ride rooftop gondola"
+ ],
+ "next": [
+  "c13-d0",
+  "c13-d1",
+  "c13-d2"
+ ],
+ "picture": "Side-view pixel art of the lab platform under open skies. On the far left, a paint-splattered tram idles at a rail dock. Left of centre, the girl stands in her blue windbreaker with sketchbook. In the centre sits a revolving door lift. On the far right waits an open rooftop gondola on a cable line.",
+ "shown": [
+  "a colorful, paint-splattered tram waiting at an airlock platform on the far left",
+  "a spinning glass revolving door lift glowing softly in the centre",
+  "a striped rooftop gondola dangling from an overhead cable on the far right"
+ ],
+ "view": "wide"
+}

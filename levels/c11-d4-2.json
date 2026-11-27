@@ -1,0 +1,21 @@
+{
+ "id": "c11-d4-2",
+ "scene": "The selfie robot flashes brightly and dispenses a glossy souvenir pass.",
+ "options": [
+  "Take the pass",
+  "Touch fountain slime",
+  "Enter glass maze"
+ ],
+ "next": [
+  "c11-d4-2-0",
+  "c11-d4-2-1",
+  "c11-d4-2-2"
+ ],
+ "picture": "Side-view pixel art along the polished mall floor. On the left sits the stone fountain bubbling with green slime. Centre-left stands the silver-haired boy in his mint hoodie and headphones, striking a pose. At centre, the hovering selfie robot dispenses a glossy card. Far right stands an open entrance into the glass maze.",
+ "shown": [
+  "a printed glossy photo pass sticking out from the robot's slot, centre",
+  "a stone fountain bubbling with bright green slime, on the left",
+  "a shimmering doorway leading into a neon-lit glass maze, far right"
+ ],
+ "view": "wide"
+}

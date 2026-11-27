@@ -1,0 +1,21 @@
+{
+ "id": "c14-d0-1",
+ "scene": "The glowing tile mosaic reveals a secret constellation with moving gears.",
+ "options": [
+  "Turn brass dial",
+  "Press glass tile",
+  "Trace copper track"
+ ],
+ "next": [
+  "c14-d0-1-0",
+  "c14-d0-1-1",
+  "c14-d0-1-2"
+ ],
+ "picture": "First-person close-up filling the frame. The ceramic star map displays glowing inlaid constellations. On the left, a brass dial is set into dark blue mosaic tiles. In the centre, an illuminated glass star tile pulses softly. On the right, a groove of polished copper connects several silver star studs.",
+ "shown": [
+  "a gleaming brass dial set inside the tile map on the left",
+  "a pulsating blue glass tile glowing in the map's centre",
+  "an engraved copper track winding along the star map's right side"
+ ],
+ "view": "close"
+}

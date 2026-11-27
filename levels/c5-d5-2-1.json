@@ -1,0 +1,21 @@
+{
+ "id": "c5-d5-2-1",
+ "scene": "The crystal goggles shimmer, revealing secret rooftop transit portals.",
+ "options": [
+  "Take rope bridge",
+  "Board paddle steamer",
+  "Ride trampoline lift"
+ ],
+ "next": [
+  "c5-d2",
+  "c5-d3",
+  "c5-d4"
+ ],
+ "picture": "Side view along a glowing observation deck floor outside the shop. On the far left, a vine-wrapped wooden rope-bridge lift swings gently. Left of centre, the boy wears glittering crystal goggles, holding his skateboard. In the centre right sits a docked paddle steamer. On the far right, a coiled trampoline lift awaits.",
+ "shown": [
+  "a dangling vine-covered wooden rope-bridge lift platform on the far left",
+  "a miniature red rooftop paddle steamer docked in a canal centre right",
+  "a giant glowing trampoline lift spring bouncing gently on the far right"
+ ],
+ "view": "wide"
+}

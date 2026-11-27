@@ -1,0 +1,21 @@
+{
+ "id": "c5-d4-1-2",
+ "scene": "Unzipping the vinyl flap, you step onto a wide transit concourse.",
+ "options": [
+  "Board skate shuttle",
+  "Catch decker bus",
+  "Take bridge lift"
+ ],
+ "next": [
+  "c5-d0",
+  "c5-d1",
+  "c5-d2"
+ ],
+ "picture": "Pixel art side-view along a level transit deck. The boy with dark hair and green-striped shirt stands left holding his skateboard. On the far left sits an open yellow skate-park shuttle. Centre stands an idling red double-decker bus with doors open. Far right hangs an empty wooden rope-bridge lift basket.",
+ "shown": [
+  "a low yellow skate-park shuttle with ramps, waiting on the far left",
+  "a bright red double-decker bus idling at the curb in the centre",
+  "a swinging rope-bridge lift basket hooked to cables on the far right"
+ ],
+ "view": "wide"
+}

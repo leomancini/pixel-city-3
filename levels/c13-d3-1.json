@@ -1,0 +1,21 @@
+{
+ "id": "c13-d3-1",
+ "scene": "Inside the aviary, clockwork hummingbirds whirr beneath arched brass rafters.",
+ "options": [
+  "Catch winding key",
+  "Inspect seed dispenser",
+  "Climb spiral ladder"
+ ],
+ "next": [
+  "c13-d3-1-0",
+  "c13-d3-1-1",
+  "c13-d3-1-2"
+ ],
+ "picture": "Side-scrolling view of the aviary interior. Far left, a gold winding key dangles from an overhead wire. Centre-left stands the girl in windbreaker and shorts, holding her sketchbook. In the centre sits a brass pedestal supporting a glowing glass seed hopper. Far right, a spiral copper ladder rises toward an open roof hatch.",
+ "shown": [
+  "a dangling gold winding key swinging from an iron wire far left",
+  "a glass seed hopper on a pedestal glowing softly in the centre",
+  "a spiral copper ladder leading up through an open hatch far right"
+ ],
+ "view": "wide"
+}

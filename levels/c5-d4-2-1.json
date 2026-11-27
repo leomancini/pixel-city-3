@@ -1,0 +1,21 @@
+{
+ "id": "c5-d4-2-1",
+ "scene": "The valve opens a water canal, floating three strange transports right up.",
+ "options": [
+  "Ride rope lift",
+  "Board paddle steamer",
+  "Take school bus"
+ ],
+ "next": [
+  "c5-d2",
+  "c5-d3",
+  "c5-d5"
+ ],
+ "picture": "Flat side-view pixel art along a tiled canal bank. Left stands a wooden rope-lift cradle. Left-centre, the boy in his green striped shirt holds his skateboard near the water. In the centre floats a red paddle steamer. Right idles a yellow school bus with rooftop propellers. Far right rests the turned brass valve.",
+ "shown": [
+  "A wooden basket on woven rope pulleys waiting at a platform on the far left.",
+  "A bright red miniature paddle steamer bobbing by a low dock in the centre.",
+  "A yellow flying school bus with spinning propellers idling on the right."
+ ],
+ "view": "wide"
+}

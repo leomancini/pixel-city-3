@@ -1,0 +1,21 @@
+{
+ "id": "c7-d4-0-0",
+ "scene": "Inside the paper cockpit, giant windows reveal three departing transit stations below.",
+ "options": [
+  "Ride hillside chairlift",
+  "Board sleigh tram",
+  "Take glass boat"
+ ],
+ "next": [
+  "c7-d0",
+  "c7-d1",
+  "c7-d2"
+ ],
+ "picture": "Inside the paper glider cockpit, facing the glass nose cone. Along the bottom, the player sits in an orange puffer vest, white scarf, and backpack kite before a control dash. Left shows a yellow chairlift gate, centre reveals a red sleigh tram, and right shows a glass boat docked at a slipway.",
+ "shown": [
+  "A yellow chairlift station gate waiting open on the left",
+  "A red tracked sleigh tram resting in the centre terminal",
+  "A turquoise glass-bottomed ferry moored at the right dock"
+ ],
+ "view": "wide"
+}

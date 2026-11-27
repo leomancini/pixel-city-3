@@ -1,0 +1,21 @@
+{
+ "id": "c13-d3-1-2",
+ "scene": "You emerge onto the rooftop transit hub above the whirring zoo domes.",
+ "options": [
+  "Board painted tram",
+  "Enter revolving lift",
+  "Take rooftop gondola"
+ ],
+ "next": [
+  "c13-d0",
+  "c13-d1",
+  "c13-d2"
+ ],
+ "picture": "Side-scrolling view of a wide rooftop transit platform. On the far left, a paint-splattered tram waits on metal rails. Left of centre stands the Pacific Islander girl clutching her sketchbook. In the centre, a brass revolving door lift glimmers. On the right, a striped overhead gondola cabin sways on heavy cables.",
+ "shown": [
+  "A bright, paint-splattered tram sits parked on tracks on the far left.",
+  "A polished brass revolving door lift stands glowing in the centre.",
+  "A swinging striped gondola cabin hangs waiting from cables on the right."
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c7-d4-2-1",
+ "scene": "The friendly pelican stamps three different departure tickets on the wooden counter.",
+ "options": [
+  "Board glass boat",
+  "Take air balloon",
+  "Ride ice sled"
+ ],
+ "next": [
+  "c7-d2",
+  "c7-d3",
+  "c7-d5"
+ ],
+ "picture": "Flat side-view along a wooden counter on a level plank floor. On the left lies a glowing cyan boat ticket. In the centre, the pelican in headphones holds up a striped balloon pass. The lanky boy in his orange vest watches attentively right of centre. A frosty sled ticket rests on the counter on the right.",
+ "shown": [
+  "a cyan ticket for a reef boat resting on the counter on the left",
+  "a striped balloon ticket held by the pelican in the centre",
+  "a frosty white sled ticket lying on the counter on the right"
+ ],
+ "view": "wide"
+}

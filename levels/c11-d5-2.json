@@ -1,0 +1,21 @@
+{
+ "id": "c11-d5-2",
+ "scene": "The glowing soundwave panel shifts, revealing a hidden digital grid interface.",
+ "options": [
+  "Tap pulsing node",
+  "Turn rotary dial",
+  "Insert dance tape"
+ ],
+ "next": [
+  "c11-d5-2-0",
+  "c11-d5-2-1",
+  "c11-d5-2-2"
+ ],
+ "picture": "A close first-person view of the soundwave light board filling the frame. On the far left sits a notched brass rotary dial. Upper centre glows a luminous cyan square node on an active pixel wave grid. On the right, a horizontal cassette tape slot glows with faint green standby lights.",
+ "shown": [
+  "a bright cyan pulsing square node glowing brightly in the upper centre",
+  "a ribbed metallic frequency dial set into the metal panel far left",
+  "an empty glowing cassette drive slot waiting open on the right"
+ ],
+ "view": "close"
+}

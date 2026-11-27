@@ -1,0 +1,21 @@
+{
+ "id": "c10-d4-1-0",
+ "scene": "The sparkling galaxy shake fizzes, revealing three vibrant exits out of the diner.",
+ "options": [
+  "Board lantern balloon",
+  "Enter revolving door",
+  "Ride rooftop escalator"
+ ],
+ "next": [
+  "c10-d3",
+  "c10-d5",
+  "c10-d0"
+ ],
+ "picture": "A flat side view of the diner concourse. Far left, a glowing paper-lantern balloon basket is tied to a railing. Left stands the player in her red bomber jacket and roller skates holding an empty striped cup. Centre, a brass revolving door spins slowly. Right, the diner counter. Far right, a neon escalator ascends upward.",
+ "shown": [
+  "a tethered paper-lantern balloon basket waiting open at the exit platform on the far left",
+  "a spinning brass revolving door leading to the Puzzle Box Hotel in the centre",
+  "a glowing neon escalator pointing straight upward to the roof on the far right"
+ ],
+ "view": "wide"
+}

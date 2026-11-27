@@ -1,0 +1,21 @@
+{
+ "id": "c13-d2-2-2",
+ "scene": "Atop the roof wall, three transit stations wait under neon signs.",
+ "options": [
+  "Enter pneumatic pod",
+  "Ride bubble lift",
+  "Board splattered tram"
+ ],
+ "next": [
+  "c13-d4",
+  "c13-d5",
+  "c13-d0"
+ ],
+ "picture": "Side-view pixel art of a raised catwalk. Far left, an open pneumatic capsule sits in a brass tube dock. Left of centre, the Pacific Islander teenage girl in windbreaker and shorts stands holding her sketchbook. Centre, a tethered, shimmering bubble lift bobs gently. Far right, a paint-splattered yellow tram rests on sky rails.",
+ "shown": [
+  "a sleek pneumatic glass capsule waiting open far left",
+  "a shimmering giant soap bubble tethered to a dock centre",
+  "a brightly paint-splattered aerial tram car doors open far right"
+ ],
+ "view": "wide"
+}

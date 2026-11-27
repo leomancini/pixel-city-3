@@ -1,0 +1,21 @@
+{
+ "id": "c13-d0-2",
+ "scene": "Your hand sinks into liquid tiles, opening a shimmering glowing corridor.",
+ "options": [
+  "Step inside corridor",
+  "Grab bronze knob",
+  "Inspect fallen tile"
+ ],
+ "next": [
+  "c13-d0-2-0",
+  "c13-d0-2-1",
+  "c13-d0-2-2"
+ ],
+ "picture": "Side-scrolling view along a brick sidewalk. On the far left, a glowing geometric tile rests on the curb. Centre left, a floating bronze knob hovers. The teenage Pacific Islander girl stands centre, sketchbook underarm, touching the shifting wall. On the right, the wall has parted into an open, swirling cyan portal corridor.",
+ "shown": [
+  "an arched opening swirling with radiant cyan light on the right",
+  "an ornate round door handle floating unattached on the centre left",
+  "a glowing geometric pixel tile resting on the ground at the far left"
+ ],
+ "view": "wide"
+}

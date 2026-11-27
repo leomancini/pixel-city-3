@@ -1,0 +1,21 @@
+{
+ "id": "c9-d4-2",
+ "scene": "The drone beeps happily and drops a glowing passcard on the platform.",
+ "options": [
+  "Snatch glowing card",
+  "Enter glass elevator",
+  "Hop booster ramp"
+ ],
+ "next": [
+  "c9-d4-2-0",
+  "c9-d4-2-1",
+  "c9-d4-2-2"
+ ],
+ "picture": "A flat side view along the rooftop platform. On the far left stands a blue speed-booster ramp. The player in her red bomber jacket and white roller skates stands centre-left facing right. In the centre, a glowing neon passcard lies on the floor. Right of centre, the friendly drone hovers. On the far right waits an open glass elevator.",
+ "shown": [
+  "a glowing neon passcard lying on the ground in the centre",
+  "a round glass elevator with open doors on the far right",
+  "a blue flashing speed-booster ramp on the far left"
+ ],
+ "view": "wide"
+}

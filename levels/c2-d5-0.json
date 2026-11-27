@@ -1,0 +1,21 @@
+{
+ "id": "c2-d5-0",
+ "scene": "The yellow pitkart pops open, displaying glowing diagnostic readouts and spare tools.",
+ "options": [
+  "Take spark wrench",
+  "Tap green screen",
+  "Press red lever"
+ ],
+ "next": [
+  "c2-d5-0-0",
+  "c2-d5-0-1",
+  "c2-d5-0-2"
+ ],
+ "picture": "First-person close-up inside the yellow pitkart's open maintenance bay. On the left, a chrome tray holds a glowing blue spark wrench. In the centre, an animated green monitor displays circuit diagrams and stats. On the far right, a sturdy red throttle lever stands upright beside coiled copper cables.",
+ "shown": [
+  "a shiny blue spark wrench resting on a tool tray on the left",
+  "a square monitor glowing bright green in the centre of the dashboard",
+  "an upright red mechanical throttle lever positioned on the far right"
+ ],
+ "view": "close"
+}

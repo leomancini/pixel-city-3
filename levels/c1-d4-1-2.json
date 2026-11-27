@@ -1,0 +1,21 @@
+{
+ "id": "c1-d4-1-2",
+ "scene": "Your checkmate clatters, and three secret transit doors open together.",
+ "options": [
+  "Take water taxi",
+  "Board the monorail",
+  "Ride the funicular"
+ ],
+ "next": [
+  "c1-d0",
+  "c1-d1",
+  "c1-d2"
+ ],
+ "picture": "A flat side view along the pavilion floor. The elderly player with cane stands beside the defeated automaton at a chess table. Far left, a canal gate opens onto a waiting water taxi. Centre, open glass doors reveal a red monorail carriage. Far right, an archway opens to a sloped funicular car.",
+ "shown": [
+  "a green striped water taxi bobbing at an open canal gate on the far left",
+  "a sleek red monorail carriage idling behind open sliding doors in the centre",
+  "a sloped wooden funicular rail car waiting at an open archway on the far right"
+ ],
+ "view": "wide"
+}

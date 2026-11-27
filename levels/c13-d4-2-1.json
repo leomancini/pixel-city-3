@@ -1,0 +1,21 @@
+{
+ "id": "c13-d4-2-1",
+ "scene": "The cat purrs politely and paws open three departure gate doors.",
+ "options": [
+  "Board rooftop gondola",
+  "Ride carousel train",
+  "Enter bubble lift"
+ ],
+ "next": [
+  "c13-d2",
+  "c13-d3",
+  "c13-d5"
+ ],
+ "picture": "Flat side-scrolling view inside the wide booth along a floor line. Left, a striped rooftop gondola sways at an open gate. The girl stands mid-left, sketchbook under arm. Centre, the tuxedo cat sits before open doors showing a brass carousel train. Far right, an open hatch reveals a floating bubble lift.",
+ "shown": [
+  "a striped rooftop gondola car moored outside an open left gateway",
+  "a brass clockwork carousel train waiting on tracks behind centre doors",
+  "a shimmering giant bubble lift resting on a pad far right"
+ ],
+ "view": "wide"
+}

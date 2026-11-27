@@ -1,0 +1,21 @@
+{
+ "id": "c14-d4-2",
+ "scene": "The electric flamingo zaps your glove, illuminating a hidden basement trapdoor.",
+ "options": [
+  "Lift metal ring",
+  "Grab rubber tongs",
+  "Examine breaker box"
+ ],
+ "next": [
+  "c14-d4-2-0",
+  "c14-d4-2-1",
+  "c14-d4-2-2"
+ ],
+ "picture": "Flat side-view across the workshop floor. On the far left, a rusted grey breaker box clings to the wall. At the centre sits a yellow tool cart with rubber tongs. The player in his orange jacket and knitted beanie stands right, recoiling slightly from the now-buzzing flamingo beside a newly revealed floor trapdoor.",
+ "shown": [
+  "A circular iron trapdoor handle flush with the floor, on the right.",
+  "Insulated black tongs resting on a yellow tool cart, at the centre.",
+  "A rusted wall breaker box with switches thrown, on the far left."
+ ],
+ "view": "wide"
+}

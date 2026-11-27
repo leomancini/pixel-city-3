@@ -1,0 +1,21 @@
+{
+ "id": "c13-d5",
+ "scene": "You step from the bubble lift into a gleaming, iridescent laboratory.",
+ "options": [
+  "Inspect bubble console",
+  "Catch prism bubble",
+  "Greet head scientist"
+ ],
+ "next": [
+  "c13-d5-0",
+  "c13-d5-1",
+  "c13-d5-2"
+ ],
+ "picture": "Side-view pixel art: on the level floor, the shimmering bubble lift platform sits far left beside a brass machine console. The player stands left-centre in sky-blue windbreaker and cargo shorts. In the centre floats a huge prism bubble, while a goggled scientist in a lab coat stands on the right writing.",
+ "shown": [
+  "a brass machine console with glowing dials on the far left",
+  "a huge shimmering prism bubble drifting slowly down in the centre",
+  "a tall scientist wearing oversized goggles taking notes on the right"
+ ],
+ "view": "wide"
+}

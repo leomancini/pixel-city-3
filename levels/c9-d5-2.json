@@ -1,0 +1,21 @@
+{
+ "id": "c9-d5-2",
+ "scene": "The brass machine spouts a tiny stormcloud, raining glittery purple puddles.",
+ "options": [
+  "Catch falling sparks",
+  "Examine control dial",
+  "Climb maintenance ladder"
+ ],
+ "next": [
+  "c9-d5-2-0",
+  "c9-d5-2-1",
+  "c9-d5-2-2"
+ ],
+ "picture": "Pixel art flat side view of the laboratory interior. On the far left, a metal ladder climbs up the wall. Centre stands the player in her red bomber jacket and roller skates, looking up at a puffy purple stormcloud hovering up high. On the right, the gleaming brass rain machine whirs loudly, fitted with a big dial.",
+ "shown": [
+  "a hovering micro-cloud puffing violet drizzle up high above the player",
+  "a large glowing dial covered in weather symbols on the machine right",
+  "a steep iron fire escape ladder attached to the wall far left"
+ ],
+ "view": "wide"
+}

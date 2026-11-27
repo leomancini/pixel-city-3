@@ -1,0 +1,21 @@
+{
+ "id": "c12-d5-2-1",
+ "scene": "The glowing orchid lights up three secret exits from the grove.",
+ "options": [
+  "Ride bento express",
+  "Board koi boat",
+  "Take garden lift"
+ ],
+ "next": [
+  "c12-d2",
+  "c12-d3",
+  "c12-d4"
+ ],
+ "picture": "Flat side-view along a level stone quay. On the far left, a red bento express train waits on tracks. The grandfather stands left of centre holding a glowing orchid by his bicycle. At the centre, a carved koi boat floats by the edge. On the far right stands a brass birdcage lift.",
+ "shown": [
+  "A steaming red rail-car resting on tracks at the far left edge",
+  "A giant carved wooden carp boat bobbing in water at the centre",
+  "A brass birdcage elevator with open lattice gates on the far right"
+ ],
+ "view": "wide"
+}

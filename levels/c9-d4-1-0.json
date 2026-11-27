@@ -1,0 +1,21 @@
+{
+ "id": "c9-d4-1-0",
+ "scene": "Grinding sparks shower down as you slide onto a high transit platform.",
+ "options": [
+  "Board solar junk",
+  "Hop into balloon",
+  "Ride dragon train"
+ ],
+ "next": [
+  "c9-d3",
+  "c9-d5",
+  "c9-d0"
+ ],
+ "picture": "A flat side view along a high-altitude wooden transit dock. On the far left, a docked junk with luminous jade-green solar sails gently sways. At the centre, the player balances on her white roller skates in her red bomber jacket. Up high floats a tethered weather balloon basket. On the far right waits a gleaming maglev dragon train.",
+ "shown": [
+  "a wooden junk with glowing green solar sails moored on the far left",
+  "a striped weather balloon with an open wicker basket waiting up high",
+  "a sleek maglev dragon train resting with open doors on the far right"
+ ],
+ "view": "wide"
+}

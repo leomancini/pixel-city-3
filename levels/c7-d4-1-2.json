@@ -1,0 +1,21 @@
+{
+ "id": "c7-d4-1-2",
+ "scene": "Atop the ramp, you reach the airport's bustling departure overlook.",
+ "options": [
+  "Ride chairlift to Kite Hill",
+  "Board sleigh tram to Snow Globe",
+  "Steer boat to Lighthouse Reef"
+ ],
+ "next": [
+  "c7-d0",
+  "c7-d1",
+  "c7-d2"
+ ],
+ "picture": "Side-view along the breezy platform ledge. On the far left, an empty yellow chairlift sways on its cable. Left of centre, the lanky boy in his orange vest and kite stands. In the centre waits a frosty sleigh tram with brass runners. On the far right, a turquoise glass-bottomed boat bobs beside a mooring post.",
+ "shown": [
+  "A swinging wooden chairlift dangling from a steel cable on the far left",
+  "A frosty sleigh tram with brass runners parked in the centre",
+  "A turquoise glass-bottomed boat moored at an edge-dock on the far right"
+ ],
+ "view": "wide"
+}

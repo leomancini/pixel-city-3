@@ -1,0 +1,21 @@
+{
+ "id": "c2-d5-1-0",
+ "scene": "The lift delivers you to the bustling transit junction in the clouds.",
+ "options": [
+  "Board steam train",
+  "Board star shuttle",
+  "Board cloud airship"
+ ],
+ "next": [
+  "c2-d3",
+  "c2-d4",
+  "c2-d0"
+ ],
+ "picture": "Flat side view of a sky platform. On the far left, a brass-trimmed steam train puffs minty smoke. The girl in the purple wheelchair and teal hoodie sits left of centre. At the centre gate rests a sleek, glowing star shuttle. Moored on the far right floats a striped airship.",
+ "shown": [
+  "a brass-trimmed steam train puffing sweet peppermint smoke on the far left tracks",
+  "a sleek star shuttle glowing with neon starlight at the centre gate",
+  "a striped airship moored to a wooden mast on the far right"
+ ],
+ "view": "wide"
+}

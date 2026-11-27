@@ -1,0 +1,21 @@
+{
+ "id": "c14-d4-1-2",
+ "scene": "You push open the hatch onto the bustling, wind-swept rooftop transport hub.",
+ "options": [
+  "Take night funicular",
+  "Board bridge crawler",
+  "Ride cleaner gondola"
+ ],
+ "next": [
+  "c14-d0",
+  "c14-d1",
+  "c14-d2"
+ ],
+ "picture": "Flat side-view across the gravelled rooftop. On the left, an open yellow funicular sits parked at a lighted stop. Beside the open floor hatch stands the player in orange corduroy jacket, beanie, and prosthetic leg. At the centre sits a spidery metal bridge crawler. On the far right hangs a suspended window-cleaner gondola.",
+ "shown": [
+  "a yellow glass funicular car on rails waiting open on the left",
+  "a clanking multi-legged crawler vehicle resting at the centre boarding gate",
+  "a suspended steel window-cleaner gondola swaying gently on the far right"
+ ],
+ "view": "wide"
+}

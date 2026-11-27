@@ -1,0 +1,21 @@
+{
+ "id": "c2-d5-2-0",
+ "scene": "The boost pad catapults you onto a bustling multi-level transit deck.",
+ "options": [
+  "Board delivery truck",
+  "Take glass elevator",
+  "Ride steam train"
+ ],
+ "next": [
+  "c2-d1",
+  "c2-d2",
+  "c2-d3"
+ ],
+ "picture": "Side-scrolling view of a multi-level sky transit hub. On the far left sits a flatbed robotic delivery truck with an open ramp. Left of centre sits the player in her purple wheelchair and teal hoodie. At centre, a cylindrical glass elevator stands open. On the far right waits a polished brass steam locomotive.",
+ "shown": [
+  "a yellow robotic delivery truck parked with its rear door open on far left",
+  "a cylindrical glowing glass elevator waiting with open sliding doors at centre",
+  "a brass steam train puffing sweet peppermint smoke beside a platform on far right"
+ ],
+ "view": "wide"
+}

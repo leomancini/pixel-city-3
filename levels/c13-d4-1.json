@@ -1,0 +1,21 @@
+{
+ "id": "c13-d4-1",
+ "scene": "You grab the swinging paper crane and swoop over a rooftop garden.",
+ "options": [
+  "Drop into fountain",
+  "Greet tea drinker",
+  "Leap to greenhouse"
+ ],
+ "next": [
+  "c13-d4-1-0",
+  "c13-d4-1-1",
+  "c13-d4-1-2"
+ ],
+ "picture": "Flat side-scrolling view along a grassy rooftop terrace. Far left bubbles a tier-spouting marble fountain. Center, hanging from a giant creased paper crane up high, flies the girl clutching its folded legs with her sketchbook tucked secure. Right sits a bronze robot sipping tea. Far right stands a domed glass greenhouse with open vent.",
+ "shown": [
+  "A tier-spouting marble fountain sits on the grass at the far left",
+  "An elderly robotic gardener sips tea beside a table on the right",
+  "A domed glass greenhouse with an open roof vent stands far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c6-d5-2",
+ "scene": "You climb up onto a narrow catwalk buzzing with glowing neon signs.",
+ "options": [
+  "Tune projector dish",
+  "Pet robotic bird",
+  "Cross suspension bridge"
+ ],
+ "next": [
+  "c6-d5-2-0",
+  "c6-d5-2-1",
+  "c6-d5-2-2"
+ ],
+ "picture": "Flat side-scrolling view of an elevated metal catwalk. On the far left, an angled holographic dish projector hums softly. The curly-haired boy in a denim jacket with camera stands centre-left, holding the ladder top. At the centre sits a shiny mechanical pigeon. To the right, a narrow rope plank bridge stretches across toward another roof.",
+ "shown": [
+  "a humming holographic satellite dish mounted on the far left railing",
+  "a chrome mechanical pigeon perching quietly on a beam at the centre",
+  "a narrow swaying rope-and-metal plank bridge extending to the far right"
+ ],
+ "view": "wide"
+}

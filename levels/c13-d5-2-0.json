@@ -1,0 +1,21 @@
+{
+ "id": "c13-d5-2-0",
+ "scene": "You snag the buzzing clipboard, revealing three distinct transit departure gates.",
+ "options": [
+  "Enter museum lift",
+  "Board rooftop gondola",
+  "Board carousel train"
+ ],
+ "next": [
+  "c13-d1",
+  "c13-d2",
+  "c13-d3"
+ ],
+ "picture": "Side-view pixel art: on the level floor, an ornate revolving door lift stands far left. Left-centre, the player in a sky-blue windbreaker holds the glowing clipboard with her sketchbook tucked away. Up high centre, a rooftop gondola hangs suspended. The grateful scientist stands centre-right. Far right, a brightly painted clockwork carousel train sits waiting.",
+ "shown": [
+  "A brass revolving door lift marked for Upside-Down Museum stands waiting far left.",
+  "An open striped gondola hangs ready from an overhead wire up high centre.",
+  "A miniature clockwork carousel train sits idling on tracks at the far right."
+ ],
+ "view": "wide"
+}

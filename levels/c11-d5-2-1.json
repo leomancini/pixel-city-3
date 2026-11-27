@@ -1,0 +1,21 @@
+{
+ "id": "c11-d5-2-1",
+ "scene": "Turning the dial unfolds three glowing transit gates across the rooftop edge.",
+ "options": [
+  "Board hover ferry",
+  "Enter karaoke lift",
+  "Ride escalator pod"
+ ],
+ "next": [
+  "c11-d2",
+  "c11-d3",
+  "c11-d4"
+ ],
+ "picture": "Flat side view. Along one level rooftop edge, the silver-haired boy stands with his dance bag. On the far left sits the glowing control panel. Beside it, the river hover ferry is docked. In the centre, the glass karaoke lift doors glow open. On the right, the escalator pod waits at its yellow gate.",
+ "shown": [
+  "a sleek river hover ferry moored at a glowing gangway on the left",
+  "an illuminated glass karaoke lift waiting with open neon doors in the centre",
+  "a tubular escalator pod idling at an arched yellow gate on the right"
+ ],
+ "view": "wide"
+}

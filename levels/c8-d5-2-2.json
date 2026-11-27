@@ -1,0 +1,21 @@
+{
+ "id": "c8-d5-2-2",
+ "scene": "You reach the mansion's breezy rooftop dock where city transports wait.",
+ "options": [
+  "Board gondola drone",
+  "Ride spiral tram",
+  "Take hover metro"
+ ],
+ "next": [
+  "c8-d3",
+  "c8-d4",
+  "c8-d0"
+ ],
+ "picture": "Flat side view. Along the rooftop dock floor, the silver-haired grandmother in pink tracksuit stands left-of-centre holding her small white dog on a lead. On the far left, a striped gondola drone hovers with open gate. Centre waits a brass spiral tram on corkscrew tracks. On the far right sits an idling hover metro pod.",
+ "shown": [
+  "a striped drone gondola hovering gently with its passenger gate swung open, far left",
+  "a brass spiral tram perched on corkscrew rails with doors slid wide, centre",
+  "a sleek hover metro pod idling beside the landing platform edge, far right"
+ ],
+ "view": "wide"
+}

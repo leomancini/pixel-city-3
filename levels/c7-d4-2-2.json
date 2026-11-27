@@ -1,0 +1,21 @@
+{
+ "id": "c7-d4-2-2",
+ "scene": "You push through the roof hatch onto a windy launch deck.",
+ "options": [
+  "Board striped balloon",
+  "Take ice sled",
+  "Ride the chairlift"
+ ],
+ "next": [
+  "c7-d3",
+  "c7-d5",
+  "c7-d0"
+ ],
+ "picture": "Flat side-view of a breezy rooftop launch deck along one level wooden platform. On the far left, a striped hot-air balloon basket rests moored to posts. In the centre, an ice sled awaits beside an open chute. Right of centre stands the boy in his orange vest. Far right hangs a waiting hillside chairlift.",
+ "shown": [
+  "a tethered hot-air balloon with basket waiting on the far left deck",
+  "a polished wooden ice sled on steel skids resting at centre",
+  "a swinging double chairlift suspended from a cable on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c14-d2-1-0",
+ "scene": "The open hatch reveals a bustling junction rooftop below the rainmaker masts.",
+ "options": [
+  "Ride tow truck",
+  "Take sidecar bike",
+  "Board night funicular"
+ ],
+ "next": [
+  "c14-d4",
+  "c14-d5",
+  "c14-d0"
+ ],
+ "picture": "Side-scrolling flat rooftop junction. Far left, a yellow tow truck with neon hooks idles on a ramp. Left of centre, the player stands beside the flipped-open brass hatch. Centre, a turquoise motorbike with empty passenger sidecar sits parked. Right, a glowing gate leads to a red night funicular car. Up high, violet steam drifts.",
+ "shown": [
+  "a yellow neon-rigged tow truck idling with engine humming on the far left",
+  "a turquoise motorbike with empty sidecar parked waiting in the centre",
+  "a glass-domed night funicular car stopped at an open gateway on the right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c14-d2-2-0",
+ "scene": "Turning the barometer dial summons three peculiar transports to the roof.",
+ "options": [
+  "Board bridge crawler",
+  "Ride mail train",
+  "Flag tow truck"
+ ],
+ "next": [
+  "c14-d1",
+  "c14-d3",
+  "c14-d4"
+ ],
+ "picture": "A flat side-view along the breezy rooftop. Far left sits the adjusted barometer. Left, an empty mechanical bridge crawler idles on tracks. Centre, the player stands beside an open pneumatic mail train car. Right, a hovering yellow tow truck floats with its door open. Far right stands the copper weather vane.",
+ "shown": [
+  "A clanking multi-legged crawler idling beside the catwalk on the left",
+  "A whistling pneumatic mail train docked open at the centre platform",
+  "A yellow flying tow truck hovering right with its passenger door ajar"
+ ],
+ "view": "wide"
+}

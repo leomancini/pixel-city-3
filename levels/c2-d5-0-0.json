@@ -1,0 +1,21 @@
+{
+ "id": "c2-d5-0-0",
+ "scene": "Holding the humming spark wrench, you face three waiting transports along the platform.",
+ "options": [
+  "Board the airship",
+  "Ride delivery truck",
+  "Take glass elevator"
+ ],
+ "next": [
+  "c2-d0",
+  "c2-d1",
+  "c2-d2"
+ ],
+ "picture": "Side view along the windy turbine racetrack deck. On the far left, a moored brass airship rests with lowered gangway. In the centre, the girl in teal hoodie holds a blue spark wrench in her purple wheelchair. On the right idles an orange delivery truck. On the far right stands a lit glass elevator.",
+ "shown": [
+  "a tethered brass airship waiting with an open gangway on the far left",
+  "a boxy orange delivery truck parked idling on the right",
+  "a glowing glass elevator shaft with open doors on the far right"
+ ],
+ "view": "wide"
+}

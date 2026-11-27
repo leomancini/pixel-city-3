@@ -1,0 +1,21 @@
+{
+ "id": "c14-d4-1-0",
+ "scene": "The wand sparks bright magenta, powering up three waiting transit bays.",
+ "options": [
+  "Board mail train",
+  "Ride sidecar bike",
+  "Catch night funicular"
+ ],
+ "next": [
+  "c14-d3",
+  "c14-d5",
+  "c14-d0"
+ ],
+ "picture": "Flat side-view across the concrete floor. On the far left, a pneumatic mail train rests at an open delivery bay. The player stands left of centre holding a glowing pink wand, beside a running sidecar motorbike. On the far right, a glass night funicular waits at an inclined track under an exit sign.",
+ "shown": [
+  "a sleek pneumatic mail train waiting at a platform on the far left",
+  "a sputtering sidecar motorbike parked right of the player, engine idling",
+  "a glowing glass funicular cabin parked at a steep rail track on the far right"
+ ],
+ "view": "wide"
+}

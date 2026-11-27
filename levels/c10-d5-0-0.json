@@ -1,0 +1,21 @@
+{
+ "id": "c10-d5-0-0",
+ "scene": "The glowing key unlocks an atrium transit hub with three waiting departures.",
+ "options": [
+  "Take rooftop escalator",
+  "Board noodle-cart monorail",
+  "Enter bamboo cable car"
+ ],
+ "next": [
+  "c10-d0",
+  "c10-d1",
+  "c10-d2"
+ ],
+ "picture": "A flat side view of the bright hotel transit lobby. On the far left, a neon escalator ascends toward the roof. Left of centre, the player stands holding the glowing key. In the centre, a yellow noodle-cart monorail idles at a low gate. On the far right hangs a woven bamboo cable car.",
+ "shown": [
+  "a glowing neon rooftop escalator leading upwards on the far left",
+  "a steaming noodle-cart monorail idling at a platform in the centre",
+  "a green bamboo cable car suspended open on the far right"
+ ],
+ "view": "wide"
+}

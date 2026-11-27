@@ -1,0 +1,21 @@
+{
+ "id": "c14-d0-1-2",
+ "scene": "Tracing the line unlocks three clattering transport docks along the breezy rooftop.",
+ "options": [
+  "Board bridge crawler",
+  "Take cleaner gondola",
+  "Catch mail train"
+ ],
+ "next": [
+  "c14-d1",
+  "c14-d2",
+  "c14-d3"
+ ],
+ "picture": "Side-scrolling view along the rooftop platform. The player in his burnt-orange jacket, beanie, prosthetic leg, and telescope stands centre by the mosaic star pedestal. At the far left, a brass bridge crawler idles on railing tracks. Hanging up high centre is a yellow gondola basket. At the far right sits a red mail train.",
+ "shown": [
+  "a sturdy brass crawler vehicle docked on tracks at the far left",
+  "a suspended yellow window-cleaner basket with open gate hanging up high",
+  "a sleek red mail train idling at the platform on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c10-d5-2-1",
+ "scene": "The clockwork canary sings, unfolding the wall into a busy transport balcony.",
+ "options": [
+  "Ride cable car",
+  "Board lantern balloon",
+  "Catch ball monorail"
+ ],
+ "next": [
+  "c10-d2",
+  "c10-d3",
+  "c10-d4"
+ ],
+ "picture": "Flat side view of an open-air balcony. On the far left, a woven bamboo cable car waits with open gate. The player stands centre on skates. Up high, a round paper-lantern balloon floats tethered to a cleat. On the far right sits a spherical neon-striped bowling-ball monorail car on a rail.",
+ "shown": [
+  "A woven bamboo cable car parked at the dock on the far left.",
+  "A glowing paper-lantern hot air balloon tethered up high above the centre.",
+  "A giant hollow bowling-ball monorail car waiting along tracks on the far right."
+ ],
+ "view": "wide"
+}

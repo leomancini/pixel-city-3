@@ -1,0 +1,21 @@
+{
+ "id": "c9-d4-0-1",
+ "scene": "Energized by the sweet smoothie, you survey three vibrant transit portals ahead.",
+ "options": [
+  "Board cable pod",
+  "Catch bullet train",
+  "Board solar junk"
+ ],
+ "next": [
+  "c9-d1",
+  "c9-d2",
+  "c9-d3"
+ ],
+ "picture": "A flat side view along the platform. On the far left, a glass cable pod dangles open. Centre left, the player in red bomber jacket and white roller skates holds an empty glass. On the right waits a sleek pink bullet train with open doors. On the far right moors a solar-sail wooden junk.",
+ "shown": [
+  "a spherical glass cloud cable pod swaying gently on the far left",
+  "a sleek pink bullet train with open doors on the right",
+  "a floating wooden junk with glowing solar sails on the far right"
+ ],
+ "view": "wide"
+}

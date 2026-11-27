@@ -1,0 +1,21 @@
+{
+ "id": "c13-d5-0-2",
+ "scene": "The dial hums, unlocking three transit bays along the laboratory terrace.",
+ "options": [
+  "Board rooftop gondola",
+  "Catch carousel train",
+  "Enter pneumatic pod"
+ ],
+ "next": [
+  "c13-d2",
+  "c13-d3",
+  "c13-d4"
+ ],
+ "picture": "A wide side-view pixel art terrace of the laboratory. From left to right: a docked wicker rooftop gondola by an open gate; the Pacific Islander girl in sky-blue windbreaker with her sketchbook; a brass clockwork carousel train stopped on narrow rails; and an upright glass pneumatic pod waiting open on the far right.",
+ "shown": [
+  "a dangling wicker rooftop gondola swaying at an open terrace gate on the left",
+  "a miniature clockwork carousel train with brass animal cars halted on tracks at centre",
+  "a sleek pneumatic tube pod with open hatch docked on the right"
+ ],
+ "view": "wide"
+}

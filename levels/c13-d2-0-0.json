@@ -1,0 +1,21 @@
+{
+ "id": "c13-d2-0-0",
+ "scene": "The sweet, warm popcorn pops with spicy cinnamon as transit gates unlock.",
+ "options": [
+  "Board paint-splattered tram",
+  "Enter revolving lift",
+  "Ride carousel train"
+ ],
+ "next": [
+  "c13-d0",
+  "c13-d1",
+  "c13-d3"
+ ],
+ "picture": "Side-view pixel art along the rooftop transit deck. On the far left, a paint-splattered tram sits with doors open. In the centre, the Pacific Islander girl eats popcorn beside an open revolving door lift. Far right, a brass clockwork carousel train with ornate carved animals waits on shiny rooftop tracks.",
+ "shown": [
+  "a colorful, paint-splattered tram waiting at the rooftop depot on the far left",
+  "a glowing glass revolving door lift standing open at the centre",
+  "a miniature brass clockwork carousel train idling on rails on the far right"
+ ],
+ "view": "wide"
+}

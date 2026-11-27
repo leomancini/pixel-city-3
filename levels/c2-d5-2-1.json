@@ -1,0 +1,21 @@
+{
+ "id": "c2-d5-2-1",
+ "scene": "The glowing map unlocks transit tubes leading away from the windy track.",
+ "options": [
+  "Ride glass elevator",
+  "Board steam train",
+  "Take star shuttle"
+ ],
+ "next": [
+  "c2-d2",
+  "c2-d3",
+  "c2-d4"
+ ],
+ "picture": "Side-scrolling view of a hub platform on the racetrack. On the far left, a round glass elevator awaits. Near left, the South Asian girl in her purple wheelchair inspects transit gates. At the centre dock, a tiny brass steam train puffs smoke. On the far right, a shiny star shuttle rests with hatch open.",
+ "shown": [
+  "a bubble-like glass elevator with sliding doors waiting on the far left",
+  "a brass puffing steam train halted at the centre platform dock",
+  "a sleek star shuttle resting with an open hatch on the far right"
+ ],
+ "view": "wide"
+}

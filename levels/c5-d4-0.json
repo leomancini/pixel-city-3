@@ -1,0 +1,21 @@
+{
+ "id": "c5-d4-0",
+ "scene": "The robot lifeguard beeps happily and hands you a shiny city pass.",
+ "options": [
+  "Take the pass",
+  "Enter castle doorway",
+  "Ride spiral slide"
+ ],
+ "next": [
+  "c5-d4-0-0",
+  "c5-d4-0-1",
+  "c5-d4-0-2"
+ ],
+ "picture": "Pixel art side-view along a level rooftop avenue. On the left, the robot lifeguard extends a mechanical hand holding a shiny golden city pass. Beside it, the dark-haired boy in red sneakers holds his skateboard. Centre has an open inflatable castle doorway. Far right, a yellow vinyl spiral slide coils down.",
+ "shown": [
+  "a golden badge held out by the robot lifeguard on the left",
+  "an arched purple doorway into an inflatable fortress at the centre",
+  "a giant yellow vinyl slide twisting downwards on the far right"
+ ],
+ "view": "wide"
+}

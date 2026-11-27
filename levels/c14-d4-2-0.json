@@ -1,0 +1,21 @@
+{
+ "id": "c14-d4-2-0",
+ "scene": "The trapdoor opens into an undercroft junction with three ready departures.",
+ "options": [
+  "Board bridge crawler",
+  "Climb into gondola",
+  "Ride mail train"
+ ],
+ "next": [
+  "c14-d1",
+  "c14-d2",
+  "c14-d3"
+ ],
+ "picture": "Flat side view of a tiled underground transfer platform. On the far left sits a multi-legged bronze crawler. Up high hangs a yellow window-cleaner gondola. The player stands at centre beside the open hatch, telescope on his shoulder, facing a small red mail train waiting on tracks to the far right.",
+ "shown": [
+  "a multi-legged bronze crawler idling on rails on the left",
+  "a yellow window-cleaner gondola hanging from cables up high",
+  "a small red mail train puffing steam on the right"
+ ],
+ "view": "wide"
+}

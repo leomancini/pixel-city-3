@@ -1,0 +1,21 @@
+{
+ "id": "c6-d4-1-2",
+ "scene": "You land safely on the gravel rooftop, facing three onward studio exits.",
+ "options": [
+  "Board night tram",
+  "Take service elevator",
+  "Row small boat"
+ ],
+ "next": [
+  "c6-d0",
+  "c6-d1",
+  "c6-d2"
+ ],
+ "picture": "Pixel art flat side view. On a flat gravel warehouse roof stands the boy in his denim jacket with round glasses and camera. On the left waits a yellow night tram with open doors on rails. In the centre sits an open iron service elevator cage. On the far right, a small wooden rowing boat rests in a full canal sluice.",
+ "shown": [
+  "a sleek yellow night tram waiting open-doored on a rooftop rail track on the left",
+  "an open cage service elevator with an illuminated control panel in the centre",
+  "a wooden rowing boat moored in an overflow drainage sluice on the far right"
+ ],
+ "view": "wide"
+}

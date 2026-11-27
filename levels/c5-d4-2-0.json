@@ -1,0 +1,21 @@
+{
+ "id": "c5-d4-2-0",
+ "scene": "Digging into foam, you unearth three tokens showing city transit hubs.",
+ "options": [
+  "Board red bus",
+  "Climb rope lift",
+  "Ride paddle steamer"
+ ],
+ "next": [
+  "c5-d1",
+  "c5-d2",
+  "c5-d3"
+ ],
+ "picture": "A bright pixel-art crossroads side-view. Far left, an open red double-decker bus waits beside a shelter. Centre, the boy with dark hair and red sneakers stands holding his skateboard and three shiny tokens. Up high swings an open rope-bridge lift basket. Far right, an idling paddle steamer bobs beside a sunlit pier.",
+ "shown": [
+  "a double-decker bus waiting with open doors on the far left street",
+  "a swinging rope-bridge lift basket hovering open in the high centre",
+  "a striped paddle steamer idling at a wooden pier on the far right"
+ ],
+ "view": "wide"
+}

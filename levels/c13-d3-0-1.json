@@ -1,0 +1,21 @@
+{
+ "id": "c13-d3-0-1",
+ "scene": "Your quick sketch causes secret station departures to whir wide open.",
+ "options": [
+  "Enter revolving lift",
+  "Board rooftop gondola",
+  "Climb into pod"
+ ],
+ "next": [
+  "c13-d1",
+  "c13-d2",
+  "c13-d4"
+ ],
+ "picture": "Flat side view along stone pavers. On the far left, a mirrored revolving door lift waits lit with neon. In the centre, the Pacific Islander girl stands with open sketchbook and pencil, facing forward. Up high, a suspended red gondola sways from a cable. On the far right rests an open glass tube pod.",
+ "shown": [
+  "a mirrored glass revolving door lift standing ready on the far left",
+  "an open red wicker gondola anchored mid-air up high at the top",
+  "a clear curved pneumatic tube pod sitting open on the far right"
+ ],
+ "view": "wide"
+}

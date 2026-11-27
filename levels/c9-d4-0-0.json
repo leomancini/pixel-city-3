@@ -1,0 +1,21 @@
+{
+ "id": "c9-d4-0-0",
+ "scene": "The grateful octopus chimes merrily, unlocking transit gates along the bustling platform.",
+ "options": [
+  "Board dragon train",
+  "Ride cable pod",
+  "Take bullet train"
+ ],
+ "next": [
+  "c9-d0",
+  "c9-d1",
+  "c9-d2"
+ ],
+ "picture": "Flat side view on a glowing elevated platform. On the left stands a sleek maglev dragon train with open doors. In the centre, the player in red bomber jacket and white skates stands beside an open glass cloud cable pod. On the right, a pink bullet train idles near a bright neon turnstile.",
+ "shown": [
+  "a sleek maglev dragon train waiting with open doors on the left",
+  "a round glass cloud cable pod swaying gently in the centre",
+  "a pink bullet train idling by a glowing gate on the right"
+ ],
+ "view": "wide"
+}

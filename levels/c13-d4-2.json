@@ -1,0 +1,21 @@
+{
+ "id": "c13-d4-2",
+ "scene": "Inside the warm wooden booth, switchboards blink beside a curious cat operator.",
+ "options": [
+  "Flip brass toggle",
+  "Greet the cat",
+  "Climb roof ladder"
+ ],
+ "next": [
+  "c13-d4-2-0",
+  "c13-d4-2-1",
+  "c13-d4-2-2"
+ ],
+ "picture": "Flat side-scrolling view inside the control booth along a wooden floor. Far left sits a blinking switchboard console. Centre sits a tuxedo cat with a headset on a stool. The girl stands left, sketchbook under arm. Right, a metal ladder leads up high through an open roof hatch to breezy air.",
+ "shown": [
+  "a humming console with bright switches and dials on the far left",
+  "a tuxedo cat wearing a tiny headset on a swivel stool at centre",
+  "a narrow metal ladder rising through an open ceiling hatch on the right"
+ ],
+ "view": "wide"
+}

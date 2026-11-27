@@ -1,0 +1,21 @@
+{
+ "id": "c13-d5-1-0",
+ "scene": "The projected star coordinates reveal three secret transit gates humming to life.",
+ "options": [
+  "Board carousel train",
+  "Enter tube pod",
+  "Ride paint tram"
+ ],
+ "next": [
+  "c13-d3",
+  "c13-d4",
+  "c13-d0"
+ ],
+ "picture": "A flat side view of the lab concourse. Far left, a brass carousel train with mechanical giraffes sits on polished tracks. Left of centre, the Pacific Islander player holds her sketchbook, glowing with starlight. Centre, an open glass pneumatic pod glows ready. Far right stands a vividly paint-splattered city tram with doors open.",
+ "shown": [
+  "a brass carousel train shaped like giraffes waiting on tracks far left",
+  "a glass pneumatic transit pod resting open on a platform centre",
+  "a brightly paint-splattered street tram with its door open on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c3-d5-2-2",
+ "scene": "You cross the creaky footbridge to the high transit junction.",
+ "options": [
+  "Hail bicycle rickshaw",
+  "Take staircase lift",
+  "Board wheel gondola"
+ ],
+ "next": [
+  "c3-d3",
+  "c3-d4",
+  "c3-d0"
+ ],
+ "picture": "Flat side view along the wooden transit platform. On the far left waits a yellow bicycle rickshaw with a cap-wearing driver. Centre stands a brass spiral staircase lift cage with an open gate. The player stands between them facing right. On the far right hangs a striped open gondola of a giant ferris wheel.",
+ "shown": [
+  "A yellow bicycle rickshaw with an idle driver waiting on the far left. Below. Along the deck.",
+  "A brass spiral staircase lift with open sliding gates in the centre.",
+  "A striped ferris wheel gondola hanging open at a platform on the far right."
+ ],
+ "view": "wide"
+}

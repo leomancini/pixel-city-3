@@ -1,0 +1,21 @@
+{
+ "id": "c14-d3-1",
+ "scene": "The clanking sorting robot whirs happily and dispenses a glowing parcel.",
+ "options": [
+  "Take glowing parcel",
+  "Climb luggage conveyor",
+  "Check lost cat"
+ ],
+ "next": [
+  "c14-d3-1-0",
+  "c14-d3-1-1",
+  "c14-d3-1-2"
+ ],
+ "picture": "Flat side view. Along the floor, on the far left, a striped cat sleeps in a cardboard box. Left of centre stands the player, facing right. Centre, the wheeled sorting robot extends an arm holding a glowing parcel. Right, an inclined conveyor belt leads up toward an overhead hatch.",
+ "shown": [
+  "a glowing blue parcel held in the sorting robot's mechanical arm at centre",
+  "a rumbling rubber luggage conveyor belt sloping up high on the right",
+  "a striped tabby cat sleeping inside an open cardboard box on the far left"
+ ],
+ "view": "wide"
+}

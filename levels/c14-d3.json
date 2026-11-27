@@ -1,0 +1,21 @@
+{
+ "id": "c14-d3",
+ "scene": "You step from the mail train into the echoing lost property depot.",
+ "options": [
+  "Inspect yellow chest",
+  "Greet sorting robot",
+  "Search umbrella rack"
+ ],
+ "next": [
+  "c14-d3-0",
+  "c14-d3-1",
+  "c14-d3-2"
+ ],
+ "picture": "Flat side view. Along one platform, the red mail train stands open on the left. The player, a middle-aged Black man with grey beard, prosthetic leg, orange corduroy jacket, beanie, and brass telescope, stands left of centre. Far left sits a locked yellow chest. Centre is a wheeled sorting robot. Right stands an umbrella rack.",
+ "shown": [
+  "a locked bright yellow chest on the platform floor on the far left",
+  "a clunky wheeled sorting robot holding a feather duster in the centre",
+  "a tall metal rack brimming with colourful hooked umbrellas on the right"
+ ],
+ "view": "wide"
+}

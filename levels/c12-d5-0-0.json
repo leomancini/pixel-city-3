@@ -1,0 +1,21 @@
+{
+ "id": "c12-d5-0-0",
+ "scene": "The sour drink sparkles, unveiling three glowing transit gates ahead.",
+ "options": [
+  "Ride garden tram",
+  "Board retro streetcar",
+  "Catch bento express"
+ ],
+ "next": [
+  "c12-d0",
+  "c12-d1",
+  "c12-d2"
+ ],
+ "picture": "Flat side-view across a wide greenhouse transit hall. On the far left sits a vine-covered garden tram with open doors. Left, the grandfather stands holding his bicycle with crate of plants. Centre, a brass retro streetcar steams on tracks. Far right, a sleek red bento express train waits beside a lit sign.",
+ "shown": [
+  "a vine-covered green garden tram waiting with open doors on the far left",
+  "a steaming brass retro streetcar parked at a tiled stop in the centre",
+  "a sleek red bento express train resting beside an open platform on the far right"
+ ],
+ "view": "wide"
+}

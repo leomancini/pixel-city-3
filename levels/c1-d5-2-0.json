@@ -1,0 +1,21 @@
+{
+ "id": "c1-d5-2-0",
+ "scene": "A secret parchment map reveals transit routes leading out of the mill.",
+ "options": [
+  "Ride the monorail",
+  "Take the funicular",
+  "Hire the rickshaw"
+ ],
+ "next": [
+  "c1-d1",
+  "c1-d2",
+  "c1-d3"
+ ],
+ "picture": "Side-view pixel art of the mill loading bay. On the far left sits a waiting brass rickshaw. Left of centre, the elderly player leans on his cane beside the drying racks. Up high along the top runs a monorail platform. On the right, a glass-walled funicular car rests on steep tracks.",
+ "shown": [
+  "a sleek monorail car idling at an elevated platform up high",
+  "a sloped funicular car waiting on a steep track on the right",
+  "a brass rickshaw with a robot driver waiting on the far left"
+ ],
+ "view": "wide"
+}

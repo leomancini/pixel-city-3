@@ -1,0 +1,21 @@
+{
+ "id": "c1-d5",
+ "scene": "You step off the hand-cranked trolley into vibrant Fountain Pen Lane.",
+ "options": [
+  "Inspect ink barrel",
+  "Greet writing robot",
+  "Enter paper mill"
+ ],
+ "next": [
+  "c1-d5-0",
+  "c1-d5-1",
+  "c1-d5-2"
+ ],
+ "picture": "Side-view pixel art along a cobbled street. Far left, the wooden trolley sits on rails beside a leaky blue ink barrel. Centre, the elderly East Asian player in blue cap and orange cardigan leans on his cane. Right, a brass robot writes at a table. Far right, an open paper mill doorway awaits beneath drying sheets.",
+ "shown": [
+  "a leaking wooden barrel of glowing blue ink on the far left",
+  "a brass automaton dipping a quill at a desk on the right",
+  "an open archway door beneath hanging drying sheets on the far right"
+ ],
+ "view": "wide"
+}

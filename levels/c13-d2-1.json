@@ -1,0 +1,21 @@
+{
+ "id": "c13-d2-1",
+ "scene": "The brass projector shoots glowing blue cat cartoons straight into the clouds.",
+ "options": [
+  "Insert slide reel",
+  "Grab glowing umbrella",
+  "Climb spiral ladder"
+ ],
+ "next": [
+  "c13-d2-1-0",
+  "c13-d2-1-1",
+  "c13-d2-1-2"
+ ],
+ "picture": "Pixel art rooftop in flat side view. Left, a glowing beam arcs skyward from a polished brass cloud projector. Centre, the Pacific Islander teenage girl in sky-blue windbreaker adjusts brass dials, beside slide reels. Right, an empty red striped deckchair holds a neon umbrella. Far right, a metal spiral ladder ascends the marquee tower.",
+ "shown": [
+  "a circular rack of glass slide reels on the projector's side, centre",
+  "a forgotten neon-rimmed umbrella propped against an empty striped deckchair on the right",
+  "a painted metal fire ladder attached to the cinema marquee, far right"
+ ],
+ "view": "wide"
+}

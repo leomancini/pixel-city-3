@@ -1,0 +1,21 @@
+{
+ "id": "c14-d1-0",
+ "scene": "The vendor hands you a steaming bowl of glowing cyan broth.",
+ "options": [
+  "Drink the soup",
+  "Examine spice bottles",
+  "Board gear tram"
+ ],
+ "next": [
+  "c14-d1-0-0",
+  "c14-d1-0-1",
+  "c14-d1-0-2"
+ ],
+ "picture": "A flat side view along the steel bridge. On the far left, a vendor stands inside his wheeled soup cart. Left of centre, the player in his orange jacket holds a steaming cyan bowl. Beside him at centre rests the counter with spice bottles. Far right waits the yellow tram with open doors.",
+ "shown": [
+  "The steaming bowl of cyan broth held in your hands at centre",
+  "Three labelled glass spice bottles sitting on the cart counter on the left",
+  "A bright yellow gear tram waiting open at the far right"
+ ],
+ "view": "wide"
+}

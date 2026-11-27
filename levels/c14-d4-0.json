@@ -1,0 +1,21 @@
+{
+ "id": "c14-d4-0",
+ "scene": "You lean over the cluttered worktable, examining intricate bent glass tubes.",
+ "options": [
+  "Test gas canister",
+  "Read handwritten schematic",
+  "Light mini torch"
+ ],
+ "next": [
+  "c14-d4-0-0",
+  "c14-d4-0-1",
+  "c14-d4-0-2"
+ ],
+ "picture": "Close-up view of the wooden worktable top through the player's eyes. On the left rests an upright teal gas canister with dual brass gauges. In the centre lies a faded blue blueprint schematic held down by an iron ruler. On the right, a brass mini torch sits cold upon a bent wire stand.",
+ "shown": [
+  "A small teal gas canister with brass valves sits on the left.",
+  "A blue crumpled diagram pinned flat under a ruler at the centre.",
+  "A brass-tipped glassblowing torch resting cold on a rack on the right."
+ ],
+ "view": "close"
+}

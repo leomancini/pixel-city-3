@@ -1,0 +1,21 @@
+{
+ "id": "c8-d5-2-1",
+ "scene": "The glowing ledger displays transit tickets stamped with three exotic city destinations.",
+ "options": [
+  "Board hover bus",
+  "Summon gondola drone",
+  "Take spiral tram"
+ ],
+ "next": [
+  "c8-d2",
+  "c8-d3",
+  "c8-d4"
+ ],
+ "picture": "Flat side view. Inside the foyer, the silver-haired grandmother in pink tracksuit stands with her white dog before the glowing pedestal. On the left, open French doors reveal a floating red double-decker hover bus. Centre stands a brass dock with a call lever. On the right, a colourful spiral tram waits on tracks.",
+ "shown": [
+  "a double-decker red hover bus floating outside the tall open French doors on the left",
+  "a brass gondola drone dock with an active call lever in the centre",
+  "a painted spiral tram idling at an interior track platform on the right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c9-d5-1-1",
+ "scene": "You climb onto the bustling transit deck perched high above the stormy city.",
+ "options": [
+  "Ride sky rail",
+  "Board dragon train",
+  "Take cable pod"
+ ],
+ "next": [
+  "c9-d4",
+  "c9-d0",
+  "c9-d1"
+ ],
+ "picture": "Pixel art flat side view of a rooftop transit platform. On the left, a yellow sky rail car sits open. Left of centre, the player stands in her red bomber jacket and roller skates. At centre, a maglev dragon train rests by a gate. On the far right, a cloud cable pod dangles.",
+ "shown": [
+  "a sleek yellow sky rail car with an open door on the left",
+  "a glowing maglev dragon train waiting patiently at the centre platform gate",
+  "a spherical glass cloud cable pod swaying gently on the far right"
+ ],
+ "view": "wide"
+}

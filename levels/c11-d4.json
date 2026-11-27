@@ -1,0 +1,21 @@
+{
+ "id": "c11-d4",
+ "scene": "You step off the pod onto the mirrored floor of the mall.",
+ "options": [
+  "Browse glowing sneakers",
+  "Touch bubbling slime",
+  "Pose for robot"
+ ],
+ "next": [
+  "c11-d4-0",
+  "c11-d4-1",
+  "c11-d4-2"
+ ],
+ "picture": "Side-view pixel art of the shiny mall floor. On far left, a shelf displays glowing sneakers. Center-left, the boy with silver hair, mint hoodie, headphones, and dance bag stands by a brass escalator pod. Center, a fountain bubbles green slime. Right, a selfie robot hovers. Far right shows glass maze corridors.",
+ "shown": [
+  "a shelf of neon kicks on the wall at the far left",
+  "a tiered fountain spewing green goo, bubbling in the centre",
+  "a floating spherical selfie robot blinking a camera lens on the right"
+ ],
+ "view": "wide"
+}

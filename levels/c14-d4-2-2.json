@@ -1,0 +1,21 @@
+{
+ "id": "c14-d4-2-2",
+ "scene": "The opened breaker box powers up transit chutes and depot gates across town.",
+ "options": [
+  "Board mail train",
+  "Hop in sidecar",
+  "Ride night funicular"
+ ],
+ "next": [
+  "c14-d3",
+  "c14-d5",
+  "c14-d0"
+ ],
+ "picture": "Flat side-view along the workshop's opened back bay. The player stands beside the open breaker box. On the far left waits a yellow mail train in an open tube hatch. In the centre idle a courier on a teal motorbike with empty sidecar. On the right, a brass night funicular sits at its dock.",
+ "shown": [
+  "a pneumatic mail train idling at an open hatch on the far left",
+  "a teal motorbike with empty sidecar idling at a garage ramp centre",
+  "a glowing brass funicular car stopped beside a steel platform on the right"
+ ],
+ "view": "wide"
+}

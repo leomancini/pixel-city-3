@@ -1,0 +1,21 @@
+{
+ "id": "c7-d5-0",
+ "scene": "The friendly vendor hands you warm roasted chestnuts from his glowing cart.",
+ "options": [
+  "Eat hot chestnut",
+  "Read menu board",
+  "Hop on skates"
+ ],
+ "next": [
+  "c7-d5-0-0",
+  "c7-d5-0-1",
+  "c7-d5-0-2"
+ ],
+ "picture": "Side-view pixel art of a snowy fairground path. On the far left, a vendor in a thick fur hat beams behind his copper chestnut cart. Left of centre, the boy in the orange puffer vest holds a paper cone. At centre hangs a chalkboard menu. On the far right sit iron ice skates.",
+ "shown": [
+  "a paper cone of piping-hot roasted chestnuts held in your hand on the left",
+  "a chalkboard listing curious winter treats hanging on the cart at centre",
+  "a pair of polished iron ice skates resting on the snow far right"
+ ],
+ "view": "wide"
+}

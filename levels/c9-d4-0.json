@@ -1,0 +1,21 @@
+{
+ "id": "c9-d4-0",
+ "scene": "A mechanical octopus barista whirs behind the neon counter, mixing your drink.",
+ "options": [
+  "Tip brass coin",
+  "Drink purple smoothie",
+  "Grab holographic map"
+ ],
+ "next": [
+  "c9-d4-0-0",
+  "c9-d4-0-1",
+  "c9-d4-0-2"
+ ],
+ "picture": "A first-person view of the smoothie counter. In the centre, the player's hand holds a tall glass of bubbling purple liquid with a striped straw. On the left rests an empty glass jar labelled Tips. On the right sits a rolled blue holographic flyer glowing with street coordinates.",
+ "shown": [
+  "a gleaming glass tip jar on the counter to the left",
+  "a foaming purple beverage in a tall cup held in the centre",
+  "a flickering rolled city map lying on the bar counter on the right"
+ ],
+ "view": "close"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c8-d5-2",
+ "scene": "Tick-tocking gears echo through the mansion's vast velvet foyer.",
+ "options": [
+  "Wind silver grandfather",
+  "Read glowing ledger",
+  "Climb spiral staircase"
+ ],
+ "next": [
+  "c8-d5-2-0",
+  "c8-d5-2-1",
+  "c8-d5-2-2"
+ ],
+ "picture": "Flat side view. Inside the grand foyer, the silver-haired grandmother in pink tracksuit stands on the red carpet holding her small white dog's lead. On the far left stands a towering silver grandfather clock. Centre sits an open glowing ledger on a pedestal. On the far right, a winding brass spiral staircase ascends upward.",
+ "shown": [
+  "a towering silver grandfather clock ticking steadily on the far left",
+  "an open ledger glowing with cyan script on a mahogany pedestal centre",
+  "a winding brass spiral staircase leading upwards on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c14-d5-0",
+ "scene": "The brass mechanical parrot clicks, blinking green diodes and clacking its beak.",
+ "options": [
+  "Insert copper coin",
+  "Turn brass key",
+  "Read engraved tag"
+ ],
+ "next": [
+  "c14-d5-0-0",
+  "c14-d5-0-1",
+  "c14-d5-0-2"
+ ],
+ "picture": "Close-up first-person view of the brass mechanical parrot perched on a scarred wooden stand. In the centre, the parrot's metal chest displays a thin vertical coin slot. On the left, a brass winding key sticks out from its wing. On the right, a stamped metal label hangs from the perch ring.",
+ "shown": [
+  "a slender coin slot in the brass parrot's chest, centred in the frame",
+  "a polished brass windup key protruding from the parrot's wing on the left",
+  "a dangling stamped copper label hanging from the perch on the right"
+ ],
+ "view": "close"
+}

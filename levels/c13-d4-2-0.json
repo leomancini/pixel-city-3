@@ -1,0 +1,21 @@
+{
+ "id": "c13-d4-2-0",
+ "scene": "The toggle clangs, swinging open three vibrant exit portals across the room.",
+ "options": [
+  "Enter revolving lift",
+  "Board rooftop gondola",
+  "Board carousel train"
+ ],
+ "next": [
+  "c13-d1",
+  "c13-d2",
+  "c13-d3"
+ ],
+ "picture": "Flat side-scrolling view across a widened station floor. Far left stands a glowing brass revolving lift door. Left of centre, the girl stands by the switchboard. Up high hangs an open docked sky gondola. Centre, the tuxedo cat sits grinning. Far right, an ornate clockwork carousel train waits on shiny tracks with doors open.",
+ "shown": [
+  "a glowing brass revolving door lift on the far left, idling open",
+  "a painted aerial gondola waiting docked beneath the ceiling hatch up high",
+  "a winding clockwork carousel train stopped at a platform on the far right"
+ ],
+ "view": "wide"
+}

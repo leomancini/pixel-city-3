@@ -1,0 +1,21 @@
+{
+ "id": "c6-d4-2",
+ "scene": "Inside the diner prop, neon signs hum above a mysterious silver jukebox.",
+ "options": [
+  "Play the jukebox",
+  "Grab prop burger",
+  "Open kitchen doors"
+ ],
+ "next": [
+  "c6-d4-2-0",
+  "c6-d4-2-1",
+  "c6-d4-2-2"
+ ],
+ "picture": "Pixel art flat side view of diner interior. Along the bottom, a chrome jukebox glows on the far left. The curly-haired boy in denim stands near centre beside a long diner counter holding a rubber burger on a plate. Red vinyl stools line the counter. On the far right, double kitchen doors wait closed.",
+ "shown": [
+  "a chrome retro jukebox glowing purple on the far left",
+  "a glossy rubber hamburger resting on the centre counter",
+  "a pair of swinging silver doors on the far right"
+ ],
+ "view": "wide"
+}

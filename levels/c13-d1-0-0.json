@@ -1,0 +1,21 @@
+{
+ "id": "c13-d1-0-0",
+ "scene": "The tapestry parts, revealing three curious transit portals out in the museum terrace.",
+ "options": [
+  "Board paint tram",
+  "Ride rooftop gondola",
+  "Catch carousel train"
+ ],
+ "next": [
+  "c13-d0",
+  "c13-d2",
+  "c13-d3"
+ ],
+ "picture": "A flat side view along the open museum terrace. At the left of centre stands the girl in her windbreaker with sketchbook. Far left sits the paint-splattered tram on rails. In the centre hangs a striped rooftop gondola. At far right, the clockwork carousel train puffs brass steam beside a small turnstile.",
+ "shown": [
+  "a colorful paint-splattered tram waiting with open doors on tracks at the far left",
+  "a striped rooftop gondola swaying gently from an overhead cable in the centre",
+  "a gleaming brass clockwork carousel train idling at a ticket gate on the far right"
+ ],
+ "view": "wide"
+}

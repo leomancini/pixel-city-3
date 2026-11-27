@@ -1,0 +1,21 @@
+{
+ "id": "c8-d4-1",
+ "scene": "The giant orange cat purrs loudly, rolling over to reveal glowing keys.",
+ "options": [
+  "Take glowing keys",
+  "Drink bubbling kettle",
+  "Climb spiral stairs"
+ ],
+ "next": [
+  "c8-d4-1-0",
+  "c8-d4-1-1",
+  "c8-d4-1-2"
+ ],
+ "picture": "A flat side-view pixel interior. On the far left, an ornate iron spiral staircase leads upward. In the centre, grandmother in her pink tracksuit pats the rolled-over giant orange cat while her white dog sniffs its tail, revealing three glowing brass keys on the cat's collar. On the right, a jade kettle steams atop the counter.",
+ "shown": [
+  "a loop of three glowing brass keys hanging from the cat's collar, centre",
+  "a steaming jade kettle whistling merrily on the service counter, right",
+  "a narrow wrought-iron spiral staircase winding upward, far left"
+ ],
+ "view": "wide"
+}

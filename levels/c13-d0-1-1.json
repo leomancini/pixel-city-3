@@ -1,0 +1,21 @@
+{
+ "id": "c13-d0-1-1",
+ "scene": "The drone projects three glowing transit routes across the bustling plaza.",
+ "options": [
+  "Enter bubble lift",
+  "Step into door",
+  "Board rooftop gondola"
+ ],
+ "next": [
+  "c13-d5",
+  "c13-d1",
+  "c13-d2"
+ ],
+ "picture": "A wide flat side-scrolling view along the paved street. The Pacific Islander girl stands left of centre holding the humming drone, with her sketchbook tucked underarm. On the far left, a spherical iridescent bubble lift waits open. Centre, a mirrored revolving door sits in a wall. Far right, a yellow gondola cabin rests at a loading platform.",
+ "shown": [
+  "an iridescent glass bubble lift hovering near the ground on the far left",
+  "a mirrored revolving door entrance glowing warmly in the centre wall",
+  "a yellow gondola car dangling from an overhead cable on the right"
+ ],
+ "view": "wide"
+}

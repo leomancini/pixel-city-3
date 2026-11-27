@@ -1,0 +1,21 @@
+{
+ "id": "c14-d1-2-2",
+ "scene": "Brakes hiss and you step onto the terminal plaza between three departures.",
+ "options": [
+  "Flag tow truck",
+  "Hail sidecar bike",
+  "Take night funicular"
+ ],
+ "next": [
+  "c14-d4",
+  "c14-d5",
+  "c14-d0"
+ ],
+ "picture": "Side-view pixel art of a bustling transit plaza along one ground line. On the far left is the yellow tram's open exit door. Next, a yellow tow truck with neon signs on its bed idles, its driver waving. Centre stands the bearded player. To his right waits a sidecar motorbike, and far right stands a lit glass funicular car on sloped rails.",
+ "shown": [
+  "a crane-mounted neon tow truck idling with its driver waving on the left",
+  "a rumbling motorbike with an empty sidecar waiting parked on the right",
+  "a glowing glass funicular cabin parked on tilted rails at the far right"
+ ],
+ "view": "wide"
+}

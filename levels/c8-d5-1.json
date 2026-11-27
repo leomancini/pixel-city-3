@@ -1,0 +1,21 @@
+{
+ "id": "c8-d5-1",
+ "scene": "The brass gardener whirs, offering a polished copper key.",
+ "options": [
+  "Take the key",
+  "Tap chest panel",
+  "Enter front doors"
+ ],
+ "next": [
+  "c8-d5-1-0",
+  "c8-d5-1-1",
+  "c8-d5-1-2"
+ ],
+ "picture": "Flat side view. On the left stands the grandmother in her pink tracksuit and glasses, holding the leash of her white dog. Centre stands the brass robot gardener holding giant shears in one hand and offering a copper key on its open palm. On the far right wait the mansion's tall, slightly open double doors.",
+ "shown": [
+  "the copper key resting flat on the robot gardener's outstretched palm at centre",
+  "a glowing blue dial set into the robot gardener's chest on the left",
+  "the pair of towering double doors standing slightly ajar on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c6-d4-1-0",
+ "scene": "Through the camera viewfinder, three dazzling exits across the backlot come into view.",
+ "options": [
+  "Take freight lift",
+  "Climb scissor lift",
+  "Board night tram"
+ ],
+ "next": [
+  "c6-d3",
+  "c6-d5",
+  "c6-d0"
+ ],
+ "picture": "Pixel art close view through the circular camera viewfinder with crosshairs. Visible through the lens: on the far left, an open industrial freight lift; in the centre, an extended orange scissor lift basket; on the far right, a glowing green night tram waiting by an illuminated sign. Hands grip the viewfinder edges.",
+ "shown": [
+  "a heavy steel freight lift cage hanging open on the far left",
+  "an orange scissor lift extended upward in the centre of the view",
+  "a lit night tram waiting with doors open on the far right"
+ ],
+ "view": "wide"
+}

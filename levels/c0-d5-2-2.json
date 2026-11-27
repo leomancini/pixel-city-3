@@ -1,0 +1,21 @@
+{
+ "id": "c0-d5-2-2",
+ "scene": "Out the back, rain sweeps across a busy transit hub plaza.",
+ "options": [
+  "Ride street tram",
+  "Board night bus",
+  "Take harbour ferry"
+ ],
+ "next": [
+  "c0-d3",
+  "c0-d4",
+  "c0-d0"
+ ],
+ "picture": "A flat side view of an outdoor transit plaza under gentle rain. On the far left sits a yellow street tram on tracks. The player in yellow raincoat, round afro, and green boots stands left of centre holding a red umbrella. In the centre waits a purple night bus. On the far right, a blue ferry floats.",
+ "shown": [
+  "a yellow street tram idling with doors open on the far left tracks",
+  "a glowing purple night bus parked with hazard lights blinking at the centre stop",
+  "a blue harbour ferry moored to a wooden dock on the far right"
+ ],
+ "view": "wide"
+}

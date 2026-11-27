@@ -1,0 +1,21 @@
+{
+ "id": "c14-d0-2",
+ "scene": "Through the brass lens, crosshairs frame neon towers and passing airships.",
+ "options": [
+  "Track glowing airship",
+  "Focus rooftop garden",
+  "Turn focus wheel"
+ ],
+ "next": [
+  "c14-d0-2-0",
+  "c14-d0-2-1",
+  "c14-d0-2-2"
+ ],
+ "picture": "First-person close-up through the circular telescope lens, bordered by a brass ring. Inside the illuminated view: on the left, a purple-and-gold striped airship floats steadily; in the centre, crosshairs center upon a rooftop greenhouse filled with glowing ferns; on the right, the telescope's notched focus dial curves into view.",
+ "shown": [
+  "a striped purple airship adrift across the open sky on the left",
+  "a brightly lit glass greenhouse perched atop a spire in the centre",
+  "a notched brass adjustment dial mounted near the eyepiece on the right"
+ ],
+ "view": "close"
+}

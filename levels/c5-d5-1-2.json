@@ -1,0 +1,21 @@
+{
+ "id": "c5-d5-1-2",
+ "scene": "You plunge down through the skylight, landing softly inside the rooftop concourse.",
+ "options": [
+  "Board shuttle",
+  "Catch double-decker",
+  "Ride rope lift"
+ ],
+ "next": [
+  "c5-d0",
+  "c5-d1",
+  "c5-d2"
+ ],
+ "picture": "A wide side-view rooftop transit concourse along a level tiled walkway. The dark-haired boy in red sneakers stands holding his skateboard. On the left waits a neon-trimmed skate-park shuttle with open doors. In the centre sits a red double-decker bus. On the right hangs an open wooden rope-bridge lift basket.",
+ "shown": [
+  "a neon skate-park shuttle idling with doors open on the left",
+  "a tall red double-decker bus waiting at a kerb in the centre",
+  "a swinging wooden rope-bridge lift hanging from cables on the right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c1-d4-1",
+ "scene": "The brass automaton twitches its brass fingers, waiting across the game board.",
+ "options": [
+  "Advance the pawn",
+  "Examine the clock",
+  "Slide the rook"
+ ],
+ "next": [
+  "c1-d4-1-0",
+  "c1-d4-1-1",
+  "c1-d4-1-2"
+ ],
+ "picture": "A close first-person view of the intricately inlaid wooden chessboard filling the table. On the left rests a white wooden pawn. In the centre between the board halves sits a polished dual brass chess timer with ticking levers. On the right, a heavy carved marble rook awaits. Two brass automaton fingers hover nearby.",
+ "shown": [
+  "A carved wooden white pawn sitting on a square at the left",
+  "A brass dual chess timer ticking softly in the centre",
+  "A heavy marble rook perched quietly on the right"
+ ],
+ "view": "close"
+}

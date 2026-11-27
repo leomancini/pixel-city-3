@@ -1,0 +1,21 @@
+{
+ "id": "c13-d2-1-2",
+ "scene": "You summit the breezy marquee catwalk, where three vibrant transit connections await.",
+ "options": [
+  "Board splattered tram",
+  "Enter revolving lift",
+  "Ride carousel train"
+ ],
+ "next": [
+  "c13-d0",
+  "c13-d1",
+  "c13-d3"
+ ],
+ "picture": "Pixel art marquee catwalk in flat side view. Far left, a paint-splattered tram waits at a raised depot. Left, the Pacific Islander teenage girl stands beside the top railing, sketchbook under her arm. Centre, a brass-framed revolving door lift glows with indoor light. Far right, a miniature clockwork carousel train with animal cars sits purring on tracks.",
+ "shown": [
+  "a paint-splattered sky tram docked along the rail on the far left",
+  "an ornate glass revolving door lift standing closed at the centre",
+  "a winding brass clockwork carousel train idling on the far right"
+ ],
+ "view": "wide"
+}

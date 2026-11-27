@@ -1,0 +1,21 @@
+{
+ "id": "c1-d5-1-2",
+ "scene": "Inside the loud paper mill, three distinct transit bays await passengers.",
+ "options": [
+  "Board water taxi",
+  "Ride the monorail",
+  "Catch the funicular"
+ ],
+ "next": [
+  "c1-d0",
+  "c1-d1",
+  "c1-d2"
+ ],
+ "picture": "Side-view pixel art of a bustling factory floor. Left, a striped water taxi bobs in an indoor canal slipway. Centre-left, the elderly East Asian man in blue cap and orange cardigan stands holding his cane. Up high, an electric monorail door sits open. Far right, a red funicular railway car sits on steel rails.",
+ "shown": [
+  "a striped canal water taxi moored at a wooden slipway on the left",
+  "a sleek yellow monorail car idling at an elevated platform up high",
+  "a red angled funicular railway car waiting at a ramp on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c0-d5-0-0",
+ "scene": "Your umbrella tip sparks, unlocking three bustling transit gates along the park.",
+ "options": [
+  "Board harbour ferry",
+  "Ride cable car",
+  "Enter subway train"
+ ],
+ "next": [
+  "c0-d0",
+  "c0-d1",
+  "c0-d2"
+ ],
+ "picture": "A side view along Puddle Park. The player in yellow raincoat and green boots stands centre, holding her red umbrella pointed at a sparkling puddle. On the far left, a neon ferry sits docked at water. Up high, an orange cable car waits at a tower. On the far right, subway stairs glow.",
+ "shown": [
+  "a sleek neon ferry moored at a wooden pier on the far left",
+  "an orange cable car hanging open at a pylon platform up high",
+  "a glowing turquoise subway stairwell descending underground on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c4-d5-1-0",
+ "scene": "Laced skates hum vibrantly, rolling you directly onto the transit concourse.",
+ "options": [
+  "Board cable tram",
+  "Take garden gondola",
+  "Board river barge"
+ ],
+ "next": [
+  "c4-d3",
+  "c4-d4",
+  "c4-d0"
+ ],
+ "picture": "A flat side view along a wide marble transit concourse. On the far left, a glass mountain cable tram waits with open doors. The player stands centre-left wearing glowing neon skates, lilac headscarf, and mustard coat. At centre, a striped garden gondola bobs at a mooring, while a lantern-lit river barge rests on the far right.",
+ "shown": [
+  "a glass mountain cable tram waiting with doors open on the far left",
+  "a striped garden gondola bobbing beside a platform mooring at centre",
+  "a lantern-lit wooden river barge docked quietly on the far right"
+ ],
+ "view": "wide"
+}

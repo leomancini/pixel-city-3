@@ -1,0 +1,21 @@
+{
+ "id": "c9-d5-1",
+ "scene": "The friendly robot scientist beeps happily and offers you a glowing blueprint.",
+ "options": [
+  "Read glowing blueprint",
+  "Climb roof ladder",
+  "Open tool chest"
+ ],
+ "next": [
+  "c9-d5-1-0",
+  "c9-d5-1-1",
+  "c9-d5-1-2"
+ ],
+ "picture": "Pixel art flat side view of the rooftop lab. On the far left sits a closed red metal tool chest. Left of centre, the player in red bomber jacket and white roller skates faces centre. At centre, a wheeled metal robot holds out a glowing blueprint. On the far right, a tall ladder rises upward.",
+ "shown": [
+  "a neon-blue rolled blueprint held out by the robot scientist in the centre",
+  "a tall metal ladder on the far right leading up to storm clouds",
+  "a heavy closed red tool chest resting on the far left"
+ ],
+ "view": "wide"
+}

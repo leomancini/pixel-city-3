@@ -1,0 +1,21 @@
+{
+ "id": "c13-d3-1-0",
+ "scene": "Turning the golden key opens three transit gates along the brass wall.",
+ "options": [
+  "Enter pneumatic pod",
+  "Board bubble lift",
+  "Catch splattered tram"
+ ],
+ "next": [
+  "c13-d4",
+  "c13-d5",
+  "c13-d0"
+ ],
+ "picture": "Side-scrolling view of the aviary station platform. On the far left, a glass pneumatic tube pod rests open. Centre-left stands the girl, windbreaker on, clutching the gold key. In the centre, an iridescent spherical bubble lift hovers. On the far right, a paint-splattered yellow tram idles with open double doors.",
+ "shown": [
+  "A clear pneumatic capsule pod sitting open on tracks on the far left",
+  "An iridescent glass bubble cage floating above a brass ring in the centre",
+  "A brightly paint-splattered trolley tram waiting with open doors on the far right"
+ ],
+ "view": "wide"
+}

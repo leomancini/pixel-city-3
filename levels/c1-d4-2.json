@@ -1,0 +1,21 @@
+{
+ "id": "c1-d4-2",
+ "scene": "The jasmine tea is fragrant, revealing a tiny metal key inside the cup.",
+ "options": [
+  "Grab the key",
+  "Turn the valve",
+  "Open roof hatch"
+ ],
+ "next": [
+  "c1-d4-2-0",
+  "c1-d4-2-1",
+  "c1-d4-2-2"
+ ],
+ "picture": "Close first-person view of a porcelain teacup held on a brass saucer in the centre, amber tea swirling to reveal a brass key at the bottom. To the left, a polished samovar pipe with a turning wheel valve. On the right, a folded napkin beside an iron spiral stair base.",
+ "shown": [
+  "a shiny tiny metal key gleaming at the bottom of the teacup, centre",
+  "a sputtering brass steam valve attached to the samovar pipe, left",
+  "an iron spiral ladder leading up to an open ceiling trapdoor, right"
+ ],
+ "view": "close"
+}

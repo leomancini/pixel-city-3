@@ -1,0 +1,21 @@
+{
+ "id": "c11-d4-1-1",
+ "scene": "The cleaning bot rolls over, projecting exit paths onto the mirrored wall.",
+ "options": [
+  "Take freight elevator",
+  "Board light rail",
+  "Step on walkway"
+ ],
+ "next": [
+  "c11-d5",
+  "c11-d0",
+  "c11-d1"
+ ],
+ "picture": "Side-view pixel art along a reflective floor. Far left, an open steel freight elevator glows yellow. Left, the silver-haired boy with dance bag watches a chrome cleaning droid project transit signs. Centre, a sleek light-rail pod waits with doors slid apart. Right, an illuminated map kiosk. Far right, an active moving walkway glides into an archway.",
+ "shown": [
+  "a sturdy steel freight elevator with yellow warning lights on the far left",
+  "a sleek floating light-rail pod docked at a glass barrier in the centre",
+  "a glowing rubber moving walkway rolling steadily towards a tunnel on the far right"
+ ],
+ "view": "wide"
+}

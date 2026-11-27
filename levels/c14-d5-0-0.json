@@ -1,0 +1,21 @@
+{
+ "id": "c14-d5-0-0",
+ "scene": "The parrot screeches, spitting tickets toward three newly unlatched transit doors.",
+ "options": [
+  "Ride night funicular",
+  "Board bridge crawler",
+  "Take cleaner gondola"
+ ],
+ "next": [
+  "c14-d0",
+  "c14-d1",
+  "c14-d2"
+ ],
+ "picture": "Side-view workshop interior. On the far left sits a funicular cabin behind an open gate. Next stands the workbench with the glowing brass parrot. In the centre, the player stands holding three punched tickets. To the right, a bridge crawler capsule sits open, and far right, a yellow gondola awaits.",
+ "shown": [
+  "a striped funicular cabin waiting behind an open metal gate on the far left",
+  "a round bridge-crawler capsule docked with its hatch open on the right",
+  "a yellow window-cleaner gondola swinging gently beside a balcony on the far right"
+ ],
+ "view": "wide"
+}

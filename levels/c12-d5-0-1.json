@@ -1,0 +1,21 @@
+{
+ "id": "c12-d5-0-1",
+ "scene": "A ticket machine hides behind the glowing fruit, offering rides outward.",
+ "options": [
+  "Board retro streetcar",
+  "Ride bento express",
+  "Take koi boat"
+ ],
+ "next": [
+  "c12-d1",
+  "c12-d2",
+  "c12-d3"
+ ],
+ "picture": "Flat side-view across the greenhouse transit platform. Far left, a cream-and-orange retro streetcar idles at a rail stop. Left of centre, the player stands pushing his plant-bearing bicycle beside a glowing fruit basket. Centre, a red bento express train waits. Far right, an ornate koi boat rests against a wooden canal pier.",
+ "shown": [
+  "a rumbling cream-and-orange retro streetcar waiting on the far left",
+  "a shiny red bento-box train stopped at centre with open doors",
+  "a gilded carp-shaped canal boat floating quietly at a far right dock"
+ ],
+ "view": "wide"
+}

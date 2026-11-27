@@ -1,0 +1,21 @@
+{
+ "id": "c13-d3-1-1",
+ "scene": "The dispenser clicks open, revealing transit tokens beside three strange departures.",
+ "options": [
+  "Ride bubble lift",
+  "Board paint tram",
+  "Enter revolving lift"
+ ],
+ "next": [
+  "c13-d5",
+  "c13-d0",
+  "c13-d1"
+ ],
+ "picture": "Side-scrolling view of an aviary transit platform. Far left, a floating iridescent bubble lift waits open. Centre-left stands the girl in windbreaker and shorts, holding her sketchbook. In the centre, the brass seed hopper clicks open. Right, a paint-splattered tram sits on tracks. Far right stands a revolving brass door lift.",
+ "shown": [
+  "a floating glass bubble lift docked open on the far left",
+  "a brightly paint-splattered tram waiting with open doors on the right",
+  "a brass revolving door lift spinning slowly on the far right"
+ ],
+ "view": "wide"
+}

@@ -99,7 +99,8 @@
   .chars .node, .roots .node { flex: 1 1 0; width: auto; text-decoration: none; }
   .chars a.node { color: var(--dim); }
   .chars a.node.current { color: var(--ink); }
-  .chars .chose { font-size: 12px; }
+  /* Fifteen across is tight: break between the words, never inside one. */
+  .chars .chose { font-size: 11px; overflow-wrap: normal; word-break: keep-all; }
   .face { aspect-ratio: 1; border-radius: 16px; background-color: var(--soft); background-repeat: no-repeat; margin-bottom: 8px; image-rendering: pixelated; }
   .roots .chose { font-size: 14px; margin-top: 2px; }
   .roots a.node { color: var(--dim); }
@@ -136,7 +137,7 @@
   @media (max-width: 980px) {
     .tree { display: block; }
     .tree svg { display: none; }
-    .roots { display: block; }
+    .roots { display: block; margin-top: 0; }
     .chars { flex-wrap: wrap; margin-bottom: 32px; }
     .chars .node { display: block; flex: none; width: 72px; margin: 0; }
     .node, .roots .node, .node.step-2, .node.step-3 {
@@ -167,7 +168,8 @@
     white-space: nowrap;
     pointer-events: none;
   }
-  .empty { color: var(--dim); padding: 40px 0; }
+  /* Loading and error text sits in the middle of the window. */
+  .empty { position: fixed; inset: 0; display: grid; place-items: center; margin: 0; padding: 20px; text-align: center; color: var(--dim); pointer-events: none; }
 </style>
 </head>
 <body>
@@ -229,7 +231,7 @@
   const FACES = {
     c0: [0.25, 0.75], c1: [0.43, 0.73], c2: [0.35, 0.68], c3: [0.5, 0.81], c4: [0.29, 0.72],
     c5: [0.5, 0.78], c6: [0.5, 0.78], c7: [0.33, 0.59], c8: [0.43, 0.73], c9: [0.4, 0.76],
-    c10: [0.35, 0.63], c11: [0.51, 0.81], c12: [0.38, 0.75],
+    c10: [0.35, 0.63], c11: [0.51, 0.81], c12: [0.38, 0.75], c13: [0.51, 0.8], c14: [0.45, 0.63],
   };
   const FACE_ZOOM = 3.2;
   function face(character) {

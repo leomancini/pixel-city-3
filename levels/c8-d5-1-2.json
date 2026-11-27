@@ -1,0 +1,21 @@
+{
+ "id": "c8-d5-1-2",
+ "scene": "Inside the mansion's transit hub, three departures hum with energy.",
+ "options": [
+  "Ride hover metro",
+  "Fly the scooter",
+  "Board hover bus"
+ ],
+ "next": [
+  "c8-d0",
+  "c8-d1",
+  "c8-d2"
+ ],
+ "picture": "Flat side view. On the far left waits a sleek hover metro. Beside it stands the grandmother in her pink tracksuit and round glasses, leash in hand beside her white dog. At the centre sits a parked winged flying scooter. On the far right idles a red double-decker hover bus beside a terminal sign.",
+ "shown": [
+  "a sleek hover metro with open doors waiting on the far left",
+  "a winged flying scooter parked neatly on its kickstand at the centre",
+  "a red double-decker hover bus idling beside a sign on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c1-d4-0-2",
+ "scene": "Pocketing the silver key, you step onto the pavilion's departure terrace.",
+ "options": [
+  "Ride funicular",
+  "Hire rickshaw",
+  "Board trolley"
+ ],
+ "next": [
+  "c1-d2",
+  "c1-d3",
+  "c1-d5"
+ ],
+ "picture": "Flat side-scrolling view of the tiled departure terrace. At the far left, a glass funicular car waits on rails. Left of centre stands the player with his wooden cane and cap. In the centre, a rickshaw driver stands by his velvet cart. On the far right, an open hand-cranked trolley sits on tracks.",
+ "shown": [
+  "a steep glass funicular car resting on rails at the far left",
+  "a parked velvet rickshaw and driver waiting patiently in the centre",
+  "a wooden hand-cranked trolley sitting on narrow iron tracks on the far right"
+ ],
+ "view": "wide"
+}

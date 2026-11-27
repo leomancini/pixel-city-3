@@ -1,0 +1,21 @@
+{
+ "id": "c5-d5-0-2",
+ "scene": "Shovel in hand, you spot three transit stations at the roof edge.",
+ "options": [
+  "Take rope-bridge lift",
+  "Board paddle steamer",
+  "Ride trampoline lift"
+ ],
+ "next": [
+  "c5-d2",
+  "c5-d3",
+  "c5-d4"
+ ],
+ "picture": "Side-view pixel scene along the rooftop railing. On the left stands a rope-bridge basket lift tied to massive posts. In the centre, the boy with dark hair and skateboard holds a red shovel beside a rooftop canal dock where a miniature paddle steamer chugs. On the far right waits a spring-loaded trampoline lift platform.",
+ "shown": [
+  "a swinging wooden bridge basket station with rope pulleys on the far left",
+  "a roof canal mooring with a tiny steam vessel in the centre",
+  "a striped bouncy catapult platform with high springs on the far right"
+ ],
+ "view": "wide"
+}

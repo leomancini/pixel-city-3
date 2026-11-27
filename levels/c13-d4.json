@@ -1,0 +1,21 @@
+{
+ "id": "c13-d4",
+ "scene": "You step from the glass pod into the breezy, humming origami hall.",
+ "options": [
+  "Inspect folding machine",
+  "Catch gliding crane",
+  "Enter control booth"
+ ],
+ "next": [
+  "c13-d4-0",
+  "c13-d4-1",
+  "c13-d4-2"
+ ],
+ "picture": "Flat side-scrolling view along a metal floor. Far left stands a brass folding machine with conveyor belts. Left sits the open glass pod. The girl stands centre facing forward. Up high, giant paper cranes loop on air currents. Right sits a wooden control booth, with glowing ducts continuing to the far right.",
+ "shown": [
+  "a mechanical brass folding machine clacking rhythmically on the far left",
+  "a giant striped paper crane swooping down up high near the centre",
+  "a narrow wooden control booth with a glowing green door on the right"
+ ],
+ "view": "wide"
+}

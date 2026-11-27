@@ -1,0 +1,21 @@
+{
+ "id": "c12-d4-0",
+ "scene": "The brass drawer slides open, revealing three velvet-lined seed compartments.",
+ "options": [
+  "Take glowing pod",
+  "Unroll mini scroll",
+  "Turn brass dial"
+ ],
+ "next": [
+  "c12-d4-0-0",
+  "c12-d4-0-1",
+  "c12-d4-0-2"
+ ],
+ "picture": "First-person close-up pixel art looking directly into the open brass catalogue drawer. The drawer interior fills the frame, lined with dark green velvet. On the left rests a luminous blue pod. In the centre sits a rolled parchment scroll. On the right rim is an engraved brass number dial. The grandfather's wrinkled hands frame the edges.",
+ "shown": [
+  "a pulsing blue seed pod resting in the velvet slot on the left",
+  "a tiny tied parchment label tucked in the centre seed compartment",
+  "a small engraved number dial clicking on the drawer's right rim"
+ ],
+ "view": "close"
+}

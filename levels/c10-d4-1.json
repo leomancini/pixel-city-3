@@ -1,0 +1,21 @@
+{
+ "id": "c10-d4-1",
+ "scene": "A bubbly octopus barista slides a neon galaxy shake across the counter.",
+ "options": [
+  "Sip the milkshake",
+  "Pet robotic octopus",
+  "Play jukebox"
+ ],
+ "next": [
+  "c10-d4-1-0",
+  "c10-d4-1-1",
+  "c10-d4-1-2"
+ ],
+ "picture": "A flat side view inside the chrome diner counter. Far left displays stacked donut trays. Left stands the brass octopus barista polishing glasses. Centre, the player in red bomber jacket and roller skates rests hands on the counter beside a glowing galaxy shake. Right, shiny vinyl barstools. Far right sits a blinking neon jukebox.",
+ "shown": [
+  "a tall glass containing glowing swirled purple shake with two straws at centre",
+  "a brass robotic octopus wearing a bowtie behind the counter on the left",
+  "a brightly blinking neon jukebox with colorful vinyl records spinning on far right"
+ ],
+ "view": "wide"
+}
