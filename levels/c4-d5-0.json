@@ -1,0 +1,21 @@
+{
+ "id": "c4-d5-0",
+ "scene": "Brass pipes whistle as glowing musical notes float inside clear glass tubes.",
+ "options": [
+  "Turn brass valve",
+  "Catch liquid note",
+  "Play keyboard pedal"
+ ],
+ "next": [
+  "c4-d5-0-0",
+  "c4-d5-0-1",
+  "c4-d5-0-2"
+ ],
+ "picture": "A first-person close-up view of the fountain console. On the far left, a tarnished brass valve connects to coiled copper pipes. In the centre, an illuminated glass funnel holds a bobbing, luminous cyan droplet shaped like a music note. On the right, three polished wooden organ pedals sit awaiting a press.",
+ "shown": [
+  "a tarnished wheel valve attached to a low pipe on the far left",
+  "a sparkling cyan water note bobbing inside a glass funnel in the centre",
+  "three large wooden pedal keys lined along the base on the right"
+ ],
+ "view": "close"
+}

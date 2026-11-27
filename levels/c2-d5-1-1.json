@@ -1,0 +1,21 @@
+{
+ "id": "c2-d5-1-1",
+ "scene": "Inside the turbine hub, three transit docks buzz with departing vehicles.",
+ "options": [
+  "Board star shuttle",
+  "Board sky airship",
+  "Board delivery truck"
+ ],
+ "next": [
+  "c2-d4",
+  "c2-d0",
+  "c2-d1"
+ ],
+ "picture": "A flat side view inside the spacious turbine hub garage. On the far left sits a sleek silver star shuttle with its ramp down. The girl in the purple wheelchair is left of centre. In the centre, a tethered striped airship waits. On the far right idles a boxy green delivery truck.",
+ "shown": [
+  "a sleek silver star shuttle parked waiting at the far left bay",
+  "a striped yellow airship tethered at the open centre dock gate",
+  "a boxy electric delivery truck idling at the far right platform"
+ ],
+ "view": "wide"
+}

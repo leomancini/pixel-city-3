@@ -1,0 +1,21 @@
+{
+ "id": "c2-d5",
+ "scene": "You roll off the sky gondola onto the breezy turbine racetrack deck.",
+ "options": [
+  "Inspect the pitkart",
+  "Spin the turbine",
+  "Enter race ramp"
+ ],
+ "next": [
+  "c2-d5-0",
+  "c2-d5-1",
+  "c2-d5-2"
+ ],
+ "picture": "Flat side view along a high metal platform. On the far left sits the open sky gondola. To its right is a yellow robotic pitkart. The player in her purple wheelchair rests left of centre. In the centre rises a massive white wind turbine tower. On the far right is a glowing race ramp.",
+ "shown": [
+  "a yellow robotic pitkart parked on the deck on the left",
+  "a giant white turbine tower base with an access valve in the centre",
+  "a glowing chequered race ramp starting line on the far right"
+ ],
+ "view": "wide"
+}

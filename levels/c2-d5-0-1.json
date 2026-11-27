@@ -1,0 +1,21 @@
+{
+ "id": "c2-d5-0-1",
+ "scene": "The screen flashes, raising safety gates to reveal three bustling transit hubs.",
+ "options": [
+  "Board delivery truck",
+  "Enter glass elevator",
+  "Catch steam train"
+ ],
+ "next": [
+  "c2-d1",
+  "c2-d2",
+  "c2-d3"
+ ],
+ "picture": "A wide side-scrolling platform beneath whirring turbines. On the far left sits a green delivery truck with an open ramp. Centre-left, the girl in her teal hoodie sits in her purple wheelchair. In the centre, an open glass elevator glows softly. To the right, a brass steam train waits at the platform.",
+ "shown": [
+  "a boxy green delivery truck parked with its rear ramp lowered on the left",
+  "a tall transparent glass elevator with open sliding doors in the centre",
+  "a brass steam train puffing sweet pink smoke at the platform on the right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c2-d5-1",
+ "scene": "The turbine whirls, powering up a maintenance lift and opening hatch doors.",
+ "options": [
+  "Ride maintenance lift",
+  "Enter open hatch",
+  "Board robotic pitkart"
+ ],
+ "next": [
+  "c2-d5-1-0",
+  "c2-d5-1-1",
+  "c2-d5-1-2"
+ ],
+ "picture": "Flat side view along the metallic deck. On the far left, a newly activated yellow lift hums. The girl in her purple wheelchair sits left of centre near the spinning turbine. The turbine base in the centre now features an open, lit hatch. On the far right waits the humming robotic pitkart.",
+ "shown": [
+  "A bright yellow lift platform glowing with green lights on the far left.",
+  "An illuminated service hatch standing wide open in the centre tower.",
+  "A yellow robotic pitkart idling with flashing hazard lights on the far right."
+ ],
+ "view": "wide"
+}

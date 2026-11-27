@@ -1,0 +1,21 @@
+{
+ "id": "c12-d5-1-0",
+ "scene": "The grateful fairies sprout glowing exit gates all around your bicycle.",
+ "options": [
+  "Board koi boat",
+  "Enter garden lift",
+  "Ride sky tram"
+ ],
+ "next": [
+  "c12-d3",
+  "c12-d4",
+  "c12-d0"
+ ],
+ "picture": "Flat side view along the tiled floor. On the far left, a mechanical wooden koi boat floats in a canal. Next, the grandfather stands holding his bicycle. In the centre sits a glass garden lift with open gates. On the right, a flower-roofed sky tram waits on elevated rails.",
+ "shown": [
+  "A giant mechanical wooden koi boat docked at an indoor canal on the far left",
+  "A glass greenhouse elevator with vine-wrapped brass gates standing open in the centre",
+  "A suspended flower-topped monorail tram waiting at a raised platform on the right"
+ ],
+ "view": "wide"
+}

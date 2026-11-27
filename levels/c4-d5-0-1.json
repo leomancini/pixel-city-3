@@ -1,0 +1,21 @@
+{
+ "id": "c4-d5-0-1",
+ "scene": "The glowing droplet chimes in your palm, illuminating three waiting transit platforms.",
+ "options": [
+  "Board glass trolley",
+  "Enter spiral lift",
+  "Catch mountain tram"
+ ],
+ "next": [
+  "c4-d1",
+  "c4-d2",
+  "c4-d3"
+ ],
+ "picture": "A flat side view along the polished platform. On the far left, a glass-roofed trolley rests on brass rails. Left of centre, the woman in lilac headscarf and mustard coat holds a glowing cyan droplet. In the centre, an open spiral lift stands waiting. On the far right, a red cable tram sits docked.",
+ "shown": [
+  "a glass-roofed trolley waiting on tracks with doors open, on the far left",
+  "a wrought-iron spiral lift with a welcoming operator, standing in the centre",
+  "a red mountain cable tram moored to a wooden dock, on the far right"
+ ],
+ "view": "wide"
+}

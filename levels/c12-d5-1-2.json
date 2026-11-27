@@ -1,0 +1,21 @@
+{
+ "id": "c12-d5-1-2",
+ "scene": "The mossy path leads outside to three waiting transit platforms.",
+ "options": [
+  "Board sky tram",
+  "Ride retro streetcar",
+  "Take bento express"
+ ],
+ "next": [
+  "c12-d0",
+  "c12-d1",
+  "c12-d2"
+ ],
+ "picture": "A flat side-view along a stone transit plaza under starry night. On the left stands an emerald glass garden tram with open sliding doors. Next to it stands the grandfather in navy apron holding his bicycle with plant crate. In the centre waits a red retro streetcar. On the far right waits a sleek bento bullet train.",
+ "shown": [
+  "a green glass garden tram parked along an elevated rail on the left",
+  "a red wooden streetcar waiting with open doors in the centre",
+  "a sleek bento express train ready at a platform on the far right"
+ ],
+ "view": "wide"
+}

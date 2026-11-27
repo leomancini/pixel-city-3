@@ -1,0 +1,21 @@
+{
+ "id": "c4-d5-0-0",
+ "scene": "The fountain sprays a sparkling geyser, lighting up three departing transit routes.",
+ "options": [
+  "Board river barge",
+  "Take arcade trolley",
+  "Ride spiral lift"
+ ],
+ "next": [
+  "c4-d0",
+  "c4-d1",
+  "c4-d2"
+ ],
+ "picture": "Flat side view along a wide tiled promenade. On the far left, a low wooden river barge floats beside a pier. In the centre, a glass-roofed trolley rests on shiny tracks. On the right, the player in her lilac headscarf and mustard coat watches the bubbling fountain, near an open spiral lift on the far right.",
+ "shown": [
+  "a low wooden river barge moored at a pier on the far left",
+  "a green glass-roofed trolley waiting on tracks in the centre",
+  "an ornate brass spiral lift cabin resting open on the far right"
+ ],
+ "view": "wide"
+}

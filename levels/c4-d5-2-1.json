@@ -1,0 +1,21 @@
+{
+ "id": "c4-d5-2-1",
+ "scene": "At the skate booth, a attendant points out three waiting transit lines.",
+ "options": [
+  "Take spiral lift",
+  "Board cable tram",
+  "Ride garden gondola"
+ ],
+ "next": [
+  "c4-d2",
+  "c4-d3",
+  "c4-d4"
+ ],
+ "picture": "A flat side view along a polished promenade. On the far left, an open brass spiral lift waits on a pillar. At centre, a red mountain cable tram rests on raised rails. The player in lilac headscarf and mustard coat stands right of centre talking to a clerk at the skate rental booth. Far right, a moored gondola floats.",
+ "shown": [
+  "a glowing spiral lift cage sitting open on the far left",
+  "a red mountain cable tram idling with open doors at centre",
+  "a striped garden gondola moored on water on the far right"
+ ],
+ "view": "wide"
+}

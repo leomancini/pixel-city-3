@@ -1,0 +1,21 @@
+{
+ "id": "c12-d4-0-1",
+ "scene": "The unrolled scroll reveals secret transit tunnels branching deep beneath the city.",
+ "options": [
+  "Board retro streetcar",
+  "Take bento express",
+  "Ride koi boat"
+ ],
+ "next": [
+  "c12-d1",
+  "c12-d2",
+  "c12-d3"
+ ],
+ "picture": "Pixel art flat side view of an underground transit concourse. On the far left sits an idling yellow retro streetcar. In the centre, the grandfather in his navy apron stands holding the unrolled scroll next to his bicycle, near a sleek bento train. On the far right, a red koi boat waits in canal water.",
+ "shown": [
+  "a yellow retro streetcar waiting on tracks at the far left door",
+  "a sleek bento express train idling behind glass doors in the centre",
+  "a painted wooden koi-shaped boat moored at a stone dock on the far right"
+ ],
+ "view": "wide"
+}

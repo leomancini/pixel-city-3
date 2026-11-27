@@ -1,0 +1,21 @@
+{
+ "id": "c4-d5-1-1",
+ "scene": "The gardener's belt jingling with transit tokens reveals three waiting exits.",
+ "options": [
+  "Board garden gondola",
+  "Board river barge",
+  "Ride glass-roofed trolley"
+ ],
+ "next": [
+  "c4-d4",
+  "c4-d0",
+  "c4-d1"
+ ],
+ "picture": "A flat side view along the edge of the rink. On the far left, a floral gondola bobs at an open railing. The player in lilac headscarf and mustard coat stands left. At centre, a river barge sits moored along a low canal edge. On the far right, a brightly lit glass-roofed trolley waits at a terminal.",
+ "shown": [
+  "a swinging floral garden gondola docked at an iron gate on the left",
+  "a wooden river barge moored at a water slip at centre",
+  "a brass trolley with a glass curved roof waiting on tracks on the far right"
+ ],
+ "view": "wide"
+}

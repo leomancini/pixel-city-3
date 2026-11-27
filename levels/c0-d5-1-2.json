@@ -1,0 +1,21 @@
+{
+ "id": "c0-d5-1-2",
+ "scene": "The snail bus terminal connects three brightly lit transit hubs.",
+ "options": [
+  "Board harbour ferry",
+  "Ride cable car",
+  "Take subway train"
+ ],
+ "next": [
+  "c0-d0",
+  "c0-d1",
+  "c0-d2"
+ ],
+ "picture": "Flat side view inside the spacious park bus depot. On the far left, a docked harbour ferry rocks beside a low wooden pier. Centre left, the player in her yellow raincoat stands near the driver. Up high in the centre, a glass cable car hangs from a steel pylon. On the far right, an open subway stairwell glows.",
+ "shown": [
+  "a striped blue ferry docked at a wooden pier on the far left",
+  "a glass cable car hanging from a cable tower up high",
+  "an arched glowing subway entrance with tiled stairs on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c12-d4-0-0",
+ "scene": "The glowing pod pulses, unlocking three subterranean transit gates ahead.",
+ "options": [
+  "Board garden tram",
+  "Catch retro streetcar",
+  "Ride bento express"
+ ],
+ "next": [
+  "c12-d0",
+  "c12-d1",
+  "c12-d2"
+ ],
+ "picture": "Pixel art flat side view of vault transit hall. On the left sits a leafy garden tram. In the centre waits an open retro streetcar. To the right rests a bento express train. Pushing his plant-filled bicycle between them stands the grandfather in apron, glowing pod tucked securely into his basket.",
+ "shown": [
+  "a vine-covered glass tram car parked on rails at the left",
+  "a brass-striped red streetcar idling behind open gate in the centre",
+  "a sleek lacquered express train waiting at the right platform edge"
+ ],
+ "view": "wide"
+}

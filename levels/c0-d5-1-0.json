@@ -1,0 +1,21 @@
+{
+ "id": "c0-d5-1-0",
+ "scene": "The brass key hums warmly in your hand, lighting up transit signs.",
+ "options": [
+  "Ride street tram",
+  "Board night bus",
+  "Take harbour ferry"
+ ],
+ "next": [
+  "c0-d3",
+  "c0-d4",
+  "c0-d0"
+ ],
+ "picture": "Flat side view along a wet promenade. On the far left, a red street tram idles at a stop. Left of centre, the player stands beside the empty stone frog fountain holding a glowing brass key. On the right, a purple night bus waits at a shelter. On the far right, a blue harbour ferry docks.",
+ "shown": [
+  "A red street tram idles on tracks on the far left",
+  "A purple night bus sits at the curb on the right",
+  "A blue harbour ferry waits docked at the far right pier"
+ ],
+ "view": "wide"
+}

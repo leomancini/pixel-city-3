@@ -1,0 +1,21 @@
+{
+ "id": "c2-d5-1-2",
+ "scene": "The robotic pitkart zips you straight to the bustling terminal concourse.",
+ "options": [
+  "Board Sky Dock airship",
+  "Climb repair truck",
+  "Take glass elevator"
+ ],
+ "next": [
+  "c2-d0",
+  "c2-d1",
+  "c2-d2"
+ ],
+ "picture": "Flat side view of a wide transfer concourse. On the far left, a moored brass airship waits with open hatch. The girl in her purple wheelchair sits on an unloading pad left of centre. In the centre idles a yellow delivery truck. On the far right stands a glowing tubular glass elevator.",
+ "shown": [
+  "a moored brass airship floating waiting with an open hatch on the left",
+  "a yellow delivery truck idling with its ramp down in the centre",
+  "a glowing tubular glass elevator door waiting open on the far right"
+ ],
+ "view": "wide"
+}

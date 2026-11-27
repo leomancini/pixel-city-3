@@ -1,0 +1,21 @@
+{
+ "id": "c4-d5",
+ "scene": "You step off the garden escalator into the glowing Moonlight Roller Garden.",
+ "options": [
+  "Inspect music fountain",
+  "Hail roller gardener",
+  "Pick glowing blossom"
+ ],
+ "next": [
+  "c4-d5-0",
+  "c4-d5-1",
+  "c4-d5-2"
+ ],
+ "picture": "A flat side view under a dark starry sky. On the far left stands the brass garden escalator. To its right is a musical fountain spouting liquid notes. The player in lilac headscarf, mustard coat, and brown satchel stands centre-left, facing a roller-skating gardener mid-stride, beside a glowing flowerbed on the far right.",
+ "shown": [
+  "a bubbling tier fountain spraying notes into the air on the left",
+  "a gardener in neon overalls coasting on roller blades at the centre",
+  "a raised planter of pulsating blue chrysanthemums on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c4-d5-1",
+ "scene": "The smiling skater halts, presenting a pair of humming neon skates.",
+ "options": [
+  "Lace neon skates",
+  "Inspect tool belt",
+  "Enter tea gazebo"
+ ],
+ "next": [
+  "c4-d5-1-0",
+  "c4-d5-1-1",
+  "c4-d5-1-2"
+ ],
+ "picture": "A flat side view along a polished wooden roller rink. On the far left sits a glowing tea gazebo with an open door. The player in lilac headscarf, mustard coat, and brown satchel stands centre-left, facing the grinning gardener at centre who holds out glowing neon skates, his clippers rattling on his right hip.",
+ "shown": [
+  "glowing neon roller skates held out in the gardener's hands at centre",
+  "a bulging leather belt hung with brass clippers on the gardener at right",
+  "an ornate wooden gazebo with an open doorway on the far left"
+ ],
+ "view": "wide"
+}

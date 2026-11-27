@@ -1,0 +1,21 @@
+{
+ "id": "c0-d5",
+ "scene": "You step off the rain-cloud tram into shimmering Puddle Park.",
+ "options": [
+  "Gaze into puddle",
+  "Inspect frog fountain",
+  "Enter umbrella shelter"
+ ],
+ "next": [
+  "c0-d5-0",
+  "c0-d5-1",
+  "c0-d5-2"
+ ],
+ "picture": "A flat side view along a stone path. On the far left sits a puddle reflecting skyscrapers, beside the docked fluffy rain-cloud tram. The player stands left of centre in her yellow coat and green boots with red umbrella. In the centre spouts a stone frog fountain. On the far right stands a large umbrella-shaped shelter.",
+ "shown": [
+  "a wide puddle reflecting neon skyscrapers, resting on the ground at the far left",
+  "a stone frog fountain spouting bubbling water, standing in the centre",
+  "a giant umbrella-shaped shelter with striped fabric and bench seats on the far right"
+ ],
+ "view": "wide"
+}

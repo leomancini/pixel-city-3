@@ -1,0 +1,21 @@
+{
+ "id": "c4-d5-1-2",
+ "scene": "Inside the glowing gazebo, fragrant steam swirls around three outbound boarding portals.",
+ "options": [
+  "Board river barge",
+  "Take arcade trolley",
+  "Ride spiral lift"
+ ],
+ "next": [
+  "c4-d0",
+  "c4-d1",
+  "c4-d2"
+ ],
+ "picture": "A flat side view inside the octagonal tea gazebo. On the far left, a low door opens onto a lantern-lit river barge. The player stands left-centre beside a brass turnstile leading to a glass-roofed trolley at centre. On the far right, a spiral lift cage sits open, waiting beside steaming tea samovars.",
+ "shown": [
+  "a low wooden canal door leading to a lantern-lit barge on the far left",
+  "a brass turnstile before a waiting glass-roofed trolley at the centre",
+  "a round open cage lift with spiraling copper tracks on the far right"
+ ],
+ "view": "wide"
+}

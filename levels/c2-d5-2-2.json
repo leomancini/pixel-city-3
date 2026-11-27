@@ -1,0 +1,21 @@
+{
+ "id": "c2-d5-2-2",
+ "scene": "Whirling down the corkscrew ramp, you land on the multi-portal transit interchange.",
+ "options": [
+  "Board steam train",
+  "Board star shuttle",
+  "Board the airship"
+ ],
+ "next": [
+  "c2-d3",
+  "c2-d4",
+  "c2-d0"
+ ],
+ "picture": "Flat side-scrolling view of an elevated transit platform. On the far left, a brass steam train puffs gentle clouds. Left of centre sits the South Asian girl in her purple wheelchair. On the right, a glowing star shuttle idles on a pad. On the far right, a striped airship floats tethered beside a gangway.",
+ "shown": [
+  "a gleaming brass steam train waiting at the platform on the far left",
+  "a sleek neon star shuttle idling on the pad on the right",
+  "a docked striped zeppelin airship tethered to the mast on the far right"
+ ],
+ "view": "wide"
+}

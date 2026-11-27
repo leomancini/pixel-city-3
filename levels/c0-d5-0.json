@@ -1,0 +1,21 @@
+{
+ "id": "c0-d5-0",
+ "scene": "A neon upside-down city swirls deep inside the glassy puddle.",
+ "options": [
+  "Dip umbrella tip",
+  "Catch paper boat",
+  "Touch submerged key"
+ ],
+ "next": [
+  "c0-d5-0-0",
+  "c0-d5-0-1",
+  "c0-d5-0-2"
+ ],
+ "picture": "A close first-person view peering down into the large clear rainwater puddle. Two yellow-sleeved hands hover near the rim. On the left, a hypnotic circular ripple distorts neon tower reflections. In the centre drifts a glowing yellow paper boat. On the right, visible through clear water, rests a gleaming bronze key.",
+ "shown": [
+  "a deep ripple forming in the puddle water on the left",
+  "a tiny glowing origami boat floating in the centre",
+  "a shiny bronze key resting on the pool bed on the right"
+ ],
+ "view": "close"
+}

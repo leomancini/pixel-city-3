@@ -1,0 +1,21 @@
+{
+ "id": "c4-d5-2",
+ "scene": "The harvested blossom chimes sweetly, chiming in rhythm with nearby garden wonders.",
+ "options": [
+  "Tuck in satchel",
+  "Approach skate booth",
+  "Board neon buggy"
+ ],
+ "next": [
+  "c4-d5-2-0",
+  "c4-d5-2-1",
+  "c4-d5-2-2"
+ ],
+ "picture": "A flat side view of the night garden. On the far left sits an idling neon buggy. The player in lilac headscarf and mustard coat stands centre-left holding a glowing blossom, beside her brown satchel. At centre, the roller-skating gardener pauses, watching. On the far right stands a striped skate rental booth.",
+ "shown": [
+  "the player's brown leather satchel resting on her hip at centre-left",
+  "a striped skate rental booth with lit counter on the far right",
+  "a small glowing two-seater garden buggy idling on the far left"
+ ],
+ "view": "wide"
+}

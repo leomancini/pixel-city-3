@@ -1,0 +1,21 @@
+{
+ "id": "c2-d5-2",
+ "scene": "You zoom onto the vibrant glass track as floating holosigns flicker alive.",
+ "options": [
+  "Grab speed boost",
+  "Check course map",
+  "Take corkscrew ramp"
+ ],
+ "next": [
+  "c2-d5-2-0",
+  "c2-d5-2-1",
+  "c2-d5-2-2"
+ ],
+ "picture": "Side-scrolling view of a luminous glass racetrack suspended high over Pixel City. On the left lies a glowing neon arrow speed pad. The player in her purple wheelchair rolls swiftly near centre. Right of centre hovers a humming holographic course map. On the far right curves an open striped corkscrew launch ramp.",
+ "shown": [
+  "a pulsing neon arrow pad glowing brightly on the track at the left",
+  "a floating pixelated route projector hovering right of centre",
+  "a steep striped loop ramp leading upward at the far right"
+ ],
+ "view": "wide"
+}

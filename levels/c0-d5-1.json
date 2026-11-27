@@ -1,0 +1,21 @@
+{
+ "id": "c0-d5-1",
+ "scene": "The stone frog holds a glowing brass key in its open mouth.",
+ "options": [
+  "Take glowing key",
+  "Climb giant lilypad",
+  "Enter snail bus"
+ ],
+ "next": [
+  "c0-d5-1-0",
+  "c0-d5-1-1",
+  "c0-d5-1-2"
+ ],
+ "picture": "Flat side view on a wet stone walkway. On the far left, a giant floating lilypad bobs against the path. Left of centre, the player stands beside a stone frog fountain at the centre. Farther right sits a wooden park bench, and on the far right waits a brightly painted snail bus with doors open.",
+ "shown": [
+  "a tiny brass key glowing faintly inside the stone frog mouth in the centre",
+  "a broad floating giant lilypad moored by a rope on the far left",
+  "a passenger bus shaped like a giant snail waiting on the far right"
+ ],
+ "view": "wide"
+}
