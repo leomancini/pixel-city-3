@@ -22,7 +22,7 @@
   "a mechanical winch clacking noisily in the centre",
   "a soapy bucket glowing bright turquoise on the right"
  ],
- "view": "wide",
+ "view": "interior",
  "after": [
   {
    "label": "Step off at Rainmaker Rooftops",

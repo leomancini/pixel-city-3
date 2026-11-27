@@ -22,7 +22,7 @@
   "a foam-coated glass windscreen on the right side of the deck",
   "a black crow wearing goggles roosting on a tool crate in the centre"
  ],
- "view": "wide",
+ "view": "interior",
  "after": [
   {
    "label": "Step off at Rainmaker Rooftops",

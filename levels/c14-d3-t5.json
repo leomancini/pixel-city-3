@@ -22,7 +22,7 @@
   "the leather-jacketed robotic courier steering the motorbike on the far left",
   "a tiny brass latch shut on a dashboard compartment to the right"
  ],
- "view": "wide",
+ "view": "interior",
  "after": [
   {
    "label": "Step off at Midnight Radio Repair",

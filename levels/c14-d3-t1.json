@@ -22,7 +22,7 @@
   "a round porthole window showing turning cogwheels in the centre",
   "a loose copper lever protruding from the operator console on the right"
  ],
- "view": "wide",
+ "view": "interior",
  "after": [
   {
    "label": "Step off at Gear Bridge",

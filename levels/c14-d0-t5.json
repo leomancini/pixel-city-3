@@ -22,7 +22,7 @@
   "A clockwork pigeon glides steadily beside the open sidecar on the right.",
   "A rumpled canvas tool sack sits unopened on the floor at the centre."
  ],
- "view": "wide",
+ "view": "interior",
  "after": [
   {
    "label": "Step off at Midnight Radio Repair",

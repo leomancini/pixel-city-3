@@ -22,7 +22,7 @@
   "an ornate brass cabin dial glowing softly on the wall up high",
   "a sleeping robot conductor wearing a pillbox cap on the far right"
  ],
- "view": "wide",
+ "view": "interior",
  "after": [
   {
    "label": "Step off at Comet Watch Rooftop",

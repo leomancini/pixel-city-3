@@ -22,7 +22,7 @@
   "a four-armed brass automaton sorting envelopes beside you in the centre",
   "a clockwork dove perched on a high parcel rack up high"
  ],
- "view": "wide",
+ "view": "interior",
  "after": [
   {
    "label": "Step off at Lost Property Depot",

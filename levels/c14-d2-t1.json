@@ -22,7 +22,7 @@
   "an illuminated brass route board clicking above the aisle up high",
   "a tied wicker basket rattling on an empty seat on the right"
  ],
- "view": "wide",
+ "view": "interior",
  "after": [
   {
    "label": "Step off at Gear Bridge",

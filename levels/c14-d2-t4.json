@@ -22,7 +22,7 @@
   "a tiny puffy grey stormcloud drifting near the ceiling up high",
   "a dented metal toolbox latched shut on the bench seat at the right"
  ],
- "view": "wide",
+ "view": "interior",
  "after": [
   {
    "label": "Step off at Neon Sign Hospital",

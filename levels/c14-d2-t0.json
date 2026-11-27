@@ -22,7 +22,7 @@
   "a brass lullaby box mounted beneath the window up high",
   "a glowing constellation map frame mounted on the right wall"
  ],
- "view": "wide",
+ "view": "interior",
  "after": [
   {
    "label": "Step off at Comet Watch Rooftop",

@@ -22,7 +22,7 @@
   "a brass birdcage holding a ticking mechanical finch at the centre",
   "a boiler-suited mechanic sipping tea beside heavy lever controls on the far right"
  ],
- "view": "wide",
+ "view": "interior",
  "after": [
   {
    "label": "Step off at Gear Bridge",
