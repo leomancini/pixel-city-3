@@ -1,0 +1,20 @@
+{
+ "id": "c0-d1-0",
+ "scene": "The honey sparkles on your tongue, summoning a friendly clockwork bee. What now?",
+ "options": [
+  "Follow clockwork bee",
+  "Enter glowing greenhouse",
+  "Pick giant radish"
+ ],
+ "next": [
+  "c0-d1-0-0",
+  "c0-d1-0-1",
+  "c0-d1-0-2"
+ ],
+ "picture": "Flat side view. On the left sits the striped beehive with sticky golden drips. The player stands centre-left, holding her red umbrella and licking her sticky fingertip. Up high hovers a glowing brass clockwork bee. At centre stands the closed, pink-glowing greenhouse door. On the far right sprouts the giant purple radish.",
+ "shown": [
+  "a mechanical brass bee buzzing impatiently up high above the player",
+  "a glass greenhouse with its pink glowing door still closed at centre",
+  "a leafy giant purple radish rooted firmly in soil on the far right"
+ ]
+}

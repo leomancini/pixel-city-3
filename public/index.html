@@ -128,7 +128,7 @@
     display: flex;
     padding: 5px;
     background: #fff;
-    border: 3px solid #000;
+    /* No black edge, like the picture: a 3px white band, then the black line. */
     border-radius: var(--radius);
   }
   .dialog::before {
@@ -136,7 +136,7 @@
     position: absolute;
     inset: 3px;
     border: 2px solid #000;
-    border-radius: calc(var(--radius) - 6px);
+    border-radius: calc(var(--radius) - 3px);
     pointer-events: none;
   }
   /* The only scrolling region on the page. */
@@ -144,7 +144,7 @@
     flex: 1;
     overflow-y: auto;
     overscroll-behavior: contain;
-    border-radius: calc(var(--radius) - 8px);
+    border-radius: calc(var(--radius) - 5px);
     /* Optical padding: the glyph ink (not the line box) sits --card-pad from
        the card's outer edge on every side. */
     padding: calc(var(--card-pad) - var(--ink-top)) calc(var(--card-pad) - 8px) calc(var(--card-pad) - var(--ink-bottom));
@@ -424,14 +424,12 @@
     probe.remove();
   }, 800);
 
-  const SEED = "Start an adventure by arriving in a new city you have never seen before.";
   const canvas = document.getElementById("canvas");
   const ctx = canvas.getContext("2d");
   const frameEl = document.getElementById("frame");
   const sceneEl = document.getElementById("scene");
   const optionsEl = document.getElementById("options");
 
-  const history = [];
   let level = 0;
   let busy = false;
   let selected = 0;
@@ -479,38 +477,46 @@
   // then each grid cell becomes one square whose size follows its brightness.
   const HALFTONE_CELL = 4;      // CSS px per halftone cell (loading shimmer)
 
-  // Ask the server for the level that follows `prompt`, and decode its image
-  // up front so showing it later is instant.
-  async function loadLevel(prompt, past, previous, signal) {
-    const res = await fetch("/api/level", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ prompt, history: past, previous }),
-      signal,
-    });
+  // The story is made ahead of time: each level is a small file naming the
+  // three levels behind its options. Fetch one and decode its picture up
+  // front, so showing it later is instant.
+  async function loadLevel(id) {
+    const res = await fetch("/levels/" + id + ".json");
+    if (!res.ok) throw new Error("Request failed");
     const data = await res.json();
-    if (!res.ok) throw Object.assign(new Error(data.error || "Request failed"), { closed: res.status === 429 });
     const img = new Image();
-    img.src = data.image;
+    img.src = "/levels/" + id + ".jpg";
     await img.decode();
     return { ...data, img };
   }
 
-  // Start generating the level behind every option now, so choosing one is
+  // Start loading the level behind every option now, so choosing one is
   // instant. Each entry remembers whether it has finished.
-  // The level on screen: sent with each request for the next one, so the new
-  // story and picture carry on from exactly what the player was looking at.
-  let current = null;
-  let prefetchAbort = null;
-  function prefetch(options) {
-    prefetchAbort = new AbortController();
-    const past = [...history];
-    return options.map((text) => {
+  function prefetch(ids) {
+    return ids.map((id) => {
       const entry = { ready: false };
-      entry.promise = loadLevel(text, past, current, prefetchAbort.signal);
+      entry.promise = loadLevel(id);
       entry.promise.then(() => { entry.ready = true; }, () => {});
       return entry;
     });
+  }
+
+  // Every session starts somewhere different, and so with a different
+  // character: never where the last session on this device started.
+  async function pickStart() {
+    const res = await fetch("/levels/index.json");
+    if (!res.ok) throw new Error("Request failed");
+    const { starts } = await res.json();
+    let last = null;
+    try { last = localStorage.getItem("lastStart"); } catch {}
+    // Ids look like c2-d1: character 2, district 1.
+    const character = (id) => id.split("-")[0];
+    const other = starts.filter((id) => !last || character(id) !== character(last));
+    const elsewhere = starts.filter((id) => id !== last);
+    const pool = other.length ? other : elsewhere.length ? elsewhere : starts;
+    const id = pool[Math.floor(Math.random() * pool.length)];
+    try { localStorage.setItem("lastStart", id); } catch {}
+    return id;
   }
 
   function showOptions(items) {
@@ -525,7 +531,8 @@
     document.getElementById("scroll").scrollTop = 0;
   }
 
-  async function play(prompt, ahead) {
+  // `id` is the level to show; null means pick a starting point.
+  async function play(id, ahead) {
     if (busy) return;
     busy = true;
     const waiting = !ahead?.ready;
@@ -536,21 +543,18 @@
       setScene(level === 0 ? "Entering the city" : "Level " + (level + 1) + " loading", true);
     }
     try {
-      const data = await (ahead ? ahead.promise : loadLevel(prompt, history, current));
-      // The paths not taken are no longer needed.
-      prefetchAbort?.abort();
+      id ??= await pickStart();
+      const data = await (ahead ? ahead.promise : loadLevel(id));
       currentImg = data.img;
       drawScene();
       level += 1;
-      history.push(`Player chose: ${prompt} Then: ${data.scene}`);
       setScene(data.scene);
-      current = { picture: data.picture, options: data.options, image: data.image };
-      const next = prefetch(data.options);
-      showOptions(data.options.map((text, i) => ({ label: text, action: () => play(text, next[i]) })));
+      const next = prefetch(data.next);
+      showOptions(data.options.map((text, i) => ({ label: text, action: () => play(data.next[i], next[i]) })));
       frameEl.classList.remove("loading");
     } catch (err) {
-      setScene(err.closed ? err.message : "Something went wrong: " + err.message);
-      showOptions([{ label: "Try again", action: () => play(prompt) }]);
+      setScene("Something went wrong: " + err.message);
+      showOptions([{ label: "Try again", action: () => play(id) }]);
     } finally {
       busy = false;
     }
@@ -600,7 +604,7 @@
   });
   addEventListener("blur", () => document.querySelectorAll(".pad button").forEach((el) => el.classList.remove("pressed")));
 
-  play(SEED);
+  play(null);
 </script>
 </body>
 </html>

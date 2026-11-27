@@ -1,0 +1,20 @@
+{
+ "id": "c0-d3-1",
+ "scene": "A friendly clockmaker opens the door into her busy, ticking workshop. Enter?",
+ "options": [
+  "Take glowing cog",
+  "Greet the clockmaker",
+  "Check copper kettle"
+ ],
+ "next": [
+  "c0-d3-1-0",
+  "c0-d3-1-1",
+  "c0-d3-1-2"
+ ],
+ "picture": "Flat side-view pixel art of a clockmaker's warm workshop interior. On the left sits a steaming copper kettle on a stove. In the centre stands the young Black woman in her yellow raincoat, green boots, and red umbrella. On the right, a smiling clockmaker with goggles stands by a workbench holding a glowing cog on the far right.",
+ "shown": [
+  "a glowing brass gear resting on the workbench to the far right",
+  "a smiling clockmaker with magnifying goggles standing in the doorway on the right",
+  "a steaming copper kettle resting on a small stove to the left"
+ ]
+}

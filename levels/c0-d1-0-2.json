@@ -1,0 +1,20 @@
+{
+ "id": "c0-d1-0-2",
+ "scene": "Uprooting the radish reveals a rooftop transit hub! Where will you travel?",
+ "options": [
+  "Board street tram",
+  "Catch harbour ferry",
+  "Take subway train"
+ ],
+ "next": [
+  "c0-d3",
+  "c0-d0",
+  "c0-d2"
+ ],
+ "picture": "Flat side view. At the far left, a red street tram waits on tracks. The player stands centre-left holding a giant purple radish under one arm, with her red umbrella in hand. At centre, stairs lead down into a glowing subway entrance. On the right, a blue ferry floats beside a dock.",
+ "shown": [
+  "A red street tram waiting on elevated tracks at the far left",
+  "A blue harbour ferry tied to a roof dock on the right",
+  "A lit subway entrance with stairs descending at the centre"
+ ]
+}

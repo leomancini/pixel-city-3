@@ -1,0 +1,20 @@
+{
+ "id": "c0-d3-1-2",
+ "scene": "The kettle whistles, opening back doors to the transit hub. Which route?",
+ "options": [
+  "Ride harbour ferry",
+  "Board cable car",
+  "Catch subway train"
+ ],
+ "next": [
+  "c0-d0",
+  "c0-d1",
+  "c0-d2"
+ ],
+ "picture": "Pixel art side view. On the far left, a blue harbour ferry bobs at a dock. In the centre, the young Black woman in yellow raincoat, green boots, and red umbrella stands beside a smoking copper kettle. Up high on the right hangs a red cable car, while on the far right sits a brightly lit subway stairwell.",
+ "shown": [
+  "a blue ferry moored at a slip on the far left",
+  "a suspended red cable car hanging open up high on the right",
+  "a glowing staircase leading down to a waiting train on the far right"
+ ]
+}

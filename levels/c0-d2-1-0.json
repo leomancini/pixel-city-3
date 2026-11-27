@@ -1,0 +1,20 @@
+{
+ "id": "c0-d2-1-0",
+ "scene": "The merchant gifts you transit tokens with the key. Where next?",
+ "options": [
+  "Ride cable car",
+  "Board street tram",
+  "Take harbour ferry"
+ ],
+ "next": [
+  "c0-d1",
+  "c0-d3",
+  "c0-d0"
+ ],
+ "picture": "Along a stone transit platform, a glass cable car waits on the far left. Left of centre, the player stands holding her red umbrella and a brass key. In the centre, the lizard merchant waves. A yellow street tram sits right of centre, and a blue harbour ferry docks on the far right.",
+ "shown": [
+  "A glass cable car waiting on the far left platform",
+  "A yellow street tram stopped with open doors right of centre",
+  "A blue harbour ferry moored at the dock on the far right"
+ ]
+}

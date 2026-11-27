@@ -1,0 +1,20 @@
+{
+ "id": "c0-d2-2-1",
+ "scene": "The plucked fruit glows brightly, revealing three bustling transit hubs. Which path beckons?",
+ "options": [
+  "Board harbor ferry",
+  "Ride cable car",
+  "Catch street tram"
+ ],
+ "next": [
+  "c0-d0",
+  "c0-d1",
+  "c0-d3"
+ ],
+ "picture": "A rooftop terrace floor spans the base. On the left stands a gangway to a harbor ferry. The young Black woman in yellow raincoat, green boots, and red umbrella stands holding a bright glowing fruit at centre. Up high hangs a glass cable car, while a green street tram waits at the far right.",
+ "shown": [
+  "a striped ferry gangway waiting at the dock edge on the left",
+  "a dangling glass gondola docked at an aerial cable station up high",
+  "a bell-ringing green street tram idling on rails at the far right"
+ ]
+}

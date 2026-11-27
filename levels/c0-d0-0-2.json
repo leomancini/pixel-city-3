@@ -1,0 +1,20 @@
+{
+ "id": "c0-d0-0-2",
+ "scene": "The boardwalk leads to a bustling transit plaza. Where do you travel?",
+ "options": [
+  "Ride street tram",
+  "Board cable car",
+  "Take subway train"
+ ],
+ "next": [
+  "c0-d3",
+  "c0-d1",
+  "c0-d2"
+ ],
+ "picture": "On a wide stone plaza, the player in her yellow raincoat and green boots stands in the centre, red umbrella in hand. On the left waits a yellow street tram with open doors. Up high hangs a glass cable car at its platform. On the right, glowing subway stairs lead underground.",
+ "shown": [
+  "a sleek yellow street tram with open doors on the left",
+  "a glass cable car suspended from a wire up high",
+  "an illuminated subway entrance with tiled stairs on the right"
+ ]
+}

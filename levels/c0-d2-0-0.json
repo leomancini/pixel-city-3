@@ -1,0 +1,20 @@
+{
+ "id": "c0-d2-0-0",
+ "scene": "The savory broth sparkles, revealing three transport gates. Where to ride?",
+ "options": [
+  "Take harbor ferry",
+  "Ride cable car",
+  "Board street tram"
+ ],
+ "next": [
+  "c0-d0",
+  "c0-d1",
+  "c0-d3"
+ ],
+ "picture": "Flat side view along a stone platform. On the far left, a steaming bowl sits on a crate near a ferry gangway. The player stands left of centre in her yellow raincoat, green boots, and red umbrella. Up high hangs an open cable car, while a yellow street tram waits on the far right.",
+ "shown": [
+  "a wooden ferry gangway on the left leading to water",
+  "a dangling red cable car waiting open up high above centre",
+  "a yellow street tram idling with doors open on the far right"
+ ]
+}

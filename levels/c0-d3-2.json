@@ -1,0 +1,20 @@
+{
+ "id": "c0-d3-2",
+ "scene": "You reach the clocktower catwalk among huge ticking cogs. What next?",
+ "options": [
+  "Turn gold valve",
+  "Talk to pigeon",
+  "Cross wooden beam"
+ ],
+ "next": [
+  "c0-d3-2-0",
+  "c0-d3-2-1",
+  "c0-d3-2-2"
+ ],
+ "picture": "Pixel art flat side-view of a clocktower interior catwalk. Far left features a gold valve on copper pipes. In the centre, the young Black woman in yellow raincoat, green boots, and red umbrella stands facing forward. To the right sits a goggled mechanical pigeon on the railing, and far right extends a wooden beam.",
+ "shown": [
+  "A polished gold steam valve attached to copper pipes on the far left",
+  "A robotic pigeon wearing tiny brass goggles perched on a railing right",
+  "A narrow wooden maintenance beam extending into darkness on the far right"
+ ]
+}

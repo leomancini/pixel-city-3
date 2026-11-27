@@ -1,0 +1,20 @@
+{
+ "id": "c0-d1-1-0",
+ "scene": "Tapping the can summons a travel robot with three departure gates. Board which?",
+ "options": [
+  "Board subway train",
+  "Board street tram",
+  "Board harbour ferry"
+ ],
+ "next": [
+  "c0-d2",
+  "c0-d3",
+  "c0-d0"
+ ],
+ "picture": "Flat side view. Along one level platform, an open gate on the far left reveals a subway train. The player stands left in her yellow raincoat and green boots, holding her red umbrella. Centre sits an open glass arch beside a waiting tram. Far right, an open wooden gate leads to a docked ferry.",
+ "shown": [
+  "A steel subway train idling behind an open sliding gate on the far left.",
+  "A yellow street tram waiting beside an open glass archway in the centre.",
+  "A blue harbour ferry floating by an open wooden pier gate far right."
+ ]
+}

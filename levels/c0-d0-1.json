@@ -1,0 +1,20 @@
+{
+ "id": "c0-d0-1",
+ "scene": "You climb atop the crane cabin into the misty air. What next?",
+ "options": [
+  "Peer through binocular",
+  "Enter control cab",
+  "Slide down zipline"
+ ],
+ "next": [
+  "c0-d0-1-0",
+  "c0-d0-1-1",
+  "c0-d0-1-2"
+ ],
+ "picture": "On the crane's flat steel catwalk high above the harbor, the coin-operated steel binocular sits on the far left. The young Black woman in her yellow raincoat and green boots stands on the left holding her red umbrella. An open yellow cabin sits at centre, and a zipline starts at far right.",
+ "shown": [
+  "A coin-operated steel binocular mounted on the railings on the far left",
+  "A lighted yellow crane cabin with an open doorway at centre",
+  "A taut steel zipline angling downward off the crane arm on the far right"
+ ]
+}

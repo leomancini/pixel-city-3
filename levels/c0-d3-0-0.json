@@ -1,0 +1,20 @@
+{
+ "id": "c0-d3-0-0",
+ "scene": "The glowing gear powers up transit gates across the square. Which way?",
+ "options": [
+  "Board harbour ferry",
+  "Ride cable car",
+  "Catch subway train"
+ ],
+ "next": [
+  "c0-d0",
+  "c0-d1",
+  "c0-d2"
+ ],
+ "picture": "Pixel art side view of square. On the far left, a blue ferry rests at water. Left of centre, the player in her yellow raincoat and boots holds her red umbrella and glowing gear. Up high hangs an orange cable car. On the far right stands a glowing tiled subway stairwell.",
+ "shown": [
+  "a blue ferryboat docked at a wooden pier on the far left",
+  "an orange cable car cabin dangling from a cable up high",
+  "an illuminated tiled subway entrance with stairs leading down on the far right"
+ ]
+}

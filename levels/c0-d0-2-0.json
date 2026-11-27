@@ -1,0 +1,20 @@
+{
+ "id": "c0-d0-2-0",
+ "scene": "The opened crate disgorges three transit tokens at the bustling central terminal. Which ride?",
+ "options": [
+  "Ride street tram",
+  "Board cable car",
+  "Catch subway train"
+ ],
+ "next": [
+  "c0-d3",
+  "c0-d1",
+  "c0-d2"
+ ],
+ "picture": "Along a polished concourse, a yellow street tram waits on the far left. The young Black woman in yellow raincoat and green boots stands mid-left holding her red umbrella and glowing tokens. An open cable car cabin hangs up high centre. A ticketing kiosk stands right, and illuminated subway stairs wait far right.",
+ "shown": [
+  "a yellow street tram idling with open doors on the far left",
+  "an orange cable car cabin suspended from a cable up high centre",
+  "a glowing neon stairway sign pointing down to the subway on the far right"
+ ]
+}

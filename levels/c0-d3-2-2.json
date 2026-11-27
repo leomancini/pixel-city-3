@@ -1,0 +1,20 @@
+{
+ "id": "c0-d3-2-2",
+ "scene": "The beam leads outside to a scenic transit junction platform. Travel where?",
+ "options": [
+  "Take cable car",
+  "Board subway train",
+  "Catch harbour ferry"
+ ],
+ "next": [
+  "c0-d1",
+  "c0-d2",
+  "c0-d0"
+ ],
+ "picture": "Side-view pixel art of a breezy transit balcony. At the left, an open red cable car hangs from thick steel wires. The young Black woman in yellow raincoat, green boots, and red umbrella stands at the centre. To her right lies a lit subway entrance, and at the far right floats a blue ferry.",
+ "shown": [
+  "a dangling red cable car waiting open at the station on the left",
+  "a brightly lit subway staircase descending underground on the right",
+  "a blue ferry moored at a high water canal lock, far right"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "id": "c0-d1-1-2",
+ "scene": "The trapdoor reveals a transit rooftop overlooking three ready rides. Where next?",
+ "options": [
+  "Ride harbour ferry",
+  "Take subway train",
+  "Board street tram"
+ ],
+ "next": [
+  "c0-d0",
+  "c0-d2",
+  "c0-d3"
+ ],
+ "picture": "Flat side view. Along the far left, a docked blue harbour ferry bobs by a pier. To its right, the player in her yellow raincoat, green boots, and red umbrella stands by an open wooden trapdoor. In the centre, a tiled subway entrance leads down. On the far right, a yellow tram waits.",
+ "shown": [
+  "a blue ferryboat docked at a wooden pier on the far left",
+  "a tiled subway stairwell with an open metal turnstile in the centre",
+  "a yellow street tram waiting with open doors on the far right"
+ ]
+}

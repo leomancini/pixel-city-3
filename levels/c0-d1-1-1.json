@@ -1,0 +1,20 @@
+{
+ "id": "c0-d1-1-1",
+ "scene": "The blossom's pollen swirls, opening three transport gates outside. Where to travel?",
+ "options": [
+  "Take street tram",
+  "Board harbour ferry",
+  "Catch subway train"
+ ],
+ "next": [
+  "c0-d3",
+  "c0-d0",
+  "c0-d2"
+ ],
+ "picture": "Flat side view. On the far left sits a waiting yellow street tram. The player stands centre-left in her yellow raincoat, green boots, and red umbrella. In the centre, a blue harbour ferry idles beside a dock. On the far right, an open subway train car glows brightly.",
+ "shown": [
+  "a waiting yellow street tram parked at the open platform on the far left",
+  "a blue harbour ferry idling beside a wooden dock gate in the centre",
+  "a glowing neon subway train door standing open on the far right"
+ ]
+}

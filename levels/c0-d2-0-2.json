@@ -1,0 +1,20 @@
+{
+ "id": "c0-d2-0-2",
+ "scene": "The glowing tunnel exits at Grand Transit Hub. Which ride do you choose?",
+ "options": [
+  "Board street tram",
+  "Catch harbour ferry",
+  "Ride cable car"
+ ],
+ "next": [
+  "c0-d3",
+  "c0-d0",
+  "c0-d1"
+ ],
+ "picture": "A flat side view along a wide stone transit dock. On the far left sits an idling yellow street tram with open doors. The player stands left of centre in her yellow raincoat, green boots, and red umbrella. In the centre sits a docked wooden ferry, and a red cable car hangs up high.",
+ "shown": [
+  "a sleek yellow street tram with open doors on the far left",
+  "a wooden harbour ferry bobbing beside the dock in the centre",
+  "a red glass cable car hanging from steel cables up high"
+ ]
+}

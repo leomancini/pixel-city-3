@@ -1,0 +1,20 @@
+{
+ "id": "c0-d1-2-2",
+ "scene": "The radish glows spicy-hot, illuminating three departing transit portals! Which journey?",
+ "options": [
+  "Ride subway train",
+  "Board street tram",
+  "Take harbour ferry"
+ ],
+ "next": [
+  "c0-d2",
+  "c0-d3",
+  "c0-d0"
+ ],
+ "picture": "Flat side view. The player stands centre-left holding her red umbrella and a glowing, half-eaten radish. On the far left, a subway train waits at an open illuminated platform hatch. At the centre sits an idling yellow street tram on tracks. On the far right, a harbour ferry floats ready in an aqueduct canal.",
+ "shown": [
+  "A gleaming underground train waiting at an open platform hatch on the far left.",
+  "A jaunty yellow cable tram parked on rooftop tracks at the centre.",
+  "A colourful ferry docked beside a roof canal chute on the far right."
+ ]
+}

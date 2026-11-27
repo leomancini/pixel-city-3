@@ -1,0 +1,20 @@
+{
+ "id": "c0-d0-0-0",
+ "scene": "The bottle holds a glowing transit token. Which ride do you choose?",
+ "options": [
+  "Take cable car",
+  "Board subway train",
+  "Catch street tram"
+ ],
+ "next": [
+  "c0-d1",
+  "c0-d2",
+  "c0-d3"
+ ],
+ "picture": "On the wooden pier, an illuminated subway entrance sits on the left. The young Black woman in her yellow raincoat, green boots, and red umbrella stands at centre holding a glowing token. A suspended red cable car hangs up high, and a brightly lit yellow street tram idles on the far right.",
+ "shown": [
+  "A red cable car suspended on an overhead wire, hovering up high",
+  "An open subway stairwell with an illuminated neon sign on the left",
+  "A yellow street tram waiting with open doors on the far right"
+ ]
+}

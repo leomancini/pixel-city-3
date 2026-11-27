@@ -1,0 +1,20 @@
+{
+ "id": "c0-d2-0-1",
+ "scene": "The badger chef hands you transit passes. Where will you travel?",
+ "options": [
+  "Ride cable car",
+  "Board street tram",
+  "Take harbour ferry"
+ ],
+ "next": [
+  "c0-d1",
+  "c0-d3",
+  "c0-d0"
+ ],
+ "picture": "Flat side view along a wide transit dock. On the left hangs an open red cable car. The player in yellow raincoat, green boots, and red umbrella stands facing centre beside an open yellow street tram. The badger chef stands beside her, pointing toward a docked teal ferry on the far right.",
+ "shown": [
+  "a dangling red cable car waiting open on the left",
+  "a yellow street tram idling with doors open in the centre",
+  "a teal harbour ferry docked and bobbing on the right"
+ ]
+}

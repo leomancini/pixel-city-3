@@ -1,0 +1,20 @@
+{
+ "id": "c0-d1",
+ "scene": "You step into Rooftop Gardens as your cable car arrives. What next?",
+ "options": [
+  "Taste dripping honey",
+  "Enter glowing greenhouse",
+  "Pick giant radish"
+ ],
+ "next": [
+  "c0-d1-0",
+  "c0-d1-1",
+  "c0-d1-2"
+ ],
+ "picture": "Flat side view. On the far left hangs the red cable car. On the left sits a striped wooden beehive dripping honey. The player stands centre-left holding her red umbrella. Centre is a glass greenhouse with a closed door glowing pink. On the far right grows a giant purple radish in raised soil.",
+ "shown": [
+  "a striped beehive dripping golden honey, standing on the left",
+  "a glass greenhouse door glowing with pink light in the centre",
+  "a huge purple radish sprouting from soil on the far right"
+ ]
+}

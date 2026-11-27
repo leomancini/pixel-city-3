@@ -1,0 +1,20 @@
+{
+ "id": "c0-d0-0",
+ "scene": "A friendly octopus vendor offers you glowing trinkets. What catches your eye?",
+ "options": [
+  "Inspect glass bottle",
+  "Trade copper coin",
+  "Follow winding boardwalk"
+ ],
+ "next": [
+  "c0-d0-0-0",
+  "c0-d0-0-1",
+  "c0-d0-0-2"
+ ],
+ "picture": "On the wooden pier, an octopus vendor in a sailor cap stands behind a brightly lit counter on the left. The young Black woman in a yellow raincoat and green boots stands facing it holding her red umbrella. A sparkling bottle rests at centre, dangling dried kelp hangs up high, and a wooden boardwalk ascends far right.",
+ "shown": [
+  "a corked bottle filled with glittering blue liquid on the stall's counter at centre",
+  "a six-armed purple octopus wearing a sailor cap standing behind the counter at left",
+  "an arched wooden ramp leading up into the city skyline at far right"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "id": "c0-d1-2-0",
+ "scene": "The trapdoor opens to a bustling transit hub! Where will you travel?",
+ "options": [
+  "Ride street tram",
+  "Board harbour ferry",
+  "Catch subway train"
+ ],
+ "next": [
+  "c0-d3",
+  "c0-d0",
+  "c0-d2"
+ ],
+ "picture": "Flat side view. The player in yellow raincoat and green boots stands centre-left holding her red umbrella. To her left sits a yellow street tram on tracks. In the centre, a blue harbour ferry docks beside a waterway. On the right, a silver subway train idles along a platform.",
+ "shown": [
+  "a yellow street tram to Clocktower Square waiting with open doors on the left",
+  "a blue harbour ferry to Neon Harbor docked at water in the centre",
+  "a sleek silver subway train to Undercity Market idling on the right"
+ ]
+}

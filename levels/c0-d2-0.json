@@ -1,0 +1,20 @@
+{
+ "id": "c0-d2-0",
+ "scene": "The noodle cart bubbles with luminescent broth. What will you try?",
+ "options": [
+  "Taste blue broth",
+  "Talk to chef",
+  "Enter glowing tunnel"
+ ],
+ "next": [
+  "c0-d2-0-0",
+  "c0-d2-0-1",
+  "c0-d2-0-2"
+ ],
+ "picture": "Flat side view along a stone platform. On the far left sits a wooden noodle cart with a steaming blue pot. The player stands left of centre in her yellow raincoat, green boots, and red umbrella. A badger chef stands in the centre, while an archway strung with neon cables waits on the far right.",
+ "shown": [
+  "a steaming ceramic pot of glowing blue broth sitting on the left cart",
+  "a friendly badger chef wearing a striped apron standing in the centre",
+  "a dark brick archway lit by hanging neon cables on the far right"
+ ]
+}

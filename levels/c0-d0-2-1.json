@@ -1,0 +1,20 @@
+{
+ "id": "c0-d0-2-1",
+ "scene": "The conductor deposits you at Harbor Central transit hub. Which way onward?",
+ "options": [
+  "Take cable car",
+  "Board subway train",
+  "Ride street tram"
+ ],
+ "next": [
+  "c0-d1",
+  "c0-d2",
+  "c0-d3"
+ ],
+ "picture": "Along a wide stone platform, an open subway stairwell sits far left. The friendly robot conductor stands left next to the player, who wears her yellow raincoat and green boots while holding her red umbrella at centre. A yellow street tram waits far right, while a red cable car hangs up high.",
+ "shown": [
+  "A red cable car hanging up high on a thick steel line",
+  "An open glowing stairwell leading down to subway platforms on far left",
+  "A yellow street tram waiting with open doors on the far right"
+ ]
+}

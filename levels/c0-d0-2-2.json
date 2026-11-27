@@ -1,0 +1,20 @@
+{
+ "id": "c0-d0-2-2",
+ "scene": "The tram screeches to a halt at Grand Station. Where to next?",
+ "options": [
+  "Ride subway train",
+  "Board street tram",
+  "Take cable car"
+ ],
+ "next": [
+  "c0-d2",
+  "c0-d3",
+  "c0-d1"
+ ],
+ "picture": "In a bustling tile-floored station concourse, a sleek blue subway train waits with doors open on the left. The young Black woman in yellow raincoat, green boots, and red umbrella stands mid-left. A bright yellow street tram idles at centre. A red glass cable car hangs ready up high on the right.",
+ "shown": [
+  "a sleek blue subway train with doors slid open, on the left",
+  "a yellow street tram idling with doors open, at centre",
+  "a red glass cable car hanging ready from a cable, up high"
+ ]
+}

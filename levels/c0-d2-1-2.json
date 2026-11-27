@@ -1,0 +1,20 @@
+{
+ "id": "c0-d2-1-2",
+ "scene": "The glowing tunnel opens into a bustling transit cavern. How will you travel?",
+ "options": [
+  "Ride harbour ferry",
+  "Take cable car",
+  "Board street tram"
+ ],
+ "next": [
+  "c0-d0",
+  "c0-d1",
+  "c0-d3"
+ ],
+ "picture": "Along a flat stone platform, a turquoise ferry floats at a dock on the far left. The player in yellow raincoat, green boots, and red umbrella stands centre facing forward. Overhead, a glass cable car hangs up high, and a red street tram waits on tracks on the far right.",
+ "shown": [
+  "a turquoise passenger ferry bobbing at the wooden dock on the far left",
+  "a glass cable car hanging open on an overhead wire up high",
+  "a bright red street tram resting on steel tracks on the far right"
+ ]
+}

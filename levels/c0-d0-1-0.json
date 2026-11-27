@@ -1,0 +1,20 @@
+{
+ "id": "c0-d0-1-0",
+ "scene": "The binoculars reveal three transit lines leaving the harbor. Which to take?",
+ "options": [
+  "Take subway train",
+  "Board street tram",
+  "Ride cable car"
+ ],
+ "next": [
+  "c0-d2",
+  "c0-d3",
+  "c0-d1"
+ ],
+ "picture": "The young Black woman in yellow raincoat, green boots, and red umbrella stands at centre. On the far left, a lit subway entrance stairwell leads down. Left of centre sits the crane binocular. To the right, a red street tram waits on rails. Up high, a yellow cable car hangs ready at a high platform.",
+ "shown": [
+  "a glowing subway entrance stairwell with open gate on the far left",
+  "a painted red street tram idling at a platform on the right",
+  "a glass-bottomed cable car dangling from an overhead wire up high"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "id": "c0-d0-0-1",
+ "scene": "The octopus hands you a sparkling transit pass. How will you travel?",
+ "options": [
+  "Take subway train",
+  "Board street tram",
+  "Ride cable car"
+ ],
+ "next": [
+  "c0-d2",
+  "c0-d3",
+  "c0-d1"
+ ],
+ "picture": "Along the pier boardwalk, the young Black woman in yellow raincoat, green boots, and red umbrella stands holding a shiny transit card. On the far left, a subway stairs entrance glows. In the centre, an open yellow street tram idles on tracks. On the far right, an aerial cable car waits.",
+ "shown": [
+  "a glowing subway entrance stairwell with open gate on the far left",
+  "a yellow street tram idling with doors open in the centre",
+  "a dangling glass cable car stopped at its terminal platform far right"
+ ]
+}

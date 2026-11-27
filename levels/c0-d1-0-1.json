@@ -1,0 +1,20 @@
+{
+ "id": "c0-d1-0-1",
+ "scene": "Inside the greenhouse, a glass transit terminal connects the city. Which way?",
+ "options": [
+  "Take subway train",
+  "Ride street tram",
+  "Catch harbour ferry"
+ ],
+ "next": [
+  "c0-d2",
+  "c0-d3",
+  "c0-d0"
+ ],
+ "picture": "Flat side view. On the left, an open subterranean hatch holds a silver subway train. Just right of it, the player stands holding her red umbrella. At centre sits an open yellow street tram. On the right, a blue harbour ferry bobs in a tiled canal basin, ready for passengers.",
+ "shown": [
+  "a sleek silver subway train idling at an open hatch on the left",
+  "a yellow street tram stopped on gleaming rails at centre",
+  "a blue harbour ferry floating in an indoor canal on the right"
+ ]
+}

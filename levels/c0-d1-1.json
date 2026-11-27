@@ -1,0 +1,20 @@
+{
+ "id": "c0-d1-1",
+ "scene": "Inside the warm greenhouse, strange plants hum under pink lamps. What next?",
+ "options": [
+  "Tap metal watering can",
+  "Smell singing flower",
+  "Open back trapdoor"
+ ],
+ "next": [
+  "c0-d1-1-0",
+  "c0-d1-1-1",
+  "c0-d1-1-2"
+ ],
+ "picture": "Flat side view. On the far left sits a low potting bench with a shiny copper watering can. The player stands centre-left in her yellow raincoat and green boots, holding her red umbrella. In the centre, a glowing blue blossom nods in a clay pot. On the far right is a closed wooden trapdoor.",
+ "shown": [
+  "a shiny copper watering can resting on a potting table on the far left",
+  "a glowing blue blossom nodding gently from a clay pot in the centre",
+  "a heavy wooden trapdoor set into the brick floor on the far right"
+ ]
+}

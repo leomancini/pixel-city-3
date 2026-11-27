@@ -1,0 +1,20 @@
+{
+ "id": "c0-d3",
+ "scene": "You step off the tram into ticking Clocktower Square. Where now?",
+ "options": [
+  "Inspect antique clock",
+  "Knock brass door",
+  "Climb clocktower ladder"
+ ],
+ "next": [
+  "c0-d3-0",
+  "c0-d3-1",
+  "c0-d3-2"
+ ],
+ "picture": "Flat side-view pixel art of cobbled Clocktower Square. A red tram sits far left beside a wooden grandfather clock. In the centre stands a young Black woman with a round afro, yellow raincoat, green boots, and red umbrella. To the right is a brass workshop door, and up high hangs an iron ladder.",
+ "shown": [
+  "a tall wooden grandfather clock standing ticking on the cobbled sidewalk far left",
+  "a polished brass workshop door with a gear-shaped knocker on the right",
+  "an iron maintenance ladder bolted beneath the giant ticking face up high"
+ ]
+}

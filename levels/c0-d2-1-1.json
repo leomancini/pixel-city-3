@@ -1,0 +1,20 @@
+{
+ "id": "c0-d2-1-1",
+ "scene": "The opened chest reveals travel passes to sunny places above. Where next?",
+ "options": [
+  "Ride street tram",
+  "Board harbour ferry",
+  "Take cable car"
+ ],
+ "next": [
+  "c0-d3",
+  "c0-d0",
+  "c0-d1"
+ ],
+ "picture": "Along a wooden departure dock, a red street tram idles on the far left. The player in yellow raincoat, green boots, and red umbrella stands left of centre holding three tickets. In the centre, a wooden harbour ferry sits on green water. On the far right, a yellow cable car hangs at a dock gate.",
+ "shown": [
+  "A red street tram waits on tracks at the far left platform.",
+  "A small wooden harbour ferry idles beside a pier at the centre.",
+  "A yellow cable car hangs ready at a gate on the far right."
+ ]
+}

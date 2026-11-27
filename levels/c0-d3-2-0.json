@@ -1,0 +1,20 @@
+{
+ "id": "c0-d3-2-0",
+ "scene": "Steam reveals three hidden transit gates along the clocktower balcony. Which way?",
+ "options": [
+  "Ride subway train",
+  "Board harbour ferry",
+  "Take cable car"
+ ],
+ "next": [
+  "c0-d2",
+  "c0-d0",
+  "c0-d1"
+ ],
+ "picture": "Pixel art flat side-view of the clocktower balcony after turning the valve. In the centre, the young Black woman in yellow raincoat, green boots, and red umbrella stands facing forward. On the far left is an open illuminated subway hatch. To the right sits a moored harbour ferry. Up high hangs an empty cable car.",
+ "shown": [
+  "a glowing stair hatch to the subway platform on the far left",
+  "a docked wooden water-ferry waiting beside a canal dock on the right",
+  "a dangling red cable car swaying from an overhead cable up high"
+ ]
+}

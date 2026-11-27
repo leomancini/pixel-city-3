@@ -1,0 +1,20 @@
+{
+ "id": "c0-d2-2-0",
+ "scene": "The purring metal cat unlocks three transit gates. Where will you travel?",
+ "options": [
+  "Board street tram",
+  "Board harbour ferry",
+  "Board cable car"
+ ],
+ "next": [
+  "c0-d3",
+  "c0-d0",
+  "c0-d1"
+ ],
+ "picture": "Along the rooftop transit hub, the yellow street tram sits on the far left. Left of centre, the woman in her yellow raincoat, green boots, and red umbrella stands beside the purring robotic cat. The blue harbour ferry idles at a centre slip, and a suspended red cable car waits on the far right.",
+ "shown": [
+  "A yellow street tram waiting with open doors on the far left tracks",
+  "A blue harbour ferry tied to a pier platform at the centre",
+  "A red cable car suspended from a metal pylon on the right"
+ ]
+}

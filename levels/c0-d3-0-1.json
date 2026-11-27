@@ -1,0 +1,20 @@
+{
+ "id": "c0-d3-0-1",
+ "scene": "The tunnel leads to a bustling multi-level transit depot. Which ride?",
+ "options": [
+  "Ride cable car",
+  "Board subway train",
+  "Take harbour ferry"
+ ],
+ "next": [
+  "c0-d1",
+  "c0-d2",
+  "c0-d0"
+ ],
+ "picture": "Flat side-view pixel art of a bustling transit hub. On the left sits a sleek silver subway train with open doors. Left of centre, a young Black woman in a yellow raincoat and green boots holds her red umbrella. Up high hangs a red cable car. On the right, a blue ferry bobs at a dock.",
+ "shown": [
+  "A red cable car dangling up high with doors sliding open.",
+  "A sleek silver subway train idling on tracks on the left.",
+  "A blue harbour ferry floating at a wooden dock on the right."
+ ]
+}

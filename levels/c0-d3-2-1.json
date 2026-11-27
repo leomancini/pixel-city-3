@@ -1,0 +1,20 @@
+{
+ "id": "c0-d3-2-1",
+ "scene": "The pigeon coos mechanical routes across the city. Which way now?",
+ "options": [
+  "Board harbour ferry",
+  "Take cable car",
+  "Catch subway train"
+ ],
+ "next": [
+  "c0-d0",
+  "c0-d1",
+  "c0-d2"
+ ],
+ "picture": "Pixel art flat side-view along the clocktower catwalk. On the far left stands a blue ferryboat ticket machine. In the centre, the young Black woman in yellow raincoat, green boots, and red umbrella listens to the brass pigeon. To the right waits a dangling red cable car, and far right an illuminated subway hatch.",
+ "shown": [
+  "a blue ferryboat ticket machine glowing brightly on the far left",
+  "a dangling red cable car waiting open on the catwalk railing right",
+  "an illuminated subway hatch and iron ladder down on the far right"
+ ]
+}

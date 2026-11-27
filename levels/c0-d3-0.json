@@ -1,0 +1,20 @@
+{
+ "id": "c0-d3-0",
+ "scene": "The clock swings open, revealing glowing gears and a tunnel. Now what?",
+ "options": [
+  "Take glowing gear",
+  "Enter dark tunnel",
+  "Check brass mailbox"
+ ],
+ "next": [
+  "c0-d3-0-0",
+  "c0-d3-0-1",
+  "c0-d3-0-2"
+ ],
+ "picture": "Flat side-view pixel art of cobbled Clocktower Square. On the far left, a tall wooden grandfather clock stands open, showing a round stone tunnel and a glowing blue gear. Left of centre, a young Black woman in a yellow raincoat and green boots holds her red umbrella. To the right, a brass mailbox hangs shut.",
+ "shown": [
+  "a bright blue gear resting inside the clock cabinet on the left",
+  "a round stone tunnel mouth visible inside the open clock far left",
+  "an unopened brass mailbox mounted on the wall to the right"
+ ]
+}

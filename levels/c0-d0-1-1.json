@@ -1,0 +1,20 @@
+{
+ "id": "c0-d0-1-1",
+ "scene": "Inside the cabin, the crane lowers you to the transit hub. Choose your route?",
+ "options": [
+  "Board street tram",
+  "Take cable car",
+  "Catch subway train"
+ ],
+ "next": [
+  "c0-d3",
+  "c0-d1",
+  "c0-d2"
+ ],
+ "picture": "A wide multi-level transit depot on flat concrete. On the far left sits a waiting street tram. The young Black woman in yellow raincoat, green boots, and red umbrella stands at centre. Up high rests an open orange cable car, and a glowing subway entrance opens on the far right.",
+ "shown": [
+  "a sleek street tram with open folding doors waiting on the far left",
+  "an orange cable car hanging open at a suspended platform up high",
+  "a tiled subway stairwell with a lit neon sign on the far right"
+ ]
+}

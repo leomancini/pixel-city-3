@@ -1,0 +1,20 @@
+{
+ "id": "c0-d2-2-2",
+ "scene": "Across the plank, transit platforms span the city edge. How will you travel?",
+ "options": [
+  "Take cable car",
+  "Board street tram",
+  "Ride harbour ferry"
+ ],
+ "next": [
+  "c0-d1",
+  "c0-d3",
+  "c0-d0"
+ ],
+ "picture": "Along a wide wooden pier, a sleek yellow street tram sits on rails on the left. The young Black woman in yellow raincoat, green boots, and red umbrella stands in the centre. Up high hangs a glass cable car at a pylon. On the far right, a blue ferry floats beside the dock.",
+ "shown": [
+  "a dangling glass cable car docked at an aerial pylon up high",
+  "a sleek yellow street tram waiting with open doors on the left",
+  "a blue passenger ferry moored at a wooden slipway on the far right"
+ ]
+}

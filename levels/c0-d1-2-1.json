@@ -1,0 +1,20 @@
+{
+ "id": "c0-d1-2-1",
+ "scene": "You climb high above the gardens to the transit lookout. Which way?",
+ "options": [
+  "Board harbour ferry",
+  "Take subway train",
+  "Catch street tram"
+ ],
+ "next": [
+  "c0-d0",
+  "c0-d2",
+  "c0-d3"
+ ],
+ "picture": "Flat side view. Along the wide terrace platform, a turquoise harbour ferry sits moored at a pier on the far left. The player, carrying her red umbrella, stands centre-left facing right. In the centre, an open subway stairwell glows. On the right waits a cheerful yellow street tram with open passenger doors.",
+ "shown": [
+  "A turquoise harbour ferry tied to a pier dock on the far left",
+  "A lit subway entrance staircase leading underground in the centre",
+  "A bright yellow street tram idling with doors open on the right"
+ ]
+}

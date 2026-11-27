@@ -1,0 +1,20 @@
+{
+ "id": "c0-d1-2",
+ "scene": "Yanking the giant radish reveals a hidden trapdoor underneath! Now what?",
+ "options": [
+  "Open metal trapdoor",
+  "Climb bamboo trellis",
+  "Bite giant radish"
+ ],
+ "next": [
+  "c0-d1-2-0",
+  "c0-d1-2-1",
+  "c0-d1-2-2"
+ ],
+ "picture": "Flat side view. On the far left stands a tall bamboo trellis. The player stands centre-left holding her red umbrella and looking right. In the centre lies the freshly pulled giant purple radish. On the right, revealed in the raised soil bed, sits a shut round metal trapdoor with a brass ring handle.",
+ "shown": [
+  "A round metal trapdoor lying flat in the soil on the right.",
+  "A tall bamboo trellis leaning on the far left against the wall.",
+  "The freshly uprooted giant purple radish lying in the centre."
+ ]
+}

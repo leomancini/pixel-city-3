@@ -1,0 +1,20 @@
+{
+ "id": "c0-d3-1-0",
+ "scene": "The glowing cog unlocks the transit hub outside. Which trip to take?",
+ "options": [
+  "Ride cable car",
+  "Board subway train",
+  "Catch harbour ferry"
+ ],
+ "next": [
+  "c0-d1",
+  "c0-d2",
+  "c0-d0"
+ ],
+ "picture": "Flat side-view pixel art of a bustling transit plaza. On the left is an open subway staircase with glowing neon signs leading down. In the centre, the young Black woman in her yellow raincoat, green boots, and red umbrella holds a glowing cog. Up high hangs an open glass cable car. A harbour ferry idles far right.",
+ "shown": [
+  "a glass cable car dangling open from a steel cable up high",
+  "an open subway staircase with glowing neon signs on the left",
+  "a small wooden harbour ferry idling at a pier far right"
+ ]
+}

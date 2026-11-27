@@ -1,0 +1,20 @@
+{
+ "id": "c0-d3-0-2",
+ "scene": "The mailbox pops open with three transit tokens inside. Which way now?",
+ "options": [
+  "Take subway train",
+  "Board harbour ferry",
+  "Ride cable car"
+ ],
+ "next": [
+  "c0-d2",
+  "c0-d0",
+  "c0-d1"
+ ],
+ "picture": "Flat side-view pixel art of cobbled Clocktower Square. On the far left, an illuminated stairway leads down to a subway train. In the centre, the player stands beside the open brass mailbox holding three shiny tokens. Up high, a red cable car hangs suspended. On the far right, a harbour ferry waits at a dock.",
+ "shown": [
+  "a glowing subway staircase with a train waiting, on the far left",
+  "a blue harbour ferry idling beside a wooden dock, on the far right",
+  "a red glass cable car hanging from an overhead line, up high"
+ ]
+}

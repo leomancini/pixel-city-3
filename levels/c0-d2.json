@@ -1,0 +1,20 @@
+{
+ "id": "c0-d2",
+ "scene": "You step into the lantern-lit Undercity Market. What catches your eye?",
+ "options": [
+  "Inspect noodles",
+  "Trade trinkets",
+  "Climb iron ladder"
+ ],
+ "next": [
+  "c0-d2-0",
+  "c0-d2-1",
+  "c0-d2-2"
+ ],
+ "picture": "Along a tiled platform, the opened silver subway train stands at the far left. The player in yellow raincoat, green boots, and red umbrella stands facing forward left of centre. A steaming noodle cart sits on the left, a lizard merchant spreads gears on the centre ground, and an iron ladder rises on the right.",
+ "shown": [
+  "a steaming noodle cart with hanging paper lanterns on the left",
+  "a lizard merchant sitting behind a rug of shiny gears, centre",
+  "a rusty metal ladder bolted against a brick pillar on the right"
+ ]
+}

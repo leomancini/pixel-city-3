@@ -1,0 +1,20 @@
+{
+ "id": "c0-d0-1-2",
+ "scene": "You zip down safely to the busy transit plaza. Where next?",
+ "options": [
+  "Ride cable car",
+  "Board subway train",
+  "Take street tram"
+ ],
+ "next": [
+  "c0-d1",
+  "c0-d2",
+  "c0-d3"
+ ],
+ "picture": "Along the flat pavement of the transit plaza, a red cable car hangs with doors open up high on the left. The young Black woman in her yellow raincoat and green boots holds her red umbrella at left-centre. A brightly lit subway stairwell sits at centre, and a green street tram waits at far right.",
+ "shown": [
+  "A red cable car hanging open on a wire up high on the left",
+  "An open glowing subway staircase entrance with tiled steps at the centre",
+  "A green street tram idling with doors open on tracks at the far right"
+ ]
+}

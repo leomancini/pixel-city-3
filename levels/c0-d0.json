@@ -1,0 +1,20 @@
+{
+ "id": "c0-d0",
+ "scene": "You step off the harbor ferry into glowing Neon Harbor. Where next?",
+ "options": [
+  "Browse fish stall",
+  "Climb crane ladder",
+  "Board cargo tram"
+ ],
+ "next": [
+  "c0-d0-0",
+  "c0-d0-1",
+  "c0-d0-2"
+ ],
+ "picture": "On a wooden pier, the harbour ferry rests docked at far left. The young Black woman with a round afro, yellow raincoat, and green boots stands on the left holding a red umbrella. A glowing fish stall sits at centre, a tall crane on the right, and a cargo tram far right.",
+ "shown": [
+  "a glowing fish stall lined with sparkling blue jellyfish on ice at centre",
+  "a tall yellow cargo crane with an attached metal ladder on the right",
+  "an open-air cargo tram waiting with open sliding doors on the far right"
+ ]
+}

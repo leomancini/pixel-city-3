@@ -1,0 +1,20 @@
+{
+ "id": "c0-d3-1-1",
+ "scene": "The clockmaker points outside to three waiting transit lines. Which departure?",
+ "options": [
+  "Ride subway train",
+  "Board harbour ferry",
+  "Take cable car"
+ ],
+ "next": [
+  "c0-d2",
+  "c0-d0",
+  "c0-d1"
+ ],
+ "picture": "Flat side-view pixel art of an outdoor transit junction beside the clockmaker's shop. On the far left is an open subway staircase with glowing signs. The player in yellow raincoat, green boots, and red umbrella stands at centre. On the right waits a docked ferry gangway. Up high hangs an empty red cable car.",
+ "shown": [
+  "a glowing subway station stairwell leading underground on the far left",
+  "a striped ferry gangway attached to a waiting boat on the right",
+  "a bright red cable car cabin dangling from cables up high"
+ ]
+}

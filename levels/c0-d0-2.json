@@ -1,0 +1,20 @@
+{
+ "id": "c0-d0-2",
+ "scene": "Inside the rattling tram, strange crates surround you. What do you inspect?",
+ "options": [
+  "Examine humming crate",
+  "Talk to conductor",
+  "Pull emergency lever"
+ ],
+ "next": [
+  "c0-d0-2-0",
+  "c0-d0-2-1",
+  "c0-d0-2-2"
+ ],
+ "picture": "Inside a moving tram car with metal floor panels, a teal crate glows with purple sparks on the left. The young Black woman in her yellow raincoat and green boots stands mid-left holding her red umbrella. A robot conductor stands at centre, stacked packages sit right, and a red lever waits far right.",
+ "shown": [
+  "A large teal crate humming with purple sparks on the left",
+  "A friendly robot conductor wearing a blue cap standing at centre",
+  "A shiny red lever mounted on the wall at the far right"
+ ]
+}

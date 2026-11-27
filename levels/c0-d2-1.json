@@ -1,0 +1,20 @@
+{
+ "id": "c0-d2-1",
+ "scene": "The lizard merchant rattles a shiny brass key. Which path beckons?",
+ "options": [
+  "Take brass key",
+  "Open carved chest",
+  "Enter dark tunnel"
+ ],
+ "next": [
+  "c0-d2-1-0",
+  "c0-d2-1-1",
+  "c0-d2-1-2"
+ ],
+ "picture": "Along a tiled market floor, a wooden chest sits on the far left. The player in yellow raincoat, green boots, and red umbrella stands left of centre facing forward. In the centre, a lizard merchant holds up a brass key. An arched tunnel glowing with blue mushrooms waits on the far right.",
+ "shown": [
+  "a gleaming brass key held out by the lizard merchant in the centre",
+  "a locked wooden chest bound in vines sitting on the far left",
+  "a brick archway glowing with blue mushrooms on the far right"
+ ]
+}
