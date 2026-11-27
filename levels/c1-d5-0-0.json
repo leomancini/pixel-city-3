@@ -1,0 +1,21 @@
+{
+ "id": "c1-d5-0-0",
+ "scene": "Blue ink geysers into the sky, splashing across waiting transport stops.",
+ "options": [
+  "Board water taxi",
+  "Ride the monorail",
+  "Take the funicular"
+ ],
+ "next": [
+  "c1-d0",
+  "c1-d1",
+  "c1-d2"
+ ],
+ "picture": "Side view of Fountain Pen Lane. The elderly bearded man in blue cap and orange cardigan stands beside the uncorked barrel spouting blue ink. Far left, a striped water taxi bobs at a canal pier. Up high centre, a suspended monorail waits. Far right, a glass funicular rests on steep rails.",
+ "shown": [
+  "A wooden water taxi tied to the canal pier on the far left",
+  "A sleek monorail carriage resting on overhead tracks up high in the centre",
+  "A glass-walled funicular car waiting on a steep rail track far right"
+ ],
+ "view": "wide"
+}

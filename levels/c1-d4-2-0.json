@@ -1,0 +1,21 @@
+{
+ "id": "c1-d4-2-0",
+ "scene": "Pocketing the wet key, you find three distinct transit gates ready outside.",
+ "options": [
+  "Ride monorail",
+  "Board funicular",
+  "Take rickshaw"
+ ],
+ "next": [
+  "c1-d1",
+  "c1-d2",
+  "c1-d3"
+ ],
+ "picture": "A wide flat terrace view with the elderly man in blue cap and orange cardigan holding his cane in the centre. Far left stands a red monorail with open doors. Left is a tea cart. Right waits a tilted wooden funicular car. Far right sits a clockwork rickshaw with glowing headlights.",
+ "shown": [
+  "a sleek red monorail carriage idling at an elevated gantry far left",
+  "a wooden funicular car waiting on steep sloped tracks to the right",
+  "a mechanical brass rickshaw with a smiling robot driver on the far right"
+ ],
+ "view": "wide"
+}

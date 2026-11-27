@@ -1,0 +1,21 @@
+{
+ "id": "c1-d4-1-0",
+ "scene": "The defeated automaton bows politely, unlocking the pavilion’s three departure gates.",
+ "options": [
+  "Hail the rickshaw",
+  "Board the trolley",
+  "Take water taxi"
+ ],
+ "next": [
+  "c1-d3",
+  "c1-d5",
+  "c1-d0"
+ ],
+ "picture": "A flat side view along the exit colonnade of the pavilion. On the far left waits a red-canopied wicker rickshaw. The player stands left of centre with his cane. In the centre rests a small yellow hand-cranked trolley on tracks. On the far right, a green water taxi waits at canal steps.",
+ "shown": [
+  "a wicker rickshaw with a waiting puller on the far left",
+  "a yellow hand-cranked trolley standing on rails in the centre",
+  "a green wooden water taxi bobbing by steps on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c1-d4-0-0",
+ "scene": "The brass dial clicks, opening three transit arches across the pavilion deck.",
+ "options": [
+  "Board water taxi",
+  "Take the monorail",
+  "Ride the funicular"
+ ],
+ "next": [
+  "c1-d0",
+  "c1-d1",
+  "c1-d2"
+ ],
+ "picture": "Flat side-view across the checkerboard deck. On the far left, a docked green water taxi rocks beside stone steps. Left of centre stands the elderly East Asian player in blue cap and orange cardigan holding his cane. In the centre, an open monorail car waits. On the far right sits an angled funicular car.",
+ "shown": [
+  "a sleek canal water taxi moored at a dock on the far left",
+  "a yellow monorail car idling at an open gate in the centre",
+  "a red angled funicular railway car waiting on tracks on the far right"
+ ],
+ "view": "wide"
+}

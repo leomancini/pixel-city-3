@@ -1,0 +1,21 @@
+{
+ "id": "c1-d4-1-1",
+ "scene": "The clock pops open, dispensing stamped transit tokens onto the pavilion balcony.",
+ "options": [
+  "Pump the trolley",
+  "Hail water taxi",
+  "Board the monorail"
+ ],
+ "next": [
+  "c1-d5",
+  "c1-d0",
+  "c1-d1"
+ ],
+ "picture": "A wide side-scrolling platform across the balcony. On the far left, a hand-cranked trolley rests on tracks. Left of centre, the player stands with cane and cap, brass tokens in hand. At the centre, a striped water taxi waits by steps. On the far right, an open monorail car waits at a railed stop.",
+ "shown": [
+  "a hand-cranked trolley on narrow tracks at the far left",
+  "a small striped water taxi bobbing along the centre canal edge",
+  "a sleek yellow monorail car idling at the far right platform"
+ ],
+ "view": "wide"
+}

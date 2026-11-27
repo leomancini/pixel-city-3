@@ -1,0 +1,21 @@
+{
+ "id": "c1-d4-0",
+ "scene": "Intricate brass dials and cryptic floor switches hum inside the open lift.",
+ "options": [
+  "Turn brass dial",
+  "Flip red switch",
+  "Take hanging key"
+ ],
+ "next": [
+  "c1-d4-0-0",
+  "c1-d4-0-1",
+  "c1-d4-0-2"
+ ],
+ "picture": "A close-up view of the open lift control console filling the frame. On the far left, a notched brass pointer dial glows with strange symbols. In the centre, an unthrown red heavy-duty switch rests in an upward position. On the right, a solitary silver skeleton key dangles from an ornate wall hook.",
+ "shown": [
+  "a rotating brass pointer dial glowing softly on the far left wall",
+  "a heavy red floor switch mounted in the centre beside the gate",
+  "a gleaming silver key hanging on a small hook on the right"
+ ],
+ "view": "close"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c1-d4-2-1",
+ "scene": "Steam bursts from the brass pipe, opening three exit gates simultaneously.",
+ "options": [
+  "Ride funicular railway",
+  "Hail rickshaw",
+  "Board hand-cranked trolley"
+ ],
+ "next": [
+  "c1-d2",
+  "c1-d3",
+  "c1-d5"
+ ],
+ "picture": "Side-scrolling view along a tiled pavilion floor. The elderly man in his blue cap and orange cardigan stands holding his cane, watching steam hiss from an overhead pipe. On the left waits a glass funicular car; in the centre sits a red-hooded rickshaw with driver; on the far right waits a hand-cranked trolley.",
+ "shown": [
+  "a steep glass funicular car waiting at its track gate on the left",
+  "a red-hooded rickshaw with a smiling driver parked in the centre",
+  "a brass hand-cranked trolley resting on gleaming rails on the far right"
+ ],
+ "view": "wide"
+}

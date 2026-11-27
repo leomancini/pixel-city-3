@@ -1,0 +1,21 @@
+{
+ "id": "c1-d5-2-2",
+ "scene": "High on the mill catwalk, open bay doors overlook busy city transit.",
+ "options": [
+  "Ride rickshaw",
+  "Take slow lift",
+  "Board water taxi"
+ ],
+ "next": [
+  "c1-d3",
+  "c1-d4",
+  "c1-d0"
+ ],
+ "picture": "Side-view pixel art of a raised catwalk. Far left, a hooded rickshaw waits beside an exit sign for Lantern Row. Left of centre, the elderly player with white beard, blue cap, and orange cardigan leans on his wooden cane. Centre stands a brass cage lift with open gates. Right, a striped water taxi bobs.",
+ "shown": [
+  "a wheeled rickshaw parked at an upper gangway door on the far left",
+  "an open brass cage lift with glowing buttons standing in the centre",
+  "a striped water taxi moored to the catwalk jetty on the right"
+ ],
+ "view": "wide"
+}
