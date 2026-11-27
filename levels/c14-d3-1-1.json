@@ -1,0 +1,21 @@
+{
+ "id": "c14-d3-1-1",
+ "scene": "You scramble through the luggage hatch onto an open transport terrace.",
+ "options": [
+  "Ride sidecar bike",
+  "Board night funicular",
+  "Climb bridge crawler"
+ ],
+ "next": [
+  "c14-d5",
+  "c14-d0",
+  "c14-d1"
+ ],
+ "picture": "Flat side view. Along a rooftop terrace, on the far left, a sidecar motorbike idles quietly. Left of centre, the player stands beside the open hatch. Right, a glowing night funicular waits at its platform. Far right, an iron bridge crawler sits ready on heavy cables.",
+ "shown": [
+  "a vintage motorbike with an empty sidecar idling on the far left",
+  "a brass-trimmed glass funicular car waiting with open doors on the right",
+  "a multilegged mechanized crawler vehicle clamped to rails on the far right"
+ ],
+ "view": "wide"
+}

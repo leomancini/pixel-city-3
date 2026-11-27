@@ -1,0 +1,21 @@
+{
+ "id": "c14-d3-0-1",
+ "scene": "The chest pops open, spilling travel tokens across the depot platform.",
+ "options": [
+  "Board bridge crawler",
+  "Ride cleaning gondola",
+  "Hop on tow-truck"
+ ],
+ "next": [
+  "c14-d1",
+  "c14-d2",
+  "c14-d4"
+ ],
+ "picture": "A flat side view along the depot platform. On the far left, a spider-legged bridge crawler idles at an archway. Left of centre, the player stands beside the newly opened chest. Up high, a window-cleaner gondola hangs from a ceiling rail. On the far right, a tow truck waits by an exit ramp.",
+ "shown": [
+  "a mechanical multi-legged bridge crawler idling beside an open portal on the far left",
+  "a suspended window-cleaner gondola resting on a docking rail up high",
+  "a flatbed tow truck with flashing orange lights parked at a depot bay on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c14-d1-2-1",
+ "scene": "The lizardfolk courier stirs, showing you three outgoing transport tokens.",
+ "options": [
+  "Take mail train",
+  "Flag tow truck",
+  "Ride sidecar motorbike"
+ ],
+ "next": [
+  "c14-d3",
+  "c14-d4",
+  "c14-d5"
+ ],
+ "picture": "Side-view pixel art of the tram terminus platform. On the far left, a tubular mail train idles with its hatch open. Left of centre, the lizardfolk courier holds up brass transport tokens. Centre stands the bearded player. On the right waits a neon tow truck, and far right sits an idling sidecar motorbike.",
+ "shown": [
+  "a tubular mail train idling with open doors on the far left",
+  "a glowing tow truck parked with hazard lights blinking on the right",
+  "a sputtering sidecar motorbike waiting at the curb on the far right"
+ ],
+ "view": "wide"
+}

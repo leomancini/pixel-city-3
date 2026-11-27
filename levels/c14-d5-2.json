@@ -1,0 +1,21 @@
+{
+ "id": "c14-d5-2",
+ "scene": "The open workbench drawer reveals strange tools and a glowing keycard.",
+ "options": [
+  "Grab purple keycard",
+  "Examine frequency meter",
+  "Turn iron key"
+ ],
+ "next": [
+  "c14-d5-2-0",
+  "c14-d5-2-1",
+  "c14-d5-2-2"
+ ],
+ "picture": "Close view looking directly down into the cluttered wooden workbench drawer. The player's hands reach in. On the left lies a faintly glowing purple electronic keycard. In the centre rests a pocket-sized brass meter with a vibrating needle. On the far right sits an iron lockbox with a heavy key in its keyhole.",
+ "shown": [
+  "A pulsing violet plastic keycard resting inside the drawer on the left",
+  "A tiny brass handheld frequency meter sitting in the drawer centre",
+  "A heavy rusted skeleton key stuck in a lockbox far right"
+ ],
+ "view": "close"
+}

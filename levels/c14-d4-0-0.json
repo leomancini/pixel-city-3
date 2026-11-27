@@ -1,0 +1,21 @@
+{
+ "id": "c14-d4-0-0",
+ "scene": "A neon spark fires up the roof terrace transit docks above.",
+ "options": [
+  "Ride night funicular",
+  "Board bridge crawler",
+  "Climb into gondola"
+ ],
+ "next": [
+  "c14-d0",
+  "c14-d1",
+  "c14-d2"
+ ],
+ "picture": "Side-scrolling wide view of the hospital's rooftop dock. On the far left, a yellow funicular waits on sloped rails. The player stands left of centre, wearing his orange corduroy jacket, beanie, and brass telescope. In the centre sits a brass-legged bridge crawler, while on the right a suspended window-cleaner gondola rests beside the railing.",
+ "shown": [
+  "a striped yellow night funicular car idling on inclined tracks on the left",
+  "a squat mechanical bridge crawler with open hatches docked in the centre",
+  "a dangling iron window-cleaner gondola swaying from roof cables on the right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c14-d1-1-0",
+ "scene": "The opened music box reveals route tokens pointing to distant city workshops.",
+ "options": [
+  "Flag tow truck",
+  "Board sidecar bike",
+  "Take night funicular"
+ ],
+ "next": [
+  "c14-d4",
+  "c14-d5",
+  "c14-d0"
+ ],
+ "picture": "Side-view pixel art along the steel bridge deck. Far left, a yellow tow truck idles with hazards blinking. Left, the stall counter holds the open music box. Centre, the player stands in his burnt-orange jacket with brass telescope slung over shoulder. Centre right waits a teal sidecar motorbike. Far right, a glass-doored night funicular sits ready.",
+ "shown": [
+  "a yellow tow truck idling with flashing orange beacon on the far left",
+  "a teal sidecar motorbike parked with its engine rumbling on the centre right",
+  "a brass night funicular cabin waiting with open glass doors on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c14-d0",
+ "scene": "You step off the night funicular onto the lively, starlit rooftop.",
+ "options": [
+  "Order hot cocoa",
+  "Study star map",
+  "Peer through telescope"
+ ],
+ "next": [
+  "c14-d0-0",
+  "c14-d0-1",
+  "c14-d0-2"
+ ],
+ "picture": "Flat side view. Along one ground line: on the far left, the open night funicular car sits on its tilted rail; next to it stands a smiling brass cocoa robot holding a tray; the player stands left of centre; in the centre, a glowing tile star map wall shines; on the right, unoccupied deckchairs face right toward a massive mounted rooftop telescope.",
+ "shown": [
+  "A cheerful brass cocoa robot steaming gently on the left.",
+  "An illuminated tile star map wall glowing in the centre.",
+  "A large mounted observatory telescope pointing skyward on the far right."
+ ],
+ "view": "wide"
+}

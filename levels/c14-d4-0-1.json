@@ -1,0 +1,21 @@
+{
+ "id": "c14-d4-0-1",
+ "scene": "The schematic maps three odd transit bays outside the hospital bay doors.",
+ "options": [
+  "Ride bridge crawler",
+  "Board suspended gondola",
+  "Catch mail train"
+ ],
+ "next": [
+  "c14-d1",
+  "c14-d2",
+  "c14-d3"
+ ],
+ "picture": "A wide side-scrolling view of the hospital departure dock. On the far left sits a multi-legged yellow bridge crawler with an open cockpit hatch. The player stands centre-left holding the rolled blueprint. In the centre, an open glass wall reveals a hanging striped gondola. On the far right waits a silver mail train.",
+ "shown": [
+  "a multi-legged yellow crawler idling by an open hatchway on the far left",
+  "a striped window-cleaner basket hanging from cables outside the central window",
+  "a tiny silver train waiting at a pneumatic platform on the far right"
+ ],
+ "view": "wide"
+}

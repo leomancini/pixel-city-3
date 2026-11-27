@@ -1,0 +1,21 @@
+{
+ "id": "c14-d3-0",
+ "scene": "The yellow chest's brass puzzle lid ticks softly beneath your fingers.",
+ "options": [
+  "Turn rotary dial",
+  "Slide silver latch",
+  "Examine stamped label"
+ ],
+ "next": [
+  "c14-d3-0-0",
+  "c14-d3-0-1",
+  "c14-d3-0-2"
+ ],
+ "picture": "A first-person close view of the yellow chest's metal lid. On the far left sits a round brass dial engraved with tiny glowing numerals. In the centre, a heavy tarnished silver latch remains pinned in place. On the right, a peeling parcel label bears stamped red train insignias.",
+ "shown": [
+  "A numbered brass dial set in the lid, far left",
+  "A tarnished silver sliding latch hooked across the centre seam",
+  "A peeling paper shipping label pasted on the lid's right side"
+ ],
+ "view": "close"
+}

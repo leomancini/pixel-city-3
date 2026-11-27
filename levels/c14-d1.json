@@ -1,0 +1,21 @@
+{
+ "id": "c14-d1",
+ "scene": "You step off the clanking bridge crawler onto bustling Gear Bridge.",
+ "options": [
+  "Order hot soup",
+  "Browse tool stall",
+  "Board gear tram"
+ ],
+ "next": [
+  "c14-d1-0",
+  "c14-d1-1",
+  "c14-d1-2"
+ ],
+ "picture": "Side-view pixel art along a steel deck. Far left sits a steaming soup cart. Beside it rests the empty, tracked bridge crawler. Centre stands the bearded player with his prosthetic leg, next to a crowded tool stall. Right of him, a massive turning brass gear churns. Far right waits a yellow gear tram with its door open.",
+ "shown": [
+  "a steaming noodle soup cart with hanging ladles on the far left",
+  "a repair stall overflowing with copper wrenches in the centre",
+  "a yellow mechanical tram with an open door on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c14-d1-2-0",
+ "scene": "The tram slows to the interchange, revealing three awaiting connections outside.",
+ "options": [
+  "Board cleaner gondola",
+  "Ride mail train",
+  "Flag tow truck"
+ ],
+ "next": [
+  "c14-d2",
+  "c14-d3",
+  "c14-d4"
+ ],
+ "picture": "Side-view pixel art at the open-air tram terminus platform. Left stands the bearded player stepping down from the yellow tram. Far left, an open window-cleaner gondola hangs ready. Centre sits a squat green mail train accepting heavy sacks. Right, a bright yellow neon-striped tow truck idles beside a glowing exit ramp.",
+ "shown": [
+  "a suspended window-cleaner gondola swinging empty by open doors on the left",
+  "a squat green mail train puffing steam along the platform centre",
+  "a yellow neon-striped tow truck idling with flashing lights far right"
+ ],
+ "view": "wide"
+}

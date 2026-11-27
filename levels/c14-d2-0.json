@@ -1,0 +1,21 @@
+{
+ "id": "c14-d2-0",
+ "scene": "A miniature storm swirls inside the glowing, copper-rimmed glass tank.",
+ "options": [
+  "Tweak dial",
+  "Tap glass",
+  "Step back"
+ ],
+ "next": [
+  "c14-d2-0-0",
+  "c14-d2-0-1",
+  "c14-d2-0-2"
+ ],
+ "picture": "First-person close-up view of the glowing glass cloud tank. A thick glass cylinder fills the view with swirling purple mist and flickering sparks. A round brass pressure dial sits on the left rim. On the far right, the wet rooftop flagstones and the player's corduroy sleeve edge are visible.",
+ "shown": [
+  "a tiny brass dial at the left side of the brass rim",
+  "the thick curved glass cylinder at the centre holding tiny lightning",
+  "the rooftop flagstone floor visible on the far right"
+ ],
+ "view": "close"
+}

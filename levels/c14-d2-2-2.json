@@ -1,0 +1,21 @@
+{
+ "id": "c14-d2-2-2",
+ "scene": "Across the skybridge, a busy rooftop depot connects three waiting transports.",
+ "options": [
+  "Hail tow truck",
+  "Board sidecar bike",
+  "Take night funicular"
+ ],
+ "next": [
+  "c14-d4",
+  "c14-d5",
+  "c14-d0"
+ ],
+ "picture": "A flat side-view along a paved rooftop depot. Far left sits an idling yellow tow truck. Left of centre, the player stands in his burnt-orange corduroy jacket and beanie, brass telescope slung. Centre rests a motorbike with an empty sidecar. Far right, a glowing funicular car waits with open sliding doors.",
+ "shown": [
+  "an idling yellow tow truck parked at the far left curb",
+  "a sleek motorbike with empty passenger sidecar sitting in the centre",
+  "a brightly lit glass funicular car docked on the far right track"
+ ],
+ "view": "wide"
+}

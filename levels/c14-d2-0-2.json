@@ -1,0 +1,21 @@
+{
+ "id": "c14-d2-0-2",
+ "scene": "Stepping back, three odd courier vehicles idle along the rooftop ramp.",
+ "options": [
+  "Ride mail train",
+  "Climb tow truck",
+  "Mount sidecar motorbike"
+ ],
+ "next": [
+  "c14-d3",
+  "c14-d4",
+  "c14-d5"
+ ],
+ "picture": "Pixel art flat side view. From left to right: a yellow pneumatic mail train on elevated rails; the glowing glass tank; the player in corduroy jacket and knitted beanie facing right; a turquoise tow truck; and a black sidecar motorbike. Wet flagstones run along the level ground under a starry sky.",
+ "shown": [
+  "a sleek yellow pneumatic mail train parked on tracks on the far left",
+  "a chunky turquoise tow truck idling with flashing orange beacon on the right",
+  "a matte-black sidecar motorbike with goggles strapped to the handlebars on the far right"
+ ],
+ "view": "wide"
+}

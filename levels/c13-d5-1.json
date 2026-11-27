@@ -1,0 +1,21 @@
+{
+ "id": "c13-d5-1",
+ "scene": "The shimmering bubble encases your hands, projecting tiny floating star charts everywhere.",
+ "options": [
+  "Study tiny stars",
+  "Call scientist over",
+  "Step toward chute"
+ ],
+ "next": [
+  "c13-d5-1-0",
+  "c13-d5-1-1",
+  "c13-d5-1-2"
+ ],
+ "picture": "Side-view pixel art: on the level floor, an open brass vacuum chute sits far left. Left of centre, the Pacific Islander player holds the glistening prism bubble with both palms, surrounded by tiny projected pixel stars. Right of centre, a goggled scientist drops their pen in surprise beside an instrument table.",
+ "shown": [
+  "a glowing constellation map swirling inside the trapped bubble in the centre",
+  "the startled goggled scientist holding a silver clipboard on the right",
+  "a humming vacuum tube chute with open brass hatch far left"
+ ],
+ "view": "wide"
+}

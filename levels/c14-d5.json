@@ -1,0 +1,21 @@
+{
+ "id": "c14-d5",
+ "scene": "You step into Midnight Radio Repair beside your parked sidecar motorbike.",
+ "options": [
+  "Inspect robot parrot",
+  "Tune glowing receiver",
+  "Rummage tool drawer"
+ ],
+ "next": [
+  "c14-d5-0",
+  "c14-d5-1",
+  "c14-d5-2"
+ ],
+ "picture": "Flat side view inside the workshop. At far left sits the vintage motorbike with sidecar. On the left, a brass mechanical parrot perches on a clutter-covered bench. The player stands centre-left in an orange corduroy jacket. In the centre hums a massive tube radio console, and on the right stands a red chest.",
+ "shown": [
+  "a mechanical parrot tester perched silent on a low workbench on the left",
+  "a huge console radio humming with amber vacuum tubes in the centre",
+  "a red steel tool chest with open drawers on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c14-d3-1-2",
+ "scene": "The cat purrs, revealing transit tokens to three rooftop destinations outside.",
+ "options": [
+  "Ride night funicular",
+  "Board bridge crawler",
+  "Take cleaner gondola"
+ ],
+ "next": [
+  "c14-d0",
+  "c14-d1",
+  "c14-d2"
+ ],
+ "picture": "Flat side view. Along the floor, on the far left, a sleek blue night funicular waits at a platform. Left of centre stands the player, bending down beside the happy striped cat. Centre, an arched doorway opens to a multi-legged bridge crawler cab. Right, an open transit balcony holds a yellow window-cleaner gondola.",
+ "shown": [
+  "a blue glass funicular car docked beside an open platform on the far left",
+  "a mechanical crawler cab waiting on heavy rails in the centre",
+  "a yellow window-cleaner gondola swinging gently near the open bay on the right"
+ ],
+ "view": "wide"
+}

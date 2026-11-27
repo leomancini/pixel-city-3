@@ -1,0 +1,21 @@
+{
+ "id": "c14-d2-1",
+ "scene": "The valve screeches open, belching sparkling violet vapour across the rooftop.",
+ "options": [
+  "Grab metal hatch",
+  "Examine vapour cloud",
+  "Pet sleeping gull"
+ ],
+ "next": [
+  "c14-d2-1-0",
+  "c14-d2-1-1",
+  "c14-d2-1-2"
+ ],
+ "picture": "Side-scrolling flat rooftop view. Far left, a closed brass hatch in the floor. Left of centre, the player in burnt-orange jacket, beanie, and brass telescope steps back from the hissing valve at centre. Up high, a violet vapour cloud billows. Far right, a mechanical brass seagull roosts on the low roof ledge.",
+ "shown": [
+  "a closed round roof hatch on the roof deck at the far left",
+  "a dense violet cloud swirling up high above the player",
+  "a fat mechanical seagull roosting peacefully on the ledge far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c14-d3-2-0",
+ "scene": "The punched depot ticket lists three strange departures waiting at the bay.",
+ "options": [
+  "Ride bridge crawler",
+  "Board gondola",
+  "Hail tow truck"
+ ],
+ "next": [
+  "c14-d1",
+  "c14-d2",
+  "c14-d4"
+ ],
+ "picture": "Flat side view. Along the bay deck, a yellow multi-legged bridge crawler idles far left. The player stands left of centre holding a glowing teal parasol. At the centre sits a striped gondola with open gate. Far right, an orange tow truck idles beside an open bay door.",
+ "shown": [
+  "a multi-legged yellow crawler idling along the bay rail on the far left",
+  "a dangling striped window-cleaner gondola resting on the dock platform at the centre",
+  "a sputtering retro tow truck parked by the cargo bay door far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c14-d1-0-0",
+ "scene": "The warm soup tingles delightfully, revealing transit gates along the bridge edge.",
+ "options": [
+  "Ride night funicular",
+  "Board cleaner gondola",
+  "Take mail train"
+ ],
+ "next": [
+  "c14-d0",
+  "c14-d2",
+  "c14-d3"
+ ],
+ "picture": "A flat side view along the edge of Gear Bridge. On the far left, a glowing funicular car rests at a gate. Left of centre, the player stands holding an empty soup bowl. Hanging at centre is a yellow-striped suspended gondola. On the far right, a shiny red mail train sits with open doors.",
+ "shown": [
+  "a glass-domed funicular car parked on tilted rails at the far left",
+  "a striped window-cleaner gondola swinging from overhead cables at centre",
+  "a scarlet pneumatic mail train sitting at a dock on the far right"
+ ],
+ "view": "wide"
+}

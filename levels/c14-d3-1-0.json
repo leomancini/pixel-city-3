@@ -1,0 +1,21 @@
+{
+ "id": "c14-d3-1-0",
+ "scene": "The glowing parcel reveals three delivery addresses stamped on depot exit doors.",
+ "options": [
+  "Board tow truck",
+  "Ride sidecar motorbike",
+  "Take night funicular"
+ ],
+ "next": [
+  "c14-d4",
+  "c14-d5",
+  "c14-d0"
+ ],
+ "picture": "Flat side view. On the left, an idling yellow tow truck waits by an exit. Left of centre, the player holds the glowing parcel. Centre, a teal motorbike with an empty sidecar stands ready. On the right, a brass gate opens to a docked glass funicular car on an inclined track.",
+ "shown": [
+  "a yellow tow truck idling beside an open garage bay on the left",
+  "a vintage motorbike with an empty sidecar waiting centre, engine running",
+  "a glass funicular car docked at a brass gate on the right"
+ ],
+ "view": "wide"
+}

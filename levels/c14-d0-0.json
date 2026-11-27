@@ -1,0 +1,21 @@
+{
+ "id": "c14-d0-0",
+ "scene": "The brass automaton pours frothy cocoa into a painted ceramic mug.",
+ "options": [
+  "Drink the cocoa",
+  "Read the flyer",
+  "Descend the spiral"
+ ],
+ "next": [
+  "c14-d0-0-0",
+  "c14-d0-0-1",
+  "c14-d0-0-2"
+ ],
+ "picture": "Flat side view. Along one ground line: on the far left, the brass robot holds out a steaming ceramic mug on its tray; the player in corduroy jacket and beanie stands left of centre watching it; a star-shaped cocoa cart stands in the centre with a paper schedule pinned; on the far right, an open spiral staircase leads downward.",
+ "shown": [
+  "a freshly poured steaming ceramic mug sitting on the robot's tray at far left",
+  "a curled paper schedule pinned under a magnet on the cart in the centre",
+  "a winding iron staircase leading downward on the far right"
+ ],
+ "view": "wide"
+}

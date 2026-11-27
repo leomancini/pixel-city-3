@@ -1,0 +1,21 @@
+{
+ "id": "c14-d1-1",
+ "scene": "A peg-legged tinkerer showcases curious gadgetry upon his cluttered stall counter.",
+ "options": [
+  "Inspect music box",
+  "Buy copper compass",
+  "Climb rope ladder"
+ ],
+ "next": [
+  "c14-d1-1-0",
+  "c14-d1-1-1",
+  "c14-d1-1-2"
+ ],
+ "picture": "Side-view pixel art along the steel deck. Far left stands a stack of brass pipes. Left rests a wooden counter with a closed clockwork music box. Centre stands the player in his burnt-orange jacket, beside an eccentric tinkerer. The tinkerer holds an open glowing copper compass on the right. Far right hangs a swaying rope ladder.",
+ "shown": [
+  "an ornate clockwork music box sitting closed on the left table edge",
+  "a glowing copper compass lying open in the stallkeeper's palm on the right",
+  "a dangling hemp rope ladder swaying on the far right"
+ ],
+ "view": "wide"
+}

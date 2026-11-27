@@ -1,0 +1,21 @@
+{
+ "id": "c14-d1-1-1",
+ "scene": "Pocketing the whirring copper compass, you spot three daring ways onward.",
+ "options": [
+  "Ride sidecar bike",
+  "Board night funicular",
+  "Climb into gondola"
+ ],
+ "next": [
+  "c14-d5",
+  "c14-d0",
+  "c14-d2"
+ ],
+ "picture": "Side-view pixel art along the steel deck. Far left idles a sputtering sidecar motorbike. Centre stands the player in his burnt-orange jacket, pocketing a glowing copper compass. Right, an open-gated night funicular cabin rests on ascending rails up high. Far right sits a suspended yellow window-cleaner gondola awaiting riders.",
+ "shown": [
+  "a sputtering sidecar motorbike idling on the far left deck",
+  "an open-gated night funicular cabin waiting up high on the right",
+  "a suspended window-cleaner gondola resting on the deck on the far right"
+ ],
+ "view": "wide"
+}

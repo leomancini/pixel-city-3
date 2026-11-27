@@ -1,0 +1,21 @@
+{
+ "id": "c14-d3-0-0",
+ "scene": "The dial clicks, sliding open bay doors onto three outward transit platforms.",
+ "options": [
+  "Ride night funicular",
+  "Board bridge crawler",
+  "Take cleaner gondola"
+ ],
+ "next": [
+  "c14-d0",
+  "c14-d1",
+  "c14-d2"
+ ],
+ "picture": "Flat side view. Along the stone depot floor, the player stands beside the unlocked chest. On the left waits a glass night funicular. In the centre sits a brass-plated bridge crawler. On the far right hangs an open window-cleaner gondola. Up high, neon transit signs glow across the three distinct exit bays.",
+ "shown": [
+  "a sloped glass night funicular car waiting on tracks on the left",
+  "a spider-legged mechanical bridge crawler docked at the platform in the centre",
+  "a window-cleaner gondola suspended from high overhead rails on the far right"
+ ],
+ "view": "wide"
+}

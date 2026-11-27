@@ -1,0 +1,21 @@
+{
+ "id": "c14-d2",
+ "scene": "You step off the gondola onto a rooftop humming with weather machines.",
+ "options": [
+  "Inspect glass tank",
+  "Turn iron valve",
+  "Climb maintenance ladder"
+ ],
+ "next": [
+  "c14-d2-0",
+  "c14-d2-1",
+  "c14-d2-2"
+ ],
+ "picture": "A flat side-view along a wet roofline. Far left, an empty suspended yellow window-cleaner gondola. Standing left of centre is the player in orange jacket and beanie. To his left sits a bubbling cloud tank. Centre stands a groaning pipe with a red valve. Far right, a yellow ladder leads up.",
+ "shown": [
+  "a bubbly cloud swirling inside a brass-ringed glass tank on the left",
+  "a large red iron valve bolted to a groaning copper pipe in the centre",
+  "a yellow metal ladder bolted to a chimney stack on the far right"
+ ],
+ "view": "wide"
+}

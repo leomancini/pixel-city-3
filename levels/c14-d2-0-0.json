@@ -1,0 +1,21 @@
+{
+ "id": "c14-d2-0-0",
+ "scene": "The dial clicks, parting the mist to reveal three rooftop transit lines.",
+ "options": [
+  "Take night funicular",
+  "Board bridge crawler",
+  "Catch mail train"
+ ],
+ "next": [
+  "c14-d0",
+  "c14-d1",
+  "c14-d3"
+ ],
+ "picture": "Flat side-scrolling view of the wet rooftop. On the far left, a glowing glass funicular cabin rests on angled tracks. Next sits the copper tank, beside the player facing right. Centre stands a beetle-like crawler carriage. On the far right, a silver mail train waits at an illuminated gantry beneath a starry sky.",
+ "shown": [
+  "a sloped brass funicular cabin waiting with door open on the far left",
+  "a multi-legged mechanised bridge crawler idling near the centre flagstones",
+  "a pneumatic mail train carriage humming at the platform on the far right"
+ ],
+ "view": "wide"
+}
