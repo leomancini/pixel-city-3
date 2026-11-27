@@ -1,0 +1,21 @@
+{
+ "id": "c12-d4-1",
+ "scene": "The brass robot clicks politely, holding out a steaming porcelain teacup.",
+ "options": [
+  "Take the teacup",
+  "Offer potted plant",
+  "Step through archway"
+ ],
+ "next": [
+  "c12-d4-1-0",
+  "c12-d4-1-1",
+  "c12-d4-1-2"
+ ],
+ "picture": "Side-view pixel art along a tiled ground line. Left sits the grandfather in his navy apron holding his bicycle with crate plants. In the centre, the wheeled brass robot librarian extends a steaming teacup. Right stands an empty reading bench, and far right an open arched mossy stone doorway glowing softly.",
+ "shown": [
+  "a steaming porcelain teacup held in the robot librarian's brass hand in the centre",
+  "a leafy fern sitting inside the bicycle crate on the left",
+  "an open arched mossy doorway carved into stone on the far right"
+ ],
+ "view": "wide"
+}

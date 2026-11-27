@@ -1,0 +1,21 @@
+{
+ "id": "c11-d5",
+ "scene": "You step from the open freight elevator into a neon rooftop studio.",
+ "options": [
+  "Tweak mixing desk",
+  "High-five robot drummer",
+  "Touch soundwave panel"
+ ],
+ "next": [
+  "c11-d5-0",
+  "c11-d5-1",
+  "c11-d5-2"
+ ],
+ "picture": "Flat side-view across the rooftop floor. Far left, an open metal freight elevator with folding lattice gates. The silver-haired boy stands beside it in his mint hoodie. To his right, an illuminated mixing desk glows with sliders. Centre, a brass four-armed robot drummer sits at drums. Far right, an interactive sound-wave light board pulses.",
+ "shown": [
+  "a wide mixing desk with glowing multi-coloured sliders on the left",
+  "a brass four-armed robot drummer seated at a drum kit in the centre",
+  "a pulsing neon sound-wave light board on the far right"
+ ],
+ "view": "wide"
+}

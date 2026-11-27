@@ -1,0 +1,21 @@
+{
+ "id": "c10-d5-0-2",
+ "scene": "The dumbwaiter shoots you up onto the breezy hotel rooftop transport deck.",
+ "options": [
+  "Ride cable car",
+  "Board lantern balloon",
+  "Take bowling monorail"
+ ],
+ "next": [
+  "c10-d2",
+  "c10-d3",
+  "c10-d4"
+ ],
+ "picture": "A flat side view along the tiled hotel rooftop. At the left hangs an open bamboo cable car. The player stands centre-left in her red bomber jacket and roller skates. Up high centre, a giant glowing paper-lantern balloon floats tethered. At the right sits a round purple bowling-ball monorail car on rails.",
+ "shown": [
+  "a green bamboo cable car dangling open on thick ropes at the left",
+  "a huge glowing paper-lantern hot air balloon tethered up high centre",
+  "a glossy spherical purple monorail capsule waiting on rails at the right"
+ ],
+ "view": "wide"
+}

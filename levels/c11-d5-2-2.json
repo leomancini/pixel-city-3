@@ -1,0 +1,21 @@
+{
+ "id": "c11-d5-2-2",
+ "scene": "Your tape sparks three neon transit gates across the glowing rooftop floor.",
+ "options": [
+  "Ride karaoke lift",
+  "Take escalator pod",
+  "Board light-rail pod"
+ ],
+ "next": [
+  "c11-d3",
+  "c11-d4",
+  "c11-d0"
+ ],
+ "picture": "Side-view pixel scene along a flat rooftop deck. On the far left, a glass karaoke lift door stands open. Left of centre stands the boy in his mint hoodie. In the centre, a mirrored escalator pod waits. On the right, a docked neon light-rail pod gleams under the bright city sky.",
+ "shown": [
+  "a cylindrical glass lift glowing with lyrics, waiting open on the left",
+  "a mirrored escalator pod descending slowly, resting open in the centre",
+  "a sleek neon light-rail pod docked at a rail on the right"
+ ],
+ "view": "wide"
+}

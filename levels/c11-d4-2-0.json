@@ -1,0 +1,21 @@
+{
+ "id": "c11-d4-2-0",
+ "scene": "You grab the glossy pass, unlocking three vibrant transit exits ahead.",
+ "options": [
+  "Ride moving walkway",
+  "Board hover ferry",
+  "Take karaoke lift"
+ ],
+ "next": [
+  "c11-d1",
+  "c11-d2",
+  "c11-d3"
+ ],
+ "picture": "Side-view pixel art along the mall floor. On the far left, a moving walkway glides forward under starlight signs. Centre-left stands the silver-haired boy holding a glowing pass. At centre-right, a yellow river hover ferry floats in an indoor canal. On the far right, a cylindrical glass karaoke lift sits open.",
+ "shown": [
+  "a glowing neon moving walkway gliding to the left",
+  "a sleek yellow river hover ferry docked at a canal centre-right",
+  "a transparent glass karaoke lift with pulsing neon tubes far right"
+ ],
+ "view": "wide"
+}

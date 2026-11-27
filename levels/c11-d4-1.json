@@ -1,0 +1,21 @@
+{
+ "id": "c11-d4-1",
+ "scene": "The green slime tingles warmly and forms a springy glowing bridge.",
+ "options": [
+  "Climb slime bridge",
+  "Call cleaning bot",
+  "Enter candy kiosk"
+ ],
+ "next": [
+  "c11-d4-1-0",
+  "c11-d4-1-1",
+  "c11-d4-1-2"
+ ],
+ "picture": "Side-view pixel art along a mirrored floor. Far left, a chrome cleaning droid sweeps. Left, the silver-haired boy in mint hoodie and headphones dips one hand towards the fountain. Centre, glowing green slime arches upward into a springy bridge. Right, a pink neon palm tree. Far right, a striped candy kiosk with open hatch.",
+ "shown": [
+  "an arched bridge of glowing green slime rising upwards in the centre",
+  "a squat chrome cleaning droid sweeping silent laser rings on far left",
+  "a striped spiralling candy kiosk with an open sliding hatch on far right"
+ ],
+ "view": "wide"
+}

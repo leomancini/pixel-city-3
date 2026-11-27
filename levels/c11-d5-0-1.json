@@ -1,0 +1,21 @@
+{
+ "id": "c11-d5-0-1",
+ "scene": "The rooftop skylight unfolds outward, revealing departure gates across neon transit lanes.",
+ "options": [
+  "Ride moving walkway",
+  "Board river ferry",
+  "Enter karaoke lift"
+ ],
+ "next": [
+  "c11-d1",
+  "c11-d2",
+  "c11-d3"
+ ],
+ "picture": "A flat side view along a rooftop transit deck. The silver-haired boy in a mint-green hoodie and headphones stands holding his dance bag. On the far left, a moving walkway glides forward. In the centre, a river hover ferry idles above docking magnets. On the far right, a round glass karaoke lift awaits.",
+ "shown": [
+  "a humming green moving walkway with handrails on the far left",
+  "a sleek hover ferry anchored with lowered gangplank in the centre",
+  "a tubular glass karaoke elevator with open door on the far right"
+ ],
+ "view": "wide"
+}

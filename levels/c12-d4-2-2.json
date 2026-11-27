@@ -1,0 +1,21 @@
+{
+ "id": "c12-d4-2-2",
+ "scene": "You climb the iron stairs onto a bustling transit dock bathed in lanterns.",
+ "options": [
+  "Board koi boat",
+  "Take glass tram",
+  "Catch garden tram"
+ ],
+ "next": [
+  "c12-d3",
+  "c12-d5",
+  "c12-d0"
+ ],
+ "picture": "Side-view pixel art along one ground line. On the far left, a carved wooden koi boat bobs at a canal pier. To the left, the grandfather in his navy apron stands with his plant-laden bicycle. In the centre sits a brightly lit glass tram. On the far right waits a mossy garden tram.",
+ "shown": [
+  "an orange, painted wooden koi boat idling in water on the far left",
+  "a sleek glass tram glowing soft pink with open doors in the centre",
+  "a green tram covered in vines waiting at a platform on the far right"
+ ],
+ "view": "wide"
+}

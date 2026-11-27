@@ -1,0 +1,21 @@
+{
+ "id": "c11-d4-0-2",
+ "scene": "The dapper frog clerk bows and hands you three transport passes.",
+ "options": [
+  "Board hover ferry",
+  "Take karaoke lift",
+  "Enter freight elevator"
+ ],
+ "next": [
+  "c11-d2",
+  "c11-d3",
+  "c11-d5"
+ ],
+ "picture": "Side-view pixel art of the boutique exit concourse. On far left, a river hover ferry bobs at an open water slipway. Left, the suited frog clerk points toward transport gates. Centre, the silver-haired boy in mint hoodie holds ticket stubs before an open glass lift. Right, turnstiles click. Far right, an open freight elevator waits.",
+ "shown": [
+  "A sleek river hover ferry waiting on the canal slipway on far left",
+  "A glowing glass karaoke lift tube with open sliding doors in centre",
+  "A heavy steel freight elevator with yellow hazard stripes on far right"
+ ],
+ "view": "wide"
+}

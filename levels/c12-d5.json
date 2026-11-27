@@ -1,0 +1,21 @@
+{
+ "id": "c12-d5",
+ "scene": "You step off the glass tram into the humid Night Greenhouse Market.",
+ "options": [
+  "Order fresh juice",
+  "Inspect giant pumpkin",
+  "Follow misting robot"
+ ],
+ "next": [
+  "c12-d5-0",
+  "c12-d5-1",
+  "c12-d5-2"
+ ],
+ "picture": "Flat side-view along a tiled greenhouse floor. On the far left sits a bamboo juice bar with glowing bottles. Left of centre, the player stands pushing his bicycle with plant crate beside the open glass tram. Centre holds a giant carved pumpkin on straw. Far right, a round copper misting robot rolls past.",
+ "shown": [
+  "a brightly lit bamboo juice bar with glowing bottles on the far left",
+  "an enormous glowing orange pumpkin sitting on straw at the centre",
+  "a round copper misting robot spraying gentle vapour on the far right"
+ ],
+ "view": "wide"
+}

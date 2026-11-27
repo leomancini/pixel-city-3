@@ -1,0 +1,21 @@
+{
+ "id": "c10-d5-1-0",
+ "scene": "Taking the masterkey unfolds three grand exits across the lobby wall.",
+ "options": [
+  "Board lantern balloon",
+  "Ride ball monorail",
+  "Climb rooftop escalator"
+ ],
+ "next": [
+  "c10-d3",
+  "c10-d4",
+  "c10-d0"
+ ],
+ "picture": "A flat side view of the grand hotel lobby. On the far left, a moored paper-lantern balloon basket floats ready. To the left, the player stands holding the glowing silver masterkey. At centre sits an open bowling-ball monorail pod on a glossy rail. On the far right, a lit escalator moves upward.",
+ "shown": [
+  "a wicker basket beneath a glowing paper balloon, tethered on the far left",
+  "a spherical bowling-ball monorail pod waiting with an open hatch at centre",
+  "a humming brass escalator ascending toward bright rooftop skylights on the far right"
+ ],
+ "view": "wide"
+}

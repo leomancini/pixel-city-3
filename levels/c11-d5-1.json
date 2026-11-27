@@ -1,0 +1,21 @@
+{
+ "id": "c11-d5-1",
+ "scene": "The robot claps your hand, activating a hidden rooftop hatch nearby.",
+ "options": [
+  "Climb down hatch",
+  "Grab spare drumstick",
+  "Step onto zipline"
+ ],
+ "next": [
+  "c11-d5-1-0",
+  "c11-d5-1-1",
+  "c11-d5-1-2"
+ ],
+ "picture": "Flat side-view across the rooftop floor. Left, the silver-haired boy smiling in his mint hoodie with dance bag. Centre, the brass four-armed robot sits beside its drum kit, one hand still raised. Right, a square hatch lies open in the floor. Far right, a yellow zipline handle dangles from an overhead cable.",
+ "shown": [
+  "an open metal trapdoor in the floor with a ladder on the right",
+  "a glowing turquoise drumstick resting on the drum kit in the centre",
+  "a yellow zipline handle suspended from a taut cable on the far right"
+ ],
+ "view": "wide"
+}

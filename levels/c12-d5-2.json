@@ -1,0 +1,21 @@
+{
+ "id": "c12-d5-2",
+ "scene": "You trail the copper robot toward a secret misty orchid grove.",
+ "options": [
+  "Tap robot dome",
+  "Pick luminous blossom",
+  "Enter stone archway"
+ ],
+ "next": [
+  "c12-d5-2-0",
+  "c12-d5-2-1",
+  "c12-d5-2-2"
+ ],
+ "picture": "Flat side-view along a stone path. On the far left, the round copper misting robot puffs vapor. Left of centre, the grandfather pushes his bicycle with crate of plants. Up high hangs a giant glowing blue orchid. On the far right stands a mossy stone archway opening into darkness.",
+ "shown": [
+  "the round copper misting robot puffing steam, rolling on the far left",
+  "a giant glowing blue orchid dangling down, hanging up high",
+  "a mossy stone archway leading out into drizzle, on the far right"
+ ],
+ "view": "wide"
+}

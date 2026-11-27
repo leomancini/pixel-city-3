@@ -1,0 +1,21 @@
+{
+ "id": "c11-d4-1-2",
+ "scene": "Inside the candy kiosk, three transit gates glow behind the counter.",
+ "options": [
+  "Ride light-rail pod",
+  "Take moving walkway",
+  "Board hover ferry"
+ ],
+ "next": [
+  "c11-d0",
+  "c11-d1",
+  "c11-d2"
+ ],
+ "picture": "Side-view pixel art of a candy shop interior. Far left, an open airlock leads to a docked light-rail pod. Left, the silver-haired boy in mint hoodie and dance bag stands before the register. Centre, a glowing rainbow moving walkway extends through an arched exit. Right, a docked river hovercraft waits by open glass doors.",
+ "shown": [
+  "a sleek pod on a rail through an open airlock on the left",
+  "a humming rainbow walkway ramp leading through an archway in the centre",
+  "a bobbing river hovercraft moored past a sliding door on the right"
+ ],
+ "view": "wide"
+}

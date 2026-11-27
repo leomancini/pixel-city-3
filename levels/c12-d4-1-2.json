@@ -1,0 +1,21 @@
+{
+ "id": "c12-d4-1-2",
+ "scene": "Beyond the mossy arch, three platform gates lead to bustling city transit lines.",
+ "options": [
+  "Board garden tram",
+  "Board retro streetcar",
+  "Board bento express"
+ ],
+ "next": [
+  "c12-d0",
+  "c12-d1",
+  "c12-d2"
+ ],
+ "picture": "Flat side view on a stone platform along the bottom. The grandfather with his bicycle and plant crate stands at the left. Far left rests the vine-wrapped garden tram. Centre waits the cream-and-red retro streetcar. Far right sits the gleaming silver bento express train, each with lit doors ready.",
+ "shown": [
+  "a green vine-covered garden tram car idling with open doors on the left track",
+  "a classic red-and-cream streetcar waiting in the centre with an open folding door",
+  "a sleek bullet train with giant bento livery on the far right platform"
+ ],
+ "view": "wide"
+}

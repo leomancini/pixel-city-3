@@ -1,0 +1,21 @@
+{
+ "id": "c12-d5-0",
+ "scene": "The gecko bartender slides a fizzing violet drink across the counter.",
+ "options": [
+  "Drink violet fizz",
+  "Examine fruit display",
+  "Follow garden path"
+ ],
+ "next": [
+  "c12-d5-0-0",
+  "c12-d5-0-1",
+  "c12-d5-0-2"
+ ],
+ "picture": "Flat side-view along a tiled greenhouse floor. On the far left, a woven basket of star-shaped fruit rests by the counter. Left of centre, a smiling green gecko in an apron hands a drink to the player pushing his plant-laden bicycle. Right, a giant hanging orchid droops over a glowing archway on the far right.",
+ "shown": [
+  "a bubbling violet glass sitting on the wooden counter left of centre",
+  "a woven basket brimming with star-shaped neon fruit on the far left",
+  "a leafy stone archway glowing with fairy lights on the far right"
+ ],
+ "view": "wide"
+}

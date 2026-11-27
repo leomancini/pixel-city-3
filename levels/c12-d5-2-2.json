@@ -1,0 +1,21 @@
+{
+ "id": "c12-d5-2-2",
+ "scene": "The stone arch opens onto a lively transit hub for three routes.",
+ "options": [
+  "Board koi boat",
+  "Take garden lift",
+  "Board garden tram"
+ ],
+ "next": [
+  "c12-d3",
+  "c12-d4",
+  "c12-d0"
+ ],
+ "picture": "Side-view along a paved greenhouse concourse. On the far left, a red koi-shaped wooden boat bobs at a dock. In the centre, the grandfather stands holding his bicycle with crate of plants. Right of centre waits an ornate brass garden lift. On the far right sits a green garden tram on tracks.",
+ "shown": [
+  "a carved koi-shaped boat moored at the canal dock on the far left",
+  "an ornate brass-caged garden lift with open doors right of centre",
+  "a green open-sided garden tram resting on tracks at the far right"
+ ],
+ "view": "wide"
+}

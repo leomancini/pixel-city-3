@@ -1,0 +1,21 @@
+{
+ "id": "c11-d5-1-2",
+ "scene": "You zip across rooftops and land at a multi-transit sky platform.",
+ "options": [
+  "Board rail pod",
+  "Take moving walkway",
+  "Ride hover ferry"
+ ],
+ "next": [
+  "c11-d0",
+  "c11-d1",
+  "c11-d2"
+ ],
+ "picture": "Flat side-view along a polished concrete sky platform. Far left, a magenta light-rail pod sits open. Left of centre, the silver-haired boy in mint hoodie adjusts his dance bag. Centre, an illuminated yellow moving walkway extends forward. Right, a turquoise hover ferry bobs beside a metal pier. Overhead cables glitter with city lights.",
+ "shown": [
+  "a sleek magenta light-rail pod waiting open on the left track",
+  "a glowing yellow moving walkway running toward an archway at centre",
+  "a floating turquoise river hover ferry docked at the right pier"
+ ],
+ "view": "wide"
+}

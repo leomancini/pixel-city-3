@@ -1,0 +1,21 @@
+{
+ "id": "c10-d5-0-1",
+ "scene": "The brass bellhop clicks, projecting three rooftop transit exits behind him.",
+ "options": [
+  "Ride noodle monorail",
+  "Board cable car",
+  "Take lantern balloon"
+ ],
+ "next": [
+  "c10-d1",
+  "c10-d2",
+  "c10-d3"
+ ],
+ "picture": "Flat side view along the breezy hotel rooftop deck. On the far left sits a steaming noodle-cart monorail. The player in her red bomber jacket stands left of centre beside the friendly cubic brass bellhop. At the centre hangs a green bamboo cable car. On the far right bobs a glowing paper-lantern balloon.",
+ "shown": [
+  "a steaming noodle-cart monorail idling at a raised platform on the far left",
+  "a green bamboo cable car dangling from an overhead wire at the centre",
+  "a glowing paper-lantern hot air balloon tethered to a post on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c12-d4-1-0",
+ "scene": "Sipping warm jasmine tea reveals three departure platforms beyond the arch.",
+ "options": [
+  "Board koi boat",
+  "Take glass tram",
+  "Ride garden tram"
+ ],
+ "next": [
+  "c12-d3",
+  "c12-d5",
+  "c12-d0"
+ ],
+ "picture": "Side-view pixel art along a tiled platform line. Far left sits the carved koi-shaped boat moored at a canal edge. Left of centre, the grandfather in his navy apron holds a steaming teacup while leaning on his plant-laden bicycle. Centre stands a waiting glass tram, and far right an open vine-covered garden tram.",
+ "shown": [
+  "a sleek carved wooden koi boat floating on a water canal far left",
+  "a glowing glass tram waiting at an open platform gate in the centre",
+  "a vine-draped open-air garden tram idling at a raised track on the far right"
+ ],
+ "view": "wide"
+}

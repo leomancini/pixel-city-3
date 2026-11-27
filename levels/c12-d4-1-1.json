@@ -1,0 +1,21 @@
+{
+ "id": "c12-d4-1-1",
+ "scene": "Delighted, the brass librarian opens three departure gates along the vault track.",
+ "options": [
+  "Board glass tram",
+  "Take garden tram",
+  "Catch retro streetcar"
+ ],
+ "next": [
+  "c12-d5",
+  "c12-d0",
+  "c12-d1"
+ ],
+ "picture": "Side-view pixel art along a tiled platform track. On the far left sits a sleek glass tram. Left stands the grandfather holding his bicycle with plants. In the centre waits a vine-draped wooden tram next to the happy brass robot clutching the gifted potted plant. Far right waits a red retro streetcar.",
+ "shown": [
+  "a sleek glowing glass tram sitting on tracks on the far left",
+  "a vine-draped wooden garden tram waiting with open doors in the centre",
+  "a red retro streetcar ringing a small brass bell on the far right"
+ ],
+ "view": "wide"
+}

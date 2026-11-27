@@ -1,0 +1,21 @@
+{
+ "id": "c11-d4-0",
+ "scene": "A glass display rack buzzes with neon sneakers humming strange beats.",
+ "options": [
+  "Try on high-tops",
+  "Examine price tag",
+  "Ask frog clerk"
+ ],
+ "next": [
+  "c11-d4-0-0",
+  "c11-d4-0-1",
+  "c11-d4-0-2"
+ ],
+ "picture": "Side-view pixel art of a boutique interior. On far left, a shelf displays pulsating magenta high-tops. Left, a glowing holographic tag dangles from a chrome ledge. Center, the silver-haired boy in a mint hoodie and headphones inspects the shelves. Right, a suited frog clerk stands waiting. Far right, an open doorway leads to the mall concourse.",
+ "shown": [
+  "A pair of pulsating magenta high-tops sits humming on the left rack.",
+  "A glowing holographic tag flutters from the center shoe shelf.",
+  "A suited frog clerk stands holding a shoehorn on the right."
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c10-d5-1-1",
+ "scene": "The brass birdcage lift shoots upward, opening onto the rooftop transit deck.",
+ "options": [
+  "Ride bowling monorail",
+  "Take rooftop escalator",
+  "Board noodle cart"
+ ],
+ "next": [
+  "c10-d4",
+  "c10-d0",
+  "c10-d1"
+ ],
+ "picture": "A flat side view of the breezy hotel rooftop deck. On the far left, a purple bowling-ball monorail carriage waits with its hatch open. Beside it stands the player in her red bomber jacket and roller skates. At centre, a glowing neon escalator ascends skyward. On the right, a steaming noodle-cart monorail vehicle sits on rails.",
+ "shown": [
+  "a giant spherical bowling-ball monorail pod docked on the far left",
+  "a glowing neon escalator leading upward at centre",
+  "a steaming noodle-cart monorail carriage idling on the right"
+ ],
+ "view": "wide"
+}
