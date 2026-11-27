@@ -1,0 +1,21 @@
+{
+ "id": "c9-d3-2-0",
+ "scene": "Through the telescope lens, three distant transport stations gleam across the city.",
+ "options": [
+  "Ride bullet train",
+  "Board dragon train",
+  "Take cloud pod"
+ ],
+ "next": [
+  "c9-d2",
+  "c9-d0",
+  "c9-d1"
+ ],
+ "picture": "A circular telescope viewport looking out over Pixel City's skyline. On the left sits a sleek pink bullet train on an elevated track. In the centre waits a red maglev dragon train beside lantern-lit platforms. On the right, a spherical cloud cable pod dangles from a high cable wire.",
+ "shown": [
+  "a sleek pink bullet train idling on an open track on the left",
+  "a glowing red maglev dragon train waiting at a platform in the centre",
+  "a spherical cloud cable pod swaying on a high wire on the right"
+ ],
+ "view": "wide"
+}

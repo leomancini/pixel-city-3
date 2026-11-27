@@ -1,0 +1,21 @@
+{
+ "id": "c9-d1",
+ "scene": "You glide out of the cloud cable pod into breezy Hanok Sky Village.",
+ "options": [
+  "Taste hot tteokbokki",
+  "Inspect clay jars",
+  "Approach pop stage"
+ ],
+ "next": [
+  "c9-d1-0",
+  "c9-d1-1",
+  "c9-d1-2"
+ ],
+ "picture": "Flat side view. Along the level tiled boardwalk, a docked glass cloud cable pod rests on the far left. A young Chinese woman with a black ponytail in a red bomber jacket and white roller skates stands just right of it. Next sits a steaming rice-cake cart, followed by kimchi jars, and a glowing hologram pop stage.",
+ "shown": [
+  "a steaming wooden rice-cake cart with red paper lanterns on the left",
+  "a tidy patch of glazed brown kimchi onggi pots on the right",
+  "a glowing neon hologram pop stage with dancing light figures on the far right"
+ ],
+ "view": "wide"
+}

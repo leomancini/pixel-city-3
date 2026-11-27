@@ -1,0 +1,21 @@
+{
+ "id": "c9-d0-2",
+ "scene": "You skate through the glowing moon gate into an enchanting bonsai courtyard.",
+ "options": [
+  "Climb rope ladder",
+  "Inspect digital pond",
+  "Play crystal flute"
+ ],
+ "next": [
+  "c9-d0-2-0",
+  "c9-d0-2-1",
+  "c9-d0-2-2"
+ ],
+ "picture": "Side-scrolling view of a tiled courtyard. Far left, the glowing circular moon gate. Left, a glowing neon koi pond with blocky pixel fish. Centre, the player on roller skates stands admiring a giant bonsai tree. Right, an iridescent crystal flute sits on a bench. Up high, a rope ladder hangs from a wooden canopy.",
+ "shown": [
+  "A woven rope ladder hanging down from a wooden canopy, up high",
+  "A neon-lit stone koi pond with pixel fish, on the left",
+  "An iridescent crystal flute resting on a polished stone bench, on the right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c9-d3-0",
+ "scene": "Inside the swaying tea barge, fragrant steam rises around warm paper lanterns.",
+ "options": [
+  "Taste bubbling brew",
+  "Chat with brewer",
+  "Open hatch door"
+ ],
+ "next": [
+  "c9-d3-0-0",
+  "c9-d3-0-1",
+  "c9-d3-0-2"
+ ],
+ "picture": "Flat side-view across the wooden interior of a floating tea barge. On the far left, a copper kettle whistles over blue flames. In the centre, you stand in your red bomber jacket and white roller skates. To your right, a badger in an apron pours tea. A round hatch door sits shut on the far right.",
+ "shown": [
+  "a round copper kettle whistling over blue flames on the far left",
+  "a friendly badger wearing an embroidered apron sitting right of centre",
+  "a round wooden hatch door fitted with brass bolts on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c9-d0-2-0",
+ "scene": "You scramble onto the rooftop transit deck overlooking glittering neon air lanes.",
+ "options": [
+  "Board solar junk",
+  "Enter cable pod",
+  "Ride bullet train"
+ ],
+ "next": [
+  "c9-d3",
+  "c9-d1",
+  "c9-d2"
+ ],
+ "picture": "Side-scrolling flat view of a busy rooftop dock. Far left sits a solar-sail junk at a wooden mooring post. Left, the player stands on roller skates. Centre, a spherical glass cloud cable pod hangs tethered. Right, a ticket barrier faces a waiting bullet train along a rail line at the far right edge.",
+ "shown": [
+  "A docked wooden junk with glowing solar sails waiting on the far left",
+  "A round glass cable pod swaying gently on its wire in the centre",
+  "A sleek silver bullet train resting at a passenger boarding gate far right"
+ ],
+ "view": "wide"
+}

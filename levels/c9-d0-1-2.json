@@ -1,0 +1,21 @@
+{
+ "id": "c9-d0-1-2",
+ "scene": "Following the buzzing drone, you skate right into Grand Transit Plaza.",
+ "options": [
+  "Board cloud pod",
+  "Ride bullet train",
+  "Board solar junk"
+ ],
+ "next": [
+  "c9-d1",
+  "c9-d2",
+  "c9-d3"
+ ],
+ "picture": "Side-scrolling flat view of Grand Transit Plaza. The player on roller skates stands facing forward. On the far left, a glass cloud cable pod hangs open. In the centre sits a gleaming pink bullet train at its platform. On the right, a wooden solar-sail junk sways gently at a canal slip.",
+ "shown": [
+  "a dangling glass cloud cable pod swaying open far left",
+  "a sleek pink bullet train idling with doors open in the centre",
+  "a green solar-sail junk moored at a dock on the right"
+ ],
+ "view": "wide"
+}

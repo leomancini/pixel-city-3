@@ -1,0 +1,21 @@
+{
+ "id": "c9-d1-1",
+ "scene": "You peer into a humming clay jar bubbling with neon-blue cabbage.",
+ "options": [
+  "Sample blue kimchi",
+  "Read parchment label",
+  "Turn brass valve"
+ ],
+ "next": [
+  "c9-d1-1-0",
+  "c9-d1-1-1",
+  "c9-d1-1-2"
+ ],
+ "picture": "First-person close-up looking directly down into an ancient earthenware jar filled with sparkling, luminous blue pickled cabbage. On the left, a circuit-etched paper charm is pasted to the rim. In the centre, wooden chopsticks rest over the glowing brine. On the right, a tiny ornate brass valve emits thin puffs of vapor.",
+ "shown": [
+  "A pair of carved wooden chopsticks resting across the jar rim in the centre",
+  "A fluttering paper talisman with circuit patterns pasted on the jar at the left",
+  "A small steaming brass pressure valve bolted to the jar base on the right"
+ ],
+ "view": "close"
+}

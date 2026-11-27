@@ -1,8 +1,8 @@
 {
  "id": "c9-d1-2-1",
- "scene": "The coin sparks a projection booth, unlocking transit portals before you.",
+ "scene": "Your synth remix powers up three transit portals at the village edge.",
  "options": [
-  "Ride dragon maglev",
+  "Ride dragon train",
   "Board bullet train",
   "Sail solar junk"
  ],
@@ -11,11 +11,11 @@
   "c9-d2",
   "c9-d3"
  ],
- "picture": "A flat side view of the village transit platform. Far left, a maglev train styled like a green dragon rests on elevated rails. Left, the Pacific Islander player stands beside an active hologram booth. Centre, a sleek pink bullet train waits with doors open. Far right, a wooden solar-sail junk rocks gently.",
+ "picture": "Flat side view. Along a wooden sky-station edge, the maglev dragon train rests far left. A pink bullet train idles centre. The young Chinese woman in her red jacket and skates stands right of centre holding synth headphones, facing the moored solar-sail junk on the far right under glowing village lanterns.",
  "shown": [
-  "a green maglev dragon train waiting on glowing rails at the far left",
-  "a sleek pink bullet train with open sliding doors in the centre",
-  "a wooden solar-sail junk moored at the dock edge on the far right"
+  "the gleaming maglev dragon train waiting open-doored on the elevated track far left",
+  "the sleek pink bullet train idling with doors open at the centre platform",
+  "the golden solar-sail junk moored at the wooden sky-dock on the far right"
  ],
  "view": "wide"
 }

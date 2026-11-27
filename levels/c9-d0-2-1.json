@@ -1,0 +1,21 @@
+{
+ "id": "c9-d0-2-1",
+ "scene": "Touching the pond surface reveals three transit gates across the patio.",
+ "options": [
+  "Ride cable pod",
+  "Board bullet train",
+  "Sail jade junk"
+ ],
+ "next": [
+  "c9-d1",
+  "c9-d2",
+  "c9-d3"
+ ],
+ "picture": "Side-scrolling view along a stone terrace. Left, a gleaming pink bullet train sits at an open gate. Left of centre, the neon koi pond ripples. Centre, the player in red bomber jacket and roller skates stands watching three portals unlock. Far right, a wooden solar-sail junk rests docked. Up high, a cloud cable pod hovers.",
+ "shown": [
+  "a floating cloud cable pod suspended from a tether, up high",
+  "a sleek pink bullet train stopped at a platform, left",
+  "a solar-sail junk moored at a water canal dock, far right"
+ ],
+ "view": "wide"
+}

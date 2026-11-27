@@ -1,9 +1,9 @@
 {
  "id": "c9-d1-0-0",
- "scene": "The brass key unlocks the sky terminal gates, revealing three ready departures.",
+ "scene": "The opened kimchi jar reveals glowing travel passes to faraway districts.",
  "options": [
-  "Board dragon train",
-  "Ride bullet train",
+  "Ride dragon train",
+  "Board bullet train",
   "Sail solar junk"
  ],
  "next": [
@@ -11,11 +11,11 @@
   "c9-d2",
   "c9-d3"
  ],
- "picture": "A flat side view along the wooden sky dock platform. Far left, a long red maglev dragon train idles on glowing rails. Left of centre, the Pacific Islander player holds his brass key and ukulele. Centre, a sleek white bullet train waits with doors open. Far right, a wooden junk boat rests with amber sails.",
+ "picture": "Flat side view. Along a wide timber sky-dock, a maglev dragon train sits on the left platform. The young Chinese woman in red bomber jacket and white roller skates stands beside three opened clay jars left of centre. A sleek pink bullet train rests centre, while a solar-sail junk floats moored on the far right.",
  "shown": [
-  "a winding red maglev dragon train on the far left",
-  "a sleek white bullet train waiting with open doors at centre",
-  "a wooden solar-sail junk tied to the platform at far right"
+  "a sleek maglev dragon train waiting open-doored on the left rail platform",
+  "a polished pink bullet train idling quietly at the centre station gate",
+  "a golden solar-sail junk moored at the wooden dock on the far right"
  ],
  "view": "wide"
 }

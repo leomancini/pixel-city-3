@@ -1,0 +1,21 @@
+{
+ "id": "c9-d0-1",
+ "scene": "The brass tea robot bows politely and whistles a cheerful tune.",
+ "options": [
+  "Drink bubbling tea",
+  "Take paper token",
+  "Follow delivery drone"
+ ],
+ "next": [
+  "c9-d0-1-0",
+  "c9-d0-1-1",
+  "c9-d0-1-2"
+ ],
+ "picture": "Side-scrolling flat view along the market floor. The player in her red bomber jacket stands left, smiling at the brass tea robot in the centre. The robot holds out a steaming jade teacup, with a golden token sliding from its chest slot on the right. Up high, a cheerful propeller delivery drone hovers.",
+ "shown": [
+  "a steaming jade teacup balanced on the robot's left tray, centre",
+  "a golden raffle token dispensed from the robot's chest slot, right",
+  "a small propeller drone carrying a bento box hovering up high"
+ ],
+ "view": "wide"
+}

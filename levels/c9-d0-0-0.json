@@ -1,0 +1,21 @@
+{
+ "id": "c9-d0-0-0",
+ "scene": "The tipped lucky cat winks, revealing three transit gates across the plaza.",
+ "options": [
+  "Ride cable pod",
+  "Board bullet train",
+  "Board solar junk"
+ ],
+ "next": [
+  "c9-d1",
+  "c9-d2",
+  "c9-d3"
+ ],
+ "picture": "Side-scrolling view of a multi-platform transit plaza. Far left hangs an open glass cable pod on a glowing wire. Left, the player stands on roller skates holding a lucky copper token. Centre sits a sleek pink bullet train at a platform. Right, a glowing destination board shows three routes. Far right, a wooden solar-sail junk bobs at a dock.",
+ "shown": [
+  "a dangling round glass cloud cable pod door waiting open far left",
+  "a sleek pink bullet train with doors sliding open at centre",
+  "a wooden solar-sail junk moored at a dock far right"
+ ],
+ "view": "wide"
+}

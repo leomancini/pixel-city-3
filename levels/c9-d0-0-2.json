@@ -1,0 +1,21 @@
+{
+ "id": "c9-d0-0-2",
+ "scene": "Through the neon moon gate, a bustling transit concourse fans out before you.",
+ "options": [
+  "Board solar junk",
+  "Ride cable pod",
+  "Catch bullet train"
+ ],
+ "next": [
+  "c9-d3",
+  "c9-d1",
+  "c9-d2"
+ ],
+ "picture": "Flat side-scrolling view of a wide transit plaza. Far left, a wooden solar-sail junk rocks gently at a canal dock. Left, the player stands on roller skates by a glowing ticket kiosk. Up high centre, a round cable pod waits at a lift gate. Far right, a sleek pink bullet train rests along a platform.",
+ "shown": [
+  "a docked wooden junk with glowing solar sails moored on the far left",
+  "a glass spherical cable pod hovering open at a platform up high",
+  "a sleek pink bullet train with open sliding doors on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,21 +1,21 @@
 {
  "id": "c9-d1-1-0",
- "scene": "Your ukulele song summons three sky transports to the village edge.",
+ "scene": "The spicy neon cabbage makes your tongue tingle with electric sky-routes.",
  "options": [
   "Ride bullet train",
   "Board solar junk",
-  "Take dragon maglev"
+  "Catch dragon maglev"
  ],
  "next": [
   "c9-d2",
   "c9-d3",
   "c9-d0"
  ],
- "picture": "Flat side view along wooden planks. Far left, the racoon cook claps happily beside his cart. Left, an open-doored pink bullet train hums on a rail. Centre left, the broad Pacific Islander player holds his ukulele. Centre, a moored solar-sail junk floats. Right, a coiled green dragon maglev train waits on glowing tracks.",
+ "picture": "Side-scrolling view of a stone sky-dock terrace. On the far left, a pink bullet train waits at an open gate. Left of centre, the player stands on roller skates with glowing blue lips. In the centre, a solar-sailed junk ship rocks gently at the railing. On the far right sits a green dragon maglev train.",
  "shown": [
-  "a sleek pink bullet train idling with open doors on the left",
-  "a wooden junk with glowing solar sails moored at the centre dock",
-  "a green maglev dragon train waiting on glowing rails on the right"
+  "a sleek pink bullet train idling on glowing rails on the far left",
+  "a wooden junk with shimmering solar sails moored in the centre",
+  "a carved dragon-headed maglev tram waiting beside a platform on the far right"
  ],
  "view": "wide"
 }

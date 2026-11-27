@@ -1,0 +1,21 @@
+{
+ "id": "c9-d2",
+ "scene": "You step off the sleek bullet train straight into Sakura Circuit Arcade.",
+ "options": [
+  "Insert gold coin",
+  "Order noodle bowl",
+  "Skate through torii"
+ ],
+ "next": [
+  "c9-d2-0",
+  "c9-d2-1",
+  "c9-d2-2"
+ ],
+ "picture": "Flat side view along a glowing platform. On the far left sits a giant capsule-toy machine. Next is the player, a young Chinese woman with a black ponytail, red bomber jacket, and white roller skates, beside the sleek bullet train door. To her right, a robot chef tends ramen, beside a neon torii gate.",
+ "shown": [
+  "a giant glowing capsule-toy machine stands waiting on the far left",
+  "a cheerful chef robot stirs a steaming ramen pot on the right",
+  "a brilliant neon red torii gate glows brightly on the far right"
+ ],
+ "view": "wide"
+}

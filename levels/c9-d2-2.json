@@ -1,0 +1,21 @@
+{
+ "id": "c9-d2-2",
+ "scene": "You glide into a buzzing hall packed with glowing arcade machines.",
+ "options": [
+  "Grab dance pads",
+  "Insert shiny token",
+  "Climb spiral ramp"
+ ],
+ "next": [
+  "c9-d2-2-0",
+  "c9-d2-2-1",
+  "c9-d2-2-2"
+ ],
+ "picture": "Side view of a level arcade floor. On the far left are two flashing rhythm pads. Left of centre, the player stands on roller skates in her red jacket and ponytail. In the centre stands a glowing crane machine filled with plushies. On the far right, an illuminated spiral ramp curves upward.",
+ "shown": [
+  "two flashing rhythm dance pads on the far left floor",
+  "a glowing crane claw machine sitting in the centre",
+  "a brightly lit spiral walkway on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c9-d1-0-1",
+ "scene": "At the holographic stage, dazzling route signs flicker before three waiting transports.",
+ "options": [
+  "Board bullet train",
+  "Board solar junk",
+  "Board dragon train"
+ ],
+ "next": [
+  "c9-d2",
+  "c9-d3",
+  "c9-d0"
+ ],
+ "picture": "Flat side view. Along the elevated edge, the sleek silver bullet train waits on the far left. The young Chinese woman in red bomber jacket and white roller skates stands left of centre, eating tteokbokki before the glowing holographic stage at centre. To the right waits the solar-sail junk, and the maglev dragon train on the far right.",
+ "shown": [
+  "a sleek silver bullet train on the far left with open doors",
+  "a gilded solar-sail junk boat moored at a ramp on the right",
+  "a glowing maglev dragon train parked at a platform on the far right"
+ ],
+ "view": "wide"
+}

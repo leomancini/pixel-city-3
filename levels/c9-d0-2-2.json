@@ -1,0 +1,21 @@
+{
+ "id": "c9-d0-2-2",
+ "scene": "Your flute melody opens three sparkling transit portals along the garden wall.",
+ "options": [
+  "Board bullet train",
+  "Board solar junk",
+  "Ride cloud pod"
+ ],
+ "next": [
+  "c9-d2",
+  "c9-d3",
+  "c9-d1"
+ ],
+ "picture": "Side-scrolling view of the courtyard terrace. On the left, a sleek pink bullet train waits at a neon platform. Centre, the player in red bomber jacket and roller skates lowers the glowing crystal flute. On the right, a solar-sail junk boat bobs at a canal dock. Up high, a spherical glass cloud pod hangs from cables.",
+ "shown": [
+  "a sleek pink bullet train door open on the track on the left",
+  "a golden-sailed junk boat tied at a glowing canal dock on the right",
+  "a spherical glass cloud pod hanging from overhead cables up high"
+ ],
+ "view": "wide"
+}

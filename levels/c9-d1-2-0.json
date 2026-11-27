@@ -1,6 +1,6 @@
 {
  "id": "c9-d1-2-0",
- "scene": "Your ukulele chords summon three departure docks, glowing along the sky boardwalk.",
+ "scene": "Your skates light up the dance pad, unlocking three outbound departure gates.",
  "options": [
   "Board solar junk",
   "Ride dragon train",
@@ -11,11 +11,11 @@
   "c9-d0",
   "c9-d2"
  ],
- "picture": "A flat side view along a wide wooden boardwalk. Far left, the player in a floral shirt holds his ukulele. Left, a wooden solar-sail junk floats at a low mooring. Centre, a serpentine maglev dragon train hums beside a post. Right, a shiny pink bullet train rests on magnetic rails. Far right, glowing destination signs.",
+ "picture": "Flat side view. Along a level sky deck, a moored solar-sail junk rests on the far left. Left of centre, the young Chinese woman in red bomber jacket and skates strikes a pose atop the brightly glowing dance pad. An elevated maglev dragon train waits up high, while a sleek bullet train stands ready on the far right.",
  "shown": [
-  "a moored solar-sail junk with shimmering golden canvas panels, docked on the left",
-  "a maglev dragon train head idling beside a ticket gate, at the centre",
-  "a sleek pink bullet train with open slide doors, waiting on the right"
+  "a moored solar-sail junk resting at a sky pier on the far left",
+  "a maglev dragon train waiting with open doors up high above centre",
+  "a streamlined bullet train idle beside a glowing ticket turnstile on the far right"
  ],
  "view": "wide"
 }

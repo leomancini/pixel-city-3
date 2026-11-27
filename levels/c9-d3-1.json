@@ -1,0 +1,21 @@
+{
+ "id": "c9-d3-1",
+ "scene": "You lean in close to study the intricate copper harbour directory map.",
+ "options": [
+  "Press neon button",
+  "Turn brass key",
+  "Inspect paper note"
+ ],
+ "next": [
+  "c9-d3-1-0",
+  "c9-d3-1-1",
+  "c9-d3-1-2"
+ ],
+ "picture": "A tight first-person view of the brass directory map filling the frame. On the lower left sits a glowing blue push-button beside stamped pier numbers. In the centre, etched copper canals glow beneath an ornate brass key lodged in a switch. A yellow paper tram ticket is clipped to the upper right corner.",
+ "shown": [
+  "a blinking blue copper button mounted on the lower left of the frame",
+  "an ornate brass key inserted into an illuminated keyhole in the centre",
+  "a handwritten paper ticket tucked under a clip on the upper right"
+ ],
+ "view": "close"
+}

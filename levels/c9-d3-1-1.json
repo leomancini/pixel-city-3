@@ -1,0 +1,21 @@
+{
+ "id": "c9-d3-1-1",
+ "scene": "Turning the key slides open three grand transit gates along the pier.",
+ "options": [
+  "Ride bullet train",
+  "Board dragon maglev",
+  "Take cable pod"
+ ],
+ "next": [
+  "c9-d2",
+  "c9-d0",
+  "c9-d1"
+ ],
+ "picture": "Flat side view along the wooden pier. On the left, a sleek pink bullet train waits with open doors. The player stands centre-left in her red bomber jacket and roller skates. In the centre, an emerald dragon maglev hums at a platform. On the right, an open glass cable pod dangles ready.",
+ "shown": [
+  "a sleek pink bullet train idling with open doors on the left",
+  "a winding emerald dragon train waiting at the platform in the centre",
+  "a round glass cloud cable pod suspended from a pylon on the right"
+ ],
+ "view": "wide"
+}

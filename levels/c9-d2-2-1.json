@@ -1,21 +1,21 @@
 {
  "id": "c9-d2-2-1",
- "scene": "The golden ticket glows, activating departures on the arcade transit board.",
+ "scene": "The machine chimes brightly and opens a glowing transit terminal bay behind it.",
  "options": [
-  "Ride dragon train",
-  "Board cloud pod",
-  "Board solar junk"
+  "Board dragon maglev",
+  "Enter cable pod",
+  "Step onto junk"
  ],
  "next": [
   "c9-d0",
   "c9-d1",
   "c9-d3"
  ],
- "picture": "Flat side-scrolling view along the glowing arcade concourse. Left sits the streamlined maglev dragon train with open doors. Center stands the Pacific Islander man in floral shirt with top knot and ukulele, holding a radiant ticket. Up high hangs an open cloud cable pod. Right sits a docked solar-sail junk.",
+ "picture": "Side view along a gleaming transit concourse floor. On the far left sits a waiting dragon maglev train with an open door. Left of centre stands the player on roller skates. In the centre hangs a glowing glass cable pod. On the far right is moored a solar-sail junk.",
  "shown": [
-  "a green maglev dragon train waiting with open doors on the left track",
-  "a spherical cloud cable pod dangling open up high on overhead cables",
-  "a wooden solar-sail junk moored at a glowing canal gate on the right"
+  "a sleek golden-nosed dragon train waiting at the platform on the left",
+  "a spherical glass cloud pod hanging from overhead cables in the centre",
+  "a wooden solar-sail junk moored against the dock on the far right"
  ],
  "view": "wide"
 }

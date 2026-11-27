@@ -1,0 +1,21 @@
+{
+ "id": "c9-d2-2-0",
+ "scene": "Your high-score combo unlocks the transit balcony overlooking three glowing routes.",
+ "options": [
+  "Board solar junk",
+  "Ride dragon train",
+  "Enter cable pod"
+ ],
+ "next": [
+  "c9-d3",
+  "c9-d0",
+  "c9-d1"
+ ],
+ "picture": "Side view of an open-air transit balcony. On the left, a wooden solar-sail junk docks beside a gangplank. Left of centre, the player stands on skates. In the centre sits a gleaming dragon-headed maglev train. On the far right hangs a sphere-shaped cloud cable pod attached to an overhead rail.",
+ "shown": [
+  "a golden solar-sail junk moored at a dock on the left",
+  "a serpentine maglev dragon train waiting with open doors in the centre",
+  "a round glass cloud cable pod swaying gently on the far right"
+ ],
+ "view": "wide"
+}

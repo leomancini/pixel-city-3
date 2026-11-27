@@ -1,0 +1,21 @@
+{
+ "id": "c9-d3-1-2",
+ "scene": "The unfolded note reveals departure routes across the bustling interchange platform.",
+ "options": [
+  "Board dragon train",
+  "Take cable pod",
+  "Ride bullet train"
+ ],
+ "next": [
+  "c9-d0",
+  "c9-d1",
+  "c9-d2"
+ ],
+ "picture": "Side-scrolling view of a wide transit platform. On the far left sits a serpentine green dragon train. Up high hangs an orb-shaped cable pod at a gantry. The player stands centre on skates holding a ticket. On the right, a pink bullet train waits with open doors beside an arcade-styled departure sign.",
+ "shown": [
+  "a sleek serpentine maglev train waiting on the far left tracks",
+  "a dangling spherical cable pod swaying up high on central overhead cables",
+  "a glossy pink bullet train with open doors on the right"
+ ],
+ "view": "wide"
+}

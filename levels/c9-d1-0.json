@@ -1,0 +1,21 @@
+{
+ "id": "c9-d1-0",
+ "scene": "The street vendor hands you a spicy, steaming paper cup of tteokbokki.",
+ "options": [
+  "Inspect clay jars",
+  "Approach pop stage",
+  "Board dragon glider"
+ ],
+ "next": [
+  "c9-d1-0-0",
+  "c9-d1-0-1",
+  "c9-d1-0-2"
+ ],
+ "picture": "Flat side view. Along a skyward boardwalk, a tethered green dragon glider rests on the far left. The young Chinese woman in her red bomber jacket and white roller skates stands at centre, holding steaming tteokbokki. Next to her sits the vendor cart, followed by three clay jars, and the neon holographic pop stage on the far right.",
+ "shown": [
+  "three painted earthenware kimchi jars sitting closed on the wooden deck to the right",
+  "a neon holographic idol stage flickering with light at the far right",
+  "a green mechanical dragon hang-glider tethered to a post on the far left"
+ ],
+ "view": "wide"
+}

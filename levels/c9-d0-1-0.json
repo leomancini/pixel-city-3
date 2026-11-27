@@ -1,0 +1,21 @@
+{
+ "id": "c9-d0-1-0",
+ "scene": "The sweet tea energizes you as three departing transit gates light up.",
+ "options": [
+  "Board bullet train",
+  "Board solar junk",
+  "Ride cable pod"
+ ],
+ "next": [
+  "c9-d2",
+  "c9-d3",
+  "c9-d1"
+ ],
+ "picture": "Side-scrolling flat view along the market concourse. The player in her red bomber jacket and roller skates stands centre, holding an empty teacup. On the far left sits a pink bullet train with open doors. To the right, a solar junk is tied to a low pier. Up high hangs a glass cable pod.",
+ "shown": [
+  "a sleek pink bullet train with open automated doors on the far left",
+  "a moored wooden junk with glowing solar sails at the pier right",
+  "a round glass cable pod swaying softly from a rail up high"
+ ],
+ "view": "wide"
+}

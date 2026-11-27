@@ -1,21 +1,21 @@
 {
  "id": "c9-d2-1-1",
- "scene": "The tipped robot bows, projecting transit tokens onto the counter.",
+ "scene": "The robot's exposed hatch displays blinking transit tokens for three city exits.",
  "options": [
-  "Sail junk harbour",
+  "Board solar junk",
   "Ride dragon train",
-  "Board cloud pod"
+  "Catch cable pod"
  ],
  "next": [
   "c9-d3",
   "c9-d0",
   "c9-d1"
  ],
- "picture": "Flat side-scrolling view in the noodle bar. On the far left, the chrome robot bows deeply behind the counter. The broad-shouldered Pacific Islander man stands centre in his floral shirt, top knot, and ukulele. Along the glossy counter sit three glowing holographic departure tokens: green solar-sail left, red dragon train centre, blue cable pod right.",
+ "picture": "Flat side view of an expansive transit balcony. The player in a red bomber jacket stands on white roller skates before three departure platforms. On the left, a solar-sail junk rocks gently by an open dock. In the centre sits a gleaming dragon-headed maglev train with open doors. On the right, a round cloud cable pod hangs ready.",
  "shown": [
-  "a green solar-sail junk token gleaming on the counter left",
-  "a red dragon train token glowing on the counter centre",
-  "a blue cable pod token resting on the counter right"
+  "A golden junk with solar sails moored at an open port on the left",
+  "A serpentine maglev dragon train waiting with open doors in the centre",
+  "A round cloud cable pod hanging from an overhead line on the right"
  ],
  "view": "wide"
 }

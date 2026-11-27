@@ -1,0 +1,21 @@
+{
+ "id": "c9-d3-2",
+ "scene": "You skate up into the lighthouse lantern room beside an enormous spinning prism.",
+ "options": [
+  "Peer through telescope",
+  "Touch revolving prism",
+  "Open hatch door"
+ ],
+ "next": [
+  "c9-d3-2-0",
+  "c9-d3-2-1",
+  "c9-d3-2-2"
+ ],
+ "picture": "Flat side-view inside the circular lantern room. On the left stands a brass telescope aimed at a window. You stand in your red bomber jacket and white roller skates beside the glowing glass prism spinning in the centre. On the far right is a steep iron ladder leading to a shut roof hatch.",
+ "shown": [
+  "a mounted brass telescope on a sturdy tripod sitting on the left",
+  "a massive glowing glass prism slowly turning on its pedestal in the centre",
+  "a small metal roof hatch with an iron latch on the far right"
+ ],
+ "view": "wide"
+}

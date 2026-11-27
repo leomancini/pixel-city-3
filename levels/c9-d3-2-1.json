@@ -1,0 +1,21 @@
+{
+ "id": "c9-d3-2-1",
+ "scene": "The crystal flashes, projecting shimmering transit lines out across the open city sky.",
+ "options": [
+  "Board dragon maglev",
+  "Ride cable pod",
+  "Catch bullet train"
+ ],
+ "next": [
+  "c9-d0",
+  "c9-d1",
+  "c9-d2"
+ ],
+ "picture": "Side-view from the opened lighthouse balcony. On the left sits an idling green dragon-headed maglev. In the centre you stand in your red jacket and skates on the stone ledge. Up high hangs an open spherical cable pod. On the far right is a pink bullet train waiting at an attached sky platform.",
+ "shown": [
+  "a sleek dragon-headed maglev train idling along a neon track on the left",
+  "a spherical wicker cable pod hanging open from a cable up high",
+  "a pink streamlined bullet train waiting at an attached platform on the far right"
+ ],
+ "view": "wide"
+}

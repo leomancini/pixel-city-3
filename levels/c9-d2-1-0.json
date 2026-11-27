@@ -1,21 +1,21 @@
 {
  "id": "c9-d2-1-0",
- "scene": "The zesty broth grants you sudden, vibrant energy out on the transit platform.",
+ "scene": "The spicy broth gives you a sudden rush of energetic wanderlust.",
  "options": [
-  "Ride cable pod",
+  "Board cable pod",
   "Board solar junk",
-  "Catch dragon train"
+  "Ride dragon train"
  ],
  "next": [
   "c9-d1",
   "c9-d3",
   "c9-d0"
  ],
- "picture": "A wide rooftop transit terrace overlooking Pixel City. The broad-shouldered Pacific Islander man in floral shirt, top knot, and ukulele stands energized at the centre. Up high on the left hangs a glass cloud cable pod. On the right, a solar-sail junk awaits, and at the far right sits a maglev dragon train.",
+ "picture": "Flat side view along a wide transit dock. On the far left, a round glass cable pod hangs open at a sky terminal. In the centre, a wooden junk boat with glowing sails is moored. On the far right waits a sleek green dragon train. Between them, the player stands energized on roller skates.",
  "shown": [
-  "a spherical glass cloud cable pod suspended from a wire, up high on the left",
-  "a wooden solar-sail junk moored at a glowing canal dock on the right",
-  "a serpentine maglev dragon train resting at a sleek boarding gate on the far right"
+  "a round glass cable pod hanging open at the platform on the far left",
+  "a wooden junk boat with glowing yellow sails moored in the centre dock",
+  "a sleek maglev train shaped like a green dragon waiting on the far right"
  ],
  "view": "wide"
 }

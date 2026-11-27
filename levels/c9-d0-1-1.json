@@ -1,0 +1,21 @@
+{
+ "id": "c9-d0-1-1",
+ "scene": "The golden voucher unlocks three distinct travel gates across the bustling market platform.",
+ "options": [
+  "Board solar junk",
+  "Take cable pod",
+  "Enter bullet train"
+ ],
+ "next": [
+  "c9-d3",
+  "c9-d1",
+  "c9-d2"
+ ],
+ "picture": "Side-scrolling flat view along the platform. On the far left, a docked solar-sail junk awaits at an open slipway. The player stands left-of-centre holding her shiny token. In the centre, a ladder leads up toward a hanging brass cable pod. On the far right, a sleek neon bullet train waits with open doors.",
+ "shown": [
+  "a wooden solar-sail junk tied at an open slipway on the far left",
+  "a hanging brass cable pod suspended by wires up high in the centre",
+  "a sleek neon bullet train with doors sliding open on the far right"
+ ],
+ "view": "wide"
+}

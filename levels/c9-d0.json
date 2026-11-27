@@ -1,0 +1,21 @@
+{
+ "id": "c9-d0",
+ "scene": "You step off the maglev dragon train into glowing Dragon Lantern Market.",
+ "options": [
+  "Taste steam dumplings",
+  "Greet tea robot",
+  "Pass moon gate"
+ ],
+ "next": [
+  "c9-d0-0",
+  "c9-d0-1",
+  "c9-d0-2"
+ ],
+ "picture": "Side-scrolling view of a stone market floor. Far left, the sleek maglev dragon train rests with open doors. Left, a vendor steams tall bamboo dumpling baskets. The player in red bomber jacket and roller skates stands left-centre. Centre, a brass teapot-pouring robot balances cups. Far right, an open circular neon moon gate glows brightly.",
+ "shown": [
+  "a towering bamboo steamer cart wafting steam, situated on the left",
+  "a brass four-armed robot balancing porcelain teapots, standing at the centre",
+  "a glowing red circular moon gate entrance on the far right"
+ ],
+ "view": "wide"
+}

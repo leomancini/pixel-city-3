@@ -1,21 +1,21 @@
 {
  "id": "c9-d1-2-2",
- "scene": "Across the bridge, a bustling sky hub offers three waiting departures.",
+ "scene": "You climb atop the tiled roof, overlooking three ready sky transits.",
  "options": [
-  "Board bullet train",
+  "Ride bullet train",
   "Board solar junk",
-  "Board dragon train"
+  "Catch dragon maglev"
  ],
  "next": [
   "c9-d2",
   "c9-d3",
   "c9-d0"
  ],
- "picture": "A flat side view along a high sky terminal platform. Far left, a sleek pink bullet train waits with open doors. Left, the Pacific Islander player stands with his ukulele facing forward. Centre, a wooden solar-sail junk rests with a lowered boarding ramp. Right, ticket gates blink softly. Far right, a green maglev dragon train waits.",
+ "picture": "Flat side view. Along a wide rooftop transit platform, a sleek pink bullet train rests with doors open on the far left. The young Chinese woman in her red jacket and skates stands left of centre. A moored solar-sail junk floats at a gangway in the centre. A winding emerald dragon maglev train waits along the far right.",
  "shown": [
-  "a sleek pink bullet train with open doors on the far left track",
-  "a wooden solar-sail junk moored at the centre dock with lowered ramp",
-  "a glowing green maglev dragon train waiting patiently at the far right platform"
+  "a sleek pink bullet train idling with doors open on the far left",
+  "a glowing solar-sail wooden junk moored at a centre sky dock",
+  "a winding emerald dragon maglev train waiting along the platform on the far right"
  ],
  "view": "wide"
 }

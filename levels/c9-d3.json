@@ -1,0 +1,21 @@
+{
+ "id": "c9-d3",
+ "scene": "You glide off the glowing solar-sail junk onto the lively harbour pier.",
+ "options": [
+  "Board tea barge",
+  "Read harbour map",
+  "Climb lighthouse steps"
+ ],
+ "next": [
+  "c9-d3-0",
+  "c9-d3-1",
+  "c9-d3-2"
+ ],
+ "picture": "Flat side-view across a timber pier over jade-green water. On the far left sits a low floating tea barge. Left of centre rests the moored solar junk with glowing panels. You stand centre-right in a red bomber jacket and white roller skates beside a brass directory board. A tall pagoda lighthouse rises on the far right.",
+ "shown": [
+  "a floating wooden tea barge moored on the water on the far left",
+  "a carved brass directory board mounted on a post at the centre",
+  "an arched wooden doorway at the base of the pagoda lighthouse on the far right"
+ ],
+ "view": "wide"
+}

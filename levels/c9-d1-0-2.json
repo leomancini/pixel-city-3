@@ -1,21 +1,21 @@
 {
  "id": "c9-d1-0-2",
- "scene": "You climb up onto a rooftop transit hub bustling with departing vessels.",
+ "scene": "You hop inside the green dragon glider as it reaches Sky Terminal.",
  "options": [
   "Board solar junk",
-  "Ride dragon train",
-  "Catch bullet train"
+  "Take dragon train",
+  "Ride bullet train"
  ],
  "next": [
   "c9-d3",
   "c9-d0",
   "c9-d2"
  ],
- "picture": "Flat side view along a high rooftop platform. On the left, a wooden solar-sail junk sits moored with unfurled sails. Left-centre, the player stands with his ukulele and top knot. Up high runs an elevated rail with a maglev dragon train. On the right, a streamlined pink bullet train waits with open doors beside turnstiles.",
+ "picture": "Flat side view. Along a polished terminal platform, a golden solar-sail junk sits moored on the far left. The green dragon glider sits left. The young Chinese woman in red bomber jacket and roller skates stands at centre holding tteokbokki. On the right, a glowing maglev dragon train waits, beside a pink bullet train on the far right.",
  "shown": [
-  "A docked solar-sail junk tied to a wooden mooring post on the left",
-  "A coiled maglev dragon train waiting on glowing rails up high",
-  "A sleek pink bullet train idling by a metal turnstile on the right"
+  "a golden solar-sail junk moored at a wooden slipway on the far left",
+  "a glowing maglev dragon train waiting with open doors on the right",
+  "a sleek pink bullet train stopped at a boarding gate on the far right"
  ],
  "view": "wide"
 }

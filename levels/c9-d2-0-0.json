@@ -1,0 +1,21 @@
+{
+ "id": "c9-d2-0-0",
+ "scene": "The capsule pops open, revealing a sparkling transit pass for three distant districts.",
+ "options": [
+  "Board dragon train",
+  "Hop in pod",
+  "Board solar junk"
+ ],
+ "next": [
+  "c9-d0",
+  "c9-d1",
+  "c9-d3"
+ ],
+ "picture": "Flat side view of a bustling multi-transit terminal platform. On the far left, a maglev dragon train idles with glowing doors open. The young Chinese woman in a red bomber jacket stands centre on roller skates, holding an open capsule. Up high hangs a round cable pod, while on the far right floats a solar-sail junk.",
+ "shown": [
+  "a sleek maglev dragon train waiting with open doors on the left track",
+  "a round cloud cable pod dangling ready from an overhead wire up high",
+  "a wooden solar-sail junk moored at the open water dock on the far right"
+ ],
+ "view": "wide"
+}

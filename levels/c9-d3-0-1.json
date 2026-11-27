@@ -1,0 +1,21 @@
+{
+ "id": "c9-d3-0-1",
+ "scene": "The badger smiles warmly, handing you a map stamped with three transit routes.",
+ "options": [
+  "Ride cable pod",
+  "Board bullet train",
+  "Board dragon train"
+ ],
+ "next": [
+  "c9-d1",
+  "c9-d2",
+  "c9-d0"
+ ],
+ "picture": "Side-view transit hub concourse overlooking the water. On the far left, an open cloud cable pod hangs by a dock. Left of centre, you stand on roller skates holding a ticket. In the centre, a silver bullet train awaits boarding. On the far right, a red maglev dragon train rests along glowing rails.",
+ "shown": [
+  "a dangling glass cloud cable pod waiting open on the far left platform",
+  "a sleek silver bullet train idling with doors open in the centre",
+  "a glowing red maglev dragon train awaiting passengers on the far right"
+ ],
+ "view": "wide"
+}

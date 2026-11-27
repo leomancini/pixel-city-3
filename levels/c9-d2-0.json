@@ -1,0 +1,21 @@
+{
+ "id": "c9-d2-0",
+ "scene": "The giant capsule machine chimes, dropping a glittering prize into the chute.",
+ "options": [
+  "Grab the capsule",
+  "Read the dial",
+  "Skate past torii"
+ ],
+ "next": [
+  "c9-d2-0-0",
+  "c9-d2-0-1",
+  "c9-d2-0-2"
+ ],
+ "picture": "Flat side view of the platform floor. On the far left, the oversized capsule toy machine displays a glowing golden ball inside its open lower chute. The young Chinese woman in red bomber jacket and roller skates stands beside it, hands reaching out. In the centre glows the machine's rune counter, while a neon torii gate stands on the far right.",
+ "shown": [
+  "a glowing golden sphere resting in the open chute at the bottom left",
+  "a brightly illuminated counter screen showing mysterious runes in the centre",
+  "a humming neon torii gate glowing bright pink on the far right"
+ ],
+ "view": "wide"
+}

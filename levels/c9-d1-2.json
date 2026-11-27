@@ -1,0 +1,21 @@
+{
+ "id": "c9-d1-2",
+ "scene": "A holographic idol sparkles above the dance pad, awaiting your first step.",
+ "options": [
+  "Step on pad",
+  "Tune the console",
+  "Climb roof ladder"
+ ],
+ "next": [
+  "c9-d1-2-0",
+  "c9-d1-2-1",
+  "c9-d1-2-2"
+ ],
+ "picture": "Flat side view. Along a level tiled boardwalk, a blinking synthesizer sound console sits on the far left. The young Chinese woman in her red jacket and skates stands near the centre, facing an unlit rhythmic dance pad where a smiling hologram idol hovers up high. A wooden ladder leans against a tiled pavilion on the far right.",
+ "shown": [
+  "an unlit rhythmic dance pad on the ground, centre",
+  "a blinking synthesizer sound console with knobs, far left",
+  "a wooden ladder leaning against a tiled pavilion roof, far right"
+ ],
+ "view": "wide"
+}

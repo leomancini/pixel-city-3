@@ -1,0 +1,21 @@
+{
+ "id": "c9-d2-1",
+ "scene": "The robot chef slides you a steaming, neon-topped bowl of ramen.",
+ "options": [
+  "Slurp glowing noodles",
+  "Inspect side hatch",
+  "Skate down ramp"
+ ],
+ "next": [
+  "c9-d2-1-0",
+  "c9-d2-1-1",
+  "c9-d2-1-2"
+ ],
+ "picture": "Flat side view inside the lively arcade station. On the left stands the four-armed robot chef with an open brass access hatch on its side. In the centre, the player in red bomber jacket and white roller skates sits at the wooden counter before a steaming bowl of blue ramen. On the far right, a checkered neon ramp slopes downward.",
+ "shown": [
+  "a steaming bowl of glowing blue noodles resting on the counter at centre",
+  "a brass access hatch with loose screws on the chef's side on the left",
+  "a checkered glowing ramp descending into a lower concourse on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c9-d3-2-2",
+ "scene": "You emerge onto the windy rooftop transit platform atop the high tower.",
+ "options": [
+  "Board cloud pod",
+  "Ride bullet train",
+  "Catch dragon train"
+ ],
+ "next": [
+  "c9-d1",
+  "c9-d2",
+  "c9-d0"
+ ],
+ "picture": "A flat side-view of a windswept rooftop transit hub. On the left hangs a spherical glass cable pod. In the centre sits a silver bullet train beside a platform where you stand in your red bomber jacket and roller skates. On the far right is a glowing, serpentine maglev dragon train.",
+ "shown": [
+  "a round glass cable pod swaying gently from an overhead wire on the left",
+  "a sleek silver bullet train waiting with open doors in the centre",
+  "a winding maglev dragon train humming softly on tracks to the far right"
+ ],
+ "view": "wide"
+}
