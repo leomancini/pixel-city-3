@@ -17,5 +17,31 @@
   "A blue crumpled diagram pinned flat under a ruler at the centre.",
   "A brass-tipped glassblowing torch resting cold on a rack on the right."
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "Your corduroy cuffs brush the wooden bench as you study the glowing workshop tools.",
+   "options": [
+    "Check teal tank",
+    "Study the blueprint",
+    "Spark the burner"
+   ]
+  },
+  {
+   "scene": "A blue schematic rests held flat under a rusty ruler on the bench.",
+   "options": [
+    "Tap pressure gauge",
+    "Examine the paper",
+    "Ignite the torch"
+   ]
+  },
+  {
+   "scene": "You hum {tune} quietly while leaning over the tidy glassblowing workbench.",
+   "options": [
+    "Inspect the canister",
+    "Scan blue diagram",
+    "Fire up torch"
+   ]
+  }
+ ]
 }

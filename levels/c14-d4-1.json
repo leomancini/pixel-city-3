@@ -17,5 +17,31 @@
   "a glowing blue clipboard hanging on a tool rack on the left",
   "a metal ladder bolted upright against the brick wall on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The welder offers you a sparkling neon wand amid buzzing pink light.",
+   "options": [
+    "Take neon wand",
+    "Check blue clipboard",
+    "Climb tall ladder"
+   ]
+  },
+  {
+   "scene": "Electric sparks dance as the welder hands you a bright glowing wand.",
+   "options": [
+    "Accept glowing wand",
+    "Read blue plans",
+    "Scale wall ladder"
+   ]
+  },
+  {
+   "scene": "You hum {tune} while the welder holds out a buzzing glass wand.",
+   "options": [
+    "Grab sparking wand",
+    "Inspect lit clipboard",
+    "Head up ladder"
+   ]
+  }
+ ]
 }

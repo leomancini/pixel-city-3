@@ -16,5 +16,31 @@
   "a steaming noodle cart with hanging paper lanterns on the left",
   "a lizard merchant sitting behind a rug of shiny gears, centre",
   "a rusty metal ladder bolted against a brick pillar on the right"
+ ],
+ "variants": [
+  {
+   "scene": "Warm lantern light glows as you step from the train into the lively caverns.",
+   "options": [
+    "Visit noodle stand",
+    "Browse shiny gears",
+    "Scale brick ladder"
+   ]
+  },
+  {
+   "scene": "Steam curls through the vaulted tunnel while you keep searching for {quest}.",
+   "options": [
+    "Smell hot broth",
+    "Talk to lizard",
+    "Head upstairs"
+   ]
+  },
+  {
+   "scene": "Your green boots tap on stone beneath hanging lanterns and glowing green vines.",
+   "options": [
+    "Check soup cart",
+    "Barter for trinkets",
+    "Climb tall rungs"
+   ]
+  }
  ]
 }

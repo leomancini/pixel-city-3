@@ -17,5 +17,31 @@
   "a pulsating blue glass tile glowing in the map's centre",
   "an engraved copper track winding along the star map's right side"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "Cool night air brushes your hands as the celestial puzzle board hums softly.",
+   "options": [
+    "Rotate brass dial",
+    "Tap glowing tile",
+    "Follow copper path"
+   ]
+  },
+  {
+   "scene": "The rooftop mosaic softly sparkles, holding secrets beneath its starry, metallic grid.",
+   "options": [
+    "Spin clockwork dial",
+    "Touch blue square",
+    "Slide along track"
+   ]
+  },
+  {
+   "scene": "Humming gears and starry tiles click quietly as you search for clues to {quest}.",
+   "options": [
+    "Shift bronze gear",
+    "Push center glass",
+    "Guide copper rail"
+   ]
+  }
+ ]
 }

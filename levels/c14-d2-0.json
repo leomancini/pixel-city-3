@@ -17,5 +17,31 @@
   "the thick curved glass cylinder at the centre holding tiny lightning",
   "the rooftop flagstone floor visible on the far right"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "Tiny purple thunderclouds and sparks of lightning drift inside the heavy glass jar.",
+   "options": [
+    "Turn brass dial",
+    "Knock on glass",
+    "Step away carefully"
+   ]
+  },
+  {
+   "scene": "A pocket-sized storm hums softly beneath the warm copper lid of the canister.",
+   "options": [
+    "Adjust the knob",
+    "Touch the cylinder",
+    "Back up slowly"
+   ]
+  },
+  {
+   "scene": "Watching the trapped storm, you wonder if it holds a clue to {quest}.",
+   "options": [
+    "Nudge small dial",
+    "Rap the glass",
+    "Move right back"
+   ]
+  }
+ ]
 }

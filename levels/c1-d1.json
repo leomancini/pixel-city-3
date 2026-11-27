@@ -16,5 +16,31 @@
   "a glowing glass claw crane filled with plush pixel cats on the far left",
   "a robotic cashier wearing an apron behind a ticket counter on the right",
   "an open beaded curtain doorway flashing with colourful strobes on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "The monorail doors slide open to cheerful bleeps, glowing lanterns, and arcade games.",
+   "options": [
+    "Try claw game",
+    "Greet robot cashier",
+    "Visit pinball room"
+   ]
+  },
+  {
+   "scene": "You tap your cane onto the platform while humming {tune} above the noise.",
+   "options": [
+    "Catch toy cat",
+    "Ask robotic clerk",
+    "Part beaded curtain"
+   ]
+  },
+  {
+   "scene": "Bright neon signs buzz warmly across the busy station platform tonight.",
+   "options": [
+    "Win prize cat",
+    "Approach ticket counter",
+    "Check out pinball"
+   ]
+  }
  ]
 }

@@ -17,5 +17,31 @@
   "A tarnished silver sliding latch hooked across the centre seam",
   "A peeling paper shipping label pasted on the lid's right side"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "Cool metal and old paint greet your gloved hands on this locked trunk.",
+   "options": [
+    "Spin brass dial",
+    "Undo metal latch",
+    "Read paper label"
+   ]
+  },
+  {
+   "scene": "The heavy yellow chest smells of engine oil and stamped parcels.",
+   "options": [
+    "Twist numbered dial",
+    "Push silver bolt",
+    "Check train sticker"
+   ]
+  },
+  {
+   "scene": "You gently tap the weathered yellow lid as you hum {tune}.",
+   "options": [
+    "Rotate round lock",
+    "Shift center latch",
+    "Inspect shipping tag"
+   ]
+  }
+ ]
 }

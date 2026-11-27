@@ -16,5 +16,31 @@
   "a steaming bamboo basket on a wooden cart on the far left",
   "a large orange paper goldfish kite hanging up high above you",
   "an open curtained doorway glowing with yellow light on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "A giant paper goldfish glows bright above the evening street.",
+   "options": [
+    "Try fresh dumpling",
+    "Admire glowing goldfish",
+    "Visit lantern shop"
+   ]
+  },
+  {
+   "scene": "Steam and warm lantern light welcome you to the busy lane.",
+   "options": [
+    "Sample hot dumplings",
+    "Examine hanging fish",
+    "Browse lit workshop"
+   ]
+  },
+  {
+   "scene": "You arrive under the warm lanterns, still searching for {quest}.",
+   "options": [
+    "Buy steaming treat",
+    "View hanging goldfish",
+    "Step inside workshop"
+   ]
+  }
  ]
 }

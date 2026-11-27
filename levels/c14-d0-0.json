@@ -17,5 +17,31 @@
   "a curled paper schedule pinned under a magnet on the cart in the centre",
   "a winding iron staircase leading downward on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Steam curls from the freshly poured cocoa under the twinkling, purple night sky.",
+   "options": [
+    "Sip the cocoa",
+    "Check the flyer",
+    "Head down stairs"
+   ]
+  },
+  {
+   "scene": "A friendly robot serves sweet, warm cocoa beside a giant wooden star.",
+   "options": [
+    "Take the mug",
+    "Inspect the flyer",
+    "Climb down stairs"
+   ]
+  },
+  {
+   "scene": "You hum {tune} while sweet chocolate steam warms the crisp evening air.",
+   "options": [
+    "Taste the cocoa",
+    "Study the flyer",
+    "Use the stairs"
+   ]
+  }
+ ]
 }

@@ -17,5 +17,31 @@
   "a lizardfolk commuter sleeping with an oversized briefcase on a bench left of centre",
   "a dangling red braided cable hanging from the ceiling beam up high"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The warm yellow tram rolls gently across the tracks under a twilight sky.",
+   "options": [
+    "Study the gauges",
+    "Wake lizard traveler",
+    "Tug red cord"
+   ]
+  },
+  {
+   "scene": "A peaceful hum fills the car as you quietly hum {tune}.",
+   "options": [
+    "Check dashboard meters",
+    "Nudge snoozing commuter",
+    "Yank braided cable"
+   ]
+  },
+  {
+   "scene": "You hold the overhead strap while the cozy evening tram glides forward.",
+   "options": [
+    "Examine ticking meters",
+    "Say hello politely",
+    "Ring signal rope"
+   ]
+  }
+ ]
 }

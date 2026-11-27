@@ -17,5 +17,31 @@
   "a brass automaton dipping a quill at a desk on the right",
   "an open archway door beneath hanging drying sheets on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The cart stops by glowing ink as evening settles over the quiet cobblestone lane.",
+   "options": [
+    "Check blue barrel",
+    "Wave to robot",
+    "Visit print shop"
+   ]
+  },
+  {
+   "scene": "Humming {tune}, you step onto the tracks outside a bustling printing workshop.",
+   "options": [
+    "Examine leaky barrel",
+    "Talk to automaton",
+    "Step inside workshop"
+   ]
+  },
+  {
+   "scene": "Fresh ink and drying paper scent the air beside a busy clockwork clerk.",
+   "options": [
+    "Touch glowing ink",
+    "Approach metal scribe",
+    "Walk into mill"
+   ]
+  }
+ ]
 }

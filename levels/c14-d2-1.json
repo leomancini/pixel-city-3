@@ -17,5 +17,31 @@
   "a dense violet cloud swirling up high above the player",
   "a fat mechanical seagull roosting peacefully on the ledge far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Glittering purple steam hisses from the rusted pipe, swirling into the twilight sky.",
+   "options": [
+    "Open round hatch",
+    "Watch purple smoke",
+    "Nudge clockwork bird"
+   ]
+  },
+  {
+   "scene": "A warm lavender cloud bursts upwards, raining soft sparks over the wet roof.",
+   "options": [
+    "Lift roof hatch",
+    "Inspect sparkling cloud",
+    "Stroke tin bird"
+   ]
+  },
+  {
+   "scene": "Gears whirr loudly as the wheel shoots sweet-smelling violet fog into the air.",
+   "options": [
+    "Check metal hatch",
+    "Study violet mist",
+    "Greet bronze seagull"
+   ]
+  }
+ ]
 }

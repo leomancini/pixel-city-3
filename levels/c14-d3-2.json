@@ -17,5 +17,31 @@
   "a luminous teal parasol resting inside the umbrella rack on the right",
   "an open steel cargo elevator with a lit lantern on the far left"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "A bright teal parasol glows softly among paper-tagged brollies in the rack.",
+   "options": [
+    "Check paper ticket",
+    "Unfurl glowing parasol",
+    "Enter cargo elevator"
+   ]
+  },
+  {
+   "scene": "You spot a luminous canopy and a curious paper slip in the metal stand.",
+   "options": [
+    "Inspect depot ticket",
+    "Raise teal parasol",
+    "Step inside elevator"
+   ]
+  },
+  {
+   "scene": "Humming {tune}, you reach toward the strange glowing canopy and its tag.",
+   "options": [
+    "Examine luggage ticket",
+    "Spread glowing parasol",
+    "Take cargo lift"
+   ]
+  }
+ ]
 }

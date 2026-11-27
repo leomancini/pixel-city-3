@@ -17,5 +17,31 @@
   "Three labelled glass spice bottles sitting on the cart counter on the left",
   "A bright yellow gear tram waiting open at the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "A bowl of bright cyan soup warms your hands beneath the evening sky.",
+   "options": [
+    "Taste the soup",
+    "Inspect the jars",
+    "Hop on tram"
+   ]
+  },
+  {
+   "scene": "Neon steam rises from the glowing bowl while you hum {tune}.",
+   "options": [
+    "Sip the broth",
+    "Check spice jars",
+    "Catch the tram"
+   ]
+  },
+  {
+   "scene": "The curious broth glows like blue starlight against your corduroy coat.",
+   "options": [
+    "Drink your soup",
+    "Read spice labels",
+    "Enter yellow tram"
+   ]
+  }
+ ]
 }

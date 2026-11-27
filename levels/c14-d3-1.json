@@ -17,5 +17,31 @@
   "a rumbling rubber luggage conveyor belt sloping up high on the right",
   "a striped tabby cat sleeping inside an open cardboard box on the far left"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The friendly metal bot beeps happily and offers you a sparkling blue cube.",
+   "options": [
+    "Accept glowing cube",
+    "Ride conveyor belt",
+    "Pet sleeping cat"
+   ]
+  },
+  {
+   "scene": "Whirring wheels click softly as the robot presents a brightly glowing package.",
+   "options": [
+    "Grab blue package",
+    "Hop on ramp",
+    "Greet tabby cat"
+   ]
+  },
+  {
+   "scene": "A warm blue light shines, but you still wonder where {quest} is hiding.",
+   "options": [
+    "Take bright parcel",
+    "Climb the belt",
+    "Approach boxed cat"
+   ]
+  }
+ ]
 }

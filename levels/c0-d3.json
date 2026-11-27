@@ -16,5 +16,31 @@
   "a tall wooden grandfather clock standing ticking on the cobbled sidewalk far left",
   "a polished brass workshop door with a gear-shaped knocker on the right",
   "an iron maintenance ladder bolted beneath the giant ticking face up high"
+ ],
+ "variants": [
+  {
+   "scene": "Your green boots tap on cobblestones beneath the giant glowing clock tower.",
+   "options": [
+    "Check grandfather clock",
+    "Rap brass door",
+    "Scale iron ladder"
+   ]
+  },
+  {
+   "scene": "You arrive in the twilight square, humming {tune} above the steady ticking.",
+   "options": [
+    "Examine wooden clock",
+    "Tap golden door",
+    "Ascend tower ladder"
+   ]
+  },
+  {
+   "scene": "The red tram hums behind you as mechanical chimes fill the dusky air.",
+   "options": [
+    "Study sidewalk clock",
+    "Try workshop door",
+    "Climb tall ladder"
+   ]
+  }
  ]
 }

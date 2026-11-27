@@ -17,5 +17,31 @@
   "a huge console radio humming with amber vacuum tubes in the centre",
   "a red steel tool chest with open drawers on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Warm vacuum tubes glow softly as you enter the dim radio repair shop.",
+   "options": [
+    "Examine brass parrot",
+    "Adjust console radio",
+    "Search tool chest"
+   ]
+  },
+  {
+   "scene": "The quiet workshop hums softly while you think about finding {quest}.",
+   "options": [
+    "Check mechanical bird",
+    "Turn radio dials",
+    "Browse open drawers"
+   ]
+  },
+  {
+   "scene": "You smell warm solder as amber lights flicker inside the quiet garage.",
+   "options": [
+    "Touch toy parrot",
+    "Operate large radio",
+    "Rifle red toolbox"
+   ]
+  }
+ ]
 }

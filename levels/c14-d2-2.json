@@ -17,5 +17,31 @@
   "the telescope slung over the player's shoulder standing in the centre",
   "a narrow arched skybridge extending off the platform on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The giant metal rooster spins above as evening air cools the rooftop.",
+   "options": [
+    "Check large gauge",
+    "Peer through telescope",
+    "Follow metal walkway"
+   ]
+  },
+  {
+   "scene": "Up here, you hum {tune} while the city hums beneath your boots.",
+   "options": [
+    "Tap round meter",
+    "Unsling brass scope",
+    "Tread across bridge"
+   ]
+  },
+  {
+   "scene": "A warm breeze whistles past the rooster weathervane and the rattling metal grate.",
+   "options": [
+    "Inspect pressure dial",
+    "Raise spyglass outward",
+    "Walk arched bridge"
+   ]
+  }
+ ]
 }

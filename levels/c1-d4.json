@@ -17,5 +17,31 @@
   "a wind-up brass automaton sitting behind an oversized chessboard in the centre",
   "a steaming ceramic teapot placed on a round garden table on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Gentle lantern light glows across the tiled pavilion as chess pieces click together softly.",
+   "options": [
+    "Check the lift",
+    "Play the robot",
+    "Sip the tea"
+   ]
+  },
+  {
+   "scene": "You lean on your cane, still wondering about {quest} in this grand gaming hall.",
+   "options": [
+    "Study the lift",
+    "Face the automaton",
+    "Try some tea"
+   ]
+  },
+  {
+   "scene": "Fragrant steam drifts past grand glass arches where thinkers ponder their next moves.",
+   "options": [
+    "Examine the lift",
+    "Play the automaton",
+    "Enjoy hot tea"
+   ]
+  }
+ ]
 }

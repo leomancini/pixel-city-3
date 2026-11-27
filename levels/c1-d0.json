@@ -16,5 +16,31 @@
   "a yellow wooden water taxi idling far left with a smiling driver inside",
   "a floating teahouse door painted crimson, standing wide open on the right",
   "a stone arched bridge with carved dragon railings on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "Warm lanterns glow across the canal as you hum {tune} by the water.",
+   "options": [
+    "Tip the captain",
+    "Visit floating teahouse",
+    "Traverse stone bridge"
+   ]
+  },
+  {
+   "scene": "Evening settles over the calm water taxi dock beside the busy canal.",
+   "options": [
+    "Pay the fare",
+    "Board house boat",
+    "Walk over bridge"
+   ]
+  },
+  {
+   "scene": "Gentle ripples splash softly against the stone steps near the cozy storefronts.",
+   "options": [
+    "Hand driver coins",
+    "Step inside teahouse",
+    "Climb high bridge"
+   ]
+  }
  ]
 }

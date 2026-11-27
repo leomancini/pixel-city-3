@@ -17,5 +17,31 @@
   "a repair stall overflowing with copper wrenches in the centre",
   "a yellow mechanical tram with an open door on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Sunset gleams off giant cogs as you arrive on the lively bridge.",
+   "options": [
+    "Buy warm soup",
+    "Inspect the tools",
+    "Hop on tram"
+   ]
+  },
+  {
+   "scene": "Steam and street chatter drift past as you wonder where {quest} might be.",
+   "options": [
+    "Taste noodles",
+    "Examine spare parts",
+    "Enter yellow tram"
+   ]
+  },
+  {
+   "scene": "Lanterns glow softly along the noisy iron platform under the dusky purple sky.",
+   "options": [
+    "Get hot soup",
+    "Check wrench stall",
+    "Catch the tram"
+   ]
+  }
+ ]
 }
