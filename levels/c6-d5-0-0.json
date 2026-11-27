@@ -1,0 +1,21 @@
+{
+ "id": "c6-d5-0-0",
+ "scene": "You climb atop the glowing billboard gantry where new routes await.",
+ "options": [
+  "Board night tram",
+  "Take service elevator",
+  "Row small boat"
+ ],
+ "next": [
+  "c6-d0",
+  "c6-d1",
+  "c6-d2"
+ ],
+ "picture": "A wide side-scrolling view of a wide rooftop gantry. On the left sits a glowing yellow night tram. To its right stands the boy in his denim jacket and camera, holding his brush. In the centre is an open caged service elevator. On the far right, a wooden rowing boat bobs in a canal chute.",
+ "shown": [
+  "a sleek yellow night tram waiting open-doored on an elevated track on the left",
+  "a metal caged service elevator with an open gate in the centre",
+  "a wooden rowing boat moored at a canal sluice on the far right"
+ ],
+ "view": "wide"
+}

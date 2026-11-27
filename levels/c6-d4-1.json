@@ -1,0 +1,21 @@
+{
+ "id": "c6-d4-1",
+ "scene": "Perched on the crane's platform, you overlook the studio bustle.",
+ "options": [
+  "Adjust viewfinder",
+  "Slide down rope",
+  "Leap to roof"
+ ],
+ "next": [
+  "c6-d4-1-0",
+  "c6-d4-1-1",
+  "c6-d4-1-2"
+ ],
+ "picture": "Pixel art flat side view. On the high metal platform centre stands the dark-haired boy with glasses and camera around his neck. Beside him sits a mounted film camera facing right. On the left hangs a dangling rigging rope. On the far right stretches the flat roof of a prop warehouse.",
+ "shown": [
+  "the heavy film camera perched on its swivel mount up high centre",
+  "a coiled rigging rope dangling loose towards the studio floor on the left",
+  "the flat tarpaper roof of the adjacent prop warehouse on the far right"
+ ],
+ "view": "wide"
+}

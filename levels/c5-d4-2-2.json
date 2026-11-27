@@ -1,0 +1,21 @@
+{
+ "id": "c5-d4-2-2",
+ "scene": "Beyond the wooden gate lies a bustling transport dock beside water.",
+ "options": [
+  "Board paddle steamer",
+  "Take school bus",
+  "Ride skate shuttle"
+ ],
+ "next": [
+  "c5-d3",
+  "c5-d5",
+  "c5-d0"
+ ],
+ "picture": "Pixel art side-view of a lively dockside. On the far left, a red paddle steamer floats at a wooden pier. Left, a yellow school bus idles with its doors open. Centre, the dark-haired boy stands holding his skateboard. On the far right, a purple skate shuttle van waits beside a checkered curb.",
+ "shown": [
+  "a red paddle steamer bobbing with its gangplank lowered on the far left",
+  "a bright yellow school bus idling with open doors on the left",
+  "a low purple skate-park shuttle van parked on the far right"
+ ],
+ "view": "wide"
+}

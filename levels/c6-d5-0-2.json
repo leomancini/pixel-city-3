@@ -1,0 +1,21 @@
+{
+ "id": "c6-d5-0-2",
+ "scene": "The tapped droid projects a sparkling transit terminal map onto the wall.",
+ "options": [
+  "Row toward garden",
+  "Enter freight lift",
+  "Board golf shuttle"
+ ],
+ "next": [
+  "c6-d2",
+  "c6-d3",
+  "c6-d4"
+ ],
+ "picture": "Flat side-scrolling view. On the far left, a small wooden rowing boat sits moored at an open storm grate. Next stands the boy with his glowing brush and camera. In the centre, an open metal freight lift waits with glowing buttons. On the right, a yellow golf-cart shuttle idles with headlights on.",
+ "shown": [
+  "A small blue rowing boat tied to a wet pipe on the left",
+  "An open iron freight lift with an amber light in the centre",
+  "A yellow golf-cart shuttle idling by the wall on the right"
+ ],
+ "view": "wide"
+}

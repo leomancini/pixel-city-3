@@ -1,0 +1,21 @@
+{
+ "id": "c5-d4-0-1",
+ "scene": "Inside the inflatable throne room, three transit portals wait along the wall.",
+ "options": [
+  "Board double-decker bus",
+  "Ride rope-bridge lift",
+  "Board paddle steamer"
+ ],
+ "next": [
+  "c5-d1",
+  "c5-d2",
+  "c5-d3"
+ ],
+ "picture": "Pixel art side-view inside an inflatable castle hall. The boy in green striped shirt stands near the centre holding his skateboard. On the left, an open arch reveals a red double-decker bus. In the centre, a rope-bridge lift platform waits. On the right, a tiny paddle steamer floats at an indoor canal gate.",
+ "shown": [
+  "a red double-decker bus idling behind an open archway on the left",
+  "a swaying wooden rope-bridge lift platform hanging open in the centre",
+  "a whistling mini paddle steamer docked beside an exit on the right"
+ ],
+ "view": "wide"
+}

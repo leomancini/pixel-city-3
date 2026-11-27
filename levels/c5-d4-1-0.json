@@ -1,0 +1,21 @@
+{
+ "id": "c5-d4-1-0",
+ "scene": "You climb up onto the high castle battlements overlooking busy transit docks.",
+ "options": [
+  "Board paddle steamer",
+  "Catch school bus",
+  "Take skate shuttle"
+ ],
+ "next": [
+  "c5-d3",
+  "c5-d5",
+  "c5-d0"
+ ],
+ "picture": "Side-view pixel art along a flat inflatable crenelated wall. The dark-haired boy in striped shirt stands left of centre holding his skateboard. Far left, a docked paddle steamer floats by a mooring post. Centre stands a retro yellow school bus at an open gate. Far right waits a colourful skate shuttle van with its door open.",
+ "shown": [
+  "a wooden paddle steamer docked with gangplank down on the far left",
+  "a yellow flying school bus parked at a bus stop in the centre",
+  "a neon skate-park shuttle van with an open side door on the far right"
+ ],
+ "view": "wide"
+}

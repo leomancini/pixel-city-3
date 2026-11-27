@@ -1,0 +1,21 @@
+{
+ "id": "c6-d5-2-2",
+ "scene": "Across the bridge, a bustling rooftop transit depot awaits you.",
+ "options": [
+  "Enter freight lift",
+  "Board backlot shuttle",
+  "Catch night tram"
+ ],
+ "next": [
+  "c6-d3",
+  "c6-d4",
+  "c6-d0"
+ ],
+ "picture": "Flat side-scrolling view of a wide junction rooftop. On the far left, the rope suspension bridge ends. Near left, an open iron freight lift with an interior lever waits. The dark-haired boy in a denim jacket stands centre-left. In the centre, an electric golf-cart shuttle sits idling. On the right, a glowing night tram waits beside a ticket booth.",
+ "shown": [
+  "a heavy iron freight lift with its accordion gate open on the left",
+  "a striped electric golf-cart shuttle idling in the centre",
+  "a glowing yellow night tram parked beside a platform on the right"
+ ],
+ "view": "wide"
+}

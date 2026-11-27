@@ -1,0 +1,21 @@
+{
+ "id": "c6-d5-1-0",
+ "scene": "The alley roars with light, powering up three waiting transit lines.",
+ "options": [
+  "Take freight lift",
+  "Ride golf cart",
+  "Board night tram"
+ ],
+ "next": [
+  "c6-d3",
+  "c6-d4",
+  "c6-d0"
+ ],
+ "picture": "Side-scrolling view of the illuminated alley along one ground line. On the far left, an open steel freight lift stands with illuminated gates. Left of centre, the boy in the denim jacket watches giant holograms glow. In the centre, a yellow golf-cart shuttle idles. On the far right, a glowing night tram waits.",
+ "shown": [
+  "an open steel freight cage waiting with its lever far left",
+  "a yellow golf-cart shuttle with a driver waiting in the centre",
+  "a glowing night tram parked at a small stop far right"
+ ],
+ "view": "wide"
+}

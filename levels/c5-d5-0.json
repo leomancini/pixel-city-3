@@ -1,0 +1,21 @@
+{
+ "id": "c5-d5-0",
+ "scene": "You uncover a glowing brass key and an ancient skull.",
+ "options": [
+  "Take brass key",
+  "Inspect ancient skull",
+  "Grab metal shovel"
+ ],
+ "next": [
+  "c5-d5-0-0",
+  "c5-d5-0-1",
+  "c5-d5-0-2"
+ ],
+ "picture": "First-person close-up looking down into a wooden sandbox filled with pale sand. On the left, a glowing brass key protrudes from the dirt. In the centre sits a half-buried fossil skull with tiny ridged horns. On the right, a red metal shovel is stuck upright in the sand. Two small hands rest along the wooden rim.",
+ "shown": [
+  "a shiny brass key sticking up in the sand on the left",
+  "a large horned fossil skull resting in the sand at centre",
+  "a red toy shovel planted upright in the sand on the right"
+ ],
+ "view": "close"
+}

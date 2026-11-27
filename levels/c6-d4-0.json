@@ -1,0 +1,21 @@
+{
+ "id": "c6-d4-0",
+ "scene": "The silver robot hands you a glowing script with a metallic chirp.",
+ "options": [
+  "Read the script",
+  "Open prop crate",
+  "Hop on dolly"
+ ],
+ "next": [
+  "c6-d4-0-0",
+  "c6-d4-0-1",
+  "c6-d4-0-2"
+ ],
+ "picture": "Pixel art flat side view. On the far left, a closed wooden prop crate sits marked with warning tape. Beside it, the silver robot gestures politely. In the centre, the curly-haired boy in a denim jacket holds a glowing script, camera around his neck. To the right, an empty camera dolly sits on tracks.",
+ "shown": [
+  "a glowing blue script held in the player's hands at centre",
+  "a wooden prop crate stamped with warning tape on the far left",
+  "a wheeled camera dolly sitting idle on tracks to the right"
+ ],
+ "view": "wide"
+}

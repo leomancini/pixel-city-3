@@ -1,0 +1,21 @@
+{
+ "id": "c5-d5",
+ "scene": "You step off the yellow school bus onto the museum's sprawling roof.",
+ "options": [
+  "Dig in sandpit",
+  "Ride robotic raptor",
+  "Enter gift shop"
+ ],
+ "next": [
+  "c5-d5-0",
+  "c5-d5-1",
+  "c5-d5-2"
+ ],
+ "picture": "Side-view rooftop scene along a flat tile floor. Far left sits a wooden sandpit with fossil bones poking out. Beside it, the yellow school bus is parked. The boy stands left of centre holding his skateboard. In the centre, a mechanical robotic raptor skeleton clicks its jaws. Far right sits a bright glass gift shop door.",
+ "shown": [
+  "a wooden sandpit with fossil bones poking out on the far left",
+  "a mechanical robotic raptor skeleton clicking its jaws in the centre",
+  "a glass gift shop door with neon signs on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c6-d4-1-1",
+ "scene": "You slide down to the ground, surrounded by waiting transport.",
+ "options": [
+  "Take scissor lift",
+  "Board night tram",
+  "Ride service elevator"
+ ],
+ "next": [
+  "c6-d5",
+  "c6-d0",
+  "c6-d1"
+ ],
+ "picture": "Pixel art flat side view. On the studio ground line, the dark-haired boy in a denim jacket lands beside a hanging rope. On the left waits a yellow scissor lift. In the centre sits a glowing night tram with open doors. On the right stands a steel service elevator cage under tall struts.",
+ "shown": [
+  "a yellow scissor lift on the left with raised safety bars",
+  "a glowing night tram on the centre track with open doors",
+  "a metal service elevator cage on the right with an open gate"
+ ],
+ "view": "wide"
+}

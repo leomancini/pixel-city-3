@@ -1,0 +1,21 @@
+{
+ "id": "c5-d5-0-1",
+ "scene": "The fossil's hollow eye shines bright, revealing three rooftop transport docks.",
+ "options": [
+  "Board red bus",
+  "Take rope lift",
+  "Catch paddle steamer"
+ ],
+ "next": [
+  "c5-d1",
+  "c5-d2",
+  "c5-d3"
+ ],
+ "picture": "Side-view along the museum roof edge. The dark-haired boy stands left of centre holding his skateboard and fossil skull. On the far left waits an open-door red double-decker bus. In the centre hangs a swinging wooden rope-bridge lift car. On the far right, a small paddle steamer chugs inside a rooftop water lock.",
+ "shown": [
+  "a bright red double-decker bus idling on the far left roof ramp",
+  "a creaking wooden rope-bridge lift dangling in the centre beneath cables",
+  "a miniature paddle steamer moored at a rooftop canal lock far right"
+ ],
+ "view": "wide"
+}

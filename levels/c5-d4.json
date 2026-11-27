@@ -1,0 +1,21 @@
+{
+ "id": "c5-d4",
+ "scene": "You step off the trampoline lift onto the puffy, vibrant rooftop avenue.",
+ "options": [
+  "Greet the lifeguard",
+  "Enter castle doorway",
+  "Bounce down slide"
+ ],
+ "next": [
+  "c5-d4-0",
+  "c5-d4-1",
+  "c5-d4-2"
+ ],
+ "picture": "Pixel art side-view along a level bouncy street. Far left sits the wooden trampoline lift cage. Left stands a metallic robot lifeguard with a visor. Beside it stands the dark-haired boy clutching his skateboard. Centre features an open arched inflatable fortress door, while far right a yellow vinyl slide twists away.",
+ "shown": [
+  "A wheeled robot lifeguard blowing a whistle on the left",
+  "An arched inflatable castle door standing open in the centre",
+  "A huge yellow vinyl spiral slide curling down on the right"
+ ],
+ "view": "wide"
+}

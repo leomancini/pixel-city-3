@@ -1,0 +1,21 @@
+{
+ "id": "c6-d5-1",
+ "scene": "The engineer grins and hands you a humming holographic fuse.",
+ "options": [
+  "Insert the fuse",
+  "Examine the blueprint",
+  "Enter service duct"
+ ],
+ "next": [
+  "c6-d5-1-0",
+  "c6-d5-1-1",
+  "c6-d5-1-2"
+ ],
+ "picture": "Side-scrolling view in the alley. On the far left sits the sparking generator with its panel open. Left of centre, the boy in the denim jacket holds a humming fuse. In the centre stands a smiling overall-clad engineer next to a rolling metal toolbox. On the right, an open steam vent hatch leads into darkness.",
+ "shown": [
+  "an open glowing fuse slot inside the generator panel, left",
+  "a schematic pinned to the engineer's rolling toolbox, centre",
+  "an open steam-vent hatch set into the brick wall, right"
+ ],
+ "view": "wide"
+}

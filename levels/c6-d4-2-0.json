@@ -1,0 +1,21 @@
+{
+ "id": "c6-d4-2-0",
+ "scene": "The jukebox slides aside, revealing secret passages beneath the fake diner set.",
+ "options": [
+  "Take service elevator",
+  "Board rowing boat",
+  "Ride freight lift"
+ ],
+ "next": [
+  "c6-d1",
+  "c6-d2",
+  "c6-d3"
+ ],
+ "picture": "Pixel art flat side view of secret tunnels behind the moved jukebox. On the far left stands the boy with curly hair, glasses, denim jacket and camera. Next to him on the left is an open service elevator. In the centre, a wooden rowing boat floats in a canal. On the far right waits a freight lift.",
+ "shown": [
+  "a metal service elevator with open mesh gate, standing on the left",
+  "a wooden rowing boat floating in a water chute, in the centre",
+  "a heavy industrial freight lift with glowing floor arrows, on the far right"
+ ],
+ "view": "wide"
+}

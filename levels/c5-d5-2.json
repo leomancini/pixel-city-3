@@ -1,0 +1,21 @@
+{
+ "id": "c5-d5-2",
+ "scene": "Inside the museum gift shop, glittering curios fill every neon-lit shelf.",
+ "options": [
+  "Spin globe",
+  "Try crystal goggles",
+  "Climb spiral stairs"
+ ],
+ "next": [
+  "c5-d5-2-0",
+  "c5-d5-2-1",
+  "c5-d5-2-2"
+ ],
+ "picture": "Side-view interior along a chequered tile floor. On the far left, a glowing holographic planet globe spins slowly above a display. The boy in green stripes stands left of centre holding his skateboard. In the centre, crystal goggles sit on a glass counter. On the far right, a gleaming brass spiral staircase curls upward.",
+ "shown": [
+  "a glowing floating planet globe hovering over a stand on the far left",
+  "a pair of purple prismatic goggles resting on the counter in the centre",
+  "an ornate brass spiral staircase winding upward on the far right"
+ ],
+ "view": "wide"
+}

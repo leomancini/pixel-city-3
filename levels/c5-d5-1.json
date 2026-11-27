@@ -1,0 +1,21 @@
+{
+ "id": "c5-d5-1",
+ "scene": "You scramble onto the metal raptor as its mechanical joints hum alive.",
+ "options": [
+  "Pull bronze lever",
+  "Tuck map away",
+  "Leap to skylight"
+ ],
+ "next": [
+  "c5-d5-1-0",
+  "c5-d5-1-1",
+  "c5-d5-1-2"
+ ],
+ "picture": "Side-view rooftop scene along a flat tile floor. Left sits the yellow school bus. In the centre, the boy in his green striped shirt sits astride the metal raptor skeleton, holding his skateboard. Up high on its neck is a bronze lever. On the saddle's left is a folded map. Far right, an open skylight hatch sits.",
+ "shown": [
+  "a gleaming bronze control lever sticking out of the raptor's neck up high",
+  "a folded museum blueprint tucked into the saddle pouch on the left",
+  "an open glass skylight hatch resting on the roof tiles far right"
+ ],
+ "view": "wide"
+}

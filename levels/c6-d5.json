@@ -1,0 +1,21 @@
+{
+ "id": "c6-d5",
+ "scene": "You step off the scissor lift into flickering Hologram Billboard Alley.",
+ "options": [
+  "Borrow glowing paint",
+  "Help repair crew",
+  "Climb metal ladder"
+ ],
+ "next": [
+  "c6-d5-0",
+  "c6-d5-1",
+  "c6-d5-2"
+ ],
+ "picture": "Flat side-scrolling view of an alley. On the far left stands the lowered scissor lift. To the left, an open glowing paint bucket rests on a crate. Center-left stands the boy with curly dark hair, glasses, denim jacket, camera around neck. In the centre, a repair crew works on a sparking generator. On the right, a metal ladder leads up.",
+ "shown": [
+  "an open glowing paint bucket on a wooden crate on the left",
+  "a repair crew tinkering with a sparking hologram generator in the centre",
+  "a tall metal service ladder bolted to the wall on the right"
+ ],
+ "view": "wide"
+}

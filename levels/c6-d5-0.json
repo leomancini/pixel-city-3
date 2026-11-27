@@ -1,0 +1,21 @@
+{
+ "id": "c6-d5-0",
+ "scene": "You grab the glowing brush, leaving luminescent streaks on the alley floor.",
+ "options": [
+  "Climb metal ladder",
+  "Mark metal door",
+  "Inspect flickering droid"
+ ],
+ "next": [
+  "c6-d5-0-0",
+  "c6-d5-0-1",
+  "c6-d5-0-2"
+ ],
+ "picture": "Flat side-scrolling view of the alley. On the left, a shut iron service door with a keypad. Center-left stands the boy in his denim jacket with camera, holding a dripping luminescent paintbrush. In the centre, a tiny floating maintenance droid hovers erratically. On the far right stands a tall metal ladder leading up.",
+ "shown": [
+  "a tall metal ladder attached to the brick wall on the far right",
+  "a shut iron service door with an electronic keypad on the left",
+  "a tiny floating maintenance droid hovering erratically in the centre"
+ ],
+ "view": "wide"
+}

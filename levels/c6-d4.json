@@ -1,0 +1,21 @@
+{
+ "id": "c6-d4",
+ "scene": "You step off the shuttle into a bustling, noisy movie backlot.",
+ "options": [
+  "Talk to robot",
+  "Climb camera crane",
+  "Enter fake diner"
+ ],
+ "next": [
+  "c6-d4-0",
+  "c6-d4-1",
+  "c6-d4-2"
+ ],
+ "picture": "Pixel art flat side view. On the far right sits the empty golf-cart shuttle. On the far left, a silver robot extra stands holding a clipboard. In the centre, a tall yellow camera crane looms above. On the right, a fake diner storefront has open doors. Beside the shuttle, the curly-haired boy stands holding his camera.",
+ "shown": [
+  "A silver robot extra holding a clipboard on the far left",
+  "A tall yellow mobile camera crane standing in the centre",
+  "A colourful fake diner storefront with open double doors on the right"
+ ],
+ "view": "wide"
+}

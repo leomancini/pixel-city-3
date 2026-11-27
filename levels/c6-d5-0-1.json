@@ -1,0 +1,21 @@
+{
+ "id": "c6-d5-0-1",
+ "scene": "Your glowing brushstroke unlocks the service door, revealing three hidden transport passages.",
+ "options": [
+  "Take service elevator",
+  "Board rowing boat",
+  "Ride freight lift"
+ ],
+ "next": [
+  "c6-d1",
+  "c6-d2",
+  "c6-d3"
+ ],
+ "picture": "Flat side view of an expansive junction behind the marked door. On the left sits an open iron service elevator cage. Center-left stands the curly-haired boy holding his dripping brush. In the centre floats a small wooden rowing boat in a narrow canal. On the far right waits a wide steel freight lift.",
+ "shown": [
+  "a metal service elevator with open lattice gate on the left",
+  "a wooden rowing boat moored in glowing water in the centre",
+  "a heavy steel freight lift with an illuminated green arrow on the right"
+ ],
+ "view": "wide"
+}

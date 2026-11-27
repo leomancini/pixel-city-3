@@ -1,0 +1,21 @@
+{
+ "id": "c5-d4-0-2",
+ "scene": "You shoot out the vinyl slide onto a bustling canal transit plaza.",
+ "options": [
+  "Climb rope bridge",
+  "Board paddle steamer",
+  "Catch school bus"
+ ],
+ "next": [
+  "c5-d2",
+  "c5-d3",
+  "c5-d5"
+ ],
+ "picture": "Pixel art side-view of a lively canal plaza along one level dock. On the left stands the dark-haired boy clutching his skateboard by the slide's exit. Far left has a swinging rope-bridge lift platform. Centre features a docked red paddle steamer gently chugging. Far right waits an idling yellow flying school bus.",
+ "shown": [
+  "a hanging wooden rope-bridge lift waiting open at a platform on the far left",
+  "a bright red paddle steamer floating by the dock in the centre",
+  "a yellow winged school bus idling with open doors on the far right"
+ ],
+ "view": "wide"
+}

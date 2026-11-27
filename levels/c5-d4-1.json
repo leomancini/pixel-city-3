@@ -1,0 +1,21 @@
+{
+ "id": "c5-d4-1",
+ "scene": "Inside the inflatable fortress, bouncy columns hum with soft neon lights.",
+ "options": [
+  "Climb rope ladder",
+  "Inspect humming pedestal",
+  "Open zip door"
+ ],
+ "next": [
+  "c5-d4-1-0",
+  "c5-d4-1-1",
+  "c5-d4-1-2"
+ ],
+ "picture": "Pixel art side-view of a bouncy fortress interior along a flat squishy floor. Left hangs a purple rope ladder reaching down from above. The dark-haired boy in green stripes stands near it holding his skateboard. Centre sits a glowing cube pedestal. Far right shows a shut vinyl door with an oversized zipper.",
+ "shown": [
+  "a dangling purple rope ladder hanging down up high on the left",
+  "a glowing square pedestal with a floating pixel cube at centre",
+  "a massive yellow zipper closed tight along a doorway on the right"
+ ],
+ "view": "wide"
+}

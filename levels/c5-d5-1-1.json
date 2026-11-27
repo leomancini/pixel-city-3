@@ -1,0 +1,21 @@
+{
+ "id": "c5-d5-1-1",
+ "scene": "You pocket the map as rooftop transit platforms light up ahead.",
+ "options": [
+  "Ride trampoline lift",
+  "Board skate shuttle",
+  "Catch double-decker bus"
+ ],
+ "next": [
+  "c5-d4",
+  "c5-d0",
+  "c5-d1"
+ ],
+ "picture": "Flat rooftop tile ground line. Far left, a bouncing red trampoline lift platform rattles. On the left, a teal skate shuttle waits with open doors. In the centre, the boy with messy dark hair and red sneakers stands holding his skateboard. Far right, a red double-decker bus sits ready.",
+ "shown": [
+  "a spring-loaded red trampoline lift platform waiting far left",
+  "a sleek neon skate-park shuttle with an open side door on the left",
+  "a bright red double-decker bus idling with doors open far right"
+ ],
+ "view": "wide"
+}
