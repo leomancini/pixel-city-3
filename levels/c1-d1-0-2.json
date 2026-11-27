@@ -1,20 +1,21 @@
 {
  "id": "c1-d1-0-2",
- "scene": "The alley opens onto a bustling travel plaza.",
+ "scene": "Cradling your won plush cat, you exit onto the busy transit plaza.",
  "options": [
-  "Hail the rickshaw",
+  "Hail solar rickshaw",
   "Board water taxi",
-  "Take funicular railway"
+  "Climb to funicular"
  ],
  "next": [
   "c1-d3",
   "c1-d0",
   "c1-d2"
  ],
- "picture": "Pixel art street view. The elderly player stands centre holding his wooden cane, facing forward. On the far left, a mechanical brass rickshaw waits with an open seat. On the right, a bright green water taxi floats beside a low wooden pier. On the far right, an orange glass funicular railway car rests on tilted rails.",
+ "picture": "Side view along a glowing stone promenade. On the left stands the old man in blue cap and orange cardigan holding his cane and plush cat. Far left sits a waiting solar rickshaw. In the centre, a water taxi idles by a dock railing. Far right, a red funicular waits at its platform stairs.",
  "shown": [
-  "a mechanical rickshaw with red wheels waiting on the far left",
-  "a bright green water taxi moored at a jetty on the right",
-  "a glass funicular railway car stopped at a station on the far right"
- ]
+  "A yellow solar-canopied rickshaw with a friendly driver waiting on the far left",
+  "A teal water taxi idling at a wooden dock slip in the centre",
+  "A red glass-domed funicular railway car stopped on tracks on the far right"
+ ],
+ "view": "wide"
 }

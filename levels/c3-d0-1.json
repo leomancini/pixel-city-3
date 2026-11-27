@@ -1,0 +1,20 @@
+{
+ "id": "c3-d0-1",
+ "scene": "The wooden carousel spins into a glowing vortex.",
+ "options": [
+  "Grab dangling rope",
+  "Leap to platform",
+  "Kick open portal"
+ ],
+ "next": [
+  "c3-d0-1-0",
+  "c3-d0-1-1",
+  "c3-d0-1-2"
+ ],
+ "picture": "On a level ground line, the tall Latino man in his straw hat and red poncho sits atop a painted wooden horse in the centre. The carousel whirls with neon sparkles. A stationary exit platform sits on the far left, a swinging rope hangs up high, and a mirror door glows on the far right.",
+ "shown": [
+  "A thick braided rope swinging wildly up high above the spinning deck.",
+  "A wooden disembarking platform waiting stationary on the far left.",
+  "A swirling magenta mirror door installed on the far right."
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "id": "c3-d1-2-2",
+ "scene": "The dumbwaiter slides down, dumping you outside into bustling night alleys.",
+ "options": [
+  "Ride night bus",
+  "Hire bicycle rickshaw",
+  "Board carnival gondola"
+ ],
+ "next": [
+  "c3-d2",
+  "c3-d3",
+  "c3-d0"
+ ],
+ "picture": "Side-view pixel art of a lamplit night pavement along a level cobblestone line. On the far left, a glowing green night bus idles. Centre, the tall Latino man in straw hat, red poncho, and guitar brushes off soot. To the right, a yellow bicycle rickshaw waits. Up high on the far right hangs a red gondola.",
+ "shown": [
+  "a glowing green night bus idling at a sign on the far left",
+  "a yellow bicycle rickshaw with a bell parked to the right",
+  "a swinging red ferris wheel gondola hanging open up high on far right"
+ ]
+}

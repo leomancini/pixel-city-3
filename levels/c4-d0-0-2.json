@@ -1,0 +1,21 @@
+{
+ "id": "c4-d0-0-2",
+ "scene": "Silver tag secured, you face three waiting transports across the bridge plaza.",
+ "options": [
+  "Board cable tram",
+  "Take arcade trolley",
+  "Enter spiral lift"
+ ],
+ "next": [
+  "c4-d3",
+  "c4-d1",
+  "c4-d2"
+ ],
+ "picture": "A flat side-scrolling view of the bridge plaza. The player in lilac headscarf and mustard coat stands at the left. On the far left waits a red cable tram. Centre features a glass-roofed yellow trolley. To the far right stands a tall open iron cage lift with a spiral staircase.",
+ "shown": [
+  "a brass mountain cable tram with open doors on the far left",
+  "a low glass-roofed trolley idling on tracks at the centre",
+  "a gilded cage lift surrounded by winding iron stairs on the far right"
+ ],
+ "view": "wide"
+}

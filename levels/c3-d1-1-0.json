@@ -1,0 +1,21 @@
+{
+ "id": "c3-d1-1-0",
+ "scene": "The brass bookmark clicks, sliding library shelves away into open transit bays.",
+ "options": [
+  "Board night bus",
+  "Hire bicycle rickshaw",
+  "Enter ferris gondola"
+ ],
+ "next": [
+  "c3-d2",
+  "c3-d3",
+  "c3-d0"
+ ],
+ "picture": "Pixel art flat side view along a stone platform. On far left, a purple night bus idles with open doors. Left of centre, the tall Latino player with moustache, straw hat, red poncho, and guitar stands watching. On right, a wooden bicycle rickshaw waits beside a lantern. Up high, a glowing gondola hangs ready.",
+ "shown": [
+  "a sleek neon night bus idling at a low platform on the far left",
+  "a hooded bicycle rickshaw with glowing spokes waiting on the right",
+  "a dangling painted ferris wheel gondola hovering open up high"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,20 @@
+{
+ "id": "c4-d1-2-0",
+ "scene": "The key unlocks three transit gates at the arcade terminus.",
+ "options": [
+  "Board cable tram",
+  "Take river barge",
+  "Ride spiral lift"
+ ],
+ "next": [
+  "c4-d3",
+  "c4-d0",
+  "c4-d2"
+ ],
+ "picture": "Along a tiled floor, a glass cable tram hangs at far left, and a river barge waits by an open dock on the left. The player in lilac headscarf and mustard coat stands at centre holding a brass key. The mechanical pigeon perches on a sign at right, while an open spiral lift waits at far right.",
+ "shown": [
+  "a glass cable tram hanging waiting on rails at far left",
+  "a wooden river barge moored at a dock door on the left",
+  "a caged brass spiral lift standing open at the far right"
+ ]
+}

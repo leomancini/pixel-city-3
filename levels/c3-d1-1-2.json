@@ -1,0 +1,21 @@
+{
+ "id": "c3-d1-1-2",
+ "scene": "The note's secret exit opens onto a bustling sky balcony transit deck.",
+ "options": [
+  "Board ferris gondola",
+  "Catch night bus",
+  "Hail bicycle rickshaw"
+ ],
+ "next": [
+  "c3-d0",
+  "c3-d2",
+  "c3-d3"
+ ],
+ "picture": "Pixel art side view along a high stone balcony under starry skies. On far left, a swinging carnival ferris wheel gondola rests by a rail. In centre, a glowing night bus idles. The player stands beside it. On far right, a bicycle rickshaw awaits. A book rests on a podium to the left.",
+ "shown": [
+  "a glowing striped ferris wheel gondola waiting open on the far left platform",
+  "a sleek blue night bus idling with doors open in the centre",
+  "a yellow bicycle rickshaw with an attentive driver waiting on the far right"
+ ],
+ "view": "wide"
+}

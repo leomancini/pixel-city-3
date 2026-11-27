@@ -1,0 +1,20 @@
+{
+ "id": "c4-d1-0-2",
+ "scene": "Beyond the arch lies Vista Point Junction.",
+ "options": [
+  "Take cable tram",
+  "Board river barge",
+  "Ride spiral lift"
+ ],
+ "next": [
+  "c4-d3",
+  "c4-d0",
+  "c4-d2"
+ ],
+ "picture": "On a stone transit quay, the woman in lilac headscarf and mustard coat stands left of centre. At the far left, a red mountain cable tram hangs open. In the centre, a striped river barge waits docked at low water. On the far right stands a brass spiral lift tower with doors slid open.",
+ "shown": [
+  "a red cable tram suspended from a wire at the far left",
+  "a striped canal barge bobbing against the pier in the centre",
+  "a glass-walled spiral elevator tower humming on the far right"
+ ]
+}

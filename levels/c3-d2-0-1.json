@@ -1,0 +1,20 @@
+{
+ "id": "c3-d2-0-1",
+ "scene": "The fizzing soda reveals three secret transit exits.",
+ "options": [
+  "Ride book cart",
+  "Take bicycle rickshaw",
+  "Board ferris gondola"
+ ],
+ "next": [
+  "c3-d1",
+  "c3-d3",
+  "c3-d0"
+ ],
+ "picture": "Side view along a basement platform. At far left waits an open metal book cart lift on tracks. You stand left, drinking soda with guitar on your back. In the centre, a yellow bicycle rickshaw waits beside an exit sign. At far right, an ornate red ferris wheel gondola rests by open double doors.",
+ "shown": [
+  "a wheeled metal book lift with open cage gate on the far left",
+  "a yellow bicycle rickshaw with an empty passenger seat at the centre",
+  "a glowing red ferris wheel gondola hanging open at far right"
+ ]
+}

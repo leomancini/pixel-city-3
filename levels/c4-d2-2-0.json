@@ -1,0 +1,20 @@
+{
+ "id": "c4-d2-2-0",
+ "scene": "The beetle hums in your palm, projecting three transit tokens.",
+ "options": [
+  "Take cable tram",
+  "Board river barge",
+  "Ride arcade trolley"
+ ],
+ "next": [
+  "c4-d3",
+  "c4-d0",
+  "c4-d1"
+ ],
+ "picture": "A flat side view along a wide tower terrace. Far left hangs the waiting red cable tram. Left, the woman in lilac headscarf and mustard coat holds the glowing beetle. Centre sits a striped river barge below a dock gate. Far right, the green glass-roofed trolley rests on tracks.",
+ "shown": [
+  "a dangling red mountain cable tram docked at an open platform, far left",
+  "a striped canal barge tied to a low pier gate, centre",
+  "a green glass-roofed trolley waiting on polished rails, far right"
+ ]
+}

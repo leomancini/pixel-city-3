@@ -1,0 +1,20 @@
+{
+ "id": "c3-d3-2-2",
+ "scene": "Inside the windmill hub, three curious transit lines await.",
+ "options": [
+  "Take book lift",
+  "Catch night bus",
+  "Board ferris gondola"
+ ],
+ "next": [
+  "c3-d1",
+  "c3-d2",
+  "c3-d0"
+ ],
+ "picture": "Along the wooden plank floor, the mustachioed man in red poncho, straw hat, and guitar stands just left of centre. On the left, a brass book cart lift waits beside a chute. On the right idles a glowing blue night bus, while on the far right a striped ferris gondola hangs docked.",
+ "shown": [
+  "a dangling metal book cart lift on the left, waiting with gates open",
+  "a glowing blue night bus parked at an indoor depot on the right",
+  "a red striped ferris wheel gondola hanging stationary on the far right"
+ ]
+}

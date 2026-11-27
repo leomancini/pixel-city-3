@@ -1,20 +1,21 @@
 {
  "id": "c2-d1-1-0",
- "scene": "The terminal boots, unlocking three transport gates across the yard.",
+ "scene": "The workbench shuts down safely, revealing transit bays along the yard.",
  "options": [
-  "Take glass elevator",
-  "Ride steam train",
-  "Board airship basket"
+  "Ride glass elevator",
+  "Board steam train",
+  "Board the airship"
  ],
  "next": [
   "c2-d2",
   "c2-d3",
   "c2-d0"
  ],
- "picture": "A flat side-view yard. Far left, a sleek glass elevator awaits open. Left, the girl in her purple wheelchair sits by the glowing terminal. Centre, a ladder leads up high to a moored brass airship basket. Right, a colourful miniature steam train idles along tracks. Far right, the repair yard wall shows flashing maps.",
+ "picture": "Flat side view on a level concrete floor. A South Asian girl with a long black braid in a teal hoodie sits in a purple wheelchair at centre beside a quiet bench. On the far left, a glass elevator stands open. On the left sits a waiting steam train. On the right, a brass airship floats.",
  "shown": [
-  "a sleek glass elevator with open doors on the far left",
-  "a colourful miniature steam train puffing sweet vapour on the right",
-  "a moored brass airship basket with an open hatch up high"
- ]
+  "A transparent glass elevator shaft on the far left with open doors waiting.",
+  "A puffy steam train stopped at a low platform on the left.",
+  "A tethered brass airship waiting beside an open gangway on the right."
+ ],
+ "view": "wide"
 }

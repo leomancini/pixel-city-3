@@ -1,20 +1,21 @@
 {
  "id": "c0-d3-0-1",
- "scene": "The tunnel leads to a bustling multi-level transit depot.",
+ "scene": "The square rumbles and three transit gates click open around you.",
  "options": [
-  "Ride cable car",
-  "Board subway train",
-  "Take harbour ferry"
+  "Board cable car",
+  "Take subway train",
+  "Ride harbour ferry"
  ],
  "next": [
   "c0-d1",
   "c0-d2",
   "c0-d0"
  ],
- "picture": "Flat side-view pixel art of a bustling transit hub. On the left sits a sleek silver subway train with open doors. Left of centre, a young Black woman in a yellow raincoat and green boots holds her red umbrella. Up high hangs a red cable car. On the right, a blue ferry bobs at a dock.",
+ "picture": "Flat side-scrolling pixel art view of Clocktower Square along a stone ground line. Left to right: a yellow cable car waits at a raised wooden platform; the clocktower stands tall with flipped switch gleaming; the player in yellow raincoat, afro, green boots, and red umbrella stands centre; illuminated subway steps lead down; a blue ferry sits docked.",
  "shown": [
-  "A red cable car dangling up high with doors sliding open.",
-  "A sleek silver subway train idling on tracks on the left.",
-  "A blue harbour ferry floating at a wooden dock on the right."
- ]
+  "a striped yellow cable car hanging open at the platform on the far left",
+  "an illuminated tiled subway entrance with open turnstiles right of centre",
+  "a blue passenger ferry moored at a canal gate on the far right"
+ ],
+ "view": "wide"
 }

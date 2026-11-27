@@ -1,0 +1,20 @@
+{
+ "id": "c4-d1-2-2",
+ "scene": "Atop the stairs, a windswept transit roof opens wide.",
+ "options": [
+  "Take spiral lift",
+  "Board cable tram",
+  "Board river barge"
+ ],
+ "next": [
+  "c4-d2",
+  "c4-d3",
+  "c4-d0"
+ ],
+ "picture": "Along a wide stone transit rooftop, a glass-tubed spiral lift stands open at far left. The player in lilac headscarf and mustard coat stands at left-center. A striped mountain cable tram waits on roof tracks at centre, and a lantern-lit wooden river barge floats beside a canal gate at far right.",
+ "shown": [
+  "a glass-tubed spiral lift with an open door at far left",
+  "a striped mountain cable tram waiting on a roof track at centre",
+  "a lantern-lit wooden river barge docked by a roof canal at far right"
+ ]
+}

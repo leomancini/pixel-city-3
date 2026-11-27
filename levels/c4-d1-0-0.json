@@ -1,0 +1,20 @@
+{
+ "id": "c4-d1-0-0",
+ "scene": "The map safe inside, three departure gates await outside.",
+ "options": [
+  "Board river barge",
+  "Enter spiral lift",
+  "Take cable tram"
+ ],
+ "next": [
+  "c4-d0",
+  "c4-d2",
+  "c4-d3"
+ ],
+ "picture": "Along the flat quay just beyond the arcade, the woman in lilac headscarf and mustard coat stands with her bulging satchel. On the left, a green wooden river barge bobs at the jetty. At the centre, an ornate brass spiral lift cage stands open. On the right, a red cable tram sits waiting.",
+ "shown": [
+  "a flat wooden river barge moored at a dock on the left",
+  "a glowing spiral lift cage sitting open at the centre",
+  "a striped mountain cable tram waiting on rails on the right"
+ ]
+}

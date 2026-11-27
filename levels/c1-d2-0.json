@@ -1,20 +1,21 @@
 {
  "id": "c1-d2-0",
- "scene": "The telescope reveals a glowing zeppelin hovering near rooftops.",
+ "scene": "Through the brass telescope, three strange rooftop sights fill your circular view.",
  "options": [
-  "Adjust brass focus",
-  "Check astronomer notebook",
-  "Board descending funicular"
+  "Watch rooftop garden",
+  "Track flying airship",
+  "Focus on clocktower"
  ],
  "next": [
   "c1-d2-0-0",
   "c1-d2-0-1",
   "c1-d2-0-2"
  ],
- "picture": "Flat side-scrolling view. A yellow funicular railway car waits with open doors on the far left. To the left, a sleeping astronomer rests beside an open star notebook on a wooden table. The elderly East Asian player stands right of centre, peering up high into the eyepiece and brass focus wheel of a mounted telescope.",
+ "picture": "First-person circular view through the brass telescope lens with crosshairs. On the far left, a lush rooftop greenhouse glows emerald. In the centre floats a striped red zeppelin moored to a spindly metal spire. On the right, an illuminated golden clock face ticks with intricate exposed gears against the dusk sky.",
  "shown": [
-  "A notched brass focus wheel attached to the telescope eyepiece up high",
-  "An open leather-bound star notebook resting on the wooden table left",
-  "A yellow funicular railway car waiting with doors open on the far left"
- ]
+  "a sprawling green rooftop greenhouse with glowing plants on the far left",
+  "a striped zeppelin anchored to a tall radio mast in the centre",
+  "a massive glowing clocktower with swinging golden gears on the right"
+ ],
+ "view": "close"
 }

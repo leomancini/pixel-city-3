@@ -1,0 +1,20 @@
+{
+ "id": "c4-d2-1-1",
+ "scene": "The hatch reveals a bustling transit balcony outside.",
+ "options": [
+  "Ride cable tram",
+  "Board river barge",
+  "Take glass trolley"
+ ],
+ "next": [
+  "c4-d3",
+  "c4-d0",
+  "c4-d1"
+ ],
+ "picture": "Flat side-view slice along the tower transit balcony. Left, an empty mountain cable tram hangs open beside the balcony railing. Centre, the woman in lilac headscarf and mustard coat peers near a docked river barge. Right, a glowing glass-roofed trolley waits on iron tracks beside a small ticket booth.",
+ "shown": [
+  "A mountain cable tram waits hooked to its wire on the left.",
+  "A low wooden river barge floats moored by a dock ramp centre.",
+  "A glass-roofed trolley idles beside a ticket booth on the right."
+ ]
+}

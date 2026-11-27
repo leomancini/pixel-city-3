@@ -1,0 +1,21 @@
+{
+ "id": "c4-d0-0-0",
+ "scene": "Aromatic blue vapor billows out, unveiling three busy transit lines leaving town.",
+ "options": [
+  "Board arcade trolley",
+  "Enter spiral lift",
+  "Catch cable tram"
+ ],
+ "next": [
+  "c4-d1",
+  "c4-d2",
+  "c4-d3"
+ ],
+ "picture": "Along a flat street line, the player in lilac scarf and mustard coat stands left of centre by the open jar. On the far left sits a teal glass-roofed trolley. In the centre rises an ornate spiral lift cage with open gate. On the far right waits a red mountain cable tram.",
+ "shown": [
+  "A teal glass-roofed trolley resting on tracks at the far left",
+  "A brass spiral lift cage with open gate standing in the centre",
+  "A red mountain cable tram moored to a platform on the far right"
+ ],
+ "view": "wide"
+}

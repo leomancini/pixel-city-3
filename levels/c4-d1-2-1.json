@@ -1,0 +1,20 @@
+{
+ "id": "c4-d1-2-1",
+ "scene": "The cabinet opens into a hidden transit nexus.",
+ "options": [
+  "Board river barge",
+  "Take spiral lift",
+  "Enter cable tram"
+ ],
+ "next": [
+  "c4-d0",
+  "c4-d2",
+  "c4-d3"
+ ],
+ "picture": "Along a polished concourse floor, the player in lilac headscarf and mustard coat stands left of centre. On the left, a river barge sits at an open dock arch. At the centre stands an ornate brass spiral lift. At the right, a red mountain cable tram rests on shining tracks, ready for passengers.",
+ "shown": [
+  "a low river barge moored at a dock door on the left",
+  "a brass spiral lift with an open gate at the centre",
+  "a red mountain cable tram waiting on tracks at the right"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "id": "c4-d2-1-0",
+ "scene": "The capsule drops into your hands, stamped with three departure gates.",
+ "options": [
+  "Board glass trolley",
+  "Take cable tram",
+  "Board river barge"
+ ],
+ "next": [
+  "c4-d1",
+  "c4-d3",
+  "c4-d0"
+ ],
+ "picture": "Flat side-view slice along the tower transit deck. Left, a waiting glass-roofed trolley sits on rails. Center, the woman in lilac headscarf and mustard coat holds the caught green capsule. Right, a suspended red mountain cable tram waits with door open. Far right, a green river barge floats docked by wooden bollards.",
+ "shown": [
+  "a waiting glass-roofed trolley idling on tracks at the far left platform",
+  "a red mountain cable tram hanging stationary from cables on the right",
+  "a green river barge moored to a low dock at the far right"
+ ]
+}

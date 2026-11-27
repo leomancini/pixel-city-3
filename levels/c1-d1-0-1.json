@@ -1,9 +1,9 @@
 {
  "id": "c1-d1-0-1",
- "scene": "A hard shake rattles the machine, swinging open three transit gates!",
+ "scene": "Holding your gleaming capsule prize, three vibrant transit gates beckon ahead.",
  "options": [
-  "Ride to Hill",
-  "Hire rickshaw",
+  "Ride funicular railway",
+  "Hire cycle rickshaw",
   "Board water taxi"
  ],
  "next": [
@@ -11,10 +11,11 @@
   "c1-d3",
   "c1-d0"
  ],
- "picture": "Pixel art street view. The player in his blue flat cap, orange cardigan, and cane stands centre, next to the rattled claw machine. On the far left, a red funicular carriage sits waiting on tracks. Left of centre, a yellow rickshaw waits with a driver. Right of centre, a water taxi floats by a gate.",
+ "picture": "Side view along the glowing alley's edge. At far left stands a steep funicular carriage. On the left waits a bright cycle rickshaw. In the centre, the bearded elderly player in blue cap and orange cardigan grips a golden capsule and cane. On the right, an idling striped water taxi floats beside a pier.",
  "shown": [
-  "A red funicular carriage waiting on tilted tracks at the far left",
-  "A friendly driver leaning on a yellow rickshaw on the left",
-  "A blue water taxi bobbing by the open dock gate on the right"
- ]
+  "a glass-domed inclined funicular car waiting on tracks at the far left",
+  "a colourful pedal rickshaw with a waving robot driver on the left",
+  "a bobbing striped water taxi tied to an illuminated right pier"
+ ],
+ "view": "wide"
 }

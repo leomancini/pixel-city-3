@@ -1,0 +1,20 @@
+{
+ "id": "c4-d2-2",
+ "scene": "The parcel ticks softly, revealing a glowing mechanical beetle inside.",
+ "options": [
+  "Catch brass beetle",
+  "Blow brass horn",
+  "Climb roof ladder"
+ ],
+ "next": [
+  "c4-d2-2-0",
+  "c4-d2-2-1",
+  "c4-d2-2-2"
+ ],
+ "picture": "Flat side-view along the level wooden floor. Far left hangs a brass horn. Left, the opened twine parcel rests on a workbench. Centre, the woman in lilac headscarf and mustard coat leans forward. Right, the glowing brass beetle sits ticking on a crate. Far right stands an iron ladder leading upward.",
+ "shown": [
+  "A tiny brass beetle glowing green, sitting right of the parcel. ",
+  "A polished brass calling horn hanging on the wall far left.",
+  "A sturdy iron ladder fixed to the wall on the far right."
+ ]
+}

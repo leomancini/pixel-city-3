@@ -1,0 +1,20 @@
+{
+ "id": "c4-d3-2",
+ "scene": "Upstairs, you find a mist-shrouded rooftop bathhouse promenade.",
+ "options": [
+  "Ring brass bell",
+  "Greet the capybara",
+  "Cross rope bridge"
+ ],
+ "next": [
+  "c4-d3-2-0",
+  "c4-d3-2-1",
+  "c4-d3-2-2"
+ ],
+ "picture": "Side-scrolling view of a stone rooftop terrace. On the far left hangs a brass bell beside the top of the stairs. The player in lilac headscarf and mustard coat stands left of centre. At the centre, a huge capybara soaks in a shallow steaming bath. A rope bridge extends on the far right.",
+ "shown": [
+  "a hanging brass bell on a post at the far left",
+  "a giant calm capybara soaking in a tiled bath at the centre",
+  "a swaying wooden rope bridge anchored on the far right"
+ ]
+}

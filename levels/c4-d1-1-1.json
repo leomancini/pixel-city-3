@@ -1,0 +1,20 @@
+{
+ "id": "c4-d1-1-1",
+ "scene": "The hatch reveals hidden transit docks below the arcade.",
+ "options": [
+  "Ride cable tram",
+  "Board river barge",
+  "Take spiral lift"
+ ],
+ "next": [
+  "c4-d3",
+  "c4-d0",
+  "c4-d2"
+ ],
+ "picture": "Along a wide stone transit platform, the woman in lilac headscarf, mustard coat, and satchel stands left of centre. A red mountain cable tram waits open at far left. A flat wooden river barge bobs on canal water at centre. An ornate brass spiral lift sits open at far right.",
+ "shown": [
+  "a red mountain cable tram docked with open doors at far left",
+  "a wooden river barge floating beside the low platform at centre",
+  "an ornate brass spiral lift cage with open gate at far right"
+ ]
+}

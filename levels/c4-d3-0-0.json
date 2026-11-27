@@ -1,0 +1,20 @@
+{
+ "id": "c4-d3-0-0",
+ "scene": "The fish clicks open, revealing travel tokens.",
+ "options": [
+  "Board river barge",
+  "Ride glass trolley",
+  "Take spiral lift"
+ ],
+ "next": [
+  "c4-d0",
+  "c4-d1",
+  "c4-d2"
+ ],
+ "picture": "Side-scrolling view of a stone transit deck beside steaming springs. On the far left, a low river barge floats at a dock. In the centre, a glass-roofed trolley rests on rails. The player stands beside it holding the opened brass fish, facing right. On the far right stands a brass spiral lift with open gates.",
+ "shown": [
+  "a low river barge moored at a wooden dock on the far left",
+  "a glass-roofed trolley waiting on polished rails in the centre",
+  "a brass spiral lift with an open latticed gate on the far right"
+ ]
+}

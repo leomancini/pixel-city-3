@@ -1,0 +1,20 @@
+{
+ "id": "c3-d2-1",
+ "scene": "The tipped trumpeter hands you a brass key.",
+ "options": [
+  "Unlock side door",
+  "Play along",
+  "Climb spiral stairs"
+ ],
+ "next": [
+  "c3-d2-1-0",
+  "c3-d2-1-1",
+  "c3-d2-1-2"
+ ],
+ "picture": "Side view along a single level wooden floor. At far left stands a heavy iron door with a brass keyhole. You stand at centre left in your red poncho, moustache, and straw hat, holding a brass key. At centre, the smiling trumpeter plays his horn. At far right, spiral stairs ascend.",
+ "shown": [
+  "a heavy iron door fitted with a brass lock at far left",
+  "the smiling trumpeter holding his shining trumpet ready at centre",
+  "a winding iron staircase leading up high at far right"
+ ]
+}

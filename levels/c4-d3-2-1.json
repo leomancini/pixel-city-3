@@ -1,0 +1,20 @@
+{
+ "id": "c4-d3-2-1",
+ "scene": "The friendly capybara bows politely, revealing three transit stations.",
+ "options": [
+  "Board river barge",
+  "Ride glass trolley",
+  "Take spiral lift"
+ ],
+ "next": [
+  "c4-d0",
+  "c4-d1",
+  "c4-d2"
+ ],
+ "picture": "Side-scrolling view of a stone rooftop hub. On the far left, a wooden river barge floats beside a low wooden pier. Left of centre, the player stands beside the giant capybara smiling in its pool. Right of centre waits a red glass-roofed trolley. On the far right stands a winding brass spiral lift.",
+ "shown": [
+  "a wooden river barge moored at a small dock on the far left",
+  "a glass-roofed trolley waiting on tracks just right of centre",
+  "a tall spiral lift with a round iron door on the far right"
+ ]
+}

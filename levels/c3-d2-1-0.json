@@ -1,0 +1,20 @@
+{
+ "id": "c3-d2-1-0",
+ "scene": "The brass key opens a secret tunnel hub.",
+ "options": [
+  "Ride book lift",
+  "Take bicycle rickshaw",
+  "Board ferris gondola"
+ ],
+ "next": [
+  "c3-d1",
+  "c3-d3",
+  "c3-d0"
+ ],
+ "picture": "Side view along a flat stone tunnel floor. On the far left, a metal book cart lift stands open. You stand left of centre in your straw hat and red poncho with guitar. At centre, a parked bicycle rickshaw awaits with a driver. On the far right hangs a glowing carnival gondola.",
+ "shown": [
+  "A metal book cart lift on the far left with open brass gates.",
+  "A yellow bicycle rickshaw parked at centre with a waiting robotic driver.",
+  "A glowing carnival ferris wheel gondola hanging open on the far right."
+ ]
+}

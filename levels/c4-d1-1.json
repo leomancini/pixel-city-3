@@ -1,0 +1,20 @@
+{
+ "id": "c4-d1-1",
+ "scene": "The friendly weaver offers you a spool of glowing, silver thread.",
+ "options": [
+  "Accept the spool",
+  "Open the hatch",
+  "Climb spiral stairs"
+ ],
+ "next": [
+  "c4-d1-1-0",
+  "c4-d1-1-1",
+  "c4-d1-1-2"
+ ],
+ "picture": "Along a straight stone arcade floor, a closed wooden trapdoor sits on the left. The woman in lilac headscarf and mustard coat stands at center, facing right. The cheerful old weaver stands on the right, offering a gleaming spool of silver thread. A spiral iron staircase climbs upwards at the far right.",
+ "shown": [
+  "the bright silver thread spool held in the smiling weaver's outstretched hand on the right",
+  "a small wooden trapdoor set flat into the stone floor on the left",
+  "a winding iron staircase ascending toward a leafy balcony at the far right"
+ ]
+}

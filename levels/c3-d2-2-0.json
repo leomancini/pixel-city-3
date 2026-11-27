@@ -1,0 +1,20 @@
+{
+ "id": "c3-d2-2-0",
+ "scene": "The soda opens a shimmering back exit with three wild rides.",
+ "options": [
+  "Ride bicycle rickshaw",
+  "Board ferris gondola",
+  "Take book cart"
+ ],
+ "next": [
+  "c3-d3",
+  "c3-d0",
+  "c3-d1"
+ ],
+ "picture": "Side view along a flat stone dock line. At far left stands a pedicab driver beside an empty bicycle rickshaw. You stand in the centre in your red poncho, wide straw hat, and back guitar, looking up at an open ferris gondola hanging up high. At far right sits an open brass book cart lift.",
+ "shown": [
+  "A wheeled bicycle rickshaw with green canopy waiting quietly at far left",
+  "A round red ferris wheel gondola suspended gently up high",
+  "A brass mechanical book cart lift parked open at far right"
+ ]
+}

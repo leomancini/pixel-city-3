@@ -1,0 +1,20 @@
+{
+ "id": "c4-d0-1-1",
+ "scene": "The sweet biscuit grants bouncy leaps, revealing transit stops ahead.",
+ "options": [
+  "Board cable tram",
+  "Catch glass trolley",
+  "Enter spiral lift"
+ ],
+ "next": [
+  "c4-d3",
+  "c4-d1",
+  "c4-d2"
+ ],
+ "picture": "Flat side view. On the left, a red cable tram sits suspended on overhead tracks above a boarding ramp. The woman in her lilac headscarf and mustard coat stands left of centre, chewing a biscuit crumbs. In the centre, a glass-roofed trolley sits by a signpost. On the far right stands a brass spiral lift.",
+ "shown": [
+  "A red cable tram waiting open-doored on an overhead track on the left",
+  "A sleek glass-roofed trolley idling at a painted curb in the centre",
+  "A brass-caged spiral elevator shaft with an open gate on the far right"
+ ]
+}

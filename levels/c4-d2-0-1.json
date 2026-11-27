@@ -1,0 +1,21 @@
+{
+ "id": "c4-d2-0-1",
+ "scene": "The windmill sketch aligns with transit docks branching across city rooftops.",
+ "options": [
+  "Board glass trolley",
+  "Catch cable tram",
+  "Board river barge"
+ ],
+ "next": [
+  "c4-d1",
+  "c4-d3",
+  "c4-d0"
+ ],
+ "picture": "A flat side view along a high rooftop transit hub. Far left sits a sleek glass-roofed trolley. The player in lilac headscarf and mustard coat stands left holding the parchment. Centre stands a signpost pointing three ways. Right sits an idling mountain cable tram. Far right, a green river barge floats at a pier.",
+ "shown": [
+  "a sleek glass-roofed trolley waiting empty at the platform on the far left",
+  "a wooden mountain cable tram idling with open doors on the right",
+  "a green river barge moored to a ramp on the far right"
+ ],
+ "view": "wide"
+}

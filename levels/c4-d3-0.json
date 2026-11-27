@@ -1,0 +1,20 @@
+{
+ "id": "c4-d3-0",
+ "scene": "A mechanical brass fish bobs inside the swirling hot pool.",
+ "options": [
+  "Scoop brass fish",
+  "Talk to attendant",
+  "Climb terrace stairs"
+ ],
+ "next": [
+  "c4-d3-0-0",
+  "c4-d3-0-1",
+  "c4-d3-0-2"
+ ],
+ "picture": "Side-scrolling view of the warm stone terrace. On the left, steam rises from the round wooden tub containing a clockwork brass fish. The player stands beside it, wearing her lilac headscarf, mustard coat, and brown satchel. A smiling bath attendant holding towels stands right of the pool, beside stone stairs on the far right.",
+ "shown": [
+  "a wind-up brass fish bobbing in the wooden tub on the left",
+  "a bath attendant holding folded towels standing right of the tub",
+  "carved stone stairs leading upward on the far right"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "id": "c3-d0-1-0",
+ "scene": "The rope swings you outside to Carnival Gate.",
+ "options": [
+  "Catch night bus",
+  "Hail bicycle rickshaw",
+  "Board book cart"
+ ],
+ "next": [
+  "c3-d2",
+  "c3-d3",
+  "c3-d1"
+ ],
+ "picture": "On a level ground line, the tall Latino man in poncho and straw hat drops from a rope on the left. On the far left waits a glowing blue night bus. In the centre, a rickshaw cyclist rings a bell. On the far right stands a brass book cart lift with open metal gates.",
+ "shown": [
+  "a blue night bus idling with doors open on the far left",
+  "a pedicab cyclist in a cap waving in the centre",
+  "a brass book cart lift with an open gate on the far right"
+ ]
+}

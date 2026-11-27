@@ -1,0 +1,20 @@
+{
+ "id": "c4-d0-2",
+ "scene": "You climb onto an airy wooden catwalk above Spice Bridge.",
+ "options": [
+  "Peer through telescope",
+  "Pet sleeping monkey",
+  "Cross rope bridge"
+ ],
+ "next": [
+  "c4-d0-2-0",
+  "c4-d0-2-1",
+  "c4-d0-2-2"
+ ],
+ "picture": "Flat side view. Along a wooden plank catwalk, the player in her lilac headscarf and mustard coat stands near the left. At the far left stands a brass telescope on a tripod. In the centre, a curled sleeping monkey rests on a red blanket. At the right, a rope suspension bridge stretches off-screen.",
+ "shown": [
+  "a mounted brass telescope on a tripod pointing outward at the far left",
+  "a small furry monkey curled up asleep on a blanket in the centre",
+  "a creaky swaying suspension bridge spanning toward another tower on the right"
+ ]
+}

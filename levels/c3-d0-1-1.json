@@ -1,0 +1,20 @@
+{
+ "id": "c3-d0-1-1",
+ "scene": "You land safely on the platform as carnival shuttles await.",
+ "options": [
+  "Ride bicycle rickshaw",
+  "Take book cart",
+  "Board night bus"
+ ],
+ "next": [
+  "c3-d3",
+  "c3-d1",
+  "c3-d2"
+ ],
+ "picture": "On a level ground line, the tall Latino man in straw hat and red poncho stands centre on a platform, guitar on back. To the far left sits a waiting bicycle rickshaw. Up high sits an open book cart lift. On the far right waits an idling night bus with doors open.",
+ "shown": [
+  "a striped bicycle rickshaw parked on the far left",
+  "a vertical book cart lift waiting open up high",
+  "a glowing neon night bus with doors open on the far right"
+ ]
+}

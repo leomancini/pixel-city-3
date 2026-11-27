@@ -1,0 +1,20 @@
+{
+ "id": "c3-d3-1-2",
+ "scene": "You zip down to a busy hub at the flats' edge.",
+ "options": [
+  "Ride carnival gondola",
+  "Take book lift",
+  "Board night bus"
+ ],
+ "next": [
+  "c3-d0",
+  "c3-d1",
+  "c3-d2"
+ ],
+ "picture": "A stone terrace runs across the bottom. On the far left hangs an open ferris wheel gondola. Left of centre, the tall man in a red poncho, straw hat, and guitar lands safely. To his right waits an open brass book cart lift. On the far right sits a parked night bus with open doors.",
+ "shown": [
+  "A glowing open ferris wheel gondola waiting at a platform on the far left",
+  "An empty brass book cart lift with its metal gate open on the right",
+  "A humming blue night bus parked with doors folded open on the far right"
+ ]
+}

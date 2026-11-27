@@ -1,0 +1,21 @@
+{
+ "id": "c3-d1-1",
+ "scene": "The open tome displays glowing diagrams of city street conduits.",
+ "options": [
+  "Touch brass bookmark",
+  "Turn glowing page",
+  "Inspect loose note"
+ ],
+ "next": [
+  "c3-d1-1-0",
+  "c3-d1-1-1",
+  "c3-d1-1-2"
+ ],
+ "picture": "Pixel art close-up view through player's eyes of the massive open tome filling the frame. Bright cyan conduits glow across open cream pages. On far left, a yellow sticky note clings to dark leather. At centre, a radiant illustrated page curls upwards. On far right, an engraved brass bookmark gleams across the page corner.",
+ "shown": [
+  "a slender brass bookmark lying across the tome's right page corner",
+  "a stiff glowing parchment leaf slightly lifted at the centre",
+  "a scribbled sticky note tucked along the far left leather border"
+ ],
+ "view": "close"
+}

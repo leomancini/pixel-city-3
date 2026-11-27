@@ -1,0 +1,20 @@
+{
+ "id": "c3-d0-2-2",
+ "scene": "Atop the tent roof, three exits await.",
+ "options": [
+  "Take night bus",
+  "Ride bicycle rickshaw",
+  "Board book cart"
+ ],
+ "next": [
+  "c3-d2",
+  "c3-d3",
+  "c3-d1"
+ ],
+ "picture": "Along the flat circus tent rooftop, a glowing night bus idles on the far left. The player, a tall Latino man in straw hat and red poncho with guitar, stands left of centre. A yellow bicycle rickshaw waits in the centre, while a suspended book cart lift hangs on the far right.",
+ "shown": [
+  "A neon night bus idles at a rooftop ramp on the far left",
+  "A pedal-powered bicycle rickshaw sits waiting in the centre with its driver",
+  "A mechanical book cart lift hangs ready on a rail far right"
+ ]
+}

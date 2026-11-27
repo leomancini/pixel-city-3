@@ -1,0 +1,21 @@
+{
+ "id": "c4-d0-0-1",
+ "scene": "Your tap releases iridescent smoke, pointing toward three busy transport hubs.",
+ "options": [
+  "Ride spiral lift",
+  "Take mountain tram",
+  "Board glass trolley"
+ ],
+ "next": [
+  "c4-d2",
+  "c4-d3",
+  "c4-d1"
+ ],
+ "picture": "Flat side-scrolling view of a bustling transit deck. Far left, a spiral bronze lift with open gates stands ready. Left, the woman in lilac headscarf and mustard coat watches glowing vapour curl upward. Centre, a wooden mountain cable tram waits by turnstiles. Far right, a glass-roofed trolley rests on rails.",
+ "shown": [
+  "a winding bronze lift tower with open grille gates on the far left",
+  "a wooden cable tram resting at an open turnstile in the centre",
+  "a sleek trolley with a curved glass roof waiting on the far right"
+ ],
+ "view": "wide"
+}

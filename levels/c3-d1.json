@@ -1,0 +1,20 @@
+{
+ "id": "c3-d1",
+ "scene": "You step off the book cart lift into towering stacks.",
+ "options": [
+  "Climb rolling ladder",
+  "Inspect glowing tome",
+  "Approach whispering librarian"
+ ],
+ "next": [
+  "c3-d1-0",
+  "c3-d1-1",
+  "c3-d1-2"
+ ],
+ "picture": "Side-view pixel art of tall library stacks on level parquet floor. On far left stands the open metal book cart lift. Left of centre, the tall mustachioed Latino player in straw hat and red poncho carries his guitar. At centre rests an open glowing cyan tome. Up high sits a brass rolling ladder, and on far right waits a whispering librarian.",
+ "shown": [
+  "a tall wheeled brass ladder standing idle up high on the right",
+  "a thick pulsing cyan book resting open on a pedestal at centre",
+  "a librarian wearing round spectacles and finger to lips on far right"
+ ]
+}

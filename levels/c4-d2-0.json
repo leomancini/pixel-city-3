@@ -1,0 +1,21 @@
+{
+ "id": "c4-d2-0",
+ "scene": "You unroll the pigeon's tiny parchment note, revealing an ink map.",
+ "options": [
+  "Decipher ink riddle",
+  "Study sketched windmill",
+  "Pocket brass ring"
+ ],
+ "next": [
+  "c4-d2-0-0",
+  "c4-d2-0-1",
+  "c4-d2-0-2"
+ ],
+ "picture": "A first-person close-up view of the player's hands holding an unrolled cream parchment note. Centre shows a handwritten three-line riddle in dark purple ink. Right displays a delicate ink illustration of a rooftop windmill. Left holds a tiny polished brass ring attached to the corner with red thread.",
+ "shown": [
+  "a tiny cryptic riddle penned across the centre of the parchment",
+  "a detailed windmill icon drawn on the right side of the parchment",
+  "a miniature brass ring fastened to the left edge of the parchment"
+ ],
+ "view": "close"
+}

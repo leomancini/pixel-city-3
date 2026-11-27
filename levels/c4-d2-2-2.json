@@ -1,0 +1,20 @@
+{
+ "id": "c4-d2-2-2",
+ "scene": "You climb onto the airy rooftop transit hub.",
+ "options": [
+  "Board glass trolley",
+  "Take cable tram",
+  "Ride river barge"
+ ],
+ "next": [
+  "c4-d1",
+  "c4-d3",
+  "c4-d0"
+ ],
+ "picture": "A flat side-view along the level rooftop terminal. Far left, a glass-roofed trolley sits waiting at a gate. Left, the woman in lilac headscarf and mustard coat steps off the roof ladder. Centre stands a ticket booth. Up high hangs an enclosed cable tram. Far right, an aqueduct barge rests beside a gangway.",
+ "shown": [
+  "a sleek glass-roofed trolley idling at an open platform gate on the far left",
+  "an enclosed mountain cable tram hanging from an overhead line up high",
+  "a wooden river barge canal lock with an open boarding gangway far right"
+ ]
+}

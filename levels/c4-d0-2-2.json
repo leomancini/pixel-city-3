@@ -1,0 +1,20 @@
+{
+ "id": "c4-d0-2-2",
+ "scene": "Crossing over, you reach the Grand Transit Plaza.",
+ "options": [
+  "Ride spiral lift",
+  "Board mountain tram",
+  "Take glass trolley"
+ ],
+ "next": [
+  "c4-d2",
+  "c4-d3",
+  "c4-d1"
+ ],
+ "picture": "Flat side view. Along a polished stone transit platform, the player in lilac headscarf and mustard coat stands left of centre. On the left stands a brass spiral lift cage with open gate. In the centre waits a red mountain cable tram. On the right rests a glass-roofed trolley with doors open.",
+ "shown": [
+  "a winding brass spiral lift cage on the left with open gate",
+  "a red mountain cable tram in the centre waiting on elevated rails",
+  "a sleek glass-roofed trolley on the right with doors wide open"
+ ]
+}

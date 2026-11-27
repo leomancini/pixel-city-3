@@ -1,0 +1,20 @@
+{
+ "id": "c4-d1-1-2",
+ "scene": "You reach a rooftop transit terrace above the arcade.",
+ "options": [
+  "Board river barge",
+  "Take spiral lift",
+  "Board cable tram"
+ ],
+ "next": [
+  "c4-d0",
+  "c4-d2",
+  "c4-d3"
+ ],
+ "picture": "Along a wide stone transit terrace, a moored wooden canal barge sits at far left. The player in lilac headscarf and mustard coat stands on the left. An ornate brass cage lift stands open at centre. An iron stairway door sits right. A striped mountain cable tram waits on tracks at far right.",
+ "shown": [
+  "a wooden canal barge moored at a stone pier on the far left",
+  "an ornate brass cage lift with an open door at the centre",
+  "a striped red mountain cable car waiting on tracks at the far right"
+ ]
+}

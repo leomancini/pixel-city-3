@@ -1,0 +1,20 @@
+{
+ "id": "c3-d3-2-1",
+ "scene": "The sail flings you onto a transit platform overlooking distant districts.",
+ "options": [
+  "Board ferris gondola",
+  "Ride book cart",
+  "Catch night bus"
+ ],
+ "next": [
+  "c3-d0",
+  "c3-d1",
+  "c3-d2"
+ ],
+ "picture": "A level metal transfer platform runs along the bottom under the night sky. On the left, a glowing ferris wheel gondola hangs open. In the centre, the mustachioed man in his straw hat and poncho stands near a wheeled book cart on rails. On the far right, an open blue night bus idles.",
+ "shown": [
+  "A glowing ferris wheel gondola waits open on the left platform edge.",
+  "A wooden book cart on rails stands idle in the centre.",
+  "A blue night bus idles with doors open on the far right."
+ ]
+}

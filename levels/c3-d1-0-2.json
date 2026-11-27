@@ -1,0 +1,20 @@
+{
+ "id": "c3-d1-0-2",
+ "scene": "You slide down outside onto a busy night plaza.",
+ "options": [
+  "Hail bicycle rickshaw",
+  "Board ferris gondola",
+  "Catch night bus"
+ ],
+ "next": [
+  "c3-d3",
+  "c3-d0",
+  "c3-d2"
+ ],
+ "picture": "Flat side view on a moonlit cobblestone street. On far left waits a yellow bicycle rickshaw with an empty rear cab. Left of centre stands the tall Latino player with moustache, straw hat, red poncho, and guitar. Right of centre hangs a glowing open ferris wheel gondola. On far right idles a glowing night bus.",
+ "shown": [
+  "A yellow bicycle rickshaw with an empty cushioned passenger seat on far left.",
+  "A swinging glowing ferris wheel gondola hanging open right of centre.",
+  "A purplish double-decker night bus idling with doors open on far right."
+ ]
+}

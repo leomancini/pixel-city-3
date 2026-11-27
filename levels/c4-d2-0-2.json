@@ -1,0 +1,21 @@
+{
+ "id": "c4-d2-0-2",
+ "scene": "Ring tucked safely into your satchel, the breezy tower platform connects three departures.",
+ "options": [
+  "Ride cable tram",
+  "Board river barge",
+  "Take glass trolley"
+ ],
+ "next": [
+  "c4-d3",
+  "c4-d0",
+  "c4-d1"
+ ],
+ "picture": "Flat side-view across the wooden departure terrace. On the left stands a docked red cable tram beside an open metal gate. The woman in lilac headscarf and mustard coat stands left of centre. Centre shows a canal chute holding a wooden river barge. Right features a glass-roofed trolley waiting on level brass rails.",
+ "shown": [
+  "a swinging red cable tram docked at an open gantry on the far left",
+  "a blue river barge resting in a water-lock chute at the centre",
+  "a sleek glass-roofed trolley waiting on polished rails on the far right"
+ ],
+ "view": "wide"
+}

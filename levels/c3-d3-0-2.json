@@ -1,0 +1,20 @@
+{
+ "id": "c3-d3-0-2",
+ "scene": "The happy pigeon coos loudly, summoning three curious transports.",
+ "options": [
+  "Take night bus",
+  "Board ferris wheel",
+  "Ride book cart"
+ ],
+ "next": [
+  "c3-d2",
+  "c3-d0",
+  "c3-d1"
+ ],
+ "picture": "Across the flat rooftop ground line, the neon night bus idles on the far left. Left of centre, the tall mustachioed man in his straw hat and red poncho pats the rooftop pigeon. A glowing ferris wheel gondola floats up high. On the far right waits an open mechanical book cart lift.",
+ "shown": [
+  "a sleek neon-lit night bus parked on the street on the far left",
+  "a glowing carnival ferris wheel gondola hovering open up high",
+  "a mechanical book cart lift resting on tracks on the far right"
+ ]
+}

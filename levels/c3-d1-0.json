@@ -1,0 +1,20 @@
+{
+ "id": "c3-d1-0",
+ "scene": "You climb high into dizzying rafters lined with strange artifacts.",
+ "options": [
+  "Kick locked grate",
+  "Take golden astrolabe",
+  "Slide down banner"
+ ],
+ "next": [
+  "c3-d1-0-0",
+  "c3-d1-0-1",
+  "c3-d1-0-2"
+ ],
+ "picture": "Side-view pixel art along a high wooden rafter walkway. On far left, a padlocked iron vent grate is set in brickwork. Left of centre stands the tall Latino player with moustache, straw hat, red poncho, and guitar. At centre rests a golden astrolabe. On far right dangles a long red velvet banner.",
+ "shown": [
+  "A heavy iron ventilation grate on the far left, barred tightly shut.",
+  "A gleaming golden astrolabe resting on a shelf at the centre.",
+  "A long red tapestry hanging untethered from the beams on far right."
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "id": "c4-d3-2-0",
+ "scene": "The bell rings, opening three travel gates across the misty terrace.",
+ "options": [
+  "Take spiral lift",
+  "Board river barge",
+  "Ride glass trolley"
+ ],
+ "next": [
+  "c4-d2",
+  "c4-d0",
+  "c4-d1"
+ ],
+ "picture": "Side-scrolling view of the stone rooftop bathhouse terrace. On the left, a tall brass spiral lift sits with its door open. The player stands left of centre in her lilac headscarf and mustard coat. In the centre, a wooden river barge floats by the dock. On the far right, a glass-roofed yellow trolley waits.",
+ "shown": [
+  "a brass spiral lift with open lattice gates stands on the left",
+  "a wooden river barge moored at a stone dock in the centre",
+  "a glass-roofed yellow trolley idling on rails at the far right"
+ ]
+}

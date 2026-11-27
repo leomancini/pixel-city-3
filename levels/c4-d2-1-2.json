@@ -1,0 +1,20 @@
+{
+ "id": "c4-d2-1-2",
+ "scene": "You climb outside onto the high transit balcony.",
+ "options": [
+  "Board river barge",
+  "Board glass trolley",
+  "Board cable tram"
+ ],
+ "next": [
+  "c4-d0",
+  "c4-d1",
+  "c4-d3"
+ ],
+ "picture": "Flat side-view slice along the tower transit balcony. Far left, a green river barge floats docked against wooden bollards. Left-of-centre, the woman in lilac headscarf and mustard coat steps off the ladder. Centre, a yellow glass-roofed trolley waits with doors open. Far right, an empty red mountain cable tram sways on its thick cable.",
+ "shown": [
+  "A moored green river barge waits tied to a pylon at far left.",
+  "A yellow glass-roofed trolley rests on tracks at the centre platform.",
+  "A red mountain cable tram hangs from its overhead line at far right."
+ ]
+}

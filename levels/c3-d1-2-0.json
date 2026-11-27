@@ -1,0 +1,20 @@
+{
+ "id": "c3-d1-2-0",
+ "scene": "The brass card reveals an exit deck crowded with curious transports.",
+ "options": [
+  "Pedal bicycle rickshaw",
+  "Enter wheel gondola",
+  "Board night bus"
+ ],
+ "next": [
+  "c3-d3",
+  "c3-d0",
+  "c3-d2"
+ ],
+ "picture": "Side-view pixel art of an outdoor transit deck along one flat stone platform. On the far left sits a yellow bicycle rickshaw. Left of centre, the tall Latino man in straw hat and red poncho holds the stamped brass card with his guitar strapped on. Up high hangs a striped gondola. On the right idles a blue night bus.",
+ "shown": [
+  "A yellow bicycle rickshaw parked idle on the far left side",
+  "A swinging striped ferris wheel gondola hanging open up high",
+  "A glowing blue night bus idling with doors open on the right"
+ ]
+}

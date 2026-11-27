@@ -1,0 +1,20 @@
+{
+ "id": "c4-d0-1",
+ "scene": "The kettle chime summons a tea vendor offering glowing brews.",
+ "options": [
+  "Drink violet tea",
+  "Take glowing biscuit",
+  "Follow alley cat"
+ ],
+ "next": [
+  "c4-d0-1-0",
+  "c4-d0-1-1",
+  "c4-d0-1-2"
+ ],
+ "picture": "Flat side view. On the far left sits a low wooden stall counter with a steaming violet cup. In the lilac headscarf and mustard coat, the player stands beside the counter facing right. In the centre, a jovial vendor holds a tray of phosphorescent yellow biscuits. On the far right, a striped calico cat sits near a stone archway.",
+ "shown": [
+  "A steaming violet cup sitting on the vendor counter on the far left.",
+  "A tray of phosphorescent yellow biscuits resting on the counter in the centre.",
+  "A striped calico cat sitting beside a stone archway on the far right."
+ ]
+}

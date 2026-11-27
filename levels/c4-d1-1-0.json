@@ -1,0 +1,20 @@
+{
+ "id": "c4-d1-1-0",
+ "scene": "Pocketing glowing thread, three transit gates open outside.",
+ "options": [
+  "Ride spiral lift",
+  "Board cable tram",
+  "Board river barge"
+ ],
+ "next": [
+  "c4-d2",
+  "c4-d3",
+  "c4-d0"
+ ],
+ "picture": "Along a level stone terrace, an open brass spiral lift stands on the far left. The woman in lilac headscarf and mustard coat, satchel bulging, stands at centre facing right. Further right rests a yellow mountain cable tram. At the far right, a green river barge floats beside a wooden dock.",
+ "shown": [
+  "a caged brass spiral lift standing open on the far left",
+  "a yellow mountain cable tram parked on tracks on the right",
+  "a green wooden river barge moored on water at far right"
+ ]
+}

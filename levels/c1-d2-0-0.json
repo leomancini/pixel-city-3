@@ -1,9 +1,9 @@
 {
  "id": "c1-d2-0-0",
- "scene": "Clearer views reveal three busy transport stops down below.",
+ "scene": "A carrier pigeon flutters from that rooftop garden, dropping three travel tokens.",
  "options": [
   "Take water taxi",
-  "Ride the monorail",
+  "Board the monorail",
   "Hire the rickshaw"
  ],
  "next": [
@@ -11,10 +11,11 @@
   "c1-d1",
   "c1-d3"
  ],
- "picture": "Flat side-scrolling view. On the far left, a striped canal dock holds an idling water taxi. Up high runs a sleek monorail car on an overhead rail. In the centre, the elderly player holds his cane near the telescope. On the far right waits a parked red cycle rickshaw with its driver.",
+ "picture": "A wide side-view transit plaza atop Observatory Hill. On the far left, a striped water taxi waits beside a canal dock. Towards the centre stands the elderly player in cap and orange cardigan holding his cane. On the right waits a silver monorail car, and on the far right stands a wheeled rickshaw.",
  "shown": [
-  "a blue striped canal dock with a moored water taxi on the far left",
-  "a sleek silver monorail car idling at an elevated platform up high",
-  "a bright red cycle rickshaw with an attentive driver waiting on the far right"
- ]
+  "a striped water taxi idling at a canal pier on the far left",
+  "a sleek monorail car waiting at a glass-walled platform on the right",
+  "a two-wheeled rickshaw attended by a driver on the far right"
+ ],
+ "view": "wide"
 }

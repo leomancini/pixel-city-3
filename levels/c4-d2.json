@@ -1,0 +1,20 @@
+{
+ "id": "c4-d2",
+ "scene": "You step off the spiral lift into Pigeon Post Tower.",
+ "options": [
+  "Read pigeon letter",
+  "Pull sorting lever",
+  "Inspect tied parcel"
+ ],
+ "next": [
+  "c4-d2-0",
+  "c4-d2-1",
+  "c4-d2-2"
+ ],
+ "picture": "A flat side-view slice of Pigeon Post Tower along one level wooden floor line. Far left stands the ornate brass spiral lift. Left, wooden lofts hold a grey pigeon clasping a letter. Centre, the woman in lilac headscarf and mustard coat stands facing right. Right stands a red lever. Far right sits a twine-wrapped parcel.",
+ "shown": [
+  "a plump grey pigeon perched on brass lofts on the left holding a letter",
+  "a tall red mechanical lever standing upright on the right",
+  "a large twine-wrapped parcel sitting unattended far right"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "id": "c4-d3-2-2",
+ "scene": "Across the bridge, a bustling multi-level transit deck awaits.",
+ "options": [
+  "Board glass trolley",
+  "Take spiral lift",
+  "Ride river barge"
+ ],
+ "next": [
+  "c4-d1",
+  "c4-d2",
+  "c4-d0"
+ ],
+ "picture": "Side-scrolling view of a wide wooden transit deck along a single ground line. On the far left sits a waiting glass-roofed trolley. The player in lilac headscarf and mustard coat stands just left of centre. In the centre rises an open spiral lift with bronze gates. A moored river barge waits on the far right.",
+ "shown": [
+  "a glass-roofed trolley waiting empty on rails at the far left",
+  "an ornate open-caged spiral lift with closed bronze gates in the centre",
+  "a low river barge bobbing at a wooden dock on the far right"
+ ]
+}

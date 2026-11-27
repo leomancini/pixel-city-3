@@ -1,0 +1,20 @@
+{
+ "id": "c4-d0-2-1",
+ "scene": "The monkey chirps, handing you three transit tokens.",
+ "options": [
+  "Board glass trolley",
+  "Take spiral lift",
+  "Catch cable tram"
+ ],
+ "next": [
+  "c4-d1",
+  "c4-d2",
+  "c4-d3"
+ ],
+ "picture": "Flat side view. Along a wooden sky-dock, the player in her lilac headscarf and mustard coat stands left of centre beside an awake chattering monkey. At the far left waits an empty glass-roofed trolley. In the centre rises an open spiral lift cage. At the far right hangs a waiting mountain cable tram.",
+ "shown": [
+  "a glass-roofed trolley waiting on tracks with open doors at the far left",
+  "a brass spiral lift cage with open gate standing in the centre",
+  "a mountain cable tram suspended from an overhead wire at the far right"
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c3-d1-1-1",
+ "scene": "Turning the glowing page unfolds three balconies overlooking different city transit lines.",
+ "options": [
+  "Pedal to Windmills",
+  "Ride carnival gondola",
+  "Board night bus"
+ ],
+ "next": [
+  "c3-d3",
+  "c3-d0",
+  "c3-d2"
+ ],
+ "picture": "Pixel art side-view. From left to right along a wide library terrace: a yellow bicycle rickshaw parked on a ramp, the tall Latino man in straw hat, red poncho, and guitar, and an idling purple night bus on the right platform. Up high above the railing hangs a docked, striped gondola.",
+ "shown": [
+  "a gleaming yellow bicycle rickshaw parked on a ramp at far left",
+  "a striped ferris wheel gondola docked by the railing up high",
+  "an idling purple night bus waiting at the open platform on right"
+ ],
+ "view": "wide"
+}

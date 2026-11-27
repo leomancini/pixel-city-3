@@ -1,0 +1,20 @@
+{
+ "id": "c3-d2-0-0",
+ "scene": "The jam session ends with cheers and three open back-exit departures.",
+ "options": [
+  "Ride ferris gondola",
+  "Board cart lift",
+  "Hire bicycle rickshaw"
+ ],
+ "next": [
+  "c3-d0",
+  "c3-d1",
+  "c3-d3"
+ ],
+ "picture": "Side view along the club floor. At far left, an open carnival ferris gondola hangs past a service doorway. You stand centre left with your guitar on your back, bowing in straw hat and poncho. Centre right, a book cart lift waits with open doors. At far right, a brass rickshaw sits parked outside.",
+ "shown": [
+  "a swinging neon ferris wheel gondola hanging open at far left",
+  "a creaking wooden book cart lift waiting open at centre right",
+  "a brass bicycle rickshaw waiting with a driver at far right"
+ ]
+}

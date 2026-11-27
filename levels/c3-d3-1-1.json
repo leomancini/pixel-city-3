@@ -1,0 +1,20 @@
+{
+ "id": "c3-d3-1-1",
+ "scene": "The opened crate reveals three strange transit tickets.",
+ "options": [
+  "Take night bus",
+  "Ride carnival gondola",
+  "Board book cart"
+ ],
+ "next": [
+  "c3-d2",
+  "c3-d0",
+  "c3-d1"
+ ],
+ "picture": "Along the rooftop ledge, the tall man in a straw hat and red poncho stands centre beside the newly opened wooden crate. On the left waits an idling neon night bus. Up high hangs a glowing ferris wheel gondola attached to an aerial cable. On the right rests a caged book cart lift.",
+ "shown": [
+  "a sleek neon night bus idling at a stop platform on the left",
+  "a glowing ferris wheel gondola hanging from a cable up high",
+  "a wheeled vertical book cart lift resting on tracks on the right"
+ ]
+}

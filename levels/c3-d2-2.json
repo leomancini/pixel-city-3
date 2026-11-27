@@ -1,0 +1,20 @@
+{
+ "id": "c3-d2-2",
+ "scene": "The bartender slides you a bubbly blue soda.",
+ "options": [
+  "Drink the soda",
+  "Inspect jukebox",
+  "Sit with pianist"
+ ],
+ "next": [
+  "c3-d2-2-0",
+  "c3-d2-2-1",
+  "c3-d2-2-2"
+ ],
+ "picture": "Side view along a wooden floor line. At far left stands a blinking jukebox. At centre, a stylish cat plays an upright piano. You stand at right in your red poncho, wide straw hat, and guitar, facing the wooden counter at far right where a foaming blue soda mug rests.",
+ "shown": [
+  "a foaming glass mug of bright blue liquid sits on the counter at far right",
+  "an ornate vintage jukebox flashes yellow lights against the wall at far left",
+  "a cool cat in sunglasses plays an upright piano at centre"
+ ]
+}

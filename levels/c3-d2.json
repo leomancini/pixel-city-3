@@ -1,0 +1,20 @@
+{
+ "id": "c3-d2",
+ "scene": "You step off the night bus into smoky Jazz Basement.",
+ "options": [
+  "Tune your guitar",
+  "Tip trumpet player",
+  "Order glowing soda"
+ ],
+ "next": [
+  "c3-d2-0",
+  "c3-d2-1",
+  "c3-d2-2"
+ ],
+ "picture": "Side view along a single wooden floor line. At far left stands a neon night bus with doors open. You stand at centre left with moustache, straw hat, red poncho, and strapped guitar. A brass band plays at centre, beside a stool with a tip jar. A soda counter sits at far right.",
+ "shown": [
+  "your acoustic guitar strapped on your back at centre left",
+  "a golden tip jar sitting on a stool at centre right",
+  "a sparkling blue bottle on the counter at far right"
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c3-d0-0-0",
+ "scene": "The machine clatters, spitting tickets pointing toward three waiting rides outside.",
+ "options": [
+  "Take cart lift",
+  "Board night bus",
+  "Hail bicycle rickshaw"
+ ],
+ "next": [
+  "c3-d1",
+  "c3-d2",
+  "c3-d3"
+ ],
+ "picture": "Side-scrolling view under starry skies. On the far left, a hanging metal book cart lift dangles from cables. Next, the coin machine spits tickets beside the player in his straw hat and red poncho. In the centre, a purple night bus idles. On the far right waits a pedal-powered bicycle rickshaw.",
+ "shown": [
+  "a dangling open book cart lift hanging empty on the far left",
+  "a sleek purple night bus idling with doors open in the centre",
+  "a striped bicycle rickshaw waiting with an attentive driver on the far right"
+ ],
+ "view": "wide"
+}

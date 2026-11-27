@@ -1,20 +1,21 @@
 {
  "id": "c1-d1-0",
- "scene": "The claw drops a glowing brass key into the prize chute.",
+ "scene": "The glowing claw machine whirs, displaying three curious bobbing pixel treasures.",
  "options": [
-  "Take the key",
-  "Shake the machine",
-  "Walk down alley"
+  "Grab toy robot",
+  "Aim for capsule",
+  "Target plush cat"
  ],
  "next": [
   "c1-d1-0-0",
   "c1-d1-0-1",
   "c1-d1-0-2"
  ],
- "picture": "Pixel art street view. The player stands centre with a cane, blue flat cap, and orange cardigan, facing right toward the player's left claw machine. The glowing claw machine stands on the left with a shiny brass key sitting in its prize chute. On the far right, an open alley glowing with neon tiles waits.",
+ "picture": "First-person close-up inside the brightly lit claw machine glass. A three-pronged metal claw dangles up high above a prize bed. On the left is a vintage wind-up tin robot, in the centre rests a shimmering golden prize capsule, and on the right sits a plump sleeping calico plush cat.",
  "shown": [
-  "the glowing brass key resting inside the claw machine chute on the left",
-  "the glass cabinet of the tall claw machine standing on the left",
-  "a winding alley paved with neon tiles leading off to the far right"
- ]
+  "a shiny tin robot figurine wobbling on the left behind the glass",
+  "a mysterious golden egg sitting stationary in the centre prize pit",
+  "a sleeping calico plush wedged on the right beneath the metal claw"
+ ],
+ "view": "close"
 }

@@ -1,0 +1,20 @@
+{
+ "id": "c4-d3-1",
+ "scene": "The steaming cart vendor offers glowing lotus dumplings.",
+ "options": [
+  "Buy glowing snack",
+  "Check stone shrine",
+  "Take terrace bridge"
+ ],
+ "next": [
+  "c4-d3-1-0",
+  "c4-d3-1-1",
+  "c4-d3-1-2"
+ ],
+ "picture": "Side-scrolling view of a stone terrace ledge. On the left stands a mossy stone shrine holding a lit lamp. The player, in her lilac headscarf and mustard coat, stands in the centre facing a friendly vendor behind a yellow snack cart with steaming bamboo trays. On the far right rises an arched red bridge.",
+ "shown": [
+  "A stacked bamboo steamer on the yellow cart at centre releasing blue steam",
+  "A small carved mossy stone shrine with an oil lamp on the left",
+  "A red wooden arched footbridge leading away on the far right"
+ ]
+}

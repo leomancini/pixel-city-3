@@ -1,0 +1,20 @@
+{
+ "id": "c4-d3-1-0",
+ "scene": "The warm dumpling sparkles with sweet steam.",
+ "options": [
+  "Board glass trolley",
+  "Enter spiral lift",
+  "Catch river barge"
+ ],
+ "next": [
+  "c4-d1",
+  "c4-d2",
+  "c4-d0"
+ ],
+ "picture": "Side view of a bustling travel platform. On the far left, a glass-roofed trolley sits on rails. In the centre, the player in her lilac headscarf and mustard coat eats a glowing dumpling. Up high stands a brass spiral lift with open gates, while a wooden river barge floats tied on the far right.",
+ "shown": [
+  "A gleaming glass-roofed trolley waiting on rails on the far left",
+  "A brass spiral lift with open lattice gates up high",
+  "A wooden river barge tied to a low pier on the far right"
+ ]
+}

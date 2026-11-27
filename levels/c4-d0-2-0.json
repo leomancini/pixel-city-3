@@ -1,0 +1,20 @@
+{
+ "id": "c4-d0-2-0",
+ "scene": "The telescope reveals grand transit hubs beyond Spice Bridge.",
+ "options": [
+  "Ride cable tram",
+  "Board glass trolley",
+  "Take spiral lift"
+ ],
+ "next": [
+  "c4-d3",
+  "c4-d1",
+  "c4-d2"
+ ],
+ "picture": "Flat side view. Along a high transit junction, the player in her lilac headscarf and mustard coat stands left of centre. At the far left, a yellow cable tram waits beside its steel cable. In the centre sits an open green glass-roofed trolley. On the far right stands a brass spiral lift cage with open gate.",
+ "shown": [
+  "a bright yellow mountain cable tram parked waiting at a wooden dock at the far left",
+  "a green glass-roofed trolley idling on tracks with doors open in the centre",
+  "a polished brass spiral lift cage resting at its platform on the far right"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "id": "c3-d3",
+ "scene": "You step off the rickshaw into breezy Windmill Flats.",
+ "options": [
+  "Inspect metal hatch",
+  "Touch laundry line",
+  "Climb wooden windmill"
+ ],
+ "next": [
+  "c3-d3-0",
+  "c3-d3-1",
+  "c3-d3-2"
+ ],
+ "picture": "Flat rooftop tiles run across the bottom. On the far left sits an empty yellow bicycle rickshaw. Left of centre, a closed rusty hatch lies flat. In the centre, the tall mustachioed man stands beside fluttering laundry on a low line. On the right rises a tall wooden windmill with a ladder.",
+ "shown": [
+  "a closed rusty iron hatch set in the floor on the left",
+  "a fluttering line of colourful shirts strung low in the centre",
+  "a tall wooden windmill with a side ladder on the right"
+ ]
+}

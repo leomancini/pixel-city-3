@@ -1,0 +1,20 @@
+{
+ "id": "c3-d2-0",
+ "scene": "Your tuned chords catch everyone's ear in the smoky basement.",
+ "options": [
+  "Join brass band",
+  "Take glowing soda",
+  "Climb emergency ladder"
+ ],
+ "next": [
+  "c3-d2-0-0",
+  "c3-d2-0-1",
+  "c3-d2-0-2"
+ ],
+ "picture": "Side view along a wooden floor line. At far left, a rusty metal ladder rises up the brick wall. You stand centre left holding your polished guitar, wearing your straw hat and red poncho. At centre, a smiling brass band pauses with instruments raised. At far right, a green glowing soda sits on the counter.",
+ "shown": [
+  "a beaming trumpet player on stage at centre holding his horn ready",
+  "a bubbling green soda glass sitting unattended on the counter at far right",
+  "a rusty metal ladder fixed to the brick wall at far left"
+ ]
+}

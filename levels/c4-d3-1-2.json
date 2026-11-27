@@ -1,0 +1,20 @@
+{
+ "id": "c4-d3-1-2",
+ "scene": "Across the bridge, a bustling transit terrace awaits.",
+ "options": [
+  "Board river barge",
+  "Take glass trolley",
+  "Ride spiral lift"
+ ],
+ "next": [
+  "c4-d0",
+  "c4-d1",
+  "c4-d2"
+ ],
+ "picture": "Side-scrolling view of a wide transit terrace. On the far left, a low wooden barge bobs in a canal. The player, in her lilac headscarf, mustard coat, and brown satchel, stands left of centre. On the right, a glass-roofed trolley sits on tracks. On the far right stands a brass spiral lift.",
+ "shown": [
+  "a wooden river barge moored at a small dock on the far left",
+  "a sleek glass-roofed trolley waiting on rails on the right",
+  "an ornate brass spiral lift cage with open gate on the far right"
+ ]
+}

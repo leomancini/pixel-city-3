@@ -1,0 +1,21 @@
+{
+ "id": "c4-d2-0-0",
+ "scene": "The solved riddle names three transit docks on the tower's open terrace.",
+ "options": [
+  "Board river barge",
+  "Take roofed trolley",
+  "Catch cable tram"
+ ],
+ "next": [
+  "c4-d0",
+  "c4-d1",
+  "c4-d3"
+ ],
+ "picture": "A flat side view along a high stone terrace. The player stands centre in lilac headscarf and mustard coat, holding the parchment. Far left sits a river barge canal dock with a wooden gate. Left stands a waiting glass-roofed rail trolley. Right hangs a mountain cable tram beside a metal boarding gantry.",
+ "shown": [
+  "a wooden river barge mooring gate with a bell, on the far left",
+  "a glass-roofed trolley waiting empty at a rail platform, on the left",
+  "a hanging mountain cable tram cabin parked on an aerial line, on the right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,20 @@
+{
+ "id": "c3-d3-0",
+ "scene": "The rusty hatch squeals open to reveal a ladder down.",
+ "options": [
+  "Climb down hatch",
+  "Pick up wrench",
+  "Pet rooftop pigeon"
+ ],
+ "next": [
+  "c3-d3-0-0",
+  "c3-d3-0-1",
+  "c3-d3-0-2"
+ ],
+ "picture": "Rooftop tiles run along the ground line. On the far left sits a shiny chrome wrench. Left of centre, an open rusty hatch reveals a metal ladder leading down. In the centre stands the tall mustachioed man in his red poncho, straw hat, and guitar. On the far right, a pigeon sits on a chimney.",
+ "shown": [
+  "the dark open hatchway with a metal ladder inside, left of centre",
+  "a shiny chrome wrench lying on the tiles, far left",
+  "a chubby grey pigeon perched atop a brick chimney, far right"
+ ]
+}

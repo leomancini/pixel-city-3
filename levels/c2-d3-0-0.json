@@ -1,20 +1,21 @@
 {
  "id": "c2-d3-0-0",
- "scene": "The lever opens exit gates revealing three waiting transports.",
+ "scene": "The crane swings wide, parting steel gates to reveal three bustling exits.",
  "options": [
-  "Fly to Sky Dock",
-  "Drive to Robot Yard",
-  "Take glass elevator"
+  "Board Sky Dock airship",
+  "Hop delivery truck",
+  "Enter glass elevator"
  ],
  "next": [
   "c2-d0",
   "c2-d1",
   "c2-d2"
  ],
- "picture": "Flat side view. On the left stands a yellow delivery truck by an open roll-up bay. The South Asian girl in her purple wheelchair sits left of centre near the lowered lever. Up high moors a striped airship basket at a balcony. On the far right waits a glowing glass elevator with open doors.",
+ "picture": "Side view of the busy foundry platform floor. On the far left, a striped airship waits at an open loading door. In the centre sits the girl in her purple wheelchair beside the crane. To her right idles a yellow delivery truck, and far right stands a glowing glass elevator with doors open.",
  "shown": [
-  "a striped airship basket moored at an open balcony up high",
-  "a yellow delivery truck parked idling at a garage door on the left",
-  "a glowing glass elevator with doors sliding open on the far right"
- ]
+  "a moored striped zeppelin waiting at an open bay door far left",
+  "a yellow candy delivery truck idling with its ramp down on the right",
+  "a glowing cylindrical glass elevator with its sliding doors open far right"
+ ],
+ "view": "wide"
 }

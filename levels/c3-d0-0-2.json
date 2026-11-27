@@ -1,0 +1,21 @@
+{
+ "id": "c3-d0-0-2",
+ "scene": "The machine chimes, spitting tickets for three curious transit lines outside.",
+ "options": [
+  "Hail bicycle rickshaw",
+  "Board book lift",
+  "Catch night bus"
+ ],
+ "next": [
+  "c3-d3",
+  "c3-d1",
+  "c3-d2"
+ ],
+ "picture": "Flat side view under glowing festival lanterns. On the left stands a bicycle rickshaw with red canopies. Left of centre, the tall Latino player with moustache, straw hat, poncho and guitar inspects three tickets beside the fortune booth. Centre stands an open book cart lift. Far right idles a glowing blue night bus.",
+ "shown": [
+  "A tasseled bicycle rickshaw waiting empty on the far left. street level",
+  "An open brass book cart lift cage resting in the centre",
+  "A glowing double-decker night bus idling on the far right"
+ ],
+ "view": "wide"
+}

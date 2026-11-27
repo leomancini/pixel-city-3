@@ -1,0 +1,20 @@
+{
+ "id": "c4-d0-1-2",
+ "scene": "The cat leads you to the Grand Junction transit platform.",
+ "options": [
+  "Ride glass trolley",
+  "Take spiral lift",
+  "Board mountain tram"
+ ],
+ "next": [
+  "c4-d1",
+  "c4-d2",
+  "c4-d3"
+ ],
+ "picture": "Flat side view. On the far left, a sleek glass-roofed trolley rests at its platform. The player stands left of centre, in lilac headscarf and mustard coat with brown satchel, watching the calico cat trot past a brass spiral lift standing in the centre. On the far right waits a red mountain cable tram.",
+ "shown": [
+  "a waiting glass-roofed trolley with an open door on the left",
+  "a brass spiral lift shaft with a waiting car in the centre",
+  "a steep mountain cable tram idling with doors open on the right"
+ ]
+}

@@ -686,8 +686,9 @@
       // Typing starts only once the picture has finished dithering in.
       await ditherTo(false);
       level += 1;
-      // The session's first level greets the player before its scene.
-      setScene(level === 1 ? "Welcome to Pixel City! " + data.scene : data.scene);
+      // The session's first level greets the player before its scene, and
+      // asks the question that teaches how to play.
+      setScene(level === 1 ? "Welcome to Pixel City! " + data.scene + " What's next?" : data.scene);
       const next = prefetch(data.next);
       showOptions(data.options.map((text, i) => ({ label: text, action: () => play(data.next[i], next[i]) })));
     } catch (err) {

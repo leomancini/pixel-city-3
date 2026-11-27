@@ -1,0 +1,20 @@
+{
+ "id": "c4-d1-0",
+ "scene": "The silk unfolds, revealing an embroidered golden city map.",
+ "options": [
+  "Pocket the map",
+  "Show the weaver",
+  "Exit through arch"
+ ],
+ "next": [
+  "c4-d1-0-0",
+  "c4-d1-0-1",
+  "c4-d1-0-2"
+ ],
+ "picture": "In the flat pixel arcade, the woman in lilac headscarf and mustard coat stands left of centre, unrolling shimmering blue silk at the far left that displays glowing threads. At the right sits the weaver at his wooden loom, and on the far right stands an open ironwork archway flanked by lanterns.",
+ "shown": [
+  "The unrolled bolt of glowing golden-stitched silk at the far left.",
+  "A surprised grey-bearded weaver leaning over his wooden loom on the right.",
+  "An open ironwork archway flanked by hanging lanterns on the far right."
+ ]
+}

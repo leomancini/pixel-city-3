@@ -1,0 +1,20 @@
+{
+ "id": "c3-d3-1",
+ "scene": "A secret map drops from the parted laundry sheets.",
+ "options": [
+  "Snatch falling map",
+  "Search wooden crate",
+  "Zip down cable"
+ ],
+ "next": [
+  "c3-d3-1-0",
+  "c3-d3-1-1",
+  "c3-d3-1-2"
+ ],
+ "picture": "Rooftop tiles stretch across the bottom. On the far left, hanging white sheets flutter. To their right, a glowing parchment map drops through the air. Centre, the tall man in a red poncho and straw hat watches it. On the right sits a closed wooden crate. Up high, a utility cable slopes downward.",
+ "shown": [
+  "a glowing parchment map fluttering downwards in the air on the left",
+  "an unopened wooden delivery crate sitting on the rooftop on the right",
+  "a taut metal utility cable stretching away from up high"
+ ]
+}

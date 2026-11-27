@@ -1,0 +1,20 @@
+{
+ "id": "c4-d3",
+ "scene": "You step off the mountain cable tram into Hot Spring Terraces.",
+ "options": [
+  "Inspect steaming tub",
+  "Visit snack cart",
+  "Climb terrace stairs"
+ ],
+ "next": [
+  "c4-d3-0",
+  "c4-d3-1",
+  "c4-d3-2"
+ ],
+ "picture": "Side-scrolling view of a stone terrace platform. On the far left rests the mountain cable tram with open doors. The player in lilac headscarf and mustard coat stands near a bubbling round wooden tub on the left. To her right sits a yellow snack cart, beside stone stairs on the far right leading upward.",
+ "shown": [
+  "a circular wooden hot spring tub on the left bubbling with water",
+  "a bright yellow snack cart right of the player with steam rising",
+  "a carved stone staircase on the far right leading upward"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "id": "c3-d1-2",
+ "scene": "The whispering librarian offers a stamped brass card.",
+ "options": [
+  "Take brass card",
+  "Play quiet melody",
+  "Enter dumbwaiter shaft"
+ ],
+ "next": [
+  "c3-d1-2-0",
+  "c3-d1-2-1",
+  "c3-d1-2-2"
+ ],
+ "picture": "Side-view pixel art of a towering book archive along a level wooden floor. On far left, a small square dumbwaiter hatch stands open. Left of centre, the tall Latino man in straw hat, red poncho, and guitar leans forward. On far right, the whispering librarian in spectacles holds out a stamped brass card.",
+ "shown": [
+  "a shining brass card held outstretched in the librarian's hand on far right",
+  "the wooden acoustic guitar strapped onto the player's back left of centre",
+  "a small wooden dumbwaiter hatch built into the wall on the far left"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "id": "c3-d2-2-1",
+ "scene": "The jukebox swings open into a secret transit alley.",
+ "options": [
+  "Board ferris gondola",
+  "Enter book lift",
+  "Hail bicycle rickshaw"
+ ],
+ "next": [
+  "c3-d0",
+  "c3-d1",
+  "c3-d3"
+ ],
+ "picture": "Along the stone pavement ground line, an open striped ferris wheel gondola dangles at far left. At centre waits an open brass book cart lift. You stand at right in your red poncho, straw hat, and guitar, facing an idle yellow bicycle rickshaw parked at far right with its driver.",
+ "shown": [
+  "A swinging striped ferris wheel gondola hanging open at far left",
+  "A clanking brass book cart lift with doors open at centre",
+  "A yellow bicycle rickshaw with an idle driver waiting at far right"
+ ]
+}

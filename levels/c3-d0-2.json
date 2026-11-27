@@ -1,0 +1,20 @@
+{
+ "id": "c3-d0-2",
+ "scene": "Inside the striped tent, odd performers rehearse.",
+ "options": [
+  "Greet robotic mime",
+  "Toss flying rings",
+  "Climb velvet ladder"
+ ],
+ "next": [
+  "c3-d0-2-0",
+  "c3-d0-2-1",
+  "c3-d0-2-2"
+ ],
+ "picture": "Inside a striped circus tent, a silver robotic mime poses on the far left. The tall Latino man in straw hat, red poncho, and guitar stands left of centre. A ring-toss pedestal with glowing hoops sits on the right. Up high, a velvet ladder dangles down towards the sawdust floor.",
+ "shown": [
+  "a silver robotic mime trapped in an invisible box on the far left",
+  "a ring-toss pedestal holding three glowing hoops on the right",
+  "a swaying rope ladder made of velvet hanging down from up high"
+ ]
+}

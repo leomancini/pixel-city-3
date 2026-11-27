@@ -1,20 +1,21 @@
 {
  "id": "c2-d1-1",
- "scene": "Sparking wires reveal an ancient blinking terminal on the workbench.",
+ "scene": "A sparking robotic core whirs loudly upon the cluttered workbench.",
  "options": [
-  "Tap neon screen",
-  "Pocket glowing wrench",
-  "Enter rusted doorway"
+  "Snip blue wire",
+  "Turn brass dial",
+  "Take glowing battery"
  ],
  "next": [
   "c2-d1-1-0",
   "c2-d1-1-1",
   "c2-d1-1-2"
  ],
- "picture": "A flat side-view yard. Far left, the yellow droid watches. Left, a glowing blue tool rests on a rack. Centre, the girl in her purple wheelchair inspects the workbench where a neon terminal blinks. Right, a mechanical arm dangles idle. Far right, an open sliding door flickers with orange lights.",
+ "picture": "A first-person view of the workbench surface. On the left, a crackling blue wire sparks from an open metal plate. In the centre sits an intricate bronze console with a large circular brass dial. On the right, a luminous neon-green battery glows in an open charging slot, surrounded by tiny copper gears.",
  "shown": [
-  "an illuminated green terminal blinking on the wooden workbench at centre",
-  "a pulsing blue tool resting on a metal rack to the left",
-  "an open metallic sliding door framed by flashing orange bulbs on the far right"
- ]
+  "a crackling blue wire sparking on the core at the left",
+  "a circular brass dial resting in the centre of the console",
+  "a luminous neon-green battery inserted loosely in a slot on the right"
+ ],
+ "view": "close"
 }

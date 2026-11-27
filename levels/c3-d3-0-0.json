@@ -1,0 +1,20 @@
+{
+ "id": "c3-d3-0-0",
+ "scene": "Below the hatch lies a hidden transit vault.",
+ "options": [
+  "Ride ferris wheel",
+  "Take book cart",
+  "Board night bus"
+ ],
+ "next": [
+  "c3-d0",
+  "c3-d1",
+  "c3-d2"
+ ],
+ "picture": "Concrete floor stretches along the ground line. On the far left rests an open ferris wheel gondola. In the centre sits a brass book cart lift with open doors. Left of centre stands the tall mustachioed man in his red poncho and straw hat, guitar on back. On the far right waits a purple night bus.",
+ "shown": [
+  "a glowing ferris wheel gondola perched on tracks on the far left",
+  "a brass book cart lift with open doors in the centre",
+  "a neon-lit purple night bus waiting on the far right"
+ ]
+}

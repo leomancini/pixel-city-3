@@ -1,0 +1,20 @@
+{
+ "id": "c3-d0-2-0",
+ "scene": "The robot mime bows and points out three exits.",
+ "options": [
+  "Ride bicycle rickshaw",
+  "Take book lift",
+  "Board night bus"
+ ],
+ "next": [
+  "c3-d3",
+  "c3-d1",
+  "c3-d2"
+ ],
+ "picture": "Inside the circus exit plaza, a yellow bicycle rickshaw waits on the far left. The silver robot mime stands left of centre, gesturing. The tall Latino man in poncho, hat, and guitar stands centre. Up high hangs a brass book cart lift. A purple night bus idles on the far right.",
+ "shown": [
+  "A yellow bicycle rickshaw with canopy parked on the far left",
+  "A wheeled brass book cart lift with pulley up high",
+  "A purple night bus idling at a stop on the far right"
+ ]
+}

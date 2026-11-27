@@ -1,0 +1,20 @@
+{
+ "id": "c4-d2-1",
+ "scene": "The red lever rumbles, opening pneumatic tubes with a swoosh!",
+ "options": [
+  "Catch whistling tube",
+  "Inspect chute hatch",
+  "Climb ladder outside"
+ ],
+ "next": [
+  "c4-d2-1-0",
+  "c4-d2-1-1",
+  "c4-d2-1-2"
+ ],
+ "picture": "Flat side-view slice along a level wooden floor line in Pigeon Post Tower. Left, a circular iron hatch stands popped open. Center, the woman in lilac headscarf and mustard coat stands holding the pulled red lever. Up high, a green capsule emerges from a brass tube. Far right, an open hatch holds a sturdy wooden ladder.",
+ "shown": [
+  "a glowing green capsule popping out from a metal pipe up high",
+  "a circular iron sorting hatch swung wide open on the left",
+  "a sturdy wooden ladder leading out through an open hatch on the far right"
+ ]
+}

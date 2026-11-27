@@ -1,0 +1,20 @@
+{
+ "id": "c4-d2-2-1",
+ "scene": "The horn blast opens three departure chutes along the tower platform.",
+ "options": [
+  "Board river barge",
+  "Take glass trolley",
+  "Ride cable tram"
+ ],
+ "next": [
+  "c4-d0",
+  "c4-d1",
+  "c4-d3"
+ ],
+ "picture": "Flat side-view along the open departure platform. Far left, a wooden river barge rests at a low slipway. Left, the woman in lilac headscarf and mustard coat stands holding the satchel. Centre, a glass-roofed trolley sits behind an open gate. Far right, an orange mountain cable tram dangles from its overhead wire.",
+ "shown": [
+  "A flat wooden river barge docked at an open slipway, far left",
+  "A rounded glass-roofed trolley waiting inside an open iron gate, centre",
+  "A hanging mountain cable tram swaying on a thick wire, far right"
+ ]
+}

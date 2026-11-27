@@ -1,20 +1,21 @@
 {
  "id": "c2-d3-0-1",
- "scene": "Your taffy reveals a transport courtyard outside.",
+ "scene": "The crane swings, knocking open three huge exit gates across the factory.",
  "options": [
   "Board delivery truck",
-  "Take glass elevator",
-  "Board sky airship"
+  "Enter glass elevator",
+  "Board the airship"
  ],
  "next": [
   "c2-d1",
   "c2-d2",
   "c2-d0"
  ],
- "picture": "Flat side view. On the far left sits a yellow delivery truck with its ramp open. The South Asian girl in her teal hoodie holds a warm taffy ball in her purple wheelchair left of centre. Right of centre stands an open glass elevator tube. A striped airship gondola rests on the far right.",
+ "picture": "Side-view pixel scene along the factory floor. On the far left sits a boxy yellow delivery truck with open doors. Left of centre sits the girl in her purple wheelchair. In the centre, an open glass elevator glows softly. Up high, the crane arm dangles. On the far right, a striped airship floats at a dock.",
  "shown": [
-  "a yellow delivery truck on the far left with its back ramp lowered",
-  "a tall glass elevator tube right of centre with its doors open",
-  "a moored striped airship gondola on the far right with boarding steps"
- ]
+  "a yellow delivery truck idling open at a bay door on the far left",
+  "a glowing glass elevator with sliding doors open wide at the centre",
+  "a striped airship moored to a gantry platform on the far right"
+ ],
+ "view": "wide"
 }

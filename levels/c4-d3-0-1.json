@@ -1,0 +1,20 @@
+{
+ "id": "c4-d3-0-1",
+ "scene": "The attendant hands you three travel passes to different city districts.",
+ "options": [
+  "Ride glass trolley",
+  "Take spiral lift",
+  "Board river barge"
+ ],
+ "next": [
+  "c4-d1",
+  "c4-d2",
+  "c4-d0"
+ ],
+ "picture": "Along a flat stone platform, a yellow glass-roofed trolley sits on rails on the left. The player in lilac headscarf and mustard coat stands centre-left holding passes beside the attendant. In the centre rises an open spiral lift. On the right, a wooden river barge floats tied to a low dock.",
+ "shown": [
+  "a yellow glass-roofed trolley stopped on rails on the left",
+  "a tall spiral lift with open lattice gates standing in the centre",
+  "a wooden river barge moored at a dock on the right"
+ ]
+}

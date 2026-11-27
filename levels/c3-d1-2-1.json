@@ -1,0 +1,20 @@
+{
+ "id": "c3-d1-2-1",
+ "scene": "Your song opens secret balcony portals across the city.",
+ "options": [
+  "Board carnival gondola",
+  "Catch night bus",
+  "Hire bicycle rickshaw"
+ ],
+ "next": [
+  "c3-d0",
+  "c3-d2",
+  "c3-d3"
+ ],
+ "picture": "Side-view pixel art of an outdoor stone library terrace on a single level. On the far left, a swinging neon ferris wheel gondola hangs beside an arch. Left of centre, the tall Latino man in straw hat, red poncho, and guitar stands playing. Centre shows a glowing bus stop pole. On the far right waits a bicycle rickshaw.",
+ "shown": [
+  "A swinging ferris wheel gondola hangs ready outside an arched opening on the far left.",
+  "A glowing bus stop sign waits beside a low ramp in the centre.",
+  "A wheeled bicycle rickshaw with a driver waits on the far right."
+ ]
+}

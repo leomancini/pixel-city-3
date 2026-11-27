@@ -1,0 +1,20 @@
+{
+ "id": "c4-d0-1-0",
+ "scene": "The tingling violet tea reveals three transit gates ahead.",
+ "options": [
+  "Ride spiral lift",
+  "Board mountain tram",
+  "Catch glass trolley"
+ ],
+ "next": [
+  "c4-d2",
+  "c4-d3",
+  "c4-d1"
+ ],
+ "picture": "Flat side view. On the far left, an ornate brass spiral lift sits with its gates open. Left of centre, the woman in her lilac headscarf and mustard coat holds an empty teacup. In the centre, a red mountain cable tram waits on iron rails. On the right, a glass-roofed green trolley stands beside a stop sign.",
+ "shown": [
+  "A golden spiral lift with open lattice gates on the far left.",
+  "A red cable tram idling on a steep track in the centre.",
+  "A green glass-roofed trolley waiting beside a ticket pole on the right."
+ ]
+}

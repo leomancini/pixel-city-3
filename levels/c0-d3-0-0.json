@@ -1,6 +1,6 @@
 {
  "id": "c0-d3-0-0",
- "scene": "The glowing gear powers up transit gates across the square.",
+ "scene": "The clock mechanism chimes, swinging open transit gates across the bustling plaza.",
  "options": [
   "Board harbour ferry",
   "Ride cable car",
@@ -11,10 +11,11 @@
   "c0-d1",
   "c0-d2"
  ],
- "picture": "Pixel art side view of square. On the far left, a blue ferry rests at water. Left of centre, the player in her yellow raincoat and boots holds her red umbrella and glowing gear. Up high hangs an orange cable car. On the far right stands a glowing tiled subway stairwell.",
+ "picture": "Pixel art wide side view of Clocktower Square under drizzle. On the far left, a docked harbour ferry idles. Left of centre, the player stands beside the now-open grandfather clock with her red umbrella. Up high, an orange cable car cabin hangs ready. On the far right, stairs descend into a lit subway station.",
  "shown": [
-  "a blue ferryboat docked at a wooden pier on the far left",
-  "an orange cable car cabin dangling from a cable up high",
-  "an illuminated tiled subway entrance with stairs leading down on the far right"
- ]
+  "a striped harbour ferry moored at a canal dock on the far left",
+  "an orange cable car cabin waiting suspended on cables up high",
+  "a lit subway stairwell with open turnstiles on the far right"
+ ],
+ "view": "wide"
 }

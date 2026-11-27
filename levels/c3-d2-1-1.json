@@ -1,0 +1,20 @@
+{
+ "id": "c3-d2-1-1",
+ "scene": "Your strumming enchants the club, magically unlocking three waiting exits.",
+ "options": [
+  "Ride bicycle rickshaw",
+  "Board carnival gondola",
+  "Hop cart lift"
+ ],
+ "next": [
+  "c3-d3",
+  "c3-d0",
+  "c3-d1"
+ ],
+ "picture": "Side view along a single level floor. At far left stands a yellow bicycle rickshaw with a bell. You stand at centre left with guitar in hand, red poncho, and straw hat. Above centre hangs an open ferris wheel gondola up high. At far right sits a wooden book cart lift.",
+ "shown": [
+  "A yellow bicycle rickshaw parked idle at the far left",
+  "A glowing ferris wheel gondola hanging stationary up high",
+  "A creaking book cart lift resting at far right"
+ ]
+}

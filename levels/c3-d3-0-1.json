@@ -1,0 +1,20 @@
+{
+ "id": "c3-d3-0-1",
+ "scene": "Wrench in hand, three transit routes hum along the edge.",
+ "options": [
+  "Ride book lift",
+  "Board night bus",
+  "Enter ferris gondola"
+ ],
+ "next": [
+  "c3-d1",
+  "c3-d2",
+  "c3-d0"
+ ],
+ "picture": "Rooftop edge runs along the level ground line. On the far left sits an open mechanical book cart lift. Left of centre, the tall mustachioed man stands in red poncho and straw hat, holding the chrome wrench, guitar on back. Right of centre waits an idling night bus. On the far right hangs a striped ferris wheel gondola.",
+ "shown": [
+  "a mechanical book cart lift sitting on rails at the far left",
+  "a glowing blue night bus idling by the curb right of centre",
+  "a striped ferris wheel gondola hanging open on the far right"
+ ]
+}

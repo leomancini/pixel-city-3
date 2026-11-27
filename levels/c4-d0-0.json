@@ -1,0 +1,21 @@
+{
+ "id": "c4-d0-0",
+ "scene": "Intricate brass-sealed lids top the glowing indigo jars, humming with sparks.",
+ "options": [
+  "Twist brass lid",
+  "Tap glass belly",
+  "Pocket label tag"
+ ],
+ "next": [
+  "c4-d0-0-0",
+  "c4-d0-0-1",
+  "c4-d0-0-2"
+ ],
+ "picture": "A first-person close-up view of the spice stall counter. On the left sits a squat indigo jar sealed with a rune-carved brass lid. In the centre rests a large round jar glowing with purple sparks inside. On the right, a folded parcel of spices bears a handwritten silver tag.",
+ "shown": [
+  "A cork-sealed blue jar etched with sun runes sitting on the left.",
+  "A large spherical jar buzzing with violet fireflies in the centre.",
+  "A dangling paper price tag written in silver ink on the right."
+ ],
+ "view": "close"
+}

@@ -1,20 +1,21 @@
 {
  "id": "c2-d3-0",
- "scene": "The clacking crane drops sticky taffy near you.",
+ "scene": "The taffy crane's brass control panel hums with sticky mechanical life.",
  "options": [
-  "Pull glowing lever",
-  "Scoop warm taffy",
-  "Ride conveyor belt"
+  "Turn brass dial",
+  "Flip sticky toggle",
+  "Press warning bell"
  ],
  "next": [
   "c2-d3-0-0",
   "c2-d3-0-1",
   "c2-d3-0-2"
  ],
- "picture": "Flat side view. On the far left, a blinking yellow control lever is set into the pink taffy crane base. The South Asian girl in her teal hoodie sits in her purple wheelchair left of centre. In the centre hangs a dripping lump of pink taffy. A rubber conveyor belt leads far right.",
+ "picture": "First-person close-up view of the taffy crane control console. Splatters of glossy pink candy glaze dot the steel plating. On the left sits a thick brass dial set to zero, in the centre is a sticky striped toggle switch, and on the right gleams a round copper chime button waiting to be pressed.",
  "shown": [
-  "a blinking yellow control lever mounted on the crane base on the far left",
-  "a dripping lump of pink taffy dangling from the crane claw at the centre",
-  "a moving rubber conveyor belt rolling into a tunnel on the far right"
- ]
+  "a giant knurled brass dial clicking at speed zero on the left",
+  "a striped red switch coated in hardened sugar in the centre",
+  "a gleaming copper chime button labeled alarm on the right"
+ ],
+ "view": "close"
 }

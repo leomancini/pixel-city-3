@@ -1,0 +1,20 @@
+{
+ "id": "c4-d3-1-1",
+ "scene": "The shrine reveals hidden transit tokens.",
+ "options": [
+  "Ascend pigeon lift",
+  "Board river barge",
+  "Ride glass trolley"
+ ],
+ "next": [
+  "c4-d2",
+  "c4-d0",
+  "c4-d1"
+ ],
+ "picture": "Side-scrolling flat view of a transit quay below the terrace. On the far left stands a brass-gated spiral lift shaft. Beside it, the player in her lilac headscarf and mustard coat holds three tokens. At the centre, a wooden river barge floats against a dock. On the far right sits a glass-roofed trolley.",
+ "shown": [
+  "a winding glass spiral lift shaft with open brass gate on far left",
+  "a striped canal barge tied to a low dock at the centre",
+  "a sleek glass-roofed trolley waiting on polished rails on the far right"
+ ]
+}
