@@ -167,7 +167,8 @@
     white-space: nowrap;
     pointer-events: none;
   }
-  .empty { color: var(--dim); padding: 40px 0; }
+  /* Loading and error text sits in the middle of the window. */
+  .empty { position: fixed; inset: 0; display: grid; place-items: center; margin: 0; padding: 20px; text-align: center; color: var(--dim); pointer-events: none; }
 </style>
 </head>
 <body>
