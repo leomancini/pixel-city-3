@@ -1,0 +1,21 @@
+{
+ "id": "c1-d5-1-0",
+ "scene": "The robot's calligraphy reveals three marked routes out of the lane.",
+ "options": [
+  "Hail solar rickshaw",
+  "Ride caged lift",
+  "Board water taxi"
+ ],
+ "next": [
+  "c1-d3",
+  "c1-d4",
+  "c1-d0"
+ ],
+ "picture": "Side-view pixel art along a level cobblestone street. Left, a yellow solar rickshaw waits with its driver. Centre-left, the elderly East Asian man in his blue cap and orange cardigan holds the unrolled scroll. Centre-right, the brass robot waves toward an open caged lift. Far right, a green water taxi waits at a dock.",
+ "shown": [
+  "A yellow solar rickshaw and driver waiting idle on the far left curb",
+  "An open iron caged lift humming gently by a pillar on the right",
+  "A green water taxi moored at the canal stone pier on the far right"
+ ],
+ "view": "wide"
+}

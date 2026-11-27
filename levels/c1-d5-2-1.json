@@ -1,0 +1,21 @@
+{
+ "id": "c1-d5-2-1",
+ "scene": "The valve vents steam, sliding back three doors to distinct transit terminals.",
+ "options": [
+  "Ride mountain funicular",
+  "Hire waiting rickshaw",
+  "Take slow lift"
+ ],
+ "next": [
+  "c1-d2",
+  "c1-d3",
+  "c1-d4"
+ ],
+ "picture": "A flat side-view pixel art scene inside the mill's steam-cleared departure hall. On the far left sits a red funicular carriage on sloped rails. Left of centre stands the elderly East Asian player in cap and cardigan with his cane. Centre, a green pedal rickshaw waits. Right, an open brass cage lift rests at floor level.",
+ "shown": [
+  "a steep red funicular car parked on tracks on the far left",
+  "a green-canopied pedal rickshaw and driver waiting at the centre gate",
+  "an open brass cage lift with polished iron levers on the right"
+ ],
+ "view": "wide"
+}
