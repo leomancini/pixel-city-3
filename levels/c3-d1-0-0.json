@@ -1,9 +1,9 @@
 {
  "id": "c3-d1-0-0",
- "scene": "The grate opens outside onto a bustling transit ledge.",
+ "scene": "Through the telescope, the catwalk opens onto a breezy rooftop transit terrace.",
  "options": [
-  "Board carnival gondola",
-  "Catch night bus",
+  "Ride ferris gondola",
+  "Board night bus",
   "Hire bicycle rickshaw"
  ],
  "next": [
@@ -11,10 +11,11 @@
   "c3-d2",
   "c3-d3"
  ],
- "picture": "Side-view pixel art of a wide stone transit ledge beneath night skies. On the far left, a glowing neon carnival gondola sways at the ledge. Left of centre stands the player in straw hat and red poncho. At centre waits a blue night bus. On the far right waits a yellow bicycle rickshaw.",
+ "picture": "Side-scrolling view of a tiled open-air terrace atop the library. On the left, a striped ferris wheel gondola hangs docked at an iron gate. Left of centre stands the tall Latino player with his messenger bag. In the centre, an indigo night bus idle beside a stop. On the right, a yellow bicycle rickshaw waits.",
  "shown": [
-  "a swinging neon ferris wheel gondola hovering open at the far left",
-  "an idling glowing blue night bus waiting with doors open at centre",
-  "a parked yellow bicycle rickshaw with a smiling driver on the far right"
- ]
+  "a striped carnival ferris wheel gondola docked at the left railing",
+  "an indigo night bus idling at a shelter in the centre",
+  "a yellow bicycle rickshaw parked waiting beside a lamppost on the right"
+ ],
+ "view": "wide"
 }

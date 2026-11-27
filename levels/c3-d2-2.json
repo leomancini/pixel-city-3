@@ -1,20 +1,21 @@
 {
  "id": "c3-d2-2",
- "scene": "The bartender slides you a bubbly blue soda.",
+ "scene": "The robot bartender polishes a gleaming glass and slides a glowing menu.",
  "options": [
-  "Drink the soda",
-  "Inspect jukebox",
-  "Sit with pianist"
+  "Read glowing menu",
+  "Play vintage jukebox",
+  "Open backstage door"
  ],
  "next": [
   "c3-d2-2-0",
   "c3-d2-2-1",
   "c3-d2-2-2"
  ],
- "picture": "Side view along a wooden floor line. At far left stands a blinking jukebox. At centre, a stylish cat plays an upright piano. You stand at right in your red poncho, wide straw hat, and guitar, facing the wooden counter at far right where a foaming blue soda mug rests.",
+ "picture": "Side-scrolling flat view of the polished mahogany bar. On the far left, a glowing chrome jukebox hums. The player in his teal bomber jacket stands centre-left facing the counter. In the centre, the neon menu glows on the bartop. An apron-wearing robot bartender stands on the right, next to a brass door at far right.",
  "shown": [
-  "a foaming glass mug of bright blue liquid sits on the counter at far right",
-  "an ornate vintage jukebox flashes yellow lights against the wall at far left",
-  "a cool cat in sunglasses plays an upright piano at centre"
- ]
+  "A neon-lit holographic cocktail menu resting on the counter in the centre",
+  "A chrome jukebox with pulsing purple lights standing on the far left",
+  "A brass door marked Private with a glowing red bulb on the far right"
+ ],
+ "view": "wide"
 }

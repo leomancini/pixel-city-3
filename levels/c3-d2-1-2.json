@@ -1,20 +1,21 @@
 {
  "id": "c3-d2-1-2",
- "scene": "The spiral stairs lead outside to a breezy rooftop transit hub.",
+ "scene": "You climb the stairs onto a bustling rooftop transit terrace under starry skies.",
  "options": [
-  "Ride ferris wheel",
-  "Board book cart",
-  "Hire bicycle rickshaw"
+  "Board carnival gondola",
+  "Ride book lift",
+  "Hail bicycle rickshaw"
  ],
  "next": [
   "c3-d0",
   "c3-d1",
   "c3-d3"
  ],
- "picture": "Side view along a flat rooftop ledge. At far left, a glowing ferris wheel gondola waits at a small gate. You stand at centre left in your red poncho, wide straw hat, and guitar on back, holding the brass key. At centre right, an open brass book cart lift waits. At far right, a striped bicycle rickshaw waits.",
+ "picture": "A flat side-scrolling view of a rooftop terrace. On the far left, a docked ferris wheel gondola glows beside its boarding gate. The player stands centre-left facing right. In the centre sits an open brass book cart lift. On the far right waits a parked yellow bicycle rickshaw with a seated driver.",
  "shown": [
-  "A glowing carnival gondola waiting open at a platform on the far left",
-  "A brass lift shaped like a wheeled book cart at centre right",
-  "A striped bicycle rickshaw with a sleepy driver waiting on the far right"
- ]
+  "a glowing ferris wheel gondola docked at an open gate on the far left",
+  "a caged brass book cart lift with open metal lattice doors in the centre",
+  "a yellow bicycle rickshaw with an idling driver waiting on the far right"
+ ],
+ "view": "wide"
 }

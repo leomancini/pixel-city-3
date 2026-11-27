@@ -48,7 +48,7 @@ const CHARACTERS = [
   "a young Black woman with a round afro, in a bright yellow raincoat and green boots, carrying a red umbrella",
   "an elderly East Asian man with a white beard, in a blue flat cap and orange cardigan, walking with a wooden cane",
   "a South Asian girl with a long black braid, in a teal hoodie, riding a purple wheelchair",
-  "a tall Latino man with a moustache, in a red poncho and wide straw hat, carrying a guitar on his back",
+  "a tall Latino man with short curly hair and a trimmed beard, in a teal bomber jacket, dark jeans and white sneakers, with a messenger bag",
   "a Middle Eastern woman in a lilac headscarf and long mustard coat, with a brown satchel over her shoulder",
   "a young boy with messy dark hair and bright blue eyes, in a green striped T-shirt and red sneakers, carrying a skateboard",
   "a teenage boy with dark curly hair, blue eyes and round glasses, in a denim jacket, with a camera around his neck",

@@ -1,20 +1,21 @@
 {
  "id": "c3-d2-1-0",
- "scene": "The brass key opens a secret tunnel hub.",
+ "scene": "The unfolded paper reveals three transit tokens stamped with strange destinations.",
  "options": [
   "Ride book lift",
-  "Take bicycle rickshaw",
-  "Board ferris gondola"
+  "Take rickshaw",
+  "Board gondola"
  ],
  "next": [
   "c3-d1",
   "c3-d3",
   "c3-d0"
  ],
- "picture": "Side view along a flat stone tunnel floor. On the far left, a metal book cart lift stands open. You stand left of centre in your straw hat and red poncho with guitar. At centre, a parked bicycle rickshaw awaits with a driver. On the far right hangs a glowing carnival gondola.",
+ "picture": "A flat side-scrolling view of the club back exit. On the floor from left to right: a brass book-cart lift with open gates on the left; the player holding unfolded paper beside a bicycle rickshaw in the centre; a docked glowing ferris wheel gondola by an open portal on the right.",
  "shown": [
-  "A metal book cart lift on the far left with open brass gates.",
-  "A yellow bicycle rickshaw parked at centre with a waiting robotic driver.",
-  "A glowing carnival ferris wheel gondola hanging open on the far right."
- ]
+  "a brass book-cart lift with open grille gates on the left",
+  "a bicycle rickshaw and its masked driver waiting at the centre archway",
+  "a glowing ferris wheel gondola docked at an open portal on the right"
+ ],
+ "view": "wide"
 }

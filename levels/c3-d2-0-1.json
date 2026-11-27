@@ -1,20 +1,21 @@
 {
  "id": "c3-d2-0-1",
- "scene": "The fizzing soda reveals three secret transit exits.",
+ "scene": "The sheet music reveals a secret city transit map with glowing routes.",
  "options": [
-  "Ride book cart",
-  "Take bicycle rickshaw",
-  "Board ferris gondola"
+  "Ride book lift",
+  "Hail bicycle rickshaw",
+  "Board carnival gondola"
  ],
  "next": [
   "c3-d1",
   "c3-d3",
   "c3-d0"
  ],
- "picture": "Side view along a basement platform. At far left waits an open metal book cart lift on tracks. You stand left, drinking soda with guitar on your back. In the centre, a yellow bicycle rickshaw waits beside an exit sign. At far right, an ornate red ferris wheel gondola rests by open double doors.",
+ "picture": "Along a single level floor, a brass book cart lift stands open on the far left. A bicycle rickshaw waits on the left. The player in teal jacket stands centre looking right. On the far right, a brightly painted ferris wheel gondola hangs stationary from an overhead track with its hatch open.",
  "shown": [
-  "a wheeled metal book lift with open cage gate on the far left",
-  "a yellow bicycle rickshaw with an empty passenger seat at the centre",
-  "a glowing red ferris wheel gondola hanging open at far right"
- ]
+  "a vintage brass book cart lift with an open gate on the far left",
+  "a striped bicycle rickshaw idling under a neon sign on the left",
+  "a painted ferris wheel gondola hanging from an indoor rail on the far right"
+ ],
+ "view": "wide"
 }

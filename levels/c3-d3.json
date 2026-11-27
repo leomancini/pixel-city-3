@@ -1,20 +1,21 @@
 {
  "id": "c3-d3",
- "scene": "You step off the rickshaw into breezy Windmill Flats.",
+ "scene": "You step off the bicycle rickshaw onto breezy, sunlit Windmill Flats.",
  "options": [
-  "Inspect metal hatch",
-  "Touch laundry line",
-  "Climb wooden windmill"
+  "Pay the driver",
+  "Inspect weather vane",
+  "Search laundry line"
  ],
  "next": [
   "c3-d3-0",
   "c3-d3-1",
   "c3-d3-2"
  ],
- "picture": "Flat rooftop tiles run across the bottom. On the far left sits an empty yellow bicycle rickshaw. Left of centre, a closed rusty hatch lies flat. In the centre, the tall mustachioed man stands beside fluttering laundry on a low line. On the right rises a tall wooden windmill with a ladder.",
+ "picture": "Pixel art flat side view. On the level rooftop floor, from left to right: a yellow bicycle rickshaw with a driver at the far left; the tall Latino player in teal jacket, dark jeans, and messenger bag; a tall wooden windmill with a spinning brass weather vane up high; fluttery striped quilts on a laundry line right.",
  "shown": [
-  "a closed rusty iron hatch set in the floor on the left",
-  "a fluttering line of colourful shirts strung low in the centre",
-  "a tall wooden windmill with a side ladder on the right"
- ]
+  "a yellow bicycle rickshaw with an idling driver on the far left",
+  "a spinning brass rooster weather vane perched up high on a windmill",
+  "a long clothesline strung with fluttering striped quilts on the right"
+ ],
+ "view": "wide"
 }

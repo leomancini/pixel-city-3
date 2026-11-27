@@ -1,20 +1,21 @@
 {
  "id": "c3-d3-2-0",
- "scene": "The brass telescope clicks, revealing three strange transit stops below.",
+ "scene": "The coop swings open, scattering birds and revealing three strange transit platforms.",
  "options": [
-  "Take night bus",
-  "Ride carnival gondola",
-  "Board book lift"
+  "Board night bus",
+  "Ride ferris wheel",
+  "Take book lift"
  ],
  "next": [
   "c3-d2",
   "c3-d0",
   "c3-d1"
  ],
- "picture": "Along a level wooden ledge, the mustachioed man in his straw hat and red poncho with guitar on back stands by the brass telescope on the left. On the far left, a glowing blue night bus waits below a ramp. Up high, a striped gondola hovers. On the far right, an iron book cart lift waits open.",
+ "picture": "Pixel art flat side view. Along a level rooftop runway, arranged left to right: a sleek purple night bus idling at an attached skybridge, the unlatched empty coop beside the tall Latino player, a glowing carnival ferris wheel gondola docked at centre, and a brass book cart lift with an open gate on the far right.",
  "shown": [
-  "a glowing blue night bus waiting at the curb on the far left",
-  "a striped ferris wheel gondola hovering empty up high above the centre",
-  "a squeaky iron book cart lift open on the far right"
- ]
+  "a sleek purple night bus idling at a rooftop bridge on far left",
+  "a glowing carnival ferris wheel gondola docked at the platform centre",
+  "a clanking brass book cart lift open on the far right"
+ ],
+ "view": "wide"
 }

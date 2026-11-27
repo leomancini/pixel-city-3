@@ -1,21 +1,21 @@
 {
  "id": "c3-d1-1",
- "scene": "The open tome displays glowing diagrams of city street conduits.",
+ "scene": "The hooded librarian points past towering shelves toward a secret mechanical door.",
  "options": [
-  "Touch brass bookmark",
-  "Turn glowing page",
-  "Inspect loose note"
+  "Take glowing scroll",
+  "Examine bronze door",
+  "Climb rolling ladder"
  ],
  "next": [
   "c3-d1-1-0",
   "c3-d1-1-1",
   "c3-d1-1-2"
  ],
- "picture": "Pixel art close-up view through player's eyes of the massive open tome filling the frame. Bright cyan conduits glow across open cream pages. On far left, a yellow sticky note clings to dark leather. At centre, a radiant illustrated page curls upwards. On far right, an engraved brass bookmark gleams across the page corner.",
+ "picture": "Flat side-scrolling view of the library aisle. At far left, the tall wooden ladder rests against towering shelves. Left of centre, the player in a teal bomber jacket listens intently. In the centre, the hooded librarian holds out a glowing golden scroll. At the far right sits a circular bronze mechanical door.",
  "shown": [
-  "a slender brass bookmark lying across the tome's right page corner",
-  "a stiff glowing parchment leaf slightly lifted at the centre",
-  "a scribbled sticky note tucked along the far left leather border"
+  "a golden scroll offered in the librarian's hand in the centre",
+  "a round bronze door with gear locks on the far right",
+  "a tall wheeled wooden ladder resting against bookshelves at far left"
  ],
- "view": "close"
+ "view": "wide"
 }

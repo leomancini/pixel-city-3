@@ -1,20 +1,21 @@
 {
  "id": "c3-d1-2-2",
- "scene": "The dumbwaiter slides down, dumping you outside into bustling night alleys.",
+ "scene": "The lens projects a map, revealing transit doors beyond the library terrace.",
  "options": [
-  "Ride night bus",
-  "Hire bicycle rickshaw",
-  "Board carnival gondola"
+  "Board night bus",
+  "Ride bicycle rickshaw",
+  "Enter ferris gondola"
  ],
  "next": [
   "c3-d2",
   "c3-d3",
   "c3-d0"
  ],
- "picture": "Side-view pixel art of a lamplit night pavement along a level cobblestone line. On the far left, a glowing green night bus idles. Centre, the tall Latino man in straw hat, red poncho, and guitar brushes off soot. To the right, a yellow bicycle rickshaw waits. Up high on the far right hangs a red gondola.",
+ "picture": "A flat side view of the open-air library terrace. On the far left waits a glowing night bus. Centre stands the tall Latino player in his teal jacket and messenger bag beside the card catalogue. On the right waits a bicycle rickshaw, and up high hangs a docked ferris wheel gondola.",
  "shown": [
-  "a glowing green night bus idling at a sign on the far left",
-  "a yellow bicycle rickshaw with a bell parked to the right",
-  "a swinging red ferris wheel gondola hanging open up high on far right"
- ]
+  "a glowing double-decker night bus idling at a stop on the far left",
+  "a cushioned bicycle rickshaw with an owl-masked driver waiting on the right",
+  "a swinging neon-lit ferris wheel gondola docked at a platform up high"
+ ],
+ "view": "wide"
 }

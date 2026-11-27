@@ -1,20 +1,21 @@
 {
  "id": "c3-d2-2-0",
- "scene": "The soda opens a shimmering back exit with three wild rides.",
+ "scene": "The menu reveals transit exits hidden behind curtains across the back wall.",
  "options": [
-  "Ride bicycle rickshaw",
+  "Hail bicycle rickshaw",
   "Board ferris gondola",
-  "Take book cart"
+  "Ride book lift"
  ],
  "next": [
   "c3-d3",
   "c3-d0",
   "c3-d1"
  ],
- "picture": "Side view along a flat stone dock line. At far left stands a pedicab driver beside an empty bicycle rickshaw. You stand in the centre in your red poncho, wide straw hat, and back guitar, looking up at an open ferris gondola hanging up high. At far right sits an open brass book cart lift.",
+ "picture": "Side-scrolling flat view of the club rear wall. On the far left, a cyclist sits on a parked bicycle rickshaw. The player in his teal bomber jacket stands centre-left holding the glowing menu. In the centre, an open glass doorway shows a glowing carnival gondola. On the far right stands a brass book cart lift.",
  "shown": [
-  "A wheeled bicycle rickshaw with green canopy waiting quietly at far left",
-  "A round red ferris wheel gondola suspended gently up high",
-  "A brass mechanical book cart lift parked open at far right"
- ]
+  "a striped bicycle rickshaw parked under an arched exit on the far left",
+  "a glowing carnival gondola waiting past an open doorway in the centre",
+  "a mechanical brass book cart lift with open metal gates on the far right"
+ ],
+ "view": "wide"
 }

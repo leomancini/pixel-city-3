@@ -1,20 +1,21 @@
 {
  "id": "c3-d3-1",
- "scene": "A secret map drops from the parted laundry sheets.",
+ "scene": "The brass weather vane carries a tiny mechanical copper finch on top.",
  "options": [
-  "Snatch falling map",
-  "Search wooden crate",
-  "Zip down cable"
+  "Wind the key",
+  "Pry loose tube",
+  "Climb down ladder"
  ],
  "next": [
   "c3-d3-1-0",
   "c3-d3-1-1",
   "c3-d3-1-2"
  ],
- "picture": "Rooftop tiles stretch across the bottom. On the far left, hanging white sheets flutter. To their right, a glowing parchment map drops through the air. Centre, the tall man in a red poncho and straw hat watches it. On the right sits a closed wooden crate. Up high, a utility cable slopes downward.",
+ "picture": "First-person close-up view of the gleaming brass weather vane against bright blue sky. A tiny intricate copper mechanical finch perches atop the central directional arrow. A tiny winding key protrudes from the bird's side up high, and a miniature brass scroll tube is clamped tight to the arrow shaft in the centre.",
  "shown": [
-  "a glowing parchment map fluttering downwards in the air on the left",
-  "an unopened wooden delivery crate sitting on the rooftop on the right",
-  "a taut metal utility cable stretching away from up high"
- ]
+  "A small winding key sticking out of the copper finch up high",
+  "A tiny brass message cylinder clamped to the arrow shaft centre",
+  "A sturdy wooden ladder leaning against the windmill roof far left"
+ ],
+ "view": "close"
 }

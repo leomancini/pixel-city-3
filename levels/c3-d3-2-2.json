@@ -1,20 +1,21 @@
 {
  "id": "c3-d3-2-2",
- "scene": "Inside the windmill hub, three curious transit lines await.",
+ "scene": "Atop the roof, three strange transit links wait across the city skyline.",
  "options": [
-  "Take book lift",
-  "Catch night bus",
-  "Board ferris gondola"
+  "Ride book lift",
+  "Board night bus",
+  "Enter ferris gondola"
  ],
  "next": [
   "c3-d1",
   "c3-d2",
   "c3-d0"
  ],
- "picture": "Along the wooden plank floor, the mustachioed man in red poncho, straw hat, and guitar stands just left of centre. On the left, a brass book cart lift waits beside a chute. On the right idles a glowing blue night bus, while on the far right a striped ferris gondola hangs docked.",
+ "picture": "Pixel art flat side view. Along the rooftop sky-deck, arranged left to right: a brass pulley book cart lift with an open gate, the tall Latino player standing at centre by the red ladder top, an idling purple night bus at a ramp stop, and a striped ferris wheel gondola hanging open.",
  "shown": [
-  "a dangling metal book cart lift on the left, waiting with gates open",
-  "a glowing blue night bus parked at an indoor depot on the right",
-  "a red striped ferris wheel gondola hanging stationary on the far right"
- ]
+  "a brass book cart lift with an open gate on the far left",
+  "a purple night bus idling at a rooftop ramp stop on the right",
+  "a striped ferris wheel gondola swaying beside the rail on the far right"
+ ],
+ "view": "wide"
 }

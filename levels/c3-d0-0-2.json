@@ -1,9 +1,9 @@
 {
  "id": "c3-d0-0-2",
- "scene": "The machine chimes, spitting tickets for three curious transit lines outside.",
+ "scene": "At the carousel edge, three outgoing transit routes wait for passengers.",
  "options": [
-  "Hail bicycle rickshaw",
-  "Board book lift",
+  "Hire bicycle rickshaw",
+  "Board cart lift",
   "Catch night bus"
  ],
  "next": [
@@ -11,11 +11,11 @@
   "c3-d1",
   "c3-d2"
  ],
- "picture": "Flat side view under glowing festival lanterns. On the left stands a bicycle rickshaw with red canopies. Left of centre, the tall Latino player with moustache, straw hat, poncho and guitar inspects three tickets beside the fortune booth. Centre stands an open book cart lift. Far right idles a glowing blue night bus.",
+ "picture": "A flat side view along the carnival boundary. On the far left sits a yellow bicycle rickshaw. Left of centre, the tall Latino man in his teal jacket and messenger bag stands beside the carousel railing. To his right, an iron book cart lift waits, beside an idling purple night bus on the far right.",
  "shown": [
-  "A tasseled bicycle rickshaw waiting empty on the far left. street level",
-  "An open brass book cart lift cage resting in the centre",
-  "A glowing double-decker night bus idling on the far right"
+  "a yellow bicycle rickshaw with canopy parked on the far left",
+  "a mechanical brass book cart lift with open cage on the right",
+  "an idling purple night bus with doors open on the far right"
  ],
  "view": "wide"
 }

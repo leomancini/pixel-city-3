@@ -1,20 +1,21 @@
 {
  "id": "c3-d0-1",
- "scene": "The wooden carousel spins into a glowing vortex.",
+ "scene": "You mount the mechanical brass horse as the carousel begins to whir.",
  "options": [
-  "Grab dangling rope",
-  "Leap to platform",
-  "Kick open portal"
+  "Twist brass key",
+  "Grab gold ring",
+  "Leap to platform"
  ],
  "next": [
   "c3-d0-1-0",
   "c3-d0-1-1",
   "c3-d0-1-2"
  ],
- "picture": "On a level ground line, the tall Latino man in his straw hat and red poncho sits atop a painted wooden horse in the centre. The carousel whirls with neon sparkles. A stationary exit platform sits on the far left, a swinging rope hangs up high, and a mirror door glows on the far right.",
+ "picture": "A flat side view of the whirling carousel deck. Left sits an empty painted swan seat. In the centre, the tall Latino man in his teal jacket sits mounted on an ornate brass horse with a wind-up key in its neck. Overhead up high dangles a gold ring, and on the right is the wooden exit platform.",
  "shown": [
-  "A thick braided rope swinging wildly up high above the spinning deck.",
-  "A wooden disembarking platform waiting stationary on the far left.",
-  "A swirling magenta mirror door installed on the far right."
- ]
+  "A large wind-up brass key sticking out of the horse's neck in the centre.",
+  "An overhead iron arm holding a single dangling gold ring up high.",
+  "The stationary wooden exit ramp waiting just beyond the carousel edge on the right."
+ ],
+ "view": "wide"
 }

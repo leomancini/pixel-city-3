@@ -1,20 +1,21 @@
 {
  "id": "c3-d3-2",
- "scene": "You reach the windmill catwalk high above the windy city.",
+ "scene": "Behind the fluttering quilts, you discover a secret rooftop pigeon coop.",
  "options": [
-  "Turn brass telescope",
-  "Grip spinning sail",
-  "Enter wooden door"
+  "Open metal coop",
+  "Read tacked note",
+  "Climb fire ladder"
  ],
  "next": [
   "c3-d3-2-0",
   "c3-d3-2-1",
   "c3-d3-2-2"
  ],
- "picture": "A wooden catwalk platform runs along the bottom. On the far left, a brass telescope points down. In the centre, the mustachioed man stands in his red poncho and straw hat with guitar on back. Up high, a large canvas sail sweeps across. On the far right stands a closed round wooden door.",
+ "picture": "Pixel art flat side view. On the level rooftop deck, arranged left to right: a wire pigeon coop full of grey birds on the left, a tall wooden laundry pole with a pinned yellow note at centre, the tall Latino player searching by colourful quilts, and a red fire ladder mounted on the far right brick wall.",
  "shown": [
-  "a mounted brass telescope pointing downward on the far left of the catwalk",
-  "a massive canvas windmill sail sweeping close by up high",
-  "a closed round wooden door set into the windmill tower on the far right"
- ]
+  "a rusty wire coop holding cooing grey pigeons on the left",
+  "a yellowed paper note pinned to the central wooden pole",
+  "a red metal ladder leading down the exterior brick wall right"
+ ],
+ "view": "wide"
 }

@@ -1,20 +1,21 @@
 {
  "id": "c3-d3-2-1",
- "scene": "The sail flings you onto a transit platform overlooking distant districts.",
+ "scene": "The pigeon keeper's note lists three secret departure routes leaving right now.",
  "options": [
-  "Board ferris gondola",
-  "Ride book cart",
-  "Catch night bus"
+  "Ride carnival gondola",
+  "Take book lift",
+  "Board night bus"
  ],
  "next": [
   "c3-d0",
   "c3-d1",
   "c3-d2"
  ],
- "picture": "A level metal transfer platform runs along the bottom under the night sky. On the left, a glowing ferris wheel gondola hangs open. In the centre, the mustachioed man in his straw hat and poncho stands near a wheeled book cart on rails. On the far right, an open blue night bus idles.",
+ "picture": "Pixel art flat side view. Along the rooftop deck, arranged left to right: a glowing neon carnival ferris gondola docked at an iron mooring, the tall Latino player holding a paper note, an open iron book cart lift on pulleys, and a purple double-decker night bus idling at a bridge ramp on the right.",
  "shown": [
-  "A glowing ferris wheel gondola waits open on the left platform edge.",
-  "A wooden book cart on rails stands idle in the centre.",
-  "A blue night bus idles with doors open on the far right."
- ]
+  "a swinging neon carnival gondola tethered to a roof mooring on the left",
+  "an iron pulley lift stacked with leatherbound tomes in the centre",
+  "a purple double-decker bus waiting beside the rooftop ramp on the right"
+ ],
+ "view": "wide"
 }

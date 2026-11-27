@@ -1,9 +1,9 @@
 {
  "id": "c3-d0-1-1",
- "scene": "You land safely on the platform as carnival shuttles await.",
+ "scene": "Snatching the ring dispenses a sparkling token at the carnival exit gate.",
  "options": [
-  "Ride bicycle rickshaw",
-  "Take book cart",
+  "Take bicycle rickshaw",
+  "Ride book cart",
   "Board night bus"
  ],
  "next": [
@@ -11,10 +11,11 @@
   "c3-d1",
   "c3-d2"
  ],
- "picture": "On a level ground line, the tall Latino man in straw hat and red poncho stands centre on a platform, guitar on back. To the far left sits a waiting bicycle rickshaw. Up high sits an open book cart lift. On the far right waits an idling night bus with doors open.",
+ "picture": "A flat side view along the carnival exit plaza. On the far left waits a striped bicycle rickshaw. In the centre stands the tall Latino man in his teal jacket holding a brass ring. To his right sits a book cart lift, and on the far right an idling neon night bus.",
  "shown": [
-  "a striped bicycle rickshaw parked on the far left",
-  "a vertical book cart lift waiting open up high",
-  "a glowing neon night bus with doors open on the far right"
- ]
+  "a striped bicycle rickshaw waiting by the curb on the far left",
+  "a brass book cart lift with an open gate on the right",
+  "a glowing neon night bus idling at the far right stop"
+ ],
+ "view": "wide"
 }

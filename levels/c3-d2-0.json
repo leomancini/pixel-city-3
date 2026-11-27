@@ -1,20 +1,21 @@
 {
  "id": "c3-d2-0",
- "scene": "Your tuned chords catch everyone's ear in the smoky basement.",
+ "scene": "The saxophonist winks and nods toward the open velvet-lined instrument case.",
  "options": [
-  "Join brass band",
-  "Take glowing soda",
-  "Climb emergency ladder"
+  "Toss coin in",
+  "Read sheet music",
+  "Climb backstage stairs"
  ],
  "next": [
   "c3-d2-0-0",
   "c3-d2-0-1",
   "c3-d2-0-2"
  ],
- "picture": "Side view along a wooden floor line. At far left, a rusty metal ladder rises up the brick wall. You stand centre left holding your polished guitar, wearing your straw hat and red poncho. At centre, a smiling brass band pauses with instruments raised. At far right, a green glowing soda sits on the counter.",
+ "picture": "Along a single level floor, an open saxophone case rests on the far left next to a seated saxophonist playing. A tall sheet music stand stands in the centre. The player stands centre-right facing left. A short spiral staircase rises on the far right under a warm spotlight.",
  "shown": [
-  "a beaming trumpet player on stage at centre holding his horn ready",
-  "a bubbling green soda glass sitting unattended on the counter at far right",
-  "a rusty metal ladder fixed to the brick wall at far left"
- ]
+  "an open velvet-lined saxophone case resting on the floor at the far left",
+  "a metal music stand holding handwritten sheet music in the centre",
+  "a short wooden spiral staircase with a brass railing on the far right"
+ ],
+ "view": "wide"
 }

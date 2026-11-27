@@ -1,20 +1,21 @@
 {
  "id": "c3-d3-0-2",
- "scene": "The happy pigeon coos loudly, summoning three curious transports.",
+ "scene": "You cross the swaying catwalk onto a bustling high-altitude transit terrace.",
  "options": [
-  "Take night bus",
-  "Board ferris wheel",
-  "Ride book cart"
+  "Board night bus",
+  "Enter carnival gondola",
+  "Ride book lift"
  ],
  "next": [
   "c3-d2",
   "c3-d0",
   "c3-d1"
  ],
- "picture": "Across the flat rooftop ground line, the neon night bus idles on the far left. Left of centre, the tall mustachioed man in his straw hat and red poncho pats the rooftop pigeon. A glowing ferris wheel gondola floats up high. On the far right waits an open mechanical book cart lift.",
+ "picture": "Pixel art flat side view. Along one level metal terrace line, from left to right: a glowing night bus with open folding doors, the tall Latino player in a teal bomber jacket holding his messenger bag, an open swinging ferris wheel gondola, and a brass book cart lift with an open gate.",
  "shown": [
-  "a sleek neon-lit night bus parked on the street on the far left",
-  "a glowing carnival ferris wheel gondola hovering open up high",
-  "a mechanical book cart lift resting on tracks on the far right"
- ]
+  "a sleek neon-lit night bus idling with doors open on the far left",
+  "a glowing red ferris wheel gondola waiting open at the platform edge right",
+  "a brass book cart lift cage resting open on rails at the far right"
+ ],
+ "view": "wide"
 }

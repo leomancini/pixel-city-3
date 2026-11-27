@@ -1,20 +1,21 @@
 {
  "id": "c3-d2",
- "scene": "You step off the night bus into smoky Jazz Basement.",
+ "scene": "You step off the night bus into a smoky-blue subterranean jazz club.",
  "options": [
-  "Tune your guitar",
-  "Tip trumpet player",
-  "Order glowing soda"
+  "Approach the band",
+  "Take empty table",
+  "Greet the bartender"
  ],
  "next": [
   "c3-d2-0",
   "c3-d2-1",
   "c3-d2-2"
  ],
- "picture": "Side view along a single wooden floor line. At far left stands a neon night bus with doors open. You stand at centre left with moustache, straw hat, red poncho, and strapped guitar. A brass band plays at centre, beside a stool with a tip jar. A soda counter sits at far right.",
+ "picture": "On a level floor, the rear bumper of a glowing night bus sits at the far left door. The brass band plays on a stage on the left. The player stands centre-left facing forward, near an empty candlelit table in the centre. A curved drink counter stands on the right.",
  "shown": [
-  "your acoustic guitar strapped on your back at centre left",
-  "a golden tip jar sitting on a stool at centre right",
-  "a sparkling blue bottle on the counter at far right"
- ]
+  "a lively four-piece brass band performing on a low stage on the left",
+  "an unoccupied round wooden table with a lit candle in the centre",
+  "a cheerful bartender polishing a tall glass behind a counter on the right"
+ ],
+ "view": "wide"
 }

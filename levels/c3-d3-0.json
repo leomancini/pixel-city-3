@@ -1,20 +1,21 @@
 {
  "id": "c3-d3-0",
- "scene": "The rusty hatch squeals open to reveal a ladder down.",
+ "scene": "The cheerful driver hands you a brass token and pedals away.",
  "options": [
-  "Climb down hatch",
-  "Pick up wrench",
-  "Pet rooftop pigeon"
+  "Examine brass token",
+  "Enter windmill door",
+  "Hop across catwalk"
  ],
  "next": [
   "c3-d3-0-0",
   "c3-d3-0-1",
   "c3-d3-0-2"
  ],
- "picture": "Rooftop tiles run along the ground line. On the far left sits a shiny chrome wrench. Left of centre, an open rusty hatch reveals a metal ladder leading down. In the centre stands the tall mustachioed man in his red poncho, straw hat, and guitar. On the far right, a pigeon sits on a chimney.",
+ "picture": "Pixel art flat side view. On the level wooden roof deck, from left to right: the base of the wooden windmill with a closed arched door, the tall Latino player in a teal bomber jacket and messenger bag holding a shiny brass token, a potted rooftop fern, and a wooden suspension catwalk leading off the roof edge right.",
  "shown": [
-  "the dark open hatchway with a metal ladder inside, left of centre",
-  "a shiny chrome wrench lying on the tiles, far left",
-  "a chubby grey pigeon perched atop a brick chimney, far right"
- ]
+  "a gleaming brass gear-token held out in the player's palm in the centre",
+  "an arched wooden door set into the windmill tower on the left",
+  "a narrow suspension catwalk connecting to an adjacent rooftop on the far right"
+ ],
+ "view": "wide"
 }

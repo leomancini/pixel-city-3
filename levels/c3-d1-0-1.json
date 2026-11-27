@@ -1,20 +1,21 @@
 {
  "id": "c3-d1-0-1",
- "scene": "The astrolabe unlocks an archway showing three street exits.",
+ "scene": "The glowing book reveals an exit balcony overlooking three bustling transit docks.",
  "options": [
-  "Catch night bus",
-  "Hail bicycle rickshaw",
-  "Board carnival gondola"
+  "Board night bus",
+  "Take bicycle rickshaw",
+  "Enter ferris gondola"
  ],
  "next": [
   "c3-d2",
   "c3-d3",
   "c3-d0"
  ],
- "picture": "Side-view pixel art along a rafter opening onto a rooftop platform. On the far left, a glowing blue night bus waits at a stop sign. At centre stands the tall Latino player with moustache, straw hat, red poncho, holding the golden astrolabe. Right of centre waits a bicycle rickshaw, and on the far right hangs a neon ferris wheel gondola.",
+ "picture": "Side-scrolling view of a stone balcony. On the far left, a neon night bus waits with an open door. Near left, the player in a teal jacket holds a glowing blue book. In the centre sits an empty bicycle rickshaw. On the far right, an open ferris wheel gondola hangs level with the railing.",
  "shown": [
-  "a glowing blue night bus waiting at a bus stop on the far left",
-  "a striped bicycle rickshaw parked with driver waiting right of centre",
-  "a swinging neon ferris wheel gondola hanging open on the far right"
- ]
+  "a sleek neon night bus with doors open on the far left",
+  "a canopy bicycle rickshaw with an idle driver in the centre",
+  "an illuminated ferris wheel gondola hanging open on the far right"
+ ],
+ "view": "wide"
 }

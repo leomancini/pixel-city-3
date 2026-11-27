@@ -1,9 +1,9 @@
 {
  "id": "c3-d2-2-1",
- "scene": "The jukebox swings open into a secret transit alley.",
+ "scene": "The jukebox slides aside, revealing three strange departure platforms behind the bar.",
  "options": [
-  "Board ferris gondola",
-  "Enter book lift",
+  "Board carnival gondola",
+  "Ride book cart",
   "Hail bicycle rickshaw"
  ],
  "next": [
@@ -11,10 +11,11 @@
   "c3-d1",
   "c3-d3"
  ],
- "picture": "Along the stone pavement ground line, an open striped ferris wheel gondola dangles at far left. At centre waits an open brass book cart lift. You stand at right in your red poncho, straw hat, and guitar, facing an idle yellow bicycle rickshaw parked at far right with its driver.",
+ "picture": "Flat side view along the opened basement wall. On the far left, a swinging ferris wheel gondola hangs from a rail. The player stands left-of-centre in teal bomber jacket and messenger bag. In the centre sits a brass book cart lift on vertical tracks. On the far right waits a bicycle rickshaw with red canopy.",
  "shown": [
-  "A swinging striped ferris wheel gondola hanging open at far left",
-  "A clanking brass book cart lift with doors open at centre",
-  "A yellow bicycle rickshaw with an idle driver waiting at far right"
- ]
+  "a striped ferris wheel gondola hanging from an overhead rail on the far left",
+  "a brass book cart lift with an open gate in the centre",
+  "a pedal-powered bicycle rickshaw waiting by a tunnel exit on the far right"
+ ],
+ "view": "wide"
 }

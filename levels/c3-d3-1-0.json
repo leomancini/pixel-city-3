@@ -1,20 +1,21 @@
 {
  "id": "c3-d3-1-0",
- "scene": "The caught map reveals three midnight routes leaving the flats.",
+ "scene": "The wound finch chirps, unlocking three hidden transit stations across the platform.",
  "options": [
-  "Ride book lift",
+  "Ride book cart",
   "Board night bus",
-  "Climb wheel gondola"
+  "Enter carnival gondola"
  ],
  "next": [
   "c3-d1",
   "c3-d2",
   "c3-d0"
  ],
- "picture": "Across flat brick roof platforms, the tall man in a red poncho, straw hat, and guitar stands left of centre holding a map. On the far left, a mechanical book cart lift hangs waiting. Centre right, a glowing green night bus idles. On the far right, a swinging ferris wheel gondola sits open.",
+ "picture": "Side-scrolling wide view of the rooftop platform under early evening twilight. The player in teal bomber jacket stands centre beside the windmill vane. At far left rests a brass book cart lift over a chute. To the right idles a purple night bus, and at far right waits an open carnival gondola.",
  "shown": [
-  "A pulley-suspended book cart lift sits open on the far left platform",
-  "A glowing green night bus idles patiently at the centre curb",
-  "An open ferris wheel gondola hangs ready on the far right"
- ]
+  "an open-topped brass book cart lift waiting on rails at the far left",
+  "a sleek purple night bus parked idling at the platform curb on the right",
+  "a striped ferris wheel gondola hanging stationary beside a boarding gate at the far right"
+ ],
+ "view": "wide"
 }

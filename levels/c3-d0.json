@@ -1,9 +1,9 @@
 {
  "id": "c3-d0",
- "scene": "You step off the gondola into Midnight Carnival.",
+ "scene": "You step off the ferris wheel gondola into bustling Midnight Carnival.",
  "options": [
-  "Play fortune booth",
-  "Mount wooden horse",
+  "Insert copper token",
+  "Ride brass horse",
   "Enter striped tent"
  ],
  "next": [
@@ -11,10 +11,11 @@
   "c3-d0-1",
   "c3-d0-2"
  ],
- "picture": "In a side-scrolling view, an open ferris wheel gondola sits on the far left. The tall Latino man with a moustache, straw hat, poncho, and guitar stands beside it. Next is a glowing fortune booth, then a carousel with horses in the centre, and an open striped tent on the far right.",
+ "picture": "A flat side view of a carnival promenade under night sky. Far left sits the open ferris wheel gondola. The tall Latino man stands left of centre in his teal bomber jacket and jeans. On the left stands a glowing fortune booth, in the centre spins a carousel, and on the right stands a striped tent.",
  "shown": [
-  "A glowing Zoltar-style mechanical fortune booth with red velvet curtains on the left.",
-  "A spinning carousel with painted wooden horses and brass poles in the centre.",
-  "A tall striped circus tent with a flap pinned open on the right."
- ]
+  "a glowing robotic fortune teller booth sitting silently on the left",
+  "an ornate carousel spinning slowly with vacant brass saddles at the centre",
+  "a purple-striped canvas tent with a parted curtain door on the right"
+ ],
+ "view": "wide"
 }

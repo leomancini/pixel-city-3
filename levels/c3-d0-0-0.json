@@ -1,21 +1,21 @@
 {
  "id": "c3-d0-0-0",
- "scene": "The machine clatters, spitting tickets pointing toward three waiting rides outside.",
+ "scene": "Your fortune card reads: 'Three roads depart before the dawn breaks.'",
  "options": [
-  "Take cart lift",
+  "Ride book lift",
   "Board night bus",
-  "Hail bicycle rickshaw"
+  "Hire bicycle rickshaw"
  ],
  "next": [
   "c3-d1",
   "c3-d2",
   "c3-d3"
  ],
- "picture": "Side-scrolling view under starry skies. On the far left, a hanging metal book cart lift dangles from cables. Next, the coin machine spits tickets beside the player in his straw hat and red poncho. In the centre, a purple night bus idles. On the far right waits a pedal-powered bicycle rickshaw.",
+ "picture": "A flat side view along the carnival perimeter transit curb. On the left, a brass book cart lift sits open beside vertical rails. In the centre, an idling blue night bus sits with interior warm lights on. On the right, a pedal-powered bicycle rickshaw rests. Left of centre, the tall Latino man holds his fortune card.",
  "shown": [
-  "a dangling open book cart lift hanging empty on the far left",
-  "a sleek purple night bus idling with doors open in the centre",
-  "a striped bicycle rickshaw waiting with an attentive driver on the far right"
+  "a mechanical brass book cart lift waiting open on the left",
+  "a glowing blue night bus idling in the centre with open doors",
+  "a striped bicycle rickshaw parked ready on the right"
  ],
  "view": "wide"
 }

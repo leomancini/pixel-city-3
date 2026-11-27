@@ -1,21 +1,21 @@
 {
  "id": "c3-d0-0-1",
- "scene": "The glowing ball reveals three exits leading right out of the carnival.",
+ "scene": "The dial clicks, and the booth unfolds into an illuminated transit plaza.",
  "options": [
-  "Take night bus",
-  "Ride bicycle rickshaw",
-  "Board book cart"
+  "Board night bus",
+  "Take bicycle rickshaw",
+  "Enter book lift"
  ],
  "next": [
   "c3-d2",
   "c3-d3",
   "c3-d1"
  ],
- "picture": "A flat side view along the carnival promenade at night. On the far left sits an idling neon night bus. Towards the centre is the player in straw hat and red poncho, beside a waiting bicycle rickshaw. On the far right, a caged book cart lift stands open by the exit gates.",
+ "picture": "A flat side view along a glowing stone transit plaza. On the far left, a sleek neon night bus sits with doors open. Left of centre, a tasseled bicycle rickshaw waits with a driver. Right of centre, the tall Latino man in teal jacket stands. On the far right, an open brass book cart lift waits.",
  "shown": [
-  "a sleek neon night bus idling on the far left curb",
-  "a canopy bicycle rickshaw parked in the centre by the player",
-  "a caged book cart lift door standing open on the far right"
+  "a sleek neon night bus with doors open on the far left",
+  "a tasseled bicycle rickshaw with waiting driver sitting left of centre",
+  "a brass book cart lift with folding grate on the far right"
  ],
  "view": "wide"
 }

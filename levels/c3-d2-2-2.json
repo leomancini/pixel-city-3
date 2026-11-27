@@ -1,20 +1,21 @@
 {
  "id": "c3-d2-2-2",
- "scene": "The cat pianist nods and plays a secret exit song.",
+ "scene": "Behind the stage, a bustling service junction reveals three surprising transit gates.",
  "options": [
-  "Ride book cart",
-  "Board bicycle rickshaw",
-  "Take ferris gondola"
+  "Ride book lift",
+  "Hire bicycle rickshaw",
+  "Board ferris gondola"
  ],
  "next": [
   "c3-d1",
   "c3-d3",
   "c3-d0"
  ],
- "picture": "Side view along the club floor. At far left is an open brass book cart lift. Left of centre sits a parked bicycle rickshaw. In the centre, the cool cat taps piano keys while you sit on the bench in your red poncho and straw hat. At far right, an open arch reveals a swinging ferris gondola.",
+ "picture": "Side-scrolling flat view of a subterranean brick junction. On the left stands a brass book cart lift with open cage doors. The player in his teal bomber jacket stands centre-left. In the centre waits a striped bicycle rickshaw with its driver. On the right, a glowing ferris wheel gondola sits docked beside an archway.",
  "shown": [
-  "a brass book cart lift with open cage gates standing at far left",
-  "a pedal-powered rickshaw waiting beside an open cellar rampway on the left",
-  "a dangling red ferris wheel gondola hanging in an archway at far right"
- ]
+  "a mechanical brass book cart lift with open metal gates on the left",
+  "a striped bicycle rickshaw with a nodding driver waiting in the centre",
+  "a neon-lit ferris wheel gondola docked at an open portal on the right"
+ ],
+ "view": "wide"
 }

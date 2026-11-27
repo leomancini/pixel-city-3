@@ -1,9 +1,9 @@
 {
  "id": "c3-d2-1",
- "scene": "The tipped trumpeter hands you a brass key.",
+ "scene": "You sit down; an origami crane and a matchbook rest beside the candle.",
  "options": [
-  "Unlock side door",
-  "Play along",
+  "Unfold origami crane",
+  "Strike match",
   "Climb spiral stairs"
  ],
  "next": [
@@ -11,10 +11,11 @@
   "c3-d2-1-1",
   "c3-d2-1-2"
  ],
- "picture": "Side view along a single level wooden floor. At far left stands a heavy iron door with a brass keyhole. You stand at centre left in your red poncho, moustache, and straw hat, holding a brass key. At centre, the smiling trumpeter plays his horn. At far right, spiral stairs ascend.",
+ "picture": "A flat side-scrolling view of the club interior. On the level floor, the brass band plays on the far left. The player sits centre-left at the candlelit round table. On the tabletop sit a paper crane on the left and a matchbook in the centre. A spiral staircase rises on the far right.",
  "shown": [
-  "a heavy iron door fitted with a brass lock at far left",
-  "the smiling trumpeter holding his shining trumpet ready at centre",
-  "a winding iron staircase leading up high at far right"
- ]
+  "A folded teal paper crane resting on the tabletop on the left",
+  "A small vintage matchbook lying next to the candle in the centre",
+  "An ornate brass spiral staircase leading upward on the far right"
+ ],
+ "view": "wide"
 }

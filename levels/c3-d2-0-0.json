@@ -1,20 +1,21 @@
 {
  "id": "c3-d2-0-0",
- "scene": "The jam session ends with cheers and three open back-exit departures.",
+ "scene": "Your coin clicks inside, triggering a secret wall that slides wide open.",
  "options": [
-  "Ride ferris gondola",
-  "Board cart lift",
-  "Hire bicycle rickshaw"
+  "Board carnival gondola",
+  "Ride book lift",
+  "Take bicycle rickshaw"
  ],
  "next": [
   "c3-d0",
   "c3-d1",
   "c3-d3"
  ],
- "picture": "Side view along the club floor. At far left, an open carnival ferris gondola hangs past a service doorway. You stand centre left with your guitar on your back, bowing in straw hat and poncho. Centre right, a book cart lift waits with open doors. At far right, a brass rickshaw sits parked outside.",
+ "picture": "Along a level floor, a glowing ferris wheel gondola waits at a low platform on the far left. In the centre, an open brass book cart lift stands ready. The player stands centre-right facing left. On the far right waits a brightly striped bicycle rickshaw with its driver sitting up straight.",
  "shown": [
-  "a swinging neon ferris wheel gondola hanging open at far left",
-  "a creaking wooden book cart lift waiting open at centre right",
-  "a brass bicycle rickshaw waiting with a driver at far right"
- ]
+  "a glowing neon ferris wheel gondola waiting stationary at an outdoor platform, far left",
+  "a brass book cart lift with an open gate and lever, centre",
+  "a striped bicycle rickshaw with an idling driver ready to depart, far right"
+ ],
+ "view": "wide"
 }

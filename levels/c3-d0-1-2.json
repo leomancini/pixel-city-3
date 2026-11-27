@@ -1,8 +1,8 @@
 {
  "id": "c3-d0-1-2",
- "scene": "You burst through the portal onto Carnival Plaza.",
+ "scene": "You land safely on the platform as carnival transit options wait outside.",
  "options": [
-  "Take book lift",
+  "Ride book lift",
   "Board night bus",
   "Hail bicycle rickshaw"
  ],
@@ -11,10 +11,11 @@
   "c3-d2",
   "c3-d3"
  ],
- "picture": "On a level ground line, the tall Latino man in his straw hat and red poncho lands in the centre beside a shattered glowing mirror frame. A mechanical book cart lift sits open on the far left, an idling purple night bus waits on the right, and a striped bicycle rickshaw waits on the far right.",
+ "picture": "A flat side view along the carnival exit plaza. On the far left sits a brass book cart lift with open metal gates. Next to it stands the tall Latino player in his teal jacket and messenger bag. At centre idles a blue night bus with its doors open. Far right waits a canopied bicycle rickshaw.",
  "shown": [
-  "a mechanical book cart lift with open cage doors on the far left",
-  "a glowing purple night bus idling at a sign on the right",
-  "a striped bicycle rickshaw with a bell-ringing driver on the far right"
- ]
+  "A clanking brass book cart lift with an open gate on the far left",
+  "A glowing blue night bus idling with its passenger doors open at centre",
+  "A canopied bicycle rickshaw with a friendly driver waving on the far right"
+ ],
+ "view": "wide"
 }

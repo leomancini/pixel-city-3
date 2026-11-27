@@ -1,8 +1,8 @@
 {
  "id": "c3-d3-1-2",
- "scene": "You zip down to a busy hub at the flats' edge.",
+ "scene": "Back on the ground, travel hubs fan out along the vibrant promenade.",
  "options": [
-  "Ride carnival gondola",
+  "Ride ferris wheel",
   "Take book lift",
   "Board night bus"
  ],
@@ -11,10 +11,11 @@
   "c3-d1",
   "c3-d2"
  ],
- "picture": "A stone terrace runs across the bottom. On the far left hangs an open ferris wheel gondola. Left of centre, the tall man in a red poncho, straw hat, and guitar lands safely. To his right waits an open brass book cart lift. On the far right sits a parked night bus with open doors.",
+ "picture": "Flat side view on a wooden promenade. The player stands left of centre in his teal bomber jacket and messenger bag. Far left sits an open gondola of a glowing carnival ferris wheel. In the centre waits an open brass book cart lift. To the right idles a neon-lit purple night bus.",
  "shown": [
-  "A glowing open ferris wheel gondola waiting at a platform on the far left",
-  "An empty brass book cart lift with its metal gate open on the right",
-  "A humming blue night bus parked with doors folded open on the far right"
- ]
+  "a glowing carnival ferris wheel with an open gondola waiting far left",
+  "a mechanical brass book cart lift with open metal gate at centre",
+  "a vintage neon-lit night bus idling with its passenger door open right"
+ ],
+ "view": "wide"
 }

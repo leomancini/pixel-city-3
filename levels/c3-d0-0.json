@@ -1,21 +1,21 @@
 {
  "id": "c3-d0-0",
- "scene": "A mechanical fortune teller whirs to life behind ornate glass.",
+ "scene": "The mechanical fortune teller clatters alive inside its ornate glass case.",
  "options": [
-  "Insert copper coin",
-  "Touch crystal ball",
-  "Turn brass key"
+  "Read card slip",
+  "Turn brass dial",
+  "Walk to carousel"
  ],
  "next": [
   "c3-d0-0-0",
   "c3-d0-0-1",
   "c3-d0-0-2"
  ],
- "picture": "A first-person close view inside the fortune teller machine. The player's brown hands hover near the controls. On the left is a brass coin slot. In the centre rests a softly pulsing crystal ball mounted on velvet. On the right protrudes a heavy brass key mechanism waiting to be turned.",
+ "picture": "A flat side view along the carnival boardwalk. On the far left, the painted carousel rotates with wooden mounts. In the centre, the mechanical fortune booth glows with an animatronic seer holding a crystal ball behind glass. The tall Latino man in his teal jacket stands left of centre, watching the booth.",
  "shown": [
-  "a gleaming brass coin slot sits unlit on the left",
-  "a glowing glass sphere rests unhandled in the centre",
-  "a heavy ornate key protrudes uncranked on the right"
+  "A printed white card slip sticking out from the dispenser chute centre right.",
+  "A circular brass dial set below the glass case on the far right.",
+  "The revolving carousel with painted wooden horses visible outside on the far left."
  ],
- "view": "close"
+ "view": "wide"
 }

@@ -1,20 +1,21 @@
 {
  "id": "c3-d1-2",
- "scene": "The whispering librarian offers a stamped brass card.",
+ "scene": "The green drawer slides open, revealing miniature mechanical archives and punched cards.",
  "options": [
-  "Take brass card",
-  "Play quiet melody",
-  "Enter dumbwaiter shaft"
+  "Take punch card",
+  "Turn brass dial",
+  "Peep into lens"
  ],
  "next": [
   "c3-d1-2-0",
   "c3-d1-2-1",
   "c3-d1-2-2"
  ],
- "picture": "Side-view pixel art of a towering book archive along a level wooden floor. On far left, a small square dumbwaiter hatch stands open. Left of centre, the tall Latino man in straw hat, red poncho, and guitar leans forward. On far right, the whispering librarian in spectacles holds out a stamped brass card.",
+ "picture": "A first-person close-up view of the polished mahogany drawer pulled open. On the left lies an embossed brass punch card illuminated with tiny holes. In the centre, interconnected clockwork cogs spin around a knurled brass selector dial. On the right, a convex glass viewer lens glows with warm inner light.",
  "shown": [
-  "a shining brass card held outstretched in the librarian's hand on far right",
-  "the wooden acoustic guitar strapped onto the player's back left of centre",
-  "a small wooden dumbwaiter hatch built into the wall on the far left"
- ]
+  "a perforated brass card resting on the left side of the drawer",
+  "a tiny geared dial spinning gently in the centre of the drawer",
+  "a glowing magnifying lens set into the right edge of the drawer"
+ ],
+ "view": "close"
 }

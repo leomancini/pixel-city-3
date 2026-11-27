@@ -1,20 +1,21 @@
 {
  "id": "c3-d3-0-0",
- "scene": "Below the hatch lies a hidden transit vault.",
+ "scene": "The token reveals three engraved destinations across Pixel City.",
  "options": [
-  "Ride ferris wheel",
-  "Take book cart",
-  "Board night bus"
+  "Ride ferris gondola",
+  "Board cart lift",
+  "Catch night bus"
  ],
  "next": [
   "c3-d0",
   "c3-d1",
   "c3-d2"
  ],
- "picture": "Concrete floor stretches along the ground line. On the far left rests an open ferris wheel gondola. In the centre sits a brass book cart lift with open doors. Left of centre stands the tall mustachioed man in his red poncho and straw hat, guitar on back. On the far right waits a purple night bus.",
+ "picture": "Pixel art flat side view. On a level rooftop transit platform under dusk skies, from left to right: an ornate ferris wheel gondola docked at an iron platform, the tall Latino player holding the brass token, a brass-geared book cart lift waiting open, and a glowing purple night bus idling at a stop sign.",
  "shown": [
-  "a glowing ferris wheel gondola perched on tracks on the far left",
-  "a brass book cart lift with open doors in the centre",
-  "a neon-lit purple night bus waiting on the far right"
- ]
+  "a glowing ferris wheel gondola docked at an iron gate on the left",
+  "a mechanical book cart lift with an open gate in the centre",
+  "a purple night bus waiting at a roadside stop on the right"
+ ],
+ "view": "wide"
 }

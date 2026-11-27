@@ -1,20 +1,21 @@
 {
  "id": "c3-d0-2-1",
- "scene": "Your toss hits the jackpot, revealing departures outside the exit.",
+ "scene": "The acrobat points outside toward three waiting rides along the carnival exit.",
  "options": [
   "Ride book cart",
   "Board night bus",
-  "Take bicycle rickshaw"
+  "Hire bicycle rickshaw"
  ],
  "next": [
   "c3-d1",
   "c3-d2",
   "c3-d3"
  ],
- "picture": "Outside the tent exit along a flat sidewalk, a mechanical book cart lift hangs on the far left. The tall Latino man in poncho, hat, and guitar stands left of centre. A blue night bus idles in the centre. A striped bicycle rickshaw waits on the far right.",
+ "picture": "A flat side view along the carnival exit boardwalk. On the far left, the acrobat in patterned tights gestures forward. Left of centre, the tall Latino man listens with his messenger bag. Left sits an open book cart lift on rails. In the centre idles a purple night bus. On the right waits a pedal rickshaw.",
  "shown": [
-  "A clanking book cart lift hanging from cables on the far left",
-  "A glowing midnight bus idling by a curb in the centre",
-  "A wheeled bicycle rickshaw with a bell parked on the far right"
- ]
+  "an open-air brass book cart lift waiting on vertical rails on the left",
+  "a luminous purple night bus idling at a marked post in the centre",
+  "a striped bicycle rickshaw with a velvet passenger seat on the right"
+ ],
+ "view": "wide"
 }

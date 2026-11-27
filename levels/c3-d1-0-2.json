@@ -1,9 +1,9 @@
 {
  "id": "c3-d1-0-2",
- "scene": "You slide down outside onto a busy night plaza.",
+ "scene": "Across the swaying bridge, you emerge onto an open balcony transit hub.",
  "options": [
-  "Hail bicycle rickshaw",
-  "Board ferris gondola",
+  "Take bicycle rickshaw",
+  "Board carnival gondola",
   "Catch night bus"
  ],
  "next": [
@@ -11,10 +11,11 @@
   "c3-d0",
   "c3-d2"
  ],
- "picture": "Flat side view on a moonlit cobblestone street. On far left waits a yellow bicycle rickshaw with an empty rear cab. Left of centre stands the tall Latino player with moustache, straw hat, red poncho, and guitar. Right of centre hangs a glowing open ferris wheel gondola. On far right idles a glowing night bus.",
+ "picture": "Flat side view of a stone balcony hub under the starry sky. On the far left, a driver waits by a bicycle rickshaw. Left of centre, the player stands carrying his messenger bag. In the centre, an open glowing ferris wheel gondola hovers at the ledge. On the far right, a double-decker night bus waits.",
  "shown": [
-  "A yellow bicycle rickshaw with an empty cushioned passenger seat on far left.",
-  "A swinging glowing ferris wheel gondola hanging open right of centre.",
-  "A purplish double-decker night bus idling with doors open on far right."
- ]
+  "a striped bicycle rickshaw parked on the left with an eager cyclist",
+  "a swinging glowing ferris wheel gondola docked at the centre railing",
+  "a glowing blue double-decker night bus idling on the far right"
+ ],
+ "view": "wide"
 }

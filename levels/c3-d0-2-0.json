@@ -1,9 +1,9 @@
 {
  "id": "c3-d0-2-0",
- "scene": "The robot mime bows and points out three exits.",
+ "scene": "The opened brass music box projects glowing transit tickets into the air.",
  "options": [
   "Ride bicycle rickshaw",
-  "Take book lift",
+  "Take book cart",
   "Board night bus"
  ],
  "next": [
@@ -11,10 +11,11 @@
   "c3-d1",
   "c3-d2"
  ],
- "picture": "Inside the circus exit plaza, a yellow bicycle rickshaw waits on the far left. The silver robot mime stands left of centre, gesturing. The tall Latino man in poncho, hat, and guitar stands centre. Up high hangs a brass book cart lift. A purple night bus idles on the far right.",
+ "picture": "A flat side view along the tent boards. On the far left, a bright bicycle rickshaw waits by an exit. Left of centre, the tall Latino man watches the open brass music box. In the centre, an open metal book cart lift rests. On the far right, a glowing night bus idles beside the flap.",
  "shown": [
-  "A yellow bicycle rickshaw with canopy parked on the far left",
-  "A wheeled brass book cart lift with pulley up high",
-  "A purple night bus idling at a stop on the far right"
- ]
+  "a wheeled bicycle rickshaw with canopy waiting parked on the far left",
+  "a motorized book cart lift with lever waiting on the centre floor",
+  "a purring night bus idling through an open tent flap far right"
+ ],
+ "view": "wide"
 }

@@ -1,8 +1,8 @@
 {
  "id": "c3-d2-0-2",
- "scene": "You climb the rusty ladder onto a bustling rooftop transit deck.",
+ "scene": "Upstairs, three peculiar transit portals open out beneath glowing transit signs.",
  "options": [
-  "Ride bicycle rickshaw",
+  "Take bicycle rickshaw",
   "Board carnival gondola",
   "Ride book lift"
  ],
@@ -11,10 +11,11 @@
   "c3-d0",
   "c3-d1"
  ],
- "picture": "Side view along a rooftop platform line. At far left sits a yellow bicycle rickshaw. Left of centre, you stand by an open ladder hatch in your straw hat and red poncho with guitar slung behind. Up high at centre right, a neon ferris wheel gondola hovers open. At far right waits a brass book cart lift.",
+ "picture": "Along a single level floor, a canopy covered bicycle rickshaw waits on the far left. The player in teal bomber jacket stands centre-left facing forward. A glowing carnival ferris wheel gondola hangs open in the centre. On the right, a brass book cart lift sits waiting with open accordion gates.",
  "shown": [
-  "a yellow bicycle rickshaw with an empty canopy seat waiting on the far left",
-  "a glowing neon ferris wheel gondola hovering open up high at centre right",
-  "a mechanical brass book cart lift with open railings waiting at far right"
- ]
+  "a pedal-powered bicycle rickshaw parked with empty passenger bench on the left",
+  "a glowing neon ferris wheel gondola hanging open in the centre",
+  "a brass book cart lift with an open sliding grille on the right"
+ ],
+ "view": "wide"
 }
