@@ -7,9 +7,9 @@
   "Inspect rattling bucket"
  ],
  "beats": [
-  "You squeegee the glass clean just in time to spot a lightning-catcher spire as the gondola docks beside a massive brass cistern.",
-  "The operator coos cheerfully, handing you a damp umbrella token right as the cradle clanks gently against the rain-slick roof.",
-  "A tiny clockwork frog leaps from the glowing suds into your pocket just as you step out beside giant cloud tanks."
+  "You squeegee the soapy glass clear, spotting a lightning-catcher spire just as the gondola docks at Rainmaker Rooftops and its metal gate swings wide.",
+  "The operator coos cheerfully and presses a damp umbrella token into your hand. The cables lock, and the exit doors slide open.",
+  "A tiny clockwork frog springs from the glowing green suds straight into your pocket! The gondola jolts to a halt, opening its doors to the mist."
  ],
  "next": [
   "c14-d2",
@@ -22,5 +22,17 @@
   "a pigeon-headed operator in yellow overalls steering levers at the centre",
   "a sloshing metal pail glowing with strange luminescent green water on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "after": [
+  {
+   "label": "Step off at Rainmaker Rooftops",
+   "next": "c14-d2"
+  },
+  {
+   "label": "Stay on",
+   "beat": "You stay put as the gondola glides past the roof, dodging a rogue cloud puff. At the terminus, you hop into a sputtering sidecar motorbike that zips you straight to Midnight Radio Repair.",
+   "then": "Step off at Midnight Radio Repair",
+   "next": "c14-d5"
+  }
+ ]
 }

@@ -7,9 +7,9 @@
   "Pull ceiling cord"
  ],
  "beats": [
-  "The parcel hums a lullaby, calming the rumbling engine just as the train brakes smoothly inside the Lost Property Depot and you step out into the cavernous hall.",
-  "The conductor thanks you with a stamped voucher for one unclaimed keepsake right as the brakes hiss, letting you off into the vast shelves of the Lost Property Depot.",
-  "A chime rings out, opening a skylight of drifting confetti just as the train glides to a stop and you step down onto the Depot's cluttered platform."
+  "The parcel hums a gentle lullaby, soothing the roaring engine into a purr. The train glides smoothly into the Lost Property Depot as the heavy doors slide open.",
+  "The conductor beams, pressing a stamped voucher for one unclaimed keepsake into your palm. Brakes hiss musically, the carriage halts, and the depot doors roll wide.",
+  "The bell chimes overhead, dusting your beanie in colourful confetti. With a merry jingle, the train halts at Lost Property Depot and the doors part before you."
  ],
  "next": [
   "c14-d3",
@@ -22,5 +22,17 @@
   "a badgeted badger conductor in a blue cap sorting letters at the centre",
   "a dangling braided emergency cord with a brass bell attached up high on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "after": [
+  {
+   "label": "Step off at Lost Property Depot",
+   "next": "c14-d3"
+  },
+  {
+   "label": "Stay on",
+   "beat": "You stay put, watching depot lights fade as the conductor shares a warm cinnamon biscuit. At the terminus, you board the creaking bridge crawler, chugging up to the turning gears of Gear Bridge.",
+   "then": "Step off at Gear Bridge",
+   "next": "c14-d1"
+  }
+ ]
 }

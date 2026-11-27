@@ -7,9 +7,9 @@
   "Ask about charm"
  ],
  "beats": [
-  "Static pops into synthesized jazz. The truck brakes smoothly beneath sizzling gas-discharge tubes, and you hop out into Neon Sign Hospital.",
-  "Inside rests a chilled coil of argon tubing, humming gently. The driver honks twice, parking beside glass-bending torches, and you disembark.",
-  "The driver taps it, sparking hot pink brilliance. You roll straight through the hangar doors of Neon Sign Hospital and step down."
+  "Static crackles into smooth synth jazz as the tow truck halts under buzzing discharge tubes. The passenger door glides open onto Neon Sign Hospital.",
+  "A chilled coil of argon tubing glows inside with a gentle hum. The driver honks twice, braking beside glowing torches as the door clicks open.",
+  "The driver taps the flamingo, sparking a flash of hot pink brilliance. You roll through the wide hangar doors, which swing open with a hiss."
  ],
  "next": [
   "c14-d4",
@@ -22,5 +22,17 @@
   "a blue foam cooler glowing with faint purple light sitting in centre",
   "a miniature neon flamingo hanging unlit from the rear-view mirror up high"
  ],
- "view": "wide"
+ "view": "wide",
+ "after": [
+  {
+   "label": "Step off at Neon Sign Hospital",
+   "next": "c14-d4"
+  },
+  {
+   "label": "Stay on",
+   "beat": "You wave the hospital goodbye as the tow truck rattles on. At the depot, you board a clanking bridge crawler that carries you up to Gear Bridge's turning cogs.",
+   "then": "Step off at Gear Bridge",
+   "next": "c14-d1"
+  }
+ ]
 }

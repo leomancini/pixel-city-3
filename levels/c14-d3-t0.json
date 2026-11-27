@@ -7,9 +7,9 @@
   "Peer through window"
  ],
  "beats": [
-  "The warm token chimes softly in your palm, unlocking the funicular's upper hatch just as you pull up to the starry rooftop.",
-  "You find skyward charts stamped with comet paths, tucking them away as the carriage docks neatly beside the rooftop telescope terrace.",
-  "You spot the comet's greenish glow trailing above the depot before the doors slide open directly onto the bustling rooftop deck."
+  "The warm star token chimes happily in your palm, unlocking the upper hatch just as the funicular docks and its doors glide open.",
+  "You tuck away the comet charts found inside the satchel right as the carriage reaches Comet Watch Rooftop and slides open.",
+  "Your telescope catches the comet's greenish glow through the glass, just before the funicular halts smoothly and the doors part wide."
  ],
  "next": [
   "c14-d0",
@@ -22,5 +22,17 @@
   "a bulging leather satchel strapped shut beneath an empty bench in centre",
   "a wide arched observation window framing distant city roofs on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "after": [
+  {
+   "label": "Step off at Comet Watch Rooftop",
+   "next": "c14-d0"
+  },
+  {
+   "label": "Stay on",
+   "beat": "Rattling past the rooftop, a stray spark tickles your sleeve before the terminal switch. You hop into a sidecar motorbike that putters straight to the glowing valves of Midnight Radio Repair.",
+   "then": "Step off at Midnight Radio Repair",
+   "next": "c14-d5"
+  }
+ ]
 }

@@ -7,9 +7,9 @@
   "Turn brass dial"
  ],
  "beats": [
-  "Inside rests a tame clockwork cricket that chirps your arrival just as the crawler docks smoothly at Gear Bridge, and you disembark.",
-  "She trades you a souvenir gear token for a comet rumor, then pulls the whistle as the crawler clanks onto Gear Bridge.",
-  "The pipe sighs sweet cinnamon steam across the cabin, and the crawler slides into the bustling docks of Gear Bridge as you step out."
+  "Inside rests a tame clockwork cricket that chirps cheerfully just as the crawler docks at Gear Bridge and the doors slide open.",
+  "She trades a shiny gear token for your comet rumor, then gives the whistle a cheerful toot as the doors open at Gear Bridge.",
+  "Sweet cinnamon steam puffs into the cabin with a soft hiss, just as the crawler glides into Gear Bridge and the doors open wide."
  ],
  "next": [
   "c14-d1",
@@ -22,5 +22,17 @@
   "a conductor in an apron polishing a brass horn, seated on the right",
   "a polished brass wheel on a rattling steam pipe on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "after": [
+  {
+   "label": "Step off at Gear Bridge",
+   "next": "c14-d1"
+  },
+  {
+   "label": "Stay on",
+   "beat": "You stay put as the crawler rumbles past, rocking like a cradle. At the line's end, a squeaky window-cleaner gondola whisks you up into the swirling cloud tanks of Rainmaker Rooftops.",
+   "then": "Step off at Rainmaker Rooftops",
+   "next": "c14-d2"
+  }
+ ]
 }

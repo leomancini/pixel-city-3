@@ -7,9 +7,9 @@
   "Open glove box"
  ],
  "beats": [
-  "Warm saxophone music bursts from the speaker as the bike skids to a halt, letting you step directly into Midnight Radio Repair's glowing doorway.",
-  "The courier beeps pleasantly, hands you a spare vacuum tube, and pulls up beside the workbench of Midnight Radio Repair.",
-  "Inside lies a glowing frequency chart; folding it up, you step off onto the rug inside Midnight Radio Repair as the engine cuts."
+  "Warm saxophone music bursts from the speaker as the bike skids to a neat halt. Midnight Radio Repair's glowing doorway slides wide open beside you.",
+  "The courier beeps pleasantly and hands you a spare vacuum tube. The bike rolls to a halt, and Midnight Radio Repair's workshop doors slide open.",
+  "You find a glowing frequency chart inside and fold it neatly away. The engine cuts as the sidecar glides inside, the workshop doors sliding open wide."
  ],
  "next": [
   "c14-d5",
@@ -22,5 +22,17 @@
   "the leather-jacketed robotic courier steering the motorbike on the far left",
   "a tiny brass latch shut on a dashboard compartment to the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "after": [
+  {
+   "label": "Step off at Midnight Radio Repair",
+   "next": "c14-d5"
+  },
+  {
+   "label": "Stay on",
+   "beat": "You zoom past the repair shop, ducking under a fluttering laundry line. At the terminus you hop into a rumbling tow truck, pulling up outside the buzzing, colourful Neon Sign Hospital.",
+   "then": "Step off at Neon Sign Hospital",
+   "next": "c14-d4"
+  }
+ ]
 }

@@ -7,9 +7,9 @@
   "Check perch basket"
  ],
  "beats": [
-  "Inside lies a mechanical compass that points toward the heavens. As the doors open onto the rooftop, it clicks excitedly.",
-  "You tighten a loose valve, earning a warm grin and a shiny brass comet token just as the car stops at the rooftop.",
-  "A starry messenger bird hops out and drops a folded constellation chart into your palm before flying out onto the open deck."
+  "Inside rests a mechanical compass aimed at the stars. As the car reaches Comet Watch Rooftop and the doors slide open, the needle twitches with excitement.",
+  "You tighten a loose valve, earning a warm grin and a shiny brass comet token just as the funicular brakes at Comet Watch Rooftop and the doors roll open.",
+  "A starry messenger bird hops out, drops a folded constellation chart into your palm, and flutters ready by the doorway as Comet Watch Rooftop slides into view and opens."
  ],
  "next": [
   "c14-d0",
@@ -22,5 +22,17 @@
   "a uniformed conductor adjusting glowing brass gears at the control pedestal in the centre",
   "a woven pigeon basket trembling softly beneath a passenger's seat on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "after": [
+  {
+   "label": "Step off at Comet Watch Rooftop",
+   "next": "c14-d0"
+  },
+  {
+   "label": "Stay on",
+   "beat": "You stay put as the car glides past, humming through misty rails until the terminus. Transferring to the clattering mail train, you roll right into the cavernous, toy-heaped Lost Property Depot.",
+   "then": "Step off at Lost Property Depot",
+   "next": "c14-d3"
+  }
+ ]
 }

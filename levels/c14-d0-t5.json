@@ -7,9 +7,9 @@
   "Rummage floor sack"
  ],
  "beats": [
-  "The dial hums, picking up strange static that suddenly matches the flashing shopfront of Midnight Radio Repair as the bike touches down outside.",
-  "The metal bird drops a glowing vacuum tube right into your lap just before the motorbike glides into the radio shop doorway.",
-  "Inside lies a coiled copper wire that hums in sync with the glowing shop valves as the sidecar screeches to a friendly halt."
+  "The dial hums with static, tuning right into the flashing storefront as the sidecar glides inside and the doors slide open.",
+  "The mechanical pigeon drops a warm, glowing vacuum tube into your lap just as the motorbike rolls inside and the garage doors open.",
+  "You find a coiled copper wire that hums cheerfully, matching the shop's neon glow as the sidecar halts inside and the bay doors open."
  ],
  "next": [
   "c14-d5",
@@ -22,5 +22,17 @@
   "A clockwork pigeon glides steadily beside the open sidecar on the right.",
   "A rumpled canvas tool sack sits unopened on the floor at the centre."
  ],
- "view": "wide"
+ "view": "wide",
+ "after": [
+  {
+   "label": "Step off at Midnight Radio Repair",
+   "next": "c14-d5"
+  },
+  {
+   "label": "Stay on",
+   "beat": "You wave Midnight Radio Repair goodbye as a neon banner ruffles your beanie. At the line's end, you board the clanking bridge crawler, trundling toward the turning cog towers of bustling Gear Bridge.",
+   "then": "Step off at Gear Bridge",
+   "next": "c14-d1"
+  }
+ ]
 }

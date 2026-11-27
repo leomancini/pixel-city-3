@@ -7,9 +7,9 @@
   "Turn the valve"
  ],
  "beats": [
-  "You scrape clear glass to reveal spinning storm vanes, right as the gondola bumps gently against the rain barrel platform.",
-  "The pigeon coos, leaves you an iridescent feather, and flutters out just as the gondola docks beside a bubbling cloud tank.",
-  "Warm mist puffs out and smells like fresh rain, whistling down until the doors slide open onto rainbow-sprinkled rooftops."
+  "You scrape a clean portal through thick suds, revealing spinning storm vanes just as the gondola bumps the rain barrel platform and the doors slide open wide.",
+  "The pigeon coos happily, leaves behind an iridescent feather, and swoops out into the breeze right as the cabin docks beside a bubbling cloud tank, doors parting.",
+  "Warm rain-scented mist puffs out with a cheerful whistle, billowing through the opening doors to unveil the rainbow-sprinkled rooftops waiting just outside."
  ],
  "next": [
   "c14-d2",
@@ -22,5 +22,17 @@
   "a fluffy grey pigeon perched calmly on a brass rail centre",
   "a polished red pressure valve mounted to the wall far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "after": [
+  {
+   "label": "Step off at Rainmaker Rooftops",
+   "next": "c14-d2"
+  },
+  {
+   "label": "Stay on",
+   "beat": "You stay put as the gondola glides past, swaying gently through drifting drizzle. At the terminus, you hop aboard the rattling mail train, rolling straight into the cavernous, bear-filled Lost Property Depot.",
+   "then": "Step off at Lost Property Depot",
+   "next": "c14-d3"
+  }
+ ]
 }

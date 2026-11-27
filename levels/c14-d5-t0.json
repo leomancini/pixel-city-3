@@ -7,9 +7,9 @@
   "Turn skylight periscope"
  ],
  "beats": [
-  "You twiddle the dial; cosmic synth music plays softly until the doors open onto the telescope-lined terrace and you step out.",
-  "You peek inside: glowing green moths flutter! The car clunks to a halt at the starry observation deck and you step out.",
-  "Through the lens, the sparkling comet's trail fills the sky just as the bell rings and you step onto the moonlit rooftop."
+  "You twiddle the brass dial, filling the car with dreamy cosmic synth tunes just as the funicular docks and the glass doors slide open.",
+  "You peek inside the rattling crate, delighted by fluttering neon-green moths, until the car clunks to a halt and the observation deck doors slide open.",
+  "Twisting the brass periscope, you watch the sparkling comet streak overhead right as the arrival chime rings and the moonlit exit doors part wide."
  ],
  "next": [
   "c14-d0",
@@ -22,5 +22,17 @@
   "a rattling wooden crate with airholes sitting right beside a passenger",
   "an overhead brass periscope mounted up high above the seats"
  ],
- "view": "wide"
+ "view": "wide",
+ "after": [
+  {
+   "label": "Step off at Comet Watch Rooftop",
+   "next": "c14-d0"
+  },
+  {
+   "label": "Stay on",
+   "beat": "You stay aboard as the funicular climbs into swirling mist, where a sleepy moth flutters by. At the terminus, a squeaky window-cleaner gondola carries you toward the clanking cloud tanks of Rainmaker Rooftops.",
+   "then": "Step off at Rainmaker Rooftops",
+   "next": "c14-d2"
+  }
+ ]
 }

@@ -7,9 +7,9 @@
   "Open mail chute"
  ],
  "beats": [
-  "Static clears into a pirate broadcast of accordion jigs. The crawler docks at Gear Bridge, and you hop out beside a steaming noodle cart.",
-  "Clove cider warms your chest as brass gears click into lock. You step off into Gear Bridge's bustling lantern-lit plaza.",
-  "A chime sounds and a brass token drops into your palm just as the crawler doors slide open onto turning cogways."
+  "You dial past squealing static until a jaunty pirate accordion jig fills the car. The crawler thumps against the Gear Bridge bumper, and the pneumatic doors hiss wide open.",
+  "Sweet clove cider warms you down to your toes while the cabin rattles over the final cable. The crawler glides to a halt, doors parting onto Gear Bridge.",
+  "A pleasant chime rings out and a heavy brass token drops into your hand. Outside, giant cogs mesh into place as the crawler docks and the doors slide back."
  ],
  "next": [
   "c14-d1",
@@ -22,5 +22,17 @@
   "a passenger extending a steaming paper cup on the left",
   "a brass pneumatic tube receptacle on the far right wall"
  ],
- "view": "wide"
+ "view": "wide",
+ "after": [
+  {
+   "label": "Step off at Gear Bridge",
+   "next": "c14-d1"
+  },
+  {
+   "label": "Stay on",
+   "beat": "You stay put, rolling past Gear Bridge as suspension grease gently mists the windows. At the depot, you transfer onto a creaking window-cleaner gondola that floats you straight up to Rainmaker Rooftops.",
+   "then": "Step off at Rainmaker Rooftops",
+   "next": "c14-d2"
+  }
+ ]
 }

@@ -7,9 +7,9 @@
   "Open mail chute"
  ],
  "beats": [
-  "The parcel hums a lullaby that turns your beard blue. As the train halts in Lost Property Depot, you step into the cavernous hall.",
-  "The badger rewards your help with a golden parcel token. The brakes squeal, and you step out into the sprawling Lost Property Depot.",
-  "A puff of violet dust blows out, revealing a lost clockwork sparrow. The train jerks to a stop at Lost Property Depot, and you alight."
+  "The parcel hums a gentle lullaby, tinting your grey beard bright blue. The train squeals to a halt at Lost Property Depot, and the doors slide open.",
+  "The badger conductor happily slips you a shiny golden parcel token for your trouble. Right on cue, the brakes hiss and the doors open at Lost Property Depot.",
+  "Violet dust puffs out, revealing a chirping clockwork sparrow inside. With a gentle jolt, the train arrives at Lost Property Depot, its doors sliding wide."
  ],
  "next": [
   "c14-d3",
@@ -22,5 +22,17 @@
   "a badger conductor wearing brass spectacles sorting letters in the centre",
   "a polished brass mail chute hatch sealed with a red lever on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "after": [
+  {
+   "label": "Step off at Lost Property Depot",
+   "next": "c14-d3"
+  },
+  {
+   "label": "Stay on",
+   "beat": "You stay put as the depot slips past. A rogue stamp flutters by before you swap to the bridge crawler, rumbling straight toward the bustling stalls of giant Gear Bridge.",
+   "then": "Step off at Gear Bridge",
+   "next": "c14-d1"
+  }
+ ]
 }

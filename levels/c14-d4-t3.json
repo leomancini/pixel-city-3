@@ -7,9 +7,9 @@
   "Turn brass valve"
  ],
  "beats": [
-  "You unfold the note inside, which glows like neon script warning about runaway umbrellas. The train screeches into the cavernous depot, and you hop onto the platform.",
-  "You flick misplaced letters into the pigeon's copper hopper, earning a brass receipt token. With a hiss of brakes, the doors open inside the towering depot.",
-  "You twist the valve; a puff of violet steam propels the train smoothly to the depot bumpers, letting you step out beneath shelves of forgotten hats."
+  "You unfold the glowing note, chuckling at its neon warning about runaway umbrellas. With a metallic screech, the mail train glides into Lost Property Depot and the doors slide open.",
+  "You flick errant letters into the pigeon's copper hopper, earning a shiny brass receipt token. Brakes hiss, and the doors part before the depot's towering shelves.",
+  "A quick twist releases a puff of violet steam, sending the train coasting smoothly to the bumpers. The depot doors open wide to reveal mountains of forgotten hats."
  ],
  "next": [
   "c14-d3",
@@ -22,5 +22,17 @@
   "a mechanical pigeon perched beside an open canvas sorter bag in the centre",
   "a hissing overhead brass pipe valve glowing hot on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "after": [
+  {
+   "label": "Step off at Lost Property Depot",
+   "next": "c14-d3"
+  },
+  {
+   "label": "Stay on",
+   "beat": "You stay aboard as the depot fades behind you. The train rattles to the line's end, where you board the night funicular, climbing steadily toward the cocoa-scented glow of Comet Watch Rooftop.",
+   "then": "Step off at Comet Watch Rooftop",
+   "next": "c14-d0"
+  }
+ ]
 }

@@ -7,9 +7,9 @@
   "Question the driver"
  ],
  "beats": [
-  "Static crackles into lively jazz that syncs with passing neon sparks. The truck brakes smoothly inside the brightly buzzing Neon Sign Hospital, and you hop out.",
-  "Inside lies a glowing glass pretzel radiating warm light. The truck pulls up beside buzzing glass-bending benches, and you step out into the colourful glow.",
-  "She winks, handing you a bent neon lightning bolt as a souvenir. The truck rolls through the garage doors into Neon Sign Hospital and you disembark."
+  "Static crackles into lively jazz that syncs with passing sparks. The tow truck brakes inside the buzzing Neon Sign Hospital, its passenger door popping wide.",
+  "A glowing glass pretzel radiates warm light from within the tin. The truck pulls up beside colourful glass-bending benches and the door swings smoothly open.",
+  "The driver winks, handing you a bent neon lightning bolt souvenir. The truck rolls through the garage doors into Neon Sign Hospital, opening up to welcome you."
  ],
  "next": [
   "c14-d4",
@@ -22,5 +22,17 @@
   "a dented tin lunchbox sitting shut on the centre seat",
   "a cheerful mechanic in greasy overalls steering on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "after": [
+  {
+   "label": "Step off at Neon Sign Hospital",
+   "next": "c14-d4"
+  },
+  {
+   "label": "Stay on",
+   "beat": "You wave past the hospital, rolling down quiet alleys until the truck's route ends. You transfer into a sputtering sidecar motorbike, puttering up outside Midnight Radio Repair beneath stacks of glowing valves.",
+   "then": "Step off at Midnight Radio Repair",
+   "next": "c14-d5"
+  }
+ ]
 }

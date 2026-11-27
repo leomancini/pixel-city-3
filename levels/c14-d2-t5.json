@@ -7,9 +7,9 @@
   "Signal helmeted driver"
  ],
  "beats": [
-  "You tune past static into a chorus of singing toasters. The bike skids to a halt beside Midnight Radio Repair, and you climb out grinning.",
-  "You unbuckle it to find spare glowing vacuum tubes wrapped in velvet. The driver brakes sharply outside Midnight Radio Repair, where you step onto the curb.",
-  "You tap their shoulder, and they nod toward neon storefronts ahead. With a purr, the bike stops at Midnight Radio Repair and you hop down."
+  "You dial past static until singing toasters harmonize through the speaker. The sidecar skids outside Midnight Radio Repair, and the door pops open.",
+  "Unbuckling the pouch reveals glowing vacuum tubes cushioned in velvet. The driver brakes firmly outside Midnight Radio Repair as the sidecar door swings wide.",
+  "You tap the driver's shoulder, and they nod toward flickering neon signs. The motor purrs to a stop at Midnight Radio Repair, its door unlatching."
  ],
  "next": [
   "c14-d5",
@@ -22,5 +22,17 @@
   "a bulging leather tool pouch resting centre between your knees",
   "the leather-jacketed driver on the right gripping vibrating chrome handlebars"
  ],
- "view": "wide"
+ "view": "wide",
+ "after": [
+  {
+   "label": "Step off at Midnight Radio Repair",
+   "next": "c14-d5"
+  },
+  {
+   "label": "Stay on",
+   "beat": "You stay seated as the bike zooms past, catching a rogue soap bubble before the terminal. Transferring to the mail train, you clatter into the umbrella-stacked cavern of Lost Property Depot.",
+   "then": "Step off at Lost Property Depot",
+   "next": "c14-d3"
+  }
+ ]
 }

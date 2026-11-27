@@ -7,9 +7,9 @@
   "Ask driver route"
  ],
  "beats": [
-  "Static pops into lively accordion swing, setting the driver tapping. The bike screeches to a halt beside Midnight Radio Repair's glowing windows, and you hop out.",
-  "The creature purrs like a soft engine and dispenses a brass mint. As the bike brakes outside Midnight Radio Repair, you step onto the pavement.",
-  "He chuckles and points past spinning bridge towers as the engine cuts. You roll to a stop right inside Midnight Radio Repair's cluttered entry."
+  "Static crackles into bouncy accordion swing, setting the driver's boots tapping. You screech to a cheerful halt at Midnight Radio Repair as the sidecar door unlatches.",
+  "The copper badger purrs like a cozy engine and dispenses a brass mint. Wheels brake outside glowing windows, and Midnight Radio Repair's garage door rattles open.",
+  "The driver chuckles, pointing past spinning towers as the engine idles. You glide directly into Midnight Radio Repair's cluttered entry while its twin workshop doors swing wide."
  ],
  "next": [
   "c14-d5",
@@ -22,5 +22,17 @@
   "a copper wind-up badger curled on luggage, centre",
   "the leather-helmeted driver gripping handlebars, far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "after": [
+  {
+   "label": "Step off at Midnight Radio Repair",
+   "next": "c14-d5"
+  },
+  {
+   "label": "Stay on",
+   "beat": "You wave the shop goodbye as the bike zooms on, splashing through warm puddles. At the terminus you hop into a creaking window-cleaner gondola, ascending toward the whirring tanks of Rainmaker Rooftops.",
+   "then": "Step off at Rainmaker Rooftops",
+   "next": "c14-d2"
+  }
+ ]
 }

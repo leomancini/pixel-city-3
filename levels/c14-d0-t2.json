@@ -7,9 +7,9 @@
   "Taste glowing foam"
  ],
  "beats": [
-  "You swipe the mist away just in time to see a silver weather-kite guide the gondola into a sprinkler-soaked rooftop dock.",
-  "You crank the stubborn gear until it clicks, and the gondola glides softly against a wooden pier lined with giant rain barrels.",
-  "The foam fizzes like mint soda; suddenly the floor bumps gently against a roof terrace covered in clinking cloud tanks."
+  "You wipe the glass just as a silver weather-kite guides the gondola into the dock. The doors hiss open to Rainmaker Rooftops.",
+  "You crank the stubborn gear until it clicks, easing the gondola against rain barrels. The doors rattle open onto the misty rooftop.",
+  "The foam fizzes like mint soda on your tongue! The floor bumps gently against cloud tanks, and the cabin doors slide wide open."
  ],
  "next": [
   "c14-d2",
@@ -22,5 +22,17 @@
   "a mechanical winch clacking noisily in the centre",
   "a soapy bucket glowing bright turquoise on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "after": [
+  {
+   "label": "Step off at Rainmaker Rooftops",
+   "next": "c14-d2"
+  },
+  {
+   "label": "Stay on",
+   "beat": "You stay put as the gondola glides past, dodging a stray raindrop. At the terminus, you hop aboard the bridge crawler, arriving just as Gear Bridge turns into view.",
+   "then": "Step off at Gear Bridge",
+   "next": "c14-d1"
+  }
+ ]
 }

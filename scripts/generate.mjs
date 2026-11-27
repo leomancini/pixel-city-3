@@ -525,6 +525,70 @@ The three options are three different things to do on board, each about somethin
   failed += 1;
 }
 
+// What a ride offers once its beat has played: step off where it arrives, or
+// stay on. Staying on is text only: a second beat rides past the stop and
+// changes onto the vehicle that serves another district, whose arrival
+// already begins by stepping off that vehicle.
+const STOPS_FORMAT = {
+  type: "text",
+  mime_type: "application/json",
+  schema: {
+    type: "object",
+    properties: {
+      beats: { type: "array", minItems: 3, maxItems: 3, items: { type: "string" } },
+      ride_on: { type: "string" },
+    },
+    required: ["beats", "ride_on"],
+  },
+};
+
+async function addStops(c, a, b) {
+  const id = rideId(c, a, b);
+  const ride = await exists(id);
+  if (!ride || ride.after) return;
+  if (ledger.usd >= BUDGET) { stopped = true; return; }
+  const others = DISTRICTS[c].map((_, x) => x).filter((x) => x !== a && x !== b);
+  const onward = others[a % others.length];
+  const [toName, transport] = DISTRICTS[c][b];
+  const [onName, onTransport, onAbout] = DISTRICTS[c][onward];
+  const input = `The player is riding the ${transport} to ${toName}. The scene: "${ride.scene}" (${ride.picture})
+They were offered three things to do on board, and each has an outcome:
+${ride.options.map((o, i) => `${i + 1}. "${o}": ${ride.beats[i]}`).join("\n")}
+Write two things, in second person, present tense, playful and suitable for all ages:
+- "beats": the three outcomes again, in the same order, each one or two sentences and at most 30 words, keeping what happens, but ending as the ${transport} pulls into ${toName} and its doors open. The player has not stepped off yet.
+- "ride_on": one or two sentences, at most 35 words, for when the player stays aboard instead: the ${transport} carries on past ${toName}, something small happens, and at the end of the line they change onto the ${onTransport}, which brings them to ${onName} (${onAbout}). End just as it arrives. Do not mention anything the player picked up on board.`;
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      const interaction = await ai.interactions.create({
+        model: TEXT_MODEL,
+        system_instruction: `You write short lines for the text box of Pixel City 3.0, a choose-your-own-adventure pixel-art game. The player is always ${CHARACTERS[c]}.`,
+        input,
+        response_format: STOPS_FORMAT,
+        generation_config: { thinking_level: "low" },
+        store: false,
+      });
+      spend("text", interaction.usage);
+      const out = JSON.parse(interaction.output_text);
+      if (!Array.isArray(out.beats) || out.beats.length !== 3 || out.beats.some((x) => typeof x !== "string" || !x) || typeof out.ride_on !== "string" || !out.ride_on) {
+        throw new Error("Stops model returned an unexpected shape");
+      }
+      const after = [
+        { label: `Step off at ${toName}`, next: idOf(c, b, []) },
+        { label: "Stay on", beat: out.ride_on, then: `Step off at ${onName}`, next: idOf(c, onward, []) },
+      ];
+      await writeFile(new URL(`${id}.json`, OUT), JSON.stringify({ ...ride, beats: out.beats, after }, null, 1));
+      await saveLedger();
+      console.log(`${id} stops  $${ledger.usd.toFixed(2)}  stay on → ${onName}: ${out.ride_on}`);
+      return;
+    } catch (err) {
+      console.error(`${id} stops attempt ${attempt} failed: ${String(err.message).slice(0, 200)}`);
+      await saveLedger();
+      await new Promise((r) => setTimeout(r, 4000 * attempt));
+    }
+  }
+  failed += 1;
+}
+
 // Point every last step's options at the ride for that route, where one exists.
 async function rewireRides(c) {
   for (let a = 0; a < DISTRICTS[c].length; a++) {
@@ -557,7 +621,8 @@ async function readyDistricts(c) {
       const reaches = async (id) => {
         const ride = RIDE_ID.exec(id);
         if (!ride) return ready.includes(Number(id.split("-")[1].slice(1)));
-        return Boolean(await exists(id)) && ready.includes(Number(ride[1]));
+        const node = await exists(id);
+        return Boolean(node) && [Number(ride[1]), ...(node.after || []).map((s) => Number(s.next.split("-")[1].slice(1)))].every((x) => ready.includes(x));
       };
       if (!(await Promise.all(goes.map(reaches))).every(Boolean)) {
         ready = ready.filter((x) => x !== d);
@@ -590,8 +655,8 @@ async function writeIndex() {
       districts: ready.map((d) => { const [name, transport, about] = DISTRICTS[c][d]; return { id: idOf(c, d, []), name, transport, about }; }),
     });
     for (const id of [...ids, ...(await ridesOf(c, ready))]) {
-      const { scene, options, next, picture, shown, view, beats } = await exists(id);
-      levels[id] = { scene, options, next, picture, shown, view, ...(beats ? { beats } : {}) };
+      const { scene, options, next, picture, shown, view, beats, after } = await exists(id);
+      levels[id] = { scene, options, next, picture, shown, view, ...(beats ? { beats, after } : {}) };
     }
   }
   await writeFile(new URL("gallery.json", OUT), JSON.stringify({ version, characters, levels }));
@@ -613,6 +678,7 @@ if (PILOT) {
       continue;
     }
     await Promise.all(routes.map(([a, b]) => slot(() => buildRide(c, a, b))));
+    await Promise.all(routes.map(([a, b]) => slot(() => addStops(c, a, b))));
     await rewireRides(c);
     await writeIndex();
   }

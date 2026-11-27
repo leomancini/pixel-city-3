@@ -7,9 +7,9 @@
   "Check wicker crate"
  ],
  "beats": [
-  "The fragrant cinnamon tea warms you thoroughly. The crawler grinds to a halt at Gear Bridge, and you step into the bustle of tool stalls.",
-  "The blinking bulbs reveal a hidden bypass under the turning gears. The car docks with a clang, and you exit onto Gear Bridge's walkway.",
-  "You peek inside to find three sleeping miniature grease-monkeys. The doors slide open with a hiss, spilling you out into Gear Bridge's soup market."
+  "The fragrant cinnamon tea warms you thoroughly. Gears grind to a halt at Gear Bridge, and the doors slide open to the bustling walkway.",
+  "The blinking bulbs reveal a hidden bypass under the turning cogs. With a hearty clang, the crawler docks at Gear Bridge, its heavy doors parting.",
+  "You peek inside to find three sleeping miniature grease-monkeys curled like donuts. With a pneumatic hiss, the doors slide wide at Gear Bridge."
  ],
  "next": [
   "c14-d1",
@@ -22,5 +22,17 @@
   "an illuminated brass route board clicking above the aisle up high",
   "a tied wicker basket rattling on an empty seat on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "after": [
+  {
+   "label": "Step off at Gear Bridge",
+   "next": "c14-d1"
+  },
+  {
+   "label": "Stay on",
+   "beat": "You stay put as the crawler rattles past the stop, humming to a distant horn. At the terminal, you hop a tow truck bound for the glowing hum of Neon Sign Hospital.",
+   "then": "Step off at Neon Sign Hospital",
+   "next": "c14-d4"
+  }
+ ]
 }

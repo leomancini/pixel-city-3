@@ -7,9 +7,9 @@
   "Inspect green toolbox"
  ],
  "beats": [
-  "The speaker blares a cheerful electric jingle. Static sparks across the cab just as the truck brakes hard inside the buzzing, glowing neon workshop.",
-  "You scoop the cool puff into your palm; it tickles and condenses into sweet lime drizzle as the truck halts among giant luminous letters.",
-  "Inside lies a glowing glass tube shaped like an ampersand. You tuck it under your arm and step directly onto the repair room floor."
+  "A cheerful electric jingle blares through harmless static sparks just as the truck brakes smoothly inside the buzzing, glowing neon workshop, pop-sliding the cab doors wide.",
+  "You scoop the cool puff into your palm where it tickles into sweet lime drizzle, just as the truck halts among giant luminous letters and the doors swing open.",
+  "Inside lies a glowing glass tube shaped like an ampersand, which you carefully pocket right as the truck halts inside the glowing workshop and the doors clunk open."
  ],
  "next": [
   "c14-d4",
@@ -22,5 +22,17 @@
   "a tiny puffy grey stormcloud drifting near the ceiling up high",
   "a dented metal toolbox latched shut on the bench seat at the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "after": [
+  {
+   "label": "Step off at Neon Sign Hospital",
+   "next": "c14-d4"
+  },
+  {
+   "label": "Stay on",
+   "beat": "You stay put as the truck cruises past Neon Sign Hospital, breezing under a sparkling sky. At the terminal, you hop a whistling mail train straight to the bustling Lost Property Depot.",
+   "then": "Step off at Lost Property Depot",
+   "next": "c14-d3"
+  }
+ ]
 }

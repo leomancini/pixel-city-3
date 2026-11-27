@@ -7,9 +7,9 @@
   "Wiggle copper lever"
  ],
  "beats": [
-  "You untangle her golden yarn, and she gifts you a warm knitted patch just as the crawler docks at a whistling soup stall.",
-  "Through the glass you spot giant brass teeth meshing together, then step out directly onto the bridge's busy tool walkway.",
-  "A soft chime sounds, releasing a tiny brass commemorative gear into your palm as the doors open onto Gear Bridge."
+  "You untangle her golden yarn, and she gifts you a warm knitted patch. The crawler docks with a hiss, opening its doors by a whistling soup stall.",
+  "Through the glass, giant brass teeth mesh in slow, ticking rhythm. The cabin glides to a halt, and the doors slide open onto the busy tool walkway.",
+  "A soft chime rings out, dropping a tiny commemorative gear into your palm. The crawler jolts to a gentle stop as the doors open onto Gear Bridge."
  ],
  "next": [
   "c14-d1",
@@ -22,5 +22,17 @@
   "a round porthole window showing turning cogwheels in the centre",
   "a loose copper lever protruding from the operator console on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "after": [
+  {
+   "label": "Step off at Gear Bridge",
+   "next": "c14-d1"
+  },
+  {
+   "label": "Stay on",
+   "beat": "You stay aboard as the crawler rattles past the bridge, gently startling the sleepy driver. Transferring to a roaring sidecar motorbike, you speed toward the glowing valves of Midnight Radio Repair.",
+   "then": "Step off at Midnight Radio Repair",
+   "next": "c14-d5"
+  }
+ ]
 }

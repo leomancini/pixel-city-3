@@ -7,9 +7,9 @@
   "Read wall route"
  ],
  "beats": [
-  "You swap a pocket mint for dried sourfruit just as the car docks, crunching happily onto the starlit observation deck.",
-  "A chime ripples out, coaxing sleepy fireflies from the vent before the doors glide open onto the telescope terrace.",
-  "Tracing the neon transit line, you spot a secret observatory spur right before the funicular halts beside steaming cocoa robots."
+  "You trade a pocket mint for dried sourfruit as the car docks, the cabin chime ringing as the doors glide open.",
+  "A tinny chime ripples overhead, coaxing sleepy fireflies from the ceiling vent just as the doors open at the terrace.",
+  "Tracing the neon line reveals a hidden observatory spur, right as the funicular halts and slides its brass doors wide."
  ],
  "next": [
   "c14-d0",
@@ -22,5 +22,17 @@
   "a brass lullaby box mounted beneath the window up high",
   "a glowing constellation map frame mounted on the right wall"
  ],
- "view": "wide"
+ "view": "wide",
+ "after": [
+  {
+   "label": "Step off at Comet Watch Rooftop",
+   "next": "c14-d0"
+  },
+  {
+   "label": "Stay on",
+   "beat": "The car glides past the platform, whistling softly into the dark. At the terminus, a friendly tow truck picks you up and rumbles into Neon Sign Hospital amidst flickering, mended rainbow glass.",
+   "then": "Step off at Neon Sign Hospital",
+   "next": "c14-d4"
+  }
+ ]
 }

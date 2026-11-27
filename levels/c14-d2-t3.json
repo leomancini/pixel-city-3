@@ -7,9 +7,9 @@
   "Turn brass valve"
  ],
  "beats": [
-  "You catch the winged envelope, which promptly nips your thumb before slipping loose into Lost Property Depot as you step onto the platform.",
-  "The badger hands you an unclaimed velvet key with a nod. You pocket it just as brakes screech at Lost Property Depot and you disembark.",
-  "The valve releases perfumed lavender steam, causing the train to glide gently into Lost Property Depot, where you step into towering aisles of lost goods."
+  "You snatch the fluttering letter, but it nips your thumb and flutters toward the sliding doors as the train halts at Lost Property Depot.",
+  "The badger nods wisely and slips a velvet key into your palm just as the brakes hiss and the Depot doors slide wide.",
+  "Warm lavender steam billows from the pipe, soothing the rattling carriage as it glides to a stop and the doors part at the Depot."
  ],
  "next": [
   "c14-d3",
@@ -22,5 +22,17 @@
   "a dapper badger postal clerk sorting cartas at a desk on the left",
   "a gleaming pressure valve attached to overhead copper pipes up high"
  ],
- "view": "wide"
+ "view": "wide",
+ "after": [
+  {
+   "label": "Step off at Lost Property Depot",
+   "next": "c14-d3"
+  },
+  {
+   "label": "Stay on",
+   "beat": "You stay put as the Depot slips away, watching telegraph poles whizz past until the line ends. Hitching a ride on a friendly tow truck, you pull up outside the buzzing, colourful Neon Sign Hospital.",
+   "then": "Step off at Neon Sign Hospital",
+   "next": "c14-d4"
+  }
+ ]
 }

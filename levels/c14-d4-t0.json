@@ -7,9 +7,9 @@
   "Chat with conductor"
  ],
  "beats": [
-  "Inside lies a brass star-wheel dial. The carriage clunks to a halt at the Comet Watch Rooftop, and you step out under starry skies.",
-  "The ceiling glass tints purple to reveal faint constellations. The funicular docks smoothly, letting you out beside steaming cocoa robots on the rooftop.",
-  "The robot wakes with a chime, handing you a punchcard comet schedule before the doors slide open onto the breezy Comet Watch Rooftop."
+  "Inside lies a brass star-wheel dial. The carriage clunks to a halt at the Comet Watch Rooftop, and the doors slide open under the starry sky.",
+  "The ceiling glass tints purple to reveal glowing constellations. The funicular docks smoothly at Comet Watch Rooftop, parting its doors beside cheerful cocoa robots.",
+  "The robot wakes with a musical chime and hands you a punchcard comet schedule. Ding! The doors open onto the breezy Comet Watch Rooftop platform."
  ],
  "next": [
   "c14-d0",
@@ -22,5 +22,17 @@
   "an ornate brass cabin dial glowing softly on the wall up high",
   "a sleeping robot conductor wearing a pillbox cap on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "after": [
+  {
+   "label": "Step off at Comet Watch Rooftop",
+   "next": "c14-d0"
+  },
+  {
+   "label": "Stay on",
+   "beat": "You stay put as the funicular climbs into the clouds, rattling softly over sleepy spires. At the terminus, you hop onto a bridge crawler that clanks straight toward the bustling, rotating Gear Bridge.",
+   "then": "Step off at Gear Bridge",
+   "next": "c14-d1"
+  }
+ ]
 }

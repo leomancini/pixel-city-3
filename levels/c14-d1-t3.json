@@ -7,9 +7,9 @@
   "Feed mechanical dove"
  ],
  "beats": [
-  "The tag shifts into coordinates for a secret vault. The brakes hiss loudly, and you hop out onto the depot's echoing platform.",
-  "The automaton tips its cap and gifts you an unclaimed silver parcel key. The train screeches to a halt, welcoming you to the depot.",
-  "The dove chirps happily, dropping an old baggage claim ticket in your lap. Moments later, the train slides directly into the cavernous depot."
+  "The tag flickers into secret vault coordinates just as the mail car glides smoothly into the Lost Property Depot and the doors slide wide.",
+  "The automaton tips its cap, sliding an unclaimed silver parcel key into your palm right as the brakes hiss and depot doors open.",
+  "The mechanical dove chirps, dropping a vintage baggage ticket into your lap just as the train enters the cavernous depot and doors part open."
  ],
  "next": [
   "c14-d3",
@@ -22,5 +22,17 @@
   "a four-armed brass automaton sorting envelopes beside you in the centre",
   "a clockwork dove perched on a high parcel rack up high"
  ],
- "view": "wide"
+ "view": "wide",
+ "after": [
+  {
+   "label": "Step off at Lost Property Depot",
+   "next": "c14-d3"
+  },
+  {
+   "label": "Stay on",
+   "beat": "You stay put as the depot zooms past, rumbling to the line's end. Swapping onto a squeaky window-cleaner gondola, you drift upward toward the churning cloud tanks of Rainmaker Rooftops.",
+   "then": "Step off at Rainmaker Rooftops",
+   "next": "c14-d2"
+  }
+ ]
 }
