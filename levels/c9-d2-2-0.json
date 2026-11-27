@@ -1,0 +1,21 @@
+{
+ "id": "c9-d2-2-0",
+ "scene": "You emerge into a bustling sky-transit dock overlooking Pixel City.",
+ "options": [
+  "Board solar junk",
+  "Ride dragon maglev",
+  "Climb cable pod"
+ ],
+ "next": [
+  "c9-d3",
+  "c9-d0",
+  "c9-d1"
+ ],
+ "picture": "Flat side-scrolling view along the sky-dock platform. Far left, a solar-sail junk floats moored to a wooden post. Center, a maglev dragon train sits open on elevated rails. To the right stands the Pacific Islander man with top knot and ukulele. Far right hangs a suspended cloud cable pod with an open hatch.",
+ "shown": [
+  "a wooden junk with solar sails docked at the left pier",
+  "a serpentine dragon-headed maglev waiting with open doors in the centre",
+  "a round cloud cable pod swinging on wires on the far right"
+ ],
+ "view": "wide"
+}

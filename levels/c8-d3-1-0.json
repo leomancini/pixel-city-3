@@ -1,0 +1,21 @@
+{
+ "id": "c8-d3-1-0",
+ "scene": "The unlocked puzzle box unfolds into glowing tickets for three waiting transports.",
+ "options": [
+  "Fly to Piazza",
+  "Board hover bus",
+  "Take hover metro"
+ ],
+ "next": [
+  "c8-d1",
+  "c8-d2",
+  "c8-d0"
+ ],
+ "picture": "Flat side-scrolling view along the canal promenade. The grandmother in pink tracksuit and white dog stand left of centre, holding the unfolded golden box. On far left, a yellow flying scooter hovers over a pad. In centre, a double-decker hover bus idles with open doors. On far right, a streamlined hover metro pod waits at an elevated ramp.",
+ "shown": [
+  "a sleek yellow flying scooter parked on a launch pad on far left",
+  "a red double-decker hover bus hovering by the kerb in centre",
+  "a sleek glass hover metro pod waiting at a raised stop on far right"
+ ],
+ "view": "wide"
+}

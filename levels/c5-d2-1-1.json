@@ -1,0 +1,21 @@
+{
+ "id": "c5-d2-1-1",
+ "scene": "The wooden dispatch board pins three travel tickets for immediate departure.",
+ "options": [
+  "Board paddle steamer",
+  "Take skate shuttle",
+  "Ride red bus"
+ ],
+ "next": [
+  "c5-d3",
+  "c5-d0",
+  "c5-d1"
+ ],
+ "picture": "A first-person close-up fills the frame with the wooden dispatch board. On the far left, a paddle steamer ticket stamped Pinball Pier is pinned. In the centre, a brass token tray holds a yellow Skate Plaza shuttle coin. On the right, a red bus transfer slip for Comic Book Lane is pinned.",
+ "shown": [
+  "a printed ticket for Pinball Pier hanging pinned on the far left",
+  "a yellow transit token for Skate Plaza resting in the centre tray",
+  "a red double-decker pass for Comic Book Lane pinned on the right"
+ ],
+ "view": "wide"
+}

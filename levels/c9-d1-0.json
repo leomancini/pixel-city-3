@@ -1,0 +1,21 @@
+{
+ "id": "c9-d1-0",
+ "scene": "A mechanical paper dragon hops out of the jar, clutching a brass key.",
+ "options": [
+  "Take brass key",
+  "Play a tune",
+  "Climb rope ladder"
+ ],
+ "next": [
+  "c9-d1-0-0",
+  "c9-d1-0-1",
+  "c9-d1-0-2"
+ ],
+ "picture": "A flat side view along floating wooden planks. On the far left, a small origami mechanical dragon perches on the open clay jar, holding a brass key. Centre, the Pacific Islander player in floral shirt and top knot holds his ukulele. Far right, a woven rope ladder hangs down from above.",
+ "shown": [
+  "a tiny mechanical paper dragon holding a key on the far left",
+  "the player standing at the centre with a ukulele across his chest",
+  "a dangling woven rope ladder hanging from high above on the far right"
+ ],
+ "view": "wide"
+}

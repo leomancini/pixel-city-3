@@ -1,0 +1,21 @@
+{
+ "id": "c6-d0-0-1",
+ "scene": "The chemist hands you three travel tokens and points past three tunnels.",
+ "options": [
+  "Row to subway",
+  "Ride freight lift",
+  "Take service elevator"
+ ],
+ "next": [
+  "c6-d2",
+  "c6-d3",
+  "c6-d1"
+ ],
+ "picture": "A flat side-view along a stone canal basement beneath the tent. Far left, a small wooden rowing boat rests in water. Left, the curly-haired boy holds three brass tokens. Centre, an open metal freight lift waits. Right, the masked chemist points with tongs. Far right, a glowing brass service elevator stands ready.",
+ "shown": [
+  "a wooden rowing boat bobbing at a low canal dock on the far left",
+  "an open metal freight lift cage waiting by a sign in the centre",
+  "a glowing service elevator with open brass doors on the far right"
+ ],
+ "view": "wide"
+}

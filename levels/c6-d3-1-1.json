@@ -1,0 +1,21 @@
+{
+ "id": "c6-d3-1-1",
+ "scene": "The headphones reveal a secret transit hub behind the sliding glass wall.",
+ "options": [
+  "Row to Flooded Subway",
+  "Board night tram",
+  "Ride service elevator"
+ ],
+ "next": [
+  "c6-d2",
+  "c6-d0",
+  "c6-d1"
+ ],
+ "picture": "Side-view pixel scene along one flat platform level. On the far left, a small wooden rowing boat floats at water's edge. The curly-haired boy wearing headphones, denim jacket, and camera stands left of centre. To the right sits a yellow night tram with open doors, and on the far right waits a steel service elevator.",
+ "shown": [
+  "a wooden rowing boat bobbing at the canal edge on the far left",
+  "a brightly lit yellow tram waiting with open doors on the right",
+  "an open grated metal service elevator humming softly on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c6-d3-0-1",
+ "scene": "The robot blueprint reveals three secret transit routes leading out.",
+ "options": [
+  "Take service elevator",
+  "Row canal boat",
+  "Board night tram"
+ ],
+ "next": [
+  "c6-d1",
+  "c6-d2",
+  "c6-d0"
+ ],
+ "picture": "Pixel art flat side view. On the far left, a caged service elevator stands open. Left of centre, the curly-haired boy in denim jacket studies his unfolded paper map. In the centre, a small wooden rowing boat waits at a canal basin. On the far right, a yellow tram sits ready on street rails.",
+ "shown": [
+  "a metal service elevator with open lattice doors on the far left",
+  "a wooden rowing boat bobbing by the low dock in the centre",
+  "a glowing yellow night tram parked on narrow rails on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c5-d1-2-2",
+ "scene": "Clutching the rare gold comic, you discover three ticket booths along the curb.",
+ "options": [
+  "Ride rope lift",
+  "Board paddle steamer",
+  "Take skate shuttle"
+ ],
+ "next": [
+  "c5-d2",
+  "c5-d3",
+  "c5-d0"
+ ],
+ "picture": "Flat side-scrolling pixel-art view along the pavement. On the far left hangs a wooden lift platform beneath thick rope pulleys. The boy stands left of centre in green stripes, holding his skateboard and golden comic. In the centre rests a red paddle steamer along the canal. On the far right waits a yellow skate shuttle.",
+ "shown": [
+  "a wooden rope-bridge lift platform with pulley cables on the far left",
+  "a red paddle steamer moored along the dock canal in the centre",
+  "a yellow mini-bus with skateboard racks parked on the far right"
+ ],
+ "view": "wide"
+}

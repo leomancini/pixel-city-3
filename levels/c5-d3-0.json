@@ -1,0 +1,21 @@
+{
+ "id": "c5-d3-0",
+ "scene": "Flashing lights dance across the neon-soaked cabinet as the silver ball rattles.",
+ "options": [
+  "Pull silver plunger",
+  "Press red button",
+  "Insert copper token"
+ ],
+ "next": [
+  "c5-d3-0-0",
+  "c5-d3-0-1",
+  "c5-d3-0-2"
+ ],
+ "picture": "First-person close-up view of the glowing pinball cabinet. The player hands rest near the controls. On the left sits a bright red flipper button. In the centre is a brass coin slot above a painted glass scoreboard showing Pixel City. On the far right extends a spring-loaded silver plunger ready to pull.",
+ "shown": [
+  "a shiny metal spring-loaded plunger knob resting on the far right",
+  "a glowing circular red flipper button waiting on the left side",
+  "an unlit metallic coin slot sitting directly in the centre"
+ ],
+ "view": "close"
+}

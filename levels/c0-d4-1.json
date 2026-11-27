@@ -1,0 +1,21 @@
+{
+ "id": "c0-d4-1",
+ "scene": "A tiny spiral galaxy swirls softly inside the humming dryer door.",
+ "options": [
+  "Open dryer door",
+  "Turn heat knob",
+  "Pick up sock"
+ ],
+ "next": [
+  "c0-d4-1-0",
+  "c0-d4-1-1",
+  "c0-d4-1-2"
+ ],
+ "picture": "A flat side view of the laundromat. Far left sits an abandoned glowing blue sock on checkered tiles. The player stands left in a yellow raincoat, round afro, and green boots, holding a red umbrella, leaning toward a purple-glowing dryer at centre with a round closed door. Up high rests a bright red dial. Far right shows an open vending cart.",
+ "shown": [
+  "a round chrome dryer door at the centre, glowing purple and shut",
+  "a red plastic dial positioned up high above the dryer drum",
+  "a single glowing blue sock lying far left on the tiled floor"
+ ],
+ "view": "wide"
+}

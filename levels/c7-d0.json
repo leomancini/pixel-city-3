@@ -1,0 +1,21 @@
+{
+ "id": "c7-d0",
+ "scene": "You step off the hillside chairlift onto the breezy, grassy hilltop.",
+ "options": [
+  "Inspect wind socks",
+  "Enter tea hut",
+  "Talk to flyer"
+ ],
+ "next": [
+  "c7-d0-0",
+  "c7-d0-1",
+  "c7-d0-2"
+ ],
+ "picture": "A flat side view along a grassy ridge. Far left sits the wooden chairlift station beside fluttering striped wind socks. The boy with black hair, orange vest, white scarf, and strapped kite stands left. In the centre, a girl holds a dragon kite spool. Far right sits a steaming wooden tea hut with open door.",
+ "shown": [
+  "a row of striped wind socks fluttering on poles on the far left",
+  "a wooden tea hut with steaming chimney standing on the right",
+  "a smiling girl holding a huge dragon kite spool in the centre"
+ ],
+ "view": "wide"
+}

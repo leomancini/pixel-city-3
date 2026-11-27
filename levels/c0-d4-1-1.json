@@ -1,0 +1,21 @@
+{
+ "id": "c0-d4-1-1",
+ "scene": "The dryer clicks, projecting three cosmic transit portals across the storefront.",
+ "options": [
+  "Ride street tram",
+  "Board harbour ferry",
+  "Take cable car"
+ ],
+ "next": [
+  "c0-d3",
+  "c0-d0",
+  "c0-d1"
+ ],
+ "picture": "A flat side view along checkered tiles. On the left, an open exit reveals a waiting yellow street tram. The player stands left-of-centre in her yellow raincoat, green boots, and afro, holding a red umbrella. At centre stands a lit ticket booth for a ferry, and right is a docked red cable car.",
+ "shown": [
+  "a glowing yellow street tram stopped outside the open exit on the left",
+  "a blue harbour ferry ticket counter lit up brightly at the centre",
+  "a suspended red cable car cabin waiting at a platform on the right"
+ ],
+ "view": "wide"
+}

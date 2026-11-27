@@ -1,0 +1,21 @@
+{
+ "id": "c5-d0",
+ "scene": "You step off the shuttle into the buzzing neon glow of Skate Plaza.",
+ "options": [
+  "Climb halfpipe ladder",
+  "Order cheesy nachos",
+  "Inspect graffiti wall"
+ ],
+ "next": [
+  "c5-d0-0",
+  "c5-d0-1",
+  "c5-d0-2"
+ ],
+ "picture": "Pixel art flat side view. On the far left sits a tall halfpipe with a ladder. Left of centre, the purple skate-park shuttle idles with doors open. In the centre, the boy stands holding his skateboard beside a colourful graffiti wall. On the right, a yellow snack van glows under tall buzzing floodlights.",
+ "shown": [
+  "a metal halfpipe with a tall access ladder on the far left",
+  "a yellow snack van with an open serving hatch on the right",
+  "a vibrant spray-painted concrete mural wall standing at the centre"
+ ],
+ "view": "wide"
+}

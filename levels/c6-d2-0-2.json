@@ -1,0 +1,21 @@
+{
+ "id": "c6-d2-0-2",
+ "scene": "The pried hatch spills tokens, revealing three hidden exits across the station.",
+ "options": [
+  "Take freight lift",
+  "Board night tram",
+  "Ride service elevator"
+ ],
+ "next": [
+  "c6-d3",
+  "c6-d0",
+  "c6-d1"
+ ],
+ "picture": "Flat side-scrolling view of the mossy station platform along the bottom. On the far left, a rusty open freight lift waits. To its right, the boy with curly hair and round glasses holds spilled brass tokens by the vending machine. Centre sits a lit night tram on flooded tracks. Right, a glowing glass service elevator stands ready.",
+ "shown": [
+  "a heavy iron freight lift with open accordion gates on the far left",
+  "a glowing yellow night tram parked on submerged tracks in the centre",
+  "a sleek glass service elevator shaft glowing with neon buttons on the right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c8-d2-2-2",
+ "scene": "Three colorful transit passes flutter pinned across the cork notice board.",
+ "options": [
+  "Fly to Piazza",
+  "Ride gondola drone",
+  "Board hover metro"
+ ],
+ "next": [
+  "c8-d1",
+  "c8-d3",
+  "c8-d0"
+ ],
+ "picture": "A first-person close view of the cork notice board filling the frame. On the far left hangs a bright yellow ticket showing a winged scooter to Piazza Nova. In the centre hangs a striped gondola drone boarding pass for Carnival Canals. On the far right clips a sleek violet hover metro token for Nouveau Paris.",
+ "shown": [
+  "a yellow winged scooter ticket pinned on the far left",
+  "a striped drone ticket pinned in the centre",
+  "a sleek purple metro token clipped on the far right"
+ ],
+ "view": "wide"
+}

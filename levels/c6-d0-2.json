@@ -1,0 +1,21 @@
+{
+ "id": "c6-d0-2",
+ "scene": "The antique camera's crystal lens reflects a moving constellation of tiny gears.",
+ "options": [
+  "Twist brass dial",
+  "Peer into viewfinder",
+  "Press shutter lever"
+ ],
+ "next": [
+  "c6-d0-2-0",
+  "c6-d0-2-1",
+  "c6-d0-2-2"
+ ],
+ "picture": "A tight close-up filling the frame with an ornate brass camera resting on velvet. On the left sits a knurled brass dial marked with astrological runes. Centre holds an illuminated crystal glass lens showing spinning clockwork cogs within, beneath a glowing prism viewfinder. Far right shows a curved silver shutter lever ready to press.",
+ "shown": [
+  "a notched brass dial set on the camera's upper left body",
+  "the glowing glass viewfinder prism situated directly at centre top",
+  "a silver spring-loaded shutter trigger protruding on the far right"
+ ],
+ "view": "close"
+}

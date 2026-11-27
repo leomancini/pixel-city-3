@@ -1,0 +1,21 @@
+{
+ "id": "c6-d1-1-1",
+ "scene": "Yanking the antenna opens three transport gates across the breezy rooftop.",
+ "options": [
+  "Enter freight lift",
+  "Board night tram",
+  "Take rowing boat"
+ ],
+ "next": [
+  "c6-d3",
+  "c6-d0",
+  "c6-d2"
+ ],
+ "picture": "Flat side view along the rooftop ground line. On the far left, an open metal freight lift cage hums. Left of centre, the boy in the denim jacket holds a cut antenna wire. At centre waits a glowing night tram on a rooftop track. On the far right, a wooden rowing boat rests atop a water-filled chute.",
+ "shown": [
+  "an open metal freight lift cage with glowing indicator on the far left",
+  "a sleek night tram docked at a suspended rooftop rail at centre",
+  "a wooden rowing boat resting on a sloped water flume on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c7-d1-0-1",
+ "scene": "The wound penguin waddles outside, unlocking three dazzling transit gates on the snow.",
+ "options": [
+  "Board glass boat",
+  "Ride hot balloon",
+  "Take hillside chairlift"
+ ],
+ "next": [
+  "c7-d2",
+  "c7-d3",
+  "c7-d0"
+ ],
+ "picture": "Pixel art flat side view of a snowy outdoor transit terrace. Far left, a glass-bottomed boat floats beside a pier. Centre, the black-haired boy stands in his orange vest beside the clicking penguin, under a tethered hot-air balloon basket. Far right, a mechanical chairlift chair dangles over frosty hills.",
+ "shown": [
+  "a glass-bottomed boat bobbing at an icy dock on the far left",
+  "a striped hot-air balloon tethered to a post up high in the centre",
+  "a swinging metal chairlift station with an empty chair on the far right"
+ ],
+ "view": "wide"
+}

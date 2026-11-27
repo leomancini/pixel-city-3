@@ -1,0 +1,21 @@
+{
+ "id": "c9-d1-0-0",
+ "scene": "The brass key unlocks the sky terminal gates, revealing three ready departures.",
+ "options": [
+  "Board dragon train",
+  "Ride bullet train",
+  "Sail solar junk"
+ ],
+ "next": [
+  "c9-d0",
+  "c9-d2",
+  "c9-d3"
+ ],
+ "picture": "A flat side view along the wooden sky dock platform. Far left, a long red maglev dragon train idles on glowing rails. Left of centre, the Pacific Islander player holds his brass key and ukulele. Centre, a sleek white bullet train waits with doors open. Far right, a wooden junk boat rests with amber sails.",
+ "shown": [
+  "a winding red maglev dragon train on the far left",
+  "a sleek white bullet train waiting with open doors at centre",
+  "a wooden solar-sail junk tied to the platform at far right"
+ ],
+ "view": "wide"
+}

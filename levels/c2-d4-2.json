@@ -1,0 +1,21 @@
+{
+ "id": "c2-d4-2",
+ "scene": "The glowing console hums, displaying starlit routes across Pixel City.",
+ "options": [
+  "Press star map",
+  "Turn brass dial",
+  "Slide blue lever"
+ ],
+ "next": [
+  "c2-d4-2-0",
+  "c2-d4-2-1",
+  "c2-d4-2-2"
+ ],
+ "picture": "First-person close-up of the glowing console panel filling the frame. On the left, a holographic starmap grid pulses softly. In the centre, a large brass tuning dial rests at zero. On the far right stands an upright notched blue lever, flanked by faint glowing audio wave meters.",
+ "shown": [
+  "a pulsing starmap panel on the left of the glowing console",
+  "a polished brass tuning dial sitting in the centre of the console",
+  "a notched blue lever positioned on the far right of the console"
+ ],
+ "view": "close"
+}

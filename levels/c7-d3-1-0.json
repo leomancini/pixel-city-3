@@ -1,0 +1,21 @@
+{
+ "id": "c7-d3-1-0",
+ "scene": "The unwound copper ribbon reveals shining travel vouchers to distant destinations.",
+ "options": [
+  "Board sleigh tram",
+  "Take glass boat",
+  "Ride hillside chairlift"
+ ],
+ "next": [
+  "c7-d1",
+  "c7-d2",
+  "c7-d0"
+ ],
+ "picture": "Flat side-view across green grass. On the far left, a frozen-wheeled sleigh tram rests on frosty rails. In the centre, the boy in his orange puffer vest holds shimmering ribbon beside a glass-bottomed canal boat. On the right, a yellow hillside chairlift sways at its wooden boarding platform. Blue sky overhead.",
+ "shown": [
+  "a frost-rimed sleigh tram waiting empty on tracks at the far left",
+  "a glass-bottomed boat moored beside a small canal dock in the centre",
+  "an open yellow chairlift swinging gently by a post on the right"
+ ],
+ "view": "wide"
+}

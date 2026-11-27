@@ -1,0 +1,21 @@
+{
+ "id": "c7-d0-2-1",
+ "scene": "Through the brass telescope, three faraway travel hubs come sharply into view.",
+ "options": [
+  "Ride sleigh tram",
+  "Board glass boat",
+  "Fly hot balloon"
+ ],
+ "next": [
+  "c7-d1",
+  "c7-d2",
+  "c7-d3"
+ ],
+ "picture": "A close circular view through the telescope's crosshairs. On the left sits a snow-dusted sleigh tram idling beside a frost sign. In the centre lies a sunny dock with a moored glass-bottomed boat. On the right, a bright striped hot-air balloon sways gently beside an open wicker basket.",
+ "shown": [
+  "a frosted sleigh tram depot visible on the left edge of the lens view",
+  "a turquoise coastal pier with glass boat visible in the lens centre",
+  "a striped hot-air balloon moored to a post visible on the right"
+ ],
+ "view": "wide"
+}

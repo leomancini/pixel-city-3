@@ -1,0 +1,21 @@
+{
+ "id": "c6-d1-0-1",
+ "scene": "Your broadcast echoes outside, lighting up three unusual rooftop transit routes below.",
+ "options": [
+  "Row canal boat",
+  "Ride freight lift",
+  "Catch night tram"
+ ],
+ "next": [
+  "c6-d2",
+  "c6-d3",
+  "c6-d0"
+ ],
+ "picture": "Side-view rooftop transit hub outside the shed. On the far left, an empty wooden rowing boat waits in an overflowing water gutter. The denim-jacketed boy stands left-centre, facing outward. At centre, an open iron freight lift cage hangs suspended over an illuminated shaft. On the far right, an electric night tram sits waiting on elevated rails.",
+ "shown": [
+  "a wooden rowing boat moored in a flooded roof gutter, far left",
+  "an open metal freight lift cage with glowing buttons, centre",
+  "a luminous night tram idling along an elevated rail track, far right"
+ ],
+ "view": "wide"
+}

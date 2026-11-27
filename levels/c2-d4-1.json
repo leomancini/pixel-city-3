@@ -1,0 +1,21 @@
+{
+ "id": "c2-d4-1",
+ "scene": "You lean back into the lounger, watching celestial holograms swirl overhead.",
+ "options": [
+  "Rotate star projector",
+  "Press armrest button",
+  "Open spiral hatch"
+ ],
+ "next": [
+  "c2-d4-1-0",
+  "c2-d4-1-1",
+  "c2-d4-1-2"
+ ],
+ "picture": "Flat side-view along a level tiled observatory floor beneath glowing constellations. Far left sits a brass star projector on a tripod. Left, the girl's empty purple wheelchair waits. In the centre, the South Asian girl in her teal hoodie relaxes on the tilted velvet lounger, whose armrest bears a blinking switch. Far right, a spiral floor hatch stays sealed shut.",
+ "shown": [
+  "a swivelling brass star projector on a tripod far left",
+  "a blinking red switch mounted on the lounger armrest centre",
+  "a closed circular floor hatch with a spiral latch far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c6-d3-1",
+ "scene": "Inside the cozy booth, soundproof walls pulse with soft neon colors.",
+ "options": [
+  "Play the record",
+  "Put on headphones",
+  "Turn brass dial"
+ ],
+ "next": [
+  "c6-d3-1-0",
+  "c6-d3-1-1",
+  "c6-d3-1-2"
+ ],
+ "picture": "Side-view pixel scene inside the curved booth along one ground level. On the left, a gleaming gold turntable sits on a shelf. The curly-haired boy in a denim jacket with his camera stands in the centre beside hanging yellow headphones. On the right, a brass tuner panel glows with teal lights.",
+ "shown": [
+  "a vintage gold turntable resting on a counter on the left",
+  "oversized padded yellow headphones hanging from a hook in the centre",
+  "a glowing frequencies tuner with a brass dial on the right"
+ ],
+ "view": "wide"
+}

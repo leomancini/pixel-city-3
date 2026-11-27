@@ -1,0 +1,21 @@
+{
+ "id": "c0-d4-1-2",
+ "scene": "The sparkling blue sock reveals a transit map tucked inside.",
+ "options": [
+  "Board harbour ferry",
+  "Take cable car",
+  "Ride subway train"
+ ],
+ "next": [
+  "c0-d0",
+  "c0-d1",
+  "c0-d2"
+ ],
+ "picture": "A flat side view of the night street outside the laundromat exit. Far left sits an idling blue harbour ferry along a pier. The player stands centre holding a glowing blue sock, wearing a yellow raincoat and green boots, carrying a red umbrella. Up high hangs a yellow cable car. Far right shows a glowing subway entrance.",
+ "shown": [
+  "a blue harbour ferry idling at a low pier on the far left",
+  "a dangling yellow cable car hanging from cables up high",
+  "a tiled subway entrance with illuminated turnstiles on the far right"
+ ],
+ "view": "wide"
+}

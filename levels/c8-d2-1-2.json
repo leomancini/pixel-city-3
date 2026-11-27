@@ -1,0 +1,21 @@
+{
+ "id": "c8-d2-1-2",
+ "scene": "The ticking watch pops open, chiming three departure gates to distant districts.",
+ "options": [
+  "Ride hover metro",
+  "Board flying scooter",
+  "Climb gondola drone"
+ ],
+ "next": [
+  "c8-d0",
+  "c8-d1",
+  "c8-d3"
+ ],
+ "picture": "Side view along a misty stone transit platform. On the far left, a sleek hover metro hums with open doors. Left of centre, Granny holds her dog. At centre rests a two-seater flying scooter. Right of centre stands the smiling brass gent, while far right floats a striped passenger gondola drone.",
+ "shown": [
+  "a sleek hover metro with open doors waiting far left along the track",
+  "a twin-propeller flying scooter resting on a launch pad at centre",
+  "a striped gondola suspended under a buzzing drone floating on the far right"
+ ],
+ "view": "wide"
+}

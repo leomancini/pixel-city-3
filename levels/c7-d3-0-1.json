@@ -1,0 +1,21 @@
+{
+ "id": "c7-d3-0-1",
+ "scene": "The weaver's parchment map outlines three bustling transport routes leaving the meadows.",
+ "options": [
+  "Board sleigh tram",
+  "Take reef boat",
+  "Ride the chairlift"
+ ],
+ "next": [
+  "c7-d1",
+  "c7-d2",
+  "c7-d0"
+ ],
+ "picture": "Along level grass, a frost-rimed sleigh tram waits on twin rails on the far left. Left of centre, the boy in his orange puffer vest, scarf, and kite inspects the map stand. At centre, a glass-bottomed canal boat sits moored at a low pier. On the far right, a hillside chairlift platform hums.",
+ "shown": [
+  "a frost-covered sleigh tram on rails waiting with doors open on far left",
+  "a glass-bottomed canal boat moored at a stone dock at centre",
+  "a swinging chairlift station with empty yellow benches on far right"
+ ],
+ "view": "wide"
+}

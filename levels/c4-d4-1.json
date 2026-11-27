@@ -1,0 +1,21 @@
+{
+ "id": "c4-d4-1",
+ "scene": "Inside the pavilion, warm lantern light illuminates delicate porcelain and steaming infusions.",
+ "options": [
+  "Sip amber tea",
+  "Examine wall scroll",
+  "Open back screen"
+ ],
+ "next": [
+  "c4-d4-1-0",
+  "c4-d4-1-1",
+  "c4-d4-1-2"
+ ],
+ "picture": "Flat side view inside the wooden tea pavilion. On the far left hangs a painted silk scroll. The player in lilac headscarf and mustard coat stands left of centre, facing a low wooden table at centre holding a steaming porcelain cup. On the far right is a closed latticed bamboo sliding screen.",
+ "shown": [
+  "A steaming porcelain cup sitting on a low wooden table at centre",
+  "A painted hanging silk scroll pinned flat to the wall on the left",
+  "A latticed bamboo screen sliding door shut on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c9-d0-0",
+ "scene": "The brass tea robot pours sparkling blue jasmine into your ceramic cup.",
+ "options": [
+  "Drink blue tea",
+  "Play the ukulele",
+  "Board cargo cart"
+ ],
+ "next": [
+  "c9-d0-0-0",
+  "c9-d0-0-1",
+  "c9-d0-0-2"
+ ],
+ "picture": "Flat side-scrolling view of the tea stall counter on a cobbled street. Far left, a rack of jars. Left of centre, the broad-shouldered Pacific Islander man in a floral shirt holds his ukulele. Centre, a round brass teapot automaton pours into a steaming blue cup. Far right sits an empty wooden cargo cart.",
+ "shown": [
+  "a steaming cup of glowing blue tea sitting on the counter centre",
+  "the wooden ukulele held in your hands left of centre",
+  "an empty wooden wheeled cart parked by crates on the far right"
+ ],
+ "view": "wide"
+}

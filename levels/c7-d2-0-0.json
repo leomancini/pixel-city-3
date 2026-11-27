@@ -1,0 +1,21 @@
+{
+ "id": "c7-d2-0-0",
+ "scene": "The salvaged compass spins wildly, pointing past three bustling transport departures.",
+ "options": [
+  "Ride hillside chairlift",
+  "Board sleigh tram",
+  "Board hot-air balloon"
+ ],
+ "next": [
+  "c7-d0",
+  "c7-d1",
+  "c7-d3"
+ ],
+ "picture": "Side-scrolling wide view of Lighthouse Reef's rocky terminal. On the far left, a hillside chairlift platform hangs beside cliffside cables. Left of centre stands the boy, clutching a dripping brass compass. In the centre, an ornate sleigh tram sits on frosty rails. On the far right, a tethered hot-air balloon bobs gently.",
+ "shown": [
+  "a dangling two-seater chairlift swing idling at its wooden dock on the far left",
+  "a brass sleigh-shaped tram waiting on frosted rails near the centre",
+  "a striped hot-air balloon with a wicker basket tethered on the far right"
+ ],
+ "view": "wide"
+}

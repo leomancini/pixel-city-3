@@ -1,0 +1,21 @@
+{
+ "id": "c8-d1-0-2",
+ "scene": "Your sparking hands rev the scooter toward Piazza Nova's busy transit edge.",
+ "options": [
+  "Take gondola drone",
+  "Board hover metro",
+  "Catch hover bus"
+ ],
+ "next": [
+  "c8-d3",
+  "c8-d0",
+  "c8-d2"
+ ],
+ "picture": "Flat side-view along the transit edge of the sunny piazza. On the far left, the grandmother astride her scooter grips buzzing handlebars, white dog sitting in the front basket. On the left floats a striped gondola drone. Centre sits a glass hover metro platform, and on the right idles a red double-decker hover bus.",
+ "shown": [
+  "a striped gondola suspended under whirring drone propellers on the left canal slip",
+  "a sleek hover metro train idling at a raised glass platform centre",
+  "a red double-decker hover bus parked with open doors on the right"
+ ],
+ "view": "wide"
+}

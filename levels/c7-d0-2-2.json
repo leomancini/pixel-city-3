@@ -1,0 +1,21 @@
+{
+ "id": "c7-d0-2-2",
+ "scene": "Inside the cozy tea hut, departure boards offer travel beyond the hilltop.",
+ "options": [
+  "Board glass boat",
+  "Fly hot-air balloon",
+  "Ride sleigh tram"
+ ],
+ "next": [
+  "c7-d2",
+  "c7-d3",
+  "c7-d1"
+ ],
+ "picture": "A flat side view inside the warm wood-panelled tea hut along one floor level. Far left sits a low tea counter holding a blue reef ticket. The boy in an orange puffer vest stands left of centre. Centre features a wide arched window framing a tethered wicker balloon basket. Far right stands an open door beside a frosty sleigh tram.",
+ "shown": [
+  "a glass-bottomed boat ticket stamped with a lighthouse, lying on the counter far left",
+  "a basket hatch open to a striped balloon waiting outside the center arched window",
+  "a frosty brass sleigh tram idling at the side platform door on the far right"
+ ],
+ "view": "wide"
+}

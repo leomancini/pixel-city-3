@@ -1,0 +1,21 @@
+{
+ "id": "c9-d1-1-2",
+ "scene": "You climb up onto the high platform where three major transports await.",
+ "options": [
+  "Ride dragon train",
+  "Board bullet train",
+  "Sail solar junk"
+ ],
+ "next": [
+  "c9-d0",
+  "c9-d2",
+  "c9-d3"
+ ],
+ "picture": "Flat side view along a high wooden transit deck. Far left sits an open-doored maglev dragon train. Left, the broad Pacific Islander man stands holding his ukulele and skewers. Right, a shiny pink bullet train awaits boarding. Far right, a wooden junk with glittering solar sails is tied to an ornate post.",
+ "shown": [
+  "a sleek maglev dragon train waiting open-doored on the track on the far left",
+  "a gleaming pink bullet train idling with doors open on the right",
+  "a glowing solar-sail junk moored at the wooden dock on the far right"
+ ],
+ "view": "wide"
+}

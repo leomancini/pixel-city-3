@@ -1,0 +1,21 @@
+{
+ "id": "c8-d3-1",
+ "scene": "The cat-costumed reveller bows and presents an ornate, glowing puzzle box.",
+ "options": [
+  "Study puzzle box",
+  "Stroke sleek costume",
+  "Cross arched bridge"
+ ],
+ "next": [
+  "c8-d3-1-0",
+  "c8-d3-1-1",
+  "c8-d3-1-2"
+ ],
+ "picture": "Flat side-scrolling view along the cobbled quay. Left-centre stands the silver-haired grandmother in pink tracksuit holding her dog on leash. In centre, the masked cat-costumed reveller holds out a glowing golden puzzle box toward her. On far left sits an ornate lamp post. On far right, an arched stone bridge rises above the canal.",
+ "shown": [
+  "a glowing golden puzzle box held out by the reveller in centre",
+  "the velvet sleeve of the masked cat-costumed reveller standing in centre",
+  "a stone bridge arching over misty canal water on the far right"
+ ],
+ "view": "wide"
+}

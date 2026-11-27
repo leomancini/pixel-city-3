@@ -1,0 +1,21 @@
+{
+ "id": "c9-d3-2-1",
+ "scene": "Steam hisses as the automaton raises three glowing transit platform gates.",
+ "options": [
+  "Board dragon train",
+  "Enter cable pod",
+  "Ride bullet train"
+ ],
+ "next": [
+  "c9-d0",
+  "c9-d1",
+  "c9-d2"
+ ],
+ "picture": "A flat side view along the wooden harbour pier. The Pacific Islander man with top knot and ukulele stands centre beside the automaton. On the left waits a green maglev dragon train. Up high hangs a round cable pod over a ladder. On the right, a neon-pink bullet train sits on elevated tracks.",
+ "shown": [
+  "a sleek dragon-headed maglev train with open passenger doors on the left",
+  "a round glass cloud cable pod swaying gently on its cable up high",
+  "a neon-pink high-speed bullet train waiting at the station on the right"
+ ],
+ "view": "wide"
+}

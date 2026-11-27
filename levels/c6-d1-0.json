@@ -1,0 +1,21 @@
+{
+ "id": "c6-d1-0",
+ "scene": "Inside the cozy radio shed, glowing dials hum and tape reels turn.",
+ "options": [
+  "Play magnetic tape",
+  "Speak into microphone",
+  "Open back hatch"
+ ],
+ "next": [
+  "c6-d1-0-0",
+  "c6-d1-0-1",
+  "c6-d1-0-2"
+ ],
+ "picture": "Flat side-view interior of the radio shed. On the far left, a shelf holds an unplayed reel-to-reel deck. Left-centre, the boy in his denim jacket and glasses examines the room. At centre sits a desk with a vintage microphone and blinking dials. On the far right is a closed wooden hatch.",
+ "shown": [
+  "a bulky reel-to-reel audio recorder sitting silently on the far left shelf",
+  "a vintage chrome microphone on a flexible stand sitting at centre desk",
+  "a small wooden hatch door with a brass latch on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c6-d3-2-0",
+ "scene": "Your touch sparks neon light, unlocking three humming transit exits.",
+ "options": [
+  "Row small boat",
+  "Board night tram",
+  "Take service elevator"
+ ],
+ "next": [
+  "c6-d2",
+  "c6-d0",
+  "c6-d1"
+ ],
+ "picture": "Flat side-view along a glowing tiled platform. On the far left sits a wooden rowing boat in a canal. The teenage boy stands left of centre, wearing his denim jacket and camera. Towards the centre right waits an idling night tram, and on the far right stands an open steel elevator shaft.",
+ "shown": [
+  "a wooden rowing boat moored at a green water canal on the far left",
+  "a glowing yellow night tram idling at a platform on the centre right",
+  "an open steel service elevator with glowing buttons on the far right"
+ ],
+ "view": "wide"
+}

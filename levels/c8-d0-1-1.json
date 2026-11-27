@@ -1,0 +1,21 @@
+{
+ "id": "c8-d0-1-1",
+ "scene": "Your dog barks happily, drawing three departing transports to the roof edge.",
+ "options": [
+  "Board gondola drone",
+  "Mount flying scooter",
+  "Catch hover bus"
+ ],
+ "next": [
+  "c8-d3",
+  "c8-d1",
+  "c8-d2"
+ ],
+ "picture": "A flat side view along the rooftop edge. On the left, a wicker passenger gondola suspended beneath quadcopter blades hovers beside a gate. Near the centre, the grandmother in pink tracksuit stands with her happy dog, next to an idling mint-green flying scooter. On the right, a red double-decker hover bus idles with doors open.",
+ "shown": [
+  "a wicker gondola drone hovering gently beside the ledge on the left",
+  "a mint-green flying scooter parked beside a railing in the centre",
+  "a red double-decker hover bus docked at a platform on the right"
+ ],
+ "view": "wide"
+}

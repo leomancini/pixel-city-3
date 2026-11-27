@@ -1,0 +1,21 @@
+{
+ "id": "c8-d1-2-1",
+ "scene": "The cranked wheel clatters, opening transit gates across the sunny piazza.",
+ "options": [
+  "Ride hover metro",
+  "Board hover bus",
+  "Take gondola drone"
+ ],
+ "next": [
+  "c8-d0",
+  "c8-d2",
+  "c8-d3"
+ ],
+ "picture": "Flat side-view along sunny cobblestones. On the far left sits an open hover metro train. Left of centre, the grandmother in her pink tracksuit holds her white dog's lead beside the brass pasta machine. In the centre idles a red double-decker hover bus. On the far right, a wicker gondola drone floats beside a post.",
+ "shown": [
+  "A sleek hover metro with open doors waiting on tracks on the far left",
+  "A red double-decker hover bus idling at the curb in the centre",
+  "A hovering wicker gondola drone moored to a brass pole on the far right"
+ ],
+ "view": "wide"
+}

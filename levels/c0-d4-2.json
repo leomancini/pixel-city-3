@@ -1,0 +1,21 @@
+{
+ "id": "c0-d4-2",
+ "scene": "The retro soap dispenser rattles, offering weird neon tokens instead of powder.",
+ "options": [
+  "Take neon token",
+  "Turn twist knob",
+  "Peel sticker"
+ ],
+ "next": [
+  "c0-d4-2-0",
+  "c0-d4-2-1",
+  "c0-d4-2-2"
+ ],
+ "picture": "A close first-person view of the soap dispenser. Far left, the dispensing metal chute holds a glowing turquoise coin. Centre features a heavy brass twist knob above a coin slot. Right shows a faded yellowed instructions panel with a peeling holographic star sticker. The player's brown hand reaches into frame.",
+ "shown": [
+  "a glowing turquoise metal coin resting in the metal tray, far left",
+  "a chunky brass knob set above the coin slot, centre",
+  "a curling starry sticker stuck on the metal casing, right"
+ ],
+ "view": "close"
+}

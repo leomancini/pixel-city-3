@@ -1,0 +1,21 @@
+{
+ "id": "c5-d1",
+ "scene": "You step off the double-decker bus into vibrant Comic Book Lane.",
+ "options": [
+  "Enter comic shop",
+  "Climb roof ladder",
+  "Inspect comic spinner"
+ ],
+ "next": [
+  "c5-d1-0",
+  "c5-d1-1",
+  "c5-d1-2"
+ ],
+ "picture": "Flat pixel-art side view along a pavement. On the far left, a red double-decker bus idles at the curb. To the left sits a comic shop with glass doors. The boy with dark hair and skateboard stands centre. Up high, an iron ladder ascends toward a cartoon cinema. On the far right stands a comic rack.",
+ "shown": [
+  "A narrow comic shop with glass doors stands closed on the left.",
+  "An iron ladder leads up high toward a glowing rooftop cinema marquee.",
+  "A revolving metal comic book rack stands untouched on the far right."
+ ],
+ "view": "wide"
+}

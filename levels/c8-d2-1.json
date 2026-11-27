@@ -1,0 +1,21 @@
+{
+ "id": "c8-d2-1",
+ "scene": "The brass gent tips his bowler hat and presents three curious items.",
+ "options": [
+  "Take brass key",
+  "Read folded map",
+  "Inspect pocket watch"
+ ],
+ "next": [
+  "c8-d2-1-0",
+  "c8-d2-1-1",
+  "c8-d2-1-2"
+ ],
+ "picture": "Side-scrolling view on wet cobbles. On the left stands Granny in pink tracksuit holding her dog's leash. At centre, the brass gent tips his hat, holding out a winged key, tucking a map under his arm, and dangling a ticking pocket watch. On the right, a glowing lamppost illuminates a stone archway.",
+ "shown": [
+  "a gleaming winged key held in the robot gent's outstretched left hand",
+  "an intricate parchment map tucked beneath the gent's right metallic arm",
+  "a ticking golden pocket watch dangling from the gent's shiny bronze vest"
+ ],
+ "view": "wide"
+}

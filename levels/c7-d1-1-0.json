@@ -1,0 +1,21 @@
+{
+ "id": "c7-d1-1-0",
+ "scene": "The ballerina leaps into your mitten, revealing three departing transit passes.",
+ "options": [
+  "Board glass boat",
+  "Ride striped balloon",
+  "Take hillside chairlift"
+ ],
+ "next": [
+  "c7-d2",
+  "c7-d3",
+  "c7-d0"
+ ],
+ "picture": "Flat side view along the snowy edge of town. Far left, a glass-bottomed boat bobs at a canal dock. Centre-left, the boy in his orange puffer vest holds a tiny ballerina. Up high, a colorful hot-air balloon floats, tethered to a post. Far right, an icy chairlift terminal waits with a swinging wooden bench.",
+ "shown": [
+  "a glass-bottomed canal boat moored at the stone dock on the far left",
+  "a tethered hot-air balloon with an open wicker basket up high",
+  "a wooden chairlift station with an empty swinging bench on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c8-d0-1-2",
+ "scene": "Atop the roof, three transit lines await passengers over the neon cityscape.",
+ "options": [
+  "Fly to Piazza",
+  "Board Clockworks bus",
+  "Ride canal drone"
+ ],
+ "next": [
+  "c8-d1",
+  "c8-d2",
+  "c8-d3"
+ ],
+ "picture": "A flat side view along a high rooftop transit deck. On the far left sits a yellow flying scooter. In the centre, the grandmother in pink tracksuit stands with her white dog on a lead. To the right hovers an open double-decker bus, and on the far right floats a striped drone gondola.",
+ "shown": [
+  "a sleek yellow flying scooter parked on a launch rail on the far left",
+  "a red double-decker hover bus hovering with open doors on the right",
+  "a striped gondola suspended under a buzzing giant drone on the far right"
+ ],
+ "view": "wide"
+}

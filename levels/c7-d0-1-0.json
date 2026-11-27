@@ -1,0 +1,21 @@
+{
+ "id": "c7-d0-1-0",
+ "scene": "The friendly shopkeeper serves tea, pointing outside toward three waiting departures.",
+ "options": [
+  "Board reef boat",
+  "Ride striped balloon",
+  "Take sleigh tram"
+ ],
+ "next": [
+  "c7-d2",
+  "c7-d3",
+  "c7-d1"
+ ],
+ "picture": "A flat side view along a wide wooden terrace under open skies. On the far left sits a glass-bottomed boat beside a pier. Centre, the lanky boy holds a steaming mug beside the smiling shopkeeper. Up high sways a tethered red-striped hot-air balloon. On the far right waits a sleigh tram on icy rails.",
+ "shown": [
+  "a glass-bottomed boat waiting at the hill's pier on the far left",
+  "a tethered hot-air balloon with open basket swaying up high",
+  "a runnered sleigh tram idling on frosted rails to the far right"
+ ],
+ "view": "wide"
+}

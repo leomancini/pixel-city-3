@@ -1,0 +1,21 @@
+{
+ "id": "c9-d2-0-1",
+ "scene": "The robot swaps three travel passes for your glowing teal capsule.",
+ "options": [
+  "Board cloud pod",
+  "Catch solar junk",
+  "Ride dragon train"
+ ],
+ "next": [
+  "c9-d1",
+  "c9-d3",
+  "c9-d0"
+ ],
+ "picture": "Flat side-scrolling view along the high arcade transit deck. On the far left hangs a round glass cable pod. Left stands the Pacific Islander man holding three tickets. Centre rests a wooden solar-sail junk at the dock. Far right waits a sleek, glowing maglev dragon train with open doors ready for boarding.",
+ "shown": [
+  "A round glass cable pod swaying gently on the far left",
+  "A wooden junk boat with golden solar sails idling at centre",
+  "A sleek dragon-headed maglev train waiting open on the far right"
+ ],
+ "view": "wide"
+}

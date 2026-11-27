@@ -1,0 +1,21 @@
+{
+ "id": "c8-d1-2-2",
+ "scene": "Inside the bustling pasta parlor, three departure gates lead to other districts.",
+ "options": [
+  "Board hover bus",
+  "Ride gondola drone",
+  "Take hover metro"
+ ],
+ "next": [
+  "c8-d2",
+  "c8-d3",
+  "c8-d0"
+ ],
+ "picture": "Flat side-view across the parlor floor. On the far left stands the pink-tracksuited grandmother holding her dog's lead. On the left, a double-decker hover bus waits by open hangar doors. In the centre sits a water basin holding a striped gondola drone. On the far right, a shiny hover metro waits with open doors.",
+ "shown": [
+  "a red double-decker hover bus parked by open bay doors on the left",
+  "a striped gondola drone hovering inside a water-filled dock in the centre",
+  "a sleek hover metro train waiting at a platform on the far right"
+ ],
+ "view": "wide"
+}

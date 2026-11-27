@@ -1,0 +1,21 @@
+{
+ "id": "c8-d3-0-1",
+ "scene": "Holding the delicate bluebird, you step outside to three departing transit docks.",
+ "options": [
+  "Ride flying scooter",
+  "Board hover bus",
+  "Catch hover metro"
+ ],
+ "next": [
+  "c8-d1",
+  "c8-d2",
+  "c8-d0"
+ ],
+ "picture": "Flat side view along the canal transit dock. Far left, a yellow flying scooter floats by a post. Left-centre, the grandmother in pink tracksuit holds her glass bird, dog beside her. Right, a red double-decker hover bus hovers. Far right, an open gate leads directly into a gleaming silver hover metro.",
+ "shown": [
+  "a sleek yellow flying scooter parked on the dock at the far left",
+  "a red double-decker hover bus idling at the curb on the right",
+  "a silver hover metro waiting beside its open platform gate on the far right"
+ ],
+ "view": "wide"
+}

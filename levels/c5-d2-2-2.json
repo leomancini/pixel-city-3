@@ -1,0 +1,21 @@
+{
+ "id": "c5-d2-2-2",
+ "scene": "You pedal down safely to a bustling multi-transit interchange on the ground.",
+ "options": [
+  "Board red bus",
+  "Board paddle steamer",
+  "Catch skate shuttle"
+ ],
+ "next": [
+  "c5-d1",
+  "c5-d3",
+  "c5-d0"
+ ],
+ "picture": "Side view of a paved transit plaza. On the far left, a red double-decker bus waits with open doors. Left of centre, the boy in green stripes stands clutching his skateboard beside his landed wicker copter. In the centre, a paddle steamer floats at a dock. On the right idles a yellow skate shuttle.",
+ "shown": [
+  "a red double-decker bus with doors open on the far left",
+  "a smoking paddle steamer docked beside a wooden pier in the centre",
+  "a yellow skate-park shuttle van idling on the right"
+ ],
+ "view": "wide"
+}

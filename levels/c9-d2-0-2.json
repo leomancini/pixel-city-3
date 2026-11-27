@@ -1,0 +1,21 @@
+{
+ "id": "c9-d2-0-2",
+ "scene": "The giant golden cat leaps atop the transit concourse roof, purring loudly.",
+ "options": [
+  "Board solar junk",
+  "Take dragon train",
+  "Ride cable pod"
+ ],
+ "next": [
+  "c9-d3",
+  "c9-d0",
+  "c9-d1"
+ ],
+ "picture": "Flat side-scrolling view of an open transit concourse roof. On the far left sits a docked solar-sail junk. Left sits the giant golden cat, ridden by the Pacific Islander man with top knot and ukulele. Centre waits a maglev dragon train with open doors. Far right hangs an empty spherical cloud cable pod.",
+ "shown": [
+  "a solar-sail junk moored at the open sky pier on the far left",
+  "a maglev dragon train waiting with open doors on the track at the centre",
+  "a spherical cloud cable pod dangling from a wire on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c7-d0-2-0",
+ "scene": "The freed ribbon dances away, revealing departure docks lined along the crest.",
+ "options": [
+  "Board hot-air balloon",
+  "Take sleigh tram",
+  "Board glass boat"
+ ],
+ "next": [
+  "c7-d3",
+  "c7-d1",
+  "c7-d2"
+ ],
+ "picture": "A flat side-scrolling view of the ridge edge. On the far left, a wicker basket rests by a striped hot-air balloon. The boy stands left-centre beside a happy kite girl. In the centre, a red sleigh tram sits on silver rails. At the far right, a glass-bottomed launch rests on a wooden slipway.",
+ "shown": [
+  "a wicker basket tethered to a striped balloon waiting on the left platform",
+  "a red wooden sleigh tram stopped on frosty tracks at the centre station",
+  "a slipway cradle holding a glass-bottomed boat with its ramp down on the far right"
+ ],
+ "view": "wide"
+}

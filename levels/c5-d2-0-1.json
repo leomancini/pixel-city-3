@@ -1,0 +1,21 @@
+{
+ "id": "c5-d2-0-1",
+ "scene": "Holding the brass key, three newly unlocked transit gates swing open.",
+ "options": [
+  "Board comic bus",
+  "Board paddle steamer",
+  "Take skate shuttle"
+ ],
+ "next": [
+  "c5-d1",
+  "c5-d3",
+  "c5-d0"
+ ],
+ "picture": "A wide side-scrolling view of the breezy wooden canopy platform. On the left, a bright red double-decker bus idles at a ramp. The boy stands center holding a brass key and his skateboard. Up high, a paddle steamer floats by an upper dock. On the right, a skate-park shuttle van sits waiting.",
+ "shown": [
+  "a bright red double-decker bus waiting with open doors on the left",
+  "a cheerful wooden paddle steamer bobbing beside a wooden pier dock up high",
+  "a sleek skate-park shuttle van parked with hazard lights blinking on the right"
+ ],
+ "view": "wide"
+}

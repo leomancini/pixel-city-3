@@ -1,0 +1,21 @@
+{
+ "id": "c8-d0-2-1",
+ "scene": "A robot sky-valet appears, summoning three unique aerial rides to the edge.",
+ "options": [
+  "Ride flying scooter",
+  "Board hover bus",
+  "Take gondola drone"
+ ],
+ "next": [
+  "c8-d1",
+  "c8-d2",
+  "c8-d3"
+ ],
+ "picture": "Side-scrolling view of the observation deck. On the far left, a winged flying scooter floats idle. Left of centre, a red double-decker hover bus hovers level with the deck. In the centre, the grandmother stands with her white dog beside the counter, while a striped gondola drone bobs docked on the far right.",
+ "shown": [
+  "a gleaming winged scooter floating near the railing on the far left",
+  "a red double-decker hover bus hovering beside the platform on the left",
+  "an ornate striped gondola drone docked at the railing on the far right"
+ ],
+ "view": "wide"
+}

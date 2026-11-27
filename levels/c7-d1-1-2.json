@@ -1,0 +1,21 @@
+{
+ "id": "c7-d1-1-2",
+ "scene": "The glass cart rolls to a bustling transport plaza on the city rim.",
+ "options": [
+  "Ride hillside chairlift",
+  "Board glass boat",
+  "Take hot-air balloon"
+ ],
+ "next": [
+  "c7-d0",
+  "c7-d2",
+  "c7-d3"
+ ],
+ "picture": "Pixel art flat side-scrolling view of a wide frozen dock and rim plaza. Far left, a chairlift boarding post with an empty swinging chair. Left-centre, the lanky boy in orange puffer vest and kite stands facing right. Centre, a glass-bottomed boat floats beside a pier. Far right, a brightly striped hot-air balloon is tethered.",
+ "shown": [
+  "a swinging hillside chairlift seat hanging from an iron cable on the far left",
+  "a moored glass-bottomed boat rocking beside a frosty wooden pier in the centre",
+  "a striped hot-air balloon tethered and puffing steam on the far right"
+ ],
+ "view": "wide"
+}

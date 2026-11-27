@@ -1,0 +1,21 @@
+{
+ "id": "c6-d0-2-1",
+ "scene": "The viewfinder flashes, revealing hidden transit gates across the bustling bazaar.",
+ "options": [
+  "Take service elevator",
+  "Board rowing boat",
+  "Enter freight lift"
+ ],
+ "next": [
+  "c6-d1",
+  "c6-d2",
+  "c6-d3"
+ ],
+ "picture": "A flat side-scrolling view of Photo Bazaar at night. On the left, a rusted metal service elevator stands open. Centre left, the dark-haired boy in denim jacket adjusts his camera. Centre holds a mossy canal landing with a waiting wooden rowing boat. Far right stands a heavy industrial steel freight lift with lit buttons.",
+ "shown": [
+  "a rusted metal service elevator cage on the left with sliding open gate",
+  "a wooden rowing boat floating at a canal landing at the centre",
+  "a heavy steel freight lift on the far right with illuminated keypad"
+ ],
+ "view": "wide"
+}

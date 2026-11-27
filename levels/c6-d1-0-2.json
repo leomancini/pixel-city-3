@@ -1,0 +1,21 @@
+{
+ "id": "c6-d1-0-2",
+ "scene": "The open hatch reveals a bustling junction platform suspended between rooftop rails.",
+ "options": [
+  "Take freight lift",
+  "Board night tram",
+  "Row canal boat"
+ ],
+ "next": [
+  "c6-d3",
+  "c6-d0",
+  "c6-d2"
+ ],
+ "picture": "Side-view rooftop junction platform. On the far left, a clanking iron freight lift stands open with its gate up. Left of centre, the boy with curly hair, denim jacket, and camera steps through the open hatch. Centre, a brightly lit yellow night tram rests on overhead rails. Right, a small rowing boat bobs in an elevated aqueduct.",
+ "shown": [
+  "an open metal cage lift waiting on the far left",
+  "a glowing yellow night tram stopped at the platform centre",
+  "a wooden rowing boat moored in an elevated aqueduct on the right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c6-d2",
+ "scene": "You step from your wooden rowing boat onto a mossy station platform.",
+ "options": [
+  "Inspect vending machine",
+  "Examine giant lily",
+  "Climb tiled stairs"
+ ],
+ "next": [
+  "c6-d2-0",
+  "c6-d2-1",
+  "c6-d2-2"
+ ],
+ "picture": "Flat side view along a flooded tiled station platform line. On the left sits an empty wooden rowing boat tied to a post. Left of centre stands the dark-haired boy in glasses and denim jacket. Beside him on the far left stands a rusty glowing vending machine. Water lilies float centre, and tiled stairs rise far right.",
+ "shown": [
+  "a rusty vending machine glowing faintly green on the far left platform",
+  "a huge pink water lily floating in the dark water at centre",
+  "an arched tiled stairway leading up into shadow on the far right"
+ ],
+ "view": "wide"
+}

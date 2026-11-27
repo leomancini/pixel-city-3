@@ -1,0 +1,21 @@
+{
+ "id": "c5-d0-1",
+ "scene": "The cheerful cook hands you a steaming tray of neon cheesy nachos.",
+ "options": [
+  "Take the nachos",
+  "Inspect condiment bar",
+  "Climb roof ladder"
+ ],
+ "next": [
+  "c5-d0-1-0",
+  "c5-d0-1-1",
+  "c5-d0-1-2"
+ ],
+ "picture": "Pixel art flat side view. On the left stands the yellow van with a ladder on its wall. Centre-left, the boy with dark hair and blue eyes stands holding his skateboard. In the centre, a grinning cook leans through the open counter window holding a tray of nachos. On the far right sits an outdoor condiment bar.",
+ "shown": [
+  "a steaming tray of bright orange nachos held out at the centre counter",
+  "a metal condiment bar with pumps and peppers sitting on the far right",
+  "a yellow metal ladder attached to the van's side on the left"
+ ],
+ "view": "wide"
+}

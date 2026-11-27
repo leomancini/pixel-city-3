@@ -1,0 +1,21 @@
+{
+ "id": "c5-d0-0",
+ "scene": "Atop the tall halfpipe, you look out over the glowing plaza rooftop.",
+ "options": [
+  "Drop in now",
+  "Use tourist telescope",
+  "Cross sky bridge"
+ ],
+ "next": [
+  "c5-d0-0-0",
+  "c5-d0-0-1",
+  "c5-d0-0-2"
+ ],
+ "picture": "Pixel art flat side view atop the halfpipe deck. On the far left, the steep ramp curves sharply down. In the centre, the boy with blue eyes stands holding his skateboard beside a brass telescope. To the right, a weathered safety railing meets a wooden suspension bridge stretching toward a glowing greenhouse.",
+ "shown": [
+  "a steep, slick ramp curve on the far left edge of the platform",
+  "a brass coin-operated telescope mounted in the centre beside the safety rail",
+  "an arched wooden suspension bridge leading away toward a rooftop greenhouse on the right"
+ ],
+ "view": "wide"
+}

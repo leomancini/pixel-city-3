@@ -1,0 +1,21 @@
+{
+ "id": "c8-d1-1-2",
+ "scene": "The plaque reveals city transit lines converging right beside the piazza.",
+ "options": [
+  "Ride hover metro",
+  "Board hover bus",
+  "Hail gondola drone"
+ ],
+ "next": [
+  "c8-d0",
+  "c8-d2",
+  "c8-d3"
+ ],
+ "picture": "A flat side view along the piazza pavement. On the left, a sleek silver hover metro waits at a glass boarding gate. In the centre, a red double-decker hover bus idles, beside the silver-haired grandmother in her pink tracksuit and white dog. On the right, a winged striped gondola drone floats beside a mooring post.",
+ "shown": [
+  "a sleek silver metro pod waiting with open doors on the left",
+  "a red double-decker hover bus idling at the stop in the centre",
+  "a winged striped gondola drone moored at a post on the right"
+ ],
+ "view": "wide"
+}

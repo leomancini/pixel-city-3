@@ -1,0 +1,21 @@
+{
+ "id": "c7-d2-1-1",
+ "scene": "You climb to the windy lighthouse balcony where strange sky transports wait.",
+ "options": [
+  "Board hot-air balloon",
+  "Ride hillside chairlift",
+  "Take sleigh tram"
+ ],
+ "next": [
+  "c7-d3",
+  "c7-d0",
+  "c7-d1"
+ ],
+ "picture": "A flat side-view of the high stone lighthouse balcony. On the left, a yellow hot-air balloon bobs against its mooring rope. Left of centre, the boy in an orange puffer vest stands by the railing. In the centre, an empty hillside chairlift hangs ready. Far right sits a sleek winter sleigh tram.",
+ "shown": [
+  "a tethered yellow hot-air balloon with an open wicker basket, on the left",
+  "a swinging double chairlift suspended from a thick cable, in the centre",
+  "a frosty sleigh tram with glowing runners parked on a platform, far right"
+ ],
+ "view": "wide"
+}

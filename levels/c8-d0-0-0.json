@@ -1,0 +1,21 @@
+{
+ "id": "c8-d0-0-0",
+ "scene": "The unlocked chest reveals three travel tokens as transit vehicles arrive overhead.",
+ "options": [
+  "Ride flying scooter",
+  "Board hover bus",
+  "Catch gondola drone"
+ ],
+ "next": [
+  "c8-d1",
+  "c8-d2",
+  "c8-d3"
+ ],
+ "picture": "Side-scrolling view along the zinc roof terrace. Far left, an open-chested brass pastry robot stands by a yellow flying scooter. Left of centre, the grandmother in pink tracksuit holds three glowing transit tokens, dog beside her. Centre, a red double-decker hover bus hovers. Far right, a striped gondola drone floats beside a rooftop chimney.",
+ "shown": [
+  "a sleek yellow flying scooter parked on a launch ramp on the left",
+  "a red double-decker hover bus hovering with open doors at centre",
+  "a hovering striped gondola drone moored to a ring on the right"
+ ],
+ "view": "wide"
+}

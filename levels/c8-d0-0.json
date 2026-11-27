@@ -1,0 +1,21 @@
+{
+ "id": "c8-d0-0",
+ "scene": "A warm bite reveals a tiny rolled brass key hidden inside.",
+ "options": [
+  "Unlock robot chest",
+  "Share flaky pastry",
+  "Board cargo gondola"
+ ],
+ "next": [
+  "c8-d0-0-0",
+  "c8-d0-0-1",
+  "c8-d0-0-2"
+ ],
+ "picture": "Side-scrolling view along the zinc roof terrace at dusk. Far left stands the brass pastry robot holding an empty tray. In the centre, the grandmother in pink tracksuit holds a bitten croissant, her white dog sitting beside her. Far right, an open striped cargo gondola sways at a roof mooring post.",
+ "shown": [
+  "a keyhole on the brass pastry robot standing at the far left",
+  "the expectant white dog sitting attentively at the player's feet in centre",
+  "a striped canvas gondola swaying beside a mooring post at the far right"
+ ],
+ "view": "wide"
+}

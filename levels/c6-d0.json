@@ -1,0 +1,21 @@
+{
+ "id": "c6-d0",
+ "scene": "You step off the glowing night tram into bustling Photo Bazaar.",
+ "options": [
+  "Check red tent",
+  "Browse photo wall",
+  "Examine brass camera"
+ ],
+ "next": [
+  "c6-d0-0",
+  "c6-d0-1",
+  "c6-d0-2"
+ ],
+ "picture": "A flat side-view along a cobbled street. Far left sits the yellow night tram with open doors. Left is a red darkroom tent. Center stands the curly-haired boy in a denim jacket by a rack of drying photographs. Right features a wooden vendor stall holding a polished brass camera. Far right holds glowing lampposts.",
+ "shown": [
+  "a glowing red darkroom tent flap standing slightly ajar on the left",
+  "a tall wooden rack pinned with glossy black-and-white photos at the centre",
+  "an antique brass folding camera resting atop a merchant counter on the right"
+ ],
+ "view": "wide"
+}

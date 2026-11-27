@@ -1,0 +1,21 @@
+{
+ "id": "c8-d1",
+ "scene": "You step off your humming scooter into the bustling, sunlit Piazza Nova.",
+ "options": [
+  "Taste green gelato",
+  "Examine marble fountain",
+  "Inspect pasta spinner"
+ ],
+ "next": [
+  "c8-d1-0",
+  "c8-d1-1",
+  "c8-d1-2"
+ ],
+ "picture": "Flat side-view across the paved piazza. On the far left sits a striped gelato cart. To its right, the player in a pink tracksuit holds her white dog's lead beside her hovering blue scooter. In the centre spouts a marble fountain, while on the right stands a brass pasta spinner.",
+ "shown": [
+  "a striped gelato cart with bright green scoops on the far left",
+  "an ornate marble fountain spouting sparkling water in the centre",
+  "a brass pasta-spinning machine twirling yellow ribbons on the right"
+ ],
+ "view": "wide"
+}

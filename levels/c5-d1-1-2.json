@@ -1,0 +1,21 @@
+{
+ "id": "c5-d1-1-2",
+ "scene": "Inside the cozy cartoon zeppelin, huge windows reveal the city hub below.",
+ "options": [
+  "Take skate shuttle",
+  "Board rope lift",
+  "Ride paddle steamer"
+ ],
+ "next": [
+  "c5-d0",
+  "c5-d2",
+  "c5-d3"
+ ],
+ "picture": "Flat pixel-art side view inside the zeppelin cabin with giant bay windows. On the far left, an open gangway meets a docked purple shuttle bus. The boy with dark hair and skateboard stands left. In the centre, an open trapdoor reveals a hanging rope-bridge lift. On the far right, a hatch opens to a paddle steamer.",
+ "shown": [
+  "a purple skate-park shuttle bus docked at an aerial landing ramp on the far left",
+  "a swinging wooden rope-bridge lift platform hanging open in the centre",
+  "a red paddle steamer moored to a floating cloud dock on the far right"
+ ],
+ "view": "wide"
+}

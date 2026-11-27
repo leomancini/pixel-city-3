@@ -1,0 +1,21 @@
+{
+ "id": "c7-d0-0-2",
+ "scene": "Inside the tea hut, three travel booths await your next destination.",
+ "options": [
+  "Fly to Balloon Fields",
+  "Ride sleigh tram",
+  "Board reef boat"
+ ],
+ "next": [
+  "c7-d3",
+  "c7-d1",
+  "c7-d2"
+ ],
+ "picture": "A flat side view inside the warm hilltop tea hut along one floor line. Far left, a wicker gate opens toward a tethered hot-air balloon basket. The boy in his orange vest and scarf stands left of centre. Centre, a frosty turnstile waits beside a red sleigh tram. Far right, a gangway meets a glass-bottomed boat.",
+ "shown": [
+  "a wicker gate leading to a hot-air balloon basket, far left",
+  "a frosty turnstile beside an idling red sleigh tram, centre",
+  "a wooden gangway reaching down to a glass-bottomed boat, far right"
+ ],
+ "view": "wide"
+}

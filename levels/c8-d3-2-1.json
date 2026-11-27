@@ -1,0 +1,21 @@
+{
+ "id": "c8-d3-2-1",
+ "scene": "The mechanical monkey chitters happily and unlocks three transit departure gates.",
+ "options": [
+  "Board hover metro",
+  "Hire flying scooter",
+  "Take hover bus"
+ ],
+ "next": [
+  "c8-d0",
+  "c8-d1",
+  "c8-d2"
+ ],
+ "picture": "A flat side-scrolling view of a rooftop transit hub. On the far left, a silver hover metro idles beside a turnstile. Left-centre, the silver-haired grandmother in pink tracksuit holds her white dog's lead. In the centre, a yellow flying scooter sits parked. On the far right waits a red double-decker hover bus.",
+ "shown": [
+  "a sleek hover metro train idling at a raised platform on the far left",
+  "a bright yellow flying scooter parked beside its smiling pilot in the centre",
+  "a crimson double-decker hover bus with open doors on the far right"
+ ],
+ "view": "wide"
+}

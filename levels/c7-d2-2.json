@@ -1,0 +1,21 @@
+{
+ "id": "c7-d2-2",
+ "scene": "Inside the lighthouse base, spiraling stairs rise past humming machinery.",
+ "options": [
+  "Climb spiral stairs",
+  "Inspect brass machine",
+  "Open basement hatch"
+ ],
+ "next": [
+  "c7-d2-2-0",
+  "c7-d2-2-1",
+  "c7-d2-2-2"
+ ],
+ "picture": "Side view inside round stone room. Far left, spiral stairs curve upward. Left of centre, the boy in orange vest and kite stands facing right. Right of centre, a brass machine ticks with glowing blue dials. Far right, a wooden trapdoor lies shut on the stone floor.",
+ "shown": [
+  "Curving metal spiral stairs on the far left ascending upward.",
+  "A whirring brass machine with glowing dials right of centre.",
+  "A heavy wooden trapdoor with iron ring on the far right."
+ ],
+ "view": "wide"
+}

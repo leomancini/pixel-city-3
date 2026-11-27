@@ -1,0 +1,21 @@
+{
+ "id": "c7-d1-2-2",
+ "scene": "A glowing silver key falls out, unlocking three departures from the platform.",
+ "options": [
+  "Board glass boat",
+  "Ride striped balloon",
+  "Take hillside chairlift"
+ ],
+ "next": [
+  "c7-d2",
+  "c7-d3",
+  "c7-d0"
+ ],
+ "picture": "Flat side view. Along the snowy platform, far left shows a glass-bottomed boat docked at water. Left of centre, the glass cart stands beside the boy holding an open purple pouch. Up high, an empty chairlift chair dangles from cables. Far right, a hot-air balloon is tethered to a frost-covered post.",
+ "shown": [
+  "a sleek glass-bottomed boat bobbing beside a frozen pier on the far left",
+  "a tethered hot-air balloon with colourful stripes floating on the far right",
+  "a dangling open chairlift swinging from a high overhead wire up high"
+ ],
+ "view": "wide"
+}

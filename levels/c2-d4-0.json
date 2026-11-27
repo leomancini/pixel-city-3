@@ -1,0 +1,21 @@
+{
+ "id": "c2-d4-0",
+ "scene": "The brass orrery whirs softly, spinning tiny jeweled planets before you.",
+ "options": [
+  "Turn silver crank",
+  "Touch ruby planet",
+  "Roll to console"
+ ],
+ "next": [
+  "c2-d4-0-0",
+  "c2-d4-0-1",
+  "c2-d4-0-2"
+ ],
+ "picture": "A flat side view along a level tiled observatory floor beneath glowing constellations. On the far left, a mechanical brass orrery clicks softly, displaying a silver crank at its base. Next to it, the girl in her teal hoodie sits in her purple wheelchair reaching out toward a central ruby orb. On the far right stands a glowing turquoise console.",
+ "shown": [
+  "a notched silver crank sticking out on the far left of the orrery base",
+  "a glowing ruby sphere spinning slowly in the centre of the brass rings",
+  "a tall glowing terminal humming with turquoise lights on the far right"
+ ],
+ "view": "wide"
+}

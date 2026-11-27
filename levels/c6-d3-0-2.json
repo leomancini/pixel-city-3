@@ -1,0 +1,21 @@
+{
+ "id": "c6-d3-0-2",
+ "scene": "Holding the heavy brass key, you discover three distinct exits leaving Vaults.",
+ "options": [
+  "Row to Garden",
+  "Board night tram",
+  "Ride service elevator"
+ ],
+ "next": [
+  "c6-d2",
+  "c6-d0",
+  "c6-d1"
+ ],
+ "picture": "A flat side view of Vinyl Vaults exit platform. On the far left, a small rowing boat floats in an arched canal. On the left, the boy stands holding a brass key. Up high in the centre, a service elevator cage hangs open. On the far right, a yellow tram waits.",
+ "shown": [
+  "A wooden rowing boat moored at a watery tunnel on the far left",
+  "A lighted yellow night tram waiting on tracks on the far right",
+  "A metal mesh service elevator with open sliding doors up high"
+ ],
+ "view": "wide"
+}

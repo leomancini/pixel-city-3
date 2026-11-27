@@ -1,0 +1,21 @@
+{
+ "id": "c5-d2-0-2",
+ "scene": "The knob triggers a platform collapse, revealing three transit docks below.",
+ "options": [
+  "Board paddle steamer",
+  "Ride skate shuttle",
+  "Catch double-decker bus"
+ ],
+ "next": [
+  "c5-d3",
+  "c5-d0",
+  "c5-d1"
+ ],
+ "picture": "Flat side view on a wide lower transit deck. On the far left, a red paddle steamer floats beside the pier. In the centre, a yellow skate shuttle waits open. On the right stands the boy in striped shirt, holding his skateboard, facing right toward a tall blue double-decker bus on the far right.",
+ "shown": [
+  "a bright red river paddle steamer docked at a wooden pier on the far left",
+  "a yellow ramp-equipped skate shuttle bus parked with open doors in the centre",
+  "a tall blue double-decker bus waiting beside a striped pole on the far right"
+ ],
+ "view": "wide"
+}

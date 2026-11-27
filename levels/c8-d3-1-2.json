@@ -1,0 +1,21 @@
+{
+ "id": "c8-d3-1-2",
+ "scene": "You cross the bridge into a glittering transport plaza over the water.",
+ "options": [
+  "Board hover metro",
+  "Hire flying scooter",
+  "Take hover bus"
+ ],
+ "next": [
+  "c8-d0",
+  "c8-d1",
+  "c8-d2"
+ ],
+ "picture": "Flat side-scrolling view of an elevated transit plaza. At left-centre stands the silver-haired grandmother in pink tracksuit holding her small white dog on a lead. On far left, a sleek hover metro pod rests with doors open. In the centre, a flying scooter stands beside a meter. On the far right, a brass double-decker hover bus idles.",
+ "shown": [
+  "a sleek glass hover metro pod waiting with open doors on the left",
+  "a turquoise flying scooter parked by a meter at the centre",
+  "a brass double-decker hover bus idling at the curb on the far right"
+ ],
+ "view": "wide"
+}

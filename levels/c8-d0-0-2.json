@@ -1,0 +1,21 @@
+{
+ "id": "c8-d0-0-2",
+ "scene": "Inside the striped gondola, three transit departure bays open before you.",
+ "options": [
+  "Ride gondola drone",
+  "Fly yellow scooter",
+  "Board hover bus"
+ ],
+ "next": [
+  "c8-d3",
+  "c8-d1",
+  "c8-d2"
+ ],
+ "picture": "Side-scrolling view inside an open-air rooftop sky-dock. Far left, a spherical gondola drone floats beside a sign reading Carnival Canals. Center left, the grandmother in pink tracksuit holds her white dog on its leash. In the centre, a winged yellow scooter sits ready. Far right waits a glowing red double-decker hover bus.",
+ "shown": [
+  "a tethered drone gondola floating with hatch open at the far left",
+  "a winged yellow scooter idling on a launch rail in the centre",
+  "a red double-decker hover bus waiting at a gate on the far right"
+ ],
+ "view": "wide"
+}

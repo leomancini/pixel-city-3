@@ -1,0 +1,21 @@
+{
+ "id": "c4-d4-1-0",
+ "scene": "The warm brew invigorates you as the pavilion's back terrace reveals departing routes.",
+ "options": [
+  "Ride spiral lift",
+  "Board cable tram",
+  "Take river barge"
+ ],
+ "next": [
+  "c4-d2",
+  "c4-d3",
+  "c4-d0"
+ ],
+ "picture": "Flat side view on the open-air wooden terrace behind the tea pavilion. On the left stands a brass spiral lift cage with its door propped open. The player in lilac headscarf and mustard coat stands left of centre. At centre sits an anchored yellow cable tram. On the right, a wooden river barge rests at the dock.",
+ "shown": [
+  "a winding bronze elevator cage with open door waiting on the left",
+  "a bright yellow mountain cable car stopped at the centre platform",
+  "a flat wooden river barge moored at the right dock with gangplank down"
+ ],
+ "view": "wide"
+}

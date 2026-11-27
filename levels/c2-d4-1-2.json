@@ -1,0 +1,21 @@
+{
+ "id": "c2-d4-1-2",
+ "scene": "The spiral hatch unfolds, revealing an underground hangar buzzing with strange transports.",
+ "options": [
+  "Board Sky Dock airship",
+  "Catch delivery truck",
+  "Enter glass elevator"
+ ],
+ "next": [
+  "c2-d0",
+  "c2-d1",
+  "c2-d2"
+ ],
+ "picture": "Flat side-view along a metal hangar floor. Far left, a brass airship is moored to a pylon. Centre-left, the South Asian girl in her teal hoodie sits in her purple wheelchair. In the centre, an idle yellow delivery truck waits with doors open. Far right, an illuminated glass elevator sits with open doors.",
+ "shown": [
+  "a moored miniature brass airship humming quietly on the far left platform",
+  "a yellow robotic delivery truck with open cargo doors standing in the centre",
+  "a glowing cylindrical glass elevator with open sliding doors on the far right"
+ ],
+ "view": "wide"
+}

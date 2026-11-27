@@ -1,0 +1,21 @@
+{
+ "id": "c6-d2-2-1",
+ "scene": "The friendly kiosk vendor offers you three strange city transit tokens.",
+ "options": [
+  "Take night tram",
+  "Ride service elevator",
+  "Board freight lift"
+ ],
+ "next": [
+  "c6-d0",
+  "c6-d1",
+  "c6-d3"
+ ],
+ "picture": "Flat side view along a sunlit station concourse. On the far left sits a waiting night tram. Left of centre, a cheerful striped newspaper kiosk stands with an owl vendor. The curly-haired boy in a denim jacket stands at the kiosk counter. On the right, an iron service elevator waits open. Far right sits a heavy freight lift.",
+ "shown": [
+  "A sleek glowing night tram waiting with doors open on the far left",
+  "An open iron service elevator cage on the right with buttons lit",
+  "A heavy metal freight lift platform with lowered gates on the far right"
+ ],
+ "view": "wide"
+}

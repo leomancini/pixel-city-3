@@ -1,0 +1,21 @@
+{
+ "id": "c6-d1-2",
+ "scene": "Through the telescope lens, strange city landmarks swim into crisp, vibrant focus.",
+ "options": [
+  "Track neon airship",
+  "Examine clock tower",
+  "Focus rooftop greenhouse"
+ ],
+ "next": [
+  "c6-d1-2-0",
+  "c6-d1-2-1",
+  "c6-d1-2-2"
+ ],
+ "picture": "A first-person circular telescope view looking out over the glittering pixel skyline. On the left sits a glass greenhouse dome glowing with lush giant ferns. In the centre rises an intricate neon clock face with rotating gold cogs. Up high drifts a luminescent fish-shaped airship with rotating propellers.",
+ "shown": [
+  "a glowing fish-shaped zeppelin drifting up high across the night skyline",
+  "a giant clock tower face with spinning gears visible in the centre",
+  "an illuminated glass greenhouse overflowing with exotic giant plants on the left"
+ ],
+ "view": "close"
+}

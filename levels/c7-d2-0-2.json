@@ -1,0 +1,21 @@
+{
+ "id": "c7-d2-0-2",
+ "scene": "The caught crab clicks cheerfully, pointing towards departures awaiting along the boardwalk.",
+ "options": [
+  "Board hot-air balloon",
+  "Ride hillside chairlift",
+  "Catch sleigh tram"
+ ],
+ "next": [
+  "c7-d3",
+  "c7-d0",
+  "c7-d1"
+ ],
+ "picture": "Flat side view along a wooden boardwalk over rocky surf. Far left, a striped hot-air balloon basket rests tethered. Centre left, a metal chairlift hangs from cables overhead. In the centre, the boy in orange vest holds the ticking crab. Far right, a frost-covered sleigh tram waits open on frosty rails.",
+ "shown": [
+  "a striped hot-air balloon tethered to a post on the far left",
+  "a dangling chairlift seat swinging empty from a high cable centre left",
+  "a brass sleigh tram resting on frozen rails on the far right"
+ ],
+ "view": "wide"
+}

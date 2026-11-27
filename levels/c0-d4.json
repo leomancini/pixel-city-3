@@ -1,0 +1,21 @@
+{
+ "id": "c0-d4",
+ "scene": "You step off the night bus into the glowing, hum of Moonlit Laundromat.",
+ "options": [
+  "Pet sleeping cat",
+  "Inspect humming dryer",
+  "Check soap dispenser"
+ ],
+ "next": [
+  "c0-d4-0",
+  "c0-d4-1",
+  "c0-d4-2"
+ ],
+ "picture": "A flat side view of Moonlit Laundromat. Far left sits an orange sleeping cat on a blue chair. The player stands left in a yellow raincoat and green boots holding a red umbrella. Centre shows a glowing, spinning dryer. Right is a metal soap dispenser. Far right, the night bus waits outside open glass doors.",
+ "shown": [
+  "a fluffy orange cat asleep on a low plastic chair on the far left",
+  "a brightly spinning dryer door glowing with purple light in the centre",
+  "a vintage metal soap vending machine mounted on the wall to the right"
+ ],
+ "view": "wide"
+}

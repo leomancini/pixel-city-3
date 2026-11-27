@@ -1,0 +1,21 @@
+{
+ "id": "c6-d2-1-0",
+ "scene": "The brass key opens gate locks, revealing three waiting transport routes.",
+ "options": [
+  "Take service elevator",
+  "Ride freight lift",
+  "Board night tram"
+ ],
+ "next": [
+  "c6-d1",
+  "c6-d3",
+  "c6-d0"
+ ],
+ "picture": "Flat side-scrolling view of the station platform. On the far left stands a grated service elevator with an open door. In the centre, the curly-haired boy in a denim jacket holds a brass key. To his right sits a heavy steel freight lift platform, and on the far right waits a lighted night tram.",
+ "shown": [
+  "a grated iron service elevator cage on the far left with open doors",
+  "a heavy steel freight lift platform with a chain control on the right",
+  "a glowing yellow night tram parked along tracks on the far right"
+ ],
+ "view": "wide"
+}

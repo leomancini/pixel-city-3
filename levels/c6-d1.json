@@ -1,0 +1,21 @@
+{
+ "id": "c6-d1",
+ "scene": "You step onto the breezy roof among glowing aerials and radio dishes.",
+ "options": [
+  "Enter radio shed",
+  "Tune satellite dish",
+  "Take telescope view"
+ ],
+ "next": [
+  "c6-d1-0",
+  "c6-d1-1",
+  "c6-d1-2"
+ ],
+ "picture": "A side-scrolling flat view of the windy rooftop. On the far left sits the open metal service elevator cage. To its right is a small broadcast shed with an illuminated sign. The curly-haired boy stands left-centre, camera ready, facing a blinking dish tripod at centre and a brass telescope on the far right.",
+ "shown": [
+  "a corrugated metal broadcast shed with a glowing 'ON AIR' sign on the left",
+  "a blinking satellite dish on an adjustable metal tripod in the centre",
+  "a brass coin-operated rooftop telescope mounted beside the railing on the far right"
+ ],
+ "view": "wide"
+}

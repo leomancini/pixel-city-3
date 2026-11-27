@@ -1,0 +1,21 @@
+{
+ "id": "c8-d1-2",
+ "scene": "The brass pasta spinner whirs, spitting neon strands across the piazza.",
+ "options": [
+  "Catch neon pasta",
+  "Crank red wheel",
+  "Enter pasta shop"
+ ],
+ "next": [
+  "c8-d1-2-0",
+  "c8-d1-2-1",
+  "c8-d1-2-2"
+ ],
+ "picture": "Flat side-view along the cobblestone ground. On the left, the silver-haired grandmother in a pink tracksuit holds her white dog on a lead. In the centre, the large brass pasta spinner whirs, spitting glowing noodles from a spout beside a red crank. On the far right stands a stone doorway with beaded curtains.",
+ "shown": [
+  "a cascade of glowing pink noodles tumbling out of the brass spout in the centre",
+  "a sturdy red hand-crank attached to the machine's side on the left",
+  "an open arched doorway with beaded curtains on the far right"
+ ],
+ "view": "wide"
+}

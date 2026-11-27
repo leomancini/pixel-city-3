@@ -1,0 +1,21 @@
+{
+ "id": "c7-d0-1-2",
+ "scene": "The fox yawns, unlocking the back door to three waiting summit departures.",
+ "options": [
+  "Ride sleigh tram",
+  "Board glass boat",
+  "Climb hot-air balloon"
+ ],
+ "next": [
+  "c7-d1",
+  "c7-d2",
+  "c7-d3"
+ ],
+ "picture": "A flat side view along a wide wooden terrace overlooking the hill. Far left, a silver sleigh tram sits idling on snowy mountain rails. Left-centre, the lanky boy in his orange vest and kite stands facing outward. Centre, a glass-bottomed boat floats in a canal slip. Far right, a striped hot-air balloon sways gently.",
+ "shown": [
+  "a silver sleigh tram waiting on snowy rails on the far left",
+  "a blue glass-bottomed canal boat moored at the wooden dock in the centre",
+  "a striped hot-air balloon basket anchored to posts on the far right"
+ ],
+ "view": "wide"
+}

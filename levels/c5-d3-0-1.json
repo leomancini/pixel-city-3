@@ -1,0 +1,21 @@
+{
+ "id": "c5-d3-0-1",
+ "scene": "A winning jackpot siren sounds as the pier arcade exit doors swing open.",
+ "options": [
+  "Board red bus",
+  "Ride wooden lift",
+  "Catch skate shuttle"
+ ],
+ "next": [
+  "c5-d1",
+  "c5-d2",
+  "c5-d0"
+ ],
+ "picture": "Flat side-scrolling view of the pier transit concourse. On the far left sits a red double-decker bus. Next, the boy with dark hair and blue eyes stands holding his skateboard. In the centre hangs an open wooden lift basket. On the far right waits a brightly painted skate shuttle with ramps.",
+ "shown": [
+  "a bright red double-decker bus idling on the far left with open doors",
+  "a suspended wooden rope-bridge lift basket swinging empty near the centre",
+  "a low neon shuttle van with open tailboard waiting on the far right"
+ ],
+ "view": "wide"
+}

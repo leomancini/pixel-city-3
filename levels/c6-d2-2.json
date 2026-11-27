@@ -1,0 +1,21 @@
+{
+ "id": "c6-d2-2",
+ "scene": "You climb the stairs into a bustling, sunlit train concourse.",
+ "options": [
+  "Read departure board",
+  "Approach newspaper kiosk",
+  "Board red tram"
+ ],
+ "next": [
+  "c6-d2-2-0",
+  "c6-d2-2-1",
+  "c6-d2-2-2"
+ ],
+ "picture": "Flat side view along a polished marble station concourse floor. On the far left sits a striped newspaper kiosk. Left of centre, the curly-haired boy in a denim jacket stands gazing forward. Up high hangs an enormous mechanical flip board. On the right, a cherry-red tram rests on brass rails with open doors.",
+ "shown": [
+  "a huge mechanical flip-schedule board ticking rapidly up high",
+  "a striped newsagent booth with paper stacks on the left",
+  "a cherry-red vintage tram with doors open on the right"
+ ],
+ "view": "wide"
+}

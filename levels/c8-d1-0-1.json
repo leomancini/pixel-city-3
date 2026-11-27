@@ -1,0 +1,21 @@
+{
+ "id": "c8-d1-0-1",
+ "scene": "Your spark jumpstarts the brass spinner, unveiling three transit gates across the piazza.",
+ "options": [
+  "Board Clockworks bus",
+  "Take gondola drone",
+  "Catch hover metro"
+ ],
+ "next": [
+  "c8-d2",
+  "c8-d3",
+  "c8-d0"
+ ],
+ "picture": "Flat side-view across the lively piazza pavement. On the far left sits an open-doored red double-decker hover bus. Towards the left stands the grandmother in her pink tracksuit with her white dog, beside the smoking brass spinner. In the centre floats a striped gondola drone, while a sleek hover metro waits on the far right.",
+ "shown": [
+  "a red double-decker hover bus idling at the curb on the far left",
+  "a striped flying gondola drone tethered to a post in the centre",
+  "a sleek silver hover metro car waiting at an open platform on the far right"
+ ],
+ "view": "wide"
+}

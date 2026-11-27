@@ -1,0 +1,21 @@
+{
+ "id": "c4-d4-0",
+ "scene": "The steaming copper kettle reveals a secret brass valve and map.",
+ "options": [
+  "Turn brass valve",
+  "Read folded map",
+  "Step toward pavilion"
+ ],
+ "next": [
+  "c4-d4-0-0",
+  "c4-d4-0-1",
+  "c4-d4-0-2"
+ ],
+ "picture": "First-person close-up of an ornate copper kettle hissing with steam over embers. A notched brass valve is fitted to the spout on the left. A folded parchment map rests beneath the coiled wire handle at centre. Through curling steam on the right, the pavilion steps are visible. Two gloved hands hover ready.",
+ "shown": [
+  "a notched brass turn-valve fitted to the kettle spout on the left",
+  "a water-stained parchment map tucked beneath the kettle handle at centre",
+  "the wooden entrance steps leading rightward toward the garden pavilion"
+ ],
+ "view": "close"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c4-d4-1-1",
+ "scene": "The unrolled painted scroll reveals three routes leading out of the valley.",
+ "options": [
+  "Ride cable tram",
+  "Board river barge",
+  "Take roofed trolley"
+ ],
+ "next": [
+  "c4-d3",
+  "c4-d0",
+  "c4-d1"
+ ],
+ "picture": "A close-up view through the player's eyes of the delicate silk scroll held open by two brown-sleeved hands. The silk map depicts whimsical transit paths: up high is a suspended red cable tram, along the bottom left drifts a flat river barge, and on the lower right stands an emerald glass-roofed trolley.",
+ "shown": [
+  "a painted aerial cable tram icon perched up high on the scroll",
+  "an ink drawing of a wide river barge along the bottom left",
+  "an illustrated green glass-roofed trolley sketch sitting on the lower right"
+ ],
+ "view": "wide"
+}

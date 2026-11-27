@@ -1,0 +1,21 @@
+{
+ "id": "c7-d0-0-1",
+ "scene": "Atop the ladder, three scenic travel routes fan out before you.",
+ "options": [
+  "Board glass boat",
+  "Ride striped balloon",
+  "Take sleigh tram"
+ ],
+ "next": [
+  "c7-d2",
+  "c7-d3",
+  "c7-d1"
+ ],
+ "picture": "A flat side view along the breezy ridge. Far left sits a lakeside dock with a waiting glass-bottomed boat. Left of centre, the boy in his orange vest and kite clings to the tall ladder. Up high centre, a colourful hot-air balloon floats moored. Far right, a winter sleigh tram waits on frosty tracks.",
+ "shown": [
+  "A moored glass-bottomed boat waiting at a lakeside dock on the far left",
+  "A tethered hot-air balloon with a wicker basket floating up high centre",
+  "A wooden sleigh tram idling along a frosty track on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c2-d4-0-1",
+ "scene": "The ruby planet clicks, unfolding triple transit gates in the dome.",
+ "options": [
+  "Take glass elevator",
+  "Board steam train",
+  "Ride mooring airship"
+ ],
+ "next": [
+  "c2-d2",
+  "c2-d3",
+  "c2-d0"
+ ],
+ "picture": "A flat side view along the tiled dome floor. On the far left, a transparent glass elevator sits with open doors. Left of centre, the girl in her teal hoodie pauses in her purple wheelchair. In the centre, a miniature steam train puffs puffs on tracks. On the far right, a moored airship awaits passengers.",
+ "shown": [
+  "a gleaming glass elevator shaft resting on the far left",
+  "a bright brass steam train idling on centre tracks",
+  "a striped airship moored to a gantry on the far right"
+ ],
+ "view": "wide"
+}

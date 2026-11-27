@@ -1,0 +1,21 @@
+{
+ "id": "c6-d1-2-0",
+ "scene": "The glowing airship drops transport tokens across the rooftop edge.",
+ "options": [
+  "Take freight lift",
+  "Ride night tram",
+  "Row wooden boat"
+ ],
+ "next": [
+  "c6-d3",
+  "c6-d0",
+  "c6-d2"
+ ],
+ "picture": "Flat side-view along the rooftop edge. On the far left stands an open metal freight lift cage. Left of centre, the curly-haired boy in a denim jacket catches a dropped token. On the right, a yellow tram waits on tracks. Far right, a wooden rowing boat bobs in a flooded canal drain.",
+ "shown": [
+  "a metal freight lift shaft with open folding gate on the far left",
+  "a sleek yellow tram stopped at a suspended rooftop track on the right",
+  "a small wooden rowing boat resting in a rooftop canal pool on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c9-d0-2-1",
+ "scene": "Atop the gate, three busy transit docks stretch into the night sky.",
+ "options": [
+  "Board cloud pod",
+  "Take bullet train",
+  "Sail solar junk"
+ ],
+ "next": [
+  "c9-d1",
+  "c9-d2",
+  "c9-d3"
+ ],
+ "picture": "A flat side view along the tiled rooftop platform atop the moon gate. On the far left hangs a round cloud cable pod with an open hatch. In the centre, the broad-shouldered Pacific Islander man stands with his ukulele beside a waiting bullet train. On the right, a solar-sail junk floats moored to a post.",
+ "shown": [
+  "A round cable pod hanging open on an overhead wire on the left",
+  "A sleek bullet train with open sliding doors in the centre",
+  "A wooden junk ship with glowing solar sails moored on the right"
+ ],
+ "view": "wide"
+}

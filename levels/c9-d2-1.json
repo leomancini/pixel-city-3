@@ -1,0 +1,21 @@
+{
+ "id": "c9-d2-1",
+ "scene": "The metallic chef serves piping hot noodles that bubble with bright neon steam.",
+ "options": [
+  "Slurp hot broth",
+  "Tip the robot",
+  "Pass neon curtain"
+ ],
+ "next": [
+  "c9-d2-1-0",
+  "c9-d2-1-1",
+  "c9-d2-1-2"
+ ],
+ "picture": "Flat side-scrolling view inside the compact noodle bar. On the left stands the chrome ramen robot behind a glossy counter. In the centre, the broad-shouldered Pacific Islander man in floral shirt with top knot and ukulele sits on a red stool before a steaming ramen bowl. On the far right hangs a glowing beaded doorway.",
+ "shown": [
+  "a steaming bowl of glowing orange ramen sitting on the counter at centre",
+  "the chrome ramen robot with digital eye-slits standing behind the counter on the left",
+  "a glowing beaded doorway leading out of the noodle stall on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c6-d0-2-2",
+ "scene": "A dazzling flash reveals three secret portals leading out from the market.",
+ "options": [
+  "Row canal boat",
+  "Enter freight lift",
+  "Ride service elevator"
+ ],
+ "next": [
+  "c6-d2",
+  "c6-d3",
+  "c6-d1"
+ ],
+ "picture": "Flat side-scrolling view of the market edge. Far left, a wooden rowing boat floats at a canal dock. Left of centre, the player with curly hair and denim jacket holds the smoking brass camera. Centre, an open iron freight lift waits. Right, an upright glass service elevator glows brightly. Strung festival lanterns hang up high.",
+ "shown": [
+  "a wooden rowing boat tied to a wet canal dock on the left",
+  "an open metal cage freight lift waiting beside crates at the centre",
+  "a sleek glass service elevator with an illuminated call button on the right"
+ ],
+ "view": "wide"
+}

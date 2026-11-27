@@ -53,6 +53,8 @@ const CHARACTERS = [
   "a young boy with messy dark hair and bright blue eyes, in a green striped T-shirt and red sneakers, carrying a skateboard",
   "a teenage boy with dark curly hair, blue eyes and round glasses, in a denim jacket, with a camera around his neck",
   "a lanky boy with straight black hair and blue eyes, in an orange puffer vest and white scarf, with a kite strapped to his back",
+  "a silver-haired grandmother with big round glasses, in a pink tracksuit, walking a small white dog on a lead",
+  "a broad-shouldered Pacific Islander man with a top knot, in a floral shirt and sandals, carrying a ukulele",
 ];
 
 // Four districts per character: [name, how you arrive, what it is like].
@@ -89,7 +91,22 @@ const DISTRICTS = [
    ["Snow Globe Works", "sleigh tram", "a workshop street making snow globes, music boxes and wind-up toys"],
    ["Lighthouse Reef", "glass-bottomed boat", "a rocky reef with a lighthouse, tide pools and a seal colony"],
    ["Balloon Fields", "hot-air balloon", "a meadow of tethered balloons, basket weavers and ribbon stalls"]],
+  // European-themed, still whimsical and futuristic.
+  [["Nouveau Paris Rooftops", "hover metro", "a French quarter of zinc rooftops and cafe terraces, where pastry robots, accordion automatons and a lace-iron tower strung with lights glow under drifting balloons"],
+   ["Piazza Nova", "flying scooter", "an Italian piazza of ochre arcades, a marble fountain, gelato carts, pasta-spinning machines, laundry lines and hovering scooters"],
+   ["New Albion Clockworks", "double-decker hover bus", "an English street of rainy cobbles, red call boxes that teleport, tea rooms, umbrella stands, bowler-hatted robots and a great clock tower"],
+   ["Carnival Canals", "gondola drone", "a Venetian maze of canals and arched bridges, with masked revellers, glassblowers and lantern-lit gondolas that float just above the water"]],
+  // East Asian-themed, still whimsical and futuristic.
+  [["Dragon Lantern Market", "maglev dragon train", "a Chinese night market of red lanterns, moon gates, tea-pouring robots, steaming dumpling towers and a holographic dragon winding overhead"],
+   ["Hanok Sky Village", "cloud cable pod", "a Korean village of curved tiled hanok roofs on floating platforms, with kimchi-jar gardens, rice-cake carts, paper lamps and a hologram pop stage"],
+   ["Sakura Circuit Arcade", "bullet train", "a Japanese street of cherry blossoms, neon-lit torii gates, capsule-toy machines, ramen robots and waving lucky-cat machines"],
+   ["Jade Junk Harbour", "solar-sail junk", "a harbour of Chinese junks with glowing solar sails, jade-green water, pagoda lighthouses and floating tea barges"]],
 ];
+// Extra districts that are only ever starting points: nothing travels to
+// them, and their last steps travel on to the character's main four.
+DISTRICTS[0].push(["Moonlit Laundromat", "night bus", "a glowing laundromat of tumbling machines, lost socks and a sleeping cat"]);
+DISTRICTS[2].push(["Planetarium Dome", "star shuttle", "a dark dome of projected stars, model planets and reclining seats"]);
+DISTRICTS[4].push(["Tea Garden Steps", "garden gondola", "terraced tea bushes, a pavilion and kettles steaming on charcoal"]);
 
 const storySystem = (PLAYER) => `You are the narrator of Pixel City 3.0, an endless choose-your-own-adventure game set in a sprawling, strange, lively pixel-art city.
 Given the story so far and the player's latest choice, write what happens next and offer three ways to continue.
@@ -292,7 +309,10 @@ async function build(c, d, path, parent, history) {
     node = await slot(async () => {
       if (ledger.usd >= BUDGET) { stopped = true; return null; }
       // The last step of a district offers travel to the other three.
-      const others = [0, 1, 2, 3].filter((x) => x !== d);
+      // An extra district (4 and up) has four to pick from: leave one out, a
+      // different one for each path.
+      const main = [0, 1, 2, 3].filter((x) => x !== d);
+      const others = last && main.length > 3 ? main.filter((_, i) => i !== (path[0] + path[1]) % 4) : main;
       // Rotate so the same destination is not always the first option.
       const order = last ? others.map((_, i) => others[(i + path[0] + path[1]) % 3]) : [];
       const extra = last
@@ -340,7 +360,7 @@ async function build(c, d, path, parent, history) {
 
 async function levelsOf(c) {
   const ids = [];
-  for (let d = 0; d < 4; d++) {
+  for (let d = 0; d < DISTRICTS[c].length; d++) {
     for (const path of [[], ...[0, 1, 2].map((i) => [i]), ...[0, 1, 2].flatMap((i) => [0, 1, 2].map((j) => [i, j]))]) {
       if (await exists(idOf(c, d, path))) ids.push(idOf(c, d, path));
     }
@@ -352,7 +372,7 @@ async function levelsOf(c) {
 async function writeIndex() {
   const starts = [];
   for (let c = 0; c < CHARACTERS.length; c++) {
-    if ((await levelsOf(c)).length === 4 * 13) for (let d = 0; d < 4; d++) starts.push(idOf(c, d, []));
+    if ((await levelsOf(c)).length === DISTRICTS[c].length * 13) for (let d = 0; d < DISTRICTS[c].length; d++) starts.push(idOf(c, d, []));
   }
   await writeFile(new URL("index.json", OUT), JSON.stringify({ starts }));
 }
@@ -365,15 +385,14 @@ if (PILOT) {
   // Arrivals first, so every district exists before anything links to it.
   // One character at a time, and only if the budget covers all of theirs:
   // a half-built character would leave options that lead nowhere.
-  const PER_CHARACTER = 4 * 13;
   for (let c = 0; c < CHARACTERS.length; c++) {
-    const missing = PER_CHARACTER - (await levelsOf(c)).length;
+    const missing = DISTRICTS[c].length * 13 - (await levelsOf(c)).length;
     const each = made ? (ledger.usd - startedAt) / made : 0.04;
     if (missing && ledger.usd + missing * each > BUDGET) {
       console.log(`Skipping character ${c}: ${missing} levels at about $${each.toFixed(3)} would pass the budget`);
       continue;
     }
-    await Promise.all([0, 1, 2, 3].map((d) => build(c, d, [], null, [])));
+    await Promise.all(DISTRICTS[c].map((_, d) => build(c, d, [], null, [])));
     // Each finished character becomes playable straight away.
     await writeIndex();
   }

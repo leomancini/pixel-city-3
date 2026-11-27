@@ -1,0 +1,21 @@
+{
+ "id": "c5-d0-0-1",
+ "scene": "Through the brass lens, three distant districts shimmer across the bustling city.",
+ "options": [
+  "Ride treetop lift",
+  "Board paddle steamer",
+  "Catch double-decker bus"
+ ],
+ "next": [
+  "c5-d2",
+  "c5-d3",
+  "c5-d1"
+ ],
+ "picture": "Pixel art close-up view through the circular brass telescope reticle. On the left, a swinging rope-bridge lift basket hangs from a towering baobab. In the centre, a paddle steamer with churning waterwheels rests at a neon-lit pier. On the right, a red double-decker bus idles by a comic bookstore with glowing halftone posters.",
+ "shown": [
+  "a dangling rope-bridge lift basket moored to a high wooden branch on the left",
+  "a brightly lit paddle steamer puffing steam at a pier in the centre",
+  "a red double-decker bus waiting under a glowing comic billboard on the right"
+ ],
+ "view": "wide"
+}

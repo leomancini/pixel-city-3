@@ -1,0 +1,21 @@
+{
+ "id": "c7-d1-0",
+ "scene": "Inside the warm workshop, mechanical toys buzz beside a bubbling glitter vat.",
+ "options": [
+  "Stir glitter vat",
+  "Wind penguin clock",
+  "Open attic hatch"
+ ],
+ "next": [
+  "c7-d1-0-0",
+  "c7-d1-0-1",
+  "c7-d1-0-2"
+ ],
+ "picture": "Pixel art flat side view of a cosy workshop interior. Left, a steaming brass vat bubbles with glowing blue glitter. Centre, a wooden workbench holds a silent penguin clockwork toy beside the boy in his orange puffer vest and kite. Far right, a ladder leads up to a shut ceiling hatch with a dangling rope.",
+ "shown": [
+  "a giant brass vat filled with sparkling blue liquid on the left",
+  "a ticking wooden penguin clock resting on a workbench at the centre",
+  "a hinged wooden trapdoor with a hanging rope up high far right"
+ ],
+ "view": "wide"
+}

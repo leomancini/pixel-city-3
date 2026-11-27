@@ -1,0 +1,21 @@
+{
+ "id": "c8-d0-0-1",
+ "scene": "Your happy dog munches the pastry as three skyway transports arrive together.",
+ "options": [
+  "Board hover bus",
+  "Ride gondola drone",
+  "Hire flying scooter"
+ ],
+ "next": [
+  "c8-d2",
+  "c8-d3",
+  "c8-d1"
+ ],
+ "picture": "Side-scrolling view of the zinc terrace at dusk. Far left, a red double-decker hover bus hovers beside the railing with doors open. Left of centre, the grandmother in pink tracksuit holds the brass key, her white dog licking its snout. Centre, a striped gondola drone sways. Far right, a green flying scooter sits waiting.",
+ "shown": [
+  "a red double-decker hover bus hovering by the roof edge on the far left",
+  "a striped gondola drone hooked to a mooring post in the centre",
+  "a pastel-green flying scooter parked on its stand on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c6-d2-0-0",
+ "scene": "The machine rattles and unlocks three glowing transit gates across the platform.",
+ "options": [
+  "Board night tram",
+  "Enter service elevator",
+  "Take freight lift"
+ ],
+ "next": [
+  "c6-d0",
+  "c6-d1",
+  "c6-d3"
+ ],
+ "picture": "A flat side-scrolling view of the mossy platform. On the far left, a lit night tram waits with open doors. Left-of-centre, the player in a denim jacket stands next to the vending machine. At the centre sits an open brass service elevator. On the right, an iron freight lift platform awaits.",
+ "shown": [
+  "A gleaming green night tram waiting on rails at the far left",
+  "A brass service elevator with open accordion gate resting at the centre",
+  "A heavy iron freight lift with its floor level on the right"
+ ],
+ "view": "wide"
+}

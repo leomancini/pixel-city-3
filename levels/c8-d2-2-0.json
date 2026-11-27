@@ -1,0 +1,21 @@
+{
+ "id": "c8-d2-2-0",
+ "scene": "The tiered tray spins, revealing transit passes tucked beneath sweet cinnamon pastries.",
+ "options": [
+  "Board gondola drone",
+  "Catch hover metro",
+  "Ride flying scooter"
+ ],
+ "next": [
+  "c8-d3",
+  "c8-d0",
+  "c8-d1"
+ ],
+ "picture": "Side view of the tearoom opening onto a high outdoor transit balcony. Granny in her pink tracksuit and her little white dog stand left of centre. On the left, a gondola drone bobs beside brass railings. At centre, a hover metro waits with open doors. On the far right, a yellow flying scooter hums.",
+ "shown": [
+  "A bobbing gondola drone moored beside the open terrace door on the left",
+  "A sleek hover metro carriage docked at a glass portal at centre",
+  "A yellow flying scooter parked on a launch rail on the far right"
+ ],
+ "view": "wide"
+}

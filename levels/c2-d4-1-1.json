@@ -1,0 +1,21 @@
+{
+ "id": "c2-d4-1-1",
+ "scene": "The wall panels slide away, revealing three bustling transit gates.",
+ "options": [
+  "Board steam train",
+  "Board sky airship",
+  "Ride delivery truck"
+ ],
+ "next": [
+  "c2-d3",
+  "c2-d0",
+  "c2-d1"
+ ],
+ "picture": "Flat side-view along a level observatory floor. The girl with her long black braid sits upright in her purple wheelchair, facing the viewer. Far left, a brass steam engine waits on shiny rails. Up high, an airship floats beside a balcony ramp. Far right, a yellow box truck hums at an open bay.",
+ "shown": [
+  "a brass-trimmed steam engine chuffing pink smoke at a platform far left",
+  "a moored striped airship with an open gangway up high",
+  "a square yellow delivery truck parked idling at a loading bay far right"
+ ],
+ "view": "wide"
+}

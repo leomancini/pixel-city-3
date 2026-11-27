@@ -1,0 +1,21 @@
+{
+ "id": "c0-d4-2-2",
+ "scene": "The peeled sticker reveals a subway gate, past neon transit doors outside.",
+ "options": [
+  "Take subway train",
+  "Ride street tram",
+  "Board cable car"
+ ],
+ "next": [
+  "c0-d2",
+  "c0-d3",
+  "c0-d1"
+ ],
+ "picture": "Side view along a tiled transit concourse. Far left, stairs plunge downward beside a subway sign. The player stands left in her yellow raincoat, holding her red umbrella and peeled sticker. Right of centre, a green tram sits on street rails. Far right, an orange cable car hovers beside an open platform.",
+ "shown": [
+  "a glowing staircase leading down to Undercity Market on the far left",
+  "a green street tram idling at the platform just right of centre",
+  "a dangling glass cable car docked by the exit on the far right"
+ ],
+ "view": "wide"
+}

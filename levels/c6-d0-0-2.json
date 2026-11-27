@@ -1,0 +1,21 @@
+{
+ "id": "c6-d0-0-2",
+ "scene": "Pushing through the curtain, you reach an illuminated cliffside transit dock.",
+ "options": [
+  "Take freight lift",
+  "Ride service elevator",
+  "Board rowing boat"
+ ],
+ "next": [
+  "c6-d3",
+  "c6-d1",
+  "c6-d2"
+ ],
+ "picture": "A flat side-view of a stone transit platform on a level ground line. Far left, an open iron freight lift rests at the platform. The curly-haired boy in a denim jacket stands left. Center, a tall service elevator shaft features an open door accessed by a ladder. Far right, a wooden rowing boat floats at the dock edge.",
+ "shown": [
+  "an open steel freight lift cage with an illuminated lever on the far left",
+  "a glass-walled service elevator with open doors up high above a central ladder",
+  "a wooden rowing boat tied to a brass dock cleat on the far right"
+ ],
+ "view": "wide"
+}

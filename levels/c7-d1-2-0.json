@@ -1,0 +1,21 @@
+{
+ "id": "c7-d1-2-0",
+ "scene": "Steam billows from the valve, melting ice paths to three distinct stations.",
+ "options": [
+  "Board hot-air balloon",
+  "Ride hillside chairlift",
+  "Board glass boat"
+ ],
+ "next": [
+  "c7-d3",
+  "c7-d0",
+  "c7-d2"
+ ],
+ "picture": "Flat pixel side view. Far left, a striped hot-air balloon floats above its basket. Left, the venting copper dome cart. Centre, the lanky boy in an orange puffer vest, beside a swinging wooden chairlift chair. Right, a snowy pier leading to a sleek glass-bottomed motorboat tied up at far right.",
+ "shown": [
+  "a striped hot-air balloon with an open wicker basket, far left",
+  "a swinging wooden chairlift chair hanging from an icy cable, centre",
+  "a sleek glass-bottomed motorboat moored to a wooden pier, far right"
+ ],
+ "view": "wide"
+}

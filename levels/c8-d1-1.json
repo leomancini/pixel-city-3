@@ -1,0 +1,21 @@
+{
+ "id": "c8-d1-1",
+ "scene": "You peer into the sparkling fountain, where curious mechanical fish swim.",
+ "options": [
+  "Catch clockwork carp",
+  "Toss copper coin",
+  "Read bronze plaque"
+ ],
+ "next": [
+  "c8-d1-1-0",
+  "c8-d1-1-1",
+  "c8-d1-1-2"
+ ],
+ "picture": "A close first-person view of the stone fountain rim and clear pool. On the left, a marble pedestal rises with an empty coin slot. In the centre, a brass clockwork carp glides through sparkling water. On the right, a tarnished bronze plaque displays ornate engraved script, while a grandmotherly hand rests near the edge.",
+ "shown": [
+  "a gleaming brass carp swimming in the fountain basin in the centre",
+  "a carved marble pedestal with a slot on the left",
+  "an engraved bronze plaque bolted to the fountain rim on the right"
+ ],
+ "view": "close"
+}

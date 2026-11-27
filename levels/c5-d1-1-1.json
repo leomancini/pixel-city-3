@@ -1,0 +1,21 @@
+{
+ "id": "c5-d1-1-1",
+ "scene": "You peer down through the opened skylight into a bustling travel bureau.",
+ "options": [
+  "Board paddle steamer",
+  "Catch skate shuttle",
+  "Take bridge lift"
+ ],
+ "next": [
+  "c5-d3",
+  "c5-d0",
+  "c5-d2"
+ ],
+ "picture": "Flat pixel-art side view inside a cinema loft travel terminal. On the far left, a paddle steamer floats at an indoor canal slip. In the centre, a bright skate-park shuttle bus idles near the boy holding his skateboard. On the far right, an open wooden rope-bridge lift hangs ready by a leafy winch.",
+ "shown": [
+  "a paddle steamer docked at a water gate on the far left",
+  "a striped mini-bus waiting by a ramp in the centre",
+  "a wooden rope-bridge lift cage hanging open on the far right"
+ ],
+ "view": "wide"
+}

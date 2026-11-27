@@ -1,0 +1,21 @@
+{
+ "id": "c6-d3-1-0",
+ "scene": "The needle drops, sliding secret partitions open into vibrant transit corridors.",
+ "options": [
+  "Take service elevator",
+  "Row canal boat",
+  "Board night tram"
+ ],
+ "next": [
+  "c6-d1",
+  "c6-d2",
+  "c6-d0"
+ ],
+ "picture": "Side-view pixel scene along a subterranean transit platform. On the far left, an open metal service elevator glows orange. Beside it, the curly-haired boy in a denim jacket stands holding his camera. In the centre, a wooden rowing boat bobs at a canal edge. On the far right, a yellow tram waits on tracks.",
+ "shown": [
+  "a metal service elevator with open lattice gate on the far left",
+  "a wooden rowing boat moored at a water canal in the centre",
+  "a glowing yellow night tram parked on rails at the far right"
+ ],
+ "view": "wide"
+}

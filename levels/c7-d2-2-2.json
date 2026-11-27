@@ -1,0 +1,21 @@
+{
+ "id": "c7-d2-2-2",
+ "scene": "Beneath the hatch, a cavernous transit depot buzzes with waiting departures.",
+ "options": [
+  "Board sleigh tram",
+  "Take air balloon",
+  "Ride chairlift"
+ ],
+ "next": [
+  "c7-d1",
+  "c7-d3",
+  "c7-d0"
+ ],
+ "picture": "Side view inside a subterranean transit cavern with three open exit bays. Far left, a frosted sleigh tram sits ready. Left of centre, the boy with his orange vest, white scarf, and strapped kite walks right. Centre, a tethered hot-air balloon sways gently. Far right, an empty twin chairlift waits at an iron dock.",
+ "shown": [
+  "a frosty glass sleigh tram idling with its doors open on the far left",
+  "a striped hot-air balloon moored to an iron post in the centre",
+  "a swinging wooden hillside chairlift hanging from a steel cable on the far right"
+ ],
+ "view": "wide"
+}

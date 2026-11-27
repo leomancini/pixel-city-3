@@ -1,0 +1,21 @@
+{
+ "id": "c2-d4-1-0",
+ "scene": "Spinning the star projector reveals three glowing transit gates across the dome.",
+ "options": [
+  "Enter glass elevator",
+  "Board steam train",
+  "Take sky airship"
+ ],
+ "next": [
+  "c2-d2",
+  "c2-d3",
+  "c2-d0"
+ ],
+ "picture": "A flat side view along a level dome platform. Far left, the rotated star projector beams light upwards. Left sits a clear glass elevator tube with open doors. The South Asian girl in her purple wheelchair rests left of centre. Centre waits a polished steam train with puffing smokestack. Right, an anchored miniature airship floats beside an arched open portal.",
+ "shown": [
+  "A cylindrical glass elevator on the left, glowing with aquatic blue light.",
+  "A brass mini steam train parked along tracks in the centre.",
+  "A small striped airship docked at an open portal on the right."
+ ],
+ "view": "wide"
+}

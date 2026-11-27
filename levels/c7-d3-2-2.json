@@ -1,0 +1,21 @@
+{
+ "id": "c7-d3-2-2",
+ "scene": "You zip down to the bustling grand terminal below the breezy fields.",
+ "options": [
+  "Board sleigh tram",
+  "Take glass boat",
+  "Ride hillside chairlift"
+ ],
+ "next": [
+  "c7-d1",
+  "c7-d2",
+  "c7-d0"
+ ],
+ "picture": "A wide side-view of a grand transit station on a level cobblestone line. On the left waits a frosty sleigh tram marked Snow Globe Works. The boy in his orange vest and scarf stands between terminals. In the centre moors a glass-bottomed boat, and on the right swings a hillside chairlift heading up.",
+ "shown": [
+  "a frosty red sleigh tram on rails idling at a snowy terminal platform on the left",
+  "a glass-bottomed blue canal boat moored at the wooden dock platform right in the centre",
+  "a swinging metal hillside chairlift bench hanging over a steep incline on the far right"
+ ],
+ "view": "wide"
+}

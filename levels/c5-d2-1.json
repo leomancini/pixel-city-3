@@ -1,0 +1,21 @@
+{
+ "id": "c5-d2-1",
+ "scene": "You cross over to a round treehouse bustling with flying messenger pigeons.",
+ "options": [
+  "Feed roosting pigeon",
+  "Read dispatch board",
+  "Slide down chute"
+ ],
+ "next": [
+  "c5-d2-1-0",
+  "c5-d2-1-1",
+  "c5-d2-1-2"
+ ],
+ "picture": "Side view of a round wooden treehouse floor. Far left, a speckled pigeon sits on a roost above a crate of berries. Left, a wooden message board hangs on the bark wall. Centre, the dark-haired boy stands holding his skateboard. Right, a polished brass parcel chute curves downward through the wooden floor.",
+ "shown": [
+  "a plump speckled pigeon roosting calmly on a perch on the far left",
+  "a wooden message board tacked with colourful paper notes on the left",
+  "a curving brass parcel chute open and gleaming on the right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c2-d4",
+ "scene": "You glide out of the star shuttle into the glittering Planetarium Dome.",
+ "options": [
+  "Inspect brass orrery",
+  "Recline velvet seat",
+  "Check glowing console"
+ ],
+ "next": [
+  "c2-d4-0",
+  "c2-d4-1",
+  "c2-d4-2"
+ ],
+ "picture": "Flat side-view along a level tiled floor under projected stars. On the far left stands a brass mechanical orrery. Beside it, the silver star shuttle door stands open. In the centre, the South Asian girl in her teal hoodie sits in her purple wheelchair. Right sits an empty velvet lounger, and far right sits a glowing console.",
+ "shown": [
+  "a giant clockwork model of revolving planets standing on the far left",
+  "an empty plush purple reclining seat positioned to the right",
+  "a star projector console with illuminated buttons on the far right"
+ ],
+ "view": "wide"
+}

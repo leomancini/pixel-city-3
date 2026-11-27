@@ -1,0 +1,21 @@
+{
+ "id": "c6-d2-2-0",
+ "scene": "The mechanical board clatters, revealing three strange departures across the city.",
+ "options": [
+  "Take freight lift",
+  "Board night tram",
+  "Ride service elevator"
+ ],
+ "next": [
+  "c6-d3",
+  "c6-d0",
+  "c6-d1"
+ ],
+ "picture": "Flat side view along the polished marble concourse floor. On the far left, a boy with curly dark hair, glasses, denim jacket, and camera stands looking upward. To his left stands a heavy iron freight lift. In the centre waits a glowing blue tram. On the right, a brass service elevator awaits.",
+ "shown": [
+  "a heavy iron freight lift with rattling metal gate open on the left",
+  "a glowing blue night tram waiting with doors open in the centre",
+  "a gleaming brass service elevator with lighted call button on the right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c8-d2-0-0",
+ "scene": "A voice whispers destinations, unfolding transport portals along the busy mistway.",
+ "options": [
+  "Ride hover metro",
+  "Hire flying scooter",
+  "Board gondola drone"
+ ],
+ "next": [
+  "c8-d0",
+  "c8-d1",
+  "c8-d3"
+ ],
+ "picture": "Flat side-view along a glowing platform. On the far left, a sleek hover metro waits with open doors. Left of centre, the silver-haired grandmother in pink tracksuit holds the phone receiver inside the red booth, dog beside her. On the right, a turquoise flying scooter idles. Far right, a gilded gondola drone bobs.",
+ "shown": [
+  "a sleek hover metro with open doors waiting on the platform far left",
+  "a turquoise flying scooter idling beside a robotic attendant on the right",
+  "a gilded gondola drone bobbing at a brass mooring post far right"
+ ],
+ "view": "wide"
+}

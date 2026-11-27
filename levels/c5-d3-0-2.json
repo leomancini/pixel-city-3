@@ -1,0 +1,21 @@
+{
+ "id": "c5-d3-0-2",
+ "scene": "The machine clatters and unlocks transit gates leading away from the pier.",
+ "options": [
+  "Ride treehouse lift",
+  "Board skate shuttle",
+  "Take double-decker bus"
+ ],
+ "next": [
+  "c5-d2",
+  "c5-d0",
+  "c5-d1"
+ ],
+ "picture": "A flat side view along the wooden pier edge. The dark-haired boy stands left of centre holding his skateboard. On the far left hangs an open rope-bridge lift basket. In the centre waits a yellow skate-park shuttle van. On the far right sits a tall red double-decker bus ready for passengers.",
+ "shown": [
+  "a hanging wooden rope-bridge lift basket suspended open on the far left",
+  "a striped skate-park shuttle van with open side doors at the centre",
+  "a bright red double-decker bus parked with its doors open on the far right"
+ ],
+ "view": "wide"
+}

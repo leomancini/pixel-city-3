@@ -1,0 +1,21 @@
+{
+ "id": "c7-d3-1-2",
+ "scene": "You climb the wooden ladder, reaching an open windy transit deck.",
+ "options": [
+  "Ride hillside chairlift",
+  "Board sleigh tram",
+  "Take glass boat"
+ ],
+ "next": [
+  "c7-d0",
+  "c7-d1",
+  "c7-d2"
+ ],
+ "picture": "Flat side-view across an elevated wooden transit platform. On the far left, a hillside chairlift dangles empty. Left of centre, the boy in his orange vest, white scarf, and kite steps off the tall ladder. In the centre sits a sleigh tram. On the far right floats a glass-bottomed boat.",
+ "shown": [
+  "a swinging green two-seater chairlift on an overhead cable, far left, swaying gently",
+  "a striped sleigh-shaped tram on brass rails, centre right, with open doors",
+  "a glass-bottomed riverboat moored to a wooden dock on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c4-d4-2-0",
+ "scene": "The chest opens, revealing transit tokens for three waiting routes ahead.",
+ "options": [
+  "Board cable tram",
+  "Board river barge",
+  "Board glass trolley"
+ ],
+ "next": [
+  "c4-d3",
+  "c4-d0",
+  "c4-d1"
+ ],
+ "picture": "Flat side view along the terrace. Far left, a wooden river barge floats by a dock. Left of centre, the woman in lilac headscarf and mustard coat peers into the open chest. Up high above the terrace hangs a mountain cable tram. Far right, a glass-roofed trolley waits upon brass rails.",
+ "shown": [
+  "a bright red mountain cable tram waiting with open doors up high",
+  "a low wooden river barge tied to a stone post on the far left",
+  "a sleek glass-roofed trolley resting on gleaming rails on the far right"
+ ],
+ "view": "wide"
+}

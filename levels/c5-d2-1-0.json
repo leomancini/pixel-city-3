@@ -1,0 +1,21 @@
+{
+ "id": "c5-d2-1-0",
+ "scene": "The pigeon drops three transit tickets onto a nearby departure desk.",
+ "options": [
+  "Catch red bus",
+  "Board paddle steamer",
+  "Take skate shuttle"
+ ],
+ "next": [
+  "c5-d1",
+  "c5-d3",
+  "c5-d0"
+ ],
+ "picture": "Side view of the treehouse transit platform. Far left, a red double-decker bus idle at an open doorway. Left, the boy in green stripes holding his board by a ticket desk. Centre, the roosting pigeon beside three tickets. Centre right, a paddle steamer docked at a gangway. Far right, a yellow skate shuttle.",
+ "shown": [
+  "a red double-decker bus waiting at the open canopy exit door, far left",
+  "a moored river paddle steamer visible past a lowered drawbridge, centre right",
+  "a yellow mini-bus with roof skateboard racks parked at a gate, far right"
+ ],
+ "view": "wide"
+}

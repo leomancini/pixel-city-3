@@ -1,0 +1,21 @@
+{
+ "id": "c6-d1-1-0",
+ "scene": "Your fingers disrupt the shimmering projection, revealing three neon transit signs.",
+ "options": [
+  "Row canal boat",
+  "Take freight lift",
+  "Board night tram"
+ ],
+ "next": [
+  "c6-d2",
+  "c6-d3",
+  "c6-d0"
+ ],
+ "picture": "Flat side view along the rooftop ground line. On the far left, a small wooden rowing boat rests in a wide flooded gutter. The boy in a denim jacket and glasses stands left-centre. In the centre, an open iron freight lift displays flashing lights. On the far right, a yellow night tram waits on rooftop rails.",
+ "shown": [
+  "a tiny wooden rowing boat resting in a flooded roof gutter on the far left",
+  "a heavy iron freight lift gate standing open at the centre",
+  "a glowing yellow night tram parked on a high track on the far right"
+ ],
+ "view": "wide"
+}

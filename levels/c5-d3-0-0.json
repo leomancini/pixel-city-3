@@ -1,0 +1,21 @@
+{
+ "id": "c5-d3-0-0",
+ "scene": "Your jackpot bells ring outside, revealing three bustling exits along the pier.",
+ "options": [
+  "Ride skate shuttle",
+  "Board comic bus",
+  "Climb rope lift"
+ ],
+ "next": [
+  "c5-d0",
+  "c5-d1",
+  "c5-d2"
+ ],
+ "picture": "Flat side view along the wooden pier. The player in his green striped shirt stands near the flashing arcade doors left of centre, holding his skateboard. On the far left sits an open skate-park shuttle. In the centre waits a red double-decker bus. On the far right hangs an empty wooden rope-bridge lift.",
+ "shown": [
+  "a yellow ramped mini-shuttle waiting with doors open on the far left",
+  "a bright red double-decker bus idling at a stop sign in the centre",
+  "a swinging wooden platform lift suspended from thick ropes on the far right"
+ ],
+ "view": "wide"
+}

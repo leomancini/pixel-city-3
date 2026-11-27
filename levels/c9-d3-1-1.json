@@ -1,0 +1,21 @@
+{
+ "id": "c9-d3-1-1",
+ "scene": "The bell toll summons three transit shuttles to the lighthouse platform.",
+ "options": [
+  "Board bullet train",
+  "Ride dragon maglev",
+  "Enter cable pod"
+ ],
+ "next": [
+  "c9-d2",
+  "c9-d0",
+  "c9-d1"
+ ],
+ "picture": "Side-scrolling view of the lighthouse transit deck. Far left sits a sleek pink bullet train with open doors. Left stands the top-knotted player with his ukulele. Centre rests an undulating green dragon maglev train. Far right, a glass cloud cable pod floats beside the railing.",
+ "shown": [
+  "a sleek pink bullet train docked at the rail platform on the far left",
+  "a glowing green maglev dragon train waiting patiently in the centre",
+  "a floating round glass cloud pod hovering by the dock on the far right"
+ ],
+ "view": "wide"
+}

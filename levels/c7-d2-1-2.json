@@ -1,0 +1,21 @@
+{
+ "id": "c7-d2-1-2",
+ "scene": "Inside the crate, three transport tokens glow beside a bustling transit dock.",
+ "options": [
+  "Ride hill chairlift",
+  "Board sleigh tram",
+  "Climb balloon basket"
+ ],
+ "next": [
+  "c7-d0",
+  "c7-d1",
+  "c7-d3"
+ ],
+ "picture": "Side-scrolling view along a bustling transit jetty at the reef edge. Far left, a chairlift swings beside its operator. Centre left, the boy stands with his kite pack, holding tokens. Centre, a red sleigh tram idles on frosty tracks. Far right, a large striped hot-air balloon floats, tethered securely above the wooden boards.",
+ "shown": [
+  "a dangling two-seat chairlift swinging at a small wooden platform on the left",
+  "a red runners-equipped sleigh tram idling on iron rails in the centre",
+  "a tethered striped hot-air balloon with an open wicker basket on the right"
+ ],
+ "view": "wide"
+}

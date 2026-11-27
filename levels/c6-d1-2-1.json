@@ -1,0 +1,21 @@
+{
+ "id": "c6-d1-2-1",
+ "scene": "The clock tower chimes, illuminating three distinct transit routes below the roof.",
+ "options": [
+  "Board night tram",
+  "Take rowing boat",
+  "Enter freight lift"
+ ],
+ "next": [
+  "c6-d0",
+  "c6-d2",
+  "c6-d3"
+ ],
+ "picture": "A flat side view along the rooftop depot platform. On the far left sits a waiting yellow night tram. To the left stands the dark-haired boy with camera and glasses. In the centre sits a ticket console, while to the right a rowing boat bobs at a canal sluice, beside an open freight lift.",
+ "shown": [
+  "a glowing yellow night tram parked on raised rails at the far left",
+  "a wooden rowing boat moored beside a canal lock on the right",
+  "a heavy iron freight lift with an open gate at the far right"
+ ],
+ "view": "wide"
+}

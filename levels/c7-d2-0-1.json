@@ -1,0 +1,21 @@
+{
+ "id": "c7-d2-0-1",
+ "scene": "The poked urchin shoots dazzling sparkles, unveiling three waiting transit stations.",
+ "options": [
+  "Ride sleigh tram",
+  "Board balloon basket",
+  "Take hillside chairlift"
+ ],
+ "next": [
+  "c7-d1",
+  "c7-d3",
+  "c7-d0"
+ ],
+ "picture": "Flat side view along a glowing stone pier. At far left stands a frosted sleigh tram on ice rails. The boy in orange puffer vest stands left of centre watching a tethered striped balloon basket in the centre. Far right sits a yellow chairlift station with an empty hanging bench.",
+ "shown": [
+  "a frosted glass sleigh tram idling on rails at the far left",
+  "a tethered striped hot-air balloon with open wicker gate at the centre",
+  "an empty swinging yellow double chairlift bench waiting at the far right"
+ ],
+ "view": "wide"
+}

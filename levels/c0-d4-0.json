@@ -1,0 +1,21 @@
+{
+ "id": "c0-d4-0",
+ "scene": "The cat purrs loudly, dropping a tiny brass key from its collar.",
+ "options": [
+  "Take brass key",
+  "Open glowing dryer",
+  "Exit through doors"
+ ],
+ "next": [
+  "c0-d4-0-0",
+  "c0-d4-0-1",
+  "c0-d4-0-2"
+ ],
+ "picture": "A flat side view of the laundromat. On the far left, an orange cat stretches on a blue chair, beside a dropped brass key on the left cushion. The player in yellow raincoat and green boots stands left, holding a red umbrella. Centre is a glowing dryer, and far right are open glass doors.",
+ "shown": [
+  "a tiny brass key resting on the blue cushion on the left",
+  "a glowing dryer with swirling neon clothes in the centre",
+  "open glass doors leading into the rain on the far right"
+ ],
+ "view": "wide"
+}

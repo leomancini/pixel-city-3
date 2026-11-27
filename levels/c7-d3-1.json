@@ -1,0 +1,21 @@
+{
+ "id": "c7-d3-1",
+ "scene": "The ribbon seller proudly displays spools of fluttering, enchanted streamers.",
+ "options": [
+  "Inspect copper spool",
+  "Pet sleeping badger",
+  "Climb tether ladder"
+ ],
+ "next": [
+  "c7-d3-1-0",
+  "c7-d3-1-1",
+  "c7-d3-1-2"
+ ],
+ "picture": "Flat side-view along sunny grass. On the left stands a canopy cart draped in colorful banners. The boy in his orange vest and white scarf stands centre, browsing the counter. A copper spool sits on the left counter, a badger sleeps under the cart, and on the far right stands a tall mooring ladder.",
+ "shown": [
+  "A shimmering metallic copper spool resting on the left counter edge",
+  "A plump striped badger curled asleep beneath the cart on the right",
+  "A tall wooden mooring ladder standing upright on the far right"
+ ],
+ "view": "wide"
+}

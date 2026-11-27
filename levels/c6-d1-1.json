@@ -1,0 +1,21 @@
+{
+ "id": "c6-d1-1",
+ "scene": "The tuned dish crackles, projecting a flickering hologram into the chilly air.",
+ "options": [
+  "Touch glowing hologram",
+  "Grab hanging antenna",
+  "Climb roof ladder"
+ ],
+ "next": [
+  "c6-d1-1-0",
+  "c6-d1-1-1",
+  "c6-d1-1-2"
+ ],
+ "picture": "Flat side view along the rooftop ground line. On the far left hangs a copper antenna wire. The boy with dark curly hair and glasses stands left-centre, hands near the glowing satellite dish at centre which projects a holographic cat. On the far right, a tall radio mast has a ladder bolted to it.",
+ "shown": [
+  "a flickering neon holographic cat floating right above the dish at centre",
+  "a dangling copper antenna wire swaying gently on the far left",
+  "an upright metal ladder bolted to the radio mast on the far right"
+ ],
+ "view": "wide"
+}

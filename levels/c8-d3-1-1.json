@@ -1,0 +1,21 @@
+{
+ "id": "c8-d3-1-1",
+ "scene": "The purring cat reveller happily presents three transit tokens for city travel.",
+ "options": [
+  "Board hover bus",
+  "Take hover metro",
+  "Ride flying scooter"
+ ],
+ "next": [
+  "c8-d2",
+  "c8-d0",
+  "c8-d1"
+ ],
+ "picture": "Flat side-scrolling view along the canal promenade transit hub. On far left, a red double-decker hover bus floats with doors open. In left-centre, the grandmother in pink tracksuit holds her white dog. Centre, a sleek hover metro train idles beside a ticket turnstile. On far right sits an empty teal flying scooter.",
+ "shown": [
+  "a red double-decker hover bus hovering with open doors on the far left",
+  "a sleek hover metro train waiting at a platform in the centre",
+  "a teal flying scooter parked with a spare helmet on the far right"
+ ],
+ "view": "wide"
+}

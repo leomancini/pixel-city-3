@@ -1,0 +1,21 @@
+{
+ "id": "c8-d3-2-2",
+ "scene": "Inside the pavilion, glowing transport docks offer tickets out of the canal district.",
+ "options": [
+  "Ride flying scooter",
+  "Board hover bus",
+  "Catch hover metro"
+ ],
+ "next": [
+  "c8-d1",
+  "c8-d2",
+  "c8-d0"
+ ],
+ "picture": "Inside a tea pavilion with silk canopies overhead. On the far left sits a parked yellow flying scooter. Left-centre, the silver-haired grandmother in pink tracksuit stands holding her white dog. Centre, a red double-decker hover bus floats beside a gate. Far right, a sleek silver hover metro train waits at its platform.",
+ "shown": [
+  "a sleek yellow flying scooter parked on a launch platform on the far left",
+  "a red double-decker hover bus hovering beside an open boarding gate in the centre",
+  "a gleaming silver hover metro train docked at a platform on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c8-d2-2-1",
+ "scene": "The barista pours tea while recommending three bustling city transit gates outside.",
+ "options": [
+  "Take hover metro",
+  "Rent flying scooter",
+  "Board gondola drone"
+ ],
+ "next": [
+  "c8-d0",
+  "c8-d1",
+  "c8-d3"
+ ],
+ "picture": "Side-scrolling view of the tea room rear terrace along red brick paving. On the far left stands a chrome hover metro gate. Left of centre, Granny and her dog listen to the four-armed brass barista holding a kettle. Through an archway at centre sits a yellow flying scooter. On the right, a gondola drone hovers.",
+ "shown": [
+  "a sleek hover metro turnstile gleaming on the far left",
+  "a glowing yellow flying scooter parked outside the open doorway at centre",
+  "a wicker-basket gondola drone hovering moored by the window on the right"
+ ],
+ "view": "wide"
+}

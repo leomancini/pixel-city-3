@@ -1,0 +1,21 @@
+{
+ "id": "c8-d3-2",
+ "scene": "You cross the stone bridge onto a bustling rooftop spice bazaar.",
+ "options": [
+  "Taste shimmering powder",
+  "Pet mechanical monkey",
+  "Enter tea pavilion"
+ ],
+ "next": [
+  "c8-d3-2-0",
+  "c8-d3-2-1",
+  "c8-d3-2-2"
+ ],
+ "picture": "A flat side-scrolling view along a tiled rooftop bazaar. On the far left, a spice vendor's cart holds a bowl of blue powder. Left-centre, the silver-haired grandmother in her pink tracksuit stands holding her white dog's lead. In the centre, a mechanical monkey sits on a barrel. On the far right stands a curtained tea pavilion.",
+ "shown": [
+  "an open brass bowl of glowing blue powder sitting on the far left",
+  "a brass wind-up monkey perched on a wooden barrel in the centre",
+  "a curtained doorway glowing with pink paper lanterns on the far right"
+ ],
+ "view": "wide"
+}

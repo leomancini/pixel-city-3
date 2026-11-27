@@ -1,0 +1,21 @@
+{
+ "id": "c8-d0-2-0",
+ "scene": "Through the brass lens, three aerial transit lines crisscross the gleaming sky.",
+ "options": [
+  "Hail gondola drone",
+  "Mount flying scooter",
+  "Board hover bus"
+ ],
+ "next": [
+  "c8-d3",
+  "c8-d1",
+  "c8-d2"
+ ],
+ "picture": "Circular first-person view through the telescope lens crosshairs. On the left, a floating pink gondola drone bobs near a dock post. In the centre sits a yellow two-seater flying scooter on a metal pad. On the right, a red double-decker hover bus idles at a light-ringed aerial boarding gate.",
+ "shown": [
+  "A hovering pink passenger gondola moored to a post on the left",
+  "A yellow twin-propeller flying scooter resting on a launch pad in the centre",
+  "A red double-decker hover bus idling at an aerial gate on the right"
+ ],
+ "view": "wide"
+}

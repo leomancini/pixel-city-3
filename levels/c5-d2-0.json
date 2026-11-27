@@ -1,0 +1,21 @@
+{
+ "id": "c5-d2-0",
+ "scene": "You peer inside the hollow acorn postbox, discovering several peculiar objects.",
+ "options": [
+  "Read sealed letter",
+  "Take brass key",
+  "Twist crystal knob"
+ ],
+ "next": [
+  "c5-d2-0-0",
+  "c5-d2-0-1",
+  "c5-d2-0-2"
+ ],
+ "picture": "Close-up first-person view inside the hollow acorn postbox. On the left lies a folded paper envelope sealed with red wax. In the center sits an ornate brass key with clockwork notches. On the right, a glowing cyan crystal knob is set into the carved wooden interior wall.",
+ "shown": [
+  "A wax-sealed envelope with a stamp, lying flat on the left.",
+  "An ornate brass key resting quietly in the center.",
+  "A glowing cyan crystal knob mounted to the wooden panel on the right."
+ ],
+ "view": "close"
+}

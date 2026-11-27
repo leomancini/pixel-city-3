@@ -1,0 +1,21 @@
+{
+ "id": "c7-d2-1-0",
+ "scene": "Pocketing the brass key, you discover three ticket booths beside departing transports.",
+ "options": [
+  "Ride sleigh tram",
+  "Board balloon basket",
+  "Take hillside chairlift"
+ ],
+ "next": [
+  "c7-d1",
+  "c7-d3",
+  "c7-d0"
+ ],
+ "picture": "Flat side-scrolling view along the reef pier. On the far left sits a frosted sleigh tram with open doors. Left of centre stands the boy pocketing his shiny brass key. In the centre floats a tethered hot-air balloon with an open wicker basket. On the far right hangs a waiting hillside chairlift.",
+ "shown": [
+  "A frosty sleigh tram idling on tracks on the far left",
+  "A striped hot-air balloon tethered to a post in the centre",
+  "A wooden chairlift swinging gently from a cable on the far right"
+ ],
+ "view": "wide"
+}

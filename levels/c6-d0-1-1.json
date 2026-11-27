@@ -1,0 +1,21 @@
+{
+ "id": "c6-d0-1-1",
+ "scene": "The hooded stranger points out three hidden exits from the bazaar.",
+ "options": [
+  "Ride freight lift",
+  "Take service elevator",
+  "Board rowing boat"
+ ],
+ "next": [
+  "c6-d3",
+  "c6-d1",
+  "c6-d2"
+ ],
+ "picture": "A flat side-view of the back bazaar wall. Far left, an open metal freight lift cage waits with glowing bulbs. Left, the hooded stranger points three long fingers across the floor. Centre, the curly-haired boy in a denim jacket stands beside a brass service elevator. Right, water laps at a dock holding a tied wooden rowing boat far right.",
+ "shown": [
+  "a metal freight lift cage with an open accordion gate on the far left",
+  "a brass service elevator with glowing rooftop indicator buttons on the centre wall",
+  "a wooden rowing boat bobbing beside a low stone dock on the far right"
+ ],
+ "view": "wide"
+}

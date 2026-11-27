@@ -1,0 +1,21 @@
+{
+ "id": "c9-d1-2-1",
+ "scene": "The coin sparks a projection booth, unlocking transit portals before you.",
+ "options": [
+  "Ride dragon maglev",
+  "Board bullet train",
+  "Sail solar junk"
+ ],
+ "next": [
+  "c9-d0",
+  "c9-d2",
+  "c9-d3"
+ ],
+ "picture": "A flat side view of the village transit platform. Far left, a maglev train styled like a green dragon rests on elevated rails. Left, the Pacific Islander player stands beside an active hologram booth. Centre, a sleek pink bullet train waits with doors open. Far right, a wooden solar-sail junk rocks gently.",
+ "shown": [
+  "a green maglev dragon train waiting on glowing rails at the far left",
+  "a sleek pink bullet train with open sliding doors in the centre",
+  "a wooden solar-sail junk moored at the dock edge on the far right"
+ ],
+ "view": "wide"
+}

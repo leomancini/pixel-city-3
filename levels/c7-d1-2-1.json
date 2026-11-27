@@ -1,0 +1,21 @@
+{
+ "id": "c7-d1-2-1",
+ "scene": "The brass lens reveals routes branching from the sparkling snowy square.",
+ "options": [
+  "Ride chairlift",
+  "Board boat",
+  "Climb balloon"
+ ],
+ "next": [
+  "c7-d0",
+  "c7-d2",
+  "c7-d3"
+ ],
+ "picture": "Side-scrolling pixel art along a snowy cobblestone street. Left, a chairlift terminal swings two wooden seats. Centre, the lanky boy in his orange puffer vest, white scarf, and kite stands beside the domed cart. Right, an icy canal holds a glass-bottomed boat. Far right, a rainbow hot-air balloon floats tethered beside a lamppost.",
+ "shown": [
+  "a dangling two-seat wooden chairlift swinging gently at a platform on the far left",
+  "a glass-bottomed blue skiff moored at an icy canal dock on the right",
+  "a tethered rainbow hot-air balloon with a wicker basket up high on the far right"
+ ],
+ "view": "wide"
+}

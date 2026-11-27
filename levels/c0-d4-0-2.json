@@ -1,0 +1,21 @@
+{
+ "id": "c0-d4-0-2",
+ "scene": "You step out into a bustling, rain-slicked plaza packed with transit options.",
+ "options": [
+  "Board street tram",
+  "Take harbour ferry",
+  "Ride cable car"
+ ],
+ "next": [
+  "c0-d3",
+  "c0-d0",
+  "c0-d1"
+ ],
+ "picture": "A flat side view along a wet street. On the far left, a red tram sits on tracks. In the centre, the player in a yellow raincoat and green boots holds a red umbrella by a ferry dock gate. On the far right is a ticket kiosk, and up high hangs a yellow cable car.",
+ "shown": [
+  "A red street tram idling on tracks on the far left, doors open.  ",
+  "A wooden ferry dock with a painted sign in the centre.  ",
+  "A yellow cable car hanging from an overhead wire up high.  "
+ ],
+ "view": "wide"
+}

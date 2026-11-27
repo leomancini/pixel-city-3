@@ -1,0 +1,21 @@
+{
+ "id": "c9-d3-2",
+ "scene": "The brass automaton clicks open its chest hatch to reveal whirring gears.",
+ "options": [
+  "Insert copper token",
+  "Turn blue valve",
+  "Take folded parchment"
+ ],
+ "next": [
+  "c9-d3-2-0",
+  "c9-d3-2-1",
+  "c9-d3-2-2"
+ ],
+ "picture": "First-person close-up filling the frame with the automaton's open brass chest cavity. At centre is an unlit coin slot above ticking clockwork gears. On the left sits a shut blue valve wheel. On the right, a weathered folded parchment map is wedged between two slowly turning brass cogs.",
+ "shown": [
+  "a slender coin slot glowing faintly on the chest panel at centre",
+  "a small painted pressure valve turned shut on the left side",
+  "a curled harbour map tucked behind brass cogs on the right"
+ ],
+ "view": "close"
+}

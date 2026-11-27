@@ -1,0 +1,21 @@
+{
+ "id": "c6-d2-1",
+ "scene": "A mechanical frog sits blinking atop the glowing lily's bronze centre.",
+ "options": [
+  "Take shiny key",
+  "Turn glass dial",
+  "Press red petal"
+ ],
+ "next": [
+  "c6-d2-1-0",
+  "c6-d2-1-1",
+  "c6-d2-1-2"
+ ],
+ "picture": "A first-person close view looking directly down onto the giant metallic lily pad resting on rippling water. In the centre perches a brass mechanical frog with blue glass eyes, clutching a small key in its mouth. To the left sits a circular glass dial, and to the right glints a bright red button-like stamen.",
+ "shown": [
+  "a tiny brass key held in the mechanical frog's mouth, centre",
+  "a numbered glass dial embedded in the broad green petal, left",
+  "a glowing red switch shaped like a stamens pod, right"
+ ],
+ "view": "close"
+}

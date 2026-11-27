@@ -1,0 +1,21 @@
+{
+ "id": "c7-d2",
+ "scene": "You step off the glass-bottomed boat onto Lighthouse Reef's slippery rocks.",
+ "options": [
+  "Inspect tide pool",
+  "Pet barking seal",
+  "Enter lighthouse door"
+ ],
+ "next": [
+  "c7-d2-0",
+  "c7-d2-1",
+  "c7-d2-2"
+ ],
+ "picture": "Flat side-scrolling view along rocky reef ground. On far left, the moored glass-bottomed boat floats beside a glowing tide pool. Left of centre, the boy stands facing right. Centre, a fat seal reclines on a boulder. Far right stands a tall striped lighthouse with a closed red door at its base.",
+ "shown": [
+  "a glowing blue tide pool resting on the rocks at the far left",
+  "a spotted grey seal lounging on a flat boulder at the centre",
+  "a red arched wooden door at the base of the lighthouse on the right"
+ ],
+ "view": "wide"
+}

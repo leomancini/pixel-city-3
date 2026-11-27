@@ -1,0 +1,21 @@
+{
+ "id": "c7-d2-1",
+ "scene": "The friendly seal barks happily and nudges an old brass key toward you.",
+ "options": [
+  "Take brass key",
+  "Climb iron ladder",
+  "Check wooden crate"
+ ],
+ "next": [
+  "c7-d2-1-0",
+  "c7-d2-1-1",
+  "c7-d2-1-2"
+ ],
+ "picture": "Flat side-scrolling view along the rocky reef. Far left sits an encrusted wooden crate. Left of centre, the boy in orange vest kneels, patting the smiling seal. Centre, a shiny brass key rests on the rock. Far right stands the striped lighthouse with a rusty ladder bolted beside its red door.",
+ "shown": [
+  "a shiny brass key lying on the flat stone in centre",
+  "a rusty iron ladder bolted to the lighthouse wall on far right",
+  "a barnacle-encrusted wooden cargo crate sitting closed on far left"
+ ],
+ "view": "wide"
+}

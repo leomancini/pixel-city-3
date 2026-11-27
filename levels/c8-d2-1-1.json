@@ -1,0 +1,21 @@
+{
+ "id": "c8-d2-1-1",
+ "scene": "The unfolded map reveals transit routes leading far out across the metropolis.",
+ "options": [
+  "Board gondola drone",
+  "Take hover metro",
+  "Ride flying scooter"
+ ],
+ "next": [
+  "c8-d3",
+  "c8-d0",
+  "c8-d1"
+ ],
+ "picture": "Side-scrolling view along a bustling transit depot. On the far left, a wicker drone gondola floats by a dock. Granny in her pink tracksuit stands holding her dog and map. At centre, a hover metro train sits open. On the right, a winged flying scooter idles at a post.",
+ "shown": [
+  "A wicker gondola slung beneath a quadcopter drone waiting at the far left canal quay.",
+  "A gleaming silver hover metro train stopped with doors open at the centre platform.",
+  "A pastel-blue flying scooter parked beside a charging post on the right."
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c4-d4-0-2",
+ "scene": "At the pavilion platform, three curious transit routes await your ticket.",
+ "options": [
+  "Ride cable tram",
+  "Board river barge",
+  "Take roofed trolley"
+ ],
+ "next": [
+  "c4-d3",
+  "c4-d0",
+  "c4-d1"
+ ],
+ "picture": "A wide flat side view of a stone transit terrace. On the far left sits a red mountain cable tram. The player stands left of centre in lilac headscarf and mustard coat. At centre, a river barge rests by steps. On the far right, a glass-roofed trolley awaits on rails.",
+ "shown": [
+  "a dangling red cable tram car hooked to thick wires on the far left",
+  "a wooden river barge bobbing at the wooden dock platform at centre",
+  "a bright green glass-roofed trolley resting on gleaming rails on the far right"
+ ],
+ "view": "wide"
+}

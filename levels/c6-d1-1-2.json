@@ -1,0 +1,21 @@
+{
+ "id": "c6-d1-1-2",
+ "scene": "You climb the radio mast lookout, overlooking three waiting city routes below.",
+ "options": [
+  "Catch night tram",
+  "Row canal boat",
+  "Take freight lift"
+ ],
+ "next": [
+  "c6-d0",
+  "c6-d2",
+  "c6-d3"
+ ],
+ "picture": "Flat side view along an elevated catwalk ground line. On the far left, a yellow night tram waits on tracks. The boy in a denim jacket with curly hair and glasses stands left-centre. In the centre sits a wooden rowing boat on canal water. On the far right is an open freight lift.",
+ "shown": [
+  "a glowing yellow night tram parked on rooftop tracks on the far left",
+  "a wooden rowing boat moored at a rooftop canal sluice in the centre",
+  "an open metal freight lift cage with an illuminated call button on the far right"
+ ],
+ "view": "wide"
+}

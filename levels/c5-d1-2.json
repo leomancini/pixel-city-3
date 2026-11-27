@@ -1,0 +1,21 @@
+{
+ "id": "c5-d1-2",
+ "scene": "Three colorful vintage comics spin into view on the squeaky wire rack.",
+ "options": [
+  "Take alien comic",
+  "Read robot manga",
+  "Grab gold issue"
+ ],
+ "next": [
+  "c5-d1-2-0",
+  "c5-d1-2-1",
+  "c5-d1-2-2"
+ ],
+ "picture": "Pixel-art close-up view of a metal wire spinner rack filling the frame. On the left sits a green comic featuring a glowing alien saucer. In the center rests a blue comic showing a giant chrome robot. On the right, sealed in shiny plastic, gleams a rare gold-foil superhero comic book.",
+ "shown": [
+  "a glow-in-the-dark green sci-fi issue sitting in the left metal pocket",
+  "a glossy blue manga issue in the center metal slot",
+  "a sealed golden superhero comic tucked in the right wire bracket"
+ ],
+ "view": "close"
+}

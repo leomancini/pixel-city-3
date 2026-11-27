@@ -1,0 +1,21 @@
+{
+ "id": "c7-d1-0-2",
+ "scene": "You climb through the hatch onto a high, breezy transit rooftop.",
+ "options": [
+  "Board hot-air balloon",
+  "Ride hillside chairlift",
+  "Board glass-bottom boat"
+ ],
+ "next": [
+  "c7-d3",
+  "c7-d0",
+  "c7-d2"
+ ],
+ "picture": "Pixel art flat side view of a snow-dusted rooftop station. Left, a yellow striped hot-air balloon bobs at its tether. Centre, the boy with his kite and orange puffer vest stands by the open hatch. Up high, an empty chairlift hangs from cables. Far right, a sleek glass-bottom boat floats in a water flume.",
+ "shown": [
+  "a tethered striped hot-air balloon basket waiting open on the left",
+  "a swinging two-seat chairlift dangling from a steel cable up high",
+  "a glass-bottomed motorboat moored at a roof flume on the far right"
+ ],
+ "view": "wide"
+}

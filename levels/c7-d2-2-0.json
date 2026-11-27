@@ -1,0 +1,21 @@
+{
+ "id": "c7-d2-2-0",
+ "scene": "Atop the lighthouse balcony, three strange rides wait to depart.",
+ "options": [
+  "Board the balloon",
+  "Take the chairlift",
+  "Ride sleigh tram"
+ ],
+ "next": [
+  "c7-d3",
+  "c7-d0",
+  "c7-d1"
+ ],
+ "picture": "Side view of the outdoor lighthouse balcony deck. Far left, a striped hot-air balloon basket sways beside a railing gate. Left of centre, the boy in orange vest and kite stands facing right. Centre, a metal chairlift seat hangs from an overhead cable. Far right, an enclosed red sleigh tram sits on rail tracks.",
+ "shown": [
+  "a tethered striped hot-air balloon floating at the far left",
+  "an empty metal chairlift seat hanging on a cable in the centre",
+  "a frosted red sleigh tram resting on icy tracks at the far right"
+ ],
+ "view": "wide"
+}

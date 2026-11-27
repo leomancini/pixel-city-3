@@ -1,0 +1,21 @@
+{
+ "id": "c8-d1-0",
+ "scene": "A scoop of mint gelato gives you sudden, sparking electric static.",
+ "options": [
+  "Spit in fountain",
+  "Touch brass spinner",
+  "Mount hover scooter"
+ ],
+ "next": [
+  "c8-d1-0-0",
+  "c8-d1-0-1",
+  "c8-d1-0-2"
+ ],
+ "picture": "Flat side-view across the sunny piazza pavement. On the far left rests the hovering scooter. In the left-centre, the grandmother in her pink tracksuit holds a glowing green cone, sparks popping around her glasses beside her white dog. In the centre burbles the dolphin fountain, while a brass pasta spinner stands on the right.",
+ "shown": [
+  "a bubbling marble dolphin fountain splashing water in the centre",
+  "a gleaming brass pasta spinner with winding copper handles on the right",
+  "a hovering turquoise scooter parked idling on the far left"
+ ],
+ "view": "wide"
+}

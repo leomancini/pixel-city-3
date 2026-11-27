@@ -1,0 +1,21 @@
+{
+ "id": "c0-d4-0-0",
+ "scene": "You pocket the brass key, and three transit gates swing open outside.",
+ "options": [
+  "Board cable car",
+  "Take subway train",
+  "Ride street tram"
+ ],
+ "next": [
+  "c0-d1",
+  "c0-d2",
+  "c0-d3"
+ ],
+ "picture": "A flat side view along a city transit platform under rain. On the far left hangs an open glass cable car. The player in yellow raincoat and green boots stands left holding a red umbrella. Centre sits a lit subway stairwell, and on the far right waits an open yellow street tram.",
+ "shown": [
+  "a glass cable car dangling open from a pylon on the far left",
+  "a subway entrance with tiled stairs descending below on the centre ground",
+  "a yellow street tram with open sliding doors on the far right"
+ ],
+ "view": "wide"
+}

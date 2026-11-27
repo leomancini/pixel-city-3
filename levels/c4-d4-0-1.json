@@ -1,0 +1,21 @@
+{
+ "id": "c4-d4-0-1",
+ "scene": "The unfolded map points toward three bustling departures along the ridge.",
+ "options": [
+  "Ride spiral lift",
+  "Board cable tram",
+  "Take river barge"
+ ],
+ "next": [
+  "c4-d2",
+  "c4-d3",
+  "c4-d0"
+ ],
+ "picture": "Side-scrolling flat view along a stone terrace. On the far left, a gilded spiral lift stands open beside a pylon. Near centre left, the woman in lilac scarf and mustard coat holds the map. At centre, a red cable tram sits waiting. On the far right, a wooden river barge floats tied to a pier.",
+ "shown": [
+  "a gilded cage lift waiting beside a stone pylon on the far left",
+  "a red mountain cable car hooked to an overhead cable at centre",
+  "a canopied river barge tied to a wooden pier on the far right"
+ ],
+ "view": "wide"
+}

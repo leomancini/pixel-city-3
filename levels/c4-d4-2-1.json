@@ -1,0 +1,21 @@
+{
+ "id": "c4-d4-2-1",
+ "scene": "Inside the breezy pavilion, three marked exits lead to new transit routes.",
+ "options": [
+  "Board river barge",
+  "Ride glass trolley",
+  "Enter spiral lift"
+ ],
+ "next": [
+  "c4-d0",
+  "c4-d1",
+  "c4-d2"
+ ],
+ "picture": "Flat side view inside the lacquered tea pavilion. Through the open archway far left floats a docked river barge. The woman in lilac headscarf and mustard coat stands centre on polished floorboards. To the right sits a yellow glass-roofed trolley at a platform, and far right stands a brass spiral lift.",
+ "shown": [
+  "A moored river barge with striped canopy waiting through an open archway far left",
+  "A glass-roofed yellow trolley idling at an indoor station platform on the right",
+  "A brass spiral lift with an open latticed gate standing far right"
+ ],
+ "view": "wide"
+}

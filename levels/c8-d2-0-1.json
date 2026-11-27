@@ -1,0 +1,21 @@
+{
+ "id": "c8-d2-0-1",
+ "scene": "The booth panel slides away, revealing an elevated transit balcony over fog.",
+ "options": [
+  "Fly piazza scooter",
+  "Board carnival gondola",
+  "Catch rooftop metro"
+ ],
+ "next": [
+  "c8-d1",
+  "c8-d3",
+  "c8-d0"
+ ],
+ "picture": "Side view along a high metal balcony floor. From left to right: a yellow winged flying scooter, the open red telephone booth with the silver-haired grandmother in pink tracksuit holding her dog's lead, a hovering wicker gondola drone, and a sleek silver hover metro car waiting at an air-rail.",
+ "shown": [
+  "a yellow winged flying scooter idling on its stand on the far left",
+  "a wicker gondola drone hovering gently beside the railing on the right",
+  "a sleek silver hover metro car stopped at the platform on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c8-d0-2",
+ "scene": "You reach the windy observation deck high above the neon-lit cityscape.",
+ "options": [
+  "Peer through telescope",
+  "Ring service bell",
+  "Board cargo basket"
+ ],
+ "next": [
+  "c8-d0-2-0",
+  "c8-d0-2-1",
+  "c8-d0-2-2"
+ ],
+ "picture": "Side-scrolling view of a wide observation deck under the night sky. On the far left, a brass telescope points outward. In the centre sits a wooden counter with a silver bell. The pink-tracksuit grandmother stands right-of-centre with her white dog, while a suspended wicker basket hangs waiting on the far right.",
+ "shown": [
+  "a coin-operated brass telescope on a tripod at the far left railing",
+  "a gleaming silver desk bell on a round wooden counter in the centre",
+  "an open woven basket hooked to a slack zipline on the far right"
+ ],
+ "view": "wide"
+}

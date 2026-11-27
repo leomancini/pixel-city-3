@@ -1,0 +1,21 @@
+{
+ "id": "c7-d0-1",
+ "scene": "Warm steam greets you inside the hilltop hut smelling of roasted barley.",
+ "options": [
+  "Order barley tea",
+  "Study wall map",
+  "Pet sleeping fox"
+ ],
+ "next": [
+  "c7-d0-1-0",
+  "c7-d0-1-1",
+  "c7-d0-1-2"
+ ],
+ "picture": "A flat side view inside the wooden hut along one level floor. Left, a bubbling brass kettle sits upon a stone hearth. The lanky boy in his orange puffer vest and kite stands centre-left facing right. In the centre, a pinned wind map hangs above wooden shelves. Far right, a fox sleeps upon a mat.",
+ "shown": [
+  "a bubbling brass kettle whistling softly on a stone stove on the left",
+  "a hand-drawn parchment map of flight currents pinned in the centre",
+  "a curled orange fox napping on a braided mat on the far right"
+ ],
+ "view": "wide"
+}

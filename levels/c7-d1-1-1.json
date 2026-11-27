@@ -1,0 +1,21 @@
+{
+ "id": "c7-d1-1-1",
+ "scene": "Inside the glowing workshop, travel brochures and departure bays await visitors.",
+ "options": [
+  "Fly hot-air balloon",
+  "Ride hillside chairlift",
+  "Board glass boat"
+ ],
+ "next": [
+  "c7-d3",
+  "c7-d0",
+  "c7-d2"
+ ],
+ "picture": "Pixel art flat side-scrolling view inside the warm workshop. On the far left, a striped hot-air balloon floats ready. Left, the lanky boy in orange vest and kite stands facing right. Centre, an open chairlift chair sways above. On the far right, a glass-bottomed canal boat floats beside a wooden indoor dock.",
+ "shown": [
+  "a striped hot-air balloon basket tethered beside an open bay on the far left",
+  "a dangling metal chairlift seat hanging open from an overhead cable, centre",
+  "a moored glass-bottomed canal boat bobbing in a bright water basin on the far right"
+ ],
+ "view": "wide"
+}

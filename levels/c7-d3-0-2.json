@@ -1,0 +1,21 @@
+{
+ "id": "c7-d3-0-2",
+ "scene": "High atop the wooden platform, three transit lines depart in different directions.",
+ "options": [
+  "Board glass boat",
+  "Ride hill chairlift",
+  "Catch sleigh tram"
+ ],
+ "next": [
+  "c7-d2",
+  "c7-d0",
+  "c7-d1"
+ ],
+ "picture": "Flat side-view across the high wooden platform. On the far left, a glass-bottomed boat bobs at a canal dock. Left of centre, the boy in orange vest and white scarf stands facing forward. Up high in the centre swings a yellow chairlift. On the far right, a red sleigh tram sits ready on rails.",
+ "shown": [
+  "a glass-bottomed boat bobbing beside a low canal dock on the far left",
+  "a yellow hillside chairlift swinging on its cable up high at the centre",
+  "a red sleigh tram waiting on polished frost rails at the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c0-d4-2-1",
+ "scene": "The dispenser clicks loudly, opening three secret transit doors along the wall.",
+ "options": [
+  "Board harbour ferry",
+  "Ride cable car",
+  "Catch subway train"
+ ],
+ "next": [
+  "c0-d0",
+  "c0-d1",
+  "c0-d2"
+ ],
+ "picture": "Flat side view inside the laundromat. The player stands centre in yellow raincoat and boots. On the left sits a glass sliding door opening onto a misty ferry dock. Up high above dryers hangs an open cable car hatch. On the right, a tiled subway portal reveals train headlights.",
+ "shown": [
+  "a sliding glass door marked with an anchor on the left",
+  "a suspended metal gondola door waiting wide open up high",
+  "a lit tiled staircase leading down to tracks on the right"
+ ],
+ "view": "wide"
+}

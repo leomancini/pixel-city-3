@@ -1,0 +1,21 @@
+{
+ "id": "c0-d4-2-0",
+ "scene": "Pocketing the humming token, you exit onto the rainy transit boardwalk.",
+ "options": [
+  "Board street tram",
+  "Board harbour ferry",
+  "Ride cable car"
+ ],
+ "next": [
+  "c0-d3",
+  "c0-d0",
+  "c0-d1"
+ ],
+ "picture": "A flat side view along a wet wooden transit pier at night. Left, a yellow street tram sits with open doors. Left-centre, the player stands holding her red umbrella and glowing turquoise token. Centre, a docked harbour ferry bobbing gently. Far right, a suspended glass cable car hangs ready at a boarding platform.",
+ "shown": [
+  "A waiting yellow street tram with open doors on the left track",
+  "A lit ferry boat docked at the wooden pier in the centre",
+  "A glowing suspended cable car hanging stationary on the far right"
+ ],
+ "view": "wide"
+}

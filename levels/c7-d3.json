@@ -1,0 +1,21 @@
+{
+ "id": "c7-d3",
+ "scene": "You step from the grounded balloon into breezy, sunlit Balloon Fields.",
+ "options": [
+  "Visit weaver",
+  "Browse ribbon stall",
+  "Climb tether tower"
+ ],
+ "next": [
+  "c7-d3-0",
+  "c7-d3-1",
+  "c7-d3-2"
+ ],
+ "picture": "Flat side-view across green turf. On the far left sits a wicker weaver by round baskets. Left of centre rests the striped balloon basket the boy just exited. The boy stands centre in his orange vest. To the right stands a wooden ribbon cart, and on the far right rises a tall mooring ladder.",
+ "shown": [
+  "an old weaver braiding wicker under an awning on the far left",
+  "a striped market cart draped in colourful silk spools on the right",
+  "a wooden lookout ladder attached to a mooring mast on the far right"
+ ],
+ "view": "wide"
+}

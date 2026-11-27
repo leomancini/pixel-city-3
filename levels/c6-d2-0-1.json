@@ -1,0 +1,21 @@
+{
+ "id": "c6-d2-0-1",
+ "scene": "The machine rattles and clicks, unlocking three departures across the platform.",
+ "options": [
+  "Ride service elevator",
+  "Take freight lift",
+  "Board night tram"
+ ],
+ "next": [
+  "c6-d1",
+  "c6-d3",
+  "c6-d0"
+ ],
+ "picture": "A flat side-view along the stone platform. On the far left, a brass service elevator stands open. Left of centre stands the boy in his denim jacket and camera, beside the humming vending machine. Centre right sits a sturdy freight lift platform. On the far right, a luminous night tram idles on rails.",
+ "shown": [
+  "a gated brass service elevator with open lattice doors on the far left",
+  "a heavy iron freight lift platform with glowing amber bulbs on the centre right",
+  "a glowing green night tram stopped at the tracks on the far right"
+ ],
+ "view": "wide"
+}

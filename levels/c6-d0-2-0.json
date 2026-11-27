@@ -1,0 +1,21 @@
+{
+ "id": "c6-d0-2-0",
+ "scene": "The dial clicks, sliding the shop's back wall open into three passages.",
+ "options": [
+  "Ride freight lift",
+  "Take service elevator",
+  "Row wooden boat"
+ ],
+ "next": [
+  "c6-d3",
+  "c6-d1",
+  "c6-d2"
+ ],
+ "picture": "A flat side view along a stone platform. On the left, an open steel freight lift waits by iron rails. Centre stands the teenage boy in denim jacket, glasses and camera, watching three exits. Up high sits an open service elevator cage. On the right, a wooden rowing boat floats beside a mossy dock.",
+ "shown": [
+  "a sturdy steel freight lift cage with an open accordion gate on the left",
+  "a sleek service elevator with illuminated buttons and open doors up high",
+  "a green wooden rowing boat tethered to a wet pier on the right"
+ ],
+ "view": "wide"
+}

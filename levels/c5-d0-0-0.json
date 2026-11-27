@@ -1,0 +1,21 @@
+{
+ "id": "c5-d0-0-0",
+ "scene": "You shoot down the ramp, skidding neatly into the busy transit depot.",
+ "options": [
+  "Board the bus",
+  "Take the lift",
+  "Catch the steamer"
+ ],
+ "next": [
+  "c5-d1",
+  "c5-d2",
+  "c5-d3"
+ ],
+ "picture": "Pixel art flat side view of the plaza transit depot along one flat ground line. On the far left, a red double-decker bus sits with open doors. Left of centre, the boy with blue eyes lands holding his skateboard. In the centre, an open rope-bridge lift basket hangs. On the far right, a paddle steamer docks.",
+ "shown": [
+  "a bright red double-decker bus with doors open on the far left",
+  "a wooden rope-bridge lift basket swinging open in the centre",
+  "a whistling paddle steamer moored at a wooden dock on the far right"
+ ],
+ "view": "wide"
+}

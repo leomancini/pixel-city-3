@@ -1,0 +1,21 @@
+{
+ "id": "c6-d2-1-1",
+ "scene": "The turned dial drains the water, revealing three humming transport gates below.",
+ "options": [
+  "Enter freight lift",
+  "Board night tram",
+  "Ride service elevator"
+ ],
+ "next": [
+  "c6-d3",
+  "c6-d0",
+  "c6-d1"
+ ],
+ "picture": "A flat side view along the tiled floor of a drained subway basin. On the far left sits an open industrial freight lift. In the centre, a glowing yellow night tram rests on newly exposed tracks. To the right stands the teenage boy looking at a tall glass service elevator on the far right.",
+ "shown": [
+  "an open metal cage freight lift on the far left with gears humming",
+  "a glowing yellow night tram parked on rails at the centre",
+  "a tall glass service elevator with an open sliding door on the right"
+ ],
+ "view": "wide"
+}

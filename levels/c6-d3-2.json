@@ -1,0 +1,21 @@
+{
+ "id": "c6-d3-2",
+ "scene": "The neon disc reveals etched groove maps beneath glowing circuit veins.",
+ "options": [
+  "Trace circuit lines",
+  "Read centre label",
+  "Spin brass spindle"
+ ],
+ "next": [
+  "c6-d3-2-0",
+  "c6-d3-2-1",
+  "c6-d3-2-2"
+ ],
+ "picture": "First-person close-up pixel view filling the frame with the glowing neon disc. On the left runs a winding copper circuit vein glowing bright green. In the centre sits a scratched golden label with cryptic text. On the right, a notched brass spindle glints with rainbow neon reflections.",
+ "shown": [
+  "a winding copper circuit vein pulsating with green light on the left",
+  "a scratched golden label stamped with secret coordinates in the centre",
+  "a heavy notched brass spindle sticking out on the right"
+ ],
+ "view": "close"
+}

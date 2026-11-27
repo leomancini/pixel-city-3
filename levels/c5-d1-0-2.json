@@ -1,0 +1,21 @@
+{
+ "id": "c5-d1-0-2",
+ "scene": "You step into a busy rear wharf where three transports wait.",
+ "options": [
+  "Board paddle steamer",
+  "Take skate shuttle",
+  "Ride rope lift"
+ ],
+ "next": [
+  "c5-d3",
+  "c5-d0",
+  "c5-d2"
+ ],
+ "picture": "Flat pixel-art side view along a wooden dock platform. On the far left, a red paddle steamer floats with its gangplank down. The boy with dark hair and green striped shirt stands left of centre carrying his skateboard. In the centre waits a yellow shuttle bus, beside an open rope lift on the far right.",
+ "shown": [
+  "a red paddle steamer tied to the dock on the far left",
+  "a yellow skate-park shuttle bus with an open door parked in the centre",
+  "a wooden rope-bridge lift basket swinging empty on the far right"
+ ],
+ "view": "wide"
+}

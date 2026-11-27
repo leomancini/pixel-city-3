@@ -1,0 +1,21 @@
+{
+ "id": "c0-d4-1-0",
+ "scene": "The opened dryer unfolds into a radiant station portal of three routes.",
+ "options": [
+  "Board subway train",
+  "Catch street tram",
+  "Take harbour ferry"
+ ],
+ "next": [
+  "c0-d2",
+  "c0-d3",
+  "c0-d0"
+ ],
+ "picture": "A flat side view along a wide platform. On the far left, the open silver subway train waits on rails. The player in yellow raincoat, afro, green boots, and red umbrella stands left-centre. In the centre, a yellow street tram idles. On the far right, a turquoise ferry floats by a wooden pier.",
+ "shown": [
+  "a sleek silver subway train waiting with open doors on the left track",
+  "a bright yellow street tram idling with headlights on at the centre platform",
+  "a turquoise harbour ferry bobbing gently at the right pier with lowered ramp"
+ ],
+ "view": "wide"
+}

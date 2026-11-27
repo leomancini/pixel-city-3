@@ -1,0 +1,21 @@
+{
+ "id": "c7-d3-2-1",
+ "scene": "The friendly pilot unrolls a transit map across the railing.",
+ "options": [
+  "Take chairlift",
+  "Board sleigh tram",
+  "Board glass boat"
+ ],
+ "next": [
+  "c7-d0",
+  "c7-d1",
+  "c7-d2"
+ ],
+ "picture": "Side-view of a lower transit junction platform beneath the tower. On the left hangs a dangling chairlift seat. The boy in his orange vest stands mid-left. In the centre waits an open red sleigh tram on rails. On the far right, a glass-bottomed boat bobs beside a mooring post.",
+ "shown": [
+  "a dangling two-seat hillside chairlift swinging empty on the left",
+  "a frost-dusted red sleigh tram idling with doors open in the centre",
+  "a sleek glass-bottomed boat tied to the dock on the far right"
+ ],
+ "view": "wide"
+}

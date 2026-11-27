@@ -1,0 +1,21 @@
+{
+ "id": "c2-d4-2-2",
+ "scene": "The lever unlocks the grand transit terminal beneath the dome.",
+ "options": [
+  "Ride glass elevator",
+  "Board steam train",
+  "Enter delivery truck"
+ ],
+ "next": [
+  "c2-d2",
+  "c2-d3",
+  "c2-d1"
+ ],
+ "picture": "Side-scrolling view of a wide transit platform. On the far left, a glass elevator stands open. On the left, the girl sits in her purple wheelchair beside the now-settled console. On the right, a parked striped steam train puffs sweet steam. On the far right, a yellow robot delivery truck waits with open rear doors.",
+ "shown": [
+  "a transparent cylindrical elevator with open doors on the far left",
+  "a striped peppermint-colored steam train parked on tracks on the right",
+  "a yellow boxy robot-delivery truck waiting on the far right"
+ ],
+ "view": "wide"
+}

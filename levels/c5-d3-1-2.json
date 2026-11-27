@@ -1,0 +1,21 @@
+{
+ "id": "c5-d3-1-2",
+ "scene": "The bronze whale mouth dispenses three colorful travel tokens onto the boardwalk.",
+ "options": [
+  "Board skate shuttle",
+  "Take double-decker bus",
+  "Ride rope lift"
+ ],
+ "next": [
+  "c5-d0",
+  "c5-d1",
+  "c5-d2"
+ ],
+ "picture": "A flat side view along the pier's exit plaza. Far left sits an open-roof neon-green shuttle van. Centre-left stands the boy holding his blue ice cream, watching the open-mouthed bronze whale bin. Right waits a red double-decker bus with doors folded open, beside a swinging rope-bridge lift basket attached to a timber tower far right.",
+ "shown": [
+  "a neon-green shuttle van with surfboard racks waiting on the far left",
+  "a bright red double-decker bus parked at the stop on the right",
+  "a wooden rope-bridge lift basket swaying beside a tall tower far right"
+ ],
+ "view": "wide"
+}

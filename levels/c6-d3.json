@@ -1,0 +1,21 @@
+{
+ "id": "c6-d3",
+ "scene": "You step from the humming freight lift into glowing Vinyl Vaults.",
+ "options": [
+  "Browse record crate",
+  "Enter listening booth",
+  "Examine neon disc"
+ ],
+ "next": [
+  "c6-d3-0",
+  "c6-d3-1",
+  "c6-d3-2"
+ ],
+ "picture": "Side-view pixel scene along one ground level. Far left sits a wooden crate of vinyl records. In the center stands the dark-haired boy in a denim jacket with camera, exiting the open freight lift. To the right stands a red curved listening booth. Up high hangs a giant spinning neon disc.",
+ "shown": [
+  "a wooden record crate stuffed with vinyl sleeves on the far left",
+  "a curved red listening booth with closed glass doors on the right",
+  "a huge glowing disc spinning slowly on an overhead mount up high"
+ ],
+ "view": "wide"
+}

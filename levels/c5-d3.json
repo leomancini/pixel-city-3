@@ -1,0 +1,21 @@
+{
+ "id": "c5-d3",
+ "scene": "You step off the paddle steamer onto the clattering wooden pier.",
+ "options": [
+  "Play pinball game",
+  "Buy ice cream",
+  "Climb the lighthouse"
+ ],
+ "next": [
+  "c5-d3-0",
+  "c5-d3-1",
+  "c5-d3-2"
+ ],
+ "picture": "Flat side view along a wooden dock. On the far left sits the moored paddle steamer. To its right, a boy with messy dark hair, striped green shirt, and red sneakers holds a skateboard. Next stands a neon pinball arcade, then a striped ice-cream kiosk, and on the right stands a tall lighthouse.",
+ "shown": [
+  "a glowing neon pinball arcade with an open door on the left",
+  "a striped ice-cream kiosk with a serving hatch in the centre",
+  "a tall spiral lighthouse with a closed brass door on the right"
+ ],
+ "view": "wide"
+}

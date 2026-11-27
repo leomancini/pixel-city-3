@@ -1,0 +1,21 @@
+{
+ "id": "c4-d4-2-2",
+ "scene": "At the top of the steps, a bustling mountain transit terrace awaits.",
+ "options": [
+  "Take spiral lift",
+  "Board cable tram",
+  "Ride glass trolley"
+ ],
+ "next": [
+  "c4-d2",
+  "c4-d3",
+  "c4-d1"
+ ],
+ "picture": "Flat side view on a mountain transit terrace. Far left stands a brass spiral lift with an open gate. Left of centre sits a wooden cable tram. Right of centre, the woman in lilac headscarf and mustard coat steps onto stone flags. Far right waits a brightly polished, glass-roofed trolley.",
+ "shown": [
+  "A brass spiral lift cage with open grate doors stands far left.",
+  "A wooden mountain cable tram waits on iron rails left of centre.",
+  "A small glass-roofed trolley with cushioned seats waits on tracks far right."
+ ],
+ "view": "wide"
+}

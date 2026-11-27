@@ -1,0 +1,21 @@
+{
+ "id": "c5-d2-0-0",
+ "scene": "The letter reveals travel vouchers for three routes leaving the canopy hub.",
+ "options": [
+  "Ride skate-park shuttle",
+  "Catch double-decker bus",
+  "Board paddle steamer"
+ ],
+ "next": [
+  "c5-d0",
+  "c5-d1",
+  "c5-d3"
+ ],
+ "picture": "Side-scrolling view of a wide wooden canopy transit deck. On the far left waits a yellow skate-park shuttle with roof racks. Left of centre, the boy in green stripes holds an unfolded letter with his skateboard underarm. In the centre sits a red double-decker bus. On the far right, a paddle steamer floats by a mooring post.",
+ "shown": [
+  "a yellow ramp-equipped skate-park shuttle idling at the far left curb",
+  "a bright red double-decker bus parked with open doors in the centre",
+  "a colourful wooden paddle steamer moored at the dock on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c8-d2-2",
+ "scene": "Warm steam and clinking china welcome you inside the cozy tea room.",
+ "options": [
+  "Inspect tiered tray",
+  "Chat with barista",
+  "Read notice board"
+ ],
+ "next": [
+  "c8-d2-2-0",
+  "c8-d2-2-1",
+  "c8-d2-2-2"
+ ],
+ "picture": "Side-scrolling view of a cozy tea room interior along polished wooden floorboards. On the far left sits a counter with a tiered stand of glowing pastries. Granny and her white dog stand left of centre. At centre stands a four-armed brass barista behind polished taps. On the right hangs a cork notice board beside a window.",
+ "shown": [
+  "a silver tiered stand loaded with glowing pastries on the far left counter",
+  "a friendly four-armed robot barista polishing a teacup at the centre counter",
+  "a cork board pinned with fluttering notes hanging on the right wall"
+ ],
+ "view": "wide"
+}

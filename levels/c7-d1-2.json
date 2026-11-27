@@ -1,0 +1,21 @@
+{
+ "id": "c7-d1-2",
+ "scene": "A snow-filled glass dome cart hums with miniature mechanical wonder.",
+ "options": [
+  "Turn copper valve",
+  "Peer through magnifying",
+  "Open velvet pouch"
+ ],
+ "next": [
+  "c7-d1-2-0",
+  "c7-d1-2-1",
+  "c7-d1-2-2"
+ ],
+ "picture": "Pixel art close-up view through the boy's eyes of the domed cart. Left, an intricate copper pipe with a star-shaped valve. Centre, a round brass magnifying lens swings over liquid-filled glass enclosing a tiny clockwork castle. Right, a soft purple drawstring pouch hangs from a gilded rail, glowing softly.",
+ "shown": [
+  "a tarnished copper valve pipe attached to the cart on the left",
+  "a hinged brass magnifying lens mounted over the glass centre",
+  "a dangling purple velvet drawstring pouch tied on the right"
+ ],
+ "view": "close"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c9-d2-0-0",
+ "scene": "Three golden transit tokens spill from the cracked capsule into your hands.",
+ "options": [
+  "Board dragon train",
+  "Climb cable pod",
+  "Board solar junk"
+ ],
+ "next": [
+  "c9-d0",
+  "c9-d1",
+  "c9-d3"
+ ],
+ "picture": "Flat side-scrolling view along an outdoor transit terminal platform. Far left, a maglev dragon train waits with its doors open. Centre, the broad-shouldered Pacific Islander man in floral shirt and top knot holds three golden tokens, ukulele slung on his back. Up high hangs a cloud cable pod. Far right, a solar-sail junk is moored.",
+ "shown": [
+  "a maglev dragon train waiting with open jaws at the far left platform",
+  "a rounded cloud cable pod swaying gently on a wire up high",
+  "a solar-sail junk moored at a sparkling canal dock on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c5-d3-1-0",
+ "scene": "Atop the lighthouse, breezy transit platforms stretch out to three new districts.",
+ "options": [
+  "Board comic bus",
+  "Enter rope lift",
+  "Ride skate shuttle"
+ ],
+ "next": [
+  "c5-d1",
+  "c5-d2",
+  "c5-d0"
+ ],
+ "picture": "A flat side view of the wide lighthouse observation platform. On the left, a bright red double-decker bus waits at a gangway. Centre, the dark-haired boy holds his skateboard and melting blue ice cream next to an open rope lift. On the right, a yellow skate shuttle sits with doors wide open.",
+ "shown": [
+  "a red double-decker bus waiting at a ramp on the left",
+  "an open woven rope-bridge lift dangling in the centre",
+  "a yellow ramp-shaped skate shuttle docked on the right"
+ ],
+ "view": "wide"
+}

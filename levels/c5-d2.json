@@ -1,0 +1,21 @@
+{
+ "id": "c5-d2",
+ "scene": "You step off the creaking lift onto a breezy wooden canopy platform.",
+ "options": [
+  "Inspect postbox",
+  "Cross rope bridge",
+  "Climb wooden ladder"
+ ],
+ "next": [
+  "c5-d2-0",
+  "c5-d2-1",
+  "c5-d2-2"
+ ],
+ "picture": "Side view of a level wooden platform between giant tree trunks. On far left, the open rope-bridge lift cage rests beside a hollow acorn postbox. Centre, the dark-haired boy in a green striped T-shirt holds his skateboard. Up high against the trunk sits a wooden ladder, while on the right a rope bridge extends outward.",
+ "shown": [
+  "a hollow acorn postbox with letters poking out on the far left",
+  "a swaying rope suspension bridge leading right from the platform edge",
+  "a sturdy wooden ladder tied to the trunk going up high"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c5-d3-1",
+ "scene": "A walrus scoops blue vanilla into a waffle cone for you.",
+ "options": [
+  "Climb spiral stairs",
+  "Pet lounging gull",
+  "Inspect bronze bin"
+ ],
+ "next": [
+  "c5-d3-1-0",
+  "c5-d3-1-1",
+  "c5-d3-1-2"
+ ],
+ "picture": "A flat side view of the wooden boardwalk. On the far left sits a sleepy seagull on a post, beside a bronze whale-shaped bin. Centre stands the boy with his skateboard, holding an ice cream cone handed over the kiosk counter by an apron-wearing walrus. Far right features the tall lighthouse's open entrance.",
+ "shown": [
+  "a tall striped lighthouse with an open arched doorway on the far right",
+  "a plump grey seagull napping on a wooden dock bollard on the far left",
+  "a shiny bronze trash can shaped like a whale standing on the left"
+ ],
+ "view": "wide"
+}

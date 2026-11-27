@@ -1,0 +1,21 @@
+{
+ "id": "c7-d2-2-1",
+ "scene": "The brass machine whirs, sliding open rear shutters to three waiting transports.",
+ "options": [
+  "Ride chairlift",
+  "Board sleigh tram",
+  "Board balloon basket"
+ ],
+ "next": [
+  "c7-d0",
+  "c7-d1",
+  "c7-d3"
+ ],
+ "picture": "Side view across the open stone balcony behind the lighthouse base. On the far left, a yellow hillside chairlift seat sways gently above a cliff path. Left of centre, the boy in orange vest and kite faces right. In the centre, a red sleigh tram sits ready. Far right, a striped hot-air balloon floats tethered.",
+ "shown": [
+  "a swinging yellow chairlift seat dangling from a cable on the far left",
+  "a red runners-equipped sleigh tram waiting on tracks in the centre opening",
+  "a striped hot-air balloon basket tethered to a bollard on the far right"
+ ],
+ "view": "wide"
+}

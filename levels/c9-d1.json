@@ -1,0 +1,21 @@
+{
+ "id": "c9-d1",
+ "scene": "You step from the cloud cable pod onto floating wooden village planks.",
+ "options": [
+  "Open clay jar",
+  "Buy rice cakes",
+  "Watch hologram show"
+ ],
+ "next": [
+  "c9-d1-0",
+  "c9-d1-1",
+  "c9-d1-2"
+ ],
+ "picture": "A flat side view along a floating wooden deck. Far left sits an earthenware kimchi jar by a plum tree. Left is a steaming wooden snack cart. Centre, the Pacific Islander player in floral shirt and top knot holds his ukulele, right beside the open cable pod. Far right shines a glowing hologram stage.",
+ "shown": [
+  "a sealed brown kimchi jar resting far left beside a blooming plum tree",
+  "a steaming wooden snack cart attended by a smiling vendor on the left",
+  "a glowing neon hologram pop stage dancing with light on the far right"
+ ],
+ "view": "wide"
+}

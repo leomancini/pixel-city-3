@@ -1,0 +1,21 @@
+{
+ "id": "c8-d3-0-0",
+ "scene": "Your puff expands a sparkling glass bubble, revealing distant transport portals.",
+ "options": [
+  "Ride hover metro",
+  "Fly to Piazza",
+  "Board hover bus"
+ ],
+ "next": [
+  "c8-d0",
+  "c8-d1",
+  "c8-d2"
+ ],
+ "picture": "Flat side-scrolling view of an elevated canal transit platform. On the far left, a sleek hover metro waits with open doors. Left-centre stands the grandmother in pink tracksuit, holding her blown glass ornament, dog beside her. Centre sits a yellow flying scooter. Right, a red double-decker hover bus waits at a curb sign.",
+ "shown": [
+  "a sleek hover metro car idling open on a rail on the left",
+  "a bright yellow flying scooter parked on a stand at centre",
+  "a red double-decker hover bus waiting at a stop on the right"
+ ],
+ "view": "wide"
+}

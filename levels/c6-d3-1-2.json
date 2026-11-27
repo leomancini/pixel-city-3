@@ -1,0 +1,21 @@
+{
+ "id": "c6-d3-1-2",
+ "scene": "The dial clicks, sliding the curved wall open to hidden city transit.",
+ "options": [
+  "Board night tram",
+  "Take service elevator",
+  "Row the boat"
+ ],
+ "next": [
+  "c6-d0",
+  "c6-d1",
+  "c6-d2"
+ ],
+ "picture": "Side-view pixel scene along one ground line. On the far left sits a waiting night tram. To the left is the opened listening booth where the curly-haired boy in a denim jacket with his camera stands. Up high in the centre rises an open service elevator, and on the far right bobs a rowing boat.",
+ "shown": [
+  "a sleek glowing night tram waiting on rails on the far left",
+  "an open steel service elevator with glowing call buttons up high",
+  "a wooden rowing boat bobbing in turquoise water on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c0-d4-0-1",
+ "scene": "The dryer pops open, revealing a hidden tunnel to transit lines.",
+ "options": [
+  "Board subway train",
+  "Ride street tram",
+  "Take harbour ferry"
+ ],
+ "next": [
+  "c0-d2",
+  "c0-d3",
+  "c0-d0"
+ ],
+ "picture": "A flat side view inside the back room tunnel. On the left sits an open silver subway train door. Centre sits an idling yellow street tram. Far right, a green harbour ferry gangway rests beside water. The player in yellow raincoat and green boots stands between them, holding a red umbrella.",
+ "shown": [
+  "a sleek silver subway train door open in a tunnel on the left",
+  "a yellow street tram waiting outside the open dryer tunnel in the centre",
+  "a green harbour ferry gangway resting by water on the far right"
+ ],
+ "view": "wide"
+}

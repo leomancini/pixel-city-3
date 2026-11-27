@@ -1,0 +1,21 @@
+{
+ "id": "c8-d3-2-0",
+ "scene": "The blue spice sparks, revealing three transit platforms hovering beside the roof.",
+ "options": [
+  "Board hover bus",
+  "Enter hover metro",
+  "Ride flying scooter"
+ ],
+ "next": [
+  "c8-d2",
+  "c8-d0",
+  "c8-d1"
+ ],
+ "picture": "A flat side-scrolling view of the roof edge. On the far left, a red double-decker hover bus floats beside a railed platform. Left-centre stands the silver-haired grandmother in pink tracksuit holding her dog, mouth aglow with blue sparkles. Centre, a sleek hover metro carriage waits. Far right, a yellow flying scooter idles.",
+ "shown": [
+  "A red double-decker hover bus docked at an aerial platform on the far left",
+  "A sleek glass hover metro carriage waiting with open doors in the centre",
+  "A yellow flying scooter parked on a launch pad on the far right"
+ ],
+ "view": "wide"
+}

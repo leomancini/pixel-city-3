@@ -1,0 +1,21 @@
+{
+ "id": "c6-d1-0-0",
+ "scene": "The tape plays city coordinates, sliding three exit doors wide open.",
+ "options": [
+  "Catch night tram",
+  "Board rowing boat",
+  "Ride freight lift"
+ ],
+ "next": [
+  "c6-d0",
+  "c6-d2",
+  "c6-d3"
+ ],
+ "picture": "Flat side view inside the shed. On the far left, a newly slid-open doorway reveals a glowing yellow night tram. Left-centre stands the curly-haired boy wearing round glasses and his denim jacket. In the centre doorway sits a wooden rowing boat in a sluice. On the far right, an open iron freight lift awaits.",
+ "shown": [
+  "a gleaming yellow night tram waiting outside the left open doorway",
+  "a wooden rowing boat moored at a canal sluice in the centre doorway",
+  "a heavy iron freight lift with an open gate on the far right"
+ ],
+ "view": "wide"
+}

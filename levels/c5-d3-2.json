@@ -1,0 +1,21 @@
+{
+ "id": "c5-d3-2",
+ "scene": "Inside the dizzying lighthouse, spiral iron stairs twist upward around giant whirring brass gears.",
+ "options": [
+  "Climb spiral stairs",
+  "Pull wall lever",
+  "Open brass hatch"
+ ],
+ "next": [
+  "c5-d3-2-0",
+  "c5-d3-2-1",
+  "c5-d3-2-2"
+ ],
+ "picture": "Inside the round lighthouse, arranged along flat stone floor. On the far left, spiral iron stairs curl upward. Left of centre stands the boy in green stripes and red sneakers, clutching his skateboard. In the centre, interlocking brass gears turn slowly. On the right, a red lever protrudes from the brick wall, beside a shut brass floor hatch.",
+ "shown": [
+  "a curling iron spiral staircase winding up into the ceiling on the far left",
+  "a glowing red lever mounted on the curved brick wall on the right",
+  "a bolted brass floor hatch sitting shut in the floor on the far right"
+ ],
+ "view": "wide"
+}

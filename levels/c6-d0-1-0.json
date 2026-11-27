@@ -1,0 +1,21 @@
+{
+ "id": "c6-d0-1-0",
+ "scene": "Your camera flash illuminates three secret transit gates behind the wall.",
+ "options": [
+  "Row to Flooded",
+  "Take freight lift",
+  "Ride service elevator"
+ ],
+ "next": [
+  "c6-d2",
+  "c6-d3",
+  "c6-d1"
+ ],
+ "picture": "Flat side view on a hidden platform. Far left, water laps around a tethered wooden rowing boat. Left, the curly-haired boy holds his smoking camera. Centre, an open iron freight lift rests beside glowing cables. Right, a glowing brass service elevator stands ready with doors open. Far right, exposed pipes run up the wall.",
+ "shown": [
+  "a wooden rowing boat tied to a canal dock on the left",
+  "a clanking iron freight lift with its gate open in the centre",
+  "a lit service elevator marked with a radio symbol on the right"
+ ],
+ "view": "wide"
+}

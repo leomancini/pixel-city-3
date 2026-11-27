@@ -1,0 +1,21 @@
+{
+ "id": "c9-d0-0-0",
+ "scene": "The blue tea makes you float slightly beside three waiting departures.",
+ "options": [
+  "Board cable pod",
+  "Board bullet train",
+  "Board solar junk"
+ ],
+ "next": [
+  "c9-d1",
+  "c9-d2",
+  "c9-d3"
+ ],
+ "picture": "Side-scrolling view of a bustling transport junction. Far left, an open wicker cloud cable pod dangles above a wooden platform. Left, the broad-shouldered Pacific Islander man floats inches off the ground holding his ukulele. Right, a streamlined pink bullet train sits with open doors. Far right, a green solar-sail junk rocks gently at a canal dock.",
+ "shown": [
+  "a dangling round wicker cable pod hanging open on the far left",
+  "a sleek pink bullet train with open doors on the right",
+  "a green wooden junk with glowing solar sails on the far right"
+ ],
+ "view": "wide"
+}

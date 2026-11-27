@@ -1,0 +1,21 @@
+{
+ "id": "c5-d0-0-2",
+ "scene": "Across the bridge, a bustling transit terrace overlooks routes across the city.",
+ "options": [
+  "Board paddle steamer",
+  "Take red bus",
+  "Ride treehouse lift"
+ ],
+ "next": [
+  "c5-d3",
+  "c5-d1",
+  "c5-d2"
+ ],
+ "picture": "Pixel art flat side view along a high wooden terrace. On the far left, a gangplank leads down to a docked paddle steamer. The boy in green stripes stands near the centre holding his skateboard. Beside him sits a red double-decker bus. On the far right hangs a circular rope-bridge lift platform.",
+ "shown": [
+  "a striped gangway on the left leading down to a whistling paddle steamer",
+  "a red double-decker bus idling by an open curb shelter in the centre",
+  "a round wooden cage lift attached to thick swaying ropes on the right"
+ ],
+ "view": "wide"
+}

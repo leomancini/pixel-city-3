@@ -1,0 +1,21 @@
+{
+ "id": "c5-d0-2",
+ "scene": "A painted robotic dragon conceals secret dials embedded directly in the brickwork.",
+ "options": [
+  "Turn brass dial",
+  "Pry loose brick",
+  "Insert copper coin"
+ ],
+ "next": [
+  "c5-d0-2-0",
+  "c5-d0-2-1",
+  "c5-d0-2-2"
+ ],
+ "picture": "Pixel art close view of the brick wall. A detailed mural of a robotic dragon covers the surface. On the left, a brass dial is set into its mechanical snout. In the centre, a cracked red brick juts out loose. On the right, its bright painted eye contains a metallic coin slot.",
+ "shown": [
+  "a tarnished brass dial with runic markings on the dragon's snout on the left",
+  "a chipped, slightly protruding red brick under the beast's belly in the centre",
+  "a narrow coin slot hidden within the dragon's glowing eye on the right"
+ ],
+ "view": "close"
+}

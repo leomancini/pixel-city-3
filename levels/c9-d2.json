@@ -1,0 +1,21 @@
+{
+ "id": "c9-d2",
+ "scene": "You step from the sleek bullet train into neon-lit Sakura Circuit Arcade.",
+ "options": [
+  "Insert arcade coin",
+  "Order spicy noodles",
+  "Touch golden paw"
+ ],
+ "next": [
+  "c9-d2-0",
+  "c9-d2-1",
+  "c9-d2-2"
+ ],
+ "picture": "Flat side-scrolling view along a tiled platform. On the far left rests the sleek bullet train. Center-left stands the broad-shouldered Pacific Islander man with top knot and ukulele. Left sits a bright capsule-toy dispenser. Right is a ramen robot at its counter, and far right stands a giant waving lucky-cat statue under pink blossoms.",
+ "shown": [
+  "a glowing capsule-toy machine on the left with colorful spheres inside",
+  "a metal ramen robot behind a steaming counter on the right",
+  "a giant waving lucky-cat statue on the far right"
+ ],
+ "view": "wide"
+}

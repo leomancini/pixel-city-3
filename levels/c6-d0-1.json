@@ -1,0 +1,21 @@
+{
+ "id": "c6-d0-1",
+ "scene": "A glowing photo shows a secret canal behind the city.",
+ "options": [
+  "Take canal snapshot",
+  "Ask hooded stranger",
+  "Follow stone archway"
+ ],
+ "next": [
+  "c6-d0-1-0",
+  "c6-d0-1-1",
+  "c6-d0-1-2"
+ ],
+ "picture": "A flat side-view along the bazaar wall. Far left stands a hooded stranger holding an amber lantern. Left, strings of drying photographs hang over lines. Center, the curly-haired boy in a denim jacket inspects a glowing canal print pinned to a wooden board. Right, empty display crates sit stacked. Far right, an open stone archway leads out.",
+ "shown": [
+  "a pinned monochrome photograph of a canal boat in the centre",
+  "a mysterious hooded stranger holding a lantern on the far left",
+  "an open mossy stone archway on the far right"
+ ],
+ "view": "wide"
+}

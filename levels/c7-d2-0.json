@@ -1,0 +1,21 @@
+{
+ "id": "c7-d2-0",
+ "scene": "Clear sea water reveals strange treasures beneath the swirling neon kelp.",
+ "options": [
+  "Grab brass compass",
+  "Poke purple urchin",
+  "Catch mechanical crab"
+ ],
+ "next": [
+  "c7-d2-0-0",
+  "c7-d2-0-1",
+  "c7-d2-0-2"
+ ],
+ "picture": "Top-down close view into a shallow rock pool filled with crystal-clear turquoise water. Neon-green seaweed frames the edges. On the left, a tarnished brass compass rests on sand. In the centre, a tiny clockwork crab marches over white pebbles. On the right, a glowing purple urchin sits wedged in dark rock.",
+ "shown": [
+  "An antique brass compass resting on green sand at the left side of the pool",
+  "A spiky purple sea urchin tucked into rocks on the pool's far right",
+  "A ticking brass miniature crab scuttling across the white pebble bottom in the centre"
+ ],
+ "view": "close"
+}

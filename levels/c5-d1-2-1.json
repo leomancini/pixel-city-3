@@ -1,0 +1,21 @@
+{
+ "id": "c5-d1-2-1",
+ "scene": "A printed map inside the manga points toward three lively transport stops.",
+ "options": [
+  "Ride skate shuttle",
+  "Board tree lift",
+  "Board paddle steamer"
+ ],
+ "next": [
+  "c5-d0",
+  "c5-d2",
+  "c5-d3"
+ ],
+ "picture": "Pixel art flat side view of the lane's edge. On the far left, a yellow skate-park shuttle waits. In the centre, the boy in green stripes holds his comic beneath a wooden rope-bridge lift basket hung up high. On the far right, a red paddle steamer bobs beside a dock.",
+ "shown": [
+  "a yellow mini shuttle bus parked by a ramp sign on the far left",
+  "a wooden rope-bridge elevator basket waiting open up high in the centre",
+  "a striped paddle steamer moored at a wooden pier on the far right"
+ ],
+ "view": "wide"
+}

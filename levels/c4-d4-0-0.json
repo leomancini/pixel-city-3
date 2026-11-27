@@ -1,0 +1,21 @@
+{
+ "id": "c4-d4-0-0",
+ "scene": "Turning the valve vents fragrant steam, unlocking three bustling transit gates.",
+ "options": [
+  "Board glass trolley",
+  "Ride spiral lift",
+  "Take cable tram"
+ ],
+ "next": [
+  "c4-d1",
+  "c4-d2",
+  "c4-d3"
+ ],
+ "picture": "Side-scrolling wide view along a stone terrace. On the far left, a glass-roofed trolley rests on shiny rails. Left of centre, the woman in lilac headscarf and mustard coat stands by the hissing copper kettle. At centre, an open iron spiral lift cage awaits. On the far right, a red cable tram sits docked.",
+ "shown": [
+  "a sleek glass-roofed trolley idling on brass tracks on the far left",
+  "a winding spiral lift cage waiting open in the centre",
+  "a red mountain cable tram docked at a gate on the far right"
+ ],
+ "view": "wide"
+}

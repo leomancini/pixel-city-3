@@ -1,0 +1,21 @@
+{
+ "id": "c8-d0-2-2",
+ "scene": "The basket drops you at a bustling mid-air transit hub.",
+ "options": [
+  "Catch hover bus",
+  "Board gondola drone",
+  "Rent flying scooter"
+ ],
+ "next": [
+  "c8-d2",
+  "c8-d3",
+  "c8-d1"
+ ],
+ "picture": "Side-scrolling view of a metal transit hub platform floating in the night sky. On the far left waits a red double-decker hover bus with open doors. The pink-tracksuit grandmother and her dog stand left-of-centre near the empty cargo basket. On the right, a striped gondola drone floats tethered, beside a neon flying scooter on the far right.",
+ "shown": [
+  "a red double-decker hover bus parked waiting on the far left",
+  "a striped gondola drone tethered to a pole on the right",
+  "a parked neon flying scooter standing on the far right"
+ ],
+ "view": "wide"
+}

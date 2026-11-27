@@ -1,0 +1,21 @@
+{
+ "id": "c6-d2-2-2",
+ "scene": "You step aboard the red tram, facing three unusual exit doors.",
+ "options": [
+  "Ride service elevator",
+  "Take freight lift",
+  "Catch night tram"
+ ],
+ "next": [
+  "c6-d1",
+  "c6-d3",
+  "c6-d0"
+ ],
+ "picture": "Flat side view of the wide red tram passenger carriage interior. On the far left stands an open iron service elevator gate. The curly-haired boy with camera stands left of centre. In the centre, an open heavy steel freight lift hums. On the far right, an open vestibule connects directly to a purple night tram.",
+ "shown": [
+  "A clanking iron service elevator gate standing open on the far left. Door leads up.",
+  "A wide steel freight lift with flashing orange lights resting in the centre.",
+  "An adjoining sleek purple night tram idling with open doors on the far right."
+ ],
+ "view": "wide"
+}

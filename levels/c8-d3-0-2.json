@@ -1,0 +1,21 @@
+{
+ "id": "c8-d3-0-2",
+ "scene": "The artisan gifts you travel vouchers pointing toward three exciting city gates.",
+ "options": [
+  "Ride hover bus",
+  "Board hover metro",
+  "Rent flying scooter"
+ ],
+ "next": [
+  "c8-d2",
+  "c8-d0",
+  "c8-d1"
+ ],
+ "picture": "A wide quay outside the workshop along a flat ground line. On the far left sits a red double-decker hover bus. Next stands the grandmother in pink tracksuit holding her dog's leash. In the centre, an open hover metro door glows softly. Farther right rests a turquoise flying scooter with sidecar.",
+ "shown": [
+  "A red double-decker hover bus idles patiently at the curb on the far left",
+  "A sleek glowing hover metro car waits open at the platform in the centre",
+  "A turquoise flying scooter with sidecar sits parked on the far right"
+ ],
+ "view": "wide"
+}

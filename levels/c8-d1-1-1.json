@@ -1,0 +1,21 @@
+{
+ "id": "c8-d1-1-1",
+ "scene": "Your coin triggers dazzling fountains, revealing three exotic transit stations beyond.",
+ "options": [
+  "Board gondola drone",
+  "Ride hover metro",
+  "Take hover bus"
+ ],
+ "next": [
+  "c8-d3",
+  "c8-d0",
+  "c8-d2"
+ ],
+ "picture": "Flat side view. Along the piazza ground, a silver-haired grandmother in a pink tracksuit holds her white dog's lead beside the spouting fountain. On the far left, a gondola drone waits at a pier. Up high sits an elevated glass hover metro. On the far right idles a red double-decker hover bus.",
+ "shown": [
+  "a sleek canal gondola drone bobbing at a low dock on the far left",
+  "a gleaming glass hover metro pod waiting at an elevated track up high",
+  "a tall red double-decker hover bus idling at the curb on the far right"
+ ],
+ "view": "wide"
+}

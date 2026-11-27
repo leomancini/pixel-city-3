@@ -1,0 +1,21 @@
+{
+ "id": "c6-d3-2-2",
+ "scene": "The spun spindle clicks, unlocking three departures across the echoing vault.",
+ "options": [
+  "Take service elevator",
+  "Board rowing boat",
+  "Catch night tram"
+ ],
+ "next": [
+  "c6-d1",
+  "c6-d2",
+  "c6-d0"
+ ],
+ "picture": "Side-scrolling view of a neon cavern floor. On the far left stands a metal service elevator with open mesh gates. Left of centre stands the boy in his denim jacket and camera, facing forward. In the centre, a wooden rowing boat bobs at a canal dock. On the far right waits a yellow night tram.",
+ "shown": [
+  "a metal service elevator with open mesh doors on the far left",
+  "a wooden rowing boat bobbing in a canal basin at the centre",
+  "a glowing yellow night tram parked on rails at the far right"
+ ],
+ "view": "wide"
+}

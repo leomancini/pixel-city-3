@@ -1,0 +1,21 @@
+{
+ "id": "c8-d0-1",
+ "scene": "The musical automaton dispenses a glowing brass key with cheerful musical chimes.",
+ "options": [
+  "Take brass key",
+  "Pet tiny dog",
+  "Climb iron stairs"
+ ],
+ "next": [
+  "c8-d0-1-0",
+  "c8-d0-1-1",
+  "c8-d0-1-2"
+ ],
+ "picture": "A flat side view along the rooftop platform. On the far left, a mechanical accordion automaton sits with a glowing brass key in its outstretched palm. In the centre, the grandmother in pink tracksuit stands holding her small white dog on a lead. On the far right, an open spiral staircase winds upward.",
+ "shown": [
+  "a glowing brass key resting in the automaton's open palm on the left",
+  "the small white dog sitting on the lead in the centre",
+  "the open spiral staircase winding upward at the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c5-d1-0",
+ "scene": "You enter the comic shop, surrounded by colourful stacks and curious gadgets.",
+ "options": [
+  "Read vintage comic",
+  "Play arcade cabinet",
+  "Open back door"
+ ],
+ "next": [
+  "c5-d1-0-0",
+  "c5-d1-0-1",
+  "c5-d1-0-2"
+ ],
+ "picture": "Flat pixel-art side view inside a brightly lit comic shop. On the far left, an open vintage comic rests on a glass counter. Left of centre stands the boy in his green striped shirt holding his skateboard. On the right, a closed purple wooden door stands beside a flashing arcade cabinet on the far right.",
+ "shown": [
+  "a golden superhero comic resting open on the glass counter on the far left",
+  "a glowing retro game cabinet with flashing buttons on the far right",
+  "a heavy purple wooden door shut tight on the right"
+ ],
+ "view": "wide"
+}

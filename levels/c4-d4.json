@@ -1,0 +1,21 @@
+{
+ "id": "c4-d4",
+ "scene": "You step from the wooden gondola into fragrant terraced tea gardens.",
+ "options": [
+  "Inspect copper kettle",
+  "Enter tea pavilion",
+  "Pick green leaves"
+ ],
+ "next": [
+  "c4-d4-0",
+  "c4-d4-1",
+  "c4-d4-2"
+ ],
+ "picture": "Flat side view along a stone terrace. On the far left, a wicker garden gondola rests beside a steaming copper kettle on hot coals. The player in lilac headscarf and mustard coat stands left of centre. At centre stands a red tea pavilion. To the right are lush green tea bushes and stone steps.",
+ "shown": [
+  "A round copper kettle hissing over glowing charcoal on the far left",
+  "An open red pavilion doorway hung with beaded curtains at the centre",
+  "A neat row of clipped tea bushes sprouting fresh tips on the right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c2-d4-0-0",
+ "scene": "The crank unlocks three secret transit doors along the observatory wall.",
+ "options": [
+  "Board delivery truck",
+  "Take glass elevator",
+  "Ride steam train"
+ ],
+ "next": [
+  "c2-d1",
+  "c2-d2",
+  "c2-d3"
+ ],
+ "picture": "A flat side view along a level stone floor inside the planetarium. On the far left, an open bay reveals a yellow delivery truck. Left of centre sits the girl in her teal hoodie and purple wheelchair. In the centre, an illuminated glass elevator waits open. On the far right, a striped steam train sits on polished rails.",
+ "shown": [
+  "a yellow delivery truck idling by a bay door on the far left",
+  "a glowing glass elevator with doors open in the centre",
+  "a striped steam train puffing sweet smoke on the far right"
+ ],
+ "view": "wide"
+}

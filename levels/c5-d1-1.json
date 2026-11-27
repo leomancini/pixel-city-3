@@ -1,0 +1,21 @@
+{
+ "id": "c5-d1-1",
+ "scene": "You climb the iron rungs onto the brightly tiled cinema rooftop.",
+ "options": [
+  "Peer through telescope",
+  "Open skylight hatch",
+  "Board cartoon zeppelin"
+ ],
+ "next": [
+  "c5-d1-1-0",
+  "c5-d1-1-1",
+  "c5-d1-1-2"
+ ],
+ "picture": "Flat pixel-art side view along a rooftop. On the far left stands a brass telescope on a tripod. To the left sits a brick chimney. The boy with dark hair and skateboard stands centre-left beside a glowing glass skylight hatch. Up high, pennant flags flap. On the far right, a yellow zeppelin waits tethered.",
+ "shown": [
+  "A brass coin-operated telescope mounted on an iron swivel at the far left",
+  "A glowing glass skylight hatch bolted shut in the centre floor",
+  "A tiny yellow zeppelin tethered to a roof post on the far right"
+ ],
+ "view": "wide"
+}

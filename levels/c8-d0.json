@@ -1,0 +1,21 @@
+{
+ "id": "c8-d0",
+ "scene": "You step from the sleek hover metro onto a glittering zinc rooftop terrace.",
+ "options": [
+  "Taste fresh croissant",
+  "Tip musical automaton",
+  "Climb illuminated tower"
+ ],
+ "next": [
+  "c8-d0-0",
+  "c8-d0-1",
+  "c8-d0-2"
+ ],
+ "picture": "Side-scrolling view of a Parisian zinc rooftop platform under dusk skies. From left to right: a brass pastry robot holding a tray, the docked silver hover metro, the grandmother in pink tracksuit holding her white dog's lead, a seated accordion automaton, and the base of a lace-iron tower with a spiral staircase.",
+ "shown": [
+  "a gleaming brass pastry robot offering a silver tray on the far left",
+  "a seated accordion automaton wearing a beret on the right",
+  "a glowing spiral staircase leading up a lace-iron tower on the far right"
+ ],
+ "view": "wide"
+}

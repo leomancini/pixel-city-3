@@ -1,0 +1,21 @@
+{
+ "id": "c7-d0-0",
+ "scene": "A metallic weather dial ticks behind the fluttering wind socks.",
+ "options": [
+  "Turn bronze dial",
+  "Climb wooden ladder",
+  "Check tea hut"
+ ],
+ "next": [
+  "c7-d0-0-0",
+  "c7-d0-0-1",
+  "c7-d0-0-2"
+ ],
+ "picture": "A flat side view along the breezy grass ridge. Far left, the wooden chairlift station sits quiet. Left, a tall pole carries striped wind socks, with a wooden ladder leaning beside it. The boy in his orange vest and scarf stands centre, studying the ticking bronze dial. Far right, the tea hut door stands open.",
+ "shown": [
+  "a notched bronze dial mounted on the pole, centre, clicking softly",
+  "a short maintenance ladder leaning against the tall pole on the left",
+  "a wooden tea hut with its front door open on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c7-d3-2-0",
+ "scene": "The brass lens reveals distant landmarks across the sunny, shimmering city.",
+ "options": [
+  "Board reef boat",
+  "Ride chairlift up",
+  "Catch sleigh tram"
+ ],
+ "next": [
+  "c7-d2",
+  "c7-d0",
+  "c7-d1"
+ ],
+ "picture": "Through the circular brass telescope frame, three city transit points are visible side by side. On the far left, a glass-bottomed boat bobs at a sunlit pier. In the centre, a yellow hillside chairlift sways at its base station. On the far right, a red sleigh tram rests on frost rails.",
+ "shown": [
+  "a glass-bottomed tour boat moored at a wooden pier on the far left",
+  "a yellow hillside chairlift swing rocking gently at its station in the centre",
+  "a red sleigh tram waiting on polished frost rails on the far right"
+ ],
+ "view": "wide"
+}

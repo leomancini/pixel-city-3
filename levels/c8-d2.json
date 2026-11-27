@@ -1,0 +1,21 @@
+{
+ "id": "c8-d2",
+ "scene": "You step off the red hover bus into misty New Albion Clockworks.",
+ "options": [
+  "Enter call box",
+  "Greet clockwork gent",
+  "Visit tea room"
+ ],
+ "next": [
+  "c8-d2-0",
+  "c8-d2-1",
+  "c8-d2-2"
+ ],
+ "picture": "Side-scrolling street scene on wet cobbles. On the left, a floating red double-decker bus idles beside a glowing telephone box. Granny in her pink tracksuit holds her white dog's leash. At centre stands a bowler-hatted brass robot. To the right sits an umbrella stand outside an inviting tea room with glowing windows.",
+ "shown": [
+  "A glowing red telephone booth stands closed on the far left.",
+  "A brass robot in a bowler hat tips his cane at centre.",
+  "A warm tea shop door is slightly open on the far right."
+ ],
+ "view": "wide"
+}

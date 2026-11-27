@@ -1,0 +1,21 @@
+{
+ "id": "c9-d2-2",
+ "scene": "The giant cat purrs, spinning to reveal a neon secret corridor.",
+ "options": [
+  "Enter glowing corridor",
+  "Take glowing ticket",
+  "Board hovering tram"
+ ],
+ "next": [
+  "c9-d2-2-0",
+  "c9-d2-2-1",
+  "c9-d2-2-2"
+ ],
+ "picture": "Flat side-scrolling view along the glowing arcade floor. Far left sits an open hover-tram on glowing rails. Center stands the Pacific Islander man with top knot, floral shirt and ukulele. Midair at the centre flutters a golden ticket. Far right, the rotated lucky cat reveals an open doorway full of blue neon.",
+ "shown": [
+  "a doorway glowing with blue neon inside the rotated cat statue on the right",
+  "a golden ticket fluttering from the cat mouth, suspended midair at the centre",
+  "a mini hover-tram waiting with open doors on rails at the far left"
+ ],
+ "view": "wide"
+}

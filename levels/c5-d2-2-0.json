@@ -1,0 +1,21 @@
+{
+ "id": "c5-d2-2-0",
+ "scene": "Through the brass eyepiece, three busy transit hubs gleam below across town.",
+ "options": [
+  "Board paddle steamer",
+  "Take park shuttle",
+  "Catch double-decker bus"
+ ],
+ "next": [
+  "c5-d3",
+  "c5-d0",
+  "c5-d1"
+ ],
+ "picture": "Close view looking through the circular brass telescope reticle. Crosshairs divide a vibrant city panorama below. On the far left, a smoking paddle steamer bobs beside a wooden pier. In the centre sits a yellow skate-park shuttle van with open doors. On the far right, a tall red double-decker bus idles at a kerb.",
+ "shown": [
+  "A wooden riverboat dock on the far left with a smoking paddle steamer moored beside it",
+  "A bright yellow skate-park shuttle van parked at a kerb in the centre",
+  "A red double-decker bus waiting at a striped bus stop on the far right"
+ ],
+ "view": "wide"
+}

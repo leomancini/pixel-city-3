@@ -1,0 +1,21 @@
+{
+ "id": "c6-d2-0",
+ "scene": "The brass vending machine hums softly, displaying strange glowing bottled goods.",
+ "options": [
+  "Insert shiny coin",
+  "Press red dial",
+  "Pry lower hatch"
+ ],
+ "next": [
+  "c6-d2-0-0",
+  "c6-d2-0-1",
+  "c6-d2-0-2"
+ ],
+ "picture": "Close-up first-person view of the brass vending machine panel. On the far left sits an ornate coin slot. Centre rests a bright red turn dial beneath illuminated glass showing bubbling green soda. To the right, a weathered brass dispenser flap hangs partly open, revealing darkness within. Two denim cuffs frame the lower edge.",
+ "shown": [
+  "A brass coin slot on the far left, gleaming beside etched instructions.",
+  "A chunky red turn dial sitting centre, just beneath a glass display.",
+  "A bent metal dispenser door on the right, hanging slightly ajar."
+ ],
+ "view": "close"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c6-d3-0-0",
+ "scene": "The gleaming gold sleeve triggers hidden transit doors across the vault floor.",
+ "options": [
+  "Board night tram",
+  "Take service elevator",
+  "Row canal boat"
+ ],
+ "next": [
+  "c6-d0",
+  "c6-d1",
+  "c6-d2"
+ ],
+ "picture": "Side-scrolling view of a wide vault chamber. At far left stands a glowing yellow night tram. To the left, the dark-haired boy in glasses and denim jacket clutches a gold record sleeve. In the centre, an open service elevator awaits. At far right, a wooden rowing boat floats in an indoor canal.",
+ "shown": [
+  "a sleek night tram parked on tracks with open doors at far left",
+  "a metal service elevator with open lattice gates at centre",
+  "a wooden rowing boat bobbing in water at far right"
+ ],
+ "view": "wide"
+}

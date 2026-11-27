@@ -1,0 +1,21 @@
+{
+ "id": "c5-d0-2-0",
+ "scene": "The wall rolls back, revealing three transit stations waiting beyond.",
+ "options": [
+  "Board paddle steamer",
+  "Catch double-decker bus",
+  "Take rope-bridge lift"
+ ],
+ "next": [
+  "c5-d3",
+  "c5-d1",
+  "c5-d2"
+ ],
+ "picture": "Pixel art wide side view along one level pavement. The boy stands centre with his skateboard. To the far left sits a docked paddle steamer. To the left is the opened brick wall. On the right waits a red double-decker bus, and on the far right hangs a wooden rope-bridge lift platform.",
+ "shown": [
+  "a vintage paddle steamer idling at a wooden pier on the far left",
+  "a bright red double-decker bus with doors open on the right",
+  "a creaking wooden elevator platform suspended by thick ropes on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c5-d2-1-2",
+ "scene": "You shoot out the polished brass chute onto a bustling transit concourse.",
+ "options": [
+  "Board park shuttle",
+  "Catch red bus",
+  "Board paddle steamer"
+ ],
+ "next": [
+  "c5-d0",
+  "c5-d1",
+  "c5-d3"
+ ],
+ "picture": "Side view along a level wooden transit concourse. Far left sits a parked yellow skate shuttle with open sliding doors. Left stands the brass chute exit. Centre-left stands the boy holding his skateboard. Centre waits a tall red double-decker bus. Far right, a paddle steamer floats at the river gangway.",
+ "shown": [
+  "a yellow skate-park shuttle van parked with open side doors on the far left",
+  "a bright red double-decker bus waiting with its boarding doors open in the centre",
+  "a white river paddle steamer moored at a wooden gangway on the far right"
+ ],
+ "view": "wide"
+}

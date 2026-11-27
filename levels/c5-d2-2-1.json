@@ -1,0 +1,21 @@
+{
+ "id": "c5-d2-2-1",
+ "scene": "The glowing radio crackles with chatter, unlocking the busy treetop transit hub.",
+ "options": [
+  "Ride skate shuttle",
+  "Board red bus",
+  "Board paddle steamer"
+ ],
+ "next": [
+  "c5-d0",
+  "c5-d1",
+  "c5-d3"
+ ],
+ "picture": "Side view of a wide wooden transit deck among leafy branches. On the far left, a yellow rail-glider skate shuttle waits with open doors. Left of centre, the boy with dark hair and blue eyes stands holding his skateboard. In the centre, a red double-decker bus idles. On the far right, a paddle steamer docks beside a wooden ramp.",
+ "shown": [
+  "a yellow rail-glider shuttle waiting on tracks on the far left",
+  "a red double-decker bus idling by a platform in the centre",
+  "a docked wooden paddle steamer floating by a ramp on far right"
+ ],
+ "view": "wide"
+}

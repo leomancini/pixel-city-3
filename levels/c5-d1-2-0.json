@@ -1,0 +1,21 @@
+{
+ "id": "c5-d1-2-0",
+ "scene": "Clutching your new alien comic, you reach the canal transit hub.",
+ "options": [
+  "Board paddle steamer",
+  "Catch skate shuttle",
+  "Take bridge lift"
+ ],
+ "next": [
+  "c5-d3",
+  "c5-d0",
+  "c5-d2"
+ ],
+ "picture": "Pixel-art flat side view along a stone promenade. On the far left, a red paddle steamer bobs by a wooden dock. Left of centre, the boy with dark hair and red sneakers stands holding an alien comic and his skateboard. In the centre sits a yellow mini shuttle bus. On the far right hangs a rope-bridge lift cage.",
+ "shown": [
+  "a red paddle steamer idling at the wooden dock on the far left",
+  "a yellow mini shuttle bus waiting by the curb in the centre",
+  "an open cage lift attached to thick vine ropes on the far right"
+ ],
+ "view": "wide"
+}

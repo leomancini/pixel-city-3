@@ -1,0 +1,21 @@
+{
+ "id": "c7-d3-2",
+ "scene": "Wind whips your scarf atop the tether tower above the field.",
+ "options": [
+  "Peer through telescope",
+  "Wave at pilot",
+  "Slide down cable"
+ ],
+ "next": [
+  "c7-d3-2-0",
+  "c7-d3-2-1",
+  "c7-d3-2-2"
+ ],
+ "picture": "Side-view on the wooden observation platform high up. On the far left sits a brass telescope on a tripod. The lanky boy in his orange vest and scarf stands centre. To the right, a small docked blimp cabin floats level with the deck, and on the far right hangs a descending zipline cable.",
+ "shown": [
+  "A brass telescope fixed on a pivot on the far left railing.nn",
+  "A jaunty pilot in goggles sitting in an airship cabin on the right.nn",
+  "A thick steel zipline cable angling down toward the far right.nn"
+ ],
+ "view": "wide"
+}

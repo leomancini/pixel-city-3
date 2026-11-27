@@ -1,0 +1,21 @@
+{
+ "id": "c9-d1-0-2",
+ "scene": "You climb up onto a rooftop transit hub bustling with departing vessels.",
+ "options": [
+  "Board solar junk",
+  "Ride dragon train",
+  "Catch bullet train"
+ ],
+ "next": [
+  "c9-d3",
+  "c9-d0",
+  "c9-d2"
+ ],
+ "picture": "Flat side view along a high rooftop platform. On the left, a wooden solar-sail junk sits moored with unfurled sails. Left-centre, the player stands with his ukulele and top knot. Up high runs an elevated rail with a maglev dragon train. On the right, a streamlined pink bullet train waits with open doors beside turnstiles.",
+ "shown": [
+  "A docked solar-sail junk tied to a wooden mooring post on the left",
+  "A coiled maglev dragon train waiting on glowing rails up high",
+  "A sleek pink bullet train idling by a metal turnstile on the right"
+ ],
+ "view": "wide"
+}

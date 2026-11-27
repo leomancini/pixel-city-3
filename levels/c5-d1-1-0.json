@@ -1,0 +1,21 @@
+{
+ "id": "c5-d1-1-0",
+ "scene": "Through the brass telescope, distant whimsical districts of Pixel City come into view.",
+ "options": [
+  "Ride treehouse lift",
+  "Board paddle steamer",
+  "Catch skate shuttle"
+ ],
+ "next": [
+  "c5-d2",
+  "c5-d3",
+  "c5-d0"
+ ],
+ "picture": "A circular first-person telescope view with brass rim and crosshairs. On the far left, a creaky rope-bridge lift basket hangs ready by giant branches. In the centre sits a steaming paddle steamer moored at a brightly lit pier. On the right, a ramped skate-park shuttle van idles with its passenger doors open.",
+ "shown": [
+  "A wooden rope-bridge lift basket hangs suspended on the far left",
+  "A colourful paddle steamer with spinning wheel floats docked in the centre",
+  "A neon-striped skate-park shuttle van parked waiting on the right"
+ ],
+ "view": "wide"
+}

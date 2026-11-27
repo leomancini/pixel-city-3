@@ -1,0 +1,21 @@
+{
+ "id": "c4-d4-2",
+ "scene": "A shimmering silver key drops from the rustling leaves into your palm.",
+ "options": [
+  "Unlock garden chest",
+  "Enter tea pavilion",
+  "Climb stone steps"
+ ],
+ "next": [
+  "c4-d4-2-0",
+  "c4-d4-2-1",
+  "c4-d4-2-2"
+ ],
+ "picture": "Flat side view along the stone terrace. On the left sits a mossy wooden chest with a keyhole. Left of centre stands the red tea pavilion with an open doorway. Right of centre, the woman in lilac headscarf and mustard coat examines a silver key by pruned bushes. Stone steps climb right.",
+ "shown": [
+  "a mossy wooden chest with a silver keyhole on the left",
+  "the open doorway of the red wooden tea pavilion at centre",
+  "steep mossy stone steps winding upward on the far right"
+ ],
+ "view": "wide"
+}

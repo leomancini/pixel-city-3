@@ -1,0 +1,21 @@
+{
+ "id": "c5-d2-2",
+ "scene": "You climb up into an airy treetop observatory full of brass gadgets.",
+ "options": [
+  "Peer through telescope",
+  "Turn radio dials",
+  "Board pedal copter"
+ ],
+ "next": [
+  "c5-d2-2-0",
+  "c5-d2-2-1",
+  "c5-d2-2-2"
+ ],
+ "picture": "Side view of a level wooden observatory floor up high among leafy branches. On far left stands a brass telescope aimed outward. Centre left, the dark-haired boy in green stripes holds his skateboard near a humming vacuum-tube radio on a desk. On the right, a pedal-powered wicker helicopter rests on a launchpad.",
+ "shown": [
+  "A large brass telescope mounted on a tripod sits on the far left.",
+  "A glowing vacuum-tube radio hums softly on a table at the centre.",
+  "A pedal-powered wicker helicopter rests on an open launchpad on far right."
+ ],
+ "view": "wide"
+}

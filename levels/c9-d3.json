@@ -1,0 +1,21 @@
+{
+ "id": "c9-d3",
+ "scene": "You step onto the wooden pier of glowing Jade Junk Harbour.",
+ "options": [
+  "Board tea barge",
+  "Climb pagoda lighthouse",
+  "Inspect dock automaton"
+ ],
+ "next": [
+  "c9-d3-0",
+  "c9-d3-1",
+  "c9-d3-2"
+ ],
+ "picture": "Side-scrolling view along a level wooden dock above green water. Far left, the glowing solar-sail junk and a roofed tea barge float tied up. Left of centre stands the top-knotted player in floral shirt with his ukulele. Right of centre stands a brass dockworker automaton. Far right stands a tall pagoda lighthouse with red balconies.",
+ "shown": [
+  "a roofed tea barge bobbing on the green water on the far left",
+  "a tall red pagoda lighthouse with a spiral stair on the far right",
+  "a brass robotic dockworker holding coiled rope to the right of centre"
+ ],
+ "view": "wide"
+}

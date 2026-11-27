@@ -1,0 +1,21 @@
+{
+ "id": "c7-d3-0",
+ "scene": "An old weaver weaves humming copper reeds into a bell-shaped basket.",
+ "options": [
+  "Pluck copper reed",
+  "Examine weaver's map",
+  "Climb tether tower"
+ ],
+ "next": [
+  "c7-d3-0-0",
+  "c7-d3-0-1",
+  "c7-d3-0-2"
+ ],
+ "picture": "Flat side-view along sunny turf. On the far left, a bundle of shining reeds rests beside the cross-legged weaver. Left of centre, the boy in orange vest and scarf watches her work. At centre sits an unfolded parchment map pinned to a stand. On the far right stands a tall wooden mooring tower with ladder.",
+ "shown": [
+  "A bundle of stiff copper reeds sticking out on the far left",
+  "An unfolded parchment map pegged to a wicker stand on the centre",
+  "A wooden ladder leading up a tall mooring tower on the far right"
+ ],
+ "view": "wide"
+}

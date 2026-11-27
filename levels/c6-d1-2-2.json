@@ -1,0 +1,21 @@
+{
+ "id": "c6-d1-2-2",
+ "scene": "Lowering the lens, the greenhouse glow reveals three distinct transit portals below.",
+ "options": [
+  "Row canal boat",
+  "Take freight lift",
+  "Board night tram"
+ ],
+ "next": [
+  "c6-d2",
+  "c6-d3",
+  "c6-d0"
+ ],
+ "picture": "Flat side view on a wide rooftop deck. On the far left, a wooden rowing boat floats in a canal spur. Left of centre, an open cage freight lift sits waiting. In the centre, the boy with curly dark hair and camera steps away from the telescope. On the far right, a yellow night tram waits.",
+ "shown": [
+  "a wooden rowing boat moored at a canal dock on the far left",
+  "a clunky industrial freight lift with open lattice gates on the left",
+  "a glowing yellow night tram parked along tracks on the far right"
+ ],
+ "view": "wide"
+}

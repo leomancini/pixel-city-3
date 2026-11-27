@@ -1,0 +1,21 @@
+{
+ "id": "c9-d1-2",
+ "scene": "A neon hologram carp leaps over glowing synth lilypads before you.",
+ "options": [
+  "Play your ukulele",
+  "Toss digital coin",
+  "Cross rope bridge"
+ ],
+ "next": [
+  "c9-d1-2-0",
+  "c9-d1-2-1",
+  "c9-d1-2-2"
+ ],
+ "picture": "A flat side view of the wooden boardwalk. Far left, the open cable pod rests quietly. Left, a glowing neon stage beams a giant pixel carp mid-leap. Centre, the Pacific Islander player in floral shirt and sandals faces right holding his ukulele. Right sits a glowing tip box. Far right, a rope bridge sways.",
+ "shown": [
+  "the top knot player at centre holding his wooden ukulele ready",
+  "a glowing tip box on the stage floor on the right",
+  "a swaying rope suspension bridge leading off on the far right"
+ ],
+ "view": "wide"
+}

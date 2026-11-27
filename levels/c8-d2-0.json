@@ -1,0 +1,21 @@
+{
+ "id": "c8-d2-0",
+ "scene": "Inside the glowing booth, a whirring rotary dial buzzes with static.",
+ "options": [
+  "Lift receiver",
+  "Turn rotary dial",
+  "Insert copper coin"
+ ],
+ "next": [
+  "c8-d2-0-0",
+  "c8-d2-0-1",
+  "c8-d2-0-2"
+ ],
+ "picture": "First-person close-up inside the red booth looking at an ornate brass payphone unit mounted to wood panelling. On the left hangs a heavy bakelite handset on chrome prongs. In the centre sits a glowing mechanical rotary wheel. On the right, a narrow coin chute waits beside a loose copper token.",
+ "shown": [
+  "a heavy black bakelite telephone receiver resting in its cradle on the left",
+  "a gleaming brass rotary dial with glowing numerals in the centre",
+  "a coin slot above a loose copper token lying on the right"
+ ],
+ "view": "close"
+}

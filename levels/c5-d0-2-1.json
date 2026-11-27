@@ -1,0 +1,21 @@
+{
+ "id": "c5-d0-2-1",
+ "scene": "The loosened brick reveals three transit tokens as gates slide open.",
+ "options": [
+  "Board double-decker bus",
+  "Take rope-bridge lift",
+  "Board paddle steamer"
+ ],
+ "next": [
+  "c5-d1",
+  "c5-d2",
+  "c5-d3"
+ ],
+ "picture": "Pixel art wide side view along a stone pavement. Far left sits a red double-decker bus. Left of centre, the boy stands holding his skateboard beside the mural wall with an open cubby. Up high hangs an open wooden rope-bridge lift with a lever. Far right, a paddle steamer waits at a canal dock.",
+ "shown": [
+  "a red double-decker bus idling with doors open on the far left",
+  "a wooden cage lift hanging from thick ropes up high",
+  "a docked paddle steamer bobbing with its gangplank lowered on the far right"
+ ],
+ "view": "wide"
+}

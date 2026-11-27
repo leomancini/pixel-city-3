@@ -1,0 +1,21 @@
+{
+ "id": "c8-d2-0-2",
+ "scene": "The telephone box folding door springs open onto a bustling transport platform.",
+ "options": [
+  "Board gondola drone",
+  "Ride hover metro",
+  "Rent flying scooter"
+ ],
+ "next": [
+  "c8-d3",
+  "c8-d0",
+  "c8-d1"
+ ],
+ "picture": "A flat side view along a stone platform. On the left, a striped drone gondola hovers by mooring ropes. The grandmother in her pink tracksuit stands outside the open booth near the centre beside her white dog, while a blue hover metro idles behind her. Far right, a yellow winged scooter rests on kickstands.",
+ "shown": [
+  "a striped drone gondola floating on the far left by the railing",
+  "a sleek hover metro train resting on the track at the centre",
+  "a winged yellow flying scooter parked on a stand at the far right"
+ ],
+ "view": "wide"
+}

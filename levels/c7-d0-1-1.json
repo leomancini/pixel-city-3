@@ -1,0 +1,21 @@
+{
+ "id": "c7-d0-1-1",
+ "scene": "The illustrated map reveals three routes leading far away from Kite Hill.",
+ "options": [
+  "Board hot-air balloon",
+  "Ride sleigh tram",
+  "Board glass boat"
+ ],
+ "next": [
+  "c7-d3",
+  "c7-d1",
+  "c7-d2"
+ ],
+ "picture": "A flat side view along the wooden hut platform open to the world. Left, a yellow wicker hot-air balloon floats ready. The lanky boy in his orange puffer vest and kite stands centre-left facing right. Centre, a red sleigh tram rests on runners. Far right, a glass-bottomed boat bobs at a wooden gate.",
+ "shown": [
+  "a yellow wicker balloon basket tethered outside the open window on the left",
+  "a frost-covered sleigh tram parked by the middle doorway",
+  "a bright blue glass-bottomed boat moored at the far right pier gate"
+ ],
+ "view": "wide"
+}

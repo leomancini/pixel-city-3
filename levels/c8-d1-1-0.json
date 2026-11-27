@@ -1,0 +1,21 @@
+{
+ "id": "c8-d1-1-0",
+ "scene": "The scooped-up carp spits three transit tokens across sunny Piazza Nova.",
+ "options": [
+  "Board hover bus",
+  "Summon gondola drone",
+  "Enter hover metro"
+ ],
+ "next": [
+  "c8-d2",
+  "c8-d3",
+  "c8-d0"
+ ],
+ "picture": "In side view along the piazza stones, a red double-decker hover bus idles far left. Centre, the silver-haired grandmother holds a dripping brass carp beside the stone fountain while her white dog watches. To the right floats a yellow gondola drone, and far right stands a glowing chrome hover metro turnstile.",
+ "shown": [
+  "a red double-decker hover bus waiting with open doors on the far left",
+  "a yellow gondola drone moored beside a mooring post on the right",
+  "a gleaming chrome hover metro turnstile standing open on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c6-d3-0",
+ "scene": "You flip through colorful album sleeves inside the dusty wooden crate.",
+ "options": [
+  "Pull gold sleeve",
+  "Inspect robot diagram",
+  "Grab brass key"
+ ],
+ "next": [
+  "c6-d3-0-0",
+  "c6-d3-0-1",
+  "c6-d3-0-2"
+ ],
+ "picture": "First-person close-up view looking down into the open wooden crate. On the left, albums lean forward, revealing a gleaming gold sleeve with star patterns. In the centre, a technical robot diagram is taped to the inner lid. On the right, a notched brass key rests on the edge.",
+ "shown": [
+  "a shining gold record sleeve poking up on the left",
+  "a printed schematic taped inside the lid in the centre",
+  "a small brass key tucked on the right ledge"
+ ],
+ "view": "close"
+}

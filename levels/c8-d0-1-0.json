@@ -1,0 +1,21 @@
+{
+ "id": "c8-d0-1-0",
+ "scene": "The brass key activates a skyway terminal buzzing with departing vehicles.",
+ "options": [
+  "Board hover bus",
+  "Ride gondola drone",
+  "Mount flying scooter"
+ ],
+ "next": [
+  "c8-d2",
+  "c8-d3",
+  "c8-d1"
+ ],
+ "picture": "A flat side view of an expansive rooftop depot. On the far left, a red double-decker hover bus waits with doors open. In the left-centre, the grandmother in pink tracksuit holds her brass key and leash. In the centre, an ornate gondola drone floats beside the platform. On the far right, a shiny turquoise flying scooter rests on kickstands.",
+ "shown": [
+  "A red double-decker hover bus idling at the curb on the far left",
+  "A striped gondola slung beneath an octocopter drone hovering in the centre",
+  "A turquoise flying scooter parked by a sky-rail on the far right"
+ ],
+ "view": "wide"
+}

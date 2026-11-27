@@ -1,0 +1,21 @@
+{
+ "id": "c9-d1-2-0",
+ "scene": "Your ukulele chords summon three departure docks, glowing along the sky boardwalk.",
+ "options": [
+  "Board solar junk",
+  "Ride dragon train",
+  "Catch bullet train"
+ ],
+ "next": [
+  "c9-d3",
+  "c9-d0",
+  "c9-d2"
+ ],
+ "picture": "A flat side view along a wide wooden boardwalk. Far left, the player in a floral shirt holds his ukulele. Left, a wooden solar-sail junk floats at a low mooring. Centre, a serpentine maglev dragon train hums beside a post. Right, a shiny pink bullet train rests on magnetic rails. Far right, glowing destination signs.",
+ "shown": [
+  "a moored solar-sail junk with shimmering golden canvas panels, docked on the left",
+  "a maglev dragon train head idling beside a ticket gate, at the centre",
+  "a sleek pink bullet train with open slide doors, waiting on the right"
+ ],
+ "view": "wide"
+}

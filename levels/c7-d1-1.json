@@ -1,0 +1,21 @@
+{
+ "id": "c7-d1-1",
+ "scene": "The wound key clicks, spinning miniature clockwork dancers inside a frozen fountain.",
+ "options": [
+  "Catch brass ballerina",
+  "Enter glowing workshop",
+  "Board glass cart"
+ ],
+ "next": [
+  "c7-d1-1-0",
+  "c7-d1-1-1",
+  "c7-d1-1-2"
+ ],
+ "picture": "Pixel art flat side-scrolling view along the snowy street. Left, an open workshop door spills golden light. Left-centre, the lanky boy in his orange puffer vest and kite stands facing right. Centre, a frosty stone fountain whirs with spinning brass clockwork dancers. Far right, the horse-drawn glass-domed cart sits parked on the cobbles.",
+ "shown": [
+  "a tiny brass ballerina twirling atop the frozen fountain in the centre",
+  "an arched wooden door with bright yellow light spilling out on the left",
+  "a wheeled cart covered by a large clear glass dome on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c4-d4-1-2",
+ "scene": "Sliding the screen open reveals a bustling riverside transit terrace outside.",
+ "options": [
+  "Board river barge",
+  "Catch glass trolley",
+  "Take spiral lift"
+ ],
+ "next": [
+  "c4-d0",
+  "c4-d1",
+  "c4-d2"
+ ],
+ "picture": "Flat side view along an open stone terrace. On the far left, a striped river barge bobs beside low wooden pilings. The player in mustard coat and lilac scarf stands left of centre, exiting the open bamboo screen doorway. Right of centre waits a red glass-roofed trolley on metal tracks. At far right rises an iron spiral lift.",
+ "shown": [
+  "a low flat river barge moored at a dock on the far left",
+  "a bright glass-roofed trolley stopped on rails right of centre",
+  "an ornate open-caged spiral lift waiting at far right"
+ ],
+ "view": "wide"
+}

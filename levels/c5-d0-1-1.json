@@ -1,0 +1,21 @@
+{
+ "id": "c5-d0-1-1",
+ "scene": "Beside the sauce dispensers, travel pamphlets flutter next to three waiting departures.",
+ "options": [
+  "Board paddle steamer",
+  "Catch double-decker bus",
+  "Ride rope lift"
+ ],
+ "next": [
+  "c5-d3",
+  "c5-d1",
+  "c5-d2"
+ ],
+ "picture": "Pixel art flat side view. On the far left, a paddle steamer floats at a wooden pier. Centre-left, the boy with dark hair and blue eyes stands by the stainless condiment bar holding his skateboard. In the centre sits a red double-decker bus. On the right, an open wooden rope-bridge lift basket hangs ready.",
+ "shown": [
+  "a paddle steamer docked at a wooden pier on the far left",
+  "a bright red double-decker bus idling by a curb in the centre",
+  "a wooden rope-bridge lift basket swinging by a pole on the right"
+ ],
+ "view": "wide"
+}

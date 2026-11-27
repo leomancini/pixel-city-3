@@ -1,0 +1,21 @@
+{
+ "id": "c6-d0-0",
+ "scene": "Inside the crimson tent, chemical trays steam beneath a glowing amber lamp.",
+ "options": [
+  "Inspect development tray",
+  "Talk to chemist",
+  "Check curtained exit"
+ ],
+ "next": [
+  "c6-d0-0-0",
+  "c6-d0-0-1",
+  "c6-d0-0-2"
+ ],
+ "picture": "A flat side-view inside a darkroom tent lined on level ground. Left, a wooden table holds a shallow chemical tray under an amber lamp. The curly-haired boy in a denim jacket stands right of center. Center stands a masked chemist holding tongs. Far right shows a heavy curtained exit slit.",
+ "shown": [
+  "a shallow plastic tray bubbling with silver chemical liquid on the left",
+  "a masked chemist holding glass tongs standing silently in the centre",
+  "a slit curtain draped with thick velvet fabric on the far right"
+ ],
+ "view": "wide"
+}

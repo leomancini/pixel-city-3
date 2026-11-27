@@ -1,0 +1,21 @@
+{
+ "id": "c2-d4-0-2",
+ "scene": "The glowing turquoise console unlocks three transit bay doors side by side.",
+ "options": [
+  "Board steam train",
+  "Board sky airship",
+  "Climb inside truck"
+ ],
+ "next": [
+  "c2-d3",
+  "c2-d0",
+  "c2-d1"
+ ],
+ "picture": "A flat side view inside the grand planetarium exit concourse along a level marble floor. In the left-centre, the girl in her teal hoodie sits in her purple wheelchair beside the console. On the far left waits a steam train. In the centre, an airship floats. On the far right sits a delivery truck.",
+ "shown": [
+  "a brass-trimmed steam train puffing sweet peppermint smoke at the far left bay",
+  "a moored striped airship rocking gently at the middle bay gate, centre",
+  "a yellow robotic delivery truck with its cargo ramp lowered, far right"
+ ],
+ "view": "wide"
+}

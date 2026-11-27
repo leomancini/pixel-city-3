@@ -1,0 +1,21 @@
+{
+ "id": "c8-d3-0",
+ "scene": "You examine the glowing glass stall, mesmerized by warm handcrafted wonders.",
+ "options": [
+  "Blow glass pipe",
+  "Buy glass bird",
+  "Talk to artisan"
+ ],
+ "next": [
+  "c8-d3-0-0",
+  "c8-d3-0-1",
+  "c8-d3-0-2"
+ ],
+ "picture": "Flat side-scrolling view of the warm stall interior. On the far left, a metal blowing pipe sits idle on a rack. Left-centre stands the silver-haired grandmother in her pink tracksuit with her white dog. Centre, a glass bluebird glitters on display. On the right, the artisan warms tongs above glowing coals.",
+ "shown": [
+  "A long metal blowing pipe resting on a wooden rack, far left.",
+  "A sparkling blown-glass bluebird gleaming on a velvet stand, centre.",
+  "A soot-cheeked glassblower holding tongs over a glowing brazier, right."
+ ],
+ "view": "wide"
+}

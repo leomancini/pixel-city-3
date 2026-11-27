@@ -1,0 +1,21 @@
+{
+ "id": "c9-d0-0-2",
+ "scene": "The cart rolls to a multi-level transit terminal overlooking new horizons.",
+ "options": [
+  "Board solar junk",
+  "Enter cable pod",
+  "Catch bullet train"
+ ],
+ "next": [
+  "c9-d3",
+  "c9-d1",
+  "c9-d2"
+ ],
+ "picture": "Flat side-scrolling view of a bustling terminal platform. Far left, a solar junk bobs beside a wooden dock. Left of centre, the broad-shouldered Pacific Islander man steps out of his cargo cart with his ukulele. Up high centre, a round cable pod hovers on cables. Far right, a sleek pink bullet train awaits passengers.",
+ "shown": [
+  "a sleek junk with glowing green solar sails moored at the pier, far left",
+  "a glass cable pod swinging gently from an overhead line, up high centre",
+  "a pink high-speed bullet train waiting at a platform with open doors, far right"
+ ],
+ "view": "wide"
+}

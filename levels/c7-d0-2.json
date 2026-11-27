@@ -1,0 +1,21 @@
+{
+ "id": "c7-d0-2",
+ "scene": "The kite flyer points out a tangled ribbon trailing behind her dragon.",
+ "options": [
+  "Untangle gold ribbon",
+  "Look through telescope",
+  "Enter tea hut"
+ ],
+ "next": [
+  "c7-d0-2-0",
+  "c7-d0-2-1",
+  "c7-d0-2-2"
+ ],
+ "picture": "A flat side view of the grassy ridge. On the far left sits a mounted brass telescope. The boy in an orange puffer vest and kite stands left. In the centre, the girl holds a spool connected to a tangled gold ribbon on her line. Far right stands a cozy wooden tea hut with open door.",
+ "shown": [
+  "a tangled shimmering gold ribbon caught on the girl's kite string in the centre",
+  "a mounted brass hilltop telescope pointed down towards the city on the far left",
+  "a rustic wooden tea hut with steam curling from its open door on the far right"
+ ],
+ "view": "wide"
+}

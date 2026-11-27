@@ -1,0 +1,21 @@
+{
+ "id": "c9-d3-1-0",
+ "scene": "Through the telescope lens, three distant transport stations gleam across the bay.",
+ "options": [
+  "Board cloud pod",
+  "Catch bullet train",
+  "Ride dragon train"
+ ],
+ "next": [
+  "c9-d1",
+  "c9-d2",
+  "c9-d0"
+ ],
+ "picture": "First-person circular view through brass telescope crosshairs. Far left, a wicker cloud cable pod rocks gently beside a mast. Centre, an illuminated streamlined bullet train rests along a neon platform. Right, a sinuous green maglev dragon train hums silently above an elevated rail, ready for departure.",
+ "shown": [
+  "A wicker cloud cable pod docked at a wooden pylon on the left",
+  "A sleek silver bullet train halted at a glass terminal in the centre",
+  "A glowing maglev dragon train waiting beside a curved neon platform on the right"
+ ],
+ "view": "wide"
+}

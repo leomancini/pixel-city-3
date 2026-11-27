@@ -1,0 +1,21 @@
+{
+ "id": "c6-d3-2-1",
+ "scene": "The label's secret coordinates unlock three exit tunnels in the vault wall.",
+ "options": [
+  "Board night tram",
+  "Take service elevator",
+  "Row wooden boat"
+ ],
+ "next": [
+  "c6-d0",
+  "c6-d1",
+  "c6-d2"
+ ],
+ "picture": "A side-scrolling pixel art cross-section of the vault perimeter. Far left, a purple night tram idle on glowing tracks. Left of centre, the boy with dark curly hair and camera holds the disc. Centre, an open steel elevator cage. Far right, a wooden rowing boat bobs in a canal.",
+ "shown": [
+  "a sleek purple night tram waiting open at a platform on the far left",
+  "an open steel service elevator cage with lit floor buttons at the centre",
+  "a wooden rowing boat bobbing in a glowing water sluice on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c9-d3-0-1",
+ "scene": "The waking cat purrs, batting open three magical departure gates ashore.",
+ "options": [
+  "Board cloud pod",
+  "Ride bullet train",
+  "Catch dragon train"
+ ],
+ "next": [
+  "c9-d1",
+  "c9-d2",
+  "c9-d0"
+ ],
+ "picture": "Side-scrolling view along the harbour platform ground line. Far left hangs a round wicker cloud pod with open doors. Left stands the cat purring beside the Pacific Islander man with his ukulele. Centre waits a sleek pink bullet train. Far right coils a glowing maglev dragon train ready at the rail line.",
+ "shown": [
+  "A round wicker cable pod suspended from glowing ropes on the far left",
+  "A sleek, aerodynamic pink bullet train idling on tracks in the centre",
+  "A glowing serpentine maglev dragon train waiting patiently at the far right"
+ ],
+ "view": "wide"
+}

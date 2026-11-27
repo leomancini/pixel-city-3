@@ -1,0 +1,21 @@
+{
+ "id": "c9-d1-1-1",
+ "scene": "Inside the ornate dragon gondola, transit route portals glow before you.",
+ "options": [
+  "Board solar junk",
+  "Take dragon train",
+  "Ride bullet train"
+ ],
+ "next": [
+  "c9-d3",
+  "c9-d0",
+  "c9-d2"
+ ],
+ "picture": "Flat side view along red-lacquered boat decking. Far left sits a brass solar console. Left, the broad Pacific Islander holds skewers and ukulele beside velvet seats. Centre stands a glowing maglev turnstile gate. Right, silk lanterns hang overhead, and far right awaits an open pink bullet train hatch.",
+ "shown": [
+  "a golden junk ticket slot on a brass console, far left",
+  "a glowing maglev turnstile gate humming with green neon, centre",
+  "a sleek pink transit hatch waiting open, far right"
+ ],
+ "view": "wide"
+}

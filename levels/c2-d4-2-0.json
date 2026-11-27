@@ -1,0 +1,21 @@
+{
+ "id": "c2-d4-2-0",
+ "scene": "Three transit gates slide open beneath the gleaming planetarium dome.",
+ "options": [
+  "Board steam train",
+  "Board the airship",
+  "Take delivery truck"
+ ],
+ "next": [
+  "c2-d3",
+  "c2-d0",
+  "c2-d1"
+ ],
+ "picture": "A flat side view along the planetarium concourse. On the left, a striped candy-colored steam train idles. Beside it sits the girl with a braid in her purple wheelchair. In the centre, an open portal reveals a tethered brass airship. On the right, a yellow delivery truck waits with its cab door open.",
+ "shown": [
+  "a striped steam train waiting by an open gate on the left",
+  "a tethered brass airship floating past the open centre portal",
+  "a yellow delivery truck parked beside an open shutter on the right"
+ ],
+ "view": "wide"
+}

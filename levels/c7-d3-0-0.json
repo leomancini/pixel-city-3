@@ -1,0 +1,21 @@
+{
+ "id": "c7-d3-0-0",
+ "scene": "The reed chimes loudly, unlocking three travel gates along the breezy meadow.",
+ "options": [
+  "Ride hillside chairlift",
+  "Board sleigh tram",
+  "Take glass boat"
+ ],
+ "next": [
+  "c7-d0",
+  "c7-d1",
+  "c7-d2"
+ ],
+ "picture": "Flat side-view along sunny meadow turf. The boy holds a chiming copper reed left of centre. On the far left hangs an empty yellow hillside chairlift. Centre features a docked red sleigh tram on frosted rails. To the right, a glass-bottomed boat bobs at a pier, under bright open skies.",
+ "shown": [
+  "A swinging yellow chairlift bench hangs waiting at a station on the left.",
+  "A red runnered sleigh tram rests on frosty wooden rails at the centre.",
+  "A green glass-bottomed launch floats tied to a low wooden pier on the right."
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c6-d0-1-2",
+ "scene": "The archway opens into a misty transit hall beneath the bazaar.",
+ "options": [
+  "Ride service elevator",
+  "Row wooden boat",
+  "Take freight lift"
+ ],
+ "next": [
+  "c6-d1",
+  "c6-d2",
+  "c6-d3"
+ ],
+ "picture": "A flat side-view along a stone transit platform. Far left, an open metal service elevator glows orange. Left, the curly-haired boy in his denim jacket walks beside a canal edge. Centre, glowing water laps against mossy tiles. Right, a wooden rowing boat floats at an iron mooring ring. Far right, a freight lift waits.",
+ "shown": [
+  "a metal service elevator with open lattice doors on the far left",
+  "a small wooden rowing boat tied to a dock on the right",
+  "a heavy industrial freight lift with yellow striped gates on the far right"
+ ],
+ "view": "wide"
+}

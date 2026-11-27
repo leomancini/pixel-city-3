@@ -1,0 +1,21 @@
+{
+ "id": "c6-d0-0-0",
+ "scene": "The photo develops, showing three secret exits out of the dark bazaar.",
+ "options": [
+  "Ride service elevator",
+  "Board rowing boat",
+  "Take freight lift"
+ ],
+ "next": [
+  "c6-d1",
+  "c6-d2",
+  "c6-d3"
+ ],
+ "picture": "A flat side view along level ground inside the expanded tent workshop. Far left stands a grated service elevator with open doors. Center, the curly-haired boy in a denim jacket and glasses holds a freshly developed photo. Right, a wooden rowing boat floats in an indoor canal. Far right sits a glowing freight lift.",
+ "shown": [
+  "A clanking iron service elevator gate standing open on the far left wall.",
+  "A green wooden rowing boat moored at an indoor canal canal on the right.",
+  "A heavy metal freight lift with glowing down arrows at the far right."
+ ],
+ "view": "wide"
+}

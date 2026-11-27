@@ -1,0 +1,21 @@
+{
+ "id": "c5-d1-0-0",
+ "scene": "The vintage comic reveals a glowing map pointing to three city exits.",
+ "options": [
+  "Board skate shuttle",
+  "Take rope lift",
+  "Ride paddle steamer"
+ ],
+ "next": [
+  "c5-d0",
+  "c5-d2",
+  "c5-d3"
+ ],
+ "picture": "Flat pixel-art side view through the shop's open back exit. On the far left, a yellow skate-park shuttle idles with doors open. Left of centre, the boy stands holding his skateboard. In the centre, a wooden rope-bridge lift basket hangs ready. On the far right, a paddle steamer bobs at a dock.",
+ "shown": [
+  "a sleek skate-park shuttle idling with open doors on the far left",
+  "a wooden rope-bridge lift platform hanging ready in the centre",
+  "a small whistle-blowing paddle steamer waiting at the pier on the far right"
+ ],
+ "view": "wide"
+}
