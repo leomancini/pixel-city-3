@@ -481,11 +481,11 @@
 
   // Ask the server for the level that follows `prompt`, and decode its image
   // up front so showing it later is instant.
-  async function loadLevel(prompt, past, signal) {
+  async function loadLevel(prompt, past, previous, signal) {
     const res = await fetch("/api/level", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ prompt, history: past }),
+      body: JSON.stringify({ prompt, history: past, previous }),
       signal,
     });
     const data = await res.json();
@@ -498,13 +498,16 @@
 
   // Start generating the level behind every option now, so choosing one is
   // instant. Each entry remembers whether it has finished.
+  // The level on screen: sent with each request for the next one, so the new
+  // story and picture carry on from exactly what the player was looking at.
+  let current = null;
   let prefetchAbort = null;
   function prefetch(options) {
     prefetchAbort = new AbortController();
     const past = [...history];
     return options.map((text) => {
       const entry = { ready: false };
-      entry.promise = loadLevel(text, past, prefetchAbort.signal);
+      entry.promise = loadLevel(text, past, current, prefetchAbort.signal);
       entry.promise.then(() => { entry.ready = true; }, () => {});
       return entry;
     });
@@ -533,7 +536,7 @@
       setScene(level === 0 ? "Entering the city" : "Level " + (level + 1) + " loading", true);
     }
     try {
-      const data = await (ahead ? ahead.promise : loadLevel(prompt, history));
+      const data = await (ahead ? ahead.promise : loadLevel(prompt, history, current));
       // The paths not taken are no longer needed.
       prefetchAbort?.abort();
       currentImg = data.img;
@@ -541,6 +544,7 @@
       level += 1;
       history.push(`Player chose: ${prompt} Then: ${data.scene}`);
       setScene(data.scene);
+      current = { picture: data.picture, options: data.options, image: data.image };
       const next = prefetch(data.options);
       showOptions(data.options.map((text, i) => ({ label: text, action: () => play(text, next[i]) })));
       frameEl.classList.remove("loading");
