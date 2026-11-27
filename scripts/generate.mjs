@@ -4,7 +4,7 @@
 //   node scripts/generate.mjs --pilot     one level, prints token usage
 //   node scripts/generate.mjs             everything (resumes; skips what exists)
 //
-// Shape: each character has four districts. Each district is a small tree
+// Shape: each character has six districts. Each district is a small tree
 // (an arrival, three second steps, nine third steps). Every third step ends
 // with three ways to travel on, one to each of that character's other
 // districts, so a session keeps one character and never runs out of story.
@@ -60,6 +60,8 @@ const CHARACTERS = [
   "a young Chinese woman with a long black ponytail, in a red bomber jacket and white roller skates",
   "a Korean teenage boy with dyed silver hair, in a mint-green hoodie, with big headphones and a dance bag",
   "a Japanese grandfather with round glasses and a grey moustache, in a navy work apron, pushing a bicycle with a crate of plants",
+  "a Pacific Islander teenage girl with wavy black hair in a high bun, in a sky-blue windbreaker and cargo shorts, with a sketchbook under her arm",
+  "a middle-aged Black man with a short grey beard and a prosthetic leg, in a burnt-orange work jacket and a knitted beanie, carrying a red toolbox",
 ];
 
 // Four districts per character: [name, how you arrive, what it is like].
@@ -118,12 +120,56 @@ const DISTRICTS = [
    ["Bathhouse Chimney Street", "retro streetcar", "an old street under a tall bathhouse chimney, with steam pipes, wooden clogs, a milk vending robot and sleepy cats"],
    ["Bullet Train Bento Station", "bento express", "a gleaming station of bento stalls, ticket-punching robots, model trains and a clock with dancing figures"],
    ["Koi Canal Workshop", "koi-shaped boat", "a canal of glowing koi, bicycle repair sheds, paper umbrellas drying and a robot heron"]],
+  [["Mural Mile", "paint-splattered tram", "a long street of giant murals, scaffolding painters, spray-can drones and a mural that changes every hour"],
+   ["Tide Pool Terminal", "hover ferry", "a seaside terminal of glass tide pools, crab-shaped robots, surf shacks and a whale-shaped ferry"],
+   ["Volcano Garden Steps", "cog railway", "black-rock terraces of glowing ferns, steam vents, fruit stands and a sleepy volcano with a hologram smile"],
+   ["Starfish Night Market", "hover canoe", "a beach night market of string lights, grilled corn carts, shell-lantern stalls and a juggling robot"]],
+  [["Junkyard Orchestra", "scrap-metal hauler", "a yard where old machines are tuned into instruments, with a robot conductor and an organ of stacked car horns"],
+   ["Gear Bridge", "bridge crawler", "a huge bridge that slowly turns on giant gears, lined with repair stalls, tool shops and soup carts"],
+   ["Rainmaker Rooftops", "window-cleaner gondola", "rooftops of weather machines, cloud tanks, rain barrels and rainbow sprinklers"],
+   ["Lost Property Depot", "mail train", "a cavernous depot of shelves piled with lost umbrellas, hats and teddy bears, with a sorting robot"]],
 ];
 // Extra districts that are only ever starting points: nothing travels to
 // them, and their last steps travel on to the character's main four.
 DISTRICTS[0].push(["Moonlit Laundromat", "night bus", "a glowing laundromat of tumbling machines, lost socks and a sleeping cat"]);
 DISTRICTS[2].push(["Planetarium Dome", "star shuttle", "a dark dome of projected stars, model planets and reclining seats"]);
 DISTRICTS[4].push(["Tea Garden Steps", "garden gondola", "terraced tea bushes, a pavilion and kettles steaming on charcoal"]);
+// More districts, so every character has six starting points. Their endings
+// can travel to any of the character's other districts.
+const MORE_STARTS = [
+  [["Puddle Park", "rain-cloud tram", "a park of giant puddles that reflect other cities, frog fountains and umbrella-shaped shelters"]],
+  [["Chess Pavilion", "slow lift", "a garden pavilion of giant chessboards, mechanical chess players and tea-sipping spectators"],
+   ["Fountain Pen Lane", "hand-cranked trolley", "a lane of ink shops, writing robots and paper mills with sheets drying on lines"]],
+  [["Wind Turbine Racetrack", "sky gondola", "a ramped racetrack between huge wind turbines where wheelchairs, go-karts and robots race"]],
+  [["Mapmakers' Gallery", "spiral staircase lift", "a gallery of floating maps, globe-spinning robots and mapmakers at drafting tables"],
+   ["Night Bakery Street", "milk float", "a street of all-night bakeries, bread conveyor belts and pastry robots under warm windows"]],
+  [["Perfume Observatory", "brass lift", "a domed tower of glass perfume bottles, scent-mixing robots and a telescope pointed at the stars"]],
+  [["Bouncy Castle Block", "trampoline lift", "a block of giant inflatable buildings, bouncing paths and a robot lifeguard"],
+   ["Dinosaur Museum Roof", "school bus", "a museum roof where robot dinosaur skeletons walk, with fossil sandpits and a gift shop"]],
+  [["Movie Set Backlot", "golf-cart shuttle", "a film backlot of fake shopfronts, cameras on cranes, robot extras and a giant green screen"],
+   ["Hologram Billboard Alley", "scissor lift", "an alley stacked with flickering hologram billboards, sign painters and a billboard repair crew"]],
+  [["Paper Plane Airport", "propeller trolley", "a tiny rooftop airport where paper planes take off, with folding robots and a control tower"],
+   ["Frozen Pond Fair", "ice sled", "a frozen pond fair of skaters, hot chestnut carts, ice sculptures and a robot penguin band"]],
+  [["Alpine Cuckoo Village", "cog railway", "a Swiss mountain village of chalet roofs, giant cuckoo clocks, cheese-wheel conveyor belts and cowbell drones"],
+   ["Iberian Tile Gardens", "seaside hover tram", "a Spanish and Portuguese garden of blue-tiled walls, orange trees, fountains and guitar-playing robots"]],
+  [["Mooncake Lantern Bridge", "dragon boat drone", "a long arched bridge of mooncake stalls, rabbit lanterns, kite robots and a moon-shaped hologram"],
+   ["Porcelain Workshop Hill", "bamboo funicular", "a hill of blue-and-white porcelain workshops, kiln robots and giant vases used as houses"]],
+  [["Neon Mahjong Hall", "glowing tile lift", "a hall of glowing mahjong tables, tile-shuffling robots and dumpling trolleys"],
+   ["Shadow Puppet Theatre", "paper-sail rickshaw", "a theatre of giant lit screens with shadow puppets, puppeteer robots and a snack balcony"]],
+  [["Robot Taekwondo Hall", "subway pod", "a training hall of padded robot sparring partners, belt racks and a rooftop practice yard"],
+   ["Webtoon Library Cafe", "glass escalator", "a cafe stacked with glowing comic tablets, beanbags, ramen machines and drawing robots"]],
+  [["Lantern Festival Pond", "lantern raft", "a pond of floating paper lanterns, festival stalls, goldfish scooping and a robot drummer"],
+   ["Rooftop Rice Terraces", "elevator tram", "stepped rice paddies on tower rooftops, scarecrow robots, water channels and a farmers' tea hut"]],
+  [["Origami Wind Tunnel", "pneumatic tube pod", "a hall where paper birds and kites loop through wind tunnels past folding machines"],
+   ["Bubble Laboratory", "bubble lift", "a lab of giant floating bubbles, bubble-blowing machines and scientists in goggles"]],
+  [["Neon Sign Hospital", "tow truck", "a workshop where broken neon signs are mended, flickering in every colour, with glass-bending benches"],
+   ["Midnight Radio Repair", "sidecar motorbike", "a tiny shop stacked with old radios, glowing valves and a parrot-shaped robot tester"]],
+];
+// Districts made before these, per character. Their endings were written to
+// travel among the main four and are kept. Everything newer, and every
+// district of the two newest characters, travels to any other district.
+const OLD_ENDINGS = DISTRICTS.slice(0, 13).map((ds) => ds.length);
+MORE_STARTS.forEach((more, c) => DISTRICTS[c].push(...more));
 
 const storySystem = (PLAYER) => `You are the narrator of Pixel City 3.0, an endless choose-your-own-adventure game set in a sprawling, strange, lively pixel-art city.
 Given the story so far and the player's latest choice, write what happens next and offer three ways to continue.
@@ -328,10 +374,21 @@ async function build(c, d, path, parent, history) {
       // The last step of a district offers travel to the other three.
       // An extra district (4 and up) has four to pick from: leave one out, a
       // different one for each path.
-      const main = [0, 1, 2, 3].filter((x) => x !== d);
-      const others = last && main.length > 3 ? main.filter((_, i) => i !== (path[0] + path[1]) % 4) : main;
-      // Rotate so the same destination is not always the first option.
-      const order = last ? others.map((_, i) => others[(i + path[0] + path[1]) % 3]) : [];
+      let order = [];
+      if (last && OLD_ENDINGS[c] && d < OLD_ENDINGS[c]) {
+        // How the first districts were made: their endings travel among the
+        // main four. An extra one there leaves out one of the four.
+        const main = [0, 1, 2, 3].filter((x) => x !== d);
+        const others = main.length > 3 ? main.filter((_, i) => i !== (path[0] + path[1]) % 4) : main;
+        // Rotate so the same destination is not always the first option.
+        order = others.map((_, i) => others[(i + path[0] + path[1]) % 3]);
+      } else if (last) {
+        // Any of the character's other districts. Three in a row, starting at
+        // a different one for each of the nine endings, so all are reached.
+        const others = DISTRICTS[c].map((_, x) => x).filter((x) => x !== d);
+        const k = path[0] * 3 + path[1];
+        order = [0, 1, 2].map((i) => others[(k + i) % others.length]);
+      }
       const extra = last
         ? `\nThis is the last step in ${name}. Show the direct result of the player's answer, and make that result open up three ways to travel on, which are the three options, in this order:\n${order
             .map((o, i) => `${i + 1}. by ${DISTRICTS[c][o][1]} to ${DISTRICTS[c][o][0]}`)
@@ -385,12 +442,32 @@ async function levelsOf(c) {
   return ids;
 }
 
-// Only characters whose every level exists can be played.
+// The districts a character can be played in: all 13 levels exist, and every
+// ending travels to another such district.
+async function readyDistricts(c) {
+  const ids = new Set(await levelsOf(c));
+  const whole = (d) => ids.size && [[], [0], [1], [2], ...[0, 1, 2].flatMap((i) => [0, 1, 2].map((j) => [i, j]))].every((p) => ids.has(idOf(c, d, p)));
+  let ready = DISTRICTS[c].map((_, d) => d).filter(whole);
+  // Drop any district with an ending that travels somewhere not ready, until
+  // nothing changes, so no option ever leads nowhere.
+  for (let changed = true; changed;) {
+    changed = false;
+    for (const d of ready) {
+      const ends = [0, 1, 2].flatMap((i) => [0, 1, 2].map((j) => [i, j]));
+      const goes = (await Promise.all(ends.map((p) => exists(idOf(c, d, p))))).flatMap((n) => n.next);
+      if (!goes.every((id) => ready.includes(Number(id.split("-")[1].slice(1))))) {
+        ready = ready.filter((x) => x !== d);
+        changed = true;
+        break;
+      }
+    }
+  }
+  return ready;
+}
+
 async function writeIndex() {
   const starts = [];
-  for (let c = 0; c < CHARACTERS.length; c++) {
-    if ((await levelsOf(c)).length === DISTRICTS[c].length * 13) for (let d = 0; d < DISTRICTS[c].length; d++) starts.push(idOf(c, d, []));
-  }
+  for (let c = 0; c < CHARACTERS.length; c++) starts.push(...(await readyDistricts(c)).map((d) => idOf(c, d, [])));
   // Pictures are cached by browsers for a day. The pages add this number to
   // every picture address, so a rebuilt story is never shown with old pictures.
   const version = Date.now();
@@ -400,12 +477,13 @@ async function writeIndex() {
   const characters = [];
   const levels = {};
   for (let c = 0; c < CHARACTERS.length; c++) {
-    const ids = await levelsOf(c);
-    if (ids.length !== DISTRICTS[c].length * 13) continue;
+    const ready = await readyDistricts(c);
+    if (!ready.length) continue;
+    const ids = (await levelsOf(c)).filter((id) => ready.includes(Number(id.split("-")[1].slice(1))));
     characters.push({
       id: `c${c}`,
       player: CHARACTERS[c],
-      districts: DISTRICTS[c].map(([name, transport, about], d) => ({ id: idOf(c, d, []), name, transport, about })),
+      districts: ready.map((d) => { const [name, transport, about] = DISTRICTS[c][d]; return { id: idOf(c, d, []), name, transport, about }; }),
     });
     for (const id of ids) {
       const { scene, options, next, picture, shown, view } = await exists(id);
@@ -425,7 +503,11 @@ if (PILOT) {
   // Arrivals first, so every district exists before anything links to it.
   // One character at a time, and only if the budget covers all of theirs:
   // a half-built character would leave options that lead nowhere.
-  for (let c = 0; c < CHARACTERS.length; c++) {
+  // Whoever is missing the most goes first, so brand-new characters are
+  // never the ones left out when the budget runs short.
+  const missingOf = async (c) => DISTRICTS[c].length * 13 - (await levelsOf(c)).length;
+  const gaps = await Promise.all(CHARACTERS.map((_, c) => missingOf(c)));
+  for (const c of CHARACTERS.map((_, c) => c).sort((a, b) => gaps[b] - gaps[a])) {
     const missing = DISTRICTS[c].length * 13 - (await levelsOf(c)).length;
     const each = made ? (ledger.usd - startedAt) / made : 0.04;
     if (missing && ledger.usd + missing * each > BUDGET) {
