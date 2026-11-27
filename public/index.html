@@ -623,7 +623,7 @@
     const limit = covered / FADE_STEPS;
     const cols = Math.ceil(w / cell);
     const rows = Math.ceil(h / cell);
-    // While loading, a band of blue grain sweeps across the black cells: the
+    // While loading, a band of grey grain sweeps across the black cells: the
     // same blocks and the same grain as the fade, so when the picture arrives
     // it simply dithers in through them.
     const slant = 0.3;
@@ -640,7 +640,7 @@
         if (glowing) {
           const near = stillMotion.matches ? 0.3 : Math.max(0, 1 - Math.abs(x + (rows - y) * slant - centre) / band) ** 1.5;
           const grain = hash(x, y, 7);
-          if (grain < 0.04 + near * 0.55) colour = grain < near * 0.2 ? "#3a5fd0" : "#1b2f7a";
+          if (grain < 0.04 + near * 0.55) colour = grain < near * 0.2 ? "#8c8c8c" : "#3c3c3c";
         }
         fadeCtx.fillStyle = colour;
         fadeCtx.fillRect(x * cell, y * cell, cell, cell);
