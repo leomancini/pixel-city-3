@@ -1,0 +1,21 @@
+{
+ "id": "c11-d0-0",
+ "scene": "Inside the pink booth, glittery screens and camera lenses flicker warmly around you.",
+ "options": [
+  "Insert gold coin",
+  "Touch screen buttons",
+  "Part the curtain"
+ ],
+ "next": [
+  "c11-d0-0-0",
+  "c11-d0-0-1",
+  "c11-d0-0-2"
+ ],
+ "picture": "Side-scrolling view inside the photo booth. On the far left, a metal console has a glowing coin slot. The silver-haired boy in his mint-green hoodie and headphones stands in the centre, dance bag slung over his shoulder, facing a bright touch screen. On the far right hangs a closed glittery vinyl curtain.",
+ "shown": [
+  "a blinking coin slot on the far left of the console",
+  "a glowing digital editing screen in the centre displaying cute stickers",
+  "a sparkly vinyl exit curtain hanging closed on the far right"
+ ],
+ "view": "wide"
+}

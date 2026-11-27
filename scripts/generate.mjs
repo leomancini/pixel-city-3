@@ -54,7 +54,12 @@ const CHARACTERS = [
   "a teenage boy with dark curly hair, blue eyes and round glasses, in a denim jacket, with a camera around his neck",
   "a lanky boy with straight black hair and blue eyes, in an orange puffer vest and white scarf, with a kite strapped to his back",
   "a silver-haired grandmother with big round glasses, in a pink tracksuit, walking a small white dog on a lead",
-  "a broad-shouldered Pacific Islander man with a top knot, in a floral shirt and sandals, carrying a ukulele",
+  // Plays the East Asian-themed districts; the same person as the roller
+  // skater further down, who also has a set of her own.
+  "a young Chinese woman with a long black ponytail, in a red bomber jacket and white roller skates",
+  "a young Chinese woman with a long black ponytail, in a red bomber jacket and white roller skates",
+  "a Korean teenage boy with dyed silver hair, in a mint-green hoodie, with big headphones and a dance bag",
+  "a Japanese grandfather with round glasses and a grey moustache, in a navy work apron, pushing a bicycle with a crate of plants",
 ];
 
 // Four districts per character: [name, how you arrive, what it is like].
@@ -101,6 +106,18 @@ const DISTRICTS = [
    ["Hanok Sky Village", "cloud cable pod", "a Korean village of curved tiled hanok roofs on floating platforms, with kimchi-jar gardens, rice-cake carts, paper lamps and a hologram pop stage"],
    ["Sakura Circuit Arcade", "bullet train", "a Japanese street of cherry blossoms, neon-lit torii gates, capsule-toy machines, ramen robots and waving lucky-cat machines"],
    ["Jade Junk Harbour", "solar-sail junk", "a harbour of Chinese junks with glowing solar sails, jade-green water, pagoda lighthouses and floating tea barges"]],
+  [["Roller Rink Rooftop", "rooftop escalator", "a neon roller rink on a tower roof, with a disco-ball drone, skate rental robots and a bubble-tea bar"],
+   ["Cloud Noodle Factory", "noodle-cart monorail", "a factory where noodles are pulled between towers like bridges, with flour clouds, wok robots and tasting counters"],
+   ["Panda Cable Park", "bamboo cable car", "a bamboo forest park in the sky, with robot pandas, swinging bridges and a steamed-bun kiosk"],
+   ["Firework Workshop Lane", "paper-lantern balloon", "a lane of firework makers, spark-proof robots, paper dragons and test rockets fizzing over tiled roofs"]],
+  [["Hologram Dance Studio Row", "light-rail pod", "a street of mirrored dance studios, hologram instructors, sticker-photo booths and a rooftop stage"],
+   ["Starlight Convenience Arcade", "moving walkway", "an all-night arcade of glowing convenience stores, instant-noodle bars, claw machines and vending robots"],
+   ["Han River Sky Deck", "river hover ferry", "a riverside deck of picnic mats, fried-chicken drones, kite lights and a rainbow fountain bridge"],
+   ["Vinyl Karaoke Tower", "glass karaoke lift", "a tower of tiny karaoke rooms, each a different colour, with a robot DJ and a spinning rooftop sign"]],
+  [["Bonsai Sky Nursery", "garden tram", "terraces of giant bonsai on floating pots, with watering drones, moss paths and a tea shed"],
+   ["Bathhouse Chimney Street", "retro streetcar", "an old street under a tall bathhouse chimney, with steam pipes, wooden clogs, a milk vending robot and sleepy cats"],
+   ["Bullet Train Bento Station", "bento express", "a gleaming station of bento stalls, ticket-punching robots, model trains and a clock with dancing figures"],
+   ["Koi Canal Workshop", "koi-shaped boat", "a canal of glowing koi, bicycle repair sheds, paper umbrellas drying and a robot heron"]],
 ];
 // Extra districts that are only ever starting points: nothing travels to
 // them, and their last steps travel on to the character's main four.

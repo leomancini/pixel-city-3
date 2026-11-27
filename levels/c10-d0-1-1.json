@@ -1,0 +1,21 @@
+{
+ "id": "c10-d0-1-1",
+ "scene": "Perched atop the disco drone, you arrive at the sky-hub transit platform.",
+ "options": [
+  "Board lantern balloon",
+  "Catch noodle monorail",
+  "Take bamboo car"
+ ],
+ "next": [
+  "c10-d3",
+  "c10-d1",
+  "c10-d2"
+ ],
+ "picture": "Side-scrolling view of a wide wooden sky-dock floating high above neon towers. The player sits centre atop the docked disco-ball drone in red jacket and skates. Far left, a giant paper-lantern balloon bobs at a mooring post. Centre, a noodle-cart monorail train waits with open doors. Far right, an open-sided bamboo cable car sways gently.",
+ "shown": [
+  "a giant glowing paper-lantern balloon tethered with its basket open on the far left",
+  "a steaming noodle-cart monorail car waiting at the central platform track",
+  "a rustic green bamboo cable car dangling from an overhead wire on the far right"
+ ],
+ "view": "wide"
+}

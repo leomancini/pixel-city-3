@@ -1,0 +1,21 @@
+{
+ "id": "c12-d3-2-1",
+ "scene": "The badger mechanic rolls open triple garage doors revealing three departing transit platforms.",
+ "options": [
+  "Board garden tram",
+  "Catch retro streetcar",
+  "Take bento express"
+ ],
+ "next": [
+  "c12-d0",
+  "c12-d1",
+  "c12-d2"
+ ],
+ "picture": "Flat side view through the workshop's broad open rear doorway. Far left stands a badger mechanic wiping greasy paws. Left of centre, the grandfather holds his bicycle with crate plants. Outside along one continuous platform line sit a mossy garden tram on the left, a red streetcar centre, and a bento train right.",
+ "shown": [
+  "a mossy green garden tram on tracks waiting with doors open on the left",
+  "a clanging red retro streetcar idling on iron rails in the centre",
+  "a sleek bullet-nosed bento express railcar stopped at the platform on the right"
+ ],
+ "view": "wide"
+}

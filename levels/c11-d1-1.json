@@ -1,0 +1,21 @@
+{
+ "id": "c11-d1-1",
+ "scene": "A mechanical chef arm slides hot ramen across the chrome counter.",
+ "options": [
+  "Eat the noodles",
+  "Tip robot chef",
+  "Climb spiral stairs"
+ ],
+ "next": [
+  "c11-d1-1-0",
+  "c11-d1-1-1",
+  "c11-d1-1-2"
+ ],
+ "picture": "Side-scrolling view of the bright noodle bar. On the left is the automated dispenser with a flashing coin slot. In the centre, the boy in the mint-green hoodie and headphones stands at the counter with a steaming red bowl. On the far right stands a glowing spiral staircase winding up.",
+ "shown": [
+  "a steaming red bowl resting in the centre on the shiny counter",
+  "a brass coin slot flashing on the automated noodle dispenser on the left",
+  "a glowing neon staircase winding upward on the far right"
+ ],
+ "view": "wide"
+}

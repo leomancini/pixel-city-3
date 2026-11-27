@@ -1,0 +1,21 @@
+{
+ "id": "c11-d3-1-1",
+ "scene": "Your scratch triggers holographic doors that slide open into vibrant transit bays.",
+ "options": [
+  "Board hover ferry",
+  "Ride light-rail pod",
+  "Step onto walkway"
+ ],
+ "next": [
+  "c11-d2",
+  "c11-d0",
+  "c11-d1"
+ ],
+ "picture": "A flat side view of a wide transit balcony under a midnight sky. On the far left waits a docked river hover ferry. In the centre, beside the boy with silver hair and dance bag, sits a sleek magenta light-rail pod. On the far right, a yellow moving walkway slides into an illuminated neon tunnel.",
+ "shown": [
+  "a floating turquoise river hover ferry docked at an open portal on the far left",
+  "a sleek magenta light-rail pod humming on glowing tracks in the centre",
+  "a gliding yellow moving walkway disappearing into an illuminated neon tunnel on the far right"
+ ],
+ "view": "wide"
+}

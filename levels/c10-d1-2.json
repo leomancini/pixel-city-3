@@ -1,0 +1,21 @@
+{
+ "id": "c10-d1-2",
+ "scene": "The brass wok robot bows, offering you a glowing spice canister.",
+ "options": [
+  "Take spice canister",
+  "Climb exhaust chute",
+  "Open flour bin"
+ ],
+ "next": [
+  "c10-d1-2-0",
+  "c10-d1-2-1",
+  "c10-d1-2-2"
+ ],
+ "picture": "A side-scrolling pixel-art factory floor. On the far left sits a huge wooden flour bin. In the centre, the young Chinese woman in her red bomber jacket and white roller skates looks right. On the right, the brass four-armed wok robot extends a glowing spice canister. Up high hangs a metal ladder leading into an exhaust chute.",
+ "shown": [
+  "a glowing brass spice canister held out by the robot on the right",
+  "a low metal ladder leading up to an exhaust chute up high",
+  "a huge wooden flour bin with an iron latch on the far left"
+ ],
+ "view": "wide"
+}

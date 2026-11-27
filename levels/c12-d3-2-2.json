@@ -1,0 +1,21 @@
+{
+ "id": "c12-d3-2-2",
+ "scene": "The shutter rolls up, revealing a busy multi-track transit pier outside.",
+ "options": [
+  "Board retro streetcar",
+  "Ride bento express",
+  "Take garden tram"
+ ],
+ "next": [
+  "c12-d1",
+  "c12-d2",
+  "c12-d0"
+ ],
+ "picture": "Flat side view across the raised dock. On the far left, a vintage streetcar sits on cobblestone rails. In the centre, the grandfather stands holding his bicycle beside a sleek bento train with doors slid open. On the far right, an ivy-wrapped cable tram sways gently by a wooden ticket booth.",
+ "shown": [
+  "a vintage cream-and-red streetcar idling on rails at the far left",
+  "a sleek streamlined train with bento logos waiting in the centre",
+  "a vine-covered glass cable car moored at a dock on the far right"
+ ],
+ "view": "wide"
+}

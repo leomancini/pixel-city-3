@@ -1,0 +1,21 @@
+{
+ "id": "c12-d1-2",
+ "scene": "The calico stretches happily, revealing a brass key under its warm paw.",
+ "options": [
+  "Take brass key",
+  "Climb wooden ladder",
+  "Enter blue door"
+ ],
+ "next": [
+  "c12-d1-2-0",
+  "c12-d1-2-1",
+  "c12-d1-2-2"
+ ],
+ "picture": "Flat side-scrolling view on cobblestones. On the far left hangs the blue curtain of the bathhouse doorway. At centre stands the grandfather holding his bicycle with crate of potted plants. To the right, a stretching calico cat reveals a shiny brass key on low steam pipes. On the far right stands a wooden ladder.",
+ "shown": [
+  "A small brass key shining under the cat's raised paw on the right",
+  "A rickety wooden ladder leaning against the chimney wall on the far right",
+  "A curtained wooden bathhouse door resting slightly ajar on the far left"
+ ],
+ "view": "wide"
+}

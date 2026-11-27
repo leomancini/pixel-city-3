@@ -1,0 +1,21 @@
+{
+ "id": "c11-d2-1-0",
+ "scene": "The popped lunchbox sprays sparkling glitter, revealing three gleaming transit gates.",
+ "options": [
+  "Ride moving walkway",
+  "Enter karaoke lift",
+  "Board light-rail pod"
+ ],
+ "next": [
+  "c11-d1",
+  "c11-d3",
+  "c11-d0"
+ ],
+ "picture": "Side-scrolling flat view of the sky deck. On the far left, an open lunchbox sits smoking glitter on the checkered mat beside the silver-haired player in a mint-green hoodie. Left stands a glowing moving walkway; centre features an open cylindrical glass lift; far right waits a docked light-rail pod on glowing rails.",
+ "shown": [
+  "a glowing flat travelator on the left leading toward neon arcade signs",
+  "a cylindrical glass elevator waiting open at the centre platform",
+  "a sleek silver pod docked on rails on the far right"
+ ],
+ "view": "wide"
+}

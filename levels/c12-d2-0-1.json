@@ -1,0 +1,21 @@
+{
+ "id": "c12-d2-0-1",
+ "scene": "Unrolling the miniature scroll reveals departure gates to three vibrant city districts.",
+ "options": [
+  "Board retro streetcar",
+  "Take koi boat",
+  "Ride garden tram"
+ ],
+ "next": [
+  "c12-d1",
+  "c12-d3",
+  "c12-d0"
+ ],
+ "picture": "Side-view station concourse. On the far left, a yellow streetcar awaits passengers. Left of centre, the grandfather in his navy apron stands holding his bicycle with its plant crate, examining a small scroll. Centre right, an elevated track up high holds a vine-covered tram. On the right, a painted koi boat floats beside a wooden dock.",
+ "shown": [
+  "a yellow vintage streetcar idling with open folding doors on the far left",
+  "a carved wooden koi-shaped boat moored at a canal dock on the right",
+  "a glass-topped tram adorned with vines waiting on tracks up high"
+ ],
+ "view": "wide"
+}

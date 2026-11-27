@@ -1,0 +1,21 @@
+{
+ "id": "c11-d2-0-2",
+ "scene": "You cross the glass tube into the central junction's bustling transit hub.",
+ "options": [
+  "Take karaoke lift",
+  "Board light-rail pod",
+  "Step onto walkway"
+ ],
+ "next": [
+  "c11-d3",
+  "c11-d0",
+  "c11-d1"
+ ],
+ "picture": "A flat side view along a polished metallic transit platform. Far left, the open glass karaoke lift glows with disco lights. Center, the silver-haired boy stands with his dance bag and chicken drone perched on his shoulder. Right sits the hovering light-rail pod, and far right extends the glowing neon moving walkway.",
+ "shown": [
+  "a musical glass lift with flashing disco lights waiting on the far left",
+  "a sleek floating rail pod idling with open doors on the right",
+  "a glowing neon moving walkway sliding into an archway on the far right"
+ ],
+ "view": "wide"
+}

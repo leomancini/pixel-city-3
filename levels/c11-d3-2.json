@@ -1,0 +1,21 @@
+{
+ "id": "c11-d3-2",
+ "scene": "You push through the roof trapdoor onto a breezy neon rooftop garden.",
+ "options": [
+  "Taste blue berry",
+  "Feed neon flamingo",
+  "Ride delivery drone"
+ ],
+ "next": [
+  "c11-d3-2-0",
+  "c11-d3-2-1",
+  "c11-d3-2-2"
+ ],
+ "picture": "A flat side view of a rooftop garden with artificial grass along the level roof floor. On the far left, a bush glows with bright blue berries. Left of centre, the silver-haired boy in a mint hoodie and dance bag stands by the open trapdoor. At centre stands a motionless mechanical neon flamingo. On the far right idles a large delivery drone.",
+ "shown": [
+  "a glowing blue berry bush standing on the far left",
+  "a mechanical glowing pink flamingo standing idle at centre",
+  "a large hover delivery drone idling on the far right"
+ ],
+ "view": "wide"
+}

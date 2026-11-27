@@ -1,0 +1,21 @@
+{
+ "id": "c10-d3-1",
+ "scene": "You crouch by the rocket's brass dial and sparking ignition key.",
+ "options": [
+  "Turn ignition key",
+  "Twist fuse knob",
+  "Unhook fuel vial"
+ ],
+ "next": [
+  "c10-d3-1-0",
+  "c10-d3-1-1",
+  "c10-d3-1-2"
+ ],
+ "picture": "Close-up first-person view of the rocket's control panel. On the left, a tarnished brass key rests turned off inside an ignition slot. In the centre, an orange-lit circular pressure gauge with a notched dial sits ticking. On the right, a glowing blue chemical vial is clamped into a copper bracket.",
+ "shown": [
+  "A brass key sticking out of a copper keyhole on the left",
+  "A notched glass pressure dial glowing orange in the rocket's centre",
+  "A bubbling blue chemical phial clipped to the right side"
+ ],
+ "view": "close"
+}

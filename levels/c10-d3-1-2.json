@@ -1,0 +1,21 @@
+{
+ "id": "c10-d3-1-2",
+ "scene": "Holding the glowing vial, transit routes unlock across the vibrant workshop plaza.",
+ "options": [
+  "Ride rooftop escalator",
+  "Board noodle monorail",
+  "Catch bamboo car"
+ ],
+ "next": [
+  "c10-d0",
+  "c10-d1",
+  "c10-d2"
+ ],
+ "picture": "Side-scrolling view along a brick plaza. On the far left, an escalator ascends upwards. Left of centre, the player in red bomber jacket and white skates holds a glowing blue vial near the deactivated rocket. To the right sits a steaming noodle-cart monorail. On the far right hangs an open bamboo cable car.",
+ "shown": [
+  "a moving escalator with brass railings humming quietly on the far left",
+  "a steaming noodle-cart monorail idling at a small terminal on the right",
+  "a woven bamboo cable car swaying by an open platform far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c11-d2-1-2",
+ "scene": "Sipping sweet purple juice, you scan the deck's three vibrant transit lines.",
+ "options": [
+  "Board dance pod",
+  "Take moving walkway",
+  "Enter karaoke lift"
+ ],
+ "next": [
+  "c11-d0",
+  "c11-d1",
+  "c11-d3"
+ ],
+ "picture": "Side-scrolling flat view of the sky deck. Far left stands a sleek pink light-rail pod. Left of centre, the silver-haired Korean boy in a mint hoodie sips a purple juice carton. In the centre, the empty picnic mat. Right of centre, a glowing green walkway. Far right sits an open glass karaoke lift.",
+ "shown": [
+  "a sleek pink light-rail pod with open doors on the far left",
+  "a glowing green moving walkway stretching forward towards the right",
+  "a cylindrical glass elevator waiting with doors slid open on the far right"
+ ],
+ "view": "wide"
+}

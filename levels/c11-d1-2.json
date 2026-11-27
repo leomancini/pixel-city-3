@@ -1,0 +1,21 @@
+{
+ "id": "c11-d1-2",
+ "scene": "A retro vending machine hums softly, filled with weird alien sodas.",
+ "options": [
+  "Insert copper coin",
+  "Press star button",
+  "Read label notes"
+ ],
+ "next": [
+  "c11-d1-2-0",
+  "c11-d1-2-1",
+  "c11-d1-2-2"
+ ],
+ "picture": "First-person close-up view of the glowing retro soda machine's front panel. On the left, a handwritten note is taped to the display glass beside rows of neon purple and blue bottles. In the centre glows a bright yellow star button. On the right, a brass coin slot blinks under red digital numbers.",
+ "shown": [
+  "a blinking brass coin slot sitting right below the digital price display",
+  "a glowing yellow star-shaped dispense button located in the centre",
+  "a handwritten paper note taped to the clear glass on the left"
+ ],
+ "view": "close"
+}

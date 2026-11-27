@@ -1,0 +1,21 @@
+{
+ "id": "c12-d1-1-2",
+ "scene": "Warm steam clears to reveal a hidden transit junction beneath the street.",
+ "options": [
+  "Board garden tram",
+  "Take bento express",
+  "Ride koi boat"
+ ],
+ "next": [
+  "c12-d0",
+  "c12-d2",
+  "c12-d3"
+ ],
+ "picture": "Flat side-scrolling view along a subterranean tile platform. On the left, a green tram wrapped in flowering vines rests at a wooden platform. At centre, the grandfather holds his bicycle beside a streamlined red bento-box train. On the right, a giant painted koi boat bobs against a stone dock with its gangplank down.",
+ "shown": [
+  "a mossy open-air tram car with leafy railings waiting on tracks at the left",
+  "a sleek train shaped like a lacquered lunchbox idling at the platform centre",
+  "a carved wooden koi-shaped canal boat floating in blue water on the right"
+ ],
+ "view": "wide"
+}

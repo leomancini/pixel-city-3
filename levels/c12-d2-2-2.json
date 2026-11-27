@@ -1,0 +1,21 @@
+{
+ "id": "c12-d2-2-2",
+ "scene": "Pushing through the brass turnstile, you emerge onto the Grand Concourse depot.",
+ "options": [
+  "Board retro streetcar",
+  "Take koi boat",
+  "Ride garden tram"
+ ],
+ "next": [
+  "c12-d1",
+  "c12-d3",
+  "c12-d0"
+ ],
+ "picture": "A flat side-scrolling transit concourse. Far left, a vintage green streetcar stands ready on tracks. Left, the grandfather pushes his plant-laden bicycle through the open turnstile. Centre, an orange koi-shaped passenger boat floats at a low water dock. Right, a glass-domed garden tram rests on elevated track rails with doors open.",
+ "shown": [
+  "a vintage green streetcar waiting on tracks at the far left",
+  "an orange koi-shaped boat moored at the canal dock in the centre",
+  "a glass-topped tram adorned with vines waiting on rails at the right"
+ ],
+ "view": "wide"
+}

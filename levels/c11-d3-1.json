@@ -1,0 +1,21 @@
+{
+ "id": "c11-d3-1",
+ "scene": "The metallic DJ bobs its chrome head and offers a neon cassette.",
+ "options": [
+  "Take glowing tape",
+  "Spin left turntable",
+  "Climb roof ladder"
+ ],
+ "next": [
+  "c11-d3-1-0",
+  "c11-d3-1-1",
+  "c11-d3-1-2"
+ ],
+ "picture": "A flat side view along a level carpeted corridor. On the left stands the silver-haired boy in his mint hoodie and dance bag. In the centre, a boxy robot DJ smiles on an LED face screen, extending a glowing cyan cassette tape. On the deck beside it spins a holographic vinyl. On the far right rises a yellow ladder.",
+ "shown": [
+  "a bright cyan cassette tape held out by the DJ in the centre",
+  "a spinning holographic vinyl record on the deck to the left of centre",
+  "a tall yellow ladder bolted to the wall on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c12-d0-1",
+ "scene": "A miniature wooden ladder leans against the gnarled bonsai trunk.",
+ "options": [
+  "Climb tiny ladder",
+  "Turn brass spigot",
+  "Pluck golden pinecone"
+ ],
+ "next": [
+  "c12-d0-1-0",
+  "c12-d0-1-1",
+  "c12-d0-1-2"
+ ],
+ "picture": "Pixel art flat side view. The grandfather stands on the stone terrace beside his bicycle, looking at the giant potted bonsai pine. On the left, the blue ceramic pot features a small brass spigot. At the centre, a tiny wooden ladder reaches into the twisted branches. On the right, a glowing pinecone hangs low.",
+ "shown": [
+  "a slender wooden ladder resting against the thick mossy trunk at the centre",
+  "a gleaming brass tap sticking out of the blue ceramic pot on the left",
+  "a single glowing yellow pinecone dangling from a low needle cluster on the right"
+ ],
+ "view": "wide"
+}

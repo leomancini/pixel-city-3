@@ -1,0 +1,21 @@
+{
+ "id": "c12-d3-2",
+ "scene": "Inside the repair shed, whirring clockwork toys clutter workbenches beneath hanging lanterns.",
+ "options": [
+  "Wind brass frog",
+  "Talk to mechanic",
+  "Open back shutter"
+ ],
+ "next": [
+  "c12-d3-2-0",
+  "c12-d3-2-1",
+  "c12-d3-2-2"
+ ],
+ "picture": "Flat side view inside the bustling workshop. On the far left sits a workbench loaded with gears and a wound brass frog. Left of centre, the grandfather stands holding his bicycle with crate plants. In the centre, a badger mechanic in goggles works at an anvil. Far right, a wooden roll-up shutter stays shut.",
+ "shown": [
+  "a key sticking out of a chunky brass frog toy on the left workbench",
+  "a friendly badger mechanic in leather goggles standing in the centre behind an anvil",
+  "a rolled-down wooden slatted shutter set into the far right workshop wall"
+ ],
+ "view": "wide"
+}

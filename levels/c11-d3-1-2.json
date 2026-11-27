@@ -1,0 +1,21 @@
+{
+ "id": "c11-d3-1-2",
+ "scene": "You climb through the rooftop hatch into the dazzling city air.",
+ "options": [
+  "Board rail pod",
+  "Take walkway",
+  "Board hover ferry"
+ ],
+ "next": [
+  "c11-d0",
+  "c11-d1",
+  "c11-d2"
+ ],
+ "picture": "A flat side view along a level rooftop platform. On the far left, a yellow light-rail pod sits with doors open. In the centre, the silver-haired boy in mint hoodie stands beside an open hatch, next to a glowing pink moving walkway. On the right, a blue river hover ferry idles by the railing.",
+ "shown": [
+  "a sleek yellow light-rail pod waiting on the track at the left",
+  "an illuminated pink moving walkway running forward at the centre",
+  "a blue floating hover ferry docked at the railing on the right"
+ ],
+ "view": "wide"
+}

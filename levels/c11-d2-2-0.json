@@ -1,0 +1,21 @@
+{
+ "id": "c11-d2-2-0",
+ "scene": "The laser harp chimes, unlocking three glowing transit gates ahead.",
+ "options": [
+  "Enter karaoke lift",
+  "Board rail pod",
+  "Step on walkway"
+ ],
+ "next": [
+  "c11-d3",
+  "c11-d0",
+  "c11-d1"
+ ],
+ "picture": "A flat side view along the sparkling bridge terminal. Far left, a glass karaoke lift door stands open. Left, the silver-haired boy in mint hoodie and dance bag stands beside the vibrating laser harp. Centre, a sleek light-rail pod waits with open hatch. Far right, an illuminated starlight moving walkway glides forward.",
+ "shown": [
+  "a cylindrical glass lift glowing with music notes on the far left",
+  "a sleek light-rail pod waiting on a rail at the centre",
+  "a glittering neon moving walkway gliding forward on the far right"
+ ],
+ "view": "wide"
+}

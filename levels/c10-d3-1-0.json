@@ -1,0 +1,21 @@
+{
+ "id": "c10-d3-1-0",
+ "scene": "The launched rocket showers sparkling sparks, illuminating three waiting transit platforms.",
+ "options": [
+  "Ride noodle monorail",
+  "Board cable car",
+  "Take rooftop escalator"
+ ],
+ "next": [
+  "c10-d1",
+  "c10-d2",
+  "c10-d0"
+ ],
+ "picture": "Side-scrolling view of a cobblestone transit plaza. On the left, a noodle-cart monorail sits ready on its track. In the centre, the player in red bomber jacket and roller skates stands beside an open bamboo cable car. On the far right, a gleaming rooftop escalator hums upward. Overhead, colorful celebratory fireworks burst brightly.",
+ "shown": [
+  "a steaming noodle-cart monorail car waiting on a rail on the left",
+  "a suspended green bamboo cable car with its door open in the centre",
+  "a glowing rooftop escalator leading steeply upwards on the far right"
+ ],
+ "view": "wide"
+}

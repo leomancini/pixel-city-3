@@ -1,0 +1,21 @@
+{
+ "id": "c10-d2-1-1",
+ "scene": "At the condiment bar, three transit tickets sit tucked beside spicy sauce bottles.",
+ "options": [
+  "Ride lantern balloon",
+  "Take rooftop escalator",
+  "Board noodle monorail"
+ ],
+ "next": [
+  "c10-d3",
+  "c10-d0",
+  "c10-d1"
+ ],
+ "picture": "Flat side view along a high platform. On the far left, a glowing paper-lantern balloon bobs beside its mooring. At centre-left stands the player holding her panda bun on white roller skates. In the centre, an open escalator ascends upwards. On the right, a yellow noodle-cart monorail waits on a suspended track.",
+ "shown": [
+  "a tethered paper-lantern balloon basket waiting on the left",
+  "a moving rooftop escalator humming in the centre",
+  "a bright noodle-cart monorail idling on the right"
+ ],
+ "view": "wide"
+}

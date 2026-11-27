@@ -1,0 +1,21 @@
+{
+ "id": "c10-d2-1-0",
+ "scene": "Savory sweet bean paste reveals transit tokens stamped with three tempting destinations.",
+ "options": [
+  "Board noodle monorail",
+  "Take lantern balloon",
+  "Ride rooftop escalator"
+ ],
+ "next": [
+  "c10-d1",
+  "c10-d3",
+  "c10-d0"
+ ],
+ "picture": "Flat side view on the park deck. On the far left, a noodle-cart monorail sits with its cabin door open. At centre-left, the player on white roller skates in her red jacket holds the half-eaten bun. Moored up high at centre is a glowing paper-lantern balloon. On the far right stands a bright escalator.",
+ "shown": [
+  "A red noodle-cart monorail waiting open on rails at the far left",
+  "A giant paper-lantern hot air balloon basket moored up high at centre",
+  "A gleaming glass rooftop escalator ascending upwards on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c10-d1",
+ "scene": "You skate off the noodle-cart monorail into the bustling Cloud Noodle Factory.",
+ "options": [
+  "Inspect the monorail",
+  "Taste free broth",
+  "Greet wok robot"
+ ],
+ "next": [
+  "c10-d1-0",
+  "c10-d1-1",
+  "c10-d1-2"
+ ],
+ "picture": "A side-scrolling pixel-art factory floor. On the far left, a ceramic noodle-cart monorail rests on suspended steel rails. In the centre, the young Chinese woman with a black ponytail, red bomber jacket and white roller skates stands facing right. Further right, a wooden tasting counter sits steaming, beside a brass four-armed wok robot.",
+ "shown": [
+  "a steaming ceramic noodle-cart monorail idling on tracks on the far left",
+  "a wooden tasting counter with piping soup bowls on the right",
+  "a brass four-armed wok robot flipping dough strands on the far right"
+ ],
+ "view": "wide"
+}

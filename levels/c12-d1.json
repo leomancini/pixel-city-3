@@ -1,0 +1,21 @@
+{
+ "id": "c12-d1",
+ "scene": "You step off the retro streetcar into steamy Bathhouse Chimney Street.",
+ "options": [
+  "Enter bathhouse",
+  "Buy cold milk",
+  "Pet sleeping calico"
+ ],
+ "next": [
+  "c12-d1-0",
+  "c12-d1-1",
+  "c12-d1-2"
+ ],
+ "picture": "Flat side-scrolling view on level cobblestones. On the far left waits the green retro streetcar. To the left is the blue-curtained bathhouse door with wooden clogs. At centre, the grandfather holds his bicycle with plant crates beside a squat milk vending robot. To the right, sleeping cats rest on low steam pipes.",
+ "shown": [
+  "a blue curtained bathhouse doorway with wooden clogs outside on the left",
+  "a squat milk vending robot dispensing bottles in the centre",
+  "a sleepy calico cat curled atop brass steam pipes on the right"
+ ],
+ "view": "wide"
+}

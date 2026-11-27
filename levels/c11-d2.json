@@ -1,0 +1,21 @@
+{
+ "id": "c11-d2",
+ "scene": "You step off the hover ferry onto the lively river sky deck.",
+ "options": [
+  "Call chicken drone",
+  "Inspect picnic mat",
+  "Walk rainbow bridge"
+ ],
+ "next": [
+  "c11-d2-0",
+  "c11-d2-1",
+  "c11-d2-2"
+ ],
+ "picture": "A flat side view along the wooden deck. Far left rests the sleek river hover ferry at the water's edge. On the left is an empty blue picnic mat. Center stands the silver-haired boy with headphones and dance bag. Up high hovers a yellow chicken drone. Far right sits the sparkling rainbow fountain bridge.",
+ "shown": [
+  "a glowing yellow delivery drone hovering with a warm takeout box up high",
+  "a patterned blue picnic mat spread empty on the deck on the left",
+  "an arched bridge sprayed with rainbow water jets on the far right"
+ ],
+ "view": "wide"
+}

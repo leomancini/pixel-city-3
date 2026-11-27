@@ -1,0 +1,21 @@
+{
+ "id": "c11-d3",
+ "scene": "You step off the glass karaoke lift into the humming neon corridor.",
+ "options": [
+  "Enter pink room",
+  "Greet robot DJ",
+  "Climb roof ladder"
+ ],
+ "next": [
+  "c11-d3-0",
+  "c11-d3-1",
+  "c11-d3-2"
+ ],
+ "picture": "A flat side view along a level carpeted hallway. On the far left, a closed magenta karaoke door glows. Next to it stands the open glass karaoke lift. The player with silver hair, mint hoodie, and dance bag stands left of centre. Centre shows a robot DJ behind turntables. On the far right is a yellow ladder.",
+ "shown": [
+  "a closed magenta karaoke booth door on the far left",
+  "a chrome robot DJ spinning records at a booth in the centre",
+  "a yellow metal ladder on the far right leading upward"
+ ],
+ "view": "wide"
+}

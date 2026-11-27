@@ -1,0 +1,21 @@
+{
+ "id": "c10-d0-0-2",
+ "scene": "You zoom down the ramp onto a busy transit deck below.",
+ "options": [
+  "Fly lantern balloon",
+  "Board noodle monorail",
+  "Ride cable car"
+ ],
+ "next": [
+  "c10-d3",
+  "c10-d1",
+  "c10-d2"
+ ],
+ "picture": "A flat side-scrolling view of an open transit deck along one ground line. On the far left, a giant paper-lantern balloon basket waits open. In the centre, the player in red bomber jacket and roller skates glides forward. On the right sits a steaming noodle-cart monorail. Up high, a bamboo cable car hangs ready.",
+ "shown": [
+  "a giant glowing paper-lantern balloon tethered with its basket open on the far left",
+  "a steaming noodle-cart monorail car sitting at a platform on the right",
+  "a green bamboo cable car dangling from an overhead wire up high"
+ ],
+ "view": "wide"
+}

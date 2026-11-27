@@ -1,0 +1,21 @@
+{
+ "id": "c12-d1-1-0",
+ "scene": "You finish the sweet milk, refreshed as transit gates open before you.",
+ "options": [
+  "Board bento express",
+  "Ride koi boat",
+  "Catch garden tram"
+ ],
+ "next": [
+  "c12-d2",
+  "c12-d3",
+  "c12-d0"
+ ],
+ "picture": "Side view along the bathhouse street edge. Far left, the red Bento Express train idles with open doors. At centre, the grandfather with bicycle holds an empty glass bottle beside a signpost. On the right, a wooden koi boat waits in the canal. Up high runs a wooden platform with a vine-covered tram.",
+ "shown": [
+  "a sleek red Bento Express train doors open on the far left track",
+  "a wooden koi-shaped boat floating moored at the canal dock on the right",
+  "a vine-covered garden tram waiting up high at an elevated platform"
+ ],
+ "view": "wide"
+}

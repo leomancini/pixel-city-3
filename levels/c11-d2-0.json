@@ -1,0 +1,21 @@
+{
+ "id": "c11-d2-0",
+ "scene": "The plump chicken drone perches neatly onto your outstretched arm.",
+ "options": [
+  "Take tiny letter",
+  "Follow pink cat",
+  "Cross glass tube"
+ ],
+ "next": [
+  "c11-d2-0-0",
+  "c11-d2-0-1",
+  "c11-d2-0-2"
+ ],
+ "picture": "A flat side view along the wooden sky deck. Far left shows a giant pink holographic cat walking along the planks. Center stands the silver-haired boy with headphones and dance bag, holding the yellow chicken drone with a scroll on its foot. Far right stands a tall glowing glass transit tube elevator.",
+ "shown": [
+  "A tiny scroll tied to the chicken drone's foot in the centre.",
+  "A giant pink holographic cat strolling past along the left.",
+  "A glowing glass transit tube elevator waiting on the far right."
+ ],
+ "view": "wide"
+}

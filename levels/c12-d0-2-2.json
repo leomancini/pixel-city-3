@@ -1,0 +1,21 @@
+{
+ "id": "c12-d0-2-2",
+ "scene": "Behind the torn sacks lies a junction platform linking three onward departures.",
+ "options": [
+  "Board bento express",
+  "Take koi boat",
+  "Catch retro streetcar"
+ ],
+ "next": [
+  "c12-d2",
+  "c12-d3",
+  "c12-d1"
+ ],
+ "picture": "Side view of an open transit platform atop the sky nursery terrace. On the far left, a red Bento Express train waits with its doors open. At the centre dock, a carved orange koi-shaped canal boat floats tied to a bollard. On the left stands the grandfather pushing his bicycle. On the far right sits a green streetcar.",
+ "shown": [
+  "a sleek red Bento Express train waiting open at far left",
+  "a giant orange koi-shaped boat floating moored at the centre dock",
+  "a green vintage streetcar idling at its stop on the far right"
+ ],
+ "view": "wide"
+}

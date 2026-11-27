@@ -1,0 +1,21 @@
+{
+ "id": "c12-d3-1",
+ "scene": "Delicate oiled paper umbrellas spin slowly, revealing intricate constellation maps painted inside.",
+ "options": [
+  "Study paper charts",
+  "Greet masked artisan",
+  "Climb stone steps"
+ ],
+ "next": [
+  "c12-d3-1-0",
+  "c12-d3-1-1",
+  "c12-d3-1-2"
+ ],
+ "picture": "Flat side view of the dock pavilion. Far left, the grandfather pushes his bicycle beside hanging painted parasols. Left, a celestial umbrella spins gently on a cord. Centre, drying painted fans rest on racks. Right, an artisan in an owl mask paints. Far right, mossy stone steps rise upwards.",
+ "shown": [
+  "a large celestial chart umbrella hanging low and spinning gently, left",
+  "a cloaked umbrella artisan sitting on a low bamboo stool, right",
+  "mossy stone steps leading up to an arched canal bridge, far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c11-d0-0-2",
+ "scene": "Parting the curtain, you step out onto a bustling, open transit plaza.",
+ "options": [
+  "Take karaoke lift",
+  "Step on walkway",
+  "Board hover ferry"
+ ],
+ "next": [
+  "c11-d3",
+  "c11-d1",
+  "c11-d2"
+ ],
+ "picture": "Side-scrolling view of a bustling neon transit plaza along one level ground line. On the far left, a glass karaoke lift stands open. The silver-haired boy in mint-green hoodie, headphones, and dance bag stands left of centre. In the centre, an illuminated moving walkway rolls forward. On the far right, a hover ferry idles.",
+ "shown": [
+  "A glowing glass karaoke lift on the far left with open sliding doors",
+  "An illuminated moving walkway in the centre leading toward an arcade sign",
+  "A sleek river hover ferry waiting docked at a pier on the far right"
+ ],
+ "view": "wide"
+}

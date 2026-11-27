@@ -1,0 +1,21 @@
+{
+ "id": "c11-d1-0-2",
+ "scene": "A secret transport pass clatters from the chute onto the floor.",
+ "options": [
+  "Ride karaoke lift",
+  "Board rail pod",
+  "Take river ferry"
+ ],
+ "next": [
+  "c11-d3",
+  "c11-d0",
+  "c11-d2"
+ ],
+ "picture": "Flat side view along the tiled concourse. On the far left stands a cylindrical glass karaoke elevator with open doors. Left of centre, the silver-haired boy in a mint-green hoodie holds a freshly dropped transit pass beside the arcade exit. At centre rests an open light-rail pod. On the far right, a hover ferry floats.",
+ "shown": [
+  "a tubular glass elevator door glowing pink on the far left",
+  "a sleek silver light-rail pod waiting open at the platform centre",
+  "a blue river hover ferry idling at the water dock far right"
+ ],
+ "view": "wide"
+}

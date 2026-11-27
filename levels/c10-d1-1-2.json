@@ -1,0 +1,21 @@
+{
+ "id": "c10-d1-1-2",
+ "scene": "The spiralling belt carries you up onto the breezy factory roof transit hub.",
+ "options": [
+  "Ride rooftop escalator",
+  "Board cable car",
+  "Hop into balloon"
+ ],
+ "next": [
+  "c10-d0",
+  "c10-d2",
+  "c10-d3"
+ ],
+ "picture": "A wide side-scrolling view along the factory roof. On the far left, a neon escalator glides upward. In the centre, a wicker bamboo cable car sits open along a wire. On the right, the player in red bomber jacket and white roller skates stands beside a giant moored paper-lantern balloon basket on the far right.",
+ "shown": [
+  "a humming, neon-lit rooftop escalator ascending into mist on the far left",
+  "a woven bamboo cable car swaying gently on its overhead wire at centre",
+  "a giant glowing paper-lantern hot-air balloon moored to a bollard on the far right"
+ ],
+ "view": "wide"
+}

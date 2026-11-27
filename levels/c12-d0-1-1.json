@@ -1,0 +1,21 @@
+{
+ "id": "c12-d0-1-1",
+ "scene": "Clear water pours from the spigot, flooding canals to three departures.",
+ "options": [
+  "Board koi boat",
+  "Catch retro streetcar",
+  "Ride bento express"
+ ],
+ "next": [
+  "c12-d3",
+  "c12-d1",
+  "c12-d2"
+ ],
+ "picture": "Pixel art flat side view. The grandfather stands pushing his plant-laden bicycle along the tiled nursery promenade. On the far left, a carved wooden koi boat rocks in fresh water. In the centre, a vintage retro streetcar waits beside the spigot. On the far right, a shiny bento express train sits at a low platform.",
+ "shown": [
+  "a carved wooden koi-shaped boat moored at the canal dock on the far left",
+  "a green-and-cream retro streetcar waiting with doors open in the centre",
+  "a sleek, lunchbox-shaped bento express train parked beside the platform on the far right"
+ ],
+ "view": "wide"
+}

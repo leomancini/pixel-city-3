@@ -1,0 +1,21 @@
+{
+ "id": "c10-d1-0-1",
+ "scene": "The factory map reveals three outbound transit gates on the loading dock.",
+ "options": [
+  "Board cable car",
+  "Climb lantern balloon",
+  "Take rooftop escalator"
+ ],
+ "next": [
+  "c10-d2",
+  "c10-d3",
+  "c10-d0"
+ ],
+ "picture": "A flat side view of the factory open-air loading dock along a flat floor line. On the far left, a bamboo cable car hangs ready. The player in her red bomber jacket and roller skates stands left. At the centre floats a tethered paper-lantern balloon. On the far right rises a yellow moving escalator.",
+ "shown": [
+  "a woven bamboo cable car swaying by an open gate on the far left",
+  "a giant glowing paper-lantern hot-air balloon moored at the platform centre",
+  "a bright yellow mechanical rooftop escalator running upward on the far right"
+ ],
+ "view": "wide"
+}

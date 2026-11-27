@@ -1,0 +1,21 @@
+{
+ "id": "c10-d1-0",
+ "scene": "You examine the noodle-cart monorail's whirring broth engine and brass dials.",
+ "options": [
+  "Turn brass valve",
+  "Read route map",
+  "Press red lever"
+ ],
+ "next": [
+  "c10-d1-0-0",
+  "c10-d1-0-1",
+  "c10-d1-0-2"
+ ],
+ "picture": "A first-person close-up view of the monorail cockpit console. On the left, a large brass wheel valve pipes steam. In the centre sits a glowing transit parchment map framed in rivets. On the right, a sturdy upright red lever stands ready, with the player's gloved fingers resting along the lower frame.",
+ "shown": [
+  "a gleaming brass wheel valve on the left side of the engine",
+  "a framed parchment transit map posted in the centre of the console",
+  "a tall red lever standing upright on the right control pedestal"
+ ],
+ "view": "close"
+}

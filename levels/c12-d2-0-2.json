@@ -1,0 +1,21 @@
+{
+ "id": "c12-d2-0-2",
+ "scene": "Turning the key unveils three bustling transport docks outside the station.",
+ "options": [
+  "Board koi boat",
+  "Ride garden tram",
+  "Catch retro streetcar"
+ ],
+ "next": [
+  "c12-d3",
+  "c12-d0",
+  "c12-d1"
+ ],
+ "picture": "A flat side-view along the station concourse. On the left, a koi-shaped boat bobs in an indoor canal. In the centre, the grandfather stands holding his bicycle with plant crate beside a green ivy-covered tram. On the right, a shiny vintage streetcar waits beside an open archway, facing forward.",
+ "shown": [
+  "A carved orange koi-shaped boat floating in a tiled basin on the left",
+  "A green garden tram covered in ivy idling quietly at centre",
+  "A red-and-cream retro streetcar waiting by a striped sign on the right"
+ ],
+ "view": "wide"
+}

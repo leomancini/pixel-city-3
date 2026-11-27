@@ -1,0 +1,21 @@
+{
+ "id": "c12-d3-1-0",
+ "scene": "The charted star lines align with transit routes marked along the waterfront.",
+ "options": [
+  "Ride retro streetcar",
+  "Board bento express",
+  "Catch garden tram"
+ ],
+ "next": [
+  "c12-d1",
+  "c12-d2",
+  "c12-d0"
+ ],
+ "picture": "Side view of a riverside interchange platform. Far left, a brass retro streetcar idles on tracks. Left, the grandfather stands holding his bicycle with its plant crate. Centre, a bullet-nosed bento express train waits. Right, a glowing destination board lists upcoming departures. Far right, an ivy-wrapped garden tram rests beside a canopy.",
+ "shown": [
+  "a brass-trimmed retro streetcar idling with open doors on tracks on the far left",
+  "a sleek, polished bento express train with steam puffing softly in the centre",
+  "a glass-topped garden tram draped in ivy waiting at a platform on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c10-d1-2-2",
+ "scene": "The flour bin opens, revealing a hidden transit junction full of exits.",
+ "options": [
+  "Ride cable car",
+  "Board lantern balloon",
+  "Climb rooftop escalator"
+ ],
+ "next": [
+  "c10-d2",
+  "c10-d3",
+  "c10-d0"
+ ],
+ "picture": "A flat side view inside the flour bin secret transit depot. On the far left, a woven bamboo cable car sits waiting with its hatch open. Left of centre, the woman in her red jacket and skates stands amazed. Up high, a moving escalator ascends through an opening. On the far right, a giant glowing paper-lantern balloon tugs gently at moorings.",
+ "shown": [
+  "a woven bamboo cable car resting on a dock at the far left",
+  "a giant glowing paper-lantern hot air balloon anchored on the far right",
+  "a moving metal rooftop escalator stairs humming up high in the centre"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c12-d0-0-0",
+ "scene": "The friendly horned brewer bows and offers three departure tickets from his counter.",
+ "options": [
+  "Board retro streetcar",
+  "Take bento express",
+  "Ride koi boat"
+ ],
+ "next": [
+  "c12-d1",
+  "c12-d2",
+  "c12-d3"
+ ],
+ "picture": "Pixel art wide shot inside the tea shed back porch along level floorboards. On the far left, grandfather stands pushing his bicycle. On the left, a brass bell hangs beside a streetcar platform door. At the centre, a glowing turnstile ticket booth waits. On the far right, an open dock gate overlooks the water.",
+ "shown": [
+  "a brass bell beside a platform door for the streetcar on the left",
+  "a glowing ticket turnstile for the Bento Express at the centre",
+  "an open dock gate leading down to the koi boat on the far right"
+ ],
+ "view": "wide"
+}

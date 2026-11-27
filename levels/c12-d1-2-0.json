@@ -1,0 +1,21 @@
+{
+ "id": "c12-d1-2-0",
+ "scene": "The brass key opens a street-corner registry listing three scenic departures.",
+ "options": [
+  "Board koi boat",
+  "Ride garden tram",
+  "Catch bento express"
+ ],
+ "next": [
+  "c12-d3",
+  "c12-d0",
+  "c12-d2"
+ ],
+ "picture": "Side-scrolling view along the bustling canal road. On the far left, a wooden koi-shaped canal boat rocks at a stone mooring. Left of centre, the grandfather holds his bicycle with plant crate beside an unlocked brass departures registry. Up high overhead sits a garden tram on elevated tracks. Far right, the sleek red bento express waits at a ticket turnstile.",
+ "shown": [
+  "A docked wooden koi-shaped canal boat floating at a low wooden pier on the far left.",
+  "A leaf-covered green garden tram idling at a raised brass platform up high.",
+  "A sleek bento express railcar with steam puffing from its red roof on the far right."
+ ],
+ "view": "wide"
+}

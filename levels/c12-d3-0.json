@@ -1,0 +1,21 @@
+{
+ "id": "c12-d3-0",
+ "scene": "The bronze heron clicks open its chest hatch, revealing a brass dial.",
+ "options": [
+  "Turn brass dial",
+  "Pull silver feather",
+  "Insert copper key"
+ ],
+ "next": [
+  "c12-d3-0-0",
+  "c12-d3-0-1",
+  "c12-d3-0-2"
+ ],
+ "picture": "A first-person close view of the mechanical heron's polished bronze torso. In the centre, an open compartment reveals intricate ticking clockwork and a notched brass dial. On the left, a loose silver feather sticks out under its wing joint. On the right, a tiny keyhole glows with green phosphorescent light.",
+ "shown": [
+  "a notched brass winding dial set in the bird's open chest at centre",
+  "a loose silver quill feather wedged beneath the bird's wing on the left",
+  "an empty keyhole glowing faintly green beside the dial on the right"
+ ],
+ "view": "close"
+}

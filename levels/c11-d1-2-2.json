@@ -1,0 +1,21 @@
+{
+ "id": "c11-d1-2-2",
+ "scene": "The notes reveal transit maps to lively hotspots beyond the arcade.",
+ "options": [
+  "Board river ferry",
+  "Take karaoke lift",
+  "Ride light-rail pod"
+ ],
+ "next": [
+  "c11-d2",
+  "c11-d3",
+  "c11-d0"
+ ],
+ "picture": "Side-scrolling view of the transit concourse. On the left, a silver-haired boy in a mint hoodie and headphones stands near a hover ferry docked at an open gate. In the centre rises a glowing glass elevator. On the right, a streamlined light-rail pod sits waiting beside a platform sign.",
+ "shown": [
+  "a sleek hover ferry waiting at a bright dock gate on the left",
+  "an open glass elevator shaft lit in pink neon in the centre",
+  "a streamlined magenta light-rail pod idling on tracks on the right"
+ ],
+ "view": "wide"
+}

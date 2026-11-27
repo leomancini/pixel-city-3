@@ -1,0 +1,21 @@
+{
+ "id": "c12-d1-0-2",
+ "scene": "The lantern hallway opens onto a misty transit dock bustling with transports.",
+ "options": [
+  "Board koi boat",
+  "Take garden tram",
+  "Ride bento express"
+ ],
+ "next": [
+  "c12-d3",
+  "c12-d0",
+  "c12-d2"
+ ],
+ "picture": "Side-scrolling view of a stone dock beside misty water. Far left, a large orange koi-shaped boat bobs tied to iron posts. Left, the grandfather pushes his bicycle with plants. Centre, a green garden tram sits waiting on tracks. Far right, a sleek bento express car rests behind open sliding station gates.",
+ "shown": [
+  "a giant orange koi-shaped boat floating tied to the jetty at far left",
+  "a glass-topped green garden tram idling with doors open on tracks at centre",
+  "a sleek bento express monorail waiting at its platform gate on the far right"
+ ],
+ "view": "wide"
+}

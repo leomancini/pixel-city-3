@@ -1,0 +1,21 @@
+{
+ "id": "c10-d3-2-0",
+ "scene": "The kettle releases sparkling steam that parts the back workshop wall.",
+ "options": [
+  "Board cable car",
+  "Ride rooftop escalator",
+  "Catch noodle monorail"
+ ],
+ "next": [
+  "c10-d2",
+  "c10-d0",
+  "c10-d1"
+ ],
+ "picture": "Side view of the opened workshop wall revealing transit docks along one level floor. Far left hangs a round bamboo cable car with open sliding doors. Left stands the smoking copper kettle. Centre, an escalator rises upward beside you in your red bomber jacket. Far right waits a yellow noodle-cart monorail.",
+ "shown": [
+  "a wicker bamboo cable car cabin hanging stationary at a platform far left",
+  "a humming metal escalator ascending steeply through a skylight opening in the centre",
+  "a yellow bowl-shaped noodle monorail car waiting beside an open hatch far right"
+ ],
+ "view": "wide"
+}

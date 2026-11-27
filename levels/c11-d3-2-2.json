@@ -1,0 +1,21 @@
+{
+ "id": "c11-d3-2-2",
+ "scene": "The drone drops you onto the rooftop transit terrace high above the city.",
+ "options": [
+  "Take moving walkway",
+  "Board river ferry",
+  "Enter rail pod"
+ ],
+ "next": [
+  "c11-d1",
+  "c11-d2",
+  "c11-d0"
+ ],
+ "picture": "A flat side view of a wide rooftop transit concourse. On the far left, a moving walkway glides under a Starlight Arcade sign. Left of centre, the silver-haired boy in a mint hoodie and dance bag stands beside a departing drone. On the right, a river hover ferry docks. On the far right sits a light-rail pod.",
+ "shown": [
+  "A glowing moving walkway with green arrow signs, waiting on the far left",
+  "A sleek yellow river hover ferry docked at a gate on the right",
+  "An open silver light-rail pod idling on rails at the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c11-d0-0-0",
+ "scene": "The booth prints glowing transit passes, unlocking a bustling multi-level transport concourse.",
+ "options": [
+  "Ride moving walkway",
+  "Board river ferry",
+  "Take karaoke lift"
+ ],
+ "next": [
+  "c11-d1",
+  "c11-d2",
+  "c11-d3"
+ ],
+ "picture": "Side-scrolling view of the open concourse. On the left, a yellow moving walkway rolls toward an arcade sign. The silver-haired boy in his mint-green hoodie, headphones, and dance bag stands left of centre holding shiny passes. In the centre sits a docked river hover ferry. On the far right waits an open glass lift.",
+ "shown": [
+  "a flat glowing yellow walkway rolling toward the left arcade entrance",
+  "a sleek hover ferry docked at the centre water gate with ramps down",
+  "a tall glass lift with disco lights waiting open on the far right"
+ ],
+ "view": "wide"
+}

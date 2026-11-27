@@ -1,0 +1,21 @@
+{
+ "id": "c11-d0",
+ "scene": "You step off the pod onto neon Hologram Dance Studio Row.",
+ "options": [
+  "Enter photo booth",
+  "Watch hologram dancer",
+  "Climb roof ladder"
+ ],
+ "next": [
+  "c11-d0-0",
+  "c11-d0-1",
+  "c11-d0-2"
+ ],
+ "picture": "Along a flat street line, an open light-rail pod sits far left. A pink sticker-photo booth stands left. The silver-haired boy in a mint-green hoodie stands centre-left holding his dance bag, facing a glowing blue hologram instructor in the centre. On the right, a yellow ladder leads up high toward a rooftop stage.",
+ "shown": [
+  "a sparkling pink sticker-photo booth with blinking lights on the left",
+  "a glowing blue hologram instructor projecting routines in the centre",
+  "a bright yellow metal ladder leading up high on the right"
+ ],
+ "view": "wide"
+}

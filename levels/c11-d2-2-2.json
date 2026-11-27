@@ -1,0 +1,21 @@
+{
+ "id": "c11-d2-2-2",
+ "scene": "You reach the bustling sky-deck transit hub atop the high platform.",
+ "options": [
+  "Take moving walkway",
+  "Ride karaoke lift",
+  "Board light-rail pod"
+ ],
+ "next": [
+  "c11-d1",
+  "c11-d3",
+  "c11-d0"
+ ],
+ "picture": "A flat side view along the polished transit deck. Far left, a glowing neon moving walkway glides quietly. Left, a mirrored glass lift waits with open doors. Center, the silver-haired boy in his mint hoodie with headphones and dance bag stands facing right. Far right, a sleek translucent light-rail pod sits ready on glowing tracks.",
+ "shown": [
+  "a flat glowing neon moving walkway sliding away on the far left",
+  "a mirrored glass lift with a microphone handle waiting on the left",
+  "a sleek translucent light-rail pod with open doors on the far right"
+ ],
+ "view": "wide"
+}

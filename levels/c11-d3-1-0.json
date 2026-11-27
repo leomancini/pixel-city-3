@@ -1,0 +1,21 @@
+{
+ "id": "c11-d3-1-0",
+ "scene": "The glowing tape rattles into your bag, parting the corridor's departure gates.",
+ "options": [
+  "Ride moving walkway",
+  "Board hover ferry",
+  "Enter light-rail pod"
+ ],
+ "next": [
+  "c11-d1",
+  "c11-d2",
+  "c11-d0"
+ ],
+ "picture": "A flat side view along a wide open transit concourse. On the far left, a glowing green moving walkway stretches forward. To its right, the boy stands clutching his dance bag containing the cassette. In the centre, a blue river hover ferry idles. On the far right, a yellow light-rail pod waits.",
+ "shown": [
+  "a glowing green moving walkway tunnel open and gliding on the far left",
+  "a docked blue river hover ferry with open doors waiting in the centre",
+  "a sleek yellow light-rail pod waiting at a raised platform on the far right"
+ ],
+ "view": "wide"
+}

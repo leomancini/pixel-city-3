@@ -1,0 +1,21 @@
+{
+ "id": "c12-d1-0-1",
+ "scene": "The locker door swings open, revealing secret transit passes and hidden tunnels.",
+ "options": [
+  "Board bento express",
+  "Board koi boat",
+  "Board garden tram"
+ ],
+ "next": [
+  "c12-d2",
+  "c12-d3",
+  "c12-d0"
+ ],
+ "picture": "A wide subterranean station cavern lined with bath tiles. Far left, an open locker reveals a shiny rail platform with a red express car. Centre, the grandfather in navy apron stands holding his bicycle. Far right, an orange koi boat bobs in tiled water. Up high, a mossy tram rests on tracks.",
+ "shown": [
+  "A steaming red railway car parked at an open track platform, left side",
+  "A giant orange koi-shaped boat idling in an indoor canal slip, far right",
+  "A vine-covered green cable tram resting on an inclined rail track, up high"
+ ],
+ "view": "wide"
+}

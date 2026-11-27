@@ -1,0 +1,21 @@
+{
+ "id": "c11-d1-2-0",
+ "scene": "Your coin clinks, tumbling out glowing soda cans and three neon transit tokens.",
+ "options": [
+  "Take karaoke lift",
+  "Board rail pod",
+  "Ride hover ferry"
+ ],
+ "next": [
+  "c11-d3",
+  "c11-d0",
+  "c11-d2"
+ ],
+ "picture": "Side-view wide shot along the arcade plaza edge. On the left stands an open glass elevator tower. Left of centre, the silver-haired boy stands by the humming soda machine holding drinks. At centre sits a docked light-rail pod. To the right, a glowing river hover ferry rocks gently at a dock.",
+ "shown": [
+  "a glowing glass lift waiting open on the left",
+  "a sleek light-rail pod docked at a centre platform",
+  "a floating river hover ferry moored along the right pier"
+ ],
+ "view": "wide"
+}

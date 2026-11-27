@@ -1,0 +1,21 @@
+{
+ "id": "c12-d1-0",
+ "scene": "Steam curls across tiled floors inside the bathhouse lobby, warm and quiet.",
+ "options": [
+  "Ring brass bell",
+  "Open wooden locker",
+  "Follow bath hallway"
+ ],
+ "next": [
+  "c12-d1-0-0",
+  "c12-d1-0-1",
+  "c12-d1-0-2"
+ ],
+ "picture": "Side-scrolling view of a bathhouse lobby on flat blue tile. Far left, shut wooden shoe lockers. Left, a tall wooden reception counter holding an untouched brass bell. Centre, the grandfather in navy apron stands holding his bicycle with plant crate. Right, a bubbling indoor footbath tub. Far right, an open arched hallway hung with red lanterns.",
+ "shown": [
+  "a shining brass bell sits silent on the tall counter at the left",
+  "a row of numbered wooden shoe lockers stands shut at the far left",
+  "an arched hallway strung with red lanterns stands open on the far right"
+ ],
+ "view": "wide"
+}

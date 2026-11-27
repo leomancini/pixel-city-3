@@ -1,0 +1,21 @@
+{
+ "id": "c12-d0-2",
+ "scene": "The caught brass drone squirts mist, chiming softly in your hands.",
+ "options": [
+  "Adjust drone dial",
+  "Follow water trail",
+  "Check fertilizer sacks"
+ ],
+ "next": [
+  "c12-d0-2-0",
+  "c12-d0-2-1",
+  "c12-d0-2-2"
+ ],
+ "picture": "Side view on the nursery terrace. The grandfather stands at the centre with his loaded bicycle, holding the buzzing brass drone. On the far left lie three fertilizer sacks next to a wooden rake. Up high drifts fine water mist. On the far right, a wet cobblestone ramp descends toward lower roofs.",
+ "shown": [
+  "The small brass drone held in your hands at the centre, clicking quietly.",
+  "A glistening wet cobblestone ramp leading down on the far right.",
+  "Three burlap fertilizer sacks stacked beside a wooden rake on the far left."
+ ],
+ "view": "wide"
+}

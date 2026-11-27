@@ -1,0 +1,21 @@
+{
+ "id": "c11-d3-0",
+ "scene": "You push into a private room filled with pink laser light.",
+ "options": [
+  "Grab gold mic",
+  "Inspect lyric screen",
+  "Open back window"
+ ],
+ "next": [
+  "c11-d3-0-0",
+  "c11-d3-0-1",
+  "c11-d3-0-2"
+ ],
+ "picture": "A flat side view of a neon-lit private karaoke room. On the far left, a golden microphone waits on its tall stand. Left of centre stands the player in mint hoodie with silver hair and dance bag. A glowing karaoke monitor sits in the centre, while a shut sliding glass window spans the far right.",
+ "shown": [
+  "a gleaming golden microphone on a stand at the far left",
+  "a glowing cathode-ray karaoke monitor displaying glowing text in the centre",
+  "a sliding glass window latched shut on the far right"
+ ],
+ "view": "wide"
+}

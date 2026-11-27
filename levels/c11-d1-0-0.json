@@ -1,0 +1,21 @@
+{
+ "id": "c11-d1-0-0",
+ "scene": "The claw drops a glowing token that unlocks three transit gates outside.",
+ "options": [
+  "Board light-rail pod",
+  "Ride hover ferry",
+  "Take karaoke lift"
+ ],
+ "next": [
+  "c11-d0",
+  "c11-d2",
+  "c11-d3"
+ ],
+ "picture": "Along a single bottom ground line, a sleek magenta light-rail pod waits with open doors on the far left. The Korean teenage boy in a mint-green hoodie stands on the left holding a glowing token. A turquoise river hover ferry idles at a centre dock, beside an open glass karaoke lift on the far right.",
+ "shown": [
+  "A sleek magenta light-rail pod waiting on tracks on the far left",
+  "A turquoise river hover ferry idling by a dock at the centre",
+  "A glowing glass karaoke lift door standing open on the far right"
+ ],
+ "view": "wide"
+}

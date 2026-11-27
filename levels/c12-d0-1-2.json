@@ -1,0 +1,21 @@
+{
+ "id": "c12-d0-1-2",
+ "scene": "The plucked golden pinecone chimes softly, revealing three waiting sky departures.",
+ "options": [
+  "Board retro streetcar",
+  "Take bento express",
+  "Ride koi boat"
+ ],
+ "next": [
+  "c12-d1",
+  "c12-d2",
+  "c12-d3"
+ ],
+ "picture": "Pixel art flat side view. The grandfather stands right of centre holding a shining golden pinecone beside his bicycle. On the far left sits a green retro streetcar on sky-rails. At the centre, a bento express shuttle waits with open doors. On the far right, a wooden dock holds a painted koi-shaped boat.",
+ "shown": [
+  "a green retro streetcar parked with open doors on the far left tracks",
+  "a sleek bento express shuttle idling with an open hatch at the centre",
+  "a colourful koi-shaped boat floating tied to a bollard on the far right"
+ ],
+ "view": "wide"
+}

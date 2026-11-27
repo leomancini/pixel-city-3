@@ -1,0 +1,21 @@
+{
+ "id": "c11-d0-1-1",
+ "scene": "You slide the glass door open, revealing a bustling transit concourse.",
+ "options": [
+  "Ride karaoke lift",
+  "Step onto walkway",
+  "Board river ferry"
+ ],
+ "next": [
+  "c11-d3",
+  "c11-d1",
+  "c11-d2"
+ ],
+ "picture": "Along a level indoor concourse line, a glowing cylindrical glass karaoke lift sits open on the left. The silver-haired boy in a mint-green hoodie and headphones stands centre-left next to the opened glass doorway. A rolling neon moving walkway runs through the centre, and an idling hover ferry waits docked on the right.",
+ "shown": [
+  "a cylindrical glass karaoke lift with glowing musical notes waiting on the left",
+  "a pulsing neon moving walkway rolling forward in the centre",
+  "a sleek blue river hover ferry docked at a gangway on the right"
+ ],
+ "view": "wide"
+}

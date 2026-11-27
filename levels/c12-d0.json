@@ -1,0 +1,21 @@
+{
+ "id": "c12-d0",
+ "scene": "You step off the garden tram into the airy Bonsai Sky Nursery.",
+ "options": [
+  "Enter tea shed",
+  "Inspect pine bonsai",
+  "Catch watering drone"
+ ],
+ "next": [
+  "c12-d0-0",
+  "c12-d0-1",
+  "c12-d0-2"
+ ],
+ "picture": "Pixel art side-scrolling terrace under clear sky. On the far left sits the open green garden tram. The grandfather stands on a moss path beside his loaded plant bicycle. At the centre rises a giant potted bonsai pine. Up high hovers a brass watering drone. On the far right stands a smoking tea shed.",
+ "shown": [
+  "a rustic cedar tea shed with steaming chimney on the far right",
+  "a gnarled giant pine bonsai in a stone dish at the centre",
+  "a brass watering drone hovering with twin misting nozzles up high"
+ ],
+ "view": "wide"
+}

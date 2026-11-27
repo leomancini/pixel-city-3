@@ -1,0 +1,21 @@
+{
+ "id": "c10-d0-2",
+ "scene": "A neon octopus barista slides three shimmering drinks across the tea counter.",
+ "options": [
+  "Drink blue boba",
+  "Tip with token",
+  "Skate down ramp"
+ ],
+ "next": [
+  "c10-d0-2-0",
+  "c10-d0-2-1",
+  "c10-d0-2-2"
+ ],
+ "picture": "Side-scrolling view inside the glowing rooftop bubble-tea bar. On the far left, a blue boba cup sits on the counter. The player stands left of centre in her red jacket and white roller skates. Centre sits a brass cat-shaped tip jar beside the four-armed octopus barista. On the far right waits a checkered exit ramp.",
+ "shown": [
+  "a glowing blue cup with floating tapioca pearls on the counter far left",
+  "a brass cat-shaped tip jar sitting on the tea counter centre",
+  "a steep checkered exit ramp sloping downward on the far right"
+ ],
+ "view": "wide"
+}

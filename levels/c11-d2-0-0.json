@@ -1,0 +1,21 @@
+{
+ "id": "c11-d2-0-0",
+ "scene": "The tiny letter unfolds into a three-way transit pass across the city.",
+ "options": [
+  "Board dance pod",
+  "Step on walkway",
+  "Enter karaoke lift"
+ ],
+ "next": [
+  "c11-d0",
+  "c11-d1",
+  "c11-d3"
+ ],
+ "picture": "A flat side view along the bustling sky deck. On the far left sits a silver light-rail pod with open doors. Left of centre stands the silver-haired boy holding the glowing unfoldable transit pass, his chicken drone hovering nearby. In the centre stretches a moving walkway. Far right stands a glowing glass karaoke elevator.",
+ "shown": [
+  "a sleek silver light-rail pod idling at an open platform gate on the far left",
+  "a glowing turquoise moving walkway with yellow handrails running through the centre",
+  "a circular glass elevator with neon microphone decals waiting on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c11-d2-2-1",
+ "scene": "A shimmering neon carp drops a multi-transit pass right into your hands.",
+ "options": [
+  "Board dance pod",
+  "Take moving walkway",
+  "Enter karaoke lift"
+ ],
+ "next": [
+  "c11-d0",
+  "c11-d1",
+  "c11-d3"
+ ],
+ "picture": "A flat side view of the bright bridge platform. Far left, a sleek light-rail pod with open doors sits on a rail. Left of centre, the silver-haired boy in mint hoodie holds a glowing transit ticket. Centre, a moving walkway starts forward. Far right, an open glass karaoke elevator waits at its gate.",
+ "shown": [
+  "a sleek light-rail pod with open doors waiting on tracks far left",
+  "a glowing green moving walkway stretching forward at the centre",
+  "a cylindrical glass karaoke elevator with open doors on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c10-d0-0-0",
+ "scene": "Strapped with twin rocket thrusters, you zoom to the rooftop transit docks.",
+ "options": [
+  "Ride noodle monorail",
+  "Board cable car",
+  "Launch lantern balloon"
+ ],
+ "next": [
+  "c10-d1",
+  "c10-d2",
+  "c10-d3"
+ ],
+ "picture": "Side-scrolling view of a wide rooftop skyport platform. On the far left, a steaming noodle-cart monorail sits on an elevated track. In the centre, a green bamboo cable car hangs ready. To the right of it stands the player with smoking rocket thrusters. On the far right, a giant paper-lantern balloon bobs.",
+ "shown": [
+  "a giant ceramic noodle bowl monorail car on the far left",
+  "a woven bamboo cable car resting at the centre station",
+  "a glowing red paper-lantern hot-air balloon moored on the far right"
+ ],
+ "view": "wide"
+}

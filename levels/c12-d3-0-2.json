@@ -1,0 +1,21 @@
+{
+ "id": "c12-d3-0-2",
+ "scene": "The key unlocks three hidden transit portals along the canal workshop dock.",
+ "options": [
+  "Ride bento express",
+  "Board garden tram",
+  "Catch retro streetcar"
+ ],
+ "next": [
+  "c12-d2",
+  "c12-d0",
+  "c12-d1"
+ ],
+ "picture": "A flat side view along the wooden canal dock. On the left, a sleek bento express train waits on shiny tracks. In the centre, the grandfather stands holding his bicycle with its crate of plants. Up high overhead, a mossy garden tram rests on a wire. On the far right waits a retro green streetcar.",
+ "shown": [
+  "a sleek red bullet train carriage with steam vents on the left",
+  "a moss-roofed sky tram hooked to an overhead cable up high",
+  "a glowing green streetcar waiting on rails at the far right"
+ ],
+ "view": "wide"
+}

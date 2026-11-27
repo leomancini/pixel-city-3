@@ -1,0 +1,21 @@
+{
+ "id": "c10-d2-2-2",
+ "scene": "You skate up to the breezy pagoda rooftop overlooking three distinct exits.",
+ "options": [
+  "Ride noodle monorail",
+  "Board lantern balloon",
+  "Take rooftop escalator"
+ ],
+ "next": [
+  "c10-d1",
+  "c10-d3",
+  "c10-d0"
+ ],
+ "picture": "Side-view on a breezy wooden pagoda roof platform. Far left, a steaming yellow noodle-cart monorail waits on sleek tracks. The player on white roller skates stands centre. Right, a giant red paper-lantern hot air balloon floats gently on a tether. Far right, an illuminated glass escalator climbs upward into the night sky.",
+ "shown": [
+  "a yellow noodle-cart monorail car waiting on rails at the far left",
+  "a giant glowing paper-lantern hot air balloon tethered on the right",
+  "a humming neon escalator leading upward at the far right"
+ ],
+ "view": "wide"
+}

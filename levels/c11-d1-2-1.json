@@ -1,0 +1,21 @@
+{
+ "id": "c11-d1-2-1",
+ "scene": "The machine dispenses a dazzling soda, unlocking transport gates along the arcade.",
+ "options": [
+  "Ride light-rail pod",
+  "Board hover ferry",
+  "Enter karaoke lift"
+ ],
+ "next": [
+  "c11-d0",
+  "c11-d2",
+  "c11-d3"
+ ],
+ "picture": "A flat side view along a glowing outdoor transit concourse. On the left, a light-rail pod idles with doors open. In the centre, a river hover ferry bobs beside the pier. Further right stands the boy holding a glowing soda can, his dance bag over his shoulder. On the right, a glass karaoke lift waits.",
+ "shown": [
+  "A sleek glowing light-rail pod idling with open doors on the left",
+  "A docked neon river hover ferry tied to the boardwalk in the centre",
+  "A glowing glass karaoke lift waiting with open doors on the right"
+ ],
+ "view": "wide"
+}

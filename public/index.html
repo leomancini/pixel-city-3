@@ -104,8 +104,7 @@
   }
   /* While loading, the previous picture is hidden entirely: the whole screen,
      rim included, is the shimmer's dark blue. */
-  .frame.loading { background: #0a0e28; }
-  .frame.loading #canvas { opacity: 0; }
+  .frame.loading { background: #000; }
   /* Halftone shimmer sweeping across the picture while the next level
      loads; drawn from script (drawShimmer) in the backdrop's dot style. */
   #shimmer {
@@ -119,7 +118,6 @@
     border-radius: calc(var(--radius) - 3px);
     opacity: 1;
   }
-  .frame.loading #shimmer { display: block; }
   /* Black dither that covers the picture between steps (ditherTo). */
   #fade {
     position: absolute;
@@ -365,7 +363,6 @@
       }
     }
   }
-  requestAnimationFrame(drawShimmer);
 
   // Phone layout: the screen is the column's width, and as tall as that (square)
   // unless the height left over once the card has a bare minimum and the
@@ -604,11 +601,12 @@
   let fadeSeed = 1;         // new grain for every transition
   // Repeatable random value in 0..1 for a cell, so a cell that has turned
   // black stays black for the rest of that transition.
-  function noise(x, y) {
-    let n = Math.imul(x + 1, 374761393) ^ Math.imul(y + 1, 668265263) ^ Math.imul(fadeSeed, 2147483647);
+  function hash(x, y, seed) {
+    let n = Math.imul(x + 1, 374761393) ^ Math.imul(y + 1, 668265263) ^ Math.imul(seed, 2147483647);
     n = Math.imul(n ^ (n >>> 13), 1274126177);
     return ((n ^ (n >>> 16)) >>> 0) / 4294967296;
   }
+  const noise = (x, y) => hash(x, y, fadeSeed);
   let covered = 0;      // 0 = picture fully visible, FADE_STEPS = all black
   let fadeRun = 0;
 
@@ -620,17 +618,46 @@
     fadeEl.height = h;
     if (!covered) return;
     fadeCtx.fillStyle = "#000";
-    if (covered >= FADE_STEPS) return fadeCtx.fillRect(0, 0, w, h);
+    if (covered >= FADE_STEPS && !glowing) return fadeCtx.fillRect(0, 0, w, h);
     const cell = HALFTONE_CELL * dpr;
     const limit = covered / FADE_STEPS;
-    for (let y = 0; y * cell < h; y++) {
-      for (let x = 0; x * cell < w; x++) {
+    const cols = Math.ceil(w / cell);
+    const rows = Math.ceil(h / cell);
+    // While loading, a band of blue grain sweeps across the black cells: the
+    // same blocks and the same grain as the fade, so when the picture arrives
+    // it simply dithers in through them.
+    const slant = 0.3;
+    const band = cols * 0.5;
+    const phase = (Math.floor(performance.now() / GLOW_STEP_MS) * GLOW_STEP_MS % GLOW_PERIOD) / GLOW_PERIOD;
+    const centre = phase * (cols + rows * slant + band * 2) - band;
+    for (let y = 0; y < rows; y++) {
+      for (let x = 0; x < cols; x++) {
         // Ordered dither roughened with noise, so the grid breaks up into grain.
         const ordered = (BAYER[(y & 7) * 8 + (x & 7)] + 0.5) / 64;
         const level = ordered * (1 - FADE_NOISE) + noise(x, y) * FADE_NOISE;
-        if (level < limit) fadeCtx.fillRect(x * cell, y * cell, cell, cell);
+        if (level >= limit) continue;
+        let colour = "#000";
+        if (glowing) {
+          const near = stillMotion.matches ? 0.3 : Math.max(0, 1 - Math.abs(x + (rows - y) * slant - centre) / band) ** 1.5;
+          const grain = hash(x, y, 7);
+          if (grain < 0.04 + near * 0.55) colour = grain < near * 0.2 ? "#3a5fd0" : "#1b2f7a";
+        }
+        fadeCtx.fillStyle = colour;
+        fadeCtx.fillRect(x * cell, y * cell, cell, cell);
       }
     }
+  }
+
+  // The loading glow: on while a level is being fetched, redrawn in steps.
+  const GLOW_PERIOD = 1800;
+  const GLOW_STEP_MS = 60;
+  let glowing = false;
+  let glowTimer = null;
+  function setGlow(on) {
+    glowing = on;
+    clearInterval(glowTimer);
+    glowTimer = on && !stillMotion.matches ? setInterval(drawFade, GLOW_STEP_MS) : null;
+    drawFade();
   }
   new ResizeObserver(drawFade).observe(fadeEl);
 
@@ -663,11 +690,11 @@
     }
     const waiting = !ahead?.ready;
     if (waiting) {
-      // The loading shimmer shows through, so lift the black cover.
+      // Stay black, and let the loading glow play across it.
       fadeRun += 1;
-      covered = 0;
-      drawFade();
+      covered = FADE_STEPS;
       frameEl.classList.add("loading");
+      setGlow(true);
       optionsEl.innerHTML = "";
       actions = [];
       setScene(level === 0 ? "Entering the city" : "Level " + (level + 1) + " loading", true);
@@ -685,6 +712,7 @@
       if (waiting) setScene("", true), sceneEl.classList.remove("blink");
       // Typing starts only once the picture has finished dithering in.
       await ditherTo(false);
+      setGlow(false);
       level += 1;
       // The session's first level greets the player before its scene, and
       // asks the question that teaches how to play.
@@ -692,6 +720,7 @@
       const next = prefetch(data.next);
       showOptions(data.options.map((text, i) => ({ label: text, action: () => play(data.next[i], next[i]) })));
     } catch (err) {
+      setGlow(false);
       setScene("Something went wrong: " + err.message);
       showOptions([{ label: "Try again", action: () => play(id) }]);
     } finally {

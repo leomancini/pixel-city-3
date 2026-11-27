@@ -1,0 +1,21 @@
+{
+ "id": "c10-d3-0-2",
+ "scene": "Inside the vibrant dragon workshop, three transit exits beckon across the floor.",
+ "options": [
+  "Take cable car",
+  "Ride rooftop escalator",
+  "Board noodle monorail"
+ ],
+ "next": [
+  "c10-d2",
+  "c10-d0",
+  "c10-d1"
+ ],
+ "picture": "Side-scrolling view inside the wide dragon workshop. On the far left hangs an open bamboo cable car. On the left rises a neon-lit rooftop escalator. In the centre you stand in your red bomber jacket on white roller skates. On the far right waits a steaming noodle-cart monorail on a rail.",
+ "shown": [
+  "a hanging green bamboo cable car waiting open on the far left",
+  "a glowing neon rooftop escalator moving upward on the left",
+  "a steaming noodle-cart monorail idling at a platform on the far right"
+ ],
+ "view": "wide"
+}

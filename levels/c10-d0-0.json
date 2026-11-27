@@ -1,0 +1,21 @@
+{
+ "id": "c10-d0-0",
+ "scene": "The rental robot beeps, opening a shiny chest compartment full of gadgets.",
+ "options": [
+  "Grab rocket boost",
+  "Take neon visor",
+  "Skate down ramp"
+ ],
+ "next": [
+  "c10-d0-0-0",
+  "c10-d0-0-1",
+  "c10-d0-0-2"
+ ],
+ "picture": "Flat side-scrolling view of the rooftop rink. On the left, the yellow rental robot stands with its chest door hinged wide open. In the centre, the player in red bomber jacket and white roller skates looks inside. On the far right, a brightly lit checkered exit ramp leads downward.",
+ "shown": [
+  "a glowing rocket-wheel attachment clamped on the left side of the robot's chest",
+  "a pulsing green neon visor lying on the right side of the chest",
+  "a checkered downward exit ramp sloping away on the far right"
+ ],
+ "view": "wide"
+}

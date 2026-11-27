@@ -1,0 +1,21 @@
+{
+ "id": "c11-d0-1-0",
+ "scene": "You catch the shimmering token as travel gates unlock across the concourse.",
+ "options": [
+  "Board hover ferry",
+  "Enter karaoke lift",
+  "Take moving walkway"
+ ],
+ "next": [
+  "c11-d2",
+  "c11-d3",
+  "c11-d1"
+ ],
+ "picture": "Along a level concourse line, a sleek river hover ferry waits at a pier on the far left. The silver-haired boy in a mint hoodie and big headphones stands centre-left holding a glowing token. A glass karaoke lift sits open in the centre. A neon moving walkway glides forward on the far right.",
+ "shown": [
+  "a sleek river hover ferry waiting at a pier on the far left",
+  "a glowing glass karaoke lift standing open in the centre",
+  "a flat neon moving walkway rolling forward on the far right"
+ ],
+ "view": "wide"
+}

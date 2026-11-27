@@ -1,0 +1,21 @@
+{
+ "id": "c12-d1-1-1",
+ "scene": "Inside the bathhouse lobby, three departure docks lead out across the city.",
+ "options": [
+  "Board koi boat",
+  "Take garden tram",
+  "Ride bento express"
+ ],
+ "next": [
+  "c12-d3",
+  "c12-d0",
+  "c12-d2"
+ ],
+ "picture": "Side-scrolling view of a tiled bathhouse transit lobby along one floor line. At far left, a wooden koi boat floats in an indoor canal. The grandfather stands with his bicycle and plant crate at centre. Overhead, a mossy garden tram rests on an arched high track. On far right sits the yellow bento express.",
+ "shown": [
+  "a sleek carved wooden koi boat bobbing in the water dock at far left",
+  "a green moss-roofed garden tram waiting at an open platform archway up high",
+  "a gleaming yellow bullet-nosed bento express train idling at a ticket gate on far right"
+ ],
+ "view": "wide"
+}

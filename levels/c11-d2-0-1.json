@@ -1,0 +1,21 @@
+{
+ "id": "c11-d2-0-1",
+ "scene": "The giant pink cat leads you directly to the transit concourse.",
+ "options": [
+  "Ride moving walkway",
+  "Enter karaoke lift",
+  "Board rail pod"
+ ],
+ "next": [
+  "c11-d1",
+  "c11-d3",
+  "c11-d0"
+ ],
+ "picture": "A flat side view along the transit concourse. Left shows the entrance of a glowing blue moving walkway. The silver-haired boy with dance bag and perched chicken drone stands left of center beside the fading holographic cat. Center stands an open disco-lit glass elevator. Far right sits a sleek red light-rail pod on rails.",
+ "shown": [
+  "a flat glowing blue moving walkway on the left, humming quietly",
+  "an open glass elevator lit with disco lights in the center",
+  "a sleek red light-rail pod waiting on tracks at the far right"
+ ],
+ "view": "wide"
+}

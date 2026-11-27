@@ -1,0 +1,21 @@
+{
+ "id": "c12-d2-1-1",
+ "scene": "You ride the escalator up to the busy, sunlit street-level transit plaza.",
+ "options": [
+  "Board koi boat",
+  "Catch garden tram",
+  "Take retro streetcar"
+ ],
+ "next": [
+  "c12-d3",
+  "c12-d0",
+  "c12-d1"
+ ],
+ "picture": "Flat side view of the wide sunlit transit plaza along one ground line. Far left, a koi-shaped boat floats at a canal dock. Left of centre, the grandfather with his bicycle, plant crate, and tied bento parcel. Centre, an ivy-draped garden tram waits. Far right, a shiny red streetcar sits beside its signpost.",
+ "shown": [
+  "A carved wooden koi-shaped boat moored at a stone dock on the far left.",
+  "A green tram covered in climbing ivy with open doors at the centre.",
+  "A bright red vintage streetcar waiting at a platform on the far right."
+ ],
+ "view": "wide"
+}

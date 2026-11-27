@@ -1,0 +1,21 @@
+{
+ "id": "c10-d2-2",
+ "scene": "You skate across the wobbling bridge into an airy pagoda garden.",
+ "options": [
+  "Ring bronze bell",
+  "Examine stone lantern",
+  "Climb pagoda stairs"
+ ],
+ "next": [
+  "c10-d2-2-0",
+  "c10-d2-2-1",
+  "c10-d2-2-2"
+ ],
+ "picture": "Side-view on a mossy flagstone path. Far left hangs a giant bronze bell with a wooden striker. To its right, a weeping willow drapes over a koi pond. The player in her red bomber jacket stands centre on white roller skates. Right sits a glowing stone lantern. Far right rise pagoda stairs.",
+ "shown": [
+  "a giant bronze temple bell hanging silently far left",
+  "a carved stone lantern glowing with blue fire on the right",
+  "steep wooden stairs leading up into a red pagoda far right"
+ ],
+ "view": "wide"
+}

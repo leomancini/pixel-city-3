@@ -1,0 +1,21 @@
+{
+ "id": "c12-d1-2-2",
+ "scene": "Inside the bathhouse lobby, three ticket desks offer departures across the city.",
+ "options": [
+  "Ride bento express",
+  "Board koi boat",
+  "Catch garden tram"
+ ],
+ "next": [
+  "c12-d2",
+  "c12-d3",
+  "c12-d0"
+ ],
+ "picture": "Flat side-scrolling view inside the tiled bathhouse lobby. On the far left is the blue entrance curtain. To the left sits a steel counter displaying bento tickets. The grandfather stands holding his bicycle with plants beside an open canal gate showing a floating koi boat. On the right stands a turnstile leading toward the garden tram.",
+ "shown": [
+  "a steel ticket counter with a bento express timetable on the left",
+  "an open canal gate with a moored wooden koi boat at centre",
+  "a green departure turnstile leading to the garden tram on the right"
+ ],
+ "view": "wide"
+}

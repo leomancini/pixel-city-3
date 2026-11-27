@@ -1,0 +1,21 @@
+{
+ "id": "c11-d0-1",
+ "scene": "The shimmering blue hologram mirrors your signature popping moves, dropping a glowing token.",
+ "options": [
+  "Catch glowing token",
+  "Slide open door",
+  "Inspect sound board"
+ ],
+ "next": [
+  "c11-d0-1-0",
+  "c11-d0-1-1",
+  "c11-d0-1-2"
+ ],
+ "picture": "Along a level pavement line, an illuminated synthesizer console is set on the left. The silver-haired boy in a mint-green hoodie with large headphones and dance bag stands centre-left, watching a sparkling blue hologram instructor dance in the centre as a neon token drops. A closed glass sliding door is on the right.",
+ "shown": [
+  "a pulsing neon dance token spinning in mid-air in the centre",
+  "a sliding glass dance studio door standing closed on the right",
+  "an illuminated synthesizer console set into the wall on the left"
+ ],
+ "view": "wide"
+}

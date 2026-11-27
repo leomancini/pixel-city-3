@@ -1,0 +1,21 @@
+{
+ "id": "c10-d3-2-2",
+ "scene": "The friendly artisan bows, presenting three distinct transit tickets.",
+ "options": [
+  "Ride noodle monorail",
+  "Take cable car",
+  "Climb rooftop escalator"
+ ],
+ "next": [
+  "c10-d1",
+  "c10-d2",
+  "c10-d0"
+ ],
+ "picture": "Side view along a level wooden veranda. Far left, a yellow noodle-cart monorail idles at a dock. Left, you stand in your red jacket and roller skates. Centre, an apron-wearing lizard artisan happily bows behind a travel desk. Right, a woven bamboo cable car hangs ready. Far right, an ascending neon escalator hums upward.",
+ "shown": [
+  "a steaming noodle-cart monorail idling at a raised platform on the far left",
+  "a round bamboo cable car suspended from a wire on the right",
+  "a glowing rooftop escalator leading up through an archway on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c12-d2-2",
+ "scene": "The brass clock chimes, releasing a tiny fluttering mechanical hummingbird.",
+ "options": [
+  "Catch the bird",
+  "Examine fallen key",
+  "Exit via turnstile"
+ ],
+ "next": [
+  "c12-d2-2-0",
+  "c12-d2-2-1",
+  "c12-d2-2-2"
+ ],
+ "picture": "A flat side-scrolling platform view. On the far left, a dropped golden winding key glints on the platform floor. Centre, the moustachioed grandfather in navy apron looks up beside his plant-laden bicycle. Up high, a mechanical brass hummingbird hovers near the ornate ticking clock. On the far right, an ornate brass turnstile gate stands closed.",
+ "shown": [
+  "a tiny mechanical brass hummingbird fluttering up high beneath the station arches",
+  "a dropped golden winding key lying on the ground at the far left",
+  "an ornate brass turnstile gate waiting closed on the far right"
+ ],
+ "view": "wide"
+}

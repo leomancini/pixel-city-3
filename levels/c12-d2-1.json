@@ -1,0 +1,21 @@
+{
+ "id": "c12-d2-1",
+ "scene": "The vendor hands you a steaming, leaf-wrapped parcel tied with striped twine.",
+ "options": [
+  "Untie the bento",
+  "Board escalator up",
+  "Pet sleepy badger"
+ ],
+ "next": [
+  "c12-d2-1-0",
+  "c12-d2-1-1",
+  "c12-d2-1-2"
+ ],
+ "picture": "Flat side view on the platform. Far left sits an iron crate where a striped badger naps. Centre stands the grandfather in navy apron holding his bicycle with plant crate, clutching a leaf-wrapped bento parcel. Right, the vendor waves behind his counter. Far right, a brass escalator rises up to the street.",
+ "shown": [
+  "a steaming leaf-wrapped lunchbox held in the player's hands at the centre",
+  "a gleaming brass escalator rising towards city streets on the far right",
+  "a curled, striped badger napping atop an iron crate on the left"
+ ],
+ "view": "wide"
+}

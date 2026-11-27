@@ -1,0 +1,21 @@
+{
+ "id": "c11-d1-1-1",
+ "scene": "The tipped robot bows, flashing neon exit tokens onto the rear concourse.",
+ "options": [
+  "Ride karaoke lift",
+  "Board light-rail pod",
+  "Take hover ferry"
+ ],
+ "next": [
+  "c11-d3",
+  "c11-d0",
+  "c11-d2"
+ ],
+ "picture": "Side-scrolling view of the arcade exit concourse. On the far left stands an open glass karaoke lift glowing neon pink. To its right, the boy with silver hair and dance bag holds a pass. In the centre waits a magenta light-rail pod at a platform. On the far right, a yellow river hover ferry docks.",
+ "shown": [
+  "a glowing glass karaoke lift tube with open sliding doors on the far left",
+  "a sleek magenta light-rail pod waiting at a platform gate in the centre",
+  "a floating yellow river hover ferry tied to a pier on the far right"
+ ],
+ "view": "wide"
+}

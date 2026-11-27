@@ -1,0 +1,21 @@
+{
+ "id": "c12-d2-2-1",
+ "scene": "The ornate key opens three glowing transit gates along the concourse.",
+ "options": [
+  "Ride garden tram",
+  "Take retro streetcar",
+  "Board koi boat"
+ ],
+ "next": [
+  "c12-d0",
+  "c12-d1",
+  "c12-d3"
+ ],
+ "picture": "A flat side-view station concourse. On the far left, the grandfather in navy apron stands holding his bicycle with plant crate. To the left, a green leaf-roofed garden tram sits at its bay. In the centre, a red retro streetcar rests on rails. On the right, a bright koi-shaped boat floats docked at water.",
+ "shown": [
+  "a green leaf-roofed garden tram waiting open at a platform, on the left",
+  "a red wooden streetcar waiting with doors ajar, in the centre",
+  "a carved koi-shaped passenger boat tied to the canal edge, on the right"
+ ],
+ "view": "wide"
+}

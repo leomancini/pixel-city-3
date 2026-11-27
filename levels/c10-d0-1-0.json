@@ -1,0 +1,21 @@
+{
+ "id": "c10-d0-1-0",
+ "scene": "You land smoothly on the glass bridge where three whimsical transports wait.",
+ "options": [
+  "Board cable car",
+  "Climb into balloon",
+  "Enter noodle monorail"
+ ],
+ "next": [
+  "c10-d2",
+  "c10-d3",
+  "c10-d1"
+ ],
+ "picture": "Flat side-scrolling view along a glowing glass sky-bridge. The player stands left-centre in her red jacket and white skates. On the far left hangs an open bamboo cable car. In the centre floats a moored red paper-lantern balloon. On the far right sits a noodle-cart monorail with open passenger sliding doors.",
+ "shown": [
+  "A woven bamboo cable car with open doors idling on the far left.",
+  "A glowing paper-lantern hot air balloon tethered to the centre railing.",
+  "A steaming noodle-cart monorail train waiting by a sign on the far right."
+ ],
+ "view": "wide"
+}

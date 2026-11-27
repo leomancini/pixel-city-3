@@ -1,0 +1,21 @@
+{
+ "id": "c10-d2-2-1",
+ "scene": "The lantern slides open, revealing transit tokens and three waiting departures.",
+ "options": [
+  "Ride rooftop escalator",
+  "Board noodle monorail",
+  "Enter lantern balloon"
+ ],
+ "next": [
+  "c10-d0",
+  "c10-d1",
+  "c10-d3"
+ ],
+ "picture": "Side-view on an open garden terrace. Far left rises a glowing escalator heading up. Left stands the slid-open stone lantern. The player stands beside it in red jacket and skates. Centre rests an open noodle-bowl monorail car on rails. Far right floats a tethered paper-lantern hot-air balloon basket.",
+ "shown": [
+  "a humming glass escalator climbing upward on the far left",
+  "a steaming bowl-shaped monorail carriage docked in the centre",
+  "a tethered red paper balloon basket waiting on the far right"
+ ],
+ "view": "wide"
+}

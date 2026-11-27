@@ -1,0 +1,21 @@
+{
+ "id": "c11-d0-2-1",
+ "scene": "The breakdancer bot bleeps happily and projects three neon exit transit routes.",
+ "options": [
+  "Ride moving walkway",
+  "Board hover ferry",
+  "Take karaoke lift"
+ ],
+ "next": [
+  "c11-d1",
+  "c11-d2",
+  "c11-d3"
+ ],
+ "picture": "Along a flat rooftop edge, the silver-haired boy in a mint-green hoodie stands centre-left facing the cheering chrome robot. On the far left, a glowing pink moving walkway opens toward Starlight Arcade. Up high centre, a glass karaoke lift waits. On the far right, a docked river hover ferry floats beside the roof edge.",
+ "shown": [
+  "a humming pink moving walkway entrance with an arcade sign on the left",
+  "a docked floating hover ferry glowing blue on the far right",
+  "a round glass elevator lit up with musical notes up high centre"
+ ],
+ "view": "wide"
+}

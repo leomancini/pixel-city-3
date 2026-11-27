@@ -1,0 +1,21 @@
+{
+ "id": "c10-d2-2-0",
+ "scene": "The resonant gong summons three bizarre transit lines to the pagoda terrace.",
+ "options": [
+  "Board lantern balloon",
+  "Ride rooftop escalator",
+  "Catch noodle monorail"
+ ],
+ "next": [
+  "c10-d3",
+  "c10-d0",
+  "c10-d1"
+ ],
+ "picture": "Side-view on the wide flagstone terrace. At far left, a giant paper-lantern balloon floats tethered to a stone post. Left, the bronze bell still vibrates slightly. Centre stands the player in her red bomber jacket. Right, a bright escalator heads up. Far right, an open noodle-cart monorail sits waiting on a slim rail.",
+ "shown": [
+  "a huge glowing paper-lantern balloon tethered with ropes at the far left",
+  "a neon-lit outdoor escalator rising sharply towards the sky on the right",
+  "a steam-venting noodle-cart monorail idling at a track platform far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c12-d1-1",
+ "scene": "The squat vending machine dispenses a chilled glass bottle of sweet milk.",
+ "options": [
+  "Drink the milk",
+  "Enter the bathhouse",
+  "Inspect steaming drain"
+ ],
+ "next": [
+  "c12-d1-1-0",
+  "c12-d1-1-1",
+  "c12-d1-1-2"
+ ],
+ "picture": "Flat side-scrolling view along a level stone street. On the left hangs the blue noren curtain over the bathhouse entrance. At centre, the grandfather in his navy apron holds his bicycle and a cold glass milk bottle beside the brass robot vendor. On the right, steam puffs from a round brass street grate.",
+ "shown": [
+  "a capped glass milk bottle held in grandfather's hand at centre",
+  "a doorway draped with blue noren curtains on the left",
+  "a brass grate venting thick warm steam on the right"
+ ],
+ "view": "wide"
+}

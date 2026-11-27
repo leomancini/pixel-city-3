@@ -1,0 +1,21 @@
+{
+ "id": "c11-d0-0-1",
+ "scene": "The booth screen flashes, dispensing travel passes onto a busy boardwalk terrace.",
+ "options": [
+  "Board hover ferry",
+  "Enter glass lift",
+  "Step on walkway"
+ ],
+ "next": [
+  "c11-d2",
+  "c11-d3",
+  "c11-d1"
+ ],
+ "picture": "Side-scrolling view of an elevated boardwalk terrace. On the far left, a sleek river hover ferry floats beside an open gangway. Left of centre, the silver-haired boy in mint-green hoodie and headphones steps forward holding a fresh ticket. In the centre waits an open glass lift. On the far right stretches a moving walkway.",
+ "shown": [
+  "a glowing river hover ferry docked with an open boarding ramp, on the far left",
+  "a tall glass karaoke lift waiting with open glowing doors, in the centre",
+  "an illuminated moving walkway rolling forward past arcade signs, on the far right"
+ ],
+ "view": "wide"
+}

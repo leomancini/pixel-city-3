@@ -1,0 +1,21 @@
+{
+ "id": "c10-d0-1",
+ "scene": "Mid-air, you grab the disco drone as it swings you toward a sky-bridge.",
+ "options": [
+  "Drop to bridge",
+  "Climb onto drone",
+  "Slide down wire"
+ ],
+ "next": [
+  "c10-d0-1-0",
+  "c10-d0-1-1",
+  "c10-d0-1-2"
+ ],
+ "picture": "Flat side-scrolling view high above rooftops. The player in red bomber jacket and white roller skates dangles centre from a glittering disco-ball drone hovering up high. On the far left, a slanting glowing cable descends. To the right along the lower level stretches an illuminated, transparent glass sky-bridge walkway.",
+ "shown": [
+  "a glass sky-bridge walkway stretching across the ground line on the right",
+  "the whirring mirrored drone directly overhead, clutching its dangling silver harness",
+  "a glowing neon power cable slanting downward to the far left"
+ ],
+ "view": "wide"
+}

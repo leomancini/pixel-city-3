@@ -1,0 +1,21 @@
+{
+ "id": "c12-d1-2-1",
+ "scene": "Rooftops overlook Bathhouse Chimney Street, where three curious departures await your journey.",
+ "options": [
+  "Board garden tram",
+  "Take bento express",
+  "Board koi boat"
+ ],
+ "next": [
+  "c12-d0",
+  "c12-d2",
+  "c12-d3"
+ ],
+ "picture": "A flat rooftop boardwalk running left to right under chimney steam. On the far left sits a green ivy-draped tram on elevated rails. To the left stands the grandfather pushing his bicycle with potted plants. In the centre waits a red bento-shaped monorail carriage with open doors. On the far right, a giant wooden koi boat bobs in an elevated aqueduct.",
+ "shown": [
+  "a green tram car covered in flowering ivy parked at the far left platform",
+  "a shiny red bento-shaped monorail carriage with doors open in the centre",
+  "a large koi-shaped boat moored at the rooftop canal lock on the far right"
+ ],
+ "view": "wide"
+}

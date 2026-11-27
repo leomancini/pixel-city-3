@@ -1,0 +1,21 @@
+{
+ "id": "c11-d3-0-2",
+ "scene": "Cool night air rushes in as you step onto the high balcony.",
+ "options": [
+  "Board hover ferry",
+  "Ride light-rail pod",
+  "Take moving walkway"
+ ],
+ "next": [
+  "c11-d2",
+  "c11-d0",
+  "c11-d1"
+ ],
+ "picture": "A flat side view along the tower terrace. On the far left, a sleek river hover ferry idles by a dock bumper. Left of centre stands the silver-haired player in his mint-green hoodie with headphones and dance bag. Right of centre, an open light-rail pod waits on glowing tracks. On the far right, a luminous moving walkway glides forward.",
+ "shown": [
+  "a sleek river hover ferry floating beside the pier landing at far left",
+  "a glowing monorail pod waiting with open doors right of centre",
+  "an illuminated mechanical moving walkway stretching out along the far right"
+ ],
+ "view": "wide"
+}

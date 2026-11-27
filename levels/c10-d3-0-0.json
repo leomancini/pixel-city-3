@@ -1,0 +1,21 @@
+{
+ "id": "c10-d3-0-0",
+ "scene": "The robot whistles cheerfully, unlocking three transit gates along the roof.",
+ "options": [
+  "Ride rooftop escalator",
+  "Board noodle monorail",
+  "Catch bamboo car"
+ ],
+ "next": [
+  "c10-d0",
+  "c10-d1",
+  "c10-d2"
+ ],
+ "picture": "Side-scrolling view along the rooftop transit deck. On the far left, a neon escalator climbs upward. To the left, the brass robot waves happily. In the centre, you stand on roller skates. On the right, a steaming noodle-cart monorail waits. On the far right, a green bamboo cable car hangs ready.",
+ "shown": [
+  "a gleaming neon rooftop escalator running upward on the far left",
+  "a bowl-shaped noodle-cart monorail idling at a platform on the right",
+  "a green bamboo cable car dangling open on the far right"
+ ],
+ "view": "wide"
+}

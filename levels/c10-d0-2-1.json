@@ -1,0 +1,21 @@
+{
+ "id": "c10-d0-2-1",
+ "scene": "The brass cat chimes happily, revealing three transit platforms off the edge.",
+ "options": [
+  "Ride noodle monorail",
+  "Board cable car",
+  "Climb lantern balloon"
+ ],
+ "next": [
+  "c10-d1",
+  "c10-d2",
+  "c10-d3"
+ ],
+ "picture": "Side-scrolling view along the rooftop transit deck. On the far left waits a noodle-cart monorail on a glowing track. Left of centre, the player stands on roller skates beside the glowing cat-shaped jar. On the right dangles an open bamboo cable car. On the far right is moored a luminous paper-lantern balloon basket.",
+ "shown": [
+  "a steaming noodle-cart monorail idling at its rail platform on the far left",
+  "a green bamboo cable car dangling from an overhead wire on the right",
+  "a giant glowing paper-lantern hot-air balloon moored on the far right"
+ ],
+ "view": "wide"
+}

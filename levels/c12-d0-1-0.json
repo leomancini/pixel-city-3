@@ -1,0 +1,21 @@
+{
+ "id": "c12-d0-1-0",
+ "scene": "High in the pine needles, three scenic transit decks stretch below.",
+ "options": [
+  "Ride bento express",
+  "Board koi boat",
+  "Catch retro streetcar"
+ ],
+ "next": [
+  "c12-d2",
+  "c12-d3",
+  "c12-d1"
+ ],
+ "picture": "Pixel art flat side view. The grandfather stands on a wooden branch platform pushing his bicycle with plant crate. Far left, a sleek bento express train waits on an aerial track. At the centre, a koi-shaped boat floats beside a mooring post. Far right, a red retro streetcar idles at a rooftop stop.",
+ "shown": [
+  "A sleek bullet train with an open door waiting on tracks far left",
+  "A wooden koi-shaped boat floating by a small pier at the centre",
+  "A red retro streetcar idling with doors open on rails far right"
+ ],
+ "view": "wide"
+}

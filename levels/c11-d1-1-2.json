@@ -1,0 +1,21 @@
+{
+ "id": "c11-d1-1-2",
+ "scene": "You climb to the windy rooftop transit interchange overlooking the pixel city.",
+ "options": [
+  "Board light-rail pod",
+  "Take hover ferry",
+  "Enter karaoke lift"
+ ],
+ "next": [
+  "c11-d0",
+  "c11-d2",
+  "c11-d3"
+ ],
+ "picture": "Side-scrolling view of a wide rooftop terminal. At the far left, a yellow light-rail pod sits with doors open. Left of centre stands the silver-haired boy in his mint-green hoodie and headphones, dance bag slung over his shoulder. Right of centre, a blue hover ferry docks. On the far right stands a glass karaoke lift.",
+ "shown": [
+  "a sleek yellow light-rail pod waiting on tracks at the far left",
+  "a blue river hover ferry docked at a glowing platform on the right",
+  "a glowing glass karaoke lift with open doors on the far right"
+ ],
+ "view": "wide"
+}

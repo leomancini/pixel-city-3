@@ -1,0 +1,21 @@
+{
+ "id": "c11-d1-0",
+ "scene": "The neon claw cabinet lights up, rattling over a heap of prizes.",
+ "options": [
+  "Wiggle red joystick",
+  "Smack drop button",
+  "Inspect prize chute"
+ ],
+ "next": [
+  "c11-d1-0-0",
+  "c11-d1-0-1",
+  "c11-d1-0-2"
+ ],
+ "picture": "First-person close-up view through the cabinet glass. Suspended up high hangs a three-pronged metal claw above colourful robotic hamster plushies. On the lower left console sits a bright red joystick. On the right console glows a large round yellow button. The dark rectangular prize chute flap rests below on the far right.",
+ "shown": [
+  "a blinking red joystick sticking out on the lower left console",
+  "a massive flashing circular button glowing yellow on the right console",
+  "a dark flap on the far right bottom corner waiting empty"
+ ],
+ "view": "close"
+}

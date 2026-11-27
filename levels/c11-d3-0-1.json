@@ -1,0 +1,21 @@
+{
+ "id": "c11-d3-0-1",
+ "scene": "The karaoke screen suddenly flashes three transit routes across Pixel City.",
+ "options": [
+  "Ride moving walkway",
+  "Board river ferry",
+  "Catch light pod"
+ ],
+ "next": [
+  "c11-d1",
+  "c11-d2",
+  "c11-d0"
+ ],
+ "picture": "A close-up view of the glowing karaoke monitor screen. On the left shines a digital blue gateway icon marked for Starlight Convenience Arcade. In the centre rests a glowing cyan hover ferry transit card. On the right flashes a neon-yellow rail-pod pass for Hologram Dance Studio Row. The player's hands rest near the bottom.",
+ "shown": [
+  "a blinking blue gateway icon for the arcade walkway on the screen's left",
+  "a cyan river hover ferry ticket card glowing in the screen's centre",
+  "a yellow rail-pod departure pass flashing on the screen's right"
+ ],
+ "view": "wide"
+}

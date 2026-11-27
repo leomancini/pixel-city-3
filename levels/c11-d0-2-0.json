@@ -1,0 +1,21 @@
+{
+ "id": "c11-d0-2-0",
+ "scene": "Bass booms from the console, opening three transport gates across the roof.",
+ "options": [
+  "Enter karaoke lift",
+  "Take moving walkway",
+  "Board hover ferry"
+ ],
+ "next": [
+  "c11-d3",
+  "c11-d1",
+  "c11-d2"
+ ],
+ "picture": "Along a flat rooftop line, the silver-haired boy in his mint hoodie and headphones stands centre-left by the humming DJ deck. On the left, an open glass karaoke lift glows brightly. In the centre, an illuminated moving walkway platform rolls ahead. Far right, an anchored river hover ferry floats beside the edge.",
+ "shown": [
+  "a glowing glass karaoke lift door waiting open on the left",
+  "a neon-lit moving walkway gliding forward in the centre",
+  "a floating river hover ferry docked at the rooftop pier far right"
+ ],
+ "view": "wide"
+}

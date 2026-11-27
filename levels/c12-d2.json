@@ -1,0 +1,21 @@
+{
+ "id": "c12-d2",
+ "scene": "You step off the Bento Express onto the gleaming, bustling station platform.",
+ "options": [
+  "Inspect model train",
+  "Buy wooden bento",
+  "Watch dancing clock"
+ ],
+ "next": [
+  "c12-d2-0",
+  "c12-d2-1",
+  "c12-d2-2"
+ ],
+ "picture": "A flat side-scrolling platform view. Far left, the sleek red Bento Express train doors sit open. Beside it on the left sits a miniature electric train layout. Centre, the moustachioed grandfather in navy apron wheels his plant-filled bicycle. Right stands a wooden bento food stall. Up high, a dancing-figure brass clock ticks.",
+ "shown": [
+  "a winding miniature electric railway on a raised table on the left",
+  "a steaming cedar bento stall with hanging banners on the right",
+  "a brass clock with mechanical dancing figures ticking up high above"
+ ],
+ "view": "wide"
+}

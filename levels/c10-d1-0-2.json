@@ -1,0 +1,21 @@
+{
+ "id": "c10-d1-0-2",
+ "scene": "The red lever deploys three outdoor transit docks across the factory roof.",
+ "options": [
+  "Board lantern balloon",
+  "Ride rooftop escalator",
+  "Take cable car"
+ ],
+ "next": [
+  "c10-d3",
+  "c10-d0",
+  "c10-d2"
+ ],
+ "picture": "A side-scrolling pixel-art view of the breezy factory roof platform. On the far left, a glowing paper-lantern balloon bobs at its dock. Left of centre, the player in red bomber jacket and roller skates glides. In the centre, an escalator ascends skyward. On the far right hangs a bamboo cable car.",
+ "shown": [
+  "a tethered paper-lantern balloon floating beside a gate on the far left",
+  "a glowing rooftop escalator rising toward the sky, located in the centre",
+  "a woven bamboo cable car moored to an overhead wire on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c10-d3",
+ "scene": "You step off the paper-lantern balloon into lively Firework Workshop Lane.",
+ "options": [
+  "Help sparkproof robot",
+  "Inspect test rocket",
+  "Enter dragon shop"
+ ],
+ "next": [
+  "c10-d3-0",
+  "c10-d3-1",
+  "c10-d3-2"
+ ],
+ "picture": "Side-scrolling view along a tiled rooftop street. Far left, a brass robot stacks yellow barrels. Left, the moored paper-lantern balloon bobs gently. Centre, you stand in your red bomber jacket and white roller skates. Right, a striped test rocket rests in a launch rack. Far right, a workshop doorway glows brightly.",
+ "shown": [
+  "a blocky brass spark-proof robot balancing sulfur barrels on the far left",
+  "a smoking striped test rocket strapped to a wooden launch rack right",
+  "an open bamboo doorway hung with shimmering red dragon tails far right"
+ ],
+ "view": "wide"
+}

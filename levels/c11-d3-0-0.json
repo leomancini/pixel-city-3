@@ -1,0 +1,21 @@
+{
+ "id": "c11-d3-0-0",
+ "scene": "The golden mic triggers a hidden stage platform sliding into an open transit hub.",
+ "options": [
+  "Board dance pod",
+  "Step on walkway",
+  "Ride hover ferry"
+ ],
+ "next": [
+  "c11-d0",
+  "c11-d1",
+  "c11-d2"
+ ],
+ "picture": "A flat side-view transit hub open to the cool night. On the far left, a light-rail pod sits open on tracks. The silver-haired boy in his mint hoodie and dance bag stands left of centre holding the mic. A flat moving walkway stretches in the centre. On the far right, a hover ferry rests at its dock.",
+ "shown": [
+  "A sleek glass light-rail pod waiting open on an elevated track at the far left",
+  "A glowing moving walkway humming forward quietly on a bridge at the centre",
+  "A low blue river hover ferry idling at a passenger dock on the far right"
+ ],
+ "view": "wide"
+}

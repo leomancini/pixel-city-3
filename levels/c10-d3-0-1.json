@@ -1,0 +1,21 @@
+{
+ "id": "c10-d3-0-1",
+ "scene": "The sparked fuse clears a wall, revealing three transit stations on the rooftop.",
+ "options": [
+  "Ride noodle monorail",
+  "Board bamboo car",
+  "Ride rooftop escalator"
+ ],
+ "next": [
+  "c10-d1",
+  "c10-d2",
+  "c10-d0"
+ ],
+ "picture": "Flat rooftop terrace side view. On the far left, a steaming noodle-cart monorail sits ready on a glowing track. Left of centre, you stand in your red bomber jacket and roller skates. In the centre hangs an open bamboo cable car. On the far right stands a bright neon rooftop escalator moving upward.",
+ "shown": [
+  "a steaming noodle-cart monorail idling at a noodle sign on the far left",
+  "a hanging bamboo cable car swaying gently on its overhead wire in the centre",
+  "a gleaming rooftop escalator with neon steps humming open on the far right"
+ ],
+ "view": "wide"
+}

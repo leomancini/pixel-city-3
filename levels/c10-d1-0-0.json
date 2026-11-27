@@ -1,0 +1,21 @@
+{
+ "id": "c10-d1-0-0",
+ "scene": "Steam bursts from the pipes, unlocking three new transit gates ahead.",
+ "options": [
+  "Ride rooftop escalator",
+  "Board cable car",
+  "Take lantern balloon"
+ ],
+ "next": [
+  "c10-d0",
+  "c10-d2",
+  "c10-d3"
+ ],
+ "picture": "Side view of an outdoor noodle factory platform. On the far left, a moving escalator ascends upward. Left of centre, the player in red bomber jacket and roller skates smiles amidst steam clouds. At centre, a woven bamboo cable car hangs docked. On the far right, a giant glowing paper-lantern balloon bobs gently.",
+ "shown": [
+  "a humming brass escalator with glowing neon handrails on the far left",
+  "a green bamboo cable car dangling from an overhead wire at the centre",
+  "a tethered red paper-lantern hot air balloon floating on the far right"
+ ],
+ "view": "wide"
+}

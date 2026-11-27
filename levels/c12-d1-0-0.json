@@ -1,0 +1,21 @@
+{
+ "id": "c12-d1-0-0",
+ "scene": "A clerk slides open ticket shutters, revealing three waiting transport gates.",
+ "options": [
+  "Board garden tram",
+  "Take bento express",
+  "Board koi boat"
+ ],
+ "next": [
+  "c12-d0",
+  "c12-d2",
+  "c12-d3"
+ ],
+ "picture": "Side-scrolling view inside the bathhouse lobby. Far left, a platform gate leads into a green ivy-covered tram car. Left, a wooden reception counter with an elderly attendant. Centre, the grandfather in navy apron stands holding his bicycle with plants, facing open transit gates. Right, an idling lacquered bento train. Far right, an orange koi boat floating in water.",
+ "shown": [
+  "a green ivy-covered tram car standing at a dock gate far left",
+  "a sleek lacquered-wood bento train car idling behind a middle gate",
+  "a floating orange koi-shaped boat moored at an indoor canal gate far right"
+ ],
+ "view": "wide"
+}

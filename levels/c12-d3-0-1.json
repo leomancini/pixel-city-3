@@ -1,0 +1,21 @@
+{
+ "id": "c12-d3-0-1",
+ "scene": "The heron unfolds wide, chiming loudly as three transit platforms clatter open.",
+ "options": [
+  "Board retro streetcar",
+  "Take bento express",
+  "Climb garden tram"
+ ],
+ "next": [
+  "c12-d1",
+  "c12-d2",
+  "c12-d0"
+ ],
+ "picture": "A side-scrolling view along the canal dock. On the left stands a yellow retro streetcar with folding steps lowered. In the centre, the grandfather holds his bicycle beside a red bento express train at a low platform. On the right, a glass garden tram dangles from an overhead cable.",
+ "shown": [
+  "a vintage yellow streetcar waiting with open doors on the left track",
+  "a streamlined red bento express train puffing steam at the centre platform",
+  "a glass garden tram car hanging from a cable on the right"
+ ],
+ "view": "wide"
+}

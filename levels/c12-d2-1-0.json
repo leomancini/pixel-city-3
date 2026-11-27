@@ -1,0 +1,21 @@
+{
+ "id": "c12-d2-1-0",
+ "scene": "Inside the bento rests three glowing rice-balls marked with transit routes.",
+ "options": [
+  "Ride retro streetcar",
+  "Board koi boat",
+  "Take garden tram"
+ ],
+ "next": [
+  "c12-d1",
+  "c12-d3",
+  "c12-d0"
+ ],
+ "picture": "A flat side view of a bustling multi-transit concourse. Far left, a yellow retro streetcar waits with open doors. Left, the grandfather stands with his bicycle and plant crate, holding the open bento box. Centre, a wooden koi boat bobs in a canal dock. Far right, a leafy garden tram waits on raised rails.",
+ "shown": [
+  "a yellow retro streetcar waiting at a platform gate on the far left",
+  "a carved wooden koi-shaped boat floating along a canal slipway at the centre",
+  "a vine-covered garden tram resting on elevated emerald rails on the far right"
+ ],
+ "view": "wide"
+}

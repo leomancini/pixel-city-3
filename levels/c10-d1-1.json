@@ -1,0 +1,21 @@
+{
+ "id": "c10-d1-1",
+ "scene": "A sip of spicy golden broth tingles your tongue with ginger.",
+ "options": [
+  "Chat with chef",
+  "Grab chili oil",
+  "Climb spiral conveyor"
+ ],
+ "next": [
+  "c10-d1-1-0",
+  "c10-d1-1-1",
+  "c10-d1-1-2"
+ ],
+ "picture": "A wide side-scrolling view of the factory tasting booth. On the left stands a stout badger chef in an apron. In the centre, the young Chinese woman on white roller skates holds a ceramic bowl beside a cruet of chili oil. On the far right rises an arching, spiralling noodle conveyor belt.",
+ "shown": [
+  "a stout badger chef in a tall white hat on the left",
+  "a red glass cruet of chili oil in the centre",
+  "a spiralling yellow noodle conveyor belt on the far right"
+ ],
+ "view": "wide"
+}

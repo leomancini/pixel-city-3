@@ -1,0 +1,21 @@
+{
+ "id": "c12-d2-0-0",
+ "scene": "The clicked switch reveals three full-sized departure gates along the outer concourse.",
+ "options": [
+  "Board garden tram",
+  "Ride retro streetcar",
+  "Board koi boat"
+ ],
+ "next": [
+  "c12-d0",
+  "c12-d1",
+  "c12-d3"
+ ],
+ "picture": "Side view along the station concourse. At far left stands a vine-covered garden tram. Left of centre, the grandfather pushes his plant-laden bicycle past the miniature train table. Centre, an idling yellow streetcar sits beside its platform gate. Far right, a carved koi boat floats moored in a tiled canal basin.",
+ "shown": [
+  "a leafy green tram waiting on tracks at far left",
+  "a striped yellow streetcar idling at an open platform gate centre",
+  "a wooden fish-shaped canal boat docked in water at far right"
+ ],
+ "view": "wide"
+}

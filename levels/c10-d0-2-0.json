@@ -1,0 +1,21 @@
+{
+ "id": "c10-d0-2-0",
+ "scene": "Sparkling blue tea gives you a sudden rush of soaring energy.",
+ "options": [
+  "Board lantern balloon",
+  "Catch noodle monorail",
+  "Enter cable car"
+ ],
+ "next": [
+  "c10-d3",
+  "c10-d1",
+  "c10-d2"
+ ],
+ "picture": "Flat side view of a bustling rooftop transit platform. On the far left, a giant paper-lantern balloon is tied to a railing. The player in her red bomber jacket stands left of centre holding an empty cup. Right of centre, a steaming noodle-cart monorail waits. Far right, a bamboo cable car hangs ready.",
+ "shown": [
+  "A giant glowing paper-lantern balloon basket moored at the platform on the far left.",
+  "A yellow monorail cart shaped like a noodle bowl parked right of centre.",
+  "A woven green bamboo cable car dangling from an iron tower on the far right."
+ ],
+ "view": "wide"
+}

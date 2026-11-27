@@ -1,0 +1,21 @@
+{
+ "id": "c12-d2-2-0",
+ "scene": "The humming brass bird drops three route tickets into your palm.",
+ "options": [
+  "Board koi boat",
+  "Ride garden tram",
+  "Take retro streetcar"
+ ],
+ "next": [
+  "c12-d3",
+  "c12-d0",
+  "c12-d1"
+ ],
+ "picture": "A flat side-view concourse with three transit gates along the platform floor. On the far left, a carved koi-shaped boat waits at a canal mooring. In the centre, the grandfather holds tickets beside his plant crate bicycle next to an open ivy-wrapped tram. On the far right stands a gleaming crimson retro streetcar.",
+ "shown": [
+  "A bright orange koi-shaped canal boat docked in water at the far left",
+  "A vine-covered green tram with open wooden doors in the centre",
+  "A polished crimson retro streetcar humming by its post on the far right"
+ ],
+ "view": "wide"
+}

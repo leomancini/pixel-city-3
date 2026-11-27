@@ -1,0 +1,21 @@
+{
+ "id": "c11-d2-1",
+ "scene": "A checkered picnic mat holds a buzzing bento box and curiosities.",
+ "options": [
+  "Open lunchbox",
+  "Read postcard",
+  "Take juice box"
+ ],
+ "next": [
+  "c11-d2-1-0",
+  "c11-d2-1-1",
+  "c11-d2-1-2"
+ ],
+ "picture": "First-person top-down close view of the blue checkered picnic mat. On the left lies a glossy neon postcard showing a skyscraper carnival. In the centre sits a vibrating yellow metal bento box with a flashing digital timer. On the right rests an unopened purple juice carton with a bendy straw.",
+ "shown": [
+  "a buzzing yellow bento box in the centre of the mat",
+  "a glossy neon postcard on the left side of the mat",
+  "a bubbling purple juice carton on the right side of the mat"
+ ],
+ "view": "close"
+}

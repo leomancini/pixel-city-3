@@ -1,0 +1,21 @@
+{
+ "id": "c10-d0",
+ "scene": "You glide off the rooftop escalator onto the glowing roller rink.",
+ "options": [
+  "Visit rental robot",
+  "Leap toward drone",
+  "Order bubble tea"
+ ],
+ "next": [
+  "c10-d0-0",
+  "c10-d0-1",
+  "c10-d0-2"
+ ],
+ "picture": "Flat side-scrolling view of a neon rooftop rink. On the far left, a yellow rental robot stands beside the metal rooftop escalator. Left of centre stands the player on white roller skates in her red bomber jacket. Up high hovers a mirrored disco-ball drone. On the right sits a glowing purple bubble-tea bar.",
+ "shown": [
+  "a boxy yellow skate rental robot standing idly on the far left",
+  "a glittering disco-ball drone hovering up high near the centre",
+  "a neon-lit bubble-tea bar with glowing taps on the right"
+ ],
+ "view": "wide"
+}

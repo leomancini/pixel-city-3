@@ -1,0 +1,21 @@
+{
+ "id": "c12-d0-0",
+ "scene": "Inside the warm tea shed, steam curls around clay pots and bubbling jars.",
+ "options": [
+  "Greet the brewer",
+  "Examine wall scrolls",
+  "Taste steaming brew"
+ ],
+ "next": [
+  "c12-d0-0-0",
+  "c12-d0-0-1",
+  "c12-d0-0-2"
+ ],
+ "picture": "Pixel art interior of a rustic tea shed arranged side-by-side along wooden floorboards. On the far left, the grandfather rests his bicycle near the doorway. On the left, a horned brewer stirs a vat. Three hanging parchment scrolls display tree root diagrams at the centre. On the right, a blue kettle steams on a stone hearth.",
+ "shown": [
+  "A horned baker stirring an amber vat on the left",
+  "Three faded plant parchment scrolls hanging at the centre",
+  "A bubbling blue ceramic kettle on a counter to the right"
+ ],
+ "view": "wide"
+}

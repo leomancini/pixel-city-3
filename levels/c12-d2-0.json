@@ -1,0 +1,21 @@
+{
+ "id": "c12-d2-0",
+ "scene": "You peer closely at the intricate miniature railway buzzing with tiny mechanics.",
+ "options": [
+  "Flip tiny lever",
+  "Take miniature scroll",
+  "Turn brass key"
+ ],
+ "next": [
+  "c12-d2-0-0",
+  "c12-d2-0-1",
+  "c12-d2-0-2"
+ ],
+ "picture": "First-person close-up of the miniature train diorama. On the left, tiny tracks feature a bright red brass switch lever waiting in upright position. In the centre sits a steaming green toy locomotive carrying a microscopic tied parchment scroll on its cab roof. On the right, a painted tin windmill holds an uncoiled golden winding key.",
+ "shown": [
+  "a tiny brass track switch lever resting on the left rail",
+  "a rolled parchment tied to the roof of the centre model locomotive",
+  "a golden winding key stuck in a clockwork windmill on the right"
+ ],
+ "view": "close"
+}

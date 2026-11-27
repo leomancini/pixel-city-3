@@ -1,0 +1,21 @@
+{
+ "id": "c10-d3-0",
+ "scene": "The brass robot beeps happily as you balance a glowing yellow barrel.",
+ "options": [
+  "Tweak robot dials",
+  "Inspect loose fuse",
+  "Enter dragon shop"
+ ],
+ "next": [
+  "c10-d3-0-0",
+  "c10-d3-0-1",
+  "c10-d3-0-2"
+ ],
+ "picture": "Side-scrolling view along the flat rooftop lane. On the far left sits a tall stack of yellow powder barrels. On the left stands the round brass robot facing right. In the centre you stand on roller skates holding a glowing yellow barrel. On the far right glows an open, lantern-lit workshop entrance.",
+ "shown": [
+  "a humming control panel with brass dials on the robot's chest on the left",
+  "a sparkling purple fuse dangling from a stacked barrel in the centre",
+  "an open workshop doorway spilling bright red lanterns and smoke on the far right"
+ ],
+ "view": "wide"
+}

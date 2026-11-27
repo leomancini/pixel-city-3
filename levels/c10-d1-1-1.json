@@ -1,0 +1,21 @@
+{
+ "id": "c10-d1-1-1",
+ "scene": "Pocketing the fiery chili oil, you step out onto the transit patio.",
+ "options": [
+  "Board lantern balloon",
+  "Ride rooftop escalator",
+  "Catch cable car"
+ ],
+ "next": [
+  "c10-d3",
+  "c10-d0",
+  "c10-d2"
+ ],
+ "picture": "A wide side-scrolling view of an open-air transit patio. On the far left, a glowing paper-lantern balloon basket is tied to a mooring post. In the centre, the young Chinese woman in skates holds a chili oil bottle beside a rising escalator. On the far right, a bamboo cable car hangs ready.",
+ "shown": [
+  "a tethered paper-lantern balloon basket waiting on the left platform",
+  "a glowing rooftop escalator ascending straight up in the centre",
+  "a green bamboo cable car dangling open on the far right cable"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c10-d2-0-2",
+ "scene": "Across the swaying bridge, three new transit routes await your departure.",
+ "options": [
+  "Board paper balloon",
+  "Take rooftop escalator",
+  "Ride noodle monorail"
+ ],
+ "next": [
+  "c10-d3",
+  "c10-d0",
+  "c10-d1"
+ ],
+ "picture": "Flat side view of a bustling aerial junction platform. On the left, a giant paper-lantern hot air balloon bobs beside its railing. The player stands centre-left in her red bomber jacket and white roller skates. At centre, a luminous escalator runs upward. To the right waits a round noodle-cart monorail car.",
+ "shown": [
+  "a tethered red paper-lantern hot air balloon bobbing gently on the left",
+  "a glowing green escalator leading upward at centre with moving metal steps",
+  "a bowl-shaped noodle-cart monorail train docked at the station platform on the right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c10-d2-1-2",
+ "scene": "Across the swaying bridge, three transit gates overlook the vibrant city rooftops.",
+ "options": [
+  "Take rooftop escalator",
+  "Board noodle monorail",
+  "Ride lantern balloon"
+ ],
+ "next": [
+  "c10-d0",
+  "c10-d1",
+  "c10-d3"
+ ],
+ "picture": "Flat side view of an open transit terrace. On the far left, an illuminated outdoor escalator rises upward. At centre-left, the player stands on roller skates holding her panda bun. At centre, a bowl-shaped yellow monorail car idles with its door open. On the far right floats a tethered paper-lantern balloon basket.",
+ "shown": [
+  "a neon-lined outdoor escalator rising upward on the far left",
+  "a bright yellow noodle-cart monorail car waiting on a rail at centre",
+  "a giant glowing paper-lantern hot air balloon tethered on the far right"
+ ],
+ "view": "wide"
+}

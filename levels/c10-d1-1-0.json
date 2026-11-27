@@ -1,0 +1,21 @@
+{
+ "id": "c10-d1-1-0",
+ "scene": "The badger chef hands you a map pointing to three exits.",
+ "options": [
+  "Ride cable car",
+  "Board lantern balloon",
+  "Take rooftop escalator"
+ ],
+ "next": [
+  "c10-d2",
+  "c10-d3",
+  "c10-d0"
+ ],
+ "picture": "A flat side-view along the factory exit platform. On the far left, a woven bamboo cable car hangs ready. In the centre, the young Chinese woman on white roller skates chats with the smiling badger chef beside a tethered paper-lantern balloon floating up high. On the far right, a yellow moving escalator ascends smoothly.",
+ "shown": [
+  "a dangling green bamboo cable car waiting open on the far left",
+  "a glowing red paper-lantern balloon tethered up high in the centre",
+  "a humming yellow rooftop escalator rising steadily on the far right"
+ ],
+ "view": "wide"
+}

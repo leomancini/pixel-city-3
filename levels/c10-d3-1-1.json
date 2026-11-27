@@ -1,0 +1,21 @@
+{
+ "id": "c10-d3-1-1",
+ "scene": "The rocket launches harmlessly, unlocking three transit portals across the lane.",
+ "options": [
+  "Ride cable car",
+  "Climb moving escalator",
+  "Board noodle monorail"
+ ],
+ "next": [
+  "c10-d2",
+  "c10-d0",
+  "c10-d1"
+ ],
+ "picture": "Pixel art flat side view. From left to right along the workshop roof: an open bamboo cable car docked at a platform, the smoking rocket stand, the player in red bomber jacket and roller skates standing central, a bright neon rooftop escalator moving upward, and a steaming yellow noodle-cart monorail at the right curb.",
+ "shown": [
+  "a green bamboo cable car dangling open at a wooden platform, far left",
+  "a glowing neon rooftop escalator humming with steps moving upward, centre",
+  "a yellow noodle-cart monorail train idling at a striped curb, far right"
+ ],
+ "view": "wide"
+}

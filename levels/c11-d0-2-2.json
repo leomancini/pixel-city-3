@@ -1,0 +1,21 @@
+{
+ "id": "c11-d0-2-2",
+ "scene": "You land at the glowing riverside junction, surrounded by bustling transit hubs.",
+ "options": [
+  "Board hover ferry",
+  "Enter karaoke lift",
+  "Ride moving walkway"
+ ],
+ "next": [
+  "c11-d2",
+  "c11-d3",
+  "c11-d1"
+ ],
+ "picture": "Along a flat promenade line, on the far left a blue hover ferry docks at a pier. Left of centre, the silver-haired boy in a mint-green hoodie drops the zipline handle. In the centre, an open glass karaoke lift glows brightly. On the far right, a luminous moving walkway glides forward smoothly.",
+ "shown": [
+  "a sleek river hover ferry bobbing at the pier on the far left",
+  "a glass karaoke lift waiting with open glowing doors in the centre",
+  "a glowing neon moving walkway sliding into an archway on the far right"
+ ],
+ "view": "wide"
+}

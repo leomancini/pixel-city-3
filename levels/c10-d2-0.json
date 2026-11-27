@@ -1,0 +1,21 @@
+{
+ "id": "c10-d2-0",
+ "scene": "The robot panda hums, popping open its brass chest to reveal gadgets.",
+ "options": [
+  "Inspect chest gears",
+  "Take glowing bamboo",
+  "Climb rope bridge"
+ ],
+ "next": [
+  "c10-d2-0-0",
+  "c10-d2-0-1",
+  "c10-d2-0-2"
+ ],
+ "picture": "Flat side view on the plank walkway. On the left, the mechanical panda sits with its brass chest flap wide open, displaying ticking cogs. In its mechanical paw at centre rests a glowing neon bamboo shoot. The player stands facing it on white roller skates in her red jacket. Far right, the rope bridge sways.",
+ "shown": [
+  "a glowing maze of cogs in the panda open chest on the left",
+  "a neon green bamboo shoot resting in the panda open paw centre",
+  "the narrow wooden rope bridge swaying over the misty gorge on the far right"
+ ],
+ "view": "wide"
+}

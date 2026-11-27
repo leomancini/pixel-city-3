@@ -1,0 +1,21 @@
+{
+ "id": "c11-d0-1-2",
+ "scene": "The sound board unlocks a transit map, powering three waiting city routes.",
+ "options": [
+  "Ride moving walkway",
+  "Board hover ferry",
+  "Enter karaoke lift"
+ ],
+ "next": [
+  "c11-d1",
+  "c11-d2",
+  "c11-d3"
+ ],
+ "picture": "Along a level line, an illuminated moving walkway platform sits on the far left. The silver-haired boy in a mint hoodie and headphones stands centre-left, facing a humming mixer console in the centre. Up high, a glass karaoke elevator waits open. On the right, a river hover ferry docks at a neon jetty.",
+ "shown": [
+  "a glowing moving walkway ramp idling silently on the far left",
+  "a sleek docked river hover ferry bobbing quietly on the right",
+  "a glowing glass karaoke lift door waiting wide open up high"
+ ],
+ "view": "wide"
+}

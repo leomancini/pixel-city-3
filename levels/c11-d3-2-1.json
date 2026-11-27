@@ -1,0 +1,21 @@
+{
+ "id": "c11-d3-2-1",
+ "scene": "The flamingo clicks happily, projecting transit paths across the city skyline.",
+ "options": [
+  "Board light-rail pod",
+  "Take moving walkway",
+  "Ride hover ferry"
+ ],
+ "next": [
+  "c11-d0",
+  "c11-d1",
+  "c11-d2"
+ ],
+ "picture": "A flat side view of the breezy rooftop edge. On the far left, a docked light-rail pod sits with its hatch open. Left of centre, the silver-haired boy in a mint hoodie and dance bag stands before the glowing pink mechanical flamingo, which beams light forward. At centre starts a luminous moving walkway. On the far right, a hover ferry bobs beside a gate.",
+ "shown": [
+  "a sleek spherical light-rail pod docked at an elevated rail on the left",
+  "a glowing yellow moving walkway glowing at centre with rubber handrails running eastward",
+  "a floating river hover ferry moored beside the far right sky-dock gate"
+ ],
+ "view": "wide"
+}

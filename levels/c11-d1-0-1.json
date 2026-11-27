@@ -1,0 +1,21 @@
+{
+ "id": "c11-d1-0-1",
+ "scene": "A prize drops cleanly, revealing three transport exits along the arcade plaza.",
+ "options": [
+  "Ride hover ferry",
+  "Enter karaoke lift",
+  "Board rail pod"
+ ],
+ "next": [
+  "c11-d2",
+  "c11-d3",
+  "c11-d0"
+ ],
+ "picture": "Flat side-scrolling view along the glowing tiled arcade plaza. On the far left, a river hover ferry idles by a dock gate. Centre-left stands the boy with silver hair holding a plush hamster. Centre sits an open glass karaoke lift. To the right waits a futuristic light-rail pod along a raised platform track.",
+ "shown": [
+  "A sleek river hover ferry idling at a pier gate on the left",
+  "A glowing glass karaoke lift door waiting wide open in the centre",
+  "A streamlined light-rail pod halted at an illuminated platform on the right"
+ ],
+ "view": "wide"
+}

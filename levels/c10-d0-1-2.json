@@ -1,0 +1,21 @@
+{
+ "id": "c10-d0-1-2",
+ "scene": "You zip down the sparkling wire onto a busy transit platform.",
+ "options": [
+  "Ride noodle monorail",
+  "Board cable car",
+  "Take lantern balloon"
+ ],
+ "next": [
+  "c10-d1",
+  "c10-d2",
+  "c10-d3"
+ ],
+ "picture": "Side-scrolling view of an open-air junction platform. The player in her red bomber jacket and roller skates lands at left-centre from an overhead wire. Far left sits a steaming noodle-bowl monorail car. Centre hangs a woven bamboo cable car. Far right floats a giant red paper-lantern hot-air balloon, tethered and waiting.",
+ "shown": [
+  "a steaming noodle-bowl shaped monorail car idling at the far left platform",
+  "a green bamboo cable car suspended from a cable at centre",
+  "a giant glowing red paper-lantern balloon basket moored at the far right"
+ ],
+ "view": "wide"
+}

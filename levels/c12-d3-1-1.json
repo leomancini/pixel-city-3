@@ -1,0 +1,21 @@
+{
+ "id": "c12-d3-1-1",
+ "scene": "The bowing masked artisan presents travel tokens for three waiting transit lines.",
+ "options": [
+  "Take Bento Express",
+  "Board garden tram",
+  "Catch retro streetcar"
+ ],
+ "next": [
+  "c12-d2",
+  "c12-d0",
+  "c12-d1"
+ ],
+ "picture": "Flat side view across the pavilion transit hub. Far left, a streamlined lacquered bento bullet train sits by the water. Left, the grandfather stands holding his bicycle. Centre, a moss-draped garden tram waits with doors open, beside the bowing owl artisan. Right, painted fans dry on stands. Far right, a red-and-cream streetcar idles.",
+ "shown": [
+  "a sleek lacquered train carriage waiting at the canal platform on far left",
+  "a moss-roofed tram with open brass doors standing at the centre",
+  "a clanging red-and-cream streetcar idling beside cobblestones on the far right"
+ ],
+ "view": "wide"
+}

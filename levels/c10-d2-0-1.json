@@ -1,0 +1,21 @@
+{
+ "id": "c10-d2-0-1",
+ "scene": "The glowing bamboo activates three transport gates across the breezy park platform.",
+ "options": [
+  "Board noodle monorail",
+  "Ride lantern balloon",
+  "Climb rooftop escalator"
+ ],
+ "next": [
+  "c10-d1",
+  "c10-d3",
+  "c10-d0"
+ ],
+ "picture": "Flat side view along the wooden deck. On the far left sits a steaming noodle-cart monorail. Left of centre, the player stands holding the glowing green bamboo shoot. At centre, a paper-lantern balloon floats tethered by ropes. On the far right, a glowing neon escalator steadily hums, moving upward into the sky.",
+ "shown": [
+  "a steaming noodle-cart monorail idling at a small dock on the far left",
+  "a giant glowing paper-lantern balloon tethered in the centre with an open basket",
+  "a moving neon rooftop escalator leading upward on the far right"
+ ],
+ "view": "wide"
+}

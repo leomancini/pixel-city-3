@@ -1,0 +1,21 @@
+{
+ "id": "c12-d0-0-2",
+ "scene": "Sipping fragrant tea, you step onto the nursery's open transit deck.",
+ "options": [
+  "Board koi boat",
+  "Catch retro streetcar",
+  "Take bento express"
+ ],
+ "next": [
+  "c12-d3",
+  "c12-d1",
+  "c12-d2"
+ ],
+ "picture": "Pixel art wide side view of a breezy wooden transit deck. On the far left, the grandfather in his navy apron stands holding his bicycle. To his right is a waiting orange koi-shaped boat. In the centre sits a green retro streetcar, and to the far right waits a sleek yellow bento express train.",
+ "shown": [
+  "a giant orange koi-shaped canal boat idling at a dock on the left",
+  "a green retro streetcar waiting at a track in the centre",
+  "a sleek yellow bento express train stopped at a platform on the right"
+ ],
+ "view": "wide"
+}

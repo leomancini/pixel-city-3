@@ -1,0 +1,21 @@
+{
+ "id": "c10-d3-2-1",
+ "scene": "The illuminated schematic reveals three transport transit gates leading beyond the workshop.",
+ "options": [
+  "Ride rooftop escalator",
+  "Board noodle monorail",
+  "Take bamboo car"
+ ],
+ "next": [
+  "c10-d0",
+  "c10-d1",
+  "c10-d2"
+ ],
+ "picture": "Side view of the workshop rear loading dock along one flat floor. On the far left, a rooftop escalator hatch hums brightly. Centre, a steaming noodle-cart monorail sits waiting. You stand in your red bomber jacket and roller skates looking right, where a woven bamboo cable car hangs ready at the dock door.",
+ "shown": [
+  "a glowing rooftop escalator entry hatch visible on the far left floor",
+  "a yellow noodle-cart monorail idling at a dock platform in the centre",
+  "a green bamboo cable car suspended at an open right-side doorway"
+ ],
+ "view": "wide"
+}

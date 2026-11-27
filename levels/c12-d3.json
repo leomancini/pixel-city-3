@@ -1,0 +1,21 @@
+{
+ "id": "c12-d3",
+ "scene": "You step off the wooden koi boat onto the canal workshop dock.",
+ "options": [
+  "Inspect robot heron",
+  "Admire paper umbrellas",
+  "Enter repair shed"
+ ],
+ "next": [
+  "c12-d3-0",
+  "c12-d3-1",
+  "c12-d3-2"
+ ],
+ "picture": "Flat side view along the canal dock. Far left, a bronze robot heron watches a carp-shaped boat tied up. Left of centre, the grandfather pushes his plant-laden bicycle past drying painted umbrellas. Right, a repair shed displays hanging spanners, while far right, glowing orange koi swim in turquoise water.",
+ "shown": [
+  "a sleek bronze robot heron standing still far left by the water",
+  "bright patterned paper umbrellas drying on low bamboo racks centre",
+  "a cluttered wooden bicycle repair shed with its sliding door open right"
+ ],
+ "view": "wide"
+}

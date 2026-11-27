@@ -1,0 +1,21 @@
+{
+ "id": "c12-d0-2-1",
+ "scene": "The glistening water trail leads down to a busy multi-transit hub platform.",
+ "options": [
+  "Board retro streetcar",
+  "Take bento express",
+  "Ride koi boat"
+ ],
+ "next": [
+  "c12-d1",
+  "c12-d2",
+  "c12-d3"
+ ],
+ "picture": "Side view along a wide transit terrace. The grandfather stands centre pushing his bicycle with plant crate. On the far left sits a waiting yellow retro streetcar with folding doors open. On the right rises an elevated track with the streamlined bento express. Far right, a carved koi boat bobs beside a dock.",
+ "shown": [
+  "a vintage yellow streetcar with open folding doors waiting on the far left",
+  "a sleek bento express shuttle idling with an open sliding door up high",
+  "a giant carved wooden koi-shaped boat moored at the far right canal dock"
+ ],
+ "view": "wide"
+}

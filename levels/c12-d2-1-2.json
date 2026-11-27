@@ -1,0 +1,21 @@
+{
+ "id": "c12-d2-1-2",
+ "scene": "The badger chirrups softly, pointing you toward three peculiar outbound departures.",
+ "options": [
+  "Board garden tram",
+  "Catch retro streetcar",
+  "Take koi boat"
+ ],
+ "next": [
+  "c12-d0",
+  "c12-d1",
+  "c12-d3"
+ ],
+ "picture": "Flat side view across the departure dock. Far left sits an open-doored garden tram tangled in flowering ivy. Left stands the grandfather holding his bicycle, pet badger perched on his handlebar crate. Centre waits a shiny red retro streetcar. Right sits a ticket booth. Far right, a carved koi boat bobs in canal water.",
+ "shown": [
+  "a moss-covered garden tram waiting open-doored on tracks at the far left",
+  "a red retro streetcar ringing its brass bell on tracks at the centre",
+  "a carved wooden koi-shaped boat idling at a canal dock on the far right"
+ ],
+ "view": "wide"
+}

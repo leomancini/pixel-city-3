@@ -1,0 +1,21 @@
+{
+ "id": "c10-d2-0-0",
+ "scene": "A secret lever trips, unlocking three transit gates across the park.",
+ "options": [
+  "Ride rooftop escalator",
+  "Board noodle monorail",
+  "Take lantern balloon"
+ ],
+ "next": [
+  "c10-d0",
+  "c10-d1",
+  "c10-d3"
+ ],
+ "picture": "Flat side view along the wooden park deck. On the far left, a moving escalator ascends into the sky. Toward centre-left, the player in red bomber jacket and roller skates inspects the open brass panda. At centre, a ceramic noodle-cart monorail sits ready on its track. On the far right, a giant glowing paper-lantern balloon bobs gently.",
+ "shown": [
+  "a humming escalator leading upward on the far left",
+  "a docked noodle-bowl monorail pod waiting in the centre",
+  "a tethered red paper-lantern hot-air balloon on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c12-d3-2-0",
+ "scene": "The wind-up frog leaps across the workbench, knocking open a transit bay hatch.",
+ "options": [
+  "Board bento express",
+  "Ride garden tram",
+  "Catch retro streetcar"
+ ],
+ "next": [
+  "c12-d2",
+  "c12-d0",
+  "c12-d1"
+ ],
+ "picture": "Flat side view across the open workshop. On the far left sits a streamlined bento express train. Left of centre, the grandfather holds his potted-plant bicycle beside the jumped frog. In the centre, the back hatch is thrown wide open, showing a mossy garden tram. Far right, an open gate reveals a yellow retro streetcar.",
+ "shown": [
+  "a sleek bullet-nosed bento railcar waiting along the platform on the far left",
+  "a moss-draped garden tram hovering just outside the newly opened hatch in the centre",
+  "a clanging yellow retro streetcar stopped outside the side gate on the far right"
+ ],
+ "view": "wide"
+}

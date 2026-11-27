@@ -1,0 +1,21 @@
+{
+ "id": "c11-d1",
+ "scene": "You step off the glowing walkway into the bustling Starlight Convenience Arcade.",
+ "options": [
+  "Try claw machine",
+  "Order spicy noodles",
+  "Browse glowing sodas"
+ ],
+ "next": [
+  "c11-d1-0",
+  "c11-d1-1",
+  "c11-d1-2"
+ ],
+ "picture": "Side-scrolling view of a neon arcade floor. On the far left sits the end of the flat moving walkway. Beside it stands the Korean teenage boy with silver hair, mint-green hoodie, headphones, and dance bag. Left is a glowing pink claw machine; centre is an automated noodle stand; right stands a drinks machine.",
+ "shown": [
+  "A neon pink claw machine full of plush dumplings on the left",
+  "A robotic ramen counter with steaming broths in the centre",
+  "A tall, humming glass vending machine on the right"
+ ],
+ "view": "wide"
+}

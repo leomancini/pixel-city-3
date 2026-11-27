@@ -1,0 +1,21 @@
+{
+ "id": "c10-d1-2-0",
+ "scene": "Holding the warm canister, factory exit gates slide open into daylight.",
+ "options": [
+  "Board lantern balloon",
+  "Ride rooftop escalator",
+  "Take cable car"
+ ],
+ "next": [
+  "c10-d3",
+  "c10-d0",
+  "c10-d2"
+ ],
+ "picture": "Side-scrolling view of a bright rooftop dock. On the far left, a tethered paper-lantern balloon bobs gently. In the centre, the young woman with a black ponytail, red jacket, and white roller skates holds a glowing spice canister. Up high, an escalator climbs toward a hatch. On the far right waits a bamboo cable car.",
+ "shown": [
+  "a giant paper-lantern balloon tethered to an open balcony on the far left",
+  "a gleaming escalator leading upward through an open hatch up high",
+  "a woven bamboo cable car resting at an open station on the far right"
+ ],
+ "view": "wide"
+}

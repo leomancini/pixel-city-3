@@ -1,0 +1,21 @@
+{
+ "id": "c10-d1-2-1",
+ "scene": "You emerge onto the breezy factory roof beside three waiting sky transports.",
+ "options": [
+  "Take rooftop escalator",
+  "Board cable car",
+  "Ride lantern balloon"
+ ],
+ "next": [
+  "c10-d0",
+  "c10-d2",
+  "c10-d3"
+ ],
+ "picture": "A flat side-view pixel roof under purple skies. On the far left, a neon escalator ascends upward. Centre-left stands the young Chinese woman in red bomber jacket and roller skates beside the metal chute. On the right waits a bamboo cable car, and on the far right floats a moored paper-lantern balloon.",
+ "shown": [
+  "a humming neon escalator on the far left ascending to Roller Rink Rooftop",
+  "a striped bamboo cable car swinging gently from wires on the right",
+  "a giant glowing paper-lantern hot-air balloon moored on the far right"
+ ],
+ "view": "wide"
+}

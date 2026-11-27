@@ -1,0 +1,21 @@
+{
+ "id": "c10-d2",
+ "scene": "You step off the bamboo cable car into breezy Panda Cable Park.",
+ "options": [
+  "Pet robot panda",
+  "Buy hot bun",
+  "Cross rope bridge"
+ ],
+ "next": [
+  "c10-d2-0",
+  "c10-d2-1",
+  "c10-d2-2"
+ ],
+ "picture": "Flat side view on a plank walkway. The bamboo cable car sits open on the far left. Beside it, a mechanical panda munches metal shoots. The player stands centre on white roller skates in her red jacket. On the right, a steamed-bun kiosk puffs fragrant steam. Far right, a swinging rope bridge extends off-screen.",
+ "shown": [
+  "a mechanical panda cub chewing tin bamboo leaves on the far left",
+  "a wooden kiosk with steaming bamboo baskets on the right",
+  "a swinging rope bridge swaying gently on the far right"
+ ],
+ "view": "wide"
+}

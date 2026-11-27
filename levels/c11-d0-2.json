@@ -1,0 +1,21 @@
+{
+ "id": "c11-d0-2",
+ "scene": "You climb onto the neon rooftop dance floor under swirling spotlights.",
+ "options": [
+  "Tap DJ deck",
+  "Challenge breakdancer bot",
+  "Slide down zipline"
+ ],
+ "next": [
+  "c11-d0-2-0",
+  "c11-d0-2-1",
+  "c11-d0-2-2"
+ ],
+ "picture": "Along a flat rooftop line, the silver-haired boy in a mint-green hoodie with dance bag stands centre-left by a yellow roof hatch. On the left sits a glowing synthesiser console. In the centre, a chrome robot poses mid-freeze. Far right, an anchored zipline cable stretches toward distant neon signs.",
+ "shown": [
+  "an unattended glowing synthesiser console humming on the left",
+  "a chrome robot frozen mid-spin in the centre",
+  "a taut cable on the right running down to a ramen stall"
+ ],
+ "view": "wide"
+}

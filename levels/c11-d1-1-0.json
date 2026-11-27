@@ -1,0 +1,21 @@
+{
+ "id": "c11-d1-1-0",
+ "scene": "You finish the spicy noodles and step outside to the busy transit concourse.",
+ "options": [
+  "Board hover ferry",
+  "Ride karaoke lift",
+  "Catch rail pod"
+ ],
+ "next": [
+  "c11-d2",
+  "c11-d3",
+  "c11-d0"
+ ],
+ "picture": "Flat side view along an outdoor promenade platform. On the far left sits a floating river hover ferry at a pier gate. The boy in the mint-green hoodie and headphones stands in the centre with his dance bag. Up high hangs the closed glass karaoke lift shaft, and on the far right sits a light-rail pod.",
+ "shown": [
+  "a sleek river hover ferry idling at a dock on the far left",
+  "a glowing glass karaoke lift door shut tight up high",
+  "a sleek light-rail pod with open doors waiting on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c12-d3-1-2",
+ "scene": "Atop the steps, a bustling three-way transit terrace overlooks the city.",
+ "options": [
+  "Board garden tram",
+  "Take retro streetcar",
+  "Ride bento express"
+ ],
+ "next": [
+  "c12-d0",
+  "c12-d1",
+  "c12-d2"
+ ],
+ "picture": "Side view of a cobblestone transit terrace along one level ground line. Left, the grandfather pushes his plant-laden bicycle. Far left, a green garden tram draped in ivy waits. Centre, a red retro streetcar stands with open doors. Far right, a sleek yellow bento express locomotive sits ready beside a conductor waving a lantern.",
+ "shown": [
+  "a green wooden tram festooned with flowering vines waiting far left",
+  "a red retro streetcar with its folding doors open in the centre",
+  "a sleek yellow express engine puffing steam at the platform far right"
+ ],
+ "view": "wide"
+}

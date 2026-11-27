@@ -1,0 +1,21 @@
+{
+ "id": "c10-d3-2",
+ "scene": "Inside the dragon workshop, colourful spark-pots bubble beside an artisan lizard.",
+ "options": [
+  "Stir copper kettle",
+  "Examine sky schematic",
+  "Greet lizard artisan"
+ ],
+ "next": [
+  "c10-d3-2-0",
+  "c10-d3-2-1",
+  "c10-d3-2-2"
+ ],
+ "picture": "Side view inside a bustling workshop along a level floor. On the far left stands a brass rack of paper dragons. Left, a copper kettle simmers on a table. Centre, you stand on roller skates facing an illuminated sky schematic. Right, an apron-wearing lizard artisan works at a sturdy wood carving desk.",
+ "shown": [
+  "a simmering copper kettle emitting teal fumes on a bench on the left",
+  "a large glowing blueprint pinned to the wall in the centre",
+  "a small bespectacled lizard artisan carving a wooden dragon head on the right"
+ ],
+ "view": "wide"
+}

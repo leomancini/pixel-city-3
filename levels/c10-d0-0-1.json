@@ -1,0 +1,21 @@
+{
+ "id": "c10-d0-0-1",
+ "scene": "Wearing the glowing neon visor, you spot three transit stations beyond the rink.",
+ "options": [
+  "Ride cable car",
+  "Board lantern balloon",
+  "Catch cart monorail"
+ ],
+ "next": [
+  "c10-d2",
+  "c10-d3",
+  "c10-d1"
+ ],
+ "picture": "Flat side-scrolling view along the rooftop edge. On the far left, a green bamboo cable car sways at its dock. In the centre, the player in red bomber jacket and white roller skates wears a glowing cyan visor. Up high sits a giant glowing paper-lantern balloon, while a noodle-cart monorail waits on the right.",
+ "shown": [
+  "a green bamboo cable car dangling from an overhead wire on the left",
+  "a glowing paper-lantern hot air balloon tethered up high right of centre",
+  "a steaming noodle-cart monorail idling at a small dock on the far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c10-d0-2-2",
+ "scene": "You coast off the ramp onto an open rooftop transit sky-dock.",
+ "options": [
+  "Board bamboo car",
+  "Catch paper balloon",
+  "Ride noodle monorail"
+ ],
+ "next": [
+  "c10-d2",
+  "c10-d3",
+  "c10-d1"
+ ],
+ "picture": "Side-scrolling view of an open transit sky-dock. On the far left, a woven bamboo cable car hangs open. Left of centre, the player stands on roller skates in her red jacket. Centre floats a moored paper-lantern balloon. On the far right waits a ceramic noodle-cart monorail along a glossy overhead rail.",
+ "shown": [
+  "a green bamboo cable car dangling open at the platform on the far left",
+  "a giant glowing red paper-lantern balloon tethered in the centre with an open basket",
+  "a yellow noodle-cart monorail car idling at the station gate on the far right"
+ ],
+ "view": "wide"
+}

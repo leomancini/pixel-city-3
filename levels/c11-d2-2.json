@@ -1,0 +1,21 @@
+{
+ "id": "c11-d2-2",
+ "scene": "Prismatic mist swirls around you on the glowing glass bridge.",
+ "options": [
+  "Touch glowing harp",
+  "Feed neon carp",
+  "Climb tram platform"
+ ],
+ "next": [
+  "c11-d2-2-0",
+  "c11-d2-2-1",
+  "c11-d2-2-2"
+ ],
+ "picture": "A flat side view along the arching glass bridge. Far left, neon carp jump through watery light. On the left stands an untouched laser harp. Center stands the silver-haired boy in his mint hoodie with dance bag, facing right. Far right, an open rainbow cable tram waits at a platform.",
+ "shown": [
+  "a musical laser harp standing quietly on the left side",
+  "swirling neon carp leaping through the mist on the far left",
+  "a rainbow cable tram idling at the far right platform"
+ ],
+ "view": "wide"
+}

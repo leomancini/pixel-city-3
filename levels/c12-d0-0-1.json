@@ -1,0 +1,21 @@
+{
+ "id": "c12-d0-0-1",
+ "scene": "The scrolls reveal routes: three transit links wait right outside the balcony.",
+ "options": [
+  "Ride bento express",
+  "Board koi boat",
+  "Take retro streetcar"
+ ],
+ "next": [
+  "c12-d2",
+  "c12-d3",
+  "c12-d1"
+ ],
+ "picture": "Flat side-view pixel art of a rooftop transit deck past the tea shed balcony. On the far left, a red Bento Express train sits beside a boarding gate. Left of centre, the grandfather pushes his plant-laden bicycle. In the centre, an orange koi-shaped boat idles in water. On the far right, a yellow streetcar waits on tracks.",
+ "shown": [
+  "a sleek red Bento Express train parked at the open platform on the far left",
+  "a mechanical orange koi boat floating beside the wooden pier in the centre",
+  "a yellow retro streetcar waiting at a track siding on the far right"
+ ],
+ "view": "wide"
+}
