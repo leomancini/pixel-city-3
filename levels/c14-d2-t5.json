@@ -1,0 +1,26 @@
+{
+ "id": "c14-d2-t5",
+ "scene": "Wind whips your beanie as the motorized sidecar buzzes along rooftops.",
+ "options": [
+  "Tweak glovebox radio",
+  "Inspect canvas pouch",
+  "Signal helmeted driver"
+ ],
+ "beats": [
+  "You tune past static into a chorus of singing toasters. The bike skids to a halt beside Midnight Radio Repair, and you climb out grinning.",
+  "You unbuckle it to find spare glowing vacuum tubes wrapped in velvet. The driver brakes sharply outside Midnight Radio Repair, where you step onto the curb.",
+  "You tap their shoulder, and they nod toward neon storefronts ahead. With a purr, the bike stops at Midnight Radio Repair and you hop down."
+ ],
+ "next": [
+  "c14-d5",
+  "c14-d5",
+  "c14-d5"
+ ],
+ "picture": "Flat side view. Inside the motorized rig, the dashboard radio sits on the left, the player in burnt-orange corduroy sits centre with a canvas pouch between his knees, and the helmeted driver steers on the right. Rooftop rainbow sprinklers and cloud tanks whiz past in a low strip behind.",
+ "shown": [
+  "a tiny buzzing dashboard radio on the left with a red tuning knob",
+  "a bulging leather tool pouch resting centre between your knees",
+  "the leather-jacketed driver on the right gripping vibrating chrome handlebars"
+ ],
+ "view": "wide"
+}

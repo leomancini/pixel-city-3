@@ -1,0 +1,26 @@
+{
+ "id": "c14-d3-t2",
+ "scene": "The open gondola hums as soapy suds float past towering city bricks.",
+ "options": [
+  "Wipe bubbly porthole",
+  "Talk to operator",
+  "Inspect rattling bucket"
+ ],
+ "beats": [
+  "You squeegee the glass clean just in time to spot a lightning-catcher spire as the gondola docks beside a massive brass cistern.",
+  "The operator coos cheerfully, handing you a damp umbrella token right as the cradle clanks gently against the rain-slick roof.",
+  "A tiny clockwork frog leaps from the glowing suds into your pocket just as you step out beside giant cloud tanks."
+ ],
+ "next": [
+  "c14-d2",
+  "c14-d2",
+  "c14-d2"
+ ],
+ "picture": "Flat side view inside the narrow yellow gondola floor. Far left, a foam-caked round porthole. Centre-left, the player leans on his prosthetic leg in orange corduroy. Centre, a pigeon-headed operator grips brass levers. Right, a sloshing bucket glows green. Far right, cables rise upward through open air.",
+ "shown": [
+  "a circular glass porthole covered in thick iridescent foam on the far left",
+  "a pigeon-headed operator in yellow overalls steering levers at the centre",
+  "a sloshing metal pail glowing with strange luminescent green water on the right"
+ ],
+ "view": "wide"
+}

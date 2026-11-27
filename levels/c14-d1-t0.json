@@ -1,0 +1,26 @@
+{
+ "id": "c14-d1-t0",
+ "scene": "The wooden carriage rattles upward while glowing moth-lanterns sway gently overhead.",
+ "options": [
+  "Inspect velvet case",
+  "Help conductor tinker",
+  "Check perch basket"
+ ],
+ "beats": [
+  "Inside lies a mechanical compass that points toward the heavens. As the doors open onto the rooftop, it clicks excitedly.",
+  "You tighten a loose valve, earning a warm grin and a shiny brass comet token just as the car stops at the rooftop.",
+  "A starry messenger bird hops out and drops a folded constellation chart into your palm before flying out onto the open deck."
+ ],
+ "next": [
+  "c14-d0",
+  "c14-d0",
+  "c14-d0"
+ ],
+ "picture": "A flat side view inside the rising funicular carriage. On the left, an open bench holds a small velvet case. The player stands left-of-centre in his orange corduroy jacket. In the centre, the conductor fiddles with a brass gear pedestal. On the right, a sleepy passenger sits above a rustling woven basket.",
+ "shown": [
+  "a tiny latched velvet case sitting on an empty wooden bench on the left",
+  "a uniformed conductor adjusting glowing brass gears at the control pedestal in the centre",
+  "a woven pigeon basket trembling softly beneath a passenger's seat on the right"
+ ],
+ "view": "wide"
+}

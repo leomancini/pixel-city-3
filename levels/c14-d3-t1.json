@@ -1,0 +1,26 @@
+{
+ "id": "c14-d3-t1",
+ "scene": "The clanking cabin climbs, swaying gently toward the turning bridge.",
+ "options": [
+  "Help knit scarf",
+  "Peer through window",
+  "Wiggle copper lever"
+ ],
+ "beats": [
+  "You untangle her golden yarn, and she gifts you a warm knitted patch just as the crawler docks at a whistling soup stall.",
+  "Through the glass you spot giant brass teeth meshing together, then step out directly onto the bridge's busy tool walkway.",
+  "A soft chime sounds, releasing a tiny brass commemorative gear into your palm as the doors open onto Gear Bridge."
+ ],
+ "next": [
+  "c14-d1",
+  "c14-d1",
+  "c14-d1"
+ ],
+ "picture": "Inside the wooden crawler cabin, an old badger knits a long scarf on the left. The player stands beside a brass handrail, facing a round porthole window showing turning cogwheels in the centre. On the right, a sleepy driver sits beside a control console with a protruding copper lever.",
+ "shown": [
+  "a striped wool scarf held by an old badger lady on the left",
+  "a round porthole window showing turning cogwheels in the centre",
+  "a loose copper lever protruding from the operator console on the right"
+ ],
+ "view": "wide"
+}

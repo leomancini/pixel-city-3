@@ -1,0 +1,26 @@
+{
+ "id": "c14-d0-t5",
+ "scene": "Wind whips your beanie as the flying sidecar zooms over neon towers.",
+ "options": [
+  "Turn dashboard dial",
+  "Inspect floating pigeon",
+  "Rummage floor sack"
+ ],
+ "beats": [
+  "The dial hums, picking up strange static that suddenly matches the flashing shopfront of Midnight Radio Repair as the bike touches down outside.",
+  "The metal bird drops a glowing vacuum tube right into your lap just before the motorbike glides into the radio shop doorway.",
+  "Inside lies a coiled copper wire that hums in sync with the glowing shop valves as the sidecar screeches to a friendly halt."
+ ],
+ "next": [
+  "c14-d5",
+  "c14-d5",
+  "c14-d5"
+ ],
+ "picture": "A flat side view inside the flying sidecar motorbike. Far left: dashboard with a glowing brass dial. Centre: the player sits inside, gripping the padded rim beside a canvas sack on the floor. Right: the goggled motorcycle driver sits astride, while a clockwork pigeon flaps just beyond.",
+ "shown": [
+  "A brass tuning dial clicks quietly on the dashboard on the far left.",
+  "A clockwork pigeon glides steadily beside the open sidecar on the right.",
+  "A rumpled canvas tool sack sits unopened on the floor at the centre."
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,26 @@
+{
+ "id": "c14-d3-t0",
+ "scene": "The funicular rattles upward as a clockwork conductor dispenses glowing star tokens.",
+ "options": [
+  "Take a token",
+  "Inspect forgotten satchel",
+  "Peer through window"
+ ],
+ "beats": [
+  "The warm token chimes softly in your palm, unlocking the funicular's upper hatch just as you pull up to the starry rooftop.",
+  "You find skyward charts stamped with comet paths, tucking them away as the carriage docks neatly beside the rooftop telescope terrace.",
+  "You spot the comet's greenish glow trailing above the depot before the doors slide open directly onto the bustling rooftop deck."
+ ],
+ "next": [
+  "c14-d0",
+  "c14-d0",
+  "c14-d0"
+ ],
+ "picture": "Inside a steeply tilted funicular carriage, a brass clockwork conductor stands on the left dispensing tokens. The player stands in centre-left wearing his burnt-orange jacket, beanie, and sling telescope. In centre, an empty wooden bench holds a buckled satchel beneath it. On the right, a wide glass window frames roofs descending below.",
+ "shown": [
+  "a brass clockwork conductor holding out glowing starry tokens on the left",
+  "a bulging leather satchel strapped shut beneath an empty bench in centre",
+  "a wide arched observation window framing distant city roofs on the right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,26 @@
+{
+ "id": "c14-d2-t4",
+ "scene": "Inside the rumbling cab, miniature rainclouds leak through the open dashboard vents.",
+ "options": [
+  "Turn radio knob",
+  "Catch leaky cloud",
+  "Inspect green toolbox"
+ ],
+ "beats": [
+  "The speaker blares a cheerful electric jingle. Static sparks across the cab just as the truck brakes hard inside the buzzing, glowing neon workshop.",
+  "You scoop the cool puff into your palm; it tickles and condenses into sweet lime drizzle as the truck halts among giant luminous letters.",
+  "Inside lies a glowing glass tube shaped like an ampersand. You tuck it under your arm and step directly onto the repair room floor."
+ ],
+ "next": [
+  "c14-d4",
+  "c14-d4",
+  "c14-d4"
+ ],
+ "picture": "Inside the flat-bench tow truck cab. A burly driver steers on the far left next to a glowing radio dial. The player sits centre in his corduroy jacket and beanie. Up high drifts a tiny raining cloud. On the right bench sits a green toolbox, with rooftop tanks visible through windows.",
+ "shown": [
+  "a crackling dashboard radio with a glowing red dial on the left",
+  "a tiny puffy grey stormcloud drifting near the ceiling up high",
+  "a dented metal toolbox latched shut on the bench seat at the right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,26 @@
+{
+ "id": "c14-d1-t3",
+ "scene": "Inside the rattling mail car, parcels wobble as Gear Bridge fades outside.",
+ "options": [
+  "Read glowing tag",
+  "Help sort mail",
+  "Feed mechanical dove"
+ ],
+ "beats": [
+  "The tag shifts into coordinates for a secret vault. The brakes hiss loudly, and you hop out onto the depot's echoing platform.",
+  "The automaton tips its cap and gifts you an unclaimed silver parcel key. The train screeches to a halt, welcoming you to the depot.",
+  "The dove chirps happily, dropping an old baggage claim ticket in your lap. Moments later, the train slides directly into the cavernous depot."
+ ],
+ "next": [
+  "c14-d3",
+  "c14-d3",
+  "c14-d3"
+ ],
+ "picture": "Inside a wood-panelled train car, side view along one floor line. On the left, parcels sit on benches, one with a bright glowing tag. In the centre, the player stands beside a four-armed sorting automaton. On the right, windows show moving gears. Up high, a brass dove perches on a rack.",
+ "shown": [
+  "a parcel with a neon blue tag on a bench on the left",
+  "a four-armed brass automaton sorting envelopes beside you in the centre",
+  "a clockwork dove perched on a high parcel rack up high"
+ ],
+ "view": "wide"
+}

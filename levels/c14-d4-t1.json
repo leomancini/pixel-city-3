@@ -1,0 +1,26 @@
+{
+ "id": "c14-d4-t1",
+ "scene": "The crawler rattles along its cable toward the churning bridge gears.",
+ "options": [
+  "Help folded passenger",
+  "Inspect rattling cage",
+  "Consult grease monkey"
+ ],
+ "beats": [
+  "You refold her creased blueprint, revealing a shortcut to the bridge's noodle stalls just as the crawler docks.",
+  "You wind its tiny key; the bird trills a brass tune, alerting the conductor to slide the exit gate open at Gear Bridge.",
+  "He shares oily advice on traversing turning gears, handing you a free wrench ticket as you step onto the platform."
+ ],
+ "next": [
+  "c14-d1",
+  "c14-d1",
+  "c14-d1"
+ ],
+ "picture": "Inside the rattling brass tram car, a level row of rivets runs along the floor. On the far left sits a woman with a large paper map. In the centre, the player stands beside a caged clockwork bird. To the right, a tea-drinking mechanic sits by large floor levers. Outside the rectangular windows, glowing neon signs recede.",
+ "shown": [
+  "a woman struggling with an origami map on the bench to the left",
+  "a brass birdcage holding a ticking mechanical finch at the centre",
+  "a boiler-suited mechanic sipping tea beside heavy lever controls on the far right"
+ ],
+ "view": "wide"
+}

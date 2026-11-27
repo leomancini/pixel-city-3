@@ -1,0 +1,26 @@
+{
+ "id": "c14-d4-t2",
+ "scene": "The open gondola rises steadily through glowing neon mist into misty skies.",
+ "options": [
+  "Crank the winch",
+  "Wipe soapy glass",
+  "Pet sleepy crow"
+ ],
+ "beats": [
+  "You spin the grooved handle, speeding the cable until the gondola docks beside a massive, humming cloud condenser, and you hop onto the wet shingles.",
+  "You clear a viewing ring with a rubber squeegee, revealing a cluster of rainbow sprinklers just as the gondola bumps safely against a mossy roof.",
+  "The goggled bird caws appreciatively and nudges a brass rain-token into your palm as the car settles softly among giant wooden cisterns."
+ ],
+ "next": [
+  "c14-d2",
+  "c14-d2",
+  "c14-d2"
+ ],
+ "picture": "A flat side view inside the metal-railed window-cleaner gondola. On the far left sits a bronze gear crank. The player stands left of centre in orange corduroy and beanie. In the centre, a goggled crow rests on a toolbox. On the right, a sudsy glass pane faces outward toward rising rooftop silos.",
+ "shown": [
+  "a heavy bronze gear crank mounted on the far left railing",
+  "a foam-coated glass windscreen on the right side of the deck",
+  "a black crow wearing goggles roosting on a tool crate in the centre"
+ ],
+ "view": "wide"
+}

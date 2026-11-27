@@ -1,0 +1,26 @@
+{
+ "id": "c14-d0-t2",
+ "scene": "The gondola sways gently as soapy suds bubble outside the glass.",
+ "options": [
+  "Wipe the steam",
+  "Help wind rope",
+  "Taste glowing foam"
+ ],
+ "beats": [
+  "You swipe the mist away just in time to see a silver weather-kite guide the gondola into a sprinkler-soaked rooftop dock.",
+  "You crank the stubborn gear until it clicks, and the gondola glides softly against a wooden pier lined with giant rain barrels.",
+  "The foam fizzes like mint soda; suddenly the floor bumps gently against a roof terrace covered in clinking cloud tanks."
+ ],
+ "next": [
+  "c14-d2",
+  "c14-d2",
+  "c14-d2"
+ ],
+ "picture": "Side view inside the narrow metal gondola. On the far left, a fogged oval window pane looks out on receding telescopes. At centre-left, the player in burnt-orange jacket, beanie, and telescope rests his prosthetic leg. In the centre, a brass winch clacks. On the right, a turquoise glowing wash-bucket sits near passenger benches.",
+ "shown": [
+  "a fogged oval window pane on the far left",
+  "a mechanical winch clacking noisily in the centre",
+  "a soapy bucket glowing bright turquoise on the right"
+ ],
+ "view": "wide"
+}

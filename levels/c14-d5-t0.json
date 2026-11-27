@@ -1,0 +1,26 @@
+{
+ "id": "c14-d5-t0",
+ "scene": "The funicular glides upward as glowing city roofs tilt below you.",
+ "options": [
+  "Tune driver's intercom",
+  "Inspect passenger's box",
+  "Turn skylight periscope"
+ ],
+ "beats": [
+  "You twiddle the dial; cosmic synth music plays softly until the doors open onto the telescope-lined terrace and you step out.",
+  "You peek inside: glowing green moths flutter! The car clunks to a halt at the starry observation deck and you step out.",
+  "Through the lens, the sparkling comet's trail fills the sky just as the bell rings and you step onto the moonlit rooftop."
+ ],
+ "next": [
+  "c14-d0",
+  "c14-d0",
+  "c14-d0"
+ ],
+ "picture": "Inside a sloped glass-walled funicular, side view. Far left sits an operator by a brass radio console. Centre stands the player, facing right. Right sits a woman beside a rattling crate. Up high overhead hangs a brass periscope. Far right, the glass exit door frames dark sky.",
+ "shown": [
+  "a crackling brass radio console on the far left wall",
+  "a rattling wooden crate with airholes sitting right beside a passenger",
+  "an overhead brass periscope mounted up high above the seats"
+ ],
+ "view": "wide"
+}

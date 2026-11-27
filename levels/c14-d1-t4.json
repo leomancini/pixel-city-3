@@ -1,0 +1,26 @@
+{
+ "id": "c14-d1-t4",
+ "scene": "You ride along inside the tow truck's rumbling, cluttered cabin.",
+ "options": [
+  "Tune the radio",
+  "Open the glovebox",
+  "Pet sleeping pug"
+ ],
+ "beats": [
+  "Static pops into jaunty synth jazz. The truck screeches to a halt, and you step out into the buzzing pink glow of Neon Sign Hospital.",
+  "Inside rests a glowing miniature glass pretzel. Pocketing it, you hop down as the truck pulls directly inside the humming, kaleidoscopic neon workshop.",
+  "The pug snorts happily and rests its chin on your knee until the truck parks, letting you step into the vibrant hospital of flickering signs."
+ ],
+ "next": [
+  "c14-d4",
+  "c14-d4",
+  "c14-d4"
+ ],
+ "picture": "Flat side-view across the tow truck's wide cabin interior. On the far left sits a bulky glowing radio. The driver grips the wheel on the left. At centre, the player sits beside a taped glovebox. On the right, a snoring pug curls up on the passenger bench. Through the windshield, Gear Bridge recedes.",
+ "shown": [
+  "a bulky dashboard radio with glowing dials on the left",
+  "a taped-shut metal glovebox below the dash at centre",
+  "a wrinkled pug snoring softly on the seat on the right"
+ ],
+ "view": "wide"
+}

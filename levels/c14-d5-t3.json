@@ -1,0 +1,26 @@
+{
+ "id": "c14-d5-t3",
+ "scene": "Inside the rattling mail car, sorting pouches sway as city lights streak past.",
+ "options": [
+  "Read glowing parcel",
+  "Help sorting conductor",
+  "Pull ceiling cord"
+ ],
+ "beats": [
+  "The parcel hums a lullaby, calming the rumbling engine just as the train brakes smoothly inside the Lost Property Depot and you step out into the cavernous hall.",
+  "The conductor thanks you with a stamped voucher for one unclaimed keepsake right as the brakes hiss, letting you off into the vast shelves of the Lost Property Depot.",
+  "A chime rings out, opening a skylight of drifting confetti just as the train glides to a stop and you step down onto the Depot's cluttered platform."
+ ],
+ "next": [
+  "c14-d3",
+  "c14-d3",
+  "c14-d3"
+ ],
+ "picture": "Flat side-view interior of a wooden mail train carriage. On the left, parcels sit stacked on benches, one glowing with neon blue script. In the centre, the player stands beside a busy badger conductor in a uniform cap. On the right, windows show passing neon roofs, beneath a brass bell and cord up high.",
+ "shown": [
+  "a parcel wrapped in brown paper glowing with blue neon script on the left",
+  "a badgeted badger conductor in a blue cap sorting letters at the centre",
+  "a dangling braided emergency cord with a brass bell attached up high on the right"
+ ],
+ "view": "wide"
+}

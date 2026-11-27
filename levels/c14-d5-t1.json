@@ -1,0 +1,26 @@
+{
+ "id": "c14-d5-t1",
+ "scene": "The crawler rattles across suspension cables as passengers share warm cider.",
+ "options": [
+  "Tune crawler radio",
+  "Accept paper cup",
+  "Open mail chute"
+ ],
+ "beats": [
+  "Static clears into a pirate broadcast of accordion jigs. The crawler docks at Gear Bridge, and you hop out beside a steaming noodle cart.",
+  "Clove cider warms your chest as brass gears click into lock. You step off into Gear Bridge's bustling lantern-lit plaza.",
+  "A chime sounds and a brass token drops into your palm just as the crawler doors slide open onto turning cogways."
+ ],
+ "next": [
+  "c14-d1",
+  "c14-d1",
+  "c14-d1"
+ ],
+ "picture": "Inside a wood-panelled crawler car side view. On the far left sits a humming brass radio. To the left, a passenger offers cider. Centre, the player stands holding a hand strap. Beside him, large windows show Midnight Radio Repair shrinking. On the far right is a brass pneumatic tube receptacle beside exit doors.",
+ "shown": [
+  "a humming brass radio on a shelf on the far left",
+  "a passenger extending a steaming paper cup on the left",
+  "a brass pneumatic tube receptacle on the far right wall"
+ ],
+ "view": "wide"
+}

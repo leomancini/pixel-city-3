@@ -1,0 +1,26 @@
+{
+ "id": "c14-d2-t0",
+ "scene": "The clanking car glides skyward over glowing rain barrels and cloud tanks.",
+ "options": [
+  "Trade snacks",
+  "Crank music box",
+  "Read wall route"
+ ],
+ "beats": [
+  "You swap a pocket mint for dried sourfruit just as the car docks, crunching happily onto the starlit observation deck.",
+  "A chime ripples out, coaxing sleepy fireflies from the vent before the doors glide open onto the telescope terrace.",
+  "Tracing the neon transit line, you spot a secret observatory spur right before the funicular halts beside steaming cocoa robots."
+ ],
+ "next": [
+  "c14-d0",
+  "c14-d0",
+  "c14-d0"
+ ],
+ "picture": "Inside a slanting glass-and-brass cabin, a passenger sits left clutching starfruit chips. The player stands centre in corduroy jacket and beanie, brass telescope slung. Up high, a winding music box gleams on the ceiling beam. On the right, a route map glows. Outside, rooftop rain barrels glow far below.",
+ "shown": [
+  "a passenger holding a bag of starfruit chips on the left",
+  "a brass lullaby box mounted beneath the window up high",
+  "a glowing constellation map frame mounted on the right wall"
+ ],
+ "view": "wide"
+}

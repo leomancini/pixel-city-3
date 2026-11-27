@@ -543,8 +543,12 @@
   // Start loading the level behind every option now, so choosing one is
   // instant. Each entry remembers whether it has finished.
   function prefetch(ids) {
+    // A ride's three options all arrive in the same place: fetch it once.
+    const seen = new Map();
     return ids.map((id) => {
+      if (seen.has(id)) return seen.get(id);
       const entry = { ready: false };
+      seen.set(id, entry);
       entry.promise = loadLevel(id);
       entry.promise.then(() => { entry.ready = true; }, () => {});
       return entry;
@@ -729,7 +733,14 @@
       const arriving = /^c\d+-d\d+$/.test(id);
       setScene(level === 1 && arriving ? "Welcome to Pixel City! " + data.scene + " What's next?" : data.scene);
       const next = prefetch(data.next);
-      showOptions(data.options.map((text, i) => ({ label: text, action: () => play(data.next[i], next[i]) })));
+      // On a ride, a choice first plays out as a line of text under the same
+      // picture; then on to wherever the ride arrives.
+      showOptions(data.options.map((text, i) => ({
+        label: text,
+        action: data.beats?.[i]
+          ? () => { setScene(data.beats[i]); showOptions([{ label: "Continue", action: () => play(data.next[i], next[i]) }]); }
+          : () => play(data.next[i], next[i]),
+      })));
     } catch (err) {
       setGlow(false);
       setScene("Something went wrong: " + err.message);

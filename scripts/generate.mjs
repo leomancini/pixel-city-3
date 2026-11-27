@@ -442,6 +442,105 @@ async function levelsOf(c) {
   return ids;
 }
 
+// Rides: the trip between two districts. A last step's three options board
+// waiting vehicles; each leads to a ride scene inside that vehicle (one per
+// route, from district a to district b), whose three options are things to
+// do on board. Each comes with a short "beat" of text, shown under the same
+// picture, telling what happened as the ride pulls in; then the destination's
+// arrival. Many paths share a route, so a ride only knows where it is from.
+const RIDE_ID = /^c\d+-d\d+-t(\d+)$/;
+const rideId = (c, a, b) => `c${c}-d${a}-t${b}`;
+const LAST_STEPS = [0, 1, 2].flatMap((i) => [0, 1, 2].map((j) => [i, j]));
+
+async function ridesOf(c, districts = DISTRICTS[c].map((_, d) => d)) {
+  const ids = [];
+  for (const a of districts) for (let b = 0; b < DISTRICTS[c].length; b++) {
+    if (b !== a && (await exists(rideId(c, a, b)))) ids.push(rideId(c, a, b));
+  }
+  return ids;
+}
+
+// Every route a character's last steps use, as [from, to] pairs.
+async function routesOf(c) {
+  const seen = new Map();
+  for (let a = 0; a < DISTRICTS[c].length; a++) {
+    for (const p of LAST_STEPS) {
+      for (const id of (await exists(idOf(c, a, p)))?.next || []) {
+        const b = RIDE_ID.exec(id)?.[1] ?? /^c\d+-d(\d+)$/.exec(id)?.[1];
+        if (b !== undefined) seen.set(`${a}>${b}`, [a, Number(b)]);
+      }
+    }
+  }
+  return [...seen.values()];
+}
+
+const RIDE_FORMAT = structuredClone(STORY_FORMAT);
+RIDE_FORMAT.schema.properties.options.items.properties.outcome = { type: "string" };
+RIDE_FORMAT.schema.properties.options.items.required.push("outcome");
+
+async function buildRide(c, a, b) {
+  const id = rideId(c, a, b);
+  if (await exists(id)) return;
+  if (ledger.usd >= BUDGET) { stopped = true; return; }
+  const player = CHARACTERS[c];
+  const [fromName, , fromAbout] = DISTRICTS[c][a];
+  const [toName, transport, toAbout] = DISTRICTS[c][b];
+  const from = await exists(idOf(c, a, []));
+  const prompt = `Board the ${transport} to ${toName}`;
+  const input = `The player has just boarded the ${transport} in ${fromName} (${fromAbout}). It is taking them to ${toName}: ${toAbout}.
+This scene is the ride itself, inside the ${transport}: its seats, passengers, crew, windows and luggage, with ${fromName} falling away outside. Something small, curious and particular to this ride happens on board. Use the wide view.
+The player reaches this ride from many different paths, so do not mention anyone travelling with them, or anything they carry beyond their own description.
+The three options are three different things to do on board, each about something visible in the picture. For each option also write "outcome": one or two sentences, at most 30 words, in second person, present tense, saying what happens when the player does it, and ending as the ${transport} arrives in ${toName} and they step off. Make each outcome a small surprise or payoff, not just a summary of the option.`;
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      const interaction = await ai.interactions.create({
+        model: TEXT_MODEL,
+        system_instruction: storySystem(player),
+        input,
+        response_format: RIDE_FORMAT,
+        generation_config: { thinking_level: "low" },
+        store: false,
+      });
+      spend("text", interaction.usage);
+      const story = JSON.parse(interaction.output_text);
+      const options = (story.options || []).slice(0, 3).map((o) => ({ label: String(o.label), shown: String(o.shown || ""), outcome: String(o.outcome || "") }));
+      if (typeof story.scene !== "string" || options.length < 3 || options.some((o) => !o.outcome)) throw new Error("Ride model returned an unexpected shape");
+      const ride = { scene: tidyScene(story.scene), picture: String(story.picture || ""), view: "wide", options };
+      // The departure picture keeps the player looking the same.
+      const previous = { picture: from.picture, options: from.options, view: from.view, image: `data:image/jpeg;base64,${(await readFile(new URL(`${idOf(c, a, [])}.jpg`, OUT))).toString("base64")}` };
+      const image = await generateImage(player, ride, prompt, [`Player chose: to arrive Then: ${from.scene}`], previous);
+      const made_ = { id, scene: ride.scene, options: options.map((o) => o.label), beats: options.map((o) => o.outcome), next: [0, 1, 2].map(() => idOf(c, b, [])), picture: ride.picture, shown: options.map((o) => o.shown), view: "wide" };
+      await writeFile(new URL(`${id}.jpg`, OUT), Buffer.from(image, "base64"));
+      await writeFile(new URL(`${id}.json`, OUT), JSON.stringify(made_, null, 1));
+      made += 1;
+      await saveLedger();
+      console.log(`${id}  $${ledger.usd.toFixed(2)}  ${made_.scene}  [${made_.options.join(" | ")}]`);
+      return;
+    } catch (err) {
+      console.error(`${id} attempt ${attempt} failed: ${String(err.message).slice(0, 200)}`);
+      await saveLedger();
+      await new Promise((r) => setTimeout(r, 4000 * attempt));
+    }
+  }
+  failed += 1;
+}
+
+// Point every last step's options at the ride for that route, where one exists.
+async function rewireRides(c) {
+  for (let a = 0; a < DISTRICTS[c].length; a++) {
+    for (const p of LAST_STEPS) {
+      const id = idOf(c, a, p);
+      const node = await exists(id);
+      if (!node) continue;
+      const next = await Promise.all(node.next.map(async (n) => {
+        const b = /^c\d+-d(\d+)$/.exec(n)?.[1];
+        return b !== undefined && (await exists(rideId(c, a, Number(b)))) ? rideId(c, a, Number(b)) : n;
+      }));
+      if (next.join() !== node.next.join()) await writeFile(new URL(`${id}.json`, OUT), JSON.stringify({ ...node, next }, null, 1));
+    }
+  }
+}
+
 // The districts a character can be played in: all 13 levels exist, and every
 // ending travels to another such district.
 async function readyDistricts(c) {
@@ -455,7 +554,12 @@ async function readyDistricts(c) {
     for (const d of ready) {
       const ends = [0, 1, 2].flatMap((i) => [0, 1, 2].map((j) => [i, j]));
       const goes = (await Promise.all(ends.map((p) => exists(idOf(c, d, p))))).flatMap((n) => n.next);
-      if (!goes.every((id) => ready.includes(Number(id.split("-")[1].slice(1))))) {
+      const reaches = async (id) => {
+        const ride = RIDE_ID.exec(id);
+        if (!ride) return ready.includes(Number(id.split("-")[1].slice(1)));
+        return Boolean(await exists(id)) && ready.includes(Number(ride[1]));
+      };
+      if (!(await Promise.all(goes.map(reaches))).every(Boolean)) {
         ready = ready.filter((x) => x !== d);
         changed = true;
         break;
@@ -485,9 +589,9 @@ async function writeIndex() {
       player: CHARACTERS[c],
       districts: ready.map((d) => { const [name, transport, about] = DISTRICTS[c][d]; return { id: idOf(c, d, []), name, transport, about }; }),
     });
-    for (const id of ids) {
-      const { scene, options, next, picture, shown, view } = await exists(id);
-      levels[id] = { scene, options, next, picture, shown, view };
+    for (const id of [...ids, ...(await ridesOf(c, ready))]) {
+      const { scene, options, next, picture, shown, view, beats } = await exists(id);
+      levels[id] = { scene, options, next, picture, shown, view, ...(beats ? { beats } : {}) };
     }
   }
   await writeFile(new URL("gallery.json", OUT), JSON.stringify({ version, characters, levels }));
@@ -497,6 +601,21 @@ await mkdir(OUT, { recursive: true });
 const startedAt = ledger.usd;
 if (PILOT) {
   await build(0, 0, [], null, []);
+} else if (process.argv.includes("--rides")) {
+  //   node scripts/generate.mjs --rides 14 3   rides for characters 14 and 3
+  const who = process.argv.slice(process.argv.indexOf("--rides") + 1).filter((x) => /^\d+$/.test(x)).map(Number);
+  for (const c of who.length ? who : CHARACTERS.map((_, c) => c)) {
+    const routes = await routesOf(c);
+    const missing = (await Promise.all(routes.map(([a, b]) => exists(rideId(c, a, b))))).filter((x) => !x).length;
+    const each = made ? (ledger.usd - startedAt) / made : 0.04;
+    if (missing && ledger.usd + missing * each > BUDGET) {
+      console.log(`Skipping rides for character ${c}: ${missing} at about $${each.toFixed(3)} would pass the budget`);
+      continue;
+    }
+    await Promise.all(routes.map(([a, b]) => slot(() => buildRide(c, a, b))));
+    await rewireRides(c);
+    await writeIndex();
+  }
 } else if (process.argv.includes("--index")) {
   // Only rewrite index.json and gallery.json from what is already on disk.
 } else {

@@ -1,0 +1,26 @@
+{
+ "id": "c14-d5-t4",
+ "scene": "Inside the rumbling cab, the tow truck driver hums through neon drizzle.",
+ "options": [
+  "Tune CB radio",
+  "Inspect glowing cooler",
+  "Ask about charm"
+ ],
+ "beats": [
+  "Static pops into synthesized jazz. The truck brakes smoothly beneath sizzling gas-discharge tubes, and you hop out into Neon Sign Hospital.",
+  "Inside rests a chilled coil of argon tubing, humming gently. The driver honks twice, parking beside glass-bending torches, and you disembark.",
+  "The driver taps it, sparking hot pink brilliance. You roll straight through the hangar doors of Neon Sign Hospital and step down."
+ ],
+ "next": [
+  "c14-d4",
+  "c14-d4",
+  "c14-d4"
+ ],
+ "picture": "Side view inside the wide truck cab. On the left, the silver CB radio sits on the dash beside the robotic driver. In the centre, the player sits on a bench seat beside a glowing blue foam cooler. Up high, an unlit miniature neon flamingo hangs from the mirror.",
+ "shown": [
+  "a bulky silver CB radio with dangling microphone on the left dashboard",
+  "a blue foam cooler glowing with faint purple light sitting in centre",
+  "a miniature neon flamingo hanging unlit from the rear-view mirror up high"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,26 @@
+{
+ "id": "c14-d2-t3",
+ "scene": "Inside the rattling mail train, pneumatic tubes hiss above velvet passenger seats.",
+ "options": [
+  "Catch blue parcel",
+  "Chat with badger",
+  "Turn brass valve"
+ ],
+ "beats": [
+  "You catch the winged envelope, which promptly nips your thumb before slipping loose into Lost Property Depot as you step onto the platform.",
+  "The badger hands you an unclaimed velvet key with a nod. You pocket it just as brakes screech at Lost Property Depot and you disembark.",
+  "The valve releases perfumed lavender steam, causing the train to glide gently into Lost Property Depot, where you step into towering aisles of lost goods."
+ ],
+ "next": [
+  "c14-d3",
+  "c14-d3",
+  "c14-d3"
+ ],
+ "picture": "Flat side view inside the mail carriage. At far left, a winged envelope hovers. On the left, a badger in a vest sorts mail. Centre stands the player in his orange jacket and beanie. Up high, overhead pipes feature a brass valve. On the right, windows show receding rooftops.",
+ "shown": [
+  "a fluttering parcel with tiny feather wings, mid-air at the far left",
+  "a dapper badger postal clerk sorting cartas at a desk on the left",
+  "a gleaming pressure valve attached to overhead copper pipes up high"
+ ],
+ "view": "wide"
+}

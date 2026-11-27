@@ -1,0 +1,26 @@
+{
+ "id": "c14-d5-t2",
+ "scene": "The creaky gondola rises, carrying a bucket, winch, and napping pigeon.",
+ "options": [
+  "Turn brass winch",
+  "Inspect bubble bucket",
+  "Wake sleepy pigeon"
+ ],
+ "beats": [
+  "You crank the winch faster. The gondola surges through a mist bank and lands with a metallic clank beside giant rain barrels on Rainmaker Rooftops.",
+  "You stir the glowing foam, releasing a floating iridescent sphere. The cradle bumps against an iron mooring, letting you hop onto the cloud-slicked roof.",
+  "The pigeon coos indignantly and drops a brass rooftop key before fluttering up. The gondola stops, allowing you to step onto the rainmaker terrace."
+ ],
+ "next": [
+  "c14-d2",
+  "c14-d2",
+  "c14-d2"
+ ],
+ "picture": "Inside the yellow metal gondola, arranged along one floor from left to right: a brass winch drum, the middle-aged Black man in his burnt-orange jacket, a foaming bucket of blue suds, and a plump pigeon in a knit cap resting on an iron railing. Sky glows purple through the railing bars.",
+ "shown": [
+  "a heavy brass winch with a worn wooden handle on the left",
+  "a metal pail frothing with luminescent blue suds in the centre",
+  "a plump grey pigeon wearing a tiny knit hat on the right"
+ ],
+ "view": "wide"
+}

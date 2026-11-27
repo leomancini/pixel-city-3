@@ -1,0 +1,26 @@
+{
+ "id": "c14-d0-t3",
+ "scene": "You ride the rumbling mail train as brass pneumatic tubes hiss overhead.",
+ "options": [
+  "Read glowing parcel",
+  "Help sorting conductor",
+  "Open mail chute"
+ ],
+ "beats": [
+  "The parcel hums a lullaby that turns your beard blue. As the train halts in Lost Property Depot, you step into the cavernous hall.",
+  "The badger rewards your help with a golden parcel token. The brakes squeal, and you step out into the sprawling Lost Property Depot.",
+  "A puff of violet dust blows out, revealing a lost clockwork sparrow. The train jerks to a stop at Lost Property Depot, and you alight."
+ ],
+ "next": [
+  "c14-d3",
+  "c14-d3",
+  "c14-d3"
+ ],
+ "picture": "Inside the train, from left to right along the level carriage floor: a glowing parcel sits beside a post sack, the player in corduroy jacket and prosthetic leg leans on a bench, a badger conductor sorts envelopes at a cubby, and a brass wall chute with a lever stands near the exit.",
+ "shown": [
+  "a softly glowing, stamped parcel sitting on the floor at the far left",
+  "a badger conductor wearing brass spectacles sorting letters in the centre",
+  "a polished brass mail chute hatch sealed with a red lever on the right"
+ ],
+ "view": "wide"
+}

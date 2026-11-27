@@ -1,0 +1,26 @@
+{
+ "id": "c14-d4-t0",
+ "scene": "The funicular glides upward as glowing neon signs shrink below the glass.",
+ "options": [
+  "Inspect velvet bag",
+  "Turn brass dial",
+  "Chat with conductor"
+ ],
+ "beats": [
+  "Inside lies a brass star-wheel dial. The carriage clunks to a halt at the Comet Watch Rooftop, and you step out under starry skies.",
+  "The ceiling glass tints purple to reveal faint constellations. The funicular docks smoothly, letting you out beside steaming cocoa robots on the rooftop.",
+  "The robot wakes with a chime, handing you a punchcard comet schedule before the doors slide open onto the breezy Comet Watch Rooftop."
+ ],
+ "next": [
+  "c14-d0",
+  "c14-d0",
+  "c14-d0"
+ ],
+ "picture": "Flat side view inside the tilted glass-walled funicular. On the far left sits an embroidered velvet pouch on a green velvet bench. The player stands centre with telescope slung. Up high, an ornate brass dial glows. On the far right, a tin conductor robot naps against the exit door.",
+ "shown": [
+  "a mysterious embroidered velvet pouch sitting on an empty seat on the left",
+  "an ornate brass cabin dial glowing softly on the wall up high",
+  "a sleeping robot conductor wearing a pillbox cap on the far right"
+ ],
+ "view": "wide"
+}

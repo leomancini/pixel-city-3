@@ -1,0 +1,26 @@
+{
+ "id": "c14-d1-t2",
+ "scene": "Inside the swaying gondola, soapy suds foam against the glass windows.",
+ "options": [
+  "Wipe the glass",
+  "Feed the pigeon",
+  "Turn the valve"
+ ],
+ "beats": [
+  "You scrape clear glass to reveal spinning storm vanes, right as the gondola bumps gently against the rain barrel platform.",
+  "The pigeon coos, leaves you an iridescent feather, and flutters out just as the gondola docks beside a bubbling cloud tank.",
+  "Warm mist puffs out and smells like fresh rain, whistling down until the doors slide open onto rainbow-sprinkled rooftops."
+ ],
+ "next": [
+  "c14-d2",
+  "c14-d2",
+  "c14-d2"
+ ],
+ "picture": "Flat side-view inside the enclosed gondola cabin along a metal floor line. On the far left, a cleaner grips a dripping squeegee. Centre, the player in corduroy jacket stands near a pigeon on a rail. On the far right, a shiny red valve is bolted beside the sliding doors.",
+ "shown": [
+  "a long rubber squeegee dripping suds, held on the far left",
+  "a fluffy grey pigeon perched calmly on a brass rail centre",
+  "a polished red pressure valve mounted to the wall far right"
+ ],
+ "view": "wide"
+}
