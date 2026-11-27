@@ -1,0 +1,21 @@
+{
+ "id": "c1-d4-2-2",
+ "scene": "You climb the roof hatch onto an airy pavilion transit terrace.",
+ "options": [
+  "Ride the rickshaw",
+  "Board hand trolley",
+  "Take water taxi"
+ ],
+ "next": [
+  "c1-d3",
+  "c1-d5",
+  "c1-d0"
+ ],
+ "picture": "A flat rooftop terrace along one level floor. On the far left, a yellow rickshaw waits with a driver. Left of centre stands the player in blue cap and orange cardigan holding his cane. At centre sits a hand-cranked track trolley. To the right, a canal water taxi floats at a small platform gate.",
+ "shown": [
+  "a wheeled rickshaw with a smiling runner waiting on the far left",
+  "a hand-cranked rail trolley on narrow tracks at the centre",
+  "a low wooden water taxi tied to an open canal gate right"
+ ],
+ "view": "wide"
+}
