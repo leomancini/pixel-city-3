@@ -1,0 +1,21 @@
+{
+ "id": "c10-d4-2-0",
+ "scene": "Catching a second glowing pin, exit gates suddenly swing open before you.",
+ "options": [
+  "Ride noodle monorail",
+  "Board cable car",
+  "Climb lantern balloon"
+ ],
+ "next": [
+  "c10-d1",
+  "c10-d2",
+  "c10-d3"
+ ],
+ "picture": "A flat side view of the lane concourse. On the far left waits a noodle-cart monorail on overhead rails. Left of centre stands the player holding two glowing pins. On the right, a bamboo cable car hangs open. On the far right, a giant glowing paper-lantern balloon is tethered to a launch platform.",
+ "shown": [
+  "steaming noodle-cart monorail idling at a boarding platform on the far left",
+  "woven bamboo cable car swaying gently on its wire on the right",
+  "glowing paper-lantern balloon basket tethered near a hatch on the far right"
+ ],
+ "view": "wide"
+}

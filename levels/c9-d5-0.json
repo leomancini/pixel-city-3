@@ -1,0 +1,21 @@
+{
+ "id": "c9-d5-0",
+ "scene": "Arcs of bright blue lightning twist behind thick, buzzing glass.",
+ "options": [
+  "Turn discharge dial",
+  "Read warning label",
+  "Tap top terminal"
+ ],
+ "next": [
+  "c9-d5-0-0",
+  "c9-d5-0-1",
+  "c9-d5-0-2"
+ ],
+ "picture": "First-person close-up view of the giant glass containment jar. Blue lightning bolts snake across the transparent surface. On the jar's bottom left, a heavy brass dial is turned to zero. A taped paper warning note sits in the centre. Up high atop the cylinder, a polished copper terminal buzzes with bright static electricity.",
+ "shown": [
+  "a large brass dial reading zero on the jar base at the bottom left",
+  "a yellow taped note with lightning hazard symbols placed in the centre",
+  "a glowing copper sphere sparking with mini bolts positioned up high"
+ ],
+ "view": "close"
+}

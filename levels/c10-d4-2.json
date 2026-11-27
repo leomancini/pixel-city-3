@@ -1,0 +1,21 @@
+{
+ "id": "c10-d4-2",
+ "scene": "The brass pin robot drops a glowing pin into your waiting hands.",
+ "options": [
+  "Catch another pin",
+  "Inspect robot panel",
+  "Roll ball down"
+ ],
+ "next": [
+  "c10-d4-2-0",
+  "c10-d4-2-1",
+  "c10-d4-2-2"
+ ],
+ "picture": "A flat side view of the lane's end. On the far left sits a sparkling purple ball in the ball return. Left of centre, the player in red bomber jacket and white roller skates holds a glowing pin. On the right stands the brass pin-setting robot with an open chest panel, juggling glowing pins on the far right.",
+ "shown": [
+  "a glowing yellow bowling pin mid-air on the far right",
+  "an open maintenance panel buzzing with sparks on the robot's chest at right",
+  "a sparkly purple bowling ball sitting in a return rack on the left"
+ ],
+ "view": "wide"
+}

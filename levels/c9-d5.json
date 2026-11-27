@@ -1,0 +1,21 @@
+{
+ "id": "c9-d5",
+ "scene": "You step from the weather balloon into the crackling Thunderstorm Laboratory.",
+ "options": [
+  "Inspect lightning jar",
+  "Greet robot scientist",
+  "Crank rain machine"
+ ],
+ "next": [
+  "c9-d5-0",
+  "c9-d5-1",
+  "c9-d5-2"
+ ],
+ "picture": "Pixel art flat side view of a rooftop laboratory. On the far left, a huge glass jar crackles with captured blue lightning. To its right, a deflated yellow weather balloon rests on the floor. The player in roller skates stands facing right, near a wheeled robot with a clipboard. Far right sits a brass rain machine.",
+ "shown": [
+  "a huge glass jar glowing with blue electric sparks on the far left",
+  "a wheeled metal robot holding a clipboard standing in the centre",
+  "a brass rain machine with a large wheel handle on the far right"
+ ],
+ "view": "wide"
+}

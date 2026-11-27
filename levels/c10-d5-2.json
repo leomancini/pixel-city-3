@@ -1,0 +1,21 @@
+{
+ "id": "c10-d5-2",
+ "scene": "You skate up the shifting stairs onto the mezzanine gallery.",
+ "options": [
+  "Open carved wardrobe",
+  "Feed clockwork bird",
+  "Turn ship wheel"
+ ],
+ "next": [
+  "c10-d5-2-0",
+  "c10-d5-2-1",
+  "c10-d5-2-2"
+ ],
+ "picture": "Flat side view of the mezzanine floor. On the far left stands a closed carved wardrobe. Up high hangs a brass cage holding an unmoving mechanical canary. The player stands centre in red bomber jacket and roller skates. On the right, a ship steering wheel is mounted to the wallpapered wall.",
+ "shown": [
+  "a tall ornate wooden wardrobe with brass latches on the far left",
+  "a mechanical brass canary perching inside a hanging cage up high",
+  "a mounted wooden steering wheel ticking against the wall on the right"
+ ],
+ "view": "wide"
+}

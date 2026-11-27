@@ -1,0 +1,21 @@
+{
+ "id": "c9-d5-1-0",
+ "scene": "The blueprint diagrams three bustling transit docks linked directly to this rooftop.",
+ "options": [
+  "Board solar junk",
+  "Ride sky rail",
+  "Take dragon train"
+ ],
+ "next": [
+  "c9-d3",
+  "c9-d4",
+  "c9-d0"
+ ],
+ "picture": "Pixel art flat side view of the rooftop transport station. On the far left, a docked junk with glowing solar sails waits. Left of centre, the player in red bomber jacket and roller skates holds a blueprint. At centre, a yellow sky rail car sits at an open gate. On the far right waits a maglev dragon train.",
+ "shown": [
+  "a docked wooden junk with glowing solar sails on the far left",
+  "a sleek yellow monorail car idling at a gate at centre",
+  "a serpentine maglev train waiting beside a lantern on the far right"
+ ],
+ "view": "wide"
+}

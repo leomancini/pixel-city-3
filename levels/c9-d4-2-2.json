@@ -1,0 +1,21 @@
+{
+ "id": "c9-d4-2-2",
+ "scene": "The booster ramp catapults you into the Grand Transit interchange.",
+ "options": [
+  "Board solar junk",
+  "Climb weather balloon",
+  "Ride dragon train"
+ ],
+ "next": [
+  "c9-d3",
+  "c9-d5",
+  "c9-d0"
+ ],
+ "picture": "A flat side view of the wide aerial dock. On the far left, a gleaming solar junk floats moored to a post. Left of centre stands the player on her white roller skates. Centre-right, a yellow weather balloon basket is tied to the railing. On the far right waits the open door of a maglev dragon train.",
+ "shown": [
+  "a wooden solar-sail junk docked on the left with glowing emerald sails",
+  "a tethered yellow weather balloon basket bobbing centre-right along the railing",
+  "a red maglev dragon train with open doors on the far right"
+ ],
+ "view": "wide"
+}

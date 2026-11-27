@@ -1,0 +1,21 @@
+{
+ "id": "c10-d5-1",
+ "scene": "The cubic bellhop robot clicks politely and presents a glowing silver masterkey.",
+ "options": [
+  "Take the key",
+  "Enter open lift",
+  "Examine wall tapestry"
+ ],
+ "next": [
+  "c10-d5-1-0",
+  "c10-d5-1-1",
+  "c10-d5-1-2"
+ ],
+ "picture": "A flat side view of the grand hotel lobby interior. On the left, a brass birdcage elevator sits with open accordion gates. The player stands facing right in skates and bomber jacket. At centre, the cubic robot bellhop holds out a silver key. On the right hangs a detailed pixel-woven map tapestry.",
+ "shown": [
+  "a gleaming silver key held outstretched in the cubic robot's metallic hand at centre",
+  "a brass birdcage elevator with its latticed gate slid wide open on the left",
+  "an intricate pixel-woven map hanging quietly on the polished wood wall on the right"
+ ],
+ "view": "wide"
+}

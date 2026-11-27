@@ -1,0 +1,21 @@
+{
+ "id": "c9-d4",
+ "scene": "You step off the sky rail onto the buzzing Skate Ramp Skyway.",
+ "options": [
+  "Order fresh smoothie",
+  "Drop into halfpipe",
+  "High-five the drone"
+ ],
+ "next": [
+  "c9-d4-0",
+  "c9-d4-1",
+  "c9-d4-2"
+ ],
+ "picture": "A flat side view of a rooftop platform between tall pixel towers. On the far left sits a neon smoothie bar. The player in her red bomber jacket and white roller skates stands facing right. In the centre dips a steep orange halfpipe. On the right, a cheering drone hovers. Far right waits the sleek sky rail car.",
+ "shown": [
+  "a neon smoothie bar with glowing blender jars on the far left",
+  "a steep curved orange skate ramp dipping down at the centre",
+  "a hovering cheerful camera drone waving mechanical hands on the right"
+ ],
+ "view": "wide"
+}

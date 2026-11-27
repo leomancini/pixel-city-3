@@ -1,0 +1,21 @@
+{
+ "id": "c9-d5-0-1",
+ "scene": "The note reveals transport schedules powered by the bottled storm outside.",
+ "options": [
+  "Board cloud pod",
+  "Catch bullet train",
+  "Board solar junk"
+ ],
+ "next": [
+  "c9-d1",
+  "c9-d2",
+  "c9-d3"
+ ],
+ "picture": "A flat side view of the storm lab's open departure deck. The young Chinese woman in red bomber jacket and white roller skates stands centre. To her far left, a glass cloud cable pod hangs open. To her right, a silver bullet train waits. Far right, an emerald solar-sail junk sits ready.",
+ "shown": [
+  "A round cloud cable pod dangling open far left at an exit gate",
+  "A sleek bullet train waiting right with its passenger door wide open",
+  "A solar-sail junk moored far right beside an open launch bay"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c10-d4-2-2",
+ "scene": "Your strike triggers a fanfare, opening three secret exits behind the pins.",
+ "options": [
+  "Board lantern balloon",
+  "Enter revolving door",
+  "Ride rooftop escalator"
+ ],
+ "next": [
+  "c10-d3",
+  "c10-d5",
+  "c10-d0"
+ ],
+ "picture": "A flat side view along the bowling lane's back wall. On the far left, a glowing paper-lantern balloon bobs gently at a balcony. Left of centre, the player holds her glowing pin while on skates. In the centre waits an ornate revolving door. On the right, an upward neon escalator hums, beside scattered pins.",
+ "shown": [
+  "a tethered paper-lantern balloon floating on the left with an open wicker basket",
+  "a glowing brass revolving door marked Puzzle Box Hotel in the centre",
+  "a neon-lit rooftop escalator running upwards on the right side"
+ ],
+ "view": "wide"
+}

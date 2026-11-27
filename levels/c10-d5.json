@@ -1,0 +1,21 @@
+{
+ "id": "c10-d5",
+ "scene": "You glide out of the brass revolving door into Puzzle Box Hotel.",
+ "options": [
+  "Ring desk bell",
+  "Greet the bellhop",
+  "Climb shifting staircase"
+ ],
+ "next": [
+  "c10-d5-0",
+  "c10-d5-1",
+  "c10-d5-2"
+ ],
+ "picture": "A flat side view of the grand hotel lobby. On the far left stands the brass revolving door. At the left sits a mahogany front desk with a shiny bronze bell. The player stands in roller skates left of centre. At centre stands a cubic bellhop robot. On the far right, wooden stairs slide along tracks.",
+ "shown": [
+  "a shiny bronze service bell on the mahogany front desk at the left",
+  "a cubic brass robot holding a room key at the centre",
+  "a wooden staircase sliding along brass wall tracks on the far right"
+ ],
+ "view": "wide"
+}

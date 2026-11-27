@@ -1,0 +1,21 @@
+{
+ "id": "c10-d4-0-0",
+ "scene": "The pod opens outside, unlocking three dazzling transit routes across the city.",
+ "options": [
+  "Ride rooftop escalator",
+  "Board noodle monorail",
+  "Take bamboo car"
+ ],
+ "next": [
+  "c10-d0",
+  "c10-d1",
+  "c10-d2"
+ ],
+ "picture": "A flat side-scrolling view of an elevated transit platform under evening skies. On the far left, a purple escalator ascends skyward. To the left, the player in her red bomber jacket and roller skates stands by the open spherical pod. In the centre, a yellow noodle monorail waits. On the far right hangs a bamboo cable car.",
+ "shown": [
+  "a bright ascending escalator glowing with purple neon on the far left",
+  "a steaming yellow noodle-cart monorail idling on tracks at the centre",
+  "a woven bamboo cable car swinging gently from wires on the far right"
+ ],
+ "view": "wide"
+}

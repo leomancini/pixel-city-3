@@ -1,0 +1,21 @@
+{
+ "id": "c9-d5-2-1",
+ "scene": "The brass dial clicks, revealing three transit gates behind sliding lab panels.",
+ "options": [
+  "Board bullet train",
+  "Board solar junk",
+  "Ride sky rail"
+ ],
+ "next": [
+  "c9-d2",
+  "c9-d3",
+  "c9-d4"
+ ],
+ "picture": "Pixel art flat side view of the lab's exit bay. The player stands in her red bomber jacket and roller skates. On the left, a sleek pink bullet train rests behind an open gate. Centre, a wooden solar-sail junk floats moored at a dock. On the right, a yellow sky rail cart dangles ready.",
+ "shown": [
+  "a sleek pink bullet train idling at an open platform gate on the left",
+  "a wooden junk with glowing green solar sails moored in the centre dock",
+  "an open-air sky rail cart hanging from a rail on the right"
+ ],
+ "view": "wide"
+}

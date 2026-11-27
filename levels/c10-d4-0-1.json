@@ -1,0 +1,21 @@
+{
+ "id": "c10-d4-0-1",
+ "scene": "The toggle pops the door, opening a platform to distant city lines.",
+ "options": [
+  "Ride noodle monorail",
+  "Board cable car",
+  "Hop in balloon"
+ ],
+ "next": [
+  "c10-d1",
+  "c10-d2",
+  "c10-d3"
+ ],
+ "picture": "A wide side-view station platform. The player in her red bomber jacket and white roller skates stands centre. At the far left sits an open noodle-cart monorail car emitting steam. On the right, a bamboo cable car hangs ready. At the far right floats a glowing paper-lantern hot-air balloon.",
+ "shown": [
+  "a steaming noodle-cart monorail waiting open on the track at the far left",
+  "a green bamboo cable car dangling from an overhead wire on the right",
+  "a tethered paper-lantern balloon floating with its wicker basket at the far right"
+ ],
+ "view": "wide"
+}

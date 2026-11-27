@@ -1,0 +1,21 @@
+{
+ "id": "c10-d5-2-2",
+ "scene": "The wall spins around, revealing three outdoor transit balconies.",
+ "options": [
+  "Board lantern balloon",
+  "Ride ball monorail",
+  "Take rooftop escalator"
+ ],
+ "next": [
+  "c10-d3",
+  "c10-d4",
+  "c10-d0"
+ ],
+ "picture": "Flat side view of an open-air balcony under a starry sky. On the far left, a glowing paper-lantern hot-air balloon bobs beside the railing. In the centre sits a shiny spherical bowling-ball monorail pod. The player stands left of centre in her red jacket and roller skates. On the far right rises an escalator.",
+ "shown": [
+  "A giant glowing paper-lantern balloon tethered to the balcony railing on the far left",
+  "A spherical bowling-ball monorail pod waiting on a rail at the centre",
+  "A bright neon-lit escalator moving upward towards the open sky on the far right"
+ ],
+ "view": "wide"
+}

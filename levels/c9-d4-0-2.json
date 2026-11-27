@@ -1,0 +1,21 @@
+{
+ "id": "c9-d4-0-2",
+ "scene": "The glowing map reveals transit docks along the skyway's neon edge.",
+ "options": [
+  "Board bullet train",
+  "Board solar junk",
+  "Board weather balloon"
+ ],
+ "next": [
+  "c9-d2",
+  "c9-d3",
+  "c9-d5"
+ ],
+ "picture": "Flat side view along a high skyway deck. On the left sits a sleek pink bullet train with open doors. In the centre, the player stands on roller skates holding the glowing blue rolled flyer. Up high floats a striped weather balloon with a dangling ladder. On the far right moors a solar-sailed junk.",
+ "shown": [
+  "a sleek pink bullet train idling with open doors on the left track",
+  "a wooden junk with glowing green solar sails docked on the far right",
+  "a striped wicker weather balloon swaying up high above a brass boarding ladder"
+ ],
+ "view": "wide"
+}

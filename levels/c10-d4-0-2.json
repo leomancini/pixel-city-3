@@ -1,0 +1,21 @@
+{
+ "id": "c10-d4-0-2",
+ "scene": "The holographic map unlocks the terminal doors, revealing three new transit routes.",
+ "options": [
+  "Ride cable car",
+  "Board lantern balloon",
+  "Enter revolving door"
+ ],
+ "next": [
+  "c10-d2",
+  "c10-d3",
+  "c10-d5"
+ ],
+ "picture": "A wide, flat side view of an outdoor transit plaza under purple skies. On the far left, a woven bamboo cable car hangs open. The player in her red bomber jacket and roller skates stands left of centre. In the centre, a paper-lantern balloon bobs gently, and on the far right stands a brass revolving door.",
+ "shown": [
+  "a green bamboo cable car dangling open at the platform on the far left",
+  "a glowing paper-lantern hot air balloon moored to a bollard in the centre",
+  "a gleaming brass revolving door spinning smoothly set into the far right wall"
+ ],
+ "view": "wide"
+}
