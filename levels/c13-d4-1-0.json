@@ -1,0 +1,21 @@
+{
+ "id": "c13-d4-1-0",
+ "scene": "You splash into the fountain basin, finding three transit docks connected below.",
+ "options": [
+  "Board carousel train",
+  "Take bubble lift",
+  "Board paint tram"
+ ],
+ "next": [
+  "c13-d3",
+  "c13-d5",
+  "c13-d0"
+ ],
+ "picture": "Flat side-scrolling view along a tiled rooftop platform. Left, a brass clockwork train sits on cogged tracks. Center, the soaked Pacific Islander girl climbs out of a low fountain beside an anchored bubble pod. Right sits a colorful, paint-splattered tram with its boarding door wide open.",
+ "shown": [
+  "A brass clockwork carousel train with turning gears waits idling on the far left.",
+  "A giant shimmering bubble lift pod floats anchored to a brass valve, center.",
+  "A vivid paint-splattered tram sits parked with open folding doors on the far right."
+ ],
+ "view": "wide"
+}

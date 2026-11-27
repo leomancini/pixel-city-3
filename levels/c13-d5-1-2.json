@@ -1,0 +1,21 @@
+{
+ "id": "c13-d5-1-2",
+ "scene": "The pneumatic chute whooshes you out onto a bustling transport platform.",
+ "options": [
+  "Board paint-splattered tram",
+  "Enter revolving lift",
+  "Take rooftop gondola"
+ ],
+ "next": [
+  "c13-d0",
+  "c13-d1",
+  "c13-d2"
+ ],
+ "picture": "Side-view pixel art: along one level transport platform, a paint-splattered tram sits on tracks at the far left. Left of centre, the Pacific Islander player holds her sketchbook. In the centre stands a glass revolving door lift. Far right, a yellow gondola cabin sways beneath a heavy cable.",
+ "shown": [
+  "a rainbow paint-splattered tram idling on tracks at the far left",
+  "a brass revolving door lift with glowing up-down arrows in centre",
+  "a yellow passenger gondola hanging from an overhead cable far right"
+ ],
+ "view": "wide"
+}

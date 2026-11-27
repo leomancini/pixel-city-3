@@ -1,0 +1,21 @@
+{
+ "id": "c13-d4-2-2",
+ "scene": "You climb onto the roof, where three whimsical transit platforms await departure.",
+ "options": [
+  "Board carousel train",
+  "Take bubble lift",
+  "Catch colorful tram"
+ ],
+ "next": [
+  "c13-d3",
+  "c13-d5",
+  "c13-d0"
+ ],
+ "picture": "Flat side-scrolling view along a rooftop platform deck. Far left sits an ornate clockwork carousel train on brass tracks. Left stands the girl with high bun, sky-blue windbreaker, cargo shorts, and sketchbook. Centre floats an iridescent bubble lift tied to a mooring pole. Right sits a bright, paint-splattered tram with doors wide open.",
+ "shown": [
+  "a mechanical clockwork carousel train with open brass cars idling on the left",
+  "a shimmering giant bubble lift tethered to a centre platform dock",
+  "a paint-splattered street tram with open sliding doors on the right"
+ ],
+ "view": "wide"
+}

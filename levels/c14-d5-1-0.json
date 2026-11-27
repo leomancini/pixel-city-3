@@ -1,0 +1,21 @@
+{
+ "id": "c14-d5-1-0",
+ "scene": "The frequency spikes, unlocking three bay doors onto different nighttime routes.",
+ "options": [
+  "Board mail train",
+  "Ride tow truck",
+  "Take night funicular"
+ ],
+ "next": [
+  "c14-d3",
+  "c14-d4",
+  "c14-d0"
+ ],
+ "picture": "Side view along the workshop floor. On the far left, a scarlet mail train waits at an open bay. At centre, the player stands beside an idling yellow tow truck parked at a loading dock. On the right, a glass-domed funicular car rests beside an open gate. Up high, neon route boards blink awake.",
+ "shown": [
+  "a scarlet mail train waiting at the open cargo bay on the left",
+  "an idling yellow tow truck parked at the central loading dock",
+  "a glass-domed funicular car docked beside the lift gate on the right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c14-d0-0-2",
+ "scene": "At the staircase base, three curious night vehicles idle along the curb.",
+ "options": [
+  "Board mail train",
+  "Climb tow truck",
+  "Ride sidecar motorbike"
+ ],
+ "next": [
+  "c14-d3",
+  "c14-d4",
+  "c14-d5"
+ ],
+ "picture": "Flat side view. Along one ground line: on the far left, a red pneumatic mail train sits with open hatch; left of centre, the player in corduroy jacket steps off the bottom spiral tread; in the centre, an idling yellow tow truck flashes a beacon; on the far right, a teal motorbike with sidecar waits.",
+ "shown": [
+  "a sleek pneumatic mail train with open hatch waiting on the far left",
+  "a yellow tow truck with blinking beacon idling in the centre",
+  "a teal sidecar motorbike with a spare helmet parked on the far right"
+ ],
+ "view": "wide"
+}

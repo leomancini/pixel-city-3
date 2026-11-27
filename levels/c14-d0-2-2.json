@@ -1,0 +1,21 @@
+{
+ "id": "c14-d0-2-2",
+ "scene": "The dial snaps into focus, revealing vehicles idling at the transport ledge.",
+ "options": [
+  "Board tow truck",
+  "Ride sidecar motorbike",
+  "Climb bridge crawler"
+ ],
+ "next": [
+  "c14-d4",
+  "c14-d5",
+  "c14-d1"
+ ],
+ "picture": "Side-scrolling view of a rooftop transport bay. On the far left, a yellow tow truck with a crane waits with driver. The player stands centre with grey beard, orange jacket, prosthetic leg, and shoulder telescope. To the right, a teal sidecar motorbike idles; on the far right sits a heavy bridge crawler.",
+ "shown": [
+  "a yellow crane tow truck idling with flashing lights on the far left",
+  "a teal motorcycle with an empty striped sidecar waiting on the right",
+  "a tracked, multi-legged bridge crawler ramp parked on the far right"
+ ],
+ "view": "wide"
+}

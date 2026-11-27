@@ -1,0 +1,21 @@
+{
+ "id": "c14-d4-2-1",
+ "scene": "Your tongs knock a wall lever, sliding open the back exit bay.",
+ "options": [
+  "Board cleaner gondola",
+  "Catch mail train",
+  "Ride sidecar bike"
+ ],
+ "next": [
+  "c14-d2",
+  "c14-d3",
+  "c14-d5"
+ ],
+ "picture": "Flat side-view across the hospital's rear loading dock. On the far left, a red mail train waits on narrow tracks. The player, wearing an orange corduroy jacket, holds rubber tongs at the centre near opened dock doors. Up high hangs a yellow window-cleaner gondola. On the far right stands a teal sidecar motorbike.",
+ "shown": [
+  "a hanging yellow window-cleaner gondola swinging gently up high by the open bay roof",
+  "a small red pneumatic mail train idling on tracks at the far left",
+  "a teal motorbike with an empty sidecar idling at the far right exit"
+ ],
+ "view": "wide"
+}

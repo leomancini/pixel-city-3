@@ -1,0 +1,21 @@
+{
+ "id": "c14-d0-0-0",
+ "scene": "Warm sweet cocoa energises you as rooftop transit options hum to life.",
+ "options": [
+  "Ride bridge crawler",
+  "Board cleaner gondola",
+  "Catch mail train"
+ ],
+ "next": [
+  "c14-d1",
+  "c14-d2",
+  "c14-d3"
+ ],
+ "picture": "Flat side view. Along one ground line: on the left, a six-legged bridge crawler sits docked; the player in corduroy jacket and beanie stands holding his empty mug left of centre; a suspended yellow cleaner gondola sways at centre railing; on the far right, an open red mail capsule train rests on miniature tracks.",
+ "shown": [
+  "a six-legged mechanical crawler docked at a rail hatch on the left",
+  "a yellow squeegee-lined suspended gondola hovering beside the railing at centre",
+  "a tiny red pneumatic mail capsule idling on miniature tracks far right"
+ ],
+ "view": "wide"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "c13-d3",
+ "scene": "You step off the carousel train into the ticking Clockwork Zoo.",
+ "options": [
+  "Feed mechanical crane",
+  "Enter ticking aviary",
+  "Help keeper robot"
+ ],
+ "next": [
+  "c13-d3-0",
+  "c13-d3-1",
+  "c13-d3-2"
+ ],
+ "picture": "Side-scrolling view on a level cobblestone path. Far left stands a tall brass mechanical crane dipping its neck. Centre-left, the player with sketchbook stands near the ornate brass carousel train. In the centre, a tin keeper robot holds an oil can. Far right sits a domed, ticking brass aviary with an open gate.",
+ "shown": [
+  "a towering brass giraffe-necked crane dipping down on the far left",
+  "a giant ornate birdcage pavilion with a swinging gate on the right",
+  "a squat tin keeper robot holding an oil can in the centre"
+ ],
+ "view": "wide"
+}

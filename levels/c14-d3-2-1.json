@@ -1,0 +1,21 @@
+{
+ "id": "c14-d3-2-1",
+ "scene": "The opened parasol floats you straight to the loading bay exit.",
+ "options": [
+  "Board window gondola",
+  "Ride tow truck",
+  "Take sidecar motorbike"
+ ],
+ "next": [
+  "c14-d2",
+  "c14-d4",
+  "c14-d5"
+ ],
+ "picture": "Flat side view. Along a breezy outdoor loading dock, a yellow window-cleaner gondola hangs far left. The player stands left of centre, holding the glowing open teal parasol. Centre sits a teal tow truck with its cabin door open. On the far right waits a dusty maroon motorbike with an empty passenger sidecar.",
+ "shown": [
+  "a yellow window-cleaner gondola hanging from cables far left, waiting empty",
+  "a teal flatbed tow truck parked centre, idling with open cabin door",
+  "a vintage motorbike with an empty sidecar waiting on the far right"
+ ],
+ "view": "wide"
+}

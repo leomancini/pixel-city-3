@@ -1,0 +1,21 @@
+{
+ "id": "c14-d5-1-1",
+ "scene": "The marked transit routes align with waiting night transports outside the open workshop.",
+ "options": [
+  "Hail tow truck",
+  "Board night funicular",
+  "Climb bridge crawler"
+ ],
+ "next": [
+  "c14-d4",
+  "c14-d0",
+  "c14-d1"
+ ],
+ "picture": "A wide side-scrolling view of Midnight Radio Repair's streetfront bay. On the left, a yellow tow truck hums near the player, a middle-aged Black man in an orange corduroy jacket holding a unfolded route map. At centre stands his sidecar motorbike. To the right waits a glass funicular car beside an idle, multi-legged bridge crawler.",
+ "shown": [
+  "a yellow tow truck idling with flashing orange beacons on the far left",
+  "a glass-domed funicular car parked at a sloped rail station on the right",
+  "a multi-legged mechanised bridge crawler resting by the kerb on the far right"
+ ],
+ "view": "wide"
+}

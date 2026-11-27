@@ -1,0 +1,21 @@
+{
+ "id": "c13-d5-2",
+ "scene": "The startled scientist whirls around, accidentally dropping a glowing, buzzing clipboard.",
+ "options": [
+  "Catch falling clipboard",
+  "Study chalk wall",
+  "Exit through hatch"
+ ],
+ "next": [
+  "c13-d5-2-0",
+  "c13-d5-2-1",
+  "c13-d5-2-2"
+ ],
+ "picture": "Side-view pixel art: on the level floor, a formula-covered blackboard stands far left. The player stands left-centre in sky-blue windbreaker with sketchbook underarm. Centre-right, a glowing blue clipboard tumbles mid-air while the shocked goggled scientist flails. Far right sits a round, sealed brass hatch with an illuminated valve wheel.",
+ "shown": [
+  "the neon-blue clipboard tumbling mid-air just to the right of centre",
+  "a giant blackboard filled with colorful formulas on the far left",
+  "a circular brass pneumatic hatch sealed tightly on the far right"
+ ],
+ "view": "wide"
+}

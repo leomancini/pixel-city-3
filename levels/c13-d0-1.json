@@ -1,0 +1,21 @@
+{
+ "id": "c13-d0-1",
+ "scene": "You grab the buzzing drone and inspect its glowing keypad.",
+ "options": [
+  "Press red button",
+  "Rotate yellow dial",
+  "Pull silver toggle"
+ ],
+ "next": [
+  "c13-d0-1-0",
+  "c13-d0-1-1",
+  "c13-d0-1-2"
+ ],
+ "picture": "A first-person close view of the captured drone filling the frame, held by two brown hands. On the far left of the panel is a blinking crimson button. In the centre sits a yellow notched dial with digital numbers. On the far right stands a slender silver toggle switch clicked upward.",
+ "shown": [
+  "a blinking crimson button at the far left edge of the keypad",
+  "a bright yellow notched dial sitting right in the centre",
+  "a slender silver toggle switch on the far right side"
+ ],
+ "view": "close"
+}

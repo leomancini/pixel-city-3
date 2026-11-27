@@ -1,0 +1,21 @@
+{
+ "id": "c13-d0-1-0",
+ "scene": "The drone projects three transit portals across the vibrant tiled plaza.",
+ "options": [
+  "Enter pneumatic pod",
+  "Ride bubble lift",
+  "Step inside revolver"
+ ],
+ "next": [
+  "c13-d4",
+  "c13-d5",
+  "c13-d1"
+ ],
+ "picture": "Flat side view along a tiled plaza. The Pacific Islander girl stands left of centre holding the open drone, sketchbook tucked under her arm. On the far left sits a clear pneumatic tube pod. To her right floats an anchored giant bubble lift. On the far right stands a brass revolving door lift.",
+ "shown": [
+  "a glass pneumatic tube pod sitting open on the far left",
+  "a giant shimmering soap bubble anchored to a platform on the right",
+  "a glowing brass revolving door spinning on the far right"
+ ],
+ "view": "wide"
+}

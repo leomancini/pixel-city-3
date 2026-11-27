@@ -1,0 +1,21 @@
+{
+ "id": "c14-d3-2-2",
+ "scene": "The cargo elevator opens onto an elevated loading bay bustling with night transports.",
+ "options": [
+  "Board tow truck",
+  "Climb into sidecar",
+  "Take night funicular"
+ ],
+ "next": [
+  "c14-d4",
+  "c14-d5",
+  "c14-d0"
+ ],
+ "picture": "Flat side view. Along the metal bay platform, an idling yellow tow truck sits far left. Left of centre, the player stands by the open elevator gate. In the centre waits a sleek sidecar motorbike. On the right, a glass-domed funicular tram sits docked at its illuminated boarding gate.",
+ "shown": [
+  "a yellow flatbed tow truck idling with its cab door open far left",
+  "a vintage motorbike with an empty leather-lined sidecar waiting in the centre",
+  "a glass-domed funicular car docked at its track station on the right"
+ ],
+ "view": "wide"
+}

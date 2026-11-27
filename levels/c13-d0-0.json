@@ -1,0 +1,21 @@
+{
+ "id": "c13-d0-0",
+ "scene": "You scramble up creaky bamboo planks overlooking the dazzling, sunlit rooftops.",
+ "options": [
+  "Open glowing lunchbox",
+  "Slide down rope",
+  "Wave at painter"
+ ],
+ "next": [
+  "c13-d0-0-0",
+  "c13-d0-0-1",
+  "c13-d0-0-2"
+ ],
+ "picture": "Side-scrolling view of a wide wooden scaffold platform high up. On the far left sits a closed, neon-pink lunchbox. The Pacific Islander girl stands centre holding her sketchbook. To her right hangs a coiled yellow rope tied to a beam, and on the far right a masked painter rests on a crate.",
+ "shown": [
+  "a metal lunchbox glowing neon pink, sitting latched on the far left plank",
+  "a coiled yellow pulley rope hanging securely on the right platform edge",
+  "a smiling painter in splattered overalls sitting idle on the far right"
+ ],
+ "view": "wide"
+}

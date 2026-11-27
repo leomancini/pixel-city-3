@@ -1,0 +1,21 @@
+{
+ "id": "c13-d2",
+ "scene": "You step off the gondola onto the breezy, neon-lit cinema roof.",
+ "options": [
+  "Call popcorn drone",
+  "Aim cloud projector",
+  "Try red deckchair"
+ ],
+ "next": [
+  "c13-d2-0",
+  "c13-d2-1",
+  "c13-d2-2"
+ ],
+ "picture": "Side-view pixel art of a rooftop cinema. Far left, the open metal gondola rests on a cable. Left, a hovering yellow popcorn drone hums. Centre, a teenage Pacific Islander girl in a sky-blue windbreaker stands beside a brass cloud projector. Right sits an empty striped red deckchair. Far right, neon roof railings.",
+ "shown": [
+  "a hovering yellow drone holding warm bags of popcorn on the left",
+  "a brass beam projector mounted on a pedestal at the centre",
+  "an empty striped red deckchair set up on the right"
+ ],
+ "view": "wide"
+}

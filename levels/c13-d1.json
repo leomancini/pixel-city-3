@@ -1,0 +1,21 @@
+{
+ "id": "c13-d1",
+ "scene": "You step from the revolving lift into a gallery where visitors stroll upside down.",
+ "options": [
+  "Try boots",
+  "Question guard",
+  "Climb ceiling ladder"
+ ],
+ "next": [
+  "c13-d1-0",
+  "c13-d1-1",
+  "c13-d1-2"
+ ],
+ "picture": "A flat cross-section of an inverted museum gallery. At far left stands an empty boot rack. To its right is the open glass revolving lift. The Pacific Islander girl stands centre holding her sketchbook. Right of centre, a tiny brass robot hovers. Visitors walk upside down on the ceiling overhead. A brass ladder rises at far right.",
+ "shown": [
+  "a rack of glowing magnetic boots sitting on the ground at far left",
+  "a hovering tin robot guard whispering softly just right of centre",
+  "a bright brass ladder extending upwards to ceiling walkways at far right"
+ ],
+ "view": "wide"
+}

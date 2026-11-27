@@ -1,0 +1,21 @@
+{
+ "id": "c14-d5-2-1",
+ "scene": "The vibrating meter pinpoints three distinct broadcast signals humming right outside.",
+ "options": [
+  "Board cleaner gondola",
+  "Ride mail train",
+  "Hail tow truck"
+ ],
+ "next": [
+  "c14-d2",
+  "c14-d3",
+  "c14-d4"
+ ],
+ "picture": "Side-view cross-section through the repair shop's open garage wall. The player stands inside clutching the brass meter. Far left, a yellow window-cleaner gondola dangles from roof cables. Centre, an open postal portal shows a small red mail train idling. Right, a teal tow truck idles curbside with hazard lights flashing.",
+ "shown": [
+  "a yellow window-cleaner gondola resting on cables outside on the far left",
+  "a tiny red pneumatic mail train paused on rails in the centre",
+  "a turquoise flatbed tow truck with blinking lights parked on the right"
+ ],
+ "view": "wide"
+}

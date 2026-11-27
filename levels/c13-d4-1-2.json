@@ -1,0 +1,21 @@
+{
+ "id": "c13-d4-1-2",
+ "scene": "You slip through the open vent and land inside the steamy greenhouse.",
+ "options": [
+  "Ride mural tram",
+  "Take revolving lift",
+  "Board rooftop gondola"
+ ],
+ "next": [
+  "c13-d0",
+  "c13-d1",
+  "c13-d2"
+ ],
+ "picture": "Flat side-scrolling view inside a humid glass greenhouse with a checkered tile floor. Far left, a colorful paint-splattered tram waits at an open loading bay. Left, the girl stands brushing off fern fronds, sketchbook underarm. Centre sits an ornate brass revolving door elevator. Right grow potted giant ferns. Far right, a striped gondola sways at a dock.",
+ "shown": [
+  "a paint-splattered tram waiting at an open glass sliding dock on the far left",
+  "a polished brass revolving elevator door set into the tiled floor at the centre",
+  "a striped rooftop gondola car moored to a rail platform on the far right"
+ ],
+ "view": "wide"
+}

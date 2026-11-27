@@ -1,0 +1,21 @@
+{
+ "id": "c13-d4-0-1",
+ "scene": "The crisp gold foil unfolds into a three-way city transit pass.",
+ "options": [
+  "Enter revolving lift",
+  "Board rooftop gondola",
+  "Catch carousel train"
+ ],
+ "next": [
+  "c13-d1",
+  "c13-d2",
+  "c13-d3"
+ ],
+ "picture": "Flat side-scrolling view along the hall floor. Far left, an ornate brass revolving lift door stands open. Left of centre, the Pacific Islander girl holds an unfolded golden ticket under her arm. Up high floats a tethered striped gondola at a boarding hatch. Right sits an ornate clockwork carousel train on tracks.",
+ "shown": [
+  "a brass revolving glass lift door waiting open on the far left",
+  "a striped rooftop passenger gondola tethered in midair up high",
+  "a clockwork carousel train with mechanical animal cars waiting on the right"
+ ],
+ "view": "wide"
+}
