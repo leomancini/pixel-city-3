@@ -17,5 +17,31 @@
   "a glowing carnival gondola waiting past an open doorway in the centre",
   "a mechanical brass book cart lift with open metal gates on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Your glowing transit pass reveals three secret ways onward through the station.",
+   "options": [
+    "Take bicycle rickshaw",
+    "Enter glowing gondola",
+    "Step inside lift"
+   ]
+  },
+  {
+   "scene": "Curtains part to show a trio of odd rides through Pixel City.",
+   "options": [
+    "Pick pedal rickshaw",
+    "Try illuminated gondola",
+    "Use gear elevator"
+   ]
+  },
+  {
+   "scene": "While searching for {quest}, you read options listed on the glowing card.",
+   "options": [
+    "Flag down rickshaw",
+    "Approach lighted gondola",
+    "Climb into lift"
+   ]
+  }
+ ]
 }

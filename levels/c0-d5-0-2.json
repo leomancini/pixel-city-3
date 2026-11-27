@@ -17,5 +17,31 @@
   "a bright yellow street tram idling in the centre with open doors",
   "a glowing blue double-decker night bus idling on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Your spark-tipped key glints as three cosy vehicles wait in the rain.",
+   "options": [
+    "Head downstairs",
+    "Climb into tram",
+    "Hop on bus"
+   ]
+  },
+  {
+   "scene": "The key glows bright, lighting up the busy street and warm transit stops.",
+   "options": [
+    "Enter subway station",
+    "Take yellow tram",
+    "Board blue bus"
+   ]
+  },
+  {
+   "scene": "Golden sparks fizz from your key while you hum {tune} beside the street.",
+   "options": [
+    "Use tiled subway",
+    "Ride golden tram",
+    "Catch tall bus"
+   ]
+  }
+ ]
 }

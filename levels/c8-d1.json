@@ -17,5 +17,31 @@
   "an ornate marble fountain spouting sparkling water in the centre",
   "a brass pasta-spinning machine twirling yellow ribbons on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Your blue scooter cools down as you and your puppy enter the lively square.",
+   "options": [
+    "Sample pistachio gelato",
+    "Check central fountain",
+    "View pasta maker"
+   ]
+  },
+  {
+   "scene": "Piazza Nova buzzes warmly around you while you hum {tune} to yourself.",
+   "options": [
+    "Buy green treat",
+    "Approach splashing fountain",
+    "Watch spinning pasta"
+   ]
+  },
+  {
+   "scene": "Golden sunset glows over cobblestones as your dog trots happily into the plaza.",
+   "options": [
+    "Try green dessert",
+    "Admire sparkling fountain",
+    "Study pasta gears"
+   ]
+  }
+ ]
 }

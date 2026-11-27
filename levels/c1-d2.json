@@ -16,5 +16,31 @@
   "a large brass telescope on a tripod pointing up high",
   "a dozing astronomer slumped over open star charts on the left",
   "a round copper dome with an open doorway on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "The funicular departs, leaving you under a starry purple sky near the observatory.",
+   "options": [
+    "Aim brass telescope",
+    "Rouse sleeping scholar",
+    "Step inside dome"
+   ]
+  },
+  {
+   "scene": "Cool night air greets your steps atop the hill while you hum {tune}.",
+   "options": [
+    "Check large telescope",
+    "Wake tired scholar",
+    "Explore round dome"
+   ]
+  },
+  {
+   "scene": "Lanterns glow softly around the hilltop patio, where quiet stargazers gather under the clouds.",
+   "options": [
+    "Use giant telescope",
+    "Nudge napping astronomer",
+    "Visit copper dome"
+   ]
+  }
  ]
 }

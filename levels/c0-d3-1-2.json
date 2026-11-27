@@ -16,5 +16,31 @@
   "a blue ferry moored at a slip on the far left",
   "a suspended red cable car hanging open up high on the right",
   "a glowing staircase leading down to a waiting train on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "Steam curls from the giant kettle as city commuters bustle all around you.",
+   "options": [
+    "Take blue boat",
+    "Ride red gondola",
+    "Take the subway"
+   ]
+  },
+  {
+   "scene": "You smell river water while humming {tune} beside the whistling kettle.",
+   "options": [
+    "Board the ferry",
+    "Enter aerial tram",
+    "Head downstairs"
+   ]
+  },
+  {
+   "scene": "Sunset glows above the lively docks as water laps against the pier.",
+   "options": [
+    "Hop on boat",
+    "Climb into tram",
+    "Catch metro train"
+   ]
+  }
  ]
 }

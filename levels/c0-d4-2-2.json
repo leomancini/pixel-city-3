@@ -17,5 +17,31 @@
   "a green street tram idling at the platform just right of centre",
   "a dangling glass cable car docked by the exit on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Holding your glowing star pass, you stand before the busy transit platforms.",
+   "options": [
+    "Head down stairs",
+    "Catch green tram",
+    "Hop into cable-car"
+   ]
+  },
+  {
+   "scene": "Humming {tune}, you gaze at three ways forward into the dusk.",
+   "options": [
+    "Descend to subway",
+    "Enter green tram",
+    "Ride cable car"
+   ]
+  },
+  {
+   "scene": "A secret gate opens toward glowing stairwells, tracks, and high suspended cables.",
+   "options": [
+    "Take glowing stairs",
+    "Board idling tram",
+    "Climb into cable-car"
+   ]
+  }
+ ]
 }

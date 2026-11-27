@@ -17,5 +17,31 @@
   "a yellow bicycle rickshaw with a nodding driver parked at centre",
   "a quaint electric milk float loaded with crates waiting on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Outside the gallery, cool cobblestones lead toward three different late rides.",
+   "options": [
+    "Take blue bus",
+    "Ride yellow rickshaw",
+    "Climb milk float"
+   ]
+  },
+  {
+   "scene": "Twilight paints the street while you wonder where {quest} might be hidden.",
+   "options": [
+    "Catch tall bus",
+    "Pick pedicab ride",
+    "Try milk truck"
+   ]
+  },
+  {
+   "scene": "Streetlamps flicker to life as three unique evening vehicles await your choice.",
+   "options": [
+    "Enter blue bus",
+    "Hap into rickshaw",
+    "Board milk float"
+   ]
+  }
+ ]
 }

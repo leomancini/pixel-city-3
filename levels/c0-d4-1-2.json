@@ -17,5 +17,31 @@
   "a dangling yellow cable car hanging from cables up high",
   "a tiled subway entrance with illuminated turnstiles on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The glowing blue sock holds a tiny paper map of city transit routes.",
+   "options": [
+    "Hop on ferry",
+    "Catch cable car",
+    "Enter subway station"
+   ]
+  },
+  {
+   "scene": "You unroll a transit map from the sock while humming {tune} aloud.",
+   "options": [
+    "Board blue ferry",
+    "Ride cable car",
+    "Head into subway"
+   ]
+  },
+  {
+   "scene": "A pocket transit guide slips from the sparkling sock into your hand.",
+   "options": [
+    "Take harbour boat",
+    "Climb into tram",
+    "Walk down stairs"
+   ]
+  }
+ ]
 }

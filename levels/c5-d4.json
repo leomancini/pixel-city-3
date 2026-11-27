@@ -17,5 +17,31 @@
   "An arched inflatable castle door standing open in the centre",
   "A huge yellow vinyl spiral slide curling down on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Your red sneakers squeak on the rainbow roof beneath the glowing party lights.",
+   "options": [
+    "Wave to robot",
+    "Step inside doorway",
+    "Try the slide"
+   ]
+  },
+  {
+   "scene": "You balance your skateboard on the puffy floor, still humming {tune}.",
+   "options": [
+    "Talk to lifeguard",
+    "Walk inside castle",
+    "Ride yellow slide"
+   ]
+  },
+  {
+   "scene": "Every happy rooftop bounce shakes the vinyl turrets against the evening sky.",
+   "options": [
+    "Hail the lifeguard",
+    "Explore dark doorway",
+    "Climb up slide"
+   ]
+  }
+ ]
 }

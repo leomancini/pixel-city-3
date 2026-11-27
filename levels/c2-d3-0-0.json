@@ -17,5 +17,31 @@
   "a yellow candy delivery truck idling with its ramp down on the right",
   "a glowing cylindrical glass elevator with its sliding doors open far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Pink taffy drips from the crane, framing three brightly lit ways forward.",
+   "options": [
+    "Board waiting blimp",
+    "Climb into truck",
+    "Ride bright elevator"
+   ]
+  },
+  {
+   "scene": "Gears grind into place as three different escape routes open around you.",
+   "options": [
+    "Take the airship",
+    "Board yellow truck",
+    "Use glass elevator"
+   ]
+  },
+  {
+   "scene": "Looking for {quest}, you spot three ways to keep traveling through the factory.",
+   "options": [
+    "Try docked zeppelin",
+    "Catch delivery truck",
+    "Step inside elevator"
+   ]
+  }
+ ]
 }

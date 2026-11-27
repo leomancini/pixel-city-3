@@ -17,5 +17,31 @@
   "a glass cable car hanging from a cable tower up high",
   "an arched glowing subway entrance with tiled stairs on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The rainbow snail bus parks under purple evening skies as rain drizzles down.",
+   "options": [
+    "Board the ferry",
+    "Climb to gondola",
+    "Head downstairs"
+   ]
+  },
+  {
+   "scene": "Raindrops splash around your green boots as you search for {quest} along the dock.",
+   "options": [
+    "Take blue boat",
+    "Ride the gondola",
+    "Enter subway station"
+   ]
+  },
+  {
+   "scene": "Glowing lights sparkle across the damp pier beside the giant snail and quiet city.",
+   "options": [
+    "Catch the ferry",
+    "Board aerial car",
+    "Walk down stairs"
+   ]
+  }
+ ]
 }

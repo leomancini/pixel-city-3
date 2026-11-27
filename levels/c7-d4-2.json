@@ -17,5 +17,31 @@
   "a pelican wearing large headphones sitting at a high stool in the centre",
   "an iron ladder bolted beside an open observation hatch on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Green radar screens glow brightly across the wooden flight control room floor.",
+   "options": [
+    "Check green radar",
+    "Greet headphone pelican",
+    "Head up ladder"
+   ]
+  },
+  {
+   "scene": "You smell warm metal as radio chatter fills the cozy tower room.",
+   "options": [
+    "Inspect radar dials",
+    "Speak with pelican",
+    "Take roof ladder"
+   ]
+  },
+  {
+   "scene": "Winds hum outside while you wonder if {quest} blew over this roof.",
+   "options": [
+    "Examine radar screen",
+    "Ask feathered operator",
+    "Use wall ladder"
+   ]
+  }
+ ]
 }

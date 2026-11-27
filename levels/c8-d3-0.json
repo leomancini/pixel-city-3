@@ -17,5 +17,31 @@
   "A sparkling blown-glass bluebird gleaming on a velvet stand, centre.",
   "A soot-cheeked glassblower holding tongs over a glowing brazier, right."
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The cozy workshop glows bright with crackling fire and shelves of sparkling glass.",
+   "options": [
+    "Try blow pipe",
+    "Admire glass bird",
+    "Greet the maker"
+   ]
+  },
+  {
+   "scene": "Warm air and sparkling treasures make you wonder where {quest} could be.",
+   "options": [
+    "Grab glass pipe",
+    "Purchase glass bird",
+    "Chat with craftsman"
+   ]
+  },
+  {
+   "scene": "Your puppy wags his tail at the beautiful glowing vases and twinkling lights.",
+   "options": [
+    "Hold glass pipe",
+    "Choose glass bird",
+    "Ask the artisan"
+   ]
+  }
+ ]
 }

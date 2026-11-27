@@ -17,5 +17,31 @@
   "a small striped water taxi bobbing along the centre canal edge",
   "a sleek yellow monorail car idling at the far right platform"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "A warm token drops into your hand as evening settles over the bustling station.",
+   "options": [
+    "Ride the handcar",
+    "Take the boat",
+    "Enter yellow train"
+   ]
+  },
+  {
+   "scene": "You hold the brass token, thinking of {friend} while trains hum softly nearby.",
+   "options": [
+    "Pump track cart",
+    "Call canal boat",
+    "Hop on monorail"
+   ]
+  },
+  {
+   "scene": "The clock mechanism chimes, offering a shiny fare token on the quiet platform.",
+   "options": [
+    "Cranks the handcar",
+    "Board wooden boat",
+    "Catch the monorail"
+   ]
+  }
+ ]
 }

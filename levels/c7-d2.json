@@ -17,5 +17,31 @@
   "a spotted grey seal lounging on a flat boulder at the centre",
   "a red arched wooden door at the base of the lighthouse on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Salty spray chills your cheeks as the lighthouse lantern sweeps across the reef.",
+   "options": [
+    "Check tide pool",
+    "Greet friendly seal",
+    "Open lighthouse door"
+   ]
+  },
+  {
+   "scene": "You hop ashore, still humming {tune} while the cool sea breeze swirls around you.",
+   "options": [
+    "Examine glowing pool",
+    "Pat spotted seal",
+    "Try lighthouse door"
+   ]
+  },
+  {
+   "scene": "The moored boat bobs gently against the rocky shore beneath the starry dusk.",
+   "options": [
+    "Search tide pool",
+    "Approach basking seal",
+    "Knock on door"
+   ]
+  }
+ ]
 }

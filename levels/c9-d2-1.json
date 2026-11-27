@@ -17,5 +17,31 @@
   "a brass access hatch with loose screws on the chef's side on the left",
   "a checkered glowing ramp descending into a lower concourse on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The friendly metal cook serves up a hot, glowing bowl of noodles.",
+   "options": [
+    "Eat tasty ramen",
+    "Check brass hatch",
+    "Roll down ramp"
+   ]
+  },
+  {
+   "scene": "Warm steam rises from your bowl under the blinking neon arcade lights.",
+   "options": [
+    "Taste glowing noodles",
+    "Examine counter hatch",
+    "Glide down ramp"
+   ]
+  },
+  {
+   "scene": "As you pause to eat, you hum {tune} to yourself.",
+   "options": [
+    "Enjoy your meal",
+    "Study small hatch",
+    "Skate down path"
+   ]
+  }
+ ]
 }

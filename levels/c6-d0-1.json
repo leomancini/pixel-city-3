@@ -17,5 +17,31 @@
   "a mysterious hooded stranger holding a lantern on the far left",
   "an open mossy stone archway on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "One bright picture on the wooden board catches your eye under the dusk sky.",
+   "options": [
+    "Grab the photograph",
+    "Approach hooded figure",
+    "Enter stone tunnel"
+   ]
+  },
+  {
+   "scene": "You hum {tune} while studying the glowing canal photo pinned before you.",
+   "options": [
+    "Take canal print",
+    "Greet lantern bearer",
+    "Walk through arch"
+   ]
+  },
+  {
+   "scene": "A radiant boat photo shines brightly among the crowded market snapshots.",
+   "options": [
+    "Snag the picture",
+    "Question cloaked stranger",
+    "Check dark archway"
+   ]
+  }
+ ]
 }

@@ -16,5 +16,31 @@
   "a glass-roofed trolley waiting on tracks with open doors at the far left",
   "a brass spiral lift cage with open gate standing in the centre",
   "a mountain cable tram suspended from an overhead wire at the far right"
+ ],
+ "variants": [
+  {
+   "scene": "The polite monkey chitters happily and hands you three shiny travel tokens.",
+   "options": [
+    "Enter glass trolley",
+    "Ride spiral lift",
+    "Step inside tram"
+   ]
+  },
+  {
+   "scene": "Gently accepting the tokens, you wonder where {quest} might be hiding.",
+   "options": [
+    "Hop on trolley",
+    "Use spiral elevator",
+    "Board cable tram"
+   ]
+  },
+  {
+   "scene": "A warm sea breeze blows as the friendly monkey offers you travel tokens.",
+   "options": [
+    "Take glass trolley",
+    "Try spiral lift",
+    "Ride cable car"
+   ]
+  }
  ]
 }

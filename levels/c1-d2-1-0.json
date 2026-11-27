@@ -16,5 +16,31 @@
   "a sleek red monorail car idling at an open gate on the far left",
   "a bicycle rickshaw with green cushions waiting unattended at the centre",
   "a bobbing striped canal boat moored at a stone dock on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "The warm key shines brightly as three ways forward unlock around you.",
+   "options": [
+    "Take the monorail",
+    "Try the rickshaw",
+    "Hop on boat"
+   ]
+  },
+  {
+   "scene": "Holding the shining key, you hum {tune} beside three ready rides.",
+   "options": [
+    "Board the monorail",
+    "Pedal the rickshaw",
+    "Take the boat"
+   ]
+  },
+  {
+   "scene": "Your glowing key unlocks three peaceful paths through the twilight breeze.",
+   "options": [
+    "Catch the monorail",
+    "Choose the rickshaw",
+    "Enter the boat"
+   ]
+  }
  ]
 }

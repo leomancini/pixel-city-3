@@ -17,5 +17,31 @@
   "a giant clock tower face with spinning gears visible in the centre",
   "an illuminated glass greenhouse overflowing with exotic giant plants on the left"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "The circular glass eyepiece reveals glowing city wonders across the purple skyline.",
+   "options": [
+    "Follow glowing airship",
+    "Watch illuminated clock",
+    "Inspect glass dome"
+   ]
+  },
+  {
+   "scene": "Looking through the lens, you still hope to spot {quest} below.",
+   "options": [
+    "Spot flying blimp",
+    "Study clock gears",
+    "Check plant greenhouse"
+   ]
+  },
+  {
+   "scene": "Crosshairs line up bright rooftops, a ticking clock, and a floating sky vessel.",
+   "options": [
+    "Track floating zeppelin",
+    "Observe golden clockwork",
+    "View leafy solarium"
+   ]
+  }
+ ]
 }

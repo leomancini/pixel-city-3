@@ -17,5 +17,31 @@
   "a seated accordion automaton wearing a beret on the right",
   "a glowing spiral staircase leading up a lace-iron tower on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The sky glows purple as you step out high above the city.",
+   "options": [
+    "Sample warm pastry",
+    "Reward robot busker",
+    "Ascend spiral stairs"
+   ]
+  },
+  {
+   "scene": "You hop off the flying metro, still humming {tune} on the windy rooftop.",
+   "options": [
+    "Take golden treat",
+    "Pay robotic musician",
+    "Head up tower"
+   ]
+  },
+  {
+   "scene": "Warm buttery aromas and cheerful accordion tunes welcome you to the iron balcony.",
+   "options": [
+    "Eat hot snack",
+    "Drop coin in",
+    "Walk up staircase"
+   ]
+  }
+ ]
 }

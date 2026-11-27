@@ -17,5 +17,31 @@
   "a sleek star shuttle glowing with neon starlight at the centre gate",
   "a striped airship moored to a wooden mast on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Three grand vessels await passengers across the breezy wooden sky platform.",
+   "options": [
+    "Take steam train",
+    "Enter star shuttle",
+    "Climb into airship"
+   ]
+  },
+  {
+   "scene": "Peppermint smoke drifts past as you search high above for {quest}.",
+   "options": [
+    "Catch the train",
+    "Hop inside shuttle",
+    "Board striped airship"
+   ]
+  },
+  {
+   "scene": "Engines hum across the high platform as travelers choose their skyward paths.",
+   "options": [
+    "Ride steam train",
+    "Board neon shuttle",
+    "Mount cloud airship"
+   ]
+  }
+ ]
 }

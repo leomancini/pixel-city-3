@@ -16,5 +16,31 @@
   "a steep glass funicular car resting on tracks on the far left",
   "a bobbing striped water taxi moored to a dock post on the left",
   "a sleek red monorail carriage with open doors on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "Brass key in hand, you arrive at the bustling twilight transit terminal.",
+   "options": [
+    "Take hillside funicular",
+    "Step onto boat",
+    "Hop on monorail"
+   ]
+  },
+  {
+   "scene": "Holding your new key, you hum {tune} beside the evening platforms.",
+   "options": [
+    "Ride cable tram",
+    "Enter striped ferry",
+    "Board red train"
+   ]
+  },
+  {
+   "scene": "You inspect the brass key beneath the station's glowing iron arches.",
+   "options": [
+    "Climb into funicular",
+    "Take water taxi",
+    "Enter the monorail"
+   ]
+  }
  ]
 }

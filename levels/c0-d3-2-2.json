@@ -16,5 +16,31 @@
   "a dangling red cable car waiting open at the station on the left",
   "a brightly lit subway staircase descending underground on the right",
   "a blue ferry moored at a high water canal lock, far right"
+ ],
+ "variants": [
+  {
+   "scene": "Cool evening air greets you at this bustling high-up travel hub.",
+   "options": [
+    "Ride cable car",
+    "Enter subway station",
+    "Hop on ferry"
+   ]
+  },
+  {
+   "scene": "Under a purple sky, you ponder your search for {quest} atop the platform.",
+   "options": [
+    "Board red gondola",
+    "Descend subway stairs",
+    "Board blue ferry"
+   ]
+  },
+  {
+   "scene": "Commuters bustle between the aerial tramway, subway stairs, and canal dock.",
+   "options": [
+    "Try cable car",
+    "Head down subway",
+    "Take blue boat"
+   ]
+  }
  ]
 }

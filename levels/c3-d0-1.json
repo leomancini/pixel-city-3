@@ -17,5 +17,31 @@
   "An overhead iron arm holding a single dangling gold ring up high.",
   "The stationary wooden exit ramp waiting just beyond the carousel edge on the right."
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The clockwork steed clicks to life beneath you as calliope music fills the air.",
+   "options": [
+    "Turn the key",
+    "Reach for ring",
+    "Hop onto deck"
+   ]
+  },
+  {
+   "scene": "You ride the gleaming mechanical horse while humming {tune} under the night sky.",
+   "options": [
+    "Wind the key",
+    "Snatch gold ring",
+    "Jump to ramp"
+   ]
+  },
+  {
+   "scene": "The brass pony glides in circles past glowing carnival lights and curious onlookers.",
+   "options": [
+    "Crank brass key",
+    "Catch the ring",
+    "Step onto platform"
+   ]
+  }
+ ]
 }

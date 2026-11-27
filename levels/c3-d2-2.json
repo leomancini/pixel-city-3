@@ -17,5 +17,31 @@
   "A chrome jukebox with pulsing purple lights standing on the far left",
   "A brass door marked Private with a glowing red bulb on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Brass horns groove softly while a friendly brass bartender wipes a glass for you.",
+   "options": [
+    "Check digital menu",
+    "Start neon jukebox",
+    "Try private door"
+   ]
+  },
+  {
+   "scene": "Warm jazz fills the dim club as a cyan menu glows beside you.",
+   "options": [
+    "Examine bright menu",
+    "Use purple jukebox",
+    "Knock private door"
+   ]
+  },
+  {
+   "scene": "The robot bartender nods quietly, still humming {tune} above the lively band.",
+   "options": [
+    "Inspect the menu",
+    "Choose jukebox song",
+    "Turn brass handle"
+   ]
+  }
+ ]
 }

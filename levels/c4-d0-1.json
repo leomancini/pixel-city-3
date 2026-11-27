@@ -16,5 +16,31 @@
   "A steaming violet cup sitting on the vendor counter on the far left.",
   "A tray of phosphorescent yellow biscuits resting on the counter in the centre.",
   "A striped calico cat sitting beside a stone archway on the far right."
+ ],
+ "variants": [
+  {
+   "scene": "A cheerful merchant welcomes you with hot drinks and curious glowing treats.",
+   "options": [
+    "Sip purple tea",
+    "Try luminous treat",
+    "Chase calico cat"
+   ]
+  },
+  {
+   "scene": "Sweet steam rises from the giant kettle while you search for {quest}.",
+   "options": [
+    "Taste warm tea",
+    "Sample glowing snack",
+    "Follow striped cat"
+   ]
+  },
+  {
+   "scene": "The warm waterfront stall smells of spices, baked sweets, and river air.",
+   "options": [
+    "Drink steaming tea",
+    "Grab glowing biscuit",
+    "Greet sitting cat"
+   ]
+  }
  ]
 }

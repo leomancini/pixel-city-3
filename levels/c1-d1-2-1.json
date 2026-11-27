@@ -16,5 +16,31 @@
   "a blue water taxi waiting at a dock door on the far left",
   "a steep glass funicular tram waiting behind iron gates on the right",
   "a parked red bicycle rickshaw waiting by an open exit on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "A cheerful roller-skating panda hands you tickets for your next journey.",
+   "options": [
+    "Board blue boat",
+    "Enter glass tram",
+    "Wave to rickshaw"
+   ]
+  },
+  {
+   "scene": "Holding your new travel passes, you look around the busy station.",
+   "options": [
+    "Choose river taxi",
+    "Take steep funicular",
+    "Hop into rickshaw"
+   ]
+  },
+  {
+   "scene": "Cool river air drifts inside as you pocket your transit passes.",
+   "options": [
+    "Try water taxi",
+    "Ride cable tram",
+    "Catch red rickshaw"
+   ]
+  }
  ]
 }

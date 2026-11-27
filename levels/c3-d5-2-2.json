@@ -17,5 +17,31 @@
   "A brass spiral staircase lift with open sliding gates in the centre.",
   "A striped ferris wheel gondola hanging open at a platform on the far right."
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Cool evening air greets you on the high wooden platform above the city.",
+   "options": [
+    "Ride the rickshaw",
+    "Enter the lift",
+    "Hop inside gondola"
+   ]
+  },
+  {
+   "scene": "Sunset glows as you hum {tune} beside the tall spiral elevator tower.",
+   "options": [
+    "Hire bicycle cab",
+    "Step inside lift",
+    "Climb into gondola"
+   ]
+  },
+  {
+   "scene": "You reach the bustling skywalk between the rickshaw and the giant wheel.",
+   "options": [
+    "Flag down rickshaw",
+    "Use spiral lift",
+    "Board open gondola"
+   ]
+  }
+ ]
 }

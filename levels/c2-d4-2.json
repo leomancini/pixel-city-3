@@ -17,5 +17,31 @@
   "a polished brass tuning dial sitting in the centre of the console",
   "a notched blue lever positioned on the far right of the console"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "Constellations twinkle on screen while warm control buttons click beneath your fingers.",
+   "options": [
+    "Tap glowing screen",
+    "Twist gear dial",
+    "Push tall handle"
+   ]
+  },
+  {
+   "scene": "A low hum echoes as you search the starry grid for {quest}.",
+   "options": [
+    "Touch constellation grid",
+    "Rotate gold wheel",
+    "Shift notched stick"
+   ]
+  },
+  {
+   "scene": "Golden gauges and soft-lit audio waves shimmer across the metallic dashboard.",
+   "options": [
+    "Select starry monitor",
+    "Spin heavy cog",
+    "Pull throttle lever"
+   ]
+  }
+ ]
 }

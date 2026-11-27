@@ -16,5 +16,31 @@
   "a sleek yellow monorail door waits open on an elevated track up high",
   "a red funicular car sits ready at its slanted rail stop on the far left",
   "a green automated rickshaw stands waiting with its passenger seat empty on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "The mechanical cat trills a cheerful tune and presents three gleaming transit passes.",
+   "options": [
+    "Catch yellow monorail",
+    "Enter red tram",
+    "Climb into rickshaw"
+   ]
+  },
+  {
+   "scene": "Glowing notes float as the friendly robot cat dispenses tickets for your journey.",
+   "options": [
+    "Try overhead monorail",
+    "Hop on funicular",
+    "Choose green rickshaw"
+   ]
+  },
+  {
+   "scene": "The friendly metal kitten chirps happily, offering tickets to continue seeking {quest}.",
+   "options": [
+    "Take high train",
+    "Ride hillside car",
+    "Board three-wheeled cab"
+   ]
+  }
  ]
 }

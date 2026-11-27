@@ -16,5 +16,31 @@
   "a bright yellow mountain cable tram parked waiting at a wooden dock at the far left",
   "a green glass-roofed trolley idling on tracks with doors open in the centre",
   "a polished brass spiral lift cage resting at its platform on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "Salty harbour air stirs as evening transit cars prepare to depart the boardwalk.",
+   "options": [
+    "Board yellow tram",
+    "Enter green trolley",
+    "Step inside lift"
+   ]
+  },
+  {
+   "scene": "Lanterns glow warmly over the busy wooden platform high above the harbour.",
+   "options": [
+    "Take cable tram",
+    "Ride green trolley",
+    "Try brass lift"
+   ]
+  },
+  {
+   "scene": "You hum {tune} as travelers bustle along the airy wooden deck.",
+   "options": [
+    "Catch yellow tram",
+    "Hop on trolley",
+    "Use spiral lift"
+   ]
+  }
  ]
 }

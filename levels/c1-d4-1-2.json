@@ -17,5 +17,31 @@
   "a sleek red monorail carriage idling behind open sliding doors in the centre",
   "a sloped wooden funicular rail car waiting at an open archway on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Checkmate! The clockwork player bows, and three neat pathways click open for you.",
+   "options": [
+    "Board green boat",
+    "Catch red monorail",
+    "Climb wooden tram"
+   ]
+  },
+  {
+   "scene": "Your win unlocks three waiting rides while you keep thinking of {quest}.",
+   "options": [
+    "Hop in boat",
+    "Enter sleek train",
+    "Take sloped car"
+   ]
+  },
+  {
+   "scene": "Lanterns glow overhead as your victorious move summons three ways forward.",
+   "options": [
+    "Choose water taxi",
+    "Board red train",
+    "Ride cable tram"
+   ]
+  }
+ ]
 }

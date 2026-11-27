@@ -17,5 +17,31 @@
   "a striped market cart draped in colourful silk spools on the right",
   "a wooden lookout ladder attached to a mooring mast on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Sunset glows over the grassy field as colourful banners flutter in the evening breeze.",
+   "options": [
+    "Greet basket weaver",
+    "Check ribbon cart",
+    "Scale tall tower"
+   ]
+  },
+  {
+   "scene": "You land safely, humming {tune} while fresh country air fills your lungs.",
+   "options": [
+    "Talk to weaver",
+    "Inspect silk stall",
+    "Climb mooring ladder"
+   ]
+  },
+  {
+   "scene": "Balloons rest in the quiet meadow beside busy stalls under the purple twilight sky.",
+   "options": [
+    "Approach wicker weaver",
+    "View bright ribbons",
+    "Head up tower"
+   ]
+  }
+ ]
 }

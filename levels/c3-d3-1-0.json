@@ -17,5 +17,31 @@
   "a sleek purple night bus parked idling at the platform curb on the right",
   "a striped ferris wheel gondola hanging stationary beside a boarding gate at the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The mechanical bird trills happily as strange vehicles power up on the twilight rooftop.",
+   "options": [
+    "Climb into book-cart",
+    "Take purple bus",
+    "Step in gondola"
+   ]
+  },
+  {
+   "scene": "Musical notes drift past the weathervane, humming just like {tune} above the bustling tracks.",
+   "options": [
+    "Board rail cart",
+    "Hop on bus",
+    "Try circus cab"
+   ]
+  },
+  {
+   "scene": "Tiny brass gears click softly, awakening three curious ways forward into the city night.",
+   "options": [
+    "Ride metal trolley",
+    "Catch quiet bus",
+    "Enter striped carriage"
+   ]
+  }
+ ]
 }

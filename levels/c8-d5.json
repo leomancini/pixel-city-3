@@ -17,5 +17,31 @@
   "a brass robot gardener holding shears in the centre",
   "a towering mansion front with ticking clocks on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Your pup sniffs the lawn while hundreds of brass clocks tick and tock above.",
+   "options": [
+    "Wave to hedge",
+    "Watch the robot",
+    "Step through doorway"
+   ]
+  },
+  {
+   "scene": "Fresh clippings drift by as you wonder if {quest} waits beyond the porch.",
+   "options": [
+    "Hallow the face",
+    "Approach metal gardener",
+    "Climb front steps"
+   ]
+  },
+  {
+   "scene": "The warm carriage engine hums beside a towering leafy face and clicking gears.",
+   "options": [
+    "Hail leafy giant",
+    "Check winding automaton",
+    "Visit clock house"
+   ]
+  }
+ ]
 }

@@ -16,5 +16,31 @@
   "A yellow street tram waiting with open doors on the far left tracks",
   "A blue harbour ferry tied to a pier platform at the centre",
   "A red cable car suspended from a metal pylon on the right"
+ ],
+ "variants": [
+  {
+   "scene": "The glowing digital kitten chimes softly, opening pathways across the rooftop station.",
+   "options": [
+    "Take yellow tram",
+    "Hop on ferry",
+    "Ride cable car"
+   ]
+  },
+  {
+   "scene": "Sparkling robo-purrs echo under dusk skies while you keep looking for {quest}.",
+   "options": [
+    "Catch the tram",
+    "Enter blue ferry",
+    "Climb into gondola"
+   ]
+  },
+  {
+   "scene": "A friendly cyber cat lights up, revealing three routes through Pixel City.",
+   "options": [
+    "Board yellow tram",
+    "Cross ferry gangway",
+    "Step inside car"
+   ]
+  }
  ]
 }

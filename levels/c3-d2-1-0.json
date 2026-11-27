@@ -17,5 +17,31 @@
   "a bicycle rickshaw and its masked driver waiting at the centre archway",
   "a glowing ferris wheel gondola docked at an open portal on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Three secret routes await as you study your paper map under the dim lights.",
+   "options": [
+    "Enter library lift",
+    "Hire bicycle rickshaw",
+    "Enter glowing gondola"
+   ]
+  },
+  {
+   "scene": "You check your map, still wondering where to find {quest} tonight.",
+   "options": [
+    "Step inside lift",
+    "Climb into rickshaw",
+    "Catch the gondola"
+   ]
+  },
+  {
+   "scene": "The cavernous station hums quietly as you decide which unusual ride to take.",
+   "options": [
+    "Use book lift",
+    "Board pedal rickshaw",
+    "Ride ferris car"
+   ]
+  }
+ ]
 }

@@ -17,5 +17,31 @@
   "an ornate brass key inserted into an illuminated keyhole in the centre",
   "a handwritten paper ticket tucked under a clip on the upper right"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "The heavy brass device hums quietly as you steady the metal frame.",
+   "options": [
+    "Push glowing dial",
+    "Twist fancy key",
+    "Check clipped ticket"
+   ]
+  },
+  {
+   "scene": "You trace the engraved waterways while looking for clues about {quest}.",
+   "options": [
+    "Hit blue switch",
+    "Rotate antique key",
+    "Read pinned note"
+   ]
+  },
+  {
+   "scene": "Warm lamplight glints off polished copper canals and stamped mechanical dock markings.",
+   "options": [
+    "Tap round light",
+    "Wiggle inserted key",
+    "Examine clipped paper"
+   ]
+  }
+ ]
 }

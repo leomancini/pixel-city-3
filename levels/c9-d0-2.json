@@ -17,5 +17,31 @@
   "A neon-lit stone koi pond with pixel fish, on the left",
   "An iridescent crystal flute resting on a polished stone bench, on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Your wheels click across tiled stone under glowing lanterns and a great bonsai tree.",
+   "options": [
+    "Scale rope ladder",
+    "Watch pixel koi",
+    "Try crystal flute"
+   ]
+  },
+  {
+   "scene": "You hum {tune} while gazing at the glowing pond in this rooftop courtyard.",
+   "options": [
+    "Ascend rope ladder",
+    "Check pixel pond",
+    "Blow crystal flute"
+   ]
+  },
+  {
+   "scene": "Lanterns softly glow over a sparkling pond and a sprawling, ancient bonsai tree.",
+   "options": [
+    "Reach upper walkway",
+    "View neon fish",
+    "Pick up flute"
+   ]
+  }
+ ]
 }

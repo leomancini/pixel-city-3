@@ -17,5 +17,31 @@
   "A fluttering paper talisman with circuit patterns pasted on the jar at the left",
   "A small steaming brass pressure valve bolted to the jar base on the right"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "A head of cabbage glows bright cyan inside a round earthenware vat.",
+   "options": [
+    "Take chopsticks",
+    "Study talisman note",
+    "Twist metal valve"
+   ]
+  },
+  {
+   "scene": "Sparkling blue brine bubbles softly under carved wooden chopsticks.",
+   "options": [
+    "Taste glowing cabbage",
+    "Examine circuit slip",
+    "Adjust steaming valve"
+   ]
+  },
+  {
+   "scene": "You lean over the bubbling pot while still wondering about {quest}.",
+   "options": [
+    "Lift wooden chopsticks",
+    "Check paper tag",
+    "Turn little valve"
+   ]
+  }
+ ]
 }

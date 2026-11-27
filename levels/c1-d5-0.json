@@ -17,5 +17,31 @@
   "a tarnished brass pressure dial ticking rapidly in the centre",
   "a rusty metal spanner resting on the rim to the right"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "Steam whispers past a smoking wooden plug beside an old brass pressure dial.",
+   "options": [
+    "Wiggle the plug",
+    "Check the dial",
+    "Grab the spanner"
+   ]
+  },
+  {
+   "scene": "Bright blue droplets sizzle around the carved stopper atop the sturdy wooden barrel.",
+   "options": [
+    "Yank the plug",
+    "Inspect the meter",
+    "Take the tool"
+   ]
+  },
+  {
+   "scene": "You rest your cane while watching blue ink seep across the wooden barrelhead.",
+   "options": [
+    "Uncork the barrel",
+    "Study the dial",
+    "Lift the spanner"
+   ]
+  }
+ ]
 }

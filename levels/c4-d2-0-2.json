@@ -17,5 +17,31 @@
   "a blue river barge resting in a water-lock chute at the centre",
   "a sleek glass-roofed trolley waiting on polished rails on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "At the dusk-lit dock, three different rides wait along the wooden platform.",
+   "options": [
+    "Board red tram",
+    "Step onto barge",
+    "Climb into trolley"
+   ]
+  },
+  {
+   "scene": "Cool evening air stirs your coat as three departures ready their engines.",
+   "options": [
+    "Hop on tram",
+    "Choose canal barge",
+    "Ride glowing trolley"
+   ]
+  },
+  {
+   "scene": "You hum {tune} while deciding which twilight transit will speed your journey.",
+   "options": [
+    "Take red car",
+    "Enter blue barge",
+    "Try glass trolley"
+   ]
+  }
+ ]
 }

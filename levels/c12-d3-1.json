@@ -17,5 +17,31 @@
   "a cloaked umbrella artisan sitting on a low bamboo stool, right",
   "mossy stone steps leading up to an arched canal bridge, far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Starry umbrellas dry quietly by the canal, smelling of fresh lacquer and paper.",
+   "options": [
+    "Examine star umbrella",
+    "Say hello artisan",
+    "Head up bridge"
+   ]
+  },
+  {
+   "scene": "A quiet craftsman paints glowing parasols as you think about finding {quest}.",
+   "options": [
+    "Inspect painted map",
+    "Wave to artisan",
+    "Walk up stairs"
+   ]
+  },
+  {
+   "scene": "Colorful paper umbrellas line the shopfront while the canal ripples below.",
+   "options": [
+    "Check star chart",
+    "Greet the crafter",
+    "Take stone steps"
+   ]
+  }
+ ]
 }

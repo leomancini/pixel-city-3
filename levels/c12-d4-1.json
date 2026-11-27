@@ -17,5 +17,31 @@
   "a leafy fern sitting inside the bicycle crate on the left",
   "an open arched mossy doorway carved into stone on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The wheeled brass robot rolls forward, offering you a warm cup of herbal tea.",
+   "options": [
+    "Accept hot tea",
+    "Give bicycle fern",
+    "Enter arched doorway"
+   ]
+  },
+  {
+   "scene": "Whirring gently beside the card catalogue, the metal vault-keeper serves warm tea.",
+   "options": [
+    "Take steaming cup",
+    "Share crate plant",
+    "Walk through door"
+   ]
+  },
+  {
+   "scene": "Between the hanging ferns, the friendly automaton greets you with fresh tea.",
+   "options": [
+    "Receive the drink",
+    "Show handlebar fern",
+    "Cross stone threshold"
+   ]
+  }
+ ]
 }

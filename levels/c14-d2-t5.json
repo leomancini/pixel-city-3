@@ -34,5 +34,49 @@
    "then": "Step off at Lost Property Depot",
    "next": "c14-d3"
   }
+ ],
+ "variants": [
+  {
+   "scene": "The cozy motor cabin hums while purple evening spreads across the city roofs.",
+   "options": [
+    "Turn radio knob",
+    "Check tool pouch",
+    "Tap driver shoulder"
+   ],
+   "beats": [
+    "You twist the red dial until playful toaster chatter sparkles through the static. The carriage brakes at Midnight Radio Repair, and the door pops open.",
+    "Unstrapping the heavy pouch shows shiny glass vacuum tubes resting safely inside. The vehicle pulls up to Midnight Radio Repair as the sidecar door swings wide.",
+    "You gently nudge the leather sleeve, and the driver points ahead. The engine purrs still at Midnight Radio Repair, its sidecar door unlatching."
+   ],
+   "ride_on": "You hold tight as the vehicle zips onward, grabbing a stray soap bubble on the breeze. Switching to the mail train, you roll into the umbrella-filled Lost Property Depot."
+  },
+  {
+   "scene": "Engine vibrations rattle the floorboards while you hum {tune} beneath your warm beanie.",
+   "options": [
+    "Fiddle with radio",
+    "Search canvas bag",
+    "Nudge motorcycle driver"
+   ],
+   "beats": [
+    "A quick twist of the little dial brings cheerful humming toasters over the speaker. Wheels screech neatly at Midnight Radio Repair, and the passenger door pops open.",
+    "Peeking into the front pocket reveals glowing tubes nestled securely together. The engine idles smoothly at Midnight Radio Repair, and the sidecar door swings wide.",
+    "A light tap on the shoulder earns a quick nod toward nearby streetlights. The ride halts by Midnight Radio Repair, its sidecar door unlatching."
+   ],
+   "ride_on": "Riding past the stop, you pop a drifting soap bubble in the air. You hop onto the whistling mail train, entering the vast umbrella stacks of Lost Property Depot."
+  },
+  {
+   "scene": "Sunset tints the glass while the warm cabin rattles over high rooftop rails.",
+   "options": [
+    "Adjust dashboard radio",
+    "Open leather kit",
+    "Alert the driver"
+   ],
+   "beats": [
+    "Spinning the red tuner brings singing toasters crackling across the airwaves. The sidecar slides neatly outside Midnight Radio Repair, and the side door pops open.",
+    "Opening the worn leather flap uncovers warm vacuum tubes cushioned against the bumps. Tires settle at Midnight Radio Repair, and the vehicle door swings wide.",
+    "You gesture toward the glass, and the rider steers toward glowing signs. With a gentle shudder, you halt outside Midnight Radio Repair, its door unlatching."
+   ],
+   "ride_on": "You remain in your seat as the motorcycle speeds ahead, snagging a floating bubble. Boarding the click-clacking mail train, you glide into the umbrella-packed Lost Property Depot."
+  }
  ]
 }

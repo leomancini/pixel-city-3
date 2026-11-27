@@ -16,5 +16,31 @@
   "a waiting glass-roofed trolley with an open door on the left",
   "a brass spiral lift shaft with a waiting car in the centre",
   "a steep mountain cable tram idling with doors open on the right"
+ ],
+ "variants": [
+  {
+   "scene": "The tabby strolls onto the platform beside three strange, glowing rides.",
+   "options": [
+    "Enter glass tram",
+    "Use spiral elevator",
+    "Climb red trolley"
+   ]
+  },
+  {
+   "scene": "Lanterns hum in the twilight while you wonder about {quest}.",
+   "options": [
+    "Board glass carriage",
+    "Enter brass elevator",
+    "Take inclined tram"
+   ]
+  },
+  {
+   "scene": "Warm station lamps glow as trains and a tall brass lift await.",
+   "options": [
+    "Hop on trolley",
+    "Ride winding elevator",
+    "Step onto tram"
+   ]
+  }
  ]
 }

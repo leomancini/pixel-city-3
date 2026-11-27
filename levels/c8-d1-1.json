@@ -17,5 +17,31 @@
   "a carved marble pedestal with a slot on the left",
   "an engraved bronze plaque bolted to the fountain rim on the right"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "A shiny golden carp with tiny gears glides through the cool, shimmering water.",
+   "options": [
+    "Scoop brass fish",
+    "Drop coin in",
+    "Inspect bronze plaque"
+   ]
+  },
+  {
+   "scene": "Cool mist tickles your nose while you search for {quest} in the basin.",
+   "options": [
+    "Grab winding fish",
+    "Feed stone slot",
+    "Study shiny inscription"
+   ]
+  },
+  {
+   "scene": "A clever mechanical fish ripples the sunlit pool beside the stone ledge.",
+   "options": [
+    "Pet clockwork fish",
+    "Drop copper penny",
+    "Read metal words"
+   ]
+  }
+ ]
 }

@@ -17,5 +17,31 @@
   "a chrome robot DJ spinning records at a booth in the centre",
   "a yellow metal ladder on the far right leading upward"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "You leave the glass lift as funky electronic beats fill the purple hallway.",
+   "options": [
+    "Try glowing door",
+    "Say hi robot",
+    "Use yellow ladder"
+   ]
+  },
+  {
+   "scene": "Exiting the elevator, you hum {tune} while vinyl beats bounce off the walls.",
+   "options": [
+    "Open karaoke room",
+    "Wave at DJ",
+    "Head up ladder"
+   ]
+  },
+  {
+   "scene": "You step onto the patterned carpet, your dance bag swinging to the music.",
+   "options": [
+    "Check magenta room",
+    "Approach robot DJ",
+    "Go up ladder"
+   ]
+  }
+ ]
 }

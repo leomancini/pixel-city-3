@@ -17,5 +17,31 @@
   "a glowing retro game cabinet with flashing buttons on the far right",
   "a heavy purple wooden door shut tight on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The cozy shop smells of printed paper under warm lights.",
+   "options": [
+    "Check counter comic",
+    "Try arcade machine",
+    "Try purple door"
+   ]
+  },
+  {
+   "scene": "You scan rows of colourful books while humming {tune}.",
+   "options": [
+    "Inspect display comic",
+    "Insert arcade coin",
+    "Check back door"
+   ]
+  },
+  {
+   "scene": "Bright shelves and glowing game screens fill this quiet underground room.",
+   "options": [
+    "Browse open comic",
+    "Play retro game",
+    "Turn purple handle"
+   ]
+  }
+ ]
 }

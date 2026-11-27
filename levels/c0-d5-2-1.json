@@ -17,5 +17,31 @@
   "a red tram schedule pamphlet pinned right in the centre of the board",
   "a yellow night bus ticket slipped under a pin on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The corkboard displays routes, schedules, tickets, and one brightly glowing blue token.",
+   "options": [
+    "Take blue token",
+    "Catch red tram",
+    "Grab bus ticket"
+   ]
+  },
+  {
+   "scene": "You check travel routes across Pixel City while searching for {quest}.",
+   "options": [
+    "Ride the train",
+    "Choose the tram",
+    "Pick night bus"
+   ]
+  },
+  {
+   "scene": "A vibrant transit map hangs surrounded by travel flyers and timetables.",
+   "options": [
+    "Use glowing token",
+    "Ride city tram",
+    "Board evening bus"
+   ]
+  }
+ ]
 }

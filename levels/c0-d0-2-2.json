@@ -16,5 +16,31 @@
   "a sleek blue subway train with doors slid open, on the left",
   "a yellow street tram idling with doors open, at centre",
   "a red glass cable car hanging ready from a cable, up high"
+ ],
+ "variants": [
+  {
+   "scene": "Grand Station hums as you tap your green boots on the platform tile.",
+   "options": [
+    "Enter blue train",
+    "Climb on trolley",
+    "Catch sky car"
+   ]
+  },
+  {
+   "scene": "Under the giant glass roof, you hum {tune} and check the busy tracks.",
+   "options": [
+    "Hop on subway",
+    "Enter yellow tram",
+    "Ride hanging car"
+   ]
+  },
+  {
+   "scene": "Cool twilight glows through the skylights above three waiting rides.",
+   "options": [
+    "Take sleek train",
+    "Board yellow car",
+    "Try aerial lift"
+   ]
+  }
  ]
 }

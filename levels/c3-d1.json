@@ -17,5 +17,31 @@
   "a whispering hooded librarian shelving books with white gloves in the centre",
   "an ornate brass card catalogue glowing with green light on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The warm lift opens to quiet aisles of towering shelves and dusty books.",
+   "options": [
+    "Ascend tall ladder",
+    "Approach hooded figure",
+    "Check glowing drawers"
+   ]
+  },
+  {
+   "scene": "You leave the bright elevator, still wondering how to find {quest} here.",
+   "options": [
+    "Scale rolling ladder",
+    "Question cloaked librarian",
+    "Inspect glowing catalogue"
+   ]
+  },
+  {
+   "scene": "Soft green lamps glow between grand stone arches and massive book racks.",
+   "options": [
+    "Use wooden ladder",
+    "Greet gloved librarian",
+    "Search luminous cabinet"
+   ]
+  }
+ ]
 }

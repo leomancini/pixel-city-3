@@ -17,5 +17,31 @@
   "the tiered ice performance dais standing directly in the centre",
   "striped sled tracks leading away toward a candy-striped tent on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Brass-clad penguins honk tiny trumpets, sending a gleaming coin rolling your way.",
+   "options": [
+    "Grab the coin",
+    "Step onto dais",
+    "Trace striped path"
+   ]
+  },
+  {
+   "scene": "The mechanical trio toots cheerful tunes as a bright token lands on ice.",
+   "options": [
+    "Pick up token",
+    "Hop on platform",
+    "Follow striped trail"
+   ]
+  },
+  {
+   "scene": "Their happy song reminds you of {tune} while a golden coin glints below.",
+   "options": [
+    "Pocket shiny coin",
+    "Mount ice stage",
+    "Walk candy tracks"
+   ]
+  }
+ ]
 }

@@ -17,5 +17,31 @@
   "a yellow street tram waiting outside the open dryer tunnel in the centre",
   "a green harbour ferry gangway resting by water on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The dryer tunnel opens onto bustling platforms below, still seeking {quest}.",
+   "options": [
+    "Enter subway car",
+    "Hop on tram",
+    "Cross gangway aboard"
+   ]
+  },
+  {
+   "scene": "Warm laundry air meets cool twilight drizzle across three tempting getaways.",
+   "options": [
+    "Board underground train",
+    "Catch vintage tram",
+    "Step onto boat"
+   ]
+  },
+  {
+   "scene": "Golden interior lights glow softly along the rails and dark harbor water.",
+   "options": [
+    "Take metro train",
+    "Climb into tram",
+    "Board green ferry"
+   ]
+  }
+ ]
 }

@@ -34,5 +34,49 @@
    "then": "Step off at Lost Property Depot",
    "next": "c14-d3"
   }
+ ],
+ "variants": [
+  {
+   "scene": "Sudsy foam sloshes across the glass as the cosy cabin rattles along.",
+   "options": [
+    "Clear the window",
+    "Offer pigeon crumbs",
+    "Twist red valve"
+   ],
+   "beats": [
+    "You glide the squeegee down, carving a clear oval to watch whirling storm vanes as the cabin nudges against the rain barrel platform and the doors glide open wide.",
+    "The gentle bird pecks eagerly, leaving a shimmering grey feather behind before flapping outside just as the car docks alongside a bubbly cloud tank with sliding doors.",
+    "A friendly hiss releases fragrant steam that curls through the cabin, drifting outward as the metal doors part to reveal shiny, rainbow-tinted rooftops outside."
+   ],
+   "ride_on": "You remain aboard through the gentle drizzle until the final stop, switching to the clattering mail train that rolls into the gigantic, bear-filled Lost Property Depot."
+  },
+  {
+   "scene": "White soap bubbles coat the windows while you ponder {quest} in the gentle warmth.",
+   "options": [
+    "Use soapy squeegee",
+    "Greet the bird",
+    "Spin the wheel"
+   ],
+   "beats": [
+    "Rubber scrapes across the wet glass, framing spinning storm vanes outside just as the tram bumps the wooden barrel platform and the doors part smoothly.",
+    "The cooing pigeon accepts your treat, drops a silky feather, and flutters out the moment the cabin meets the frothing cloud tank and doors open.",
+    "Warm steam whistles into the air with a friendly toot, swirling through the newly opened doors toward glistening rooftops painted with soft rainbow colours."
+   ],
+   "ride_on": "You stay in your seat past the stop, riding through the mist to transfer onto the loud mail train, which carries you to the cavernous Lost Property Depot full of bears."
+  },
+  {
+   "scene": "Soapy lather drips down the tall glass as the gondola sways softly.",
+   "options": [
+    "Scrape wet suds",
+    "Share bird seeds",
+    "Crank the valve"
+   ],
+   "beats": [
+    "Pulling the squeegee creates a bright window showing wild storm vanes right as the gondola touches the rainy barrel platform and doors slide apart.",
+    "With a cheerful chirp, the pigeon flutters away, leaving a shiny feather behind just as the tram docks beside the bubbling cloud tank and doors slide wide.",
+    "A cloud of fresh, rain-scented vapor billows across the floor, drifting through the parting doors to show bright rooftops glittering under rainbow light."
+   ],
+   "ride_on": "You ride along through the misty drizzle, changing at the end of the line for a bouncy mail train that speeds into the grand, bear-filled Lost Property Depot."
+  }
  ]
 }

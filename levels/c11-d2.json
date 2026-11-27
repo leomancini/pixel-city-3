@@ -17,5 +17,31 @@
   "a patterned blue picnic mat spread empty on the deck on the left",
   "an arched bridge sprayed with rainbow water jets on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The river ferry docks as evening air fills with bright bridge lights.",
+   "options": [
+    "Signal glowing chicken",
+    "Check blue mat",
+    "Cross rainbow bridge"
+   ]
+  },
+  {
+   "scene": "You arrive at the pier, still humming {tune} through your headphones.",
+   "options": [
+    "Wave down drone",
+    "Examine picnic mat",
+    "Visit arch bridge"
+   ]
+  },
+  {
+   "scene": "Rainbow fountains sparkle above the wooden pier as you step outside.",
+   "options": [
+    "Hail delivery drone",
+    "Look at mat",
+    "Approach rainbow fountain"
+   ]
+  }
+ ]
 }

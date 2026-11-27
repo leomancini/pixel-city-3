@@ -17,5 +17,31 @@
   "a swaying rope suspension bridge leading right from the platform edge",
   "a sturdy wooden ladder tied to the trunk going up high"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Warm lanterns glow around the treetop platform while you search for {quest}.",
+   "options": [
+    "Check acorn mailbox",
+    "Trek across bridge",
+    "Scale the ladder"
+   ]
+  },
+  {
+   "scene": "A cool dusk breeze rustles the leaves high above the forest floor.",
+   "options": [
+    "Peek inside acorn",
+    "Cross wooden bridge",
+    "Climb tall ladder"
+   ]
+  },
+  {
+   "scene": "You balance your skateboard on the sturdy planks under the twilight canopy.",
+   "options": [
+    "Read acorn mail",
+    "Cross rope walkway",
+    "Climb wooden rungs"
+   ]
+  }
+ ]
 }

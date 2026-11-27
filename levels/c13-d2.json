@@ -17,5 +17,31 @@
   "a brass beam projector mounted on a pedestal at the centre",
   "an empty striped red deckchair set up on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Sunset glows above the rooftop cinema while you hum {tune}.",
+   "options": [
+    "Wave down drone",
+    "Adjust brass projector",
+    "Relax in deckchair"
+   ]
+  },
+  {
+   "scene": "Fresh movie snacks drift by on cables high above the city.",
+   "options": [
+    "Signal snack bot",
+    "Inspect projector lens",
+    "Take striped seat"
+   ]
+  },
+  {
+   "scene": "Cool twilight air greets you as neon signs flicker to life.",
+   "options": [
+    "Summon popcorn drone",
+    "Turn film projector",
+    "Sit on deckchair"
+   ]
+  }
+ ]
 }

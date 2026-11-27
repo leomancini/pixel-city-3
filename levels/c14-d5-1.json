@@ -17,5 +17,31 @@
   "A faded city tram map taped to the left of the glowing dials",
   "A gleaming brass toggle switch flicked upward on the far right"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "Warm vacuum tubes hum softly as the round dial glows amber before you.",
+   "options": [
+    "Turn large dial",
+    "Read taped map",
+    "Switch brass toggle"
+   ]
+  },
+  {
+   "scene": "The receiver's amber glow reminds you of {tune} hummed long ago.",
+   "options": [
+    "Rotate center dial",
+    "Inspect route paper",
+    "Click shiny switch"
+   ]
+  },
+  {
+   "scene": "Dust motes drift across the workbench while the cozy radio keeps warming up.",
+   "options": [
+    "Adjust big dial",
+    "Study tram paper",
+    "Throw brass switch"
+   ]
+  }
+ ]
 }

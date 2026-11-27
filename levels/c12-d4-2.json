@@ -17,5 +17,31 @@
   "a bubbling hydroponic glass tank holding a leafy vine in the centre",
   "a wrought-iron spiral staircase winding upward on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "A huge glass tank hums softly while blue mushrooms glow in the damp room.",
+   "options": [
+    "Gather blue mushrooms",
+    "Check bubbling tank",
+    "Ascend iron stairs"
+   ]
+  },
+  {
+   "scene": "Cool air smells of moss as glowing blue caps light up stone arches.",
+   "options": [
+    "Harvest luminous fungi",
+    "Study plant tank",
+    "Take winding stairs"
+   ]
+  },
+  {
+   "scene": "Soft lights flicker on brick as you wonder about finding {quest} down here.",
+   "options": [
+    "Pluck shining mushroom",
+    "Examine large tank",
+    "Head upstairs"
+   ]
+  }
+ ]
 }

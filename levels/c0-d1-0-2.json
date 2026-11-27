@@ -16,5 +16,31 @@
   "A red street tram waiting on elevated tracks at the far left",
   "A blue harbour ferry tied to a roof dock on the right",
   "A lit subway entrance with stairs descending at the centre"
+ ],
+ "variants": [
+  {
+   "scene": "Your giant radish is harvested, uncovering a bustling rooftop station beneath the twilight.",
+   "options": [
+    "Ride the tram",
+    "Board the ferry",
+    "Enter subway stairs"
+   ]
+  },
+  {
+   "scene": "While you hum {tune}, sunset colors glow over three strange ways out.",
+   "options": [
+    "Hop on tram",
+    "Take blue ferry",
+    "Go underground"
+   ]
+  },
+  {
+   "scene": "Holding the giant radish, you discover a lively garden dock high above streets.",
+   "options": [
+    "Climb aboard tram",
+    "Board roof boat",
+    "Walk down stairs"
+   ]
+  }
  ]
 }

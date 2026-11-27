@@ -17,5 +17,31 @@
   "a hovering tin robot guard whispering softly just right of centre",
   "a bright brass ladder extending upwards to ceiling walkways at far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "People stroll on the ceiling while you search for {quest} below.",
+   "options": [
+    "Wear magnetic boots",
+    "Ask floating robot",
+    "Scale tall ladder"
+   ]
+  },
+  {
+   "scene": "You leave the glass lift to find art fans walking on the ceiling.",
+   "options": [
+    "Pick special boots",
+    "Chat with guard",
+    "Use brass ladder"
+   ]
+  },
+  {
+   "scene": "Patrons wander upside down overhead as a golden robot hovers quietly nearby.",
+   "options": [
+    "Inspect magnetic boots",
+    "Speak to robot",
+    "Climb the ladder"
+   ]
+  }
+ ]
 }

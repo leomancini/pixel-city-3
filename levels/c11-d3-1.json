@@ -17,5 +17,31 @@
   "a spinning holographic vinyl record on the deck to the left of centre",
   "a tall yellow ladder bolted to the wall on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The smiling bot DJ holds out a glowing cyan tape above the pulsing decks.",
+   "options": [
+    "Grab neon tape",
+    "Scratch rainbow deck",
+    "Scramble up ladder"
+   ]
+  },
+  {
+   "scene": "A friendly robot DJ offers you music, humming {tune} through the cozy twilight air.",
+   "options": [
+    "Accept bright cassette",
+    "Touch glowing turntable",
+    "Head up ladder"
+   ]
+  },
+  {
+   "scene": "Funky synth beats bounce as the smiling robot offers you a bright glowing cassette.",
+   "options": [
+    "Take digital tape",
+    "Spin glowing record",
+    "Use rooftop ladder"
+   ]
+  }
+ ]
 }

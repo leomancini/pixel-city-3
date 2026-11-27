@@ -17,5 +17,31 @@
   "a brass coin-operated telescope mounted in the centre beside the safety rail",
   "an arched wooden suspension bridge leading away toward a rooftop greenhouse on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Up high above the city, the twilight breeze hums against the giant wooden ramp.",
+   "options": [
+    "Skate the drop",
+    "Peer through telescope",
+    "Cross wooden bridge"
+   ]
+  },
+  {
+   "scene": "You pause on the high wooden platform, humming {tune} above the rooftop roofs.",
+   "options": [
+    "Ride the curve",
+    "Check the scope",
+    "Walk the bridge"
+   ]
+  },
+  {
+   "scene": "Neon signs glow below as you stand between the halfpipe and the greenhouse bridge.",
+   "options": [
+    "Take the plunge",
+    "Look through lens",
+    "Cross rope bridge"
+   ]
+  }
+ ]
 }

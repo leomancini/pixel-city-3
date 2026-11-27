@@ -16,5 +16,31 @@
   "a sleek yellow street tram with open doors on the far left",
   "a wooden harbour ferry bobbing beside the dock in the centre",
   "a red glass cable car hanging from steel cables up high"
+ ],
+ "variants": [
+  {
+   "scene": "Lanterns glow softly across the bustling brick terminal by the canal.",
+   "options": [
+    "Take yellow tram",
+    "Hop on ferry",
+    "Climb into cable-car"
+   ]
+  },
+  {
+   "scene": "Water gently laps against the stone dock under the crisscrossing cables.",
+   "options": [
+    "Step inside tram",
+    "Board little boat",
+    "Take sky car"
+   ]
+  },
+  {
+   "scene": "You pause on the stone walkway, still searching for {quest}.",
+   "options": [
+    "Enter waiting tram",
+    "Ride dockside ferry",
+    "Catch red cable-car"
+   ]
+  }
  ]
 }

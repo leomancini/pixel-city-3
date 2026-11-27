@@ -17,5 +17,31 @@
   "a gleaming brass pasta spinner with winding copper handles on the right",
   "a hovering turquoise scooter parked idling on the far left"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The glowing mint gelato fizzes with tiny golden sparks all around you.",
+   "options": [
+    "Rinse at fountain",
+    "Tap pasta machine",
+    "Hop on scooter"
+   ]
+  },
+  {
+   "scene": "Your tasty green treat tingles, filling your head with {tune}.",
+   "options": [
+    "Head to fountain",
+    "Inspect pasta spinner",
+    "Board hover scooter"
+   ]
+  },
+  {
+   "scene": "Magic sparkles shimmer in the evening air after your cold, fizzy bite.",
+   "options": [
+    "Approach the fountain",
+    "Check brass machine",
+    "Ride the scooter"
+   ]
+  }
+ ]
 }

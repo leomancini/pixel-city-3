@@ -17,5 +17,31 @@
   "a wooden funicular car waiting on steep sloped tracks to the right",
   "a mechanical brass rickshaw with a smiling robot driver on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Key tucked away, you view three grand rides above the purple dusk skyline.",
+   "options": [
+    "Enter red train",
+    "Climb into cable-car",
+    "Hail brass rickshaw"
+   ]
+  },
+  {
+   "scene": "Steam curls from the tea cart as three different routes await your choice.",
+   "options": [
+    "Catch the monorail",
+    "Hop on funicular",
+    "Try mechanical rickshaw"
+   ]
+  },
+  {
+   "scene": "Humming {tune}, you steady your cane before the bustling transit platform.",
+   "options": [
+    "Take red monorail",
+    "Step onto funicular",
+    "Ride with robot"
+   ]
+  }
+ ]
 }

@@ -17,5 +17,31 @@
   "a huge pink water lily floating in the dark water at centre",
   "an arched tiled stairway leading up into shadow on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Cool tunnel water laps gently beside the mossy, silent tiled platform.",
+   "options": [
+    "Check vending machine",
+    "Study pink blossom",
+    "Head upstairs"
+   ]
+  },
+  {
+   "scene": "A glowing lotus drifts peacefully while you search for {quest}.",
+   "options": [
+    "Approach glowing machine",
+    "Touch water flower",
+    "Take stone steps"
+   ]
+  },
+  {
+   "scene": "Damp air fills the underground canal where brick arches stretch into darkness.",
+   "options": [
+    "View soda dispenser",
+    "Photograph floating lotus",
+    "Ascend tiled staircase"
+   ]
+  }
+ ]
 }

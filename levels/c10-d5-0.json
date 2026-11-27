@@ -17,5 +17,31 @@
   "the cubic brass bellhop robot tilting its square head at centre",
   "an open brass dumbwaiter shaft with a dangling rope on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "A secret desk drawer slides open, revealing a sparkling golden key.",
+   "options": [
+    "Take golden key",
+    "Wave at robot",
+    "Board the lift"
+   ]
+  },
+  {
+   "scene": "Soft chimes echo as a shining key appears beside a curious robot bellhop.",
+   "options": [
+    "Pocket the key",
+    "Say hello robot",
+    "Try the lift"
+   ]
+  },
+  {
+   "scene": "You stop on the plush rug as a little drawer reveals a golden glow.",
+   "options": [
+    "Snatch the key",
+    "Talk to robot",
+    "Use vintage lift"
+   ]
+  }
+ ]
 }

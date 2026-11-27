@@ -17,5 +17,31 @@
   "a glowing red ferris wheel gondola hovering open in the centre",
   "a mechanical brass book cart lift docked beside rails on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Matchlight reveals three quiet rides parked along the shadowy brick platform.",
+   "options": [
+    "Take bicycle rickshaw",
+    "Step inside gondola",
+    "Climb book cart"
+   ]
+  },
+  {
+   "scene": "Holding the tiny flame, you hum {tune} beside three strange vehicles.",
+   "options": [
+    "Call pedal rickshaw",
+    "Enter red cabin",
+    "Board rolling bookcase"
+   ]
+  },
+  {
+   "scene": "The little match sparks to life, showing three unusual ways to travel.",
+   "options": [
+    "Hire trike driver",
+    "Try glowing gondola",
+    "Hop onto bookcase"
+   ]
+  }
+ ]
 }

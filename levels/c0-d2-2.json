@@ -16,5 +16,31 @@
   "A chrome robotic cat purring on a bench to the left.",
   "A potted tree with blue glowing fruit in the centre.",
   "A narrow wooden plank bridging toward another roof on the far right."
+ ],
+ "variants": [
+  {
+   "scene": "A dusk sky stretches above glowing leaves and a sleeping mechanical cat.",
+   "options": [
+    "Stroke metal cat",
+    "Harvest blue fruit",
+    "Walk across plank"
+   ]
+  },
+  {
+   "scene": "Cool evening air carries the soft hum of {tune} across the quiet rooftop.",
+   "options": [
+    "Pet metal kitty",
+    "Gather glowing fruit",
+    "Step onto plank"
+   ]
+  },
+  {
+   "scene": "A potted tree shines bright blue under the lovely purple evening sky.",
+   "options": [
+    "Tickle mechanical cat",
+    "Reach for fruit",
+    "Cross wooden bridge"
+   ]
+  }
  ]
 }

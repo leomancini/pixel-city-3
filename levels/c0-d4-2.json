@@ -17,5 +17,31 @@
   "a chunky brass knob set above the coin slot, centre",
   "a curling starry sticker stuck on the metal casing, right"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "A shiny turquoise coin sits waiting inside the rusty old laundry machine tray.",
+   "options": [
+    "Grab teal coin",
+    "Twist metal dial",
+    "Pry star sticker"
+   ]
+  },
+  {
+   "scene": "Humming {tune}, you examine the clunky dispenser and its glowing prize.",
+   "options": [
+    "Take bright token",
+    "Rotate brass knob",
+    "Lift rainbow star"
+   ]
+  },
+  {
+   "scene": "The vending tray holds a glowing teal token beneath strange alien instructions.",
+   "options": [
+    "Pocket round coin",
+    "Crank upper knob",
+    "Snag corner sticker"
+   ]
+  }
+ ]
 }

@@ -17,5 +17,31 @@
   "a sputtering brass steam valve attached to the samovar pipe, left",
   "an iron spiral ladder leading up to an open ceiling trapdoor, right"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "A warm steam rises, and a shiny key gleams under the swirling tea.",
+   "options": [
+    "Fish out key",
+    "Twist the valve",
+    "Climb the stairs"
+   ]
+  },
+  {
+   "scene": "Sweet tea steams gently, reminding you of {tune} as a key glints below.",
+   "options": [
+    "Take the key",
+    "Spin samovar wheel",
+    "Ascend iron steps"
+   ]
+  },
+  {
+   "scene": "White petals drift across your warm cup where a small brass key rests.",
+   "options": [
+    "Retrieve brass key",
+    "Shut off valve",
+    "Head upstairs"
+   ]
+  }
+ ]
 }

@@ -16,5 +16,31 @@
   "a wheeled rickshaw waiting by a sign on the far left",
   "a yellow water taxi docked at a canal gate on the right",
   "a glass funicular car on rails waiting on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "You check your map as evening lights turn on across the canal.",
+   "options": [
+    "Call the rickshaw",
+    "Ride water taxi",
+    "Climb the funicular"
+   ]
+  },
+  {
+   "scene": "Gentle harbor waves lap against the dock while you study your routes.",
+   "options": [
+    "Take cycle rickshaw",
+    "Hop on boat",
+    "Ride hillside tram"
+   ]
+  },
+  {
+   "scene": "You lean on your cane, still wondering about {quest} along the water.",
+   "options": [
+    "Wave to rickshaw",
+    "Board the boat",
+    "Ride glass funicular"
+   ]
+  }
  ]
 }

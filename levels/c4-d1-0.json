@@ -16,5 +16,31 @@
   "The unrolled bolt of glowing golden-stitched silk at the far left.",
   "A surprised grey-bearded weaver leaning over his wooden loom on the right.",
   "An open ironwork archway flanked by hanging lanterns on the far right."
+ ],
+ "variants": [
+  {
+   "scene": "A shimmering street plan glows across the unfurled bright blue cloth.",
+   "options": [
+    "Take the silk",
+    "Ask the weaver",
+    "Pass the lanterns"
+   ]
+  },
+  {
+   "scene": "Under the glass roof, golden threads chart pathways through the arcade.",
+   "options": [
+    "Roll up fabric",
+    "Consult the weaver",
+    "Head through archway"
+   ]
+  },
+  {
+   "scene": "You unroll the glossy fabric to study the golden city streets.",
+   "options": [
+    "Claim the cloth",
+    "Approach the loom",
+    "Leave via archway"
+   ]
+  }
  ]
 }

@@ -16,5 +16,31 @@
   "a yellow box truck parked with its open ramp down on the far left",
   "a puffing candy-striped steam train waiting at a platform on the centre right",
   "a small brass gondola airship moored to a tower on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "Water drains into puddles, opening a hidden station with three curious rides.",
+   "options": [
+    "Enter yellow truck",
+    "Board striped train",
+    "Climb into airship"
+   ]
+  },
+  {
+   "scene": "Steam curls under the brick arches while you continue seeking {quest}.",
+   "options": [
+    "Roll up ramp",
+    "Catch steam train",
+    "Untie docked airship"
+   ]
+  },
+  {
+   "scene": "Pipes gurgle into the floor, revealing a secret depot of waiting vehicles.",
+   "options": [
+    "Explore delivery truck",
+    "Hop on locomotive",
+    "Try brass airship"
+   ]
+  }
  ]
 }

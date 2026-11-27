@@ -17,5 +17,31 @@
   "a square monitor glowing bright green in the centre of the dashboard",
   "an upright red mechanical throttle lever positioned on the far right"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "The yellow hood lifts up to reveal buzzing wires and glowing gear.",
+   "options": [
+    "Grab blue wrench",
+    "Touch green monitor",
+    "Push red lever"
+   ]
+  },
+  {
+   "scene": "Coiled cables hum while you remember {tune} over the bright pitkart engine.",
+   "options": [
+    "Take glowing wrench",
+    "Check center screen",
+    "Flip red switch"
+   ]
+  },
+  {
+   "scene": "A warm scent of metal drifts from the open yellow cart box.",
+   "options": [
+    "Pick up tool",
+    "Test green display",
+    "Move tall lever"
+   ]
+  }
+ ]
 }

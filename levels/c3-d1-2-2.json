@@ -17,5 +17,31 @@
   "a cushioned bicycle rickshaw with an owl-masked driver waiting on the right",
   "a swinging neon-lit ferris wheel gondola docked at a platform up high"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "A glowing grid floats above the projector, pointing toward three evening rides.",
+   "options": [
+    "Hop on bus",
+    "Take the rickshaw",
+    "Climb to gondola"
+   ]
+  },
+  {
+   "scene": "The glowing projection shimmers while you think about finding {quest}.",
+   "options": [
+    "Catch the bus",
+    "Hire the rickshaw",
+    "Board the gondola"
+   ]
+  },
+  {
+   "scene": "Golden light beams a city street map right before your eyes.",
+   "options": [
+    "Enter double-decker bus",
+    "Pick the rickshaw",
+    "Visit ferris gondola"
+   ]
+  }
+ ]
 }

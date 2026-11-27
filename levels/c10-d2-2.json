@@ -17,5 +17,31 @@
   "a carved stone lantern glowing with blue fire on the right",
   "steep wooden stairs leading up into a red pagoda far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Waterfalls rush below as you glide onto the quiet stone terrace.",
+   "options": [
+    "Strike bronze bell",
+    "Inspect blue lantern",
+    "Ascend wooden steps"
+   ]
+  },
+  {
+   "scene": "Cool pine air greets you beside a glowing blue lantern and pond.",
+   "options": [
+    "Sound great bell",
+    "Study strange lantern",
+    "Go upstairs"
+   ]
+  },
+  {
+   "scene": "You pause by the pond, still humming {tune} under the purple sky.",
+   "options": [
+    "Toll heavy bell",
+    "Touch stone lantern",
+    "Walk up stairs"
+   ]
+  }
+ ]
 }

@@ -16,5 +16,31 @@
   "a gleaming red steam train waiting puffing smoke on the far left",
   "a boxy yellow delivery truck parked with its ramp down on the right",
   "a glowing glass elevator shaft with open doors on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "The cheerful vendor hands you fresh tickets beneath the dusk sky.",
+   "options": [
+    "Ride steam train",
+    "Roll up ramp",
+    "Hop into elevator"
+   ]
+  },
+  {
+   "scene": "Freshly stamped passes gleam as {tune} echoes along the pier.",
+   "options": [
+    "Board red locomotive",
+    "Climb into truck",
+    "Try glass elevator"
+   ]
+  },
+  {
+   "scene": "Warm station lamps flicker as the smiling vendor waves you forward.",
+   "options": [
+    "Catch steam train",
+    "Enter yellow truck",
+    "Use glass elevator"
+   ]
+  }
  ]
 }

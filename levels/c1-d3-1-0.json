@@ -16,5 +16,31 @@
   "A sleek silver monorail carriage sitting on elevated rails on the far left",
   "A steep red funicular tram resting at its wooden station in the centre",
   "A striped water taxi moored beside a stone dock on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "Sea breezes swirl past bustling travelers as evening settles over the transit docks.",
+   "options": [
+    "Take monorail",
+    "Hop on funicular",
+    "Catch water taxi"
+   ]
+  },
+  {
+   "scene": "You hum {tune} while watching commuters rush between three different grand rides.",
+   "options": [
+    "Board monorail",
+    "Climb aboard funicular",
+    "Flag water taxi"
+   ]
+  },
+  {
+   "scene": "Gentle waves lap the stone pier beneath bustling tracks and rumbling engines.",
+   "options": [
+    "Enter monorail",
+    "Try steep funicular",
+    "Signal water taxi"
+   ]
+  }
  ]
 }

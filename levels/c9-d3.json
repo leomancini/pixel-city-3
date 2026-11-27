@@ -17,5 +17,31 @@
   "a carved brass directory board mounted on a post at the centre",
   "an arched wooden doorway at the base of the pagoda lighthouse on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Your roller skates clatter onto the wooden pier as twilight settles over the harbour.",
+   "options": [
+    "Visit tea barge",
+    "Inspect harbour map",
+    "Enter lighthouse tower"
+   ]
+  },
+  {
+   "scene": "Warm lanterns glow against purple skies while you keep an eye out for {quest}.",
+   "options": [
+    "Cross to barge",
+    "Check brass board",
+    "Open tower door"
+   ]
+  },
+  {
+   "scene": "Fresh sea air breezes past the pagoda lighthouse as you skate down the dock.",
+   "options": [
+    "Hop onto barge",
+    "Study pier map",
+    "Step inside lighthouse"
+   ]
+  }
+ ]
 }

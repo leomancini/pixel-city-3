@@ -17,5 +17,31 @@
   "a glowing carnival gondola waiting at a platform ramp on the right",
   "an ornate brass cage lift filled with stacked books on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The parchment maps out three curious routes leading into the purple dusk.",
+   "options": [
+    "Catch the bus",
+    "Step inside gondola",
+    "Take book elevator"
+   ]
+  },
+  {
+   "scene": "You check your map on the bridge while humming {tune}.",
+   "options": [
+    "Climb on bus",
+    "Board carnival wheel",
+    "Use library lift"
+   ]
+  },
+  {
+   "scene": "Three strange rides await on the high stone walkway across town.",
+   "options": [
+    "Hop on bus",
+    "Try ferris car",
+    "Ride book cage"
+   ]
+  }
+ ]
 }

@@ -34,5 +34,49 @@
    "then": "Step off at Gear Bridge",
    "next": "c14-d1"
   }
+ ],
+ "variants": [
+  {
+   "scene": "A lantern sways as the lift climbs above the dusky city skyline.",
+   "options": [
+    "Crank the winch",
+    "Poke the suds",
+    "Greet the pigeon"
+   ],
+   "beats": [
+    "You spin the handle quickly, darting through cold fog. The gondola rattles to a stop right by huge rain barrels, its grated doors sliding open.",
+    "Your touch sends a bright, sparkling bubble aloft. The lift knocks gently against an iron post, and the cage gate unlatches with a cheerful ding.",
+    "With an offended flap and coo, the bird leaves behind a tiny brass key. The carriage floats into the foggy landing, its accordion gate rolling back."
+   ],
+   "ride_on": "Riding past the stop, city breezes brush your warm knit cap. At the final platform, you hop onto a rattling bridge crawler bound for Gear Bridge's cogs."
+  },
+  {
+   "scene": "Salty night air fills the cage while you hum {tune}.",
+   "options": [
+    "Wind the crank",
+    "Check the bubbles",
+    "Disturb the bird"
+   ],
+   "beats": [
+    "You wind the gears faster, racing past swirling clouds until the cradle halts beside giant rain barrels. The grated doors slide open with a metallic hum.",
+    "Swirling the blue foam frees a glowing sphere into the sky. The metal frame nudges the iron mooring, and the gate springs open with a merry ping.",
+    "The hatted bird ruffles its feathers in protest, dropping a brass key. The gondola eases into the misty roof stop, accordion gates peeling back."
+   ],
+   "ride_on": "You drift along high above the quiet streets. Leaving at the final line, you switch to a clattering bridge crawler heading straight for Gear Bridge."
+  },
+  {
+   "scene": "The rusty sky cage hums gently, surrounded by tools, gears, and sunset clouds.",
+   "options": [
+    "Spin heavy winch",
+    "Stir blue bucket",
+    "Nudge hatted pigeon"
+   ],
+   "beats": [
+    "Turning the spool speeds your climb through the vapor. The cage stops firmly alongside massive rain barrels as the grated doors slide open.",
+    "You dip a hand into the shimmering lather, popping gentle lights. The basket bumps its iron dock softly, and the cage gate unlatches with a chime.",
+    "Startled awake, the pigeon squeaks indignantly and drops a shiny brass key. The lift meets the rooftop station, and the accordion gate slides wide."
+   ],
+   "ride_on": "You stay aboard as towers slip by beneath your boots. At the end of the line, you catch a bridge crawler rumbling toward Gear Bridge's spinning cogs."
+  }
  ]
 }

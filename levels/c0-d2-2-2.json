@@ -16,5 +16,31 @@
   "a dangling glass cable car docked at an aerial pylon up high",
   "a sleek yellow street tram waiting with open doors on the left",
   "a blue passenger ferry moored at a wooden slipway on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "Streetlamps flicker on as dusk settles over the bustling waterfront transit hub.",
+   "options": [
+    "Climb to cablecar",
+    "Hop on tram",
+    "Step onto ferry"
+   ]
+  },
+  {
+   "scene": "The cool evening air carries the scent of bay water and warm electricity.",
+   "options": [
+    "Ride the cablecar",
+    "Enter yellow tram",
+    "Board blue ferry"
+   ]
+  },
+  {
+   "scene": "You hum {tune} while deciding which way leads to your destination.",
+   "options": [
+    "Ascend to cablecar",
+    "Catch the tram",
+    "Take the ferry"
+   ]
+  }
  ]
 }

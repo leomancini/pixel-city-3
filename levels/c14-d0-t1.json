@@ -34,5 +34,49 @@
    "then": "Step off at Rainmaker Rooftops",
    "next": "c14-d2"
   }
+ ],
+ "variants": [
+  {
+   "scene": "The warm cabin rattles softly along the tracks under the glow of amber lamps.",
+   "options": [
+    "Check overhead basket",
+    "Greet horn polisher",
+    "Twist pipe wheel"
+   ],
+   "beats": [
+    "A friendly clockwork cricket peeks from the trunk with a tiny chirp, right as the crawler halts and doors open at Gear Bridge.",
+    "You trade stories about the comet for a polished gear token, and she blasts a merry note as the doors slide open at Gear Bridge.",
+    "Warm cinnamon-scented vapor hisses from the valve in a cozy cloud, just as the crawler pulls into Gear Bridge and doors slide open."
+   ],
+   "ride_on": "You keep your seat as the car hums forward. At the final stop, an old window-cleaner gondola carries you upward into the misty cloud tanks of Rainmaker Rooftops."
+  },
+  {
+   "scene": "Rhythmic clicks tick beneath the floorboards as you hum {tune} to yourself.",
+   "options": [
+    "Examine purple trunk",
+    "Speak to conductor",
+    "Spin metal dial"
+   ],
+   "beats": [
+    "The lid quivers to reveal a metal cricket singing happily, just as your train brakes at Gear Bridge and the doors slide apart.",
+    "She gladly gives you a brass token for your rooftop rumor, sounding a bright brass whistle as the doors slide open at Gear Bridge.",
+    "A gentle puff of cinnamon steam billows into the air, right as the crawler glides up to Gear Bridge and the doors open."
+   ],
+   "ride_on": "Remaining aboard as the wheels rumble along, you reach the end of the line, where a creaking window-cleaner gondola lifts you straight up into Rainmaker Rooftops."
+  },
+  {
+   "scene": "Overhead handles sway in unison as evening commuters rest in the rumbling car.",
+   "options": [
+    "Search high luggage",
+    "Talk with polisher",
+    "Rotate pipe valve"
+   ],
+   "beats": [
+    "Inside, a mechanical cricket chimes out a lively tune, just as the crawler eases into Gear Bridge and the train doors glide open.",
+    "In exchange for news of the comet, she offers a shiny gear token and plays a friendly toot as the doors open at Gear Bridge.",
+    "Spicy cinnamon vapor whistles softly into the car, right as the crawler rolls into Gear Bridge and its doors slide wide open."
+   ],
+   "ride_on": "You ride past the stop, rocked by the train's steady sway. At the route's end, a squeaking window-cleaner gondola floats you into the swirling mist of Rainmaker Rooftops."
+  }
  ]
 }

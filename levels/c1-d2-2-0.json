@@ -16,5 +16,31 @@
   "A red rickshaw and smiling driver waiting on the far left path",
   "A striped water taxi moored at a wooden dock on the right",
   "A sleek monorail car idling at an elevated platform far right"
+ ],
+ "variants": [
+  {
+   "scene": "Salty night air rushes inside as heavy doors part toward the glowing sea.",
+   "options": [
+    "Take the rickshaw",
+    "Step onto boat",
+    "Hop on monorail"
+   ]
+  },
+  {
+   "scene": "Lanterns flicker across the water while you search onward for {quest}.",
+   "options": [
+    "Choose red rickshaw",
+    "Try water taxi",
+    "Board sleek monorail"
+   ]
+  },
+  {
+   "scene": "Three journeys open up between starry skies and gentle evening waves.",
+   "options": [
+    "Hire waiting rickshaw",
+    "Take canopy boat",
+    "Ride the monorail"
+   ]
+  }
  ]
 }

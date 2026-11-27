@@ -17,5 +17,31 @@
   "a brightly illuminated counter screen showing mysterious runes in the centre",
   "a humming neon torii gate glowing bright pink on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "A shiny golden capsule drops into the tray with a sparkling clatter.",
+   "options": [
+    "Take glowing sphere",
+    "Check rune screen",
+    "Roll beneath torii"
+   ]
+  },
+  {
+   "scene": "Your prize lands with a bright sparkle, humming along to {tune}.",
+   "options": [
+    "Pick up capsule",
+    "Inspect the counter",
+    "Glide under gate"
+   ]
+  },
+  {
+   "scene": "Golden sparkles light up your skates as the arcade machine delivers your prize.",
+   "options": [
+    "Collect the prize",
+    "Study the runes",
+    "Skate through torii"
+   ]
+  }
+ ]
 }

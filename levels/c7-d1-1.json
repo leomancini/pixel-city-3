@@ -17,5 +17,31 @@
   "an arched wooden door with bright yellow light spilling out on the left",
   "a wheeled cart covered by a large clear glass dome on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Clockwork gears whir to life, turning golden figures within the icy stone fountain.",
+   "options": [
+    "Grab brass ballerina",
+    "Step inside workshop",
+    "Climb glass cart"
+   ]
+  },
+  {
+   "scene": "Soft snow drifts down as the icy fountain begins to spin and chime.",
+   "options": [
+    "Reach for ballerina",
+    "Visit warm workshop",
+    "Hop into cart"
+   ]
+  },
+  {
+   "scene": "The fountain chimes a song, reminding you of {tune} on this crisp evening.",
+   "options": [
+    "Take golden dancer",
+    "Explore bright workshop",
+    "Ride domed cart"
+   ]
+  }
+ ]
 }

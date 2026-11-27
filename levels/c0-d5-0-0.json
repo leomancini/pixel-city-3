@@ -17,5 +17,31 @@
   "an orange cable car hanging open at a pylon platform up high",
   "a glowing turquoise subway stairwell descending underground on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Sparkling energy ripples across the wet grass, powering up routes around the misty harbour.",
+   "options": [
+    "Board the ferry",
+    "Catch cable car",
+    "Take the subway"
+   ]
+  },
+  {
+   "scene": "Bright blue magic zaps through the puddle, opening your path to find {quest}.",
+   "options": [
+    "Hop on boat",
+    "Climb to gondola",
+    "Walk down stairs"
+   ]
+  },
+  {
+   "scene": "Lightning hums in the puddle as city travel lines suddenly chime to life.",
+   "options": [
+    "Try the ferry",
+    "Board cable car",
+    "Head underground"
+   ]
+  }
+ ]
 }

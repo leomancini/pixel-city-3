@@ -17,5 +17,31 @@
   "a glowing red ferris wheel gondola waiting open at the platform edge right",
   "a brass book cart lift cage resting open on rails at the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Strings of fairy lights glow above you on the sky-high transit platform.",
+   "options": [
+    "Take city bus",
+    "Step inside gondola",
+    "Use vintage lift"
+   ]
+  },
+  {
+   "scene": "A warm evening breeze drifts past the skyline as you pause beside the rails.",
+   "options": [
+    "Climb on bus",
+    "Board red gondola",
+    "Enter brass elevator"
+   ]
+  },
+  {
+   "scene": "You check your bag for clues about {quest} along the high platform.",
+   "options": [
+    "Hop on bus",
+    "Pick ferris gondola",
+    "Try book lift"
+   ]
+  }
+ ]
 }

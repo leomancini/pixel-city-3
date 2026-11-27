@@ -16,5 +16,31 @@
   "a sleek suspended monorail car on an overhead rail, far left",
   "a glass-domed funicular carriage waiting on angled tracks, centre",
   "a two-wheeled brass rickshaw with a friendly toad driver, far right"
+ ],
+ "variants": [
+  {
+   "scene": "Paper lanterns glow softly as evening trains hum along the rooftop rails.",
+   "options": [
+    "Take the monorail",
+    "Enter the funicular",
+    "Choose the rickshaw"
+   ]
+  },
+  {
+   "scene": "High above town, you ponder your search for {quest} amidst the evening traffic.",
+   "options": [
+    "Board overhead train",
+    "Step inside funicular",
+    "Hail toad rickshaw"
+   ]
+  },
+  {
+   "scene": "A brisk twilight breeze sweeps across the busy wooden platforms up high.",
+   "options": [
+    "Ride the train",
+    "Catch the tram",
+    "Try the rickshaw"
+   ]
+  }
  ]
 }

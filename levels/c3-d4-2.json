@@ -17,5 +17,31 @@
   "a numbered gold dial mounted at centre among the brass gears",
   "a tightly tied parchment scroll tucked into a slot on the right"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "The heavy brass ring unlatches, exposing a humming nest of intricate clockwork.",
+   "options": [
+    "Flip red switch",
+    "Rotate center dial",
+    "Grab the scroll"
+   ]
+  },
+  {
+   "scene": "Polished cogs tick softly inside, framing an ornate dial and a rolled scroll.",
+   "options": [
+    "Push ruby peg",
+    "Spin gold face",
+    "Slide out parchment"
+   ]
+  },
+  {
+   "scene": "You hold the opened sphere as gears whir beside a secret parchment roll.",
+   "options": [
+    "Nudge top lever",
+    "Twist numbered ring",
+    "Take secret paper"
+   ]
+  }
+ ]
 }

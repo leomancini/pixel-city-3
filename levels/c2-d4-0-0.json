@@ -17,5 +17,31 @@
   "a glowing glass elevator with doors open in the centre",
   "a striped steam train puffing sweet smoke on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Three grand travel gates hum open beneath the giant starry glass dome.",
+   "options": [
+    "Climb in truck",
+    "Enter glowing elevator",
+    "Hop on train"
+   ]
+  },
+  {
+   "scene": "Whirring gears unlock three ways forward as you search for {quest}.",
+   "options": [
+    "Pick yellow truck",
+    "Choose glass elevator",
+    "Catch puffing train"
+   ]
+  },
+  {
+   "scene": "Soft steam and engine rumbles fill the platform from three waiting rides.",
+   "options": [
+    "Try delivery truck",
+    "Step inside elevator",
+    "Board steam train"
+   ]
+  }
+ ]
 }

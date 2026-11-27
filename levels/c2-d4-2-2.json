@@ -17,5 +17,31 @@
   "a striped peppermint-colored steam train parked on tracks on the right",
   "a yellow boxy robot-delivery truck waiting on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The cavernous station hums with energy under the great arched dome.",
+   "options": [
+    "Take glass lift",
+    "Climb on train",
+    "Hop inside van"
+   ]
+  },
+  {
+   "scene": "You check the computer screen while searching for {quest} in the grand hall.",
+   "options": [
+    "Try the elevator",
+    "Catch the train",
+    "Check yellow truck"
+   ]
+  },
+  {
+   "scene": "Puffs of sweet steam drift across the busy brick platform.",
+   "options": [
+    "Use cylindrical lift",
+    "Board striped locomotive",
+    "Explore cargo truck"
+   ]
+  }
+ ]
 }

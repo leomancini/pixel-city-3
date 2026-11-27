@@ -17,5 +17,31 @@
   "A fluffy orange cat naps beside a round table in the centre.",
   "A busy badger barista stands behind a polished counter on the right."
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Steam hisses as you arrive in the cozy, lamp-lit station with your puppy.",
+   "options": [
+    "Board steaming lift",
+    "Stroke sleeping cat",
+    "Visit badger cafe"
+   ]
+  },
+  {
+   "scene": "You arrive under glowing lanterns, still searching high and low for {quest}.",
+   "options": [
+    "Take bronze elevator",
+    "Tickle big cat",
+    "Buy warm tea"
+   ]
+  },
+  {
+   "scene": "Warm aromas of freshly brewed tea drift across the bustling platform.",
+   "options": [
+    "Ride glowing lift",
+    "Cuddle ginger cat",
+    "Ask badger barista"
+   ]
+  }
+ ]
 }

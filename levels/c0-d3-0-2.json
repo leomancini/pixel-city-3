@@ -17,5 +17,31 @@
   "a wooden dock with a docked teal ferry boat in the centre",
   "a yellow cable car cabin hanging from an overhead line on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The pier bustles with evening commuters as three different routes await your journey.",
+   "options": [
+    "Enter glowing station",
+    "Step onto boat",
+    "Hop inside tram"
+   ]
+  },
+  {
+   "scene": "Salty harbour air fills the breeze while you search for {quest}.",
+   "options": [
+    "Head downstairs underground",
+    "Walk down ramp",
+    "Climb into cabin"
+   ]
+  },
+  {
+   "scene": "Bright lamps flicker awake along the wooden dock and stone platforms.",
+   "options": [
+    "Use subway gates",
+    "Cross wooden gangplank",
+    "Catch yellow gondola"
+   ]
+  }
+ ]
 }

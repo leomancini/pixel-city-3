@@ -16,5 +16,31 @@
   "a striped water taxi moored at a canal dock on the left",
   "a sleek monorail car waiting at an elevated track up high",
   "a bright yellow cycle rickshaw parked by a signpost on the right"
+ ],
+ "variants": [
+  {
+   "scene": "Cool evening air greets you outside the observatory, offering three ways across the city.",
+   "options": [
+    "Ride water taxi",
+    "Catch the monorail",
+    "Try cycle rickshaw"
+   ]
+  },
+  {
+   "scene": "You pause by the railing, still humming {tune} while picking your next route.",
+   "options": [
+    "Board wooden boat",
+    "Climb to train",
+    "Choose yellow rickshaw"
+   ]
+  },
+  {
+   "scene": "City lights twinkle across the canal as different rides wait for their passengers.",
+   "options": [
+    "Hop on boat",
+    "Take high train",
+    "Ride the rickshaw"
+   ]
+  }
  ]
 }

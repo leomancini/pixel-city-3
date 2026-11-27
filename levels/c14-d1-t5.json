@@ -34,5 +34,49 @@
    "then": "Step off at Rainmaker Rooftops",
    "next": "c14-d2"
   }
+ ],
+ "variants": [
+  {
+   "scene": "The lantern sways gently as giant iron gears spin in the twilight.",
+   "options": [
+    "Twist brass dial",
+    "Stroke windup badger",
+    "Question the driver"
+   ],
+   "beats": [
+    "Jazzy accordion tunes burst through the hiss, making the driver tap along happily. You pull up outside Midnight Radio Repair just as the little sidecar door unlatches.",
+    "Smooth gears whirl inside the badger with a cozy hum, dropping a shiny mint. The motorcycle brakes beside warm storefront lights, and Midnight Radio Repair's garage door rattles open.",
+    "With a grin, the driver points toward spinning city spires above. The sidecar cruises smoothly into the cozy Midnight Radio Repair garage while its wide workshop doors swing open."
+   ],
+   "ride_on": "You speed past the garage and cruise through warm puddles toward the final stop. There, you board a creaky window-cleaner gondola that lifts you up to Rainmaker Rooftops."
+  },
+  {
+   "scene": "Suspension cables stretch into purple skies as the motor hums below your seat.",
+   "options": [
+    "Fiddle with radio",
+    "Pat copper creature",
+    "Check destination ahead"
+   ],
+   "beats": [
+    "Peppy accordion music cuts through the static, and the driver's feet start bouncing. The bike slows to a stop by Midnight Radio Repair, and your sidecar door unlatches.",
+    "The badger clicks like a friendly pocket watch and rolls out a polished mint. Tires crunch gently to a halt, and Midnight Radio Repair's garage door rattles wide open.",
+    "The driver nods forward, gesturing beyond the turning gears with one gloved hand. You coast straight into Midnight Radio Repair's brightly lit entry as the big workshop doors swing open."
+   ],
+   "ride_on": "Leaving the shop behind, the sidecar roars past glistening puddles to the terminus. You scramble into a window-cleaner gondola, riding high above to the whirring Rainmaker Rooftops."
+  },
+  {
+   "scene": "Cables and giant sprockets frame the dusk while you ponder {quest}.",
+   "options": [
+    "Adjust dashboard radio",
+    "Nudge toy badger",
+    "Consult motorcycle driver"
+   ],
+   "beats": [
+    "Upbeat accordion chords ring clear over the engine hum, setting the driver dancing. You brake beside Midnight Radio Repair's glowing windows as the cozy sidecar door unlatches.",
+    "A friendly mechanical purr vibrates through the badger's metal ribs, clicking out a brass mint. You glide to a halt as Midnight Radio Repair's garage door rattles open.",
+    "Laughing into the breeze, the driver points toward distant rotating towers. The bike idles neatly in Midnight Radio Repair's cluttered bay as the sturdy workshop doors swing wide open."
+   ],
+   "ride_on": "Waving goodbye, you zip onward through warm puddles until the route ends. You transfer into a swaying window-cleaner gondola that hoists you up toward the tanks of Rainmaker Rooftops."
+  }
  ]
 }

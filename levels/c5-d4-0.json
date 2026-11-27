@@ -17,5 +17,31 @@
   "an arched purple doorway into an inflatable fortress at the centre",
   "a giant yellow vinyl slide twisting downwards on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The friendly robot chimes with joy, offering you a glowing golden pass.",
+   "options": [
+    "Accept the pass",
+    "Explore bouncy castle",
+    "Try yellow slide"
+   ]
+  },
+  {
+   "scene": "You hear {tune} while the robot lifeguard rolls forward with a prize.",
+   "options": [
+    "Grab the pass",
+    "Step inside fortress",
+    "Slide down fast"
+   ]
+  },
+  {
+   "scene": "The robot's visor glows green as it gifts you a shiny token.",
+   "options": [
+    "Collect shiny pass",
+    "Enter bouncy fortress",
+    "Zoom down slide"
+   ]
+  }
+ ]
 }

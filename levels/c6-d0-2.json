@@ -17,5 +17,31 @@
   "the glowing glass viewfinder prism situated directly at centre top",
   "a silver spring-loaded shutter trigger protruding on the far right"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "Curious golden runes and ticking clockwork sleep inside this heavy brass treasure.",
+   "options": [
+    "Turn top dial",
+    "Check square prism",
+    "Click silver lever"
+   ]
+  },
+  {
+   "scene": "The open wooden case smells of ancient velvet, polished metal, and mystery.",
+   "options": [
+    "Rotate left knob",
+    "Inspect bright viewfinder",
+    "Pull curved lever"
+   ]
+  },
+  {
+   "scene": "Faint clockwork clicks softly inside, reminding you of {tune} from home.",
+   "options": [
+    "Adjust carved dial",
+    "Look through glass",
+    "Trigger metal arm"
+   ]
+  }
+ ]
 }

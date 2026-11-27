@@ -17,5 +17,31 @@
   "a steaming cedar bento stall with hanging banners on the right",
   "a brass clock with mechanical dancing figures ticking up high above"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Steam curls from the wooden food stall as you guide your bicycle along.",
+   "options": [
+    "Study toy train",
+    "Order hot lunch",
+    "Admire hanging clock"
+   ]
+  },
+  {
+   "scene": "You arrive under the glowing lanterns, still softly humming {tune} to yourself.",
+   "options": [
+    "View miniature railway",
+    "Purchase fresh bento",
+    "Observe mechanical clock"
+   ]
+  },
+  {
+   "scene": "Dusk settles outside the station while passengers gather near the warm bento shop.",
+   "options": [
+    "Check tiny railway",
+    "Get tasty bento",
+    "Look at clock"
+   ]
+  }
+ ]
 }

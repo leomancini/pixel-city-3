@@ -17,5 +17,31 @@
   "a red plastic dial positioned up high above the dryer drum",
   "a single glowing blue sock lying far left on the tiled floor"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Purple starlight spins silently behind the round glass of the big metal dryer.",
+   "options": [
+    "Unlatch the door",
+    "Twist red dial",
+    "Grab glowing sock"
+   ]
+  },
+  {
+   "scene": "Cosmic purple dust glimmers softly, making you hum {tune} in the quiet laundromat.",
+   "options": [
+    "Pull chrome handle",
+    "Adjust top knob",
+    "Scoop up sock"
+   ]
+  },
+  {
+   "scene": "A glowing vortex of bright purple stars slowly turns inside the warm drum.",
+   "options": [
+    "Open circular door",
+    "Rotate heat dial",
+    "Fetch bright sock"
+   ]
+  }
+ ]
 }

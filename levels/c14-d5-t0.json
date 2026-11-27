@@ -34,5 +34,49 @@
    "then": "Step off at Rainmaker Rooftops",
    "next": "c14-d2"
   }
+ ],
+ "variants": [
+  {
+   "scene": "City lights blink in the purple dusk as the steep tram rattles upward.",
+   "options": [
+    "Adjust console dial",
+    "Check wooden crate",
+    "Spin ceiling viewer"
+   ],
+   "beats": [
+    "A twist of the small knob fills the cabin with warm synth melodies just as the car reaches its stop and the glass doors whisper open.",
+    "Through the drilled airholes, you spot glowing green wings fluttering softly, right as the brakes hiss and the station doors open.",
+    "You tilt the overhead lens to catch a shimmering comet tail across the night sky, just as the arrival bell dings and the exit opens."
+   ],
+   "ride_on": "Riding past the platform into thick night mist, you watch a lonely moth drift outside before switching to an old window-washing gondola heading for Rainmaker Rooftops."
+  },
+  {
+   "scene": "Warm yellow lamps glow while the night sky glides past the slanted glass.",
+   "options": [
+    "Tweak radio knob",
+    "Examine bound crate",
+    "Aim high periscope"
+   ],
+   "beats": [
+    "Fiddling with the receiver unlocks a cascade of starry synth chords just as the car bumps to a halt and the doors part.",
+    "Peering into the slotted timber box reveals vibrant neon moths inside, right when the tram docks smoothly and the exit doors slide back.",
+    "Swiveling the rooftop scope gives you a clear view of a blazing comet overhead, right as the tram settles and the doors glide open."
+   ],
+   "ride_on": "You stay seated as clouds swallow the rails and a tiny moth flits past, transferring at the final stop to a creaky gondola bound for Rainmaker Rooftops."
+  },
+  {
+   "scene": "The funicular climbs steeply while you hum {tune} beneath the humming cabin lamps.",
+   "options": [
+    "Turn radio knob",
+    "Peek in crate",
+    "Twist ceiling scope"
+   ],
+   "beats": [
+    "You click the brass switch to summon breezy synth melodies from the speaker, just as the brakes catch and the glass doors slide open.",
+    "Looking between the wooden slats, bright green moths flutter in the shadows, right as the car clunks to a stop and the doors open.",
+    "Adjusting the high brass eyepiece shows a glittering comet streaking through the dark, right as the tram bell chimes and the doors slide wide."
+   ],
+   "ride_on": "Drifting on past the stop, a moth dances in the fog until the line ends, where a rattling gondola lifts you toward Rainmaker Rooftops."
+  }
  ]
 }

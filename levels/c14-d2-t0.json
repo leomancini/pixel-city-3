@@ -34,5 +34,49 @@
    "then": "Step off at Neon Sign Hospital",
    "next": "c14-d4"
   }
+ ],
+ "variants": [
+  {
+   "scene": "Warm lamplight hums inside the trolley as city rooftops drift below your window.",
+   "options": [
+    "Swap sweet snacks",
+    "Turn the crank",
+    "Study the chart"
+   ],
+   "beats": [
+    "A swap of treats earns you a crunchy bite just as bells ring and the doors glide open.",
+    "Delicate notes twinkle above your head, rousing tiny glowing bugs before the car slides open its welcoming doors.",
+    "Following the starry lines uncovers a secret skyward track, right before the funicular brakes and smoothly opens its doors."
+   ],
+   "ride_on": "Riding past the station, you roll through velvet night until a friendly tow truck meets you, hauling you onward into bustling Neon Sign Hospital."
+  },
+  {
+   "scene": "The quiet cabin sways gently, carrying you upward into the cool purple twilight.",
+   "options": [
+    "Share a snack",
+    "Wind the music",
+    "Inspect star map"
+   ],
+   "beats": [
+    "You trade a pocket candy for tart chips right as the bell rings and doors slide wide.",
+    "Sweet metal notes drift from above, waking warm sparks in the grate until the car stops and doors open.",
+    "Your finger maps out an unlisted platform, just as the cabin eases into place and slides its doors apart."
+   ],
+   "ride_on": "The car sails beyond the dock into cool shadow, where a cheerful tow truck takes you all the way to Neon Sign Hospital."
+  },
+  {
+   "scene": "You lean on the rail, whistling {tune} as dusk rolls across the skyline.",
+   "options": [
+    "Offer a treat",
+    "Play tiny tune",
+    "Check wall chart"
+   ],
+   "beats": [
+    "Trading a sugary drop for a crispy bite, you smile as the chime sounds and the doors roll open.",
+    "A silvery melody drifts from the tiny mechanism, stirring resting fireflies as the trolley docks and opens its doors.",
+    "Gazing at the connected dots shows a hidden rooftop turn, right as the car gently halts and its doors part."
+   ],
+   "ride_on": "Drifting beyond the landing into the quiet dark, you hitch a ride with a kindly tow truck bound for colorful Neon Sign Hospital."
+  }
  ]
 }

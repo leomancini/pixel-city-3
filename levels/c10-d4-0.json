@@ -17,5 +17,31 @@
   "a bright red covered toggle switch blinking rapidly in the centre",
   "a holographic route map glowing softly on the right"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "The retro cockpit hums quietly while neon city maps flicker into view.",
+   "options": [
+    "Twist brass key",
+    "Flip red switch",
+    "Check transit map"
+   ]
+  },
+  {
+   "scene": "You settle into the pilot seat as dials click and buzz with power.",
+   "options": [
+    "Crank the key",
+    "Toggle the switch",
+    "Study the screen"
+   ]
+  },
+  {
+   "scene": "A warm purple glow fills the pod while you hum {tune}.",
+   "options": [
+    "Turn the key",
+    "Push red switch",
+    "Examine the map"
+   ]
+  }
+ ]
 }

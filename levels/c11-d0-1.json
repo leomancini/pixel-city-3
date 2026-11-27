@@ -17,5 +17,31 @@
   "a sliding glass dance studio door standing closed on the right",
   "an illuminated synthesizer console set into the wall on the left"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The neon dancer matches your routine perfectly, tossing out a sparkling token.",
+   "options": [
+    "Grab spinning token",
+    "Open glass door",
+    "Check synthesizer board"
+   ]
+  },
+  {
+   "scene": "Humming {tune}, you hit the pose as a bright token appears.",
+   "options": [
+    "Snatch the token",
+    "Slide glass entrance",
+    "Examine mixing board"
+   ]
+  },
+  {
+   "scene": "Pleased onlookers watch the glowing hologram reward your dance with a shiny prize.",
+   "options": [
+    "Take floating token",
+    "Open studio entrance",
+    "Test glowing synthesizer"
+   ]
+  }
+ ]
 }

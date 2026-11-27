@@ -17,5 +17,31 @@
   "a blinking satellite dish on an adjustable metal tripod in the centre",
   "a brass coin-operated rooftop telescope mounted beside the railing on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Cool evening air greets you on the high rooftop under glowing radio masts.",
+   "options": [
+    "Open studio door",
+    "Adjust tripod dish",
+    "Peer through telescope"
+   ]
+  },
+  {
+   "scene": "A warm amber light hums above the metal door against the purple twilight.",
+   "options": [
+    "Visit on-air shed",
+    "Aim satellite dish",
+    "Use coin telescope"
+   ]
+  },
+  {
+   "scene": "High above the twinkling city streets, you hum {tune} beside the humming antennas.",
+   "options": [
+    "Check broadcast shed",
+    "Align receiver dish",
+    "Scan skyline view"
+   ]
+  }
+ ]
 }

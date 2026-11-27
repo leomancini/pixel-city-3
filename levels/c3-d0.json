@@ -17,5 +17,31 @@
   "an ornate carousel spinning slowly with vacant brass saddles at the centre",
   "a purple-striped canvas tent with a parted curtain door on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Strings of warm fairground bulbs glow across the lively evening carnival grounds.",
+   "options": [
+    "Consult fortune teller",
+    "Board painted carousel",
+    "Slip inside tent"
+   ]
+  },
+  {
+   "scene": "You arrive under the starry sky, still humming {tune} above the carnival chatter.",
+   "options": [
+    "Wake arcade machine",
+    "Climb carved horse",
+    "Visit curtained tent"
+   ]
+  },
+  {
+   "scene": "The festive fairgrounds bustle with visitors beneath the spinning, illuminated attractions.",
+   "options": [
+    "Try mechanical seer",
+    "Mount spinning steed",
+    "Part purple curtains"
+   ]
+  }
+ ]
 }

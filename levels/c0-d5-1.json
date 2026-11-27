@@ -17,5 +17,31 @@
   "a broad floating giant lilypad moored by a rope on the far left",
   "a passenger bus shaped like a giant snail waiting on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "A shiny brass key glimmers inside the stone frog's splashing mouth.",
+   "options": [
+    "Grab shiny key",
+    "Step onto lilypad",
+    "Board snail bus"
+   ]
+  },
+  {
+   "scene": "Cool fountain water sprays past a tiny glowing key in the frog.",
+   "options": [
+    "Take fountain key",
+    "Hop on lilypad",
+    "Catch snail bus"
+   ]
+  },
+  {
+   "scene": "The fountain splashes softly, reminding you of {tune} as a key shines.",
+   "options": [
+    "Pocket tiny key",
+    "Board floating lilypad",
+    "Ride snail bus"
+   ]
+  }
+ ]
 }

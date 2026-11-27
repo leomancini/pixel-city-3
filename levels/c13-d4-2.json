@@ -17,5 +17,31 @@
   "a tuxedo cat wearing a tiny headset on a swivel stool at centre",
   "a narrow metal ladder rising through an open ceiling hatch on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "A headset-wearing tuxedo cat sits purring among glowing dials and wooden walls.",
+   "options": [
+    "Nudge shiny lever",
+    "Say hello kitty",
+    "Scale the ladder"
+   ]
+  },
+  {
+   "scene": "Paper cranes glide overhead while a clever cat watches from a swivel chair.",
+   "options": [
+    "Tap glowing switch",
+    "Wave to cat",
+    "Head up ladder"
+   ]
+  },
+  {
+   "scene": "Whirring machinery hums softly, reminding you of {tune} as you step inside.",
+   "options": [
+    "Push colorful button",
+    "Pet the kitty",
+    "Use ceiling ladder"
+   ]
+  }
+ ]
 }

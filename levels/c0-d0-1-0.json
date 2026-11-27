@@ -16,5 +16,31 @@
   "a glowing subway entrance stairwell with open gate on the far left",
   "a painted red street tram idling at a platform on the right",
   "a glass-bottomed cable car dangling from an overhead wire up high"
+ ],
+ "variants": [
+  {
+   "scene": "The coin binoculars show three different ways to leave the harbor pier.",
+   "options": [
+    "Head down stairs",
+    "Hop on tram",
+    "Catch cable car"
+   ]
+  },
+  {
+   "scene": "You hum {tune} while deciding which route takes you into the city.",
+   "options": [
+    "Enter glowing subway",
+    "Climb into tram",
+    "Take high gondola"
+   ]
+  },
+  {
+   "scene": "Misty harbor air swirls around the busy transit stops by the waterfront.",
+   "options": [
+    "Descend subway stairs",
+    "Board the tram",
+    "Ride the gondola"
+   ]
+  }
  ]
 }

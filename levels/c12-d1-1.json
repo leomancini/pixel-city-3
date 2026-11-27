@@ -17,5 +17,31 @@
   "a doorway draped with blue noren curtains on the left",
   "a brass grate venting thick warm steam on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "A frosty bottle of sweet milk rests in your hand outside the bathhouse.",
+   "options": [
+    "Sip the milk",
+    "Step inside",
+    "Check warm steam"
+   ]
+  },
+  {
+   "scene": "You hold the chilled glass milk bottle, still thinking about {quest}.",
+   "options": [
+    "Taste the milk",
+    "Visit the bathhouse",
+    "Examine the vent"
+   ]
+  },
+  {
+   "scene": "Cool milk rattles in its bottle while steam puffs across the cobblestones.",
+   "options": [
+    "Enjoy the drink",
+    "Part the curtains",
+    "Watch the vapor"
+   ]
+  }
+ ]
 }

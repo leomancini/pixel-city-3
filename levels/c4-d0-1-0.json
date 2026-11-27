@@ -16,5 +16,31 @@
   "A golden spiral lift with open lattice gates on the far left.",
   "A red cable tram idling on a steep track in the centre.",
   "A green glass-roofed trolley waiting beside a ticket pole on the right."
+ ],
+ "variants": [
+  {
+   "scene": "A warm glow guides your search for {quest} across the busy platforms.",
+   "options": [
+    "Take golden lift",
+    "Climb red tram",
+    "Hop on trolley"
+   ]
+  },
+  {
+   "scene": "Electric cables hum in the twilight air above three tempting evening routes.",
+   "options": [
+    "Enter spiral lift",
+    "Board steep tram",
+    "Take green trolley"
+   ]
+  },
+  {
+   "scene": "A calm cat watches as three illuminated journeys await your choice.",
+   "options": [
+    "Use ornate lift",
+    "Ride red tram",
+    "Board glass trolley"
+   ]
+  }
  ]
 }

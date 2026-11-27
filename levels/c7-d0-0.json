@@ -17,5 +17,31 @@
   "a short maintenance ladder leaning against the tall pole on the left",
   "a wooden tea hut with its front door open on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Striped windsocks flutter overhead as a funny little dragon trots through the grass.",
+   "options": [
+    "Spin clock face",
+    "Scale the rungs",
+    "Visit warm cabin"
+   ]
+  },
+  {
+   "scene": "A bronze gauge clicks beside you while twilight blankets the mountain ridge.",
+   "options": [
+    "Rotate the dial",
+    "Climb tall ladder",
+    "Enter cozy hut"
+   ]
+  },
+  {
+   "scene": "A friendly girl watches while sweet smoke drifts from the wooden cabin chimney.",
+   "options": [
+    "Nudge clicking dial",
+    "Mount wooden steps",
+    "Approach lit doorway"
+   ]
+  }
+ ]
 }

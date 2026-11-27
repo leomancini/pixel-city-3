@@ -17,5 +17,31 @@
   "a tiny glowing origami boat floating in the centre",
   "a shiny bronze key resting on the pool bed on the right"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "A glowing cityscape glimmers upside down beneath the rain-kissed stone ring.",
+   "options": [
+    "Poke the ripple",
+    "Grab glowing boat",
+    "Reach for key"
+   ]
+  },
+  {
+   "scene": "Raindrops tap the cobblestones while {tune} drifts across the mirrored water.",
+   "options": [
+    "Tap swirling ripple",
+    "Fish out boat",
+    "Scoop bronze key"
+   ]
+  },
+  {
+   "scene": "Neon skyscrapers shimmer below the quiet surface of the deep street puddle.",
+   "options": [
+    "Prod spinning ripple",
+    "Snag paper boat",
+    "Take sunken key"
+   ]
+  }
+ ]
 }

@@ -16,5 +16,31 @@
   "A stacked bamboo steamer on the yellow cart at centre releasing blue steam",
   "A small carved mossy stone shrine with an oil lamp on the left",
   "A red wooden arched footbridge leading away on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "A friendly vendor lifts bamboo lids as blue steam curls into the mountain air.",
+   "options": [
+    "Order hot snack",
+    "Inspect stone shrine",
+    "Cross red bridge"
+   ]
+  },
+  {
+   "scene": "Warm steam swirls from the cart while you hum {tune} beside the cliffside.",
+   "options": [
+    "Taste warm dumplings",
+    "Examine mossy shrine",
+    "Walk across bridge"
+   ]
+  },
+  {
+   "scene": "Paper lanterns glow softly along the stone terrace by the cheerful dumpling cart.",
+   "options": [
+    "Try glowing food",
+    "Visit lantern shrine",
+    "Follow wooden bridge"
+   ]
+  }
  ]
 }

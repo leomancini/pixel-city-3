@@ -17,5 +17,31 @@
   "an open ledger glowing with cyan script on a mahogany pedestal centre",
   "a winding brass spiral staircase leading upwards on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "A grand entrance hall welcomes you with ticking gears and a softly glowing book.",
+   "options": [
+    "Inspect silver clock",
+    "Check luminous book",
+    "Ascend winding steps"
+   ]
+  },
+  {
+   "scene": "You stroll inside on your quest for {quest}, surrounded by rhythmic clockwork sounds.",
+   "options": [
+    "Examine tall clock",
+    "Study open tome",
+    "Take golden stairs"
+   ]
+  },
+  {
+   "scene": "Polished floors gleam under chandeliers as mysterious blue light shines from the podium.",
+   "options": [
+    "Touch ornate clock",
+    "Browse radiant ledger",
+    "Head upstairs now"
+   ]
+  }
+ ]
 }

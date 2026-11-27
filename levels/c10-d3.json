@@ -17,5 +17,31 @@
   "a smoking striped test rocket strapped to a wooden launch rack right",
   "an open bamboo doorway hung with shimmering red dragon tails far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Your skates clatter onto the rooftop walkway as lantern lights glow all around.",
+   "options": [
+    "Assist brass robot",
+    "Check striped rocket",
+    "Visit dragon shop"
+   ]
+  },
+  {
+   "scene": "Humming {tune}, you roll past glowing lanterns and bubbling workshop chimneys.",
+   "options": [
+    "Aid sulfur robot",
+    "Examine smoking rocket",
+    "Step inside shop"
+   ]
+  },
+  {
+   "scene": "You hop off your paper balloon into the bustling, sulfur-scented rooftop market.",
+   "options": [
+    "Help stack barrels",
+    "Study test rocket",
+    "Browse bamboo shop"
+   ]
+  }
+ ]
 }

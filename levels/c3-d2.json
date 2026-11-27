@@ -17,5 +17,31 @@
   "an unoccupied round wooden table with a lit candle in the centre",
   "a cheerful bartender polishing a tall glass behind a counter on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Brass horns ring out as you step from the bus into the underground club.",
+   "options": [
+    "Hear the music",
+    "Choose the table",
+    "Wave to bartender"
+   ]
+  },
+  {
+   "scene": "The warm basement echoes with jazzy tunes, but you are still searching for {quest}.",
+   "options": [
+    "Watch the players",
+    "Grab the seat",
+    "Visit the counter"
+   ]
+  },
+  {
+   "scene": "A glowing candle shines on an empty wooden table under the dim hanging lights.",
+   "options": [
+    "Listen up close",
+    "Sit by candle",
+    "Talk to barkeep"
+   ]
+  }
+ ]
 }

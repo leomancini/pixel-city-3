@@ -17,5 +17,31 @@
   "a wooden tasting counter with piping soup bowls on the right",
   "a brass four-armed wok robot flipping dough strands on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Steam curls across the floor as your skates roll into the factory.",
+   "options": [
+    "Check rail car",
+    "Sip hot broth",
+    "Wave to robot"
+   ]
+  },
+  {
+   "scene": "Delicious noodle steam fills the air as you look around for {quest}.",
+   "options": [
+    "Study the cart",
+    "Sample the soup",
+    "Hail the chef"
+   ]
+  },
+  {
+   "scene": "Lanterns glow over sizzling pans as you glide into the lively noodle factory.",
+   "options": [
+    "Examine tram car",
+    "Try warm broth",
+    "Approach automaton chef"
+   ]
+  }
+ ]
 }

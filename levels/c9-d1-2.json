@@ -17,5 +17,31 @@
   "a blinking synthesizer sound console with knobs, far left",
   "a wooden ladder leaning against a tiled pavilion roof, far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The glowing digital popstar hovers above an empty checkered dance mat.",
+   "options": [
+    "Skate onto mat",
+    "Adjust sound mixer",
+    "Head up ladder"
+   ]
+  },
+  {
+   "scene": "Violet spotlights flash as the virtual singer awaits a beat, humming {tune}.",
+   "options": [
+    "Roll onto floor",
+    "Flip console switches",
+    "Ascend wooden rungs"
+   ]
+  },
+  {
+   "scene": "On the wooden platform, the holographic performer strikes a cheerful pose.",
+   "options": [
+    "Try dance mat",
+    "Check audio dials",
+    "Scale roof ladder"
+   ]
+  }
+ ]
 }

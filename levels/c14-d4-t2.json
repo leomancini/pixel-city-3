@@ -34,5 +34,49 @@
    "then": "Step off at Comet Watch Rooftop",
    "next": "c14-d0"
   }
+ ],
+ "variants": [
+  {
+   "scene": "The clanking maintenance platform lifts into twilight among wet rooftop tanks.",
+   "options": [
+    "Turn the crank",
+    "Clear the glass",
+    "Stroke the crow"
+   ],
+   "beats": [
+    "You turn the sturdy gear handle, accelerating your rise until the lift aligns with a humming cloud condenser and the gate swings open.",
+    "You drag the squeegee across wet soap to spot sparkling rainbow sprinklers, right as the platform bumps to a stop and opens its door.",
+    "The crow chirps warmly and drops a brass rain-token into your hand while the carriage settles by giant wooden cisterns, unlatching its gate."
+   ],
+   "ride_on": "You stay aboard while cool vapor drifts past your ears, riding all the way to the end. Transferring to the night funicular, you glide up into bustling Comet Watch Rooftop."
+  },
+  {
+   "scene": "Cool lavender smog swirls around the open lift as you hum {tune}.",
+   "options": [
+    "Spin the winch",
+    "Scrape the foam",
+    "Greet the crow"
+   ],
+   "beats": [
+    "Muscling the bronze wheel round and round speeds your ascent, docking smoothly beside a humming cloud condenser as the latch clicks free.",
+    "A brisk swipe of the rubber blade exposes brilliant rainbow sprinklers just as the lift thuds into place and slides open.",
+    "You gently stroke glossy feathers; the bird gifts you a tiny brass rain-token as the gondola reaches giant wooden cisterns, releasing its gate."
+   ],
+   "ride_on": "Remaining on the lift, you let damp breezes swirl around your beanie. You catch the connecting night funicular at the depot, climbing smoothly into glowing Comet Watch Rooftop."
+  },
+  {
+   "scene": "Ropes creak gently as the steel scaffold floats past high brick chimneys.",
+   "options": [
+    "Wind the gear",
+    "Clean soapy pane",
+    "Tickle feathered pal"
+   ],
+   "beats": [
+    "Spinning the geared handle quickens your travel skyward, pulling up next to a humming cloud condenser where the entry gate clicks wide.",
+    "Wiping a clear circle through thick lather reveals joyful rainbow sprinklers just as the vessel docks safely and pushes its door open.",
+    "A quiet caw sounds as the goggled bird nudges a brass rain-token into your fingers, the car mooring by giant wooden cisterns with an open gate."
+   ],
+   "ride_on": "You breeze right past the landing into the quiet terminal. Hopping onto the rumbling night funicular, you coast upward to the sparkling chatter of Comet Watch Rooftop."
+  }
  ]
 }

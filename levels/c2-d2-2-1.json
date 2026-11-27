@@ -16,5 +16,31 @@
   "a tethered brass airship waiting with open hatch on the left",
   "a square orange delivery truck parked idling on the right",
   "a striped steam train puffing sweet vapour on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "You roll onto a busy platform alive with engines, neon, and evening echoes.",
+   "options": [
+    "Climb the airship",
+    "Hop in truck",
+    "Take the train"
+   ]
+  },
+  {
+   "scene": "You arrive at the harbor hub, still wondering where to find {quest}.",
+   "options": [
+    "Enter brass airship",
+    "Catch the truck",
+    "Ride steam train"
+   ]
+  },
+  {
+   "scene": "Puffing smokestacks and roaring motors fill the bustling transit yard with adventure.",
+   "options": [
+    "Try the airship",
+    "Board orange truck",
+    "Climb aboard train"
+   ]
+  }
  ]
 }

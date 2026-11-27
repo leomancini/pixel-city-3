@@ -17,5 +17,31 @@
   "a blue harbour ferry ticket counter lit up brightly at the centre",
   "a suspended red cable car cabin waiting at a platform on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Magic sparkles hum softly, opening three glowing departures across the rooftop laundromat.",
+   "options": [
+    "Board yellow tram",
+    "Step toward ferry",
+    "Enter red cabin"
+   ]
+  },
+  {
+   "scene": "Whirling purple starlight reveals three different rides across the purple evening sky.",
+   "options": [
+    "Catch the tram",
+    "Visit ferry portal",
+    "Hop into gondola"
+   ]
+  },
+  {
+   "scene": "Cosmic glitter lights up three journeys into your search for {quest}.",
+   "options": [
+    "Take city tram",
+    "Walk to ferry",
+    "Ride cable car"
+   ]
+  }
+ ]
 }

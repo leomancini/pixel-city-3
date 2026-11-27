@@ -16,5 +16,31 @@
   "a winding brass spiral lift cage on the left with open gate",
   "a red mountain cable tram in the centre waiting on elevated rails",
   "a sleek glass-roofed trolley on the right with doors wide open"
+ ],
+ "variants": [
+  {
+   "scene": "You arrive at the high terrace as glowing trams hum softly around you.",
+   "options": [
+    "Enter spiral elevator",
+    "Hop on cable-car",
+    "Step inside tramcar"
+   ]
+  },
+  {
+   "scene": "The vast rail station bustles above the city while twilight gathers outside.",
+   "options": [
+    "Take golden lift",
+    "Board red car",
+    "Try glass trolley"
+   ]
+  },
+  {
+   "scene": "Between busy platforms, you pause to hum {tune} into the cool dusk air.",
+   "options": [
+    "Climb spiral lift",
+    "Catch mountain tram",
+    "Enter glass car"
+   ]
+  }
  ]
 }

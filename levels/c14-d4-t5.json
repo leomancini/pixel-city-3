@@ -34,5 +34,49 @@
    "then": "Step off at Comet Watch Rooftop",
    "next": "c14-d0"
   }
+ ],
+ "variants": [
+  {
+   "scene": "Dusk wind rushes past as your sidecar rattles between shadow-filled brick walls.",
+   "options": [
+    "Twist glowing dials",
+    "Open wooden hatch",
+    "Nudge the driver"
+   ],
+   "beats": [
+    "Bright brass horns suddenly burst over the speakers as the sidecar screeches into Midnight Radio Repair and the bay doors glide open.",
+    "The small latch clicks open and you grab a spare glass tube just as the vehicle skids into Midnight Radio Repair and its garage doors roll wide.",
+    "You pat the pilot's padded coat; they throttle down as the roaring rig glides into Midnight Radio Repair and the entrance doors part."
+   ],
+   "ride_on": "Whizzing right past the radio garage, you snag a glowing scrap of paper, transfer to the night funicular, and ride the glass lift up until it docks beside Comet Watch Rooftop."
+  },
+  {
+   "scene": "Your brass telescope clinks softly against the metal frame on this bumpy cruise.",
+   "options": [
+    "Adjust dashboard radio",
+    "Inspect wooden compartment",
+    "Tap driver's arm"
+   ],
+   "beats": [
+    "Fiddling with the tuner brings lively swing music whistling into the air, right as the bike halts inside Midnight Radio Repair and its tall doors open.",
+    "Unlatching the small timber cubby, you stow away a warm glass bulb before the car halts at Midnight Radio Repair and the wide doors slide apart.",
+    "You give the goggled rider a quick signal, steering smoothly to a quiet stop inside Midnight Radio Repair just as the hangar doors rumble open wide."
+   ],
+   "ride_on": "Staying aboard, you race along the street, hop onto the glass midnight funicular, and soar upward through town to disembark cleanly at Comet Watch Rooftop."
+  },
+  {
+   "scene": "The motor hums a steady beat, matching {tune} tucked in your mind.",
+   "options": [
+    "Fiddle with radio",
+    "Unlatch wooden compartment",
+    "Wave to driver"
+   ],
+   "beats": [
+    "You spin the red tuner until sweet horn melodies ring out, just as your ride brakes sharply inside Midnight Radio Repair and the doors roll open.",
+    "You flip open the dashboard box and snatch a spare audio tube as the sidecar slides safely inside Midnight Radio Repair and the great doors open.",
+    "A light tap gets the rider's attention; the engine slows as you glide together right into Midnight Radio Repair and its heavy doors pull open."
+   ],
+   "ride_on": "Leaving the shop behind, you speed to the final stop, board the humming midnight funicular, and ascend toward the stars to step out onto Comet Watch Rooftop."
+  }
  ]
 }

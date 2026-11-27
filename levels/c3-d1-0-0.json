@@ -17,5 +17,31 @@
   "an indigo night bus idling at a shelter in the centre",
   "a yellow bicycle rickshaw parked waiting beside a lamppost on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The terrace buzzes with dusk travelers, and your head hums with {tune}.",
+   "options": [
+    "Take striped gondola",
+    "Catch purple bus",
+    "Hail yellow rickshaw"
+   ]
+  },
+  {
+   "scene": "Lanterns glow along the high terrace as twilight settles over the city.",
+   "options": [
+    "Board carnival gondola",
+    "Hop on bus",
+    "Take cycle rickshaw"
+   ]
+  },
+  {
+   "scene": "Warm lights shine from vehicles waiting along the breezy rooftop platform.",
+   "options": [
+    "Enter wheel gondola",
+    "Climb aboard bus",
+    "Try pedaled rickshaw"
+   ]
+  }
+ ]
 }

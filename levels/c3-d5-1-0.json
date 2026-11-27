@@ -17,5 +17,31 @@
   "an ornate spiral staircase lift cage with open gate left of centre",
   "a glowing ferris wheel gondola docked at the platform on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The sweet snack fuels your stroll beside the glowing twilight boardwalk.",
+   "options": [
+    "Take pedicab",
+    "Climb birdcage lift",
+    "Enter wheel car"
+   ]
+  },
+  {
+   "scene": "Munching the warm treat, you ponder {quest} under neon signs.",
+   "options": [
+    "Flag down rickshaw",
+    "Step inside lift",
+    "Hop into gondola"
+   ]
+  },
+  {
+   "scene": "Golden bakery scents drift as evening lights awaken along the platform.",
+   "options": [
+    "Catch the pedicab",
+    "Use spiral cage",
+    "Ride ferris car"
+   ]
+  }
+ ]
 }

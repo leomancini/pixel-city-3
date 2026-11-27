@@ -17,5 +17,31 @@
   "A notched glass pressure dial glowing orange in the rocket's centre",
   "A bubbling blue chemical phial clipped to the right side"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "The metal panel hums as glowing blue liquid bubbles beside the warm gauge.",
+   "options": [
+    "Rotate brass key",
+    "Adjust round dial",
+    "Detach glowing vial"
+   ]
+  },
+  {
+   "scene": "Tiny sparks glitter near the key while the glowing center dial ticks softly.",
+   "options": [
+    "Crank copper key",
+    "Nudge clockwork gauge",
+    "Release glass phial"
+   ]
+  },
+  {
+   "scene": "Your hands steady against the rocket as the strange blue tube gurgles.",
+   "options": [
+    "Switch iron key",
+    "Tap notched meter",
+    "Pry chemical vial"
+   ]
+  }
+ ]
 }

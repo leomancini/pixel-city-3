@@ -17,5 +17,31 @@
   "a tasseled bicycle rickshaw with waiting driver sitting left of centre",
   "a brass book cart lift with folding grate on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Carnival lights glow as three curious rides wait under the starry sky.",
+   "options": [
+    "Hop on bus",
+    "Ride the rickshaw",
+    "Step inside lift"
+   ]
+  },
+  {
+   "scene": "Fairground breezes drift past while you search the busy plaza for {quest}.",
+   "options": [
+    "Catch the bus",
+    "Hire the rickshaw",
+    "Check book lift"
+   ]
+  },
+  {
+   "scene": "Strings of warm bulbs flicker across the bustling boardwalk and carnival tents.",
+   "options": [
+    "Climb on bus",
+    "Choose bicycle rickshaw",
+    "Use wooden lift"
+   ]
+  }
+ ]
 }

@@ -17,5 +17,31 @@
   "the expectant white dog sitting attentively at the player's feet in centre",
   "a striped canvas gondola swaying beside a mooring post at the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "A secret brass key glints within the buttery layers of your warm croissant.",
+   "options": [
+    "Open baker bot",
+    "Feed tiny pup",
+    "Enter striped gondola"
+   ]
+  },
+  {
+   "scene": "You chew your pastry while the accordion plays {tune} under the purple dusk.",
+   "options": [
+    "Inspect chef robot",
+    "Treat little dog",
+    "Hop into gondola"
+   ]
+  },
+  {
+   "scene": "Biting the crust, you feel a tiny brass key nestled inside the pastry.",
+   "options": [
+    "Unlock pastry chef",
+    "Give pup crust",
+    "Climb in gondola"
+   ]
+  }
+ ]
 }

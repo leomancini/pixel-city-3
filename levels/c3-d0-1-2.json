@@ -17,5 +17,31 @@
   "A glowing blue night bus idling with its passenger doors open at centre",
   "A canopied bicycle rickshaw with a friendly driver waving on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Your white sneakers hit the deck beside the glowing bus and the waving driver.",
+   "options": [
+    "Enter book lift",
+    "Climb on bus",
+    "Take bicycle rickshaw"
+   ]
+  },
+  {
+   "scene": "Carnival lights glitter brightly as you search for clues about {quest}.",
+   "options": [
+    "Step inside lift",
+    "Hop on bus",
+    "Flag down rickshaw"
+   ]
+  },
+  {
+   "scene": "Music drifts from the midway while three quirky rides wait along the cobblestones.",
+   "options": [
+    "Try book lift",
+    "Catch blue bus",
+    "Wave to rickshaw"
+   ]
+  }
+ ]
 }

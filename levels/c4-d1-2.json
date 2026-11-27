@@ -16,5 +16,31 @@
   "a mechanical brass pigeon perched with a shiny key in its beak, right",
   "a tall carved wooden cabinet standing firmly shut, far left",
   "a spiralling iron staircase leading out of the arcade, far right"
+ ],
+ "variants": [
+  {
+   "scene": "A glowing mechanical pigeon perches nearby, offering a gleaming brass key.",
+   "options": [
+    "Take the key",
+    "Open wooden cabinet",
+    "Climb spiral stairs"
+   ]
+  },
+  {
+   "scene": "The clockwork pigeon holds out a shiny key beneath the hanging lanterns.",
+   "options": [
+    "Grab brass key",
+    "Inspect carved wardrobe",
+    "Head up stairs"
+   ]
+  },
+  {
+   "scene": "A golden mechanical bird perches with a key, ready for you.",
+   "options": [
+    "Reach for key",
+    "Unlock tall cabinet",
+    "Ascend iron staircase"
+   ]
+  }
  ]
 }

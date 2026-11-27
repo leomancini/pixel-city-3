@@ -17,5 +17,31 @@
   "a loose silver quill feather wedged beneath the bird's wing on the left",
   "an empty keyhole glowing faintly green beside the dial on the right"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "The mechanical bird swings open its hatch, showing humming cogs and a dial.",
+   "options": [
+    "Rotate the dial",
+    "Tug silver quill",
+    "Try copper key"
+   ]
+  },
+  {
+   "scene": "Inside the copper heron, intricate gears whir softly beneath an open door.",
+   "options": [
+    "Twist brass dial",
+    "Slide feather out",
+    "Use copper key"
+   ]
+  },
+  {
+   "scene": "You smell machine oil as the bronze heron opens its tiny chest door.",
+   "options": [
+    "Wind the dial",
+    "Pluck metal feather",
+    "Fit copper key"
+   ]
+  }
+ ]
 }

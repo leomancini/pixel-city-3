@@ -16,5 +16,31 @@
   "a dangling brass key held out by the yellow droid on the left",
   "a sloped rubber conveyor belt leading into a lit tunnel at the centre",
   "a shiny metal desk bell mounted on a rusted pole on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "The cheerful gold robot chimes happily and offers a shiny prize.",
+   "options": [
+    "Grab brass key",
+    "Ascend rubber ramp",
+    "Tap metal bell"
+   ]
+  },
+  {
+   "scene": "Holding the gear, you hum {tune} while the joyful droid squeaks.",
+   "options": [
+    "Accept dangling key",
+    "Roll up belt",
+    "Strike call bell"
+   ]
+  },
+  {
+   "scene": "Sparks crackle nearby as the happy little automaton shares a gleaming treasure.",
+   "options": [
+    "Take golden key",
+    "Ride conveyor belt",
+    "Ding overhead bell"
+   ]
+  }
  ]
 }

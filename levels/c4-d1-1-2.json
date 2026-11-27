@@ -16,5 +16,31 @@
   "a wooden canal barge moored at a stone pier on the far left",
   "an ornate brass cage lift with an open door at the centre",
   "a striped red mountain cable car waiting on tracks at the far right"
+ ],
+ "variants": [
+  {
+   "scene": "The terrace buzzes with travelers under a lovely twilight sky.",
+   "options": [
+    "Hop on boat",
+    "Enter golden elevator",
+    "Catch red tram"
+   ]
+  },
+  {
+   "scene": "You arrive high above the glass arcade, still searching for {quest}.",
+   "options": [
+    "Step aboard barge",
+    "Ride glowing lift",
+    "Climb into tram"
+   ]
+  },
+  {
+   "scene": "Cool evening air greets you on this bustling rooftop platform.",
+   "options": [
+    "Board wooden boat",
+    "Use domed elevator",
+    "Board the tram"
+   ]
+  }
  ]
 }

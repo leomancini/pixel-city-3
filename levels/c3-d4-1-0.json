@@ -17,5 +17,31 @@
   "A low electric milk float stacked with rattling bottles sitting at centre",
   "An open glowing ferris wheel gondola docked against the railing on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The scroll secured, you step into the purple twilight beside the giant wheel.",
+   "options": [
+    "Flag yellow rickshaw",
+    "Hop on truck",
+    "Board lit cabin"
+   ]
+  },
+  {
+   "scene": "Humming {tune}, you step onto the platform where dusk settles over Pixel City.",
+   "options": [
+    "Take pedicab ride",
+    "Climb milk float",
+    "Step inside gondola"
+   ]
+  },
+  {
+   "scene": "Glass milk bottles clink as you join the bustling crowd along the promenade.",
+   "options": [
+    "Catch the rickshaw",
+    "Ride bottle truck",
+    "Try big wheel"
+   ]
+  }
+ ]
 }

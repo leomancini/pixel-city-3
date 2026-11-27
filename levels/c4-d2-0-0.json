@@ -17,5 +17,31 @@
   "a glass-roofed trolley waiting empty at a rail platform, on the left",
   "a hanging mountain cable tram cabin parked on an aerial line, on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The terrace buzzes with travelers choosing between river, rails, or mountain cables.",
+   "options": [
+    "Board the barge",
+    "Ride glass tram",
+    "Take aerial car"
+   ]
+  },
+  {
+   "scene": "Holding the parchment map, you check each departure spot on the bustling deck.",
+   "options": [
+    "Hop on barge",
+    "Enter waiting tram",
+    "Board sky car"
+   ]
+  },
+  {
+   "scene": "Lanterns glow softly above the platform as you plan your search for {quest}.",
+   "options": [
+    "Choose canal boat",
+    "Board rail tram",
+    "Ride hanging cabin"
+   ]
+  }
+ ]
 }

@@ -17,5 +17,31 @@
   "a striped bicycle rickshaw with a bell parked on the far right",
   "an open brass book cart lift with lever up high on a post"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Your winged brass steed clatters onto the cobblestones beneath festive glowing carnival lights.",
+   "options": [
+    "Take blue bus",
+    "Hail pedal rickshaw",
+    "Climb cart lift"
+   ]
+  },
+  {
+   "scene": "You touch down on the street while humming {tune} above the bustling crowds.",
+   "options": [
+    "Catch night bus",
+    "Try bicycle rickshaw",
+    "Use high lift"
+   ]
+  },
+  {
+   "scene": "The gleaming mechanical pegasus lands smoothly between the trolley and a parked rickshaw.",
+   "options": [
+    "Enter glowing bus",
+    "Rent striped rickshaw",
+    "Operate cart lift"
+   ]
+  }
+ ]
 }

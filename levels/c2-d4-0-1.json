@@ -17,5 +17,31 @@
   "a bright brass steam train idling on centre tracks",
   "a striped airship moored to a gantry on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Gears turn under starry skies, revealing three magnificent rides awaiting your choice.",
+   "options": [
+    "Enter glass elevator",
+    "Climb aboard train",
+    "Mount moored airship"
+   ]
+  },
+  {
+   "scene": "A warm draft hums as you continue searching for {quest} tonight.",
+   "options": [
+    "Try glass elevator",
+    "Hop on train",
+    "Board waiting airship"
+   ]
+  },
+  {
+   "scene": "Puffs of steam rise beneath the giant starlit dome and turning cogs.",
+   "options": [
+    "Use glass lift",
+    "Catch steam train",
+    "Fly patterned airship"
+   ]
+  }
+ ]
 }

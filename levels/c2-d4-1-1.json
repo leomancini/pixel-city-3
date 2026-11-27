@@ -17,5 +17,31 @@
   "a moored striped airship with an open gangway up high",
   "a square yellow delivery truck parked idling at a loading bay far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "A grand transit hangar opens beneath the glowing stars of the dome.",
+   "options": [
+    "Take steam train",
+    "Climb to airship",
+    "Hop in truck"
+   ]
+  },
+  {
+   "scene": "Engines hum softly as you keep searching for {quest} across Pixel City.",
+   "options": [
+    "Catch the train",
+    "Enter the airship",
+    "Board yellow truck"
+   ]
+  },
+  {
+   "scene": "Pink engine smoke drifts upward beneath a giant skylight full of constellations.",
+   "options": [
+    "Ride the train",
+    "Visit the airship",
+    "Take delivery truck"
+   ]
+  }
+ ]
 }

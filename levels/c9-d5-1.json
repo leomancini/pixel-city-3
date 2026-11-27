@@ -17,5 +17,31 @@
   "a tall metal ladder on the far right leading up to storm clouds",
   "a heavy closed red tool chest resting on the far left"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "A whirring robot on wheels presents you with a neon schematic under stormy skies.",
+   "options": [
+    "Inspect the blueprint",
+    "Ascend tall ladder",
+    "Check red chest"
+   ]
+  },
+  {
+   "scene": "The polite tin inventor chimes cheerfully, floating a glowing plan right before you.",
+   "options": [
+    "Take blue blueprint",
+    "Climb the ladder",
+    "Unlatch tool chest"
+   ]
+  },
+  {
+   "scene": "Sparks crackle as the mechanical scientist shares a bright diagram on the breezy rooftop.",
+   "options": [
+    "Study neon plans",
+    "Scale roof ladder",
+    "Open the chest"
+   ]
+  }
+ ]
 }

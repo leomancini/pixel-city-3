@@ -17,5 +17,31 @@
   "a mechanical glowing pink flamingo standing idle at centre",
   "a large hover delivery drone idling on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Night air cools your face as string lights glow across the grass roof.",
+   "options": [
+    "Pick glowing fruit",
+    "Offer flamingo food",
+    "Hop inside drone"
+   ]
+  },
+  {
+   "scene": "You step onto quiet rooftop turf humming {tune} through your big headphones.",
+   "options": [
+    "Sample luminous berry",
+    "Snack with flamingo",
+    "Board hover drone"
+   ]
+  },
+  {
+   "scene": "Warm fairy lights hang over potted plants and a quiet landing pad.",
+   "options": [
+    "Eat blue bush-fruit",
+    "Greet glowing bird",
+    "Climb on drone"
+   ]
+  }
+ ]
 }

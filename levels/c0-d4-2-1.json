@@ -17,5 +17,31 @@
   "a suspended metal gondola door waiting wide open up high",
   "a lit tiled staircase leading down to tracks on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The machine hums, revealing three hidden routes out of the laundromat.",
+   "options": [
+    "Take harbour ferry",
+    "Climb into gondola",
+    "Head downstairs"
+   ]
+  },
+  {
+   "scene": "Humming {tune}, you notice three secret ways to travel just unlocked.",
+   "options": [
+    "Step toward boat",
+    "Enter cable car",
+    "Descend to subway"
+   ]
+  },
+  {
+   "scene": "Fresh paths appear across the water, above the roof, and underground.",
+   "options": [
+    "Go outside ferryward",
+    "Scale the ladder",
+    "Walk down stairs"
+   ]
+  }
+ ]
 }

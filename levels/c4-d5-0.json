@@ -17,5 +17,31 @@
   "a sparkling cyan water note bobbing inside a glass funnel in the centre",
   "three large wooden pedal keys lined along the base on the right"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "Bright musical symbols bubble up through water chambers behind the stone fountain.",
+   "options": [
+    "Spin tarnished wheel",
+    "Tap glass bulb",
+    "Press wooden pedal"
+   ]
+  },
+  {
+   "scene": "The bubbling pipes remind you of {tune} as water sparkles softly.",
+   "options": [
+    "Rotate pipe valve",
+    "Reach toward note",
+    "Push organ key"
+   ]
+  },
+  {
+   "scene": "Water glides through twisting copper tubes while glowing notes swirl gently inside.",
+   "options": [
+    "Twist metal wheel",
+    "Touch glowing orb",
+    "Strike low pedal"
+   ]
+  }
+ ]
 }

@@ -17,5 +17,31 @@
   "a bulging leather belt hung with brass clippers on the gardener at right",
   "an ornate wooden gazebo with an open doorway on the far left"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The friendly gardener glides up and offers you sparkling, glowing roller skates.",
+   "options": [
+    "Take neon skates",
+    "Check tool belt",
+    "Step inside gazebo"
+   ]
+  },
+  {
+   "scene": "Glowing roller skates shine bright in the friendly gardener's outstretched hands.",
+   "options": [
+    "Try on skates",
+    "Eye tool belt",
+    "Visit warm gazebo"
+   ]
+  },
+  {
+   "scene": "He rolls over with bright, shimmering skates under the glass conservatory roof.",
+   "options": [
+    "Wear glowing skates",
+    "View garden clippers",
+    "Walk into gazebo"
+   ]
+  }
+ ]
 }

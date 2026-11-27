@@ -17,5 +17,31 @@
   "a cheerful chef robot stirs a steaming ramen pot on the right",
   "a brilliant neon red torii gate glows brightly on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Your skates click onto the tiled platform under buzzing purple lights.",
+   "options": [
+    "Play capsule machine",
+    "Eat hot ramen",
+    "Enter glowing arch"
+   ]
+  },
+  {
+   "scene": "You arrive at the busy station, still searching for {quest}.",
+   "options": [
+    "Try toy machine",
+    "Visit noodle stand",
+    "Roll beneath torii"
+   ]
+  },
+  {
+   "scene": "Delicious broth smells drift past as gamers flock to the flashing gates.",
+   "options": [
+    "Win prize ball",
+    "Buy steaming soup",
+    "Glide past lanterns"
+   ]
+  }
+ ]
 }

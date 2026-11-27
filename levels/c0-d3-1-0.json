@@ -16,5 +16,31 @@
   "a glass cable car dangling open from a steel cable up high",
   "an open subway staircase with glowing neon signs on the left",
   "a small wooden harbour ferry idling at a pier far right"
+ ],
+ "variants": [
+  {
+   "scene": "Your sparky cog hums as the evening waterfront bustles with travellers.",
+   "options": [
+    "Take cable car",
+    "Enter subway station",
+    "Hop on ferry"
+   ]
+  },
+  {
+   "scene": "Holding the bright cog, you listen to the river lapping against the stone pier.",
+   "options": [
+    "Board sky tram",
+    "Head downstairs",
+    "Board little boat"
+   ]
+  },
+  {
+   "scene": "Cool salt air swirls around your raincoat as you keep searching for {quest}.",
+   "options": [
+    "Climb to tram",
+    "Take the subway",
+    "Catch the boat"
+   ]
+  }
  ]
 }

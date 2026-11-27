@@ -17,5 +17,31 @@
   "a row of pulsing turquoise toggle switches directly in the centre",
   "a large numbered copper rotary dial sitting on the far right"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "A warm pink coil glows brightly as you lean over the brass control panel.",
+   "options": [
+    "Twist gold valve",
+    "Flip teal switch",
+    "Rotate big dial"
+   ]
+  },
+  {
+   "scene": "Soft electrical hums tickle the air while you study the strange mechanical gadgets.",
+   "options": [
+    "Crank coiled valve",
+    "Tap cyan toggle",
+    "Spin copper knob"
+   ]
+  },
+  {
+   "scene": "You rest your hands on the warm metal desk, humming {tune}.",
+   "options": [
+    "Turn top valve",
+    "Click lighted switch",
+    "Adjust large dial"
+   ]
+  }
+ ]
 }

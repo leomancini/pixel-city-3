@@ -17,5 +17,31 @@
   "a glossy neon postcard on the left side of the mat",
   "a bubbling purple juice carton on the right side of the mat"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "Three strange treasures rest on the blue checkered blanket before you.",
+   "options": [
+    "Unlock bento box",
+    "Examine neon postcard",
+    "Grab purple juice"
+   ]
+  },
+  {
+   "scene": "A glowing postcard makes you think of sending news to {friend}.",
+   "options": [
+    "Unlatch vibrating lunchbox",
+    "Check the postcard",
+    "Pick up drink"
+   ]
+  },
+  {
+   "scene": "The yellow box hums softly beside a starry postcard and juice.",
+   "options": [
+    "Open yellow box",
+    "Study the card",
+    "Sip fruity juice"
+   ]
+  }
+ ]
 }

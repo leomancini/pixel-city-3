@@ -17,5 +17,31 @@
   "a bobbing blue harbour ferry moored to the wooden dock at centre right",
   "an orange cable car hanging open at its boarding tower on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Your pad bumps the pier where three cozy rides wait in the rain.",
+   "options": [
+    "Take purple bus",
+    "Hop on ferry",
+    "Enter cable car"
+   ]
+  },
+  {
+   "scene": "Gentle waves lap the docks as you wonder where to seek {quest}.",
+   "options": [
+    "Catch the bus",
+    "Board blue boat",
+    "Climb into tram"
+   ]
+  },
+  {
+   "scene": "Rain patters on your umbrella beside the busy evening transit hub.",
+   "options": [
+    "Ride the bus",
+    "Step onto boat",
+    "Try cable car"
+   ]
+  }
+ ]
 }

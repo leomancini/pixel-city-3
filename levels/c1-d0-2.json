@@ -16,5 +16,31 @@
   "a glowing turquoise vending machine dispensing mystery eggs on the far left",
   "a silver mechanical cat sitting politely on a wooden crate centre",
   "a narrow wooden doorway under a lantern on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "Warm paper lanterns glow above the lively alley as twilight settles in.",
+   "options": [
+    "Check vending machine",
+    "Greet robotic cat",
+    "Visit antique shop"
+   ]
+  },
+  {
+   "scene": "Humming {tune}, you wander past cozy shops into the evening crowd.",
+   "options": [
+    "Examine egg machine",
+    "Stroke robot cat",
+    "Browse antique shop"
+   ]
+  },
+  {
+   "scene": "The brick street bustles with shoppers under the soft purple dusk.",
+   "options": [
+    "Study vending machine",
+    "Pat mechanical cat",
+    "Step inside antique"
+   ]
+  }
  ]
 }

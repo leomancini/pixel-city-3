@@ -17,5 +17,31 @@
   "a mechanical open-sided book cart lift resting in the centre",
   "a waiting midnight bus with open folding doors on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Fresh papers scent the air while glowing rides invite you forward.",
+   "options": [
+    "Enter glowing gondola",
+    "Climb book lift",
+    "Hop on bus"
+   ]
+  },
+  {
+   "scene": "Humming {tune}, you study three strange ways across the midnight town.",
+   "options": [
+    "Try ferris cart",
+    "Step inside lift",
+    "Board blue bus"
+   ]
+  },
+  {
+   "scene": "Bright comic covers glow as three unusual routes await your choice.",
+   "options": [
+    "Pick neon gondola",
+    "Use library elevator",
+    "Catch night coach"
+   ]
+  }
+ ]
 }

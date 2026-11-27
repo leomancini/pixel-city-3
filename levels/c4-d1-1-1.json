@@ -16,5 +16,31 @@
   "a red mountain cable tram docked with open doors at far left",
   "a wooden river barge floating beside the low platform at centre",
   "an ornate brass spiral lift cage with open gate at far right"
+ ],
+ "variants": [
+  {
+   "scene": "Cool canal water laps against the stone platforms beneath the bustling arcade arches.",
+   "options": [
+    "Enter red tram",
+    "Hop on barge",
+    "Climb spiral stairs"
+   ]
+  },
+  {
+   "scene": "Warm lantern light glows over quiet underground waterways as you ponder {quest}.",
+   "options": [
+    "Board the tram",
+    "Step onto boat",
+    "Use brass stairs"
+   ]
+  },
+  {
+   "scene": "Sleek tracks and gentle ripples invite you to continue through the subterranean station.",
+   "options": [
+    "Catch red tram",
+    "Take wooden boat",
+    "Ascend spiral stairs"
+   ]
+  }
  ]
 }

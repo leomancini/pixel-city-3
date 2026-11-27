@@ -16,5 +16,31 @@
   "A shiny brass key lying on the blue floor tile on the left",
   "A red mechanical wheel valve fixed to a pipe in the centre",
   "A dark tiled archway flooded with ankle-deep water at the far right"
+ ],
+ "variants": [
+  {
+   "scene": "The sleepy octopus blinks, dropping a shiny brass key onto the wet floor.",
+   "options": [
+    "Grab the key",
+    "Spin the valve",
+    "Explore dark tunnel"
+   ]
+  },
+  {
+   "scene": "Water bubbles softly around you as a brass key clatters against the tiles.",
+   "options": [
+    "Pick up key",
+    "Rotate the valve",
+    "Head inside tunnel"
+   ]
+  },
+  {
+   "scene": "Humming {tune}, you watch the brass key glint in the blue aquarium light.",
+   "options": [
+    "Collect the key",
+    "Turn pipe wheel",
+    "Roll into tunnel"
+   ]
+  }
  ]
 }

@@ -17,5 +17,31 @@
   "a mechanical brass book cart lift with open cage on the right",
   "an idling purple night bus with doors open on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Festive lights glow above carnival rides, where three unusual rides await by the platform.",
+   "options": [
+    "Take bicycle rickshaw",
+    "Enter cage lift",
+    "Board purple bus"
+   ]
+  },
+  {
+   "scene": "Whirling carousel music plays while you consider how to keep searching for {quest}.",
+   "options": [
+    "Ride yellow pedicab",
+    "Step inside lift",
+    "Hop on bus"
+   ]
+  },
+  {
+   "scene": "Between the bright carousel and the roller coaster, three different journeys call to you.",
+   "options": [
+    "Choose canopied rickshaw",
+    "Use brass lift",
+    "Take night bus"
+   ]
+  }
+ ]
 }

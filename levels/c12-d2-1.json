@@ -17,5 +17,31 @@
   "a gleaming brass escalator rising towards city streets on the far right",
   "a curled, striped badger napping atop an iron crate on the left"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The warm, leaf-wrapped bundle smells delicious as steam gently curls into the air.",
+   "options": [
+    "Open lunch box",
+    "Ride escalator up",
+    "Stroke curled badger"
+   ]
+  },
+  {
+   "scene": "Holding your warm lunch parcel, you hum {tune} to yourself on the platform.",
+   "options": [
+    "Unwrap warm bento",
+    "Take glowing escalator",
+    "Tickle snoozing badger"
+   ]
+  },
+  {
+   "scene": "A warm leafy lunch rests safely in your hands beside your flower-filled bicycle.",
+   "options": [
+    "Peel back leaf",
+    "Ascend moving stairs",
+    "Pat sleeping badger"
+   ]
+  }
+ ]
 }

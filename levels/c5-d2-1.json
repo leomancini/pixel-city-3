@@ -17,5 +17,31 @@
   "a wooden message board tacked with colourful paper notes on the left",
   "a curving brass parcel chute open and gleaming on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Cooing pigeons flutter everywhere inside this cosy, lantern-lit treetop postal hub.",
+   "options": [
+    "Offer red berries",
+    "Check notice board",
+    "Ride brass slide"
+   ]
+  },
+  {
+   "scene": "Soft feathers drift down as lanterns glow inside the bustling treetop pigeon station.",
+   "options": [
+    "Pet perched bird",
+    "Inspect posted notes",
+    "Jump into chute"
+   ]
+  },
+  {
+   "scene": "You arrive among fluttering messenger birds, still wondering where to find {quest}.",
+   "options": [
+    "Toss pigeon food",
+    "Read pinned memos",
+    "Hop into slide"
+   ]
+  }
+ ]
 }

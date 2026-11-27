@@ -16,5 +16,31 @@
   "A red cable car hanging up high on a thick steel line",
   "An open glowing stairwell leading down to subway platforms on far left",
   "A yellow street tram waiting with open doors on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "The friendly robot conductor waves goodbye as you step onto the bustling platform.",
+   "options": [
+    "Catch overhead car",
+    "Head downstairs",
+    "Hop on trolley"
+   ]
+  },
+  {
+   "scene": "Salty ocean air sweeps across the harbor platform under the dusky purple sky.",
+   "options": [
+    "Ride sky car",
+    "Take the subway",
+    "Board the tram"
+   ]
+  },
+  {
+   "scene": "You pause on the stone platform, humming {tune} above the humming machinery.",
+   "options": [
+    "Enter cable car",
+    "Descend underground",
+    "Climb aboard tram"
+   ]
+  }
  ]
 }

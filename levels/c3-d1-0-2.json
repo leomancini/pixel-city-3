@@ -17,5 +17,31 @@
   "a swinging glowing ferris wheel gondola docked at the centre railing",
   "a glowing blue double-decker night bus idling on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "You step onto a busy elevated stone walkway lined with unusual evening rides.",
+   "options": [
+    "Ride pedal cab",
+    "Enter hanging car",
+    "Hop on bus"
+   ]
+  },
+  {
+   "scene": "Under the starry sky, you wonder if {quest} waits down the road.",
+   "options": [
+    "Hire wheeled rickshaw",
+    "Step inside gondola",
+    "Board blue bus"
+   ]
+  },
+  {
+   "scene": "Cool night air greets you atop this bustling bridge of curious city transports.",
+   "options": [
+    "Take cycle carriage",
+    "Climb in carriage",
+    "Ride double-decker"
+   ]
+  }
+ ]
 }

@@ -17,5 +17,31 @@
   "An open red pavilion doorway hung with beaded curtains at the centre",
   "A neat row of clipped tea bushes sprouting fresh tips on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Warm steam drifts from a kettle across the terraced hillside at sunset.",
+   "options": [
+    "Check copper kettle",
+    "Visit tea pavilion",
+    "Gather fresh leaves"
+   ]
+  },
+  {
+   "scene": "Lanterns glow softly around the pavilion as you search for {quest}.",
+   "options": [
+    "Touch warm kettle",
+    "Step inside pavilion",
+    "Harvest tea leaves"
+   ]
+  },
+  {
+   "scene": "Evening air smells sweet above the stone patio and lush green bushes.",
+   "options": [
+    "Examine steaming kettle",
+    "Approach the pavilion",
+    "Pluck tea tips"
+   ]
+  }
+ ]
 }

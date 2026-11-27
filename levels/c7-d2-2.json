@@ -17,5 +17,31 @@
   "A whirring brass machine with glowing dials right of centre.",
   "A heavy wooden trapdoor with iron ring on the far right."
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "A warm lantern glows beside clanking pipes inside the round stone tower.",
+   "options": [
+    "Ascend winding steps",
+    "Check brass generator",
+    "Lift floor hatch"
+   ]
+  },
+  {
+   "scene": "Pipes rattle and dials glow blue in the cool stone lighthouse chamber.",
+   "options": [
+    "Head up stairs",
+    "Study clicking engine",
+    "Pull trapdoor ring"
+   ]
+  },
+  {
+   "scene": "The lighthouse hums with gears while you search around for {quest}.",
+   "options": [
+    "Follow iron steps",
+    "Examine glowing apparatus",
+    "Unlatch cellar door"
+   ]
+  }
+ ]
 }

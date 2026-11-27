@@ -17,5 +17,31 @@
   "a yellow bicycle rickshaw with an idling driver in the centre",
   "a swinging red ferris wheel gondola docked at the far right platform"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Your golden scroll lights up this high rooftop bridge over the sleepy city.",
+   "options": [
+    "Hop on bus",
+    "Take pedicab ride",
+    "Climb into gondola"
+   ]
+  },
+  {
+   "scene": "As you hum {tune}, your bright parchment displays three ways onward.",
+   "options": [
+    "Ride blue bus",
+    "Hurry to rickshaw",
+    "Step inside gondola"
+   ]
+  },
+  {
+   "scene": "Lanterns glow soft orange across the breezy rooftop as your paper shines.",
+   "options": [
+    "Catch the bus",
+    "Choose bicycle rickshaw",
+    "Board ferris car"
+   ]
+  }
+ ]
 }

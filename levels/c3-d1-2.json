@@ -17,5 +17,31 @@
   "a tiny geared dial spinning gently in the centre of the drawer",
   "a glowing magnifying lens set into the right edge of the drawer"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "The wooden drawer glides out, uncovering polished brass cogs and a glowing green lens.",
+   "options": [
+    "Grab brass card",
+    "Twist center dial",
+    "Inspect glowing lens"
+   ]
+  },
+  {
+   "scene": "Intricate gears tick softly beside a perforated metal plate and a bright glass dome.",
+   "options": [
+    "Lift punched plate",
+    "Rotate the dial",
+    "Peer through glass"
+   ]
+  },
+  {
+   "scene": "You pull the handle, humming {tune} as tiny brass mechanisms click into view.",
+   "options": [
+    "Take perforated card",
+    "Spin central dial",
+    "View illuminated lens"
+   ]
+  }
+ ]
 }

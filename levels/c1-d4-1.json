@@ -17,5 +17,31 @@
   "A brass dual chess timer ticking softly in the centre",
   "A heavy marble rook perched quietly on the right"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "A golden mechanical hand hovers over the board under soft glowing lantern light.",
+   "options": [
+    "Push white pawn",
+    "Check brass clock",
+    "Move dark rook"
+   ]
+  },
+  {
+   "scene": "Your wooden cane rests nearby while the dual timer ticks down your turn.",
+   "options": [
+    "Nudge the pawn",
+    "Study the timer",
+    "Shift the rook"
+   ]
+  },
+  {
+   "scene": "A brass hand points forward while you hum {tune} to yourself.",
+   "options": [
+    "Play the pawn",
+    "Watch the clock",
+    "Take the rook"
+   ]
+  }
+ ]
 }

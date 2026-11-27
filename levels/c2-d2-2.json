@@ -16,5 +16,31 @@
   "a glowing blue kelp wafer resting in the yellow dispenser tray on the left",
   "a water-filled glass archway leading into darkness on the far right",
   "a glass elevator with closed glowing doors waiting on the far left"
+ ],
+ "variants": [
+  {
+   "scene": "A bright snack rolls into the yellow machine's tray with a cheerful clatter.",
+   "options": [
+    "Grab glowing snack",
+    "Roll under archway",
+    "Push elevator button"
+   ]
+  },
+  {
+   "scene": "The machine hums and drops a shiny blue treat beside the drifting jellyfish.",
+   "options": [
+    "Collect the wafer",
+    "Head through arch",
+    "Summon glass lift"
+   ]
+  },
+  {
+   "scene": "You hear {tune} while the dispenser clinks, offering a luminous prize.",
+   "options": [
+    "Pick up wafer",
+    "Explore dark tunnel",
+    "Press elevator switch"
+   ]
+  }
  ]
 }

@@ -17,5 +17,31 @@
   "a striped airship gondola moored up high above the centre factory floor",
   "a yellow boxy delivery truck idling with its ramp down on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The brass bell rings loudly as sweet pink taffy bubbles in the pipes.",
+   "options": [
+    "Ride the lift",
+    "Climb to airship",
+    "Board yellow truck"
+   ]
+  },
+  {
+   "scene": "Gears turn and warm sugary steam rises into the bustling factory floor.",
+   "options": [
+    "Try glowing elevator",
+    "Reach the blimp",
+    "Roll into truck"
+   ]
+  },
+  {
+   "scene": "Workers pause by the conveyor belt while you look around for {quest}.",
+   "options": [
+    "Enter glass tube",
+    "Mount sky ship",
+    "Use cargo ramp"
+   ]
+  }
+ ]
 }

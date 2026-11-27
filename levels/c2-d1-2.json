@@ -16,5 +16,31 @@
   "A shining brass wrench with blinking digital eyes sitting atop the green bin, centre.",
   "A tall open neon archway glowing pink on the far right.",
   "An antique rusted radio with a flashing red light on the far left."
+ ],
+ "variants": [
+  {
+   "scene": "A golden wrench with friendly eyes winks at you from the parts bin.",
+   "options": [
+    "Grab brass wrench",
+    "Enter neon arch",
+    "Check old radio"
+   ]
+  },
+  {
+   "scene": "Whistling {tune}, you spot a cheerful brass wrench perched on the gears.",
+   "options": [
+    "Pick up wrench",
+    "Head through archway",
+    "Inspect blinking radio"
+   ]
+  },
+  {
+   "scene": "A brass wrench sits atop the junk bin, blinking its tiny blue eyes.",
+   "options": [
+    "Take golden wrench",
+    "Roll into doorway",
+    "Tune rusty radio"
+   ]
+  }
  ]
 }

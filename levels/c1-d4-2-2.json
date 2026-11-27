@@ -17,5 +17,31 @@
   "a hand-cranked rail trolley on narrow tracks at the centre",
   "a low wooden water taxi tied to an open canal gate right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Dusk settles over the rooftop terrace as quiet canal waters gently ripple below.",
+   "options": [
+    "Climb into rickshaw",
+    "Hop on trolley",
+    "Step onto boat"
+   ]
+  },
+  {
+   "scene": "You pause on the bustling terrace, still humming {tune} beneath the glowing lanterns.",
+   "options": [
+    "Hire the rickshaw",
+    "Try the trolley",
+    "Board canal boat"
+   ]
+  },
+  {
+   "scene": "Cool evening air greets you on the platform beside the calm blue canal.",
+   "options": [
+    "Choose the rickshaw",
+    "Use hand trolley",
+    "Catch the boat"
+   ]
+  }
+ ]
 }

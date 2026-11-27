@@ -17,5 +17,31 @@
   "a visitor badge lying inside the guard robot's open belly hatch at centre",
   "an open ventilation grate low on the wall at far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The floating brass bot beeps cheerfully and beams a neon floor plan into view.",
+   "options": [
+    "Check holographic map",
+    "Grab shiny badge",
+    "Crawl through duct"
+   ]
+  },
+  {
+   "scene": "Whirring softly, the mechanical guard projects a blueprint of this upside-down wing.",
+   "options": [
+    "Inspect glowing layout",
+    "Snatch belly token",
+    "Slip inside vent"
+   ]
+  },
+  {
+   "scene": "The little automaton opens its hatch and casts a glowing map for you.",
+   "options": [
+    "Read blue projection",
+    "Pick up badge",
+    "Sneak into grate"
+   ]
+  }
+ ]
 }

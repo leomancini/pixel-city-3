@@ -17,5 +17,31 @@
   "a low metal ladder leading up to an exhaust chute up high",
   "a huge wooden flour bin with an iron latch on the far left"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The multi-armed brass chef presents a warm, shining canister amid fragrant steam.",
+   "options": [
+    "Accept the canister",
+    "Scale the ladder",
+    "Inspect flour bin"
+   ]
+  },
+  {
+   "scene": "Humming {tune}, you stop before a clanking robot holding out glowing seasoning.",
+   "options": [
+    "Grab glowing jar",
+    "Climb metal rungs",
+    "Unlatch big barrel"
+   ]
+  },
+  {
+   "scene": "Steam curls all around as the friendly automaton serves you a bright jar.",
+   "options": [
+    "Take glowing spice",
+    "Climb the ladder",
+    "Check wooden vat"
+   ]
+  }
+ ]
 }

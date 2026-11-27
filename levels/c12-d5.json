@@ -17,5 +17,31 @@
   "an enormous glowing orange pumpkin sitting on straw at the centre",
   "a round copper misting robot spraying gentle vapour on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Pushing your plant bicycle past the tram, the warm twilight greenhouse glows around you.",
+   "options": [
+    "Visit juice stall",
+    "Check carved pumpkin",
+    "Trail steam robot"
+   ]
+  },
+  {
+   "scene": "Hanging ferns rustle overhead while you wonder where {quest} might be hidden tonight.",
+   "options": [
+    "Buy sweet drink",
+    "Examine glowing gourd",
+    "Chase mist machine"
+   ]
+  },
+  {
+   "scene": "Fairy lights sparkle above the tiled platform, smelling richly of soil and autumn leaves.",
+   "options": [
+    "Browse fruit drinks",
+    "Study huge pumpkin",
+    "Watch copper automaton"
+   ]
+  }
+ ]
 }

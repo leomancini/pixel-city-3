@@ -17,5 +17,31 @@
   "a coiled rigging rope dangling loose towards the studio floor on the left",
   "the flat tarpaper roof of the adjacent prop warehouse on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Up high on the cherry picker, you scan the busy film set below.",
+   "options": [
+    "Aim movie camera",
+    "Grab dangling rope",
+    "Hop onto rooftop"
+   ]
+  },
+  {
+   "scene": "You gaze across the rooftop props and bustling crew beneath the dusky sky.",
+   "options": [
+    "Check camera lens",
+    "Shimmy down rope",
+    "Jump onto roof"
+   ]
+  },
+  {
+   "scene": "High above the noisy backlot, you wonder where {quest} could be hidden.",
+   "options": [
+    "Peer through camera",
+    "Climb down rope",
+    "Vault to roof"
+   ]
+  }
+ ]
 }

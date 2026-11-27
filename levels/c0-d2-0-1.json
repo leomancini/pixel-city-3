@@ -16,5 +16,31 @@
   "a dangling red cable car waiting open on the left",
   "a yellow street tram idling with doors open in the centre",
   "a teal harbour ferry docked and bobbing on the right"
+ ],
+ "variants": [
+  {
+   "scene": "The friendly badger chef points the way toward three waiting rides.",
+   "options": [
+    "Enter cable car",
+    "Hop on tram",
+    "Step onto boat"
+   ]
+  },
+  {
+   "scene": "Lanterns glow warmly as the badger in the striped apron guides your travel.",
+   "options": [
+    "Catch cable car",
+    "Climb into tram",
+    "Board the ferry"
+   ]
+  },
+  {
+   "scene": "The badger chef shows you the bustling underground docks while you seek {quest}.",
+   "options": [
+    "Take cable car",
+    "Ride the tram",
+    "Choose the boat"
+   ]
+  }
  ]
 }

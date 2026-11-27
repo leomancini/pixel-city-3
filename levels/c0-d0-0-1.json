@@ -16,5 +16,31 @@
   "a glowing subway entrance stairwell with open gate on the far left",
   "a yellow street tram idling with doors open in the centre",
   "a dangling glass cable car stopped at its terminal platform far right"
+ ],
+ "variants": [
+  {
+   "scene": "The cap-wearing octopus hands you a gleaming pass on the pier.",
+   "options": [
+    "Enter subway station",
+    "Hop on tram",
+    "Catch cable car"
+   ]
+  },
+  {
+   "scene": "You hold the glowing ticket while humming {tune} by the water.",
+   "options": [
+    "Head down stairs",
+    "Step onto tram",
+    "Climb to gondola"
+   ]
+  },
+  {
+   "scene": "Sparkles dance around the fresh transit pass from your eight-legged friend.",
+   "options": [
+    "Descend into subway",
+    "Ride the tram",
+    "Try cable car"
+   ]
+  }
  ]
 }

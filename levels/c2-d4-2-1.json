@@ -17,5 +17,31 @@
   "A yellow flatbed delivery truck parked idling on the right",
   "A transparent glass elevator with sliding doors open on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Three routes hum to life under the giant glass dome of Pixel City.",
+   "options": [
+    "Take brass airship",
+    "Hop in truck",
+    "Ride glass elevator"
+   ]
+  },
+  {
+   "scene": "Engines purr as three exit bays open up along the platform.",
+   "options": [
+    "Roll into airship",
+    "Catch yellow truck",
+    "Use glass elevator"
+   ]
+  },
+  {
+   "scene": "You ponder your search for {quest} as departure gates power up.",
+   "options": [
+    "Board brass airship",
+    "Choose delivery truck",
+    "Step inside elevator"
+   ]
+  }
+ ]
 }

@@ -16,5 +16,31 @@
   "a red steam train waiting on tracks at the far left with open doors",
   "a striped airship tethered up high with a lowered boarding ramp",
   "a glowing glass elevator shaft standing open on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "The brass chime rings out across the lively, purple-tinted transit platform.",
+   "options": [
+    "Take steam train",
+    "Climb to airship",
+    "Use glass elevator"
+   ]
+  },
+  {
+   "scene": "Whistles blow and engines hum as three paths await your search for {quest}.",
+   "options": [
+    "Hop on train",
+    "Catch the airship",
+    "Ride glowing elevator"
+   ]
+  },
+  {
+   "scene": "Steam hisses, gears spin, and passengers scurry toward departures across the station.",
+   "options": [
+    "Enter red train",
+    "Board top airship",
+    "Step inside elevator"
+   ]
+  }
  ]
 }

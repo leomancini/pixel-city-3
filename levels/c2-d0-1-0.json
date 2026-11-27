@@ -16,5 +16,31 @@
   "a transparent glass elevator capsule with sliding doors open on the far left",
   "a brass-striped steam locomotive idling puffing smoke at the centre gate",
   "a yellow boxy delivery truck with an open passenger door on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "The dock hums with travel options under the twilight sky.",
+   "options": [
+    "Enter glass elevator",
+    "Hop on train",
+    "Climb in truck"
+   ]
+  },
+  {
+   "scene": "Cool evening air stirs while you consider your next ride.",
+   "options": [
+    "Use open elevator",
+    "Catch steam train",
+    "Take yellow truck"
+   ]
+  },
+  {
+   "scene": "Your glowing screen lights up with routes toward {quest}.",
+   "options": [
+    "Ride the elevator",
+    "Board the locomotive",
+    "Try delivery truck"
+   ]
+  }
  ]
 }

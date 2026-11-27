@@ -17,5 +17,31 @@
   "a gleaming red steam lever mounted on the wall on the right",
   "a glass bell jar containing a floating key on a shelf up high"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Warm steam drifts through the lift as brass pipes tick softly around you.",
+   "options": [
+    "Rotate large dial",
+    "Tug red lever",
+    "Check bell jar"
+   ]
+  },
+  {
+   "scene": "You hum {tune} while steam puffs softly inside the cozy bronze cage.",
+   "options": [
+    "Spin floor indicator",
+    "Yank steam lever",
+    "Study glass dome"
+   ]
+  },
+  {
+   "scene": "The glowing dials hum quietly as your little dog sniffs the warm air.",
+   "options": [
+    "Adjust brass dial",
+    "Flip red switch",
+    "Examine key display"
+   ]
+  }
+ ]
 }

@@ -17,5 +17,31 @@
   "a large brass water valve bolted to a pipe on the right",
   "a swinging wooden garden gate standing unlatched at the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "You land on the checkered rooftop beside a giant pile of bubbly teal foam.",
+   "options": [
+    "Search bubbly foam",
+    "Twist brass wheel",
+    "Push wooden gate"
+   ]
+  },
+  {
+   "scene": "Fairy lights glow above as you slide onto the rooftop party full of bubbles.",
+   "options": [
+    "Poke through bubbles",
+    "Spin golden valve",
+    "Check garden gate"
+   ]
+  },
+  {
+   "scene": "Still seeking {quest}, you land near bubbly foam and a big brass valve.",
+   "options": [
+    "Hop into foam",
+    "Crank pipe valve",
+    "Go through gate"
+   ]
+  }
+ ]
 }

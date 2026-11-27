@@ -16,5 +16,31 @@
   "a brass funicular railway car with open sliding doors on the far left",
   "a striped pedal rickshaw waiting with its driver seated at the centre",
   "a sleek red monorail coach docked at a platform on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "The warm evening air carries the scent of tasty street food by the water.",
+   "options": [
+    "Climb funicular railway",
+    "Hire pedal rickshaw",
+    "Catch overhead monorail"
+   ]
+  },
+  {
+   "scene": "Lanterns glow softly along the canal as travelers choose their evening route.",
+   "options": [
+    "Take funicular car",
+    "Ride pedal rickshaw",
+    "Enter overhead monorail"
+   ]
+  },
+  {
+   "scene": "You hold your shiny fare while humming {tune} under the warm streetlamps.",
+   "options": [
+    "Board funicular railway",
+    "Try pedal rickshaw",
+    "Hop on monorail"
+   ]
+  }
  ]
 }

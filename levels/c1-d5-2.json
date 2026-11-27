@@ -17,5 +17,31 @@
   "A gleaming brass wheel valve mounted on pipes in the centre.",
   "A sturdy wooden ladder leading to an elevated gantry on the far right."
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Steam rises from bubbly blue pulp while heavy iron rollers press smooth sheets.",
+   "options": [
+    "Check bubbling vat",
+    "Twist brass wheel",
+    "Head upstairs"
+   ]
+  },
+  {
+   "scene": "The warm factory clatters softly as fresh paper squeezes through the big press.",
+   "options": [
+    "Examine blue pulp",
+    "Spin brass wheel",
+    "Ascend tall ladder"
+   ]
+  },
+  {
+   "scene": "You smell damp wood and hear gears whirring while you seek {quest}.",
+   "options": [
+    "Peer into vat",
+    "Rotate brass valve",
+    "Climb wooden ladder"
+   ]
+  }
+ ]
 }

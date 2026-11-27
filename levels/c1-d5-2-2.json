@@ -17,5 +17,31 @@
   "an open brass cage lift with glowing buttons standing in the centre",
   "a striped water taxi moored to the catwalk jetty on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Cool evening air drifts past the open bay doors above the river.",
+   "options": [
+    "Hire rickshaw ride",
+    "Step inside lift",
+    "Hop into boat"
+   ]
+  },
+  {
+   "scene": "From the timber platform, you hum {tune} toward the purple twilight.",
+   "options": [
+    "Choose two-wheeled cart",
+    "Ride glowing lift",
+    "Catch water taxi"
+   ]
+  },
+  {
+   "scene": "Canal water laps gently below while city lanterns flicker to life.",
+   "options": [
+    "Try pulled rickshaw",
+    "Enter brass cage",
+    "Board striped taxi"
+   ]
+  }
+ ]
 }

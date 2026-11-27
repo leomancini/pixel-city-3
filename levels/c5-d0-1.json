@@ -17,5 +17,31 @@
   "a metal condiment bar with pumps and peppers sitting on the far right",
   "a yellow metal ladder attached to the van's side on the left"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The friendly vendor serves up a hot, loaded plate of crispy nachos.",
+   "options": [
+    "Grab the plate",
+    "Check condiment stand",
+    "Scale the ladder"
+   ]
+  },
+  {
+   "scene": "Warm cheese smells delicious as you hum {tune} by the food truck.",
+   "options": [
+    "Accept the snack",
+    "Browse the toppings",
+    "Use yellow ladder"
+   ]
+  },
+  {
+   "scene": "Steam curls off the fresh nachos handed down from the yellow truck window.",
+   "options": [
+    "Receive the food",
+    "Visit sauce station",
+    "Go up ladder"
+   ]
+  }
+ ]
 }

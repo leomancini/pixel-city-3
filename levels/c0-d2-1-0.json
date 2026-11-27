@@ -16,5 +16,31 @@
   "A glass cable car waiting on the far left platform",
   "A yellow street tram stopped with open doors right of centre",
   "A blue harbour ferry moored at the dock on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "Key secured! Three warm transit lines await in the lantern-lit caverns.",
+   "options": [
+    "Enter cable car",
+    "Hop on tram",
+    "Board blue ferry"
+   ]
+  },
+  {
+   "scene": "Holding the brass key, you wonder if {quest} waits down one of these routes.",
+   "options": [
+    "Catch cable car",
+    "Try yellow tram",
+    "Ride blue ferry"
+   ]
+  },
+  {
+   "scene": "The friendly reptile waves farewell beside the rumbling engines and gentle water.",
+   "options": [
+    "Choose cable car",
+    "Climb aboard tram",
+    "Step onto ferry"
+   ]
+  }
  ]
 }

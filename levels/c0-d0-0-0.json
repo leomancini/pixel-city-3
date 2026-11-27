@@ -16,5 +16,31 @@
   "A red cable car suspended on an overhead wire, hovering up high",
   "An open subway stairwell with an illuminated neon sign on the left",
   "A yellow street tram waiting with open doors on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "A shining token in your hand lights up the busy dock station.",
+   "options": [
+    "Ride cable car",
+    "Head downstairs below",
+    "Hop on tram"
+   ]
+  },
+  {
+   "scene": "You hum {tune} while holding your bright new transit coin.",
+   "options": [
+    "Climb into cableway",
+    "Descend subway stairs",
+    "Step inside tram"
+   ]
+  },
+  {
+   "scene": "Holding the tiny glowing fare, you check all your travel options.",
+   "options": [
+    "Float in gondola",
+    "Enter train station",
+    "Board yellow tram"
+   ]
+  }
  ]
 }

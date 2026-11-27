@@ -17,5 +17,31 @@
   "bright patterned paper umbrellas drying on low bamboo racks centre",
   "a cluttered wooden bicycle repair shed with its sliding door open right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Evening air smells of canal water as glowing lanterns illuminate the quiet quayside workshop.",
+   "options": [
+    "Examine bronze heron",
+    "View colourful parasols",
+    "Visit bike workshop"
+   ]
+  },
+  {
+   "scene": "Humming {tune}, you wheel your trusty bicycle onto the warm canal dock.",
+   "options": [
+    "Study robotic bird",
+    "Check painted umbrellas",
+    "Explore lit workshop"
+   ]
+  },
+  {
+   "scene": "Orange koi glide beneath the planks as dusk settles over the peaceful alley.",
+   "options": [
+    "Greet metal heron",
+    "Browse drying parasols",
+    "Step inside shed"
+   ]
+  }
+ ]
 }

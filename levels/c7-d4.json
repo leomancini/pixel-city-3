@@ -17,5 +17,31 @@
   "a brass folding robot creasing parchment sheets in the centre",
   "a spiralling wooden control tower with an open door on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The breeze tugs your scarf as the propeller trolley doors slide shut behind you.",
+   "options": [
+    "Check paper glider",
+    "Assist brass robot",
+    "Climb the tower"
+   ]
+  },
+  {
+   "scene": "Fresh evening air rustles discarded parchment across the wide launch platform.",
+   "options": [
+    "Examine giant plane",
+    "Help fold paper",
+    "Visit control tower"
+   ]
+  },
+  {
+   "scene": "Looking out across the glowing rooftop, you wonder if you will find {quest} here.",
+   "options": [
+    "Study the glider",
+    "Aid the robot",
+    "Open tower door"
+   ]
+  }
+ ]
 }

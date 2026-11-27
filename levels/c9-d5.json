@@ -17,5 +17,31 @@
   "a wheeled metal robot holding a clipboard standing in the centre",
   "a brass rain machine with a large wheel handle on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Your skates hit the windy rooftop lab beside a giant glowing jar of lightning.",
+   "options": [
+    "Check lightning jar",
+    "Say hello robot",
+    "Turn brass wheel"
+   ]
+  },
+  {
+   "scene": "You roll past the balloon basket, still humming {tune} under the purple sky.",
+   "options": [
+    "Examine electric jar",
+    "Wave to robot",
+    "Spin rain crank"
+   ]
+  },
+  {
+   "scene": "Blue sparks crackle across the rooftop as you skate toward the busy robot scientist.",
+   "options": [
+    "Study spark jar",
+    "Approach the robot",
+    "Work brass machine"
+   ]
+  }
+ ]
 }

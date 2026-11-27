@@ -17,5 +17,31 @@
   "an ink-drawn aerial map stamped across the wide paper wing at centre",
   "a rusty metal winding crank sticking out from the ground on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The oversized paper aircraft rests steady on its wooden stands beneath the twilight.",
+   "options": [
+    "Enter tiny cockpit",
+    "Trace wing map",
+    "Wind ground crank"
+   ]
+  },
+  {
+   "scene": "You study the giant folded craft, humming {tune} against the cool breeze.",
+   "options": [
+    "Hop into seat",
+    "Check printed map",
+    "Crank launch wheel"
+   ]
+  },
+  {
+   "scene": "Intricate ink maps cover the wide paper wings beside a quiet little robot.",
+   "options": [
+    "Sit in cockpit",
+    "Read wing chart",
+    "Rotate the crank"
+   ]
+  }
+ ]
 }

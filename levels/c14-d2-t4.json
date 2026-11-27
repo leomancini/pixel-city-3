@@ -34,5 +34,49 @@
    "then": "Step off at Lost Property Depot",
    "next": "c14-d3"
   }
+ ],
+ "variants": [
+  {
+   "scene": "The warm truck cab hums as tiny storm clouds float from the dash.",
+   "options": [
+    "Twist red dial",
+    "Grab drifting cloud",
+    "Open green box"
+   ],
+   "beats": [
+    "A lively tune crackles over warm sparks as the truck glides into the bright neon shop, its doors popping wide open.",
+    "The misty cloud dissolves in your hand into sweet, cool lime drops just as the truck parks among giant glowing signs and the doors swing.",
+    "You find a bright neon ampersand tube and slip it safely into your pocket as the vehicle stops in the glowing garage and the doors click open."
+   ],
+   "ride_on": "You stay inside as the truck bypasses Neon Sign Hospital beneath twinkling skies. At the end line, you catch a whistling mail train to the busy Lost Property Depot."
+  },
+  {
+   "scene": "Little drizzle clouds drift overhead while you think about {quest} on this rainy ride.",
+   "options": [
+    "Tune old radio",
+    "Snatch ceiling puff",
+    "Check metal latch"
+   ],
+   "beats": [
+    "A cheerful jingle snaps through gentle static sparks right when the truck stops inside the buzzing, colorful workshop, sliding both cab doors open.",
+    "Your fingers cup the soft vapor, which melts into sweet drops of lime drizzle as the truck pulls up beside giant neon letters and opens its doors.",
+    "Tucked inside the chest is a glowing ampersand glass tube that you stow away just as the truck brakes in the luminous workshop and doors pop ajar."
+   ],
+   "ride_on": "You ride along past Neon Sign Hospital under clear, sparkling stars. Switching to a cheerful mail train at the depot, you arrive at the bustling Lost Property Depot."
+  },
+  {
+   "scene": "Raindrops tap the windows while fuzzy little clouds float around the metal dashboard.",
+   "options": [
+    "Fiddle with radio",
+    "Touch floating cloud",
+    "Unlatch tool kit"
+   ],
+   "beats": [
+    "Bouncy music buzzes through harmless sparks just as the truck eases into the brightly lit neon repair shop, letting the doors swing wide.",
+    "The chilly cloud tickles your palm and turns to sweet lime syrup right as the truck halts by oversized radiant letters and the doors push open.",
+    "You take a glowing glass ampersand from the chest and pocket it safely as the truck rolls into the shining workshop and the doors unlock open."
+   ],
+   "ride_on": "Remaining aboard, you cruise straight past Neon Sign Hospital into a starry breeze. At the terminus, a whistling mail train whisks you to the bustling Lost Property Depot."
+  }
  ]
 }

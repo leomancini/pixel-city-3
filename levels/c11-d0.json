@@ -17,5 +17,31 @@
   "a glowing blue hologram instructor projecting routines in the centre",
   "a bright yellow metal ladder leading up high on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "You hop off the pod as blue light glows across the platform.",
+   "options": [
+    "Try photo booth",
+    "Study hologram moves",
+    "Scale the ladder"
+   ]
+  },
+  {
+   "scene": "Your headphones play {tune} while cool evening air greets you outside the pod.",
+   "options": [
+    "Step inside booth",
+    "Copy pixel dancer",
+    "Use rooftop ladder"
+   ]
+  },
+  {
+   "scene": "Bright neon signs twinkle as you adjust your dance bag on the sidewalk.",
+   "options": [
+    "Visit pink booth",
+    "Observe glowing dancer",
+    "Climb tall ladder"
+   ]
+  }
+ ]
 }

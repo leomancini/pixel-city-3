@@ -17,5 +17,31 @@
   "a circular brass dial resting in the centre of the console",
   "a luminous neon-green battery inserted loosely in a slot on the right"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "A sparking machine crackles near a heavy brass dial on the messy bench.",
+   "options": [
+    "Cut blue wire",
+    "Twist brass dial",
+    "Grab glowing battery"
+   ]
+  },
+  {
+   "scene": "Loose gears scatter around a buzzing console that glows with bright green light.",
+   "options": [
+    "Clip sparking wire",
+    "Rotate central dial",
+    "Remove neon battery"
+   ]
+  },
+  {
+   "scene": "The smell of hot metal rises as you ponder your search for {quest}.",
+   "options": [
+    "Sever loose wire",
+    "Spin big dial",
+    "Pull green cell"
+   ]
+  }
+ ]
 }

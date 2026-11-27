@@ -17,5 +17,31 @@
   "an arched wooden door set into the windmill tower on the left",
   "a narrow suspension catwalk connecting to an adjacent rooftop on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The cyclist waves goodbye, leaving a gleaming brass token in your hand.",
+   "options": [
+    "Inspect shiny token",
+    "Open windmill door",
+    "Cross rope bridge"
+   ]
+  },
+  {
+   "scene": "You hold the driver's curious brass token atop the quiet, potted rooftop.",
+   "options": [
+    "Check brass token",
+    "Try wooden door",
+    "Walk across catwalk"
+   ]
+  },
+  {
+   "scene": "The rider departs while you wonder if {quest} waits across the heights.",
+   "options": [
+    "Study round token",
+    "Visit the windmill",
+    "Brave the walkway"
+   ]
+  }
+ ]
 }

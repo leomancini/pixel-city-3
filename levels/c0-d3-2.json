@@ -16,5 +16,31 @@
   "A polished gold steam valve attached to copper pipes on the far left",
   "A robotic pigeon wearing tiny brass goggles perched on a railing right",
   "A narrow wooden maintenance beam extending into darkness on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "Steam hisses warmly as the giant clock gears turn above your yellow raincoat.",
+   "options": [
+    "Twist gold valve",
+    "Greet brass bird",
+    "Walk wood plank"
+   ]
+  },
+  {
+   "scene": "A mechanical pigeon watches you while {tune} hums with the ticking pendulum.",
+   "options": [
+    "Spin golden wheel",
+    "Chirp at pigeon",
+    "Tread across beam"
+   ]
+  },
+  {
+   "scene": "Lanterns glow softly along the metal bridge beneath the massive clock face.",
+   "options": [
+    "Turn steam valve",
+    "Befriend metal pigeon",
+    "Step onto plank"
+   ]
+  }
  ]
 }

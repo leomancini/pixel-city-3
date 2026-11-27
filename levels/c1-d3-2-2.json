@@ -16,5 +16,31 @@
   "a sleek suspended monorail car waiting up high above a gangway",
   "a slanted red funicular railway car stopped on tracks on the far left",
   "a yellow water taxi boat tied to a dock on the right"
+ ],
+ "variants": [
+  {
+   "scene": "The cool evening air greets you on the bustling multilevel transit dock.",
+   "options": [
+    "Catch overhead monorail",
+    "Enter red funicular",
+    "Board yellow boat"
+   ]
+  },
+  {
+   "scene": "You pause by glowing lanterns, humming {tune} while watching commuters pass.",
+   "options": [
+    "Ride sky monorail",
+    "Hop on funicular",
+    "Try water taxi"
+   ]
+  },
+  {
+   "scene": "Water ripples softly below as three wonderful rides wait to depart.",
+   "options": [
+    "Climb to monorail",
+    "Take steep funicular",
+    "Choose river boat"
+   ]
+  }
  ]
 }

@@ -17,5 +17,31 @@
   "a wooden mountain cable tram idling with open doors on the right",
   "a green river barge moored to a ramp on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Sunset warms the rooftop station as you check the map by the signpost.",
+   "options": [
+    "Enter curved trolley",
+    "Hop inside tram",
+    "Step onto barge"
+   ]
+  },
+  {
+   "scene": "Dusk settles over the tracks while you keep hunting for {quest}.",
+   "options": [
+    "Ride sleek trolley",
+    "Take wooden tram",
+    "Board green barge"
+   ]
+  },
+  {
+   "scene": "Cool canal air drifts up toward the platform as evening lights flicker on.",
+   "options": [
+    "Try glass trolley",
+    "Enter open tram",
+    "Walk toward barge"
+   ]
+  }
+ ]
 }

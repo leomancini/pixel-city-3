@@ -34,5 +34,49 @@
    "then": "Step off at Neon Sign Hospital",
    "next": "c14-d4"
   }
+ ],
+ "variants": [
+  {
+   "scene": "You cruise through dimly lit depot tunnels in the steady, polished brass sidecar.",
+   "options": [
+    "Twist copper dial",
+    "Nudge robot rider",
+    "Unlatch small compartment"
+   ],
+   "beats": [
+    "Lively horn melodies crackle out across the rushing breeze as you pull up. Midnight Radio Repair's bright doors glide apart before you.",
+    "Your guide chirps in greeting, passing back a glass valve. The motorcycle slows to a stop, and Midnight Radio Repair's entrance rolls open.",
+    "A folded paper map of broadcast bands sits inside, pocketed with care. The motor softly purrs to silence as the repair shop doors slide apart."
+   ],
+   "ride_on": "You speed past the workshop, dodging damp clotheslines overhead. Trading the sidecar for a clattering tow truck at the terminus, you reach the buzzing, vibrant Neon Sign Hospital."
+  },
+  {
+   "scene": "The motor hums softly as shadows slip across towering stacks of wooden crates.",
+   "options": [
+    "Tune radio console",
+    "Signal metal driver",
+    "Check brass glovebox"
+   ],
+   "beats": [
+    "Sweet brass notes fill the chilly tunnel air. With a smooth slide, the bike stops, and the repair shop's glowing entryway slides open.",
+    "The mechanical driver offers an encouraging click and a glass tube. The vehicle settles to a halt, and Midnight Radio Repair's front doors slide open.",
+    "Tucked within is a bright wavelength guide that you tuck safely away. The journey ends smoothly as the workshop's tall entrance slides open wide."
+   ],
+   "ride_on": "Whizzing right past the stop, you duck under flapping linens. You switch into a noisy tow truck at the depot terminus, pulling up beside the humming Neon Sign Hospital."
+  },
+  {
+   "scene": "Cool basement air rushes past your collar as you search for {quest}.",
+   "options": [
+    "Adjust clicky tuner",
+    "Pat leather shoulder",
+    "Lift front latch"
+   ],
+   "beats": [
+    "A cheerful saxophone tune rings through the dashboard speaker as the wheels brake. Midnight Radio Repair's illuminated doors slide quietly open.",
+    "The robot beeps kindly, handing you a glowing spare component. The ride brakes smoothly, and Midnight Radio Repair's wide doors part for you.",
+    "You slide out an illuminated sheet of radio channels for safekeeping. The engine shuts down right as the repair shop entrance slides wide open."
+   ],
+   "ride_on": "Skipping your stop, you glide under strung-up sheets. At the terminus you climb into a rumbling yellow tow truck, coasting directly toward the dazzling Neon Sign Hospital."
+  }
  ]
 }

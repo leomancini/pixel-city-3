@@ -16,5 +16,31 @@
   "A moored brass airship with an open gangplank waits far left.",
   "An idling yellow delivery truck with open rear doors sits centre.",
   "A striped steam train puffing sweet pink smoke stands right."
+ ],
+ "variants": [
+  {
+   "scene": "Cool air greets you on a bustling platform packed with wonderful travel machines.",
+   "options": [
+    "Enter bronze sub",
+    "Hop into truck",
+    "Ride pink train"
+   ]
+  },
+  {
+   "scene": "Pink smoke puffs gently as you wonder if {quest} waits down the tracks.",
+   "options": [
+    "Wheel up ramp",
+    "Board yellow truck",
+    "Catch the train"
+   ]
+  },
+  {
+   "scene": "Three grand rides sit ready by the glowing aquarium archway.",
+   "options": [
+    "Try flying vessel",
+    "Sneak inside van",
+    "Choose steam engine"
+   ]
+  }
  ]
 }

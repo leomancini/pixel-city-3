@@ -17,5 +17,31 @@
   "A chunky red turn dial sitting centre, just beneath a glass display.",
   "A bent metal dispenser door on the right, hanging slightly ajar."
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "Green soda bottles glow behind glass on this mossy old metal dispenser.",
+   "options": [
+    "Drop in coin",
+    "Twist red knob",
+    "Lift open hatch"
+   ]
+  },
+  {
+   "scene": "A low hum buzzes as cool air drifts from the ancient vendor.",
+   "options": [
+    "Slide coin inside",
+    "Turn the dial",
+    "Check dispenser door"
+   ]
+  },
+  {
+   "scene": "Fizzy green drinks sparkle in the dark, framed by damp, tarnished brass.",
+   "options": [
+    "Feed the slot",
+    "Spin big dial",
+    "Peek inside flap"
+   ]
+  }
+ ]
 }

@@ -17,5 +17,31 @@
   "a masked reveller dressed as an ornate cat in the centre",
   "a stone arched bridge spanning water on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Your pup sniffs the cool twilight air as canal waters gently lap the quayside.",
+   "options": [
+    "View glass crafts",
+    "Greet masked cat",
+    "Climb stone bridge"
+   ]
+  },
+  {
+   "scene": "Glowing glass stall lanterns twinkle while you keep on looking for {quest}.",
+   "options": [
+    "Browse glass stall",
+    "Meet cat performer",
+    "Walk over bridge"
+   ]
+  },
+  {
+   "scene": "Warm lanterns flicker pleasantly beside the grand canal as festival crowds gather.",
+   "options": [
+    "Admire glass art",
+    "Visit costumed cat",
+    "Head up bridge"
+   ]
+  }
+ ]
 }

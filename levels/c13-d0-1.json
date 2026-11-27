@@ -17,5 +17,31 @@
   "a bright yellow notched dial sitting right in the centre",
   "a slender silver toggle switch on the far right side"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "The scuffed yellow drone buzzes gently in your steady hands.",
+   "options": [
+    "Tap red square",
+    "Turn central dial",
+    "Flip silver switch"
+   ]
+  },
+  {
+   "scene": "A warm red light glows as tiny propellers whir softly above you.",
+   "options": [
+    "Push red button",
+    "Twist numbered dial",
+    "Nudge right toggle"
+   ]
+  },
+  {
+   "scene": "Holding the chunky yellow machine, you hum {tune} over its quiet hum.",
+   "options": [
+    "Click glowing button",
+    "Spin yellow dial",
+    "Flick metal toggle"
+   ]
+  }
+ ]
 }

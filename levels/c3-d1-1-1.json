@@ -17,5 +17,31 @@
   "a neon-lit ferris wheel gondola docked up high at centre",
   "a glowing blue night bus idling at far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Cool evening air greets you outside as twilight settles over the bustling rooftops.",
+   "options": [
+    "Hail pedal rickshaw",
+    "Climb to cableway",
+    "Hop on bus"
+   ]
+  },
+  {
+   "scene": "Stepping onto the wide terrace, you wonder if {quest} waits across town.",
+   "options": [
+    "Hire the cycle",
+    "Enter hanging car",
+    "Catch blue bus"
+   ]
+  },
+  {
+   "scene": "City lights twinkle below as three different rides await on the breezy platform.",
+   "options": [
+    "Try pedicab ride",
+    "Take neon gondola",
+    "Board city bus"
+   ]
+  }
+ ]
 }

@@ -17,5 +17,31 @@
   "a polished brass robot holding hot porcelain teacups in the centre",
   "a large open circular neon moon gate glowing on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Savory broth warms your tongue as steam rises from the bamboo basket.",
+   "options": [
+    "Drop coin cat",
+    "Wave to bot",
+    "Skate through portal"
+   ]
+  },
+  {
+   "scene": "A delicious hot dumpling sizzles gently while you remember {tune} softly.",
+   "options": [
+    "Feed ceramic cat",
+    "Visit tea robot",
+    "Enter glowing arch"
+   ]
+  },
+  {
+   "scene": "Sweet lantern light glows above as you swallow the hot, ginger-spiced treat.",
+   "options": [
+    "Tip lucky cat",
+    "Approach metal server",
+    "Roll past portal"
+   ]
+  }
+ ]
 }

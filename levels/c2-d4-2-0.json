@@ -17,5 +17,31 @@
   "a tethered brass airship floating past the open centre portal",
   "a yellow delivery truck parked beside an open shutter on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Constellations glitter overhead as crowds gather by three wide transit bays.",
+   "options": [
+    "Ride steam train",
+    "Climb into airship",
+    "Hop in truck"
+   ]
+  },
+  {
+   "scene": "Steam puffs softly beside a floating airship and a bright yellow van.",
+   "options": [
+    "Choose steam train",
+    "Board flying ship",
+    "Enter yellow truck"
+   ]
+  },
+  {
+   "scene": "Under the star dome, you keep humming {tune} while choosing your route.",
+   "options": [
+    "Catch steam train",
+    "Take floating ship",
+    "Ride delivery truck"
+   ]
+  }
+ ]
 }

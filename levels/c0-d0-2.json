@@ -16,5 +16,31 @@
   "A large teal crate humming with purple sparks on the left",
   "A friendly robot conductor wearing a blue cap standing at centre",
   "A shiny red lever mounted on the wall at the far right"
+ ],
+ "variants": [
+  {
+   "scene": "The open-sided cargo tram rumbles across the bridge into the purple evening.",
+   "options": [
+    "Check sparkling crate",
+    "Greet robot conductor",
+    "Yank red handle"
+   ]
+  },
+  {
+   "scene": "Dim overhead bulbs sway while you keep looking for {quest}.",
+   "options": [
+    "Inspect glowing box",
+    "Ask polite conductor",
+    "Flip emergency switch"
+   ]
+  },
+  {
+   "scene": "Cool harbor air blows past stacks of parcels and a crackling metal container.",
+   "options": [
+    "Touch buzzing crate",
+    "Question mechanical guide",
+    "Tug safety lever"
+   ]
+  }
  ]
 }

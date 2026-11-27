@@ -17,5 +17,31 @@
   "a tidy patch of glazed brown kimchi onggi pots on the right",
   "a glowing neon hologram pop stage with dancing light figures on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Your skates roll onto the wooden deck under a twilight mountain sky.",
+   "options": [
+    "Sample spicy treats",
+    "Check glazed pots",
+    "Visit dancing lights"
+   ]
+  },
+  {
+   "scene": "Cool evening air greets you as {tune} hums softly in your mind.",
+   "options": [
+    "Buy warm snacks",
+    "Examine large jars",
+    "Watch neon show"
+   ]
+  },
+  {
+   "scene": "Lanterns glow warmly above the village rooftops as sweet street aromas drift by.",
+   "options": [
+    "Order street food",
+    "Browse brown urns",
+    "Join glowing crowd"
+   ]
+  }
+ ]
 }

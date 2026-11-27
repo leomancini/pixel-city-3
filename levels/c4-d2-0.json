@@ -17,5 +17,31 @@
   "a detailed windmill icon drawn on the right side of the parchment",
   "a miniature brass ring fastened to the left edge of the parchment"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "You hold open the aged parchment to examine its curious message.",
+   "options": [
+    "Read written puzzle",
+    "Inspect windmill drawing",
+    "Take brass ring"
+   ]
+  },
+  {
+   "scene": "The crisp note crinkles softly between your fingers as you look.",
+   "options": [
+    "Solve mysterious verse",
+    "Examine sketched mill",
+    "Keep brass loop"
+   ]
+  },
+  {
+   "scene": "A neat sketch of a windmill sits beside strange, looped handwriting.",
+   "options": [
+    "Decode cryptic text",
+    "Check windmill sketch",
+    "Collect brass ring"
+   ]
+  }
+ ]
 }

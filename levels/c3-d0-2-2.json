@@ -17,5 +17,31 @@
   "a yellow bicycle rickshaw with a smiling driver resting on the right",
   "a mechanical book cart lift open and stationary on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Festive lanterns glow brightly across the open rooftop festival grounds.",
+   "options": [
+    "Enter blue bus",
+    "Hire yellow rickshaw",
+    "Use metal lift"
+   ]
+  },
+  {
+   "scene": "Carnival music fades as you step out, still searching for {quest}.",
+   "options": [
+    "Catch the bus",
+    "Try pedicab ride",
+    "Step inside lift"
+   ]
+  },
+  {
+   "scene": "Cool evening air greets you on the carnival platform beneath hanging pennants.",
+   "options": [
+    "Climb on bus",
+    "Hail pedal rickshaw",
+    "Take open lift"
+   ]
+  }
+ ]
 }

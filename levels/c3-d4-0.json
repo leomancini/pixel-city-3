@@ -17,5 +17,31 @@
   "a bright yellow subway icon hovering in the map's centre",
   "a blinking red pyramid marker on the right side of the floating projection"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "Neon gridlines shimmer beneath your hands, displaying every district of the city.",
+   "options": [
+    "Tap the harbour",
+    "Press yellow train",
+    "Touch red pyramid"
+   ]
+  },
+  {
+   "scene": "The luminous map buzzes softly as glowing transit paths trace through the dark.",
+   "options": [
+    "Inspect sea docks",
+    "Choose subway hub",
+    "Press ruby beacon"
+   ]
+  },
+  {
+   "scene": "Electric city routes spark to life across the glowing blue holographic screen.",
+   "options": [
+    "Check cyan port",
+    "Tap metro icon",
+    "Select bright pyramid"
+   ]
+  }
+ ]
 }

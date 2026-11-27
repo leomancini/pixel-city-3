@@ -17,5 +17,31 @@
   "A heavy wooden door with brass knocker standing closed in the centre",
   "A colourful newspaper stand packed with glowing tabloids on the far left"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "A friendly brass automaton serves warm, fragrant pastries beneath the glowing awning.",
+   "options": [
+    "Accept hot bun",
+    "Open bakery door",
+    "Inspect news kiosk"
+   ]
+  },
+  {
+   "scene": "Delicious sweet steam wafts as the mechanical baker presents a fresh star roll.",
+   "options": [
+    "Take star pastry",
+    "Enter night bakery",
+    "Browse colourful kiosk"
+   ]
+  },
+  {
+   "scene": "The clockwork chef holds out a warm bun while you ponder {quest}.",
+   "options": [
+    "Grab hot pastry",
+    "Knock bakery door",
+    "Browse magazine stand"
+   ]
+  }
+ ]
 }

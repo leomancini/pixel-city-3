@@ -16,5 +16,31 @@
   "A yellow delivery truck sits idling with its ramp down on the left.",
   "A towering glass elevator tube stands with glowing buttons in the centre.",
   "A striped brass airship bobs at a mooring post on the right."
+ ],
+ "variants": [
+  {
+   "scene": "Cool evening air greets you on the busy brick rooftop depot.",
+   "options": [
+    "Enter yellow van",
+    "Ride glass lift",
+    "Hop on blimp"
+   ]
+  },
+  {
+   "scene": "A bronze zeppelin hums beside the glass tube under purple clouds.",
+   "options": [
+    "Roll into truck",
+    "Use glass elevator",
+    "Board big airship"
+   ]
+  },
+  {
+   "scene": "You arrive on the high roof, still searching for {quest}.",
+   "options": [
+    "Check cargo truck",
+    "Try central elevator",
+    "Climb aboard airship"
+   ]
+  }
  ]
 }

@@ -17,5 +17,31 @@
   "a slanted brass funicular carriage stationed at the platform in the centre",
   "a wooden rickshaw with glowing paper lanterns parked on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Blue steam curls from the gauge as city routes hum into motion.",
+   "options": [
+    "Take red monorail",
+    "Climb into funicular",
+    "Signal lantern rickshaw"
+   ]
+  },
+  {
+   "scene": "A vent hiss stirs cool air while you search for {quest}.",
+   "options": [
+    "Catch sleek monorail",
+    "Enter brass carriage",
+    "Call parked rickshaw"
+   ]
+  },
+  {
+   "scene": "Bright steam rises upward, lighting platforms ready for the evening rush.",
+   "options": [
+    "Board waiting monorail",
+    "Step onto funicular",
+    "Approach friendly rickshaw"
+   ]
+  }
+ ]
 }

@@ -17,5 +17,31 @@
   "a cubic brass robot holding a room key at the centre",
   "a wooden staircase sliding along brass wall tracks on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Your skates roll across the plush carpet under grand glowing chandeliers.",
+   "options": [
+    "Ding desk bell",
+    "Wave to robot",
+    "Take moving stairs"
+   ]
+  },
+  {
+   "scene": "You skate past the brass door, still hoping to find {quest} inside.",
+   "options": [
+    "Tap counter bell",
+    "Approach clockwork robot",
+    "Mount tracked staircase"
+   ]
+  },
+  {
+   "scene": "Warm light fills the lobby as gears click beneath the great stairs.",
+   "options": [
+    "Hit front bell",
+    "Talk to automaton",
+    "Try sliding steps"
+   ]
+  }
+ ]
 }

@@ -17,5 +17,31 @@
   "an iron pulley lift stacked with leatherbound tomes in the centre",
   "a purple double-decker bus waiting beside the rooftop ramp on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The paper maps three unusual getaways under the twilight sky.",
+   "options": [
+    "Enter glowing gondola",
+    "Climb book elevator",
+    "Hop on bus"
+   ]
+  },
+  {
+   "scene": "You read the instructions while cooing rooftop pigeons settle for the dusk.",
+   "options": [
+    "Board neon cab",
+    "Use tome lift",
+    "Catch purple bus"
+   ]
+  },
+  {
+   "scene": "You check the note, humming {tune} while considering three sky-high escapes.",
+   "options": [
+    "Choose carnival gondola",
+    "Step inside crate",
+    "Take double decker"
+   ]
+  }
+ ]
 }

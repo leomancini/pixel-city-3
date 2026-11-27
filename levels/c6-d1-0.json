@@ -17,5 +17,31 @@
   "a vintage chrome microphone on a flexible stand sitting at centre desk",
   "a small wooden hatch door with a brass latch on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Tangled cables hum softly under the warm ceiling light of the rooftop shack.",
+   "options": [
+    "Start big reels",
+    "Test silver mic",
+    "Unlock wooden door"
+   ]
+  },
+  {
+   "scene": "Piles of cassettes sit beside stacked receivers that glow under the dusk sky.",
+   "options": [
+    "Spin audio reels",
+    "Use shiny mic",
+    "Unlatch tiny door"
+   ]
+  },
+  {
+   "scene": "The warm radio booth feels cozy as you wonder about {quest}.",
+   "options": [
+    "Roll the tape",
+    "Talk on mic",
+    "Check little door"
+   ]
+  }
+ ]
 }

@@ -16,5 +16,31 @@
   "A red street tram waits on tracks at the far left platform.",
   "A small wooden harbour ferry idles beside a pier at the centre.",
   "A yellow cable car hangs ready at a gate on the far right."
+ ],
+ "variants": [
+  {
+   "scene": "Golden tickets inside the chest let you choose how to leave the cavern.",
+   "options": [
+    "Catch red tram",
+    "Hop on boat",
+    "Enter yellow car"
+   ]
+  },
+  {
+   "scene": "Holding your new pass, you hum {tune} while deciding your path.",
+   "options": [
+    "Board the tram",
+    "Sail the boat",
+    "Climb into gondola"
+   ]
+  },
+  {
+   "scene": "Fresh journey passes give you access to three routes through the underground docks.",
+   "options": [
+    "Take the tram",
+    "Board the ferry",
+    "Ride cable car"
+   ]
+  }
  ]
 }

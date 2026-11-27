@@ -16,5 +16,31 @@
   "a caged brass spiral lift standing open on the far left",
   "a yellow mountain cable tram parked on tracks on the right",
   "a green wooden river barge moored on water at far right"
+ ],
+ "variants": [
+  {
+   "scene": "Silver thread in hand, you find bustling paths waiting along the dusky harbour.",
+   "options": [
+    "Take spiral lift",
+    "Climb into tram",
+    "Hop onto barge"
+   ]
+  },
+  {
+   "scene": "Holding the shining spool, you wonder if {quest} waits beyond the misty water.",
+   "options": [
+    "Enter tall lift",
+    "Catch yellow tram",
+    "Step aboard barge"
+   ]
+  },
+  {
+   "scene": "Lamps glow warm above the dock as three exciting journeys call to you.",
+   "options": [
+    "Use caged lift",
+    "Ride mountain tram",
+    "Board green barge"
+   ]
+  }
  ]
 }

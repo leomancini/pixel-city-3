@@ -17,5 +17,31 @@
   "A mapmaker in green overalls sketching at a wooden desk at centre",
   "A brass robot busily rotating a giant mosaic globe on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "You leave the spiral lift and enter a warm room full of busy cartographers.",
+   "options": [
+    "Reach toward projection",
+    "Greet drafting artist",
+    "Check large globe"
+   ]
+  },
+  {
+   "scene": "You step onto polished floorboards, still wondering where to find {quest}.",
+   "options": [
+    "Tap glowing parchment",
+    "Ask desk worker",
+    "View turning sphere"
+   ]
+  },
+  {
+   "scene": "Lanterns glow gently as mapmakers whisper and draft across the high-ceilinged hall.",
+   "options": [
+    "Examine floating light",
+    "Approach drafting desk",
+    "Study giant world"
+   ]
+  }
+ ]
 }

@@ -17,5 +17,31 @@
   "a glowing blue night bus idling in the centre with open doors",
   "a striped bicycle rickshaw parked ready on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The paper slip promises three midnight rides under the carnival's twinkling lights.",
+   "options": [
+    "Enter brass elevator",
+    "Take blue bus",
+    "Call pedicab rider"
+   ]
+  },
+  {
+   "scene": "You check your fortune while searching for {quest} in the bustling fairground.",
+   "options": [
+    "Step inside lift",
+    "Hop on bus",
+    "Flag down rickshaw"
+   ]
+  },
+  {
+   "scene": "Carnival steam drifts past as you study the cryptic slip in your hand.",
+   "options": [
+    "Use vintage lift",
+    "Climb aboard bus",
+    "Choose bike taxi"
+   ]
+  }
+ ]
 }

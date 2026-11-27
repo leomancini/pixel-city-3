@@ -34,5 +34,49 @@
    "then": "Step off at Gear Bridge",
    "next": "c14-d1"
   }
+ ],
+ "variants": [
+  {
+   "scene": "Warm lamplight glows as letters shuffle beneath the train roof.",
+   "options": [
+    "Study neon parcel",
+    "Assist badger conductor",
+    "Tug braided cord"
+   ],
+   "beats": [
+    "The parcel hums a soft tune that calms the rumbling train car. You coast smoothly into Lost Property Depot as the wide doors slide open.",
+    "The conductor chirps happily and hands you a stamped voucher for an unclaimed treasure. Air brakes hiss gently as the train halts and depot doors part.",
+    "A bright chime rings out, scattering paper confetti across your shoulders. With a cheerful ring, the car stops at Lost Property Depot and doors slide open."
+   ],
+   "ride_on": "You remain aboard, nibbling a shared cinnamon biscuit as the stop recedes. At the terminus line, you catch the creaking bridge crawler climbing toward Gear Bridge."
+  },
+  {
+   "scene": "Night air rushes past the windows while paper envelopes rustle softly.",
+   "options": [
+    "Inspect glowing box",
+    "Help letter sorter",
+    "Ring brass bell"
+   ],
+   "beats": [
+    "Sweet humming drifts from the parcel, softening the engine noise to a purr. The train rolls into Lost Property Depot and the doors glide open.",
+    "The grateful conductor gives you a shiny voucher for one forgotten keepsake. Brakes whistle softly, the train glides to a stop, and the depot doors open wide.",
+    "The overhead bell rings out with a shower of festive confetti. The train eases into Lost Property Depot with a jolly clatter as the doors slide open."
+   ],
+   "ride_on": "Riding past the stop, you share a spiced biscuit with the conductor. At the end of the line, you step onto the bridge crawler bound for Gear Bridge."
+  },
+  {
+   "scene": "Wooden floorboards vibrate gently while you wonder where {quest} might be.",
+   "options": [
+    "Check shining parcel",
+    "Aid working conductor",
+    "Yank bell rope"
+   ],
+   "beats": [
+    "Gentle melodies buzz from the glowing wrapping, quietening the rattling wheels. The train drifts into Lost Property Depot as the heavy doors slide aside.",
+    "The conductor nods with thanks, sliding a stamped keepsake voucher into your pocket. The train settles to a gentle halt and the depot doors roll open.",
+    "The brass bell clangs merrily, showering you with a swirl of colourful confetti. The carriage stops at Lost Property Depot and the front doors roll open."
+   ],
+   "ride_on": "Staying in your seat, you enjoy a sweet cinnamon biscuit together. At the final terminus, you board the sturdy bridge crawler heading up to Gear Bridge."
+  }
  ]
 }

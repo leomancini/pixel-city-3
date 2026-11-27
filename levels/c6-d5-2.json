@@ -17,5 +17,31 @@
   "a chrome mechanical pigeon perching quietly on a beam at the centre",
   "a narrow swaying rope-and-metal plank bridge extending to the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "High above the purple city, cool rooftop air greets you on the catwalk.",
+   "options": [
+    "Inspect glowing dish",
+    "Greet robotic pigeon",
+    "Traverse rope bridge"
+   ]
+  },
+  {
+   "scene": "Neon lights hum gently while you scan the shadowy skyline for {quest}.",
+   "options": [
+    "Adjust satellite dish",
+    "Approach metal bird",
+    "Walk wooden bridge"
+   ]
+  },
+  {
+   "scene": "Glowing billboards flicker below as you stand on the high metal platform.",
+   "options": [
+    "Check pixelated dish",
+    "Befriend little bird",
+    "Step onto bridge"
+   ]
+  }
+ ]
 }

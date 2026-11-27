@@ -16,5 +16,31 @@
   "A rusty metal toolbox sitting on the platform at the far left",
   "A glowing green lever set into the yellow crane console on the left",
   "A cheerful ticket vendor standing by a booth at the right"
+ ],
+ "variants": [
+  {
+   "scene": "Salty air rushes across the dock as the giant crane gears whir.",
+   "options": [
+    "Unlatch the chest",
+    "Tug green lever",
+    "Wave to vendor"
+   ]
+  },
+  {
+   "scene": "A bright green switch glows invitingly near the dock's wooden edge.",
+   "options": [
+    "Check rusty chest",
+    "Shift crane lever",
+    "Approach ticket booth"
+   ]
+  },
+  {
+   "scene": "Lanterns flicker warmly on the windy sky platform while you hum {tune}.",
+   "options": [
+    "Examine old toolbox",
+    "Yank bright lever",
+    "Say hello vendor"
+   ]
+  }
  ]
 }

@@ -17,5 +17,31 @@
   "a massive glowing glass prism slowly turning on its pedestal in the centre",
   "a small metal roof hatch with an iron latch on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Warm golden beams sweep across the wooden floor as you roll inside.",
+   "options": [
+    "Check telescope",
+    "Reach toward prism",
+    "Push roof hatch"
+   ]
+  },
+  {
+   "scene": "At the top, the huge glass lamp hums gently against the dusk sky.",
+   "options": [
+    "Aim brass telescope",
+    "Feel turning glass",
+    "Unlatch ceiling door"
+   ]
+  },
+  {
+   "scene": "Looking out across the quiet harbour, you still wonder where {quest} might be.",
+   "options": [
+    "Look through scope",
+    "Examine glowing lamp",
+    "Climb to hatch"
+   ]
+  }
+ ]
 }

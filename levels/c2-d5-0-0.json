@@ -17,5 +17,31 @@
   "a boxy orange delivery truck parked idling on the right",
   "a glowing glass elevator shaft with open doors on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The glowing tool hums softly as three departures idle across the busy rooftop platform.",
+   "options": [
+    "Enter brass airship",
+    "Hop into truck",
+    "Use glass elevator"
+   ]
+  },
+  {
+   "scene": "Holding your bright new wrench, you scan three paths forward for {quest}.",
+   "options": [
+    "Climb into airship",
+    "Board orange truck",
+    "Try glass elevator"
+   ]
+  },
+  {
+   "scene": "Windmills churn overhead while three different rides hum patiently along the metal deck.",
+   "options": [
+    "Board the airship",
+    "Catch the truck",
+    "Enter glowing elevator"
+   ]
+  }
+ ]
 }

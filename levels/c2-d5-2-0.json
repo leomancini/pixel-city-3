@@ -17,5 +17,31 @@
   "a cylindrical glowing glass elevator waiting with open sliding doors at centre",
   "a brass steam train puffing sweet peppermint smoke beside a platform on far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "You arrive at a busy transit deck overlooking the twilight city skyline.",
+   "options": [
+    "Enter yellow truck",
+    "Use glass elevator",
+    "Hop on train"
+   ]
+  },
+  {
+   "scene": "Whistling steam and gentle neon glows greet you on the high platform deck.",
+   "options": [
+    "Climb into truck",
+    "Ride the lift",
+    "Board vintage train"
+   ]
+  },
+  {
+   "scene": "Still searching for {quest}, you roll across the busy platform between futuristic tracks.",
+   "options": [
+    "Check parked truck",
+    "Enter glowing lift",
+    "Catch steam train"
+   ]
+  }
+ ]
 }

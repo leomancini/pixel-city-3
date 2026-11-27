@@ -17,5 +17,31 @@
   "A tiny brass message cylinder clamped to the arrow shaft centre",
   "A sturdy wooden ladder leaning against the windmill roof far left"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "A mechanical copper bird perches proudly atop the rooftop weather vane.",
+   "options": [
+    "Turn the key",
+    "Detach the tube",
+    "Descend the ladder"
+   ]
+  },
+  {
+   "scene": "High above the town, evening breeze spins the arrow under purple clouds.",
+   "options": [
+    "Crank clockwork key",
+    "Open brass cylinder",
+    "Head down ladder"
+   ]
+  },
+  {
+   "scene": "You balance on the wooden roof, still thinking about {quest} below.",
+   "options": [
+    "Twist windup key",
+    "Unclamp small tube",
+    "Climb back down"
+   ]
+  }
+ ]
 }

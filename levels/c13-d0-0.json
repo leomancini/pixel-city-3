@@ -17,5 +17,31 @@
   "a coiled yellow pulley rope hanging securely on the right platform edge",
   "a smiling painter in splattered overalls sitting idle on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Sunset paints the city purple while you balance high on the breezy scaffolding.",
+   "options": [
+    "Check pink lunchbox",
+    "Grab hanging rope",
+    "Greet masked painter"
+   ]
+  },
+  {
+   "scene": "Up on the bamboo planks, you hum {tune} above the quiet street below.",
+   "options": [
+    "Inspect bright lunchbox",
+    "Use coiled rope",
+    "Say hi painter"
+   ]
+  },
+  {
+   "scene": "Trams rumble beneath the wooden platform as evening settles over the rooftop water towers.",
+   "options": [
+    "Unlatch shining lunchbox",
+    "Descend yellow rope",
+    "Wave to painter"
+   ]
+  }
+ ]
 }

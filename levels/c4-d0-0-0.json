@@ -17,5 +17,31 @@
   "A brass spiral lift cage with open gate standing in the centre",
   "A red mountain cable tram moored to a platform on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Sparkling blue mist spirals upward into the twilight as three routes wait before you.",
+   "options": [
+    "Hop on trolley",
+    "Climb spiral lift",
+    "Ride cable tram"
+   ]
+  },
+  {
+   "scene": "Sweet scented vapors rise from the jar while you keep searching for {quest}.",
+   "options": [
+    "Take teal trolley",
+    "Step inside lift",
+    "Board red tram"
+   ]
+  },
+  {
+   "scene": "Glittering smoke twirls into the evening sky beside three bustling evening transit options.",
+   "options": [
+    "Enter green trolley",
+    "Try spiral lift",
+    "Choose red tram"
+   ]
+  }
+ ]
 }

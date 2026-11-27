@@ -17,5 +17,31 @@
   "A robotic ramen counter with steaming broths in the centre",
   "A tall, humming glass vending machine on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Steam rises from robotic cookers as synth tunes hum through your big headphones.",
+   "options": [
+    "Play claw game",
+    "Buy hot noodles",
+    "Check soda machine"
+   ]
+  },
+  {
+   "scene": "Neon lights reflect on the tiles while you continue searching for {quest}.",
+   "options": [
+    "Win a plushie",
+    "Eat robot ramen",
+    "Pick cold drink"
+   ]
+  },
+  {
+   "scene": "You hop off the bright walkway into the bustling hum of the arcade.",
+   "options": [
+    "Use prize claw",
+    "Grab steaming broth",
+    "Inspect bright cans"
+   ]
+  }
+ ]
 }

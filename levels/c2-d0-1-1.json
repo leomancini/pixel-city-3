@@ -16,5 +16,31 @@
   "a striped steam train puffing sweet pink smoke on the far left",
   "a yellow delivery truck with open tailgate parked at the centre",
   "a tall glass elevator shaft with glowing teal doors on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "Pink smoke curls over the bustling platform as travelers choose their path.",
+   "options": [
+    "Board the train",
+    "Climb into truck",
+    "Enter glass elevator"
+   ]
+  },
+  {
+   "scene": "The neon screen blinks brightly while you wonder where {quest} might be hidden.",
+   "options": [
+    "Catch steam train",
+    "Sneak in truck",
+    "Use teal elevator"
+   ]
+  },
+  {
+   "scene": "Engines rumble softly above the clouds, ready to take passengers across the sky.",
+   "options": [
+    "Try the train",
+    "Check yellow truck",
+    "Call the elevator"
+   ]
+  }
  ]
 }

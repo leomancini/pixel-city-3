@@ -17,5 +17,31 @@
   "a pair of purple prismatic goggles resting on the counter in the centre",
   "an ornate brass spiral staircase winding upward on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The museum gift shop glows with neat rows of sparkling minerals and shiny souvenirs.",
+   "options": [
+    "Touch glowing globe",
+    "Wear purple goggles",
+    "Take spiral stairs"
+   ]
+  },
+  {
+   "scene": "Neon lights reflect off curious trinkets while you keep searching for {quest}.",
+   "options": [
+    "Rotate floating orb",
+    "Inspect fun goggles",
+    "Ascend golden steps"
+   ]
+  },
+  {
+   "scene": "Bright shelves and a quiet hum welcome you into the museum shop.",
+   "options": [
+    "Tap hovering globe",
+    "Pick up goggles",
+    "Head upstairs"
+   ]
+  }
+ ]
 }

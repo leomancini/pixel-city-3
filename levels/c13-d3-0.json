@@ -17,5 +17,31 @@
   "A blank page in the player's sketchbook held underarm at centre-left",
   "A dark brick archway glowing with spinning gears on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The giraffe-crane clicks softly, dangling a bright green key from its beak.",
+   "options": [
+    "Take neon key",
+    "Draw tall crane",
+    "Walk into archway"
+   ]
+  },
+  {
+   "scene": "Gears whir as the giant brass giraffe lowers a shining green prize.",
+   "options": [
+    "Catch green key",
+    "Open sketchbook page",
+    "Head inside tunnel"
+   ]
+  },
+  {
+   "scene": "You wonder if this strange green key will help you find {quest}.",
+   "options": [
+    "Reach for key",
+    "Sketch towering giraffe",
+    "Climb gear stairs"
+   ]
+  }
+ ]
 }

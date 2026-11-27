@@ -17,5 +17,31 @@
   "a striped bicycle rickshaw with a nodding driver waiting in centre",
   "an ornate brass cage lift with sliding gate shut far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "A handy tool safe in your pocket, three ways uphill await your choice.",
+   "options": [
+    "Take the funicular",
+    "Hail the rickshaw",
+    "Call the lift"
+   ]
+  },
+  {
+   "scene": "Humming {tune}, you tap your cane and eye three ways upward through dusk.",
+   "options": [
+    "Climb the tram",
+    "Flag the pedicab",
+    "Try the elevator"
+   ]
+  },
+  {
+   "scene": "Cobblestones clatter underfoot as evening lights glow across the bustling travel square.",
+   "options": [
+    "Board the tram",
+    "Book the rickshaw",
+    "Enter the elevator"
+   ]
+  }
+ ]
 }

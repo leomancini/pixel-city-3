@@ -16,5 +16,31 @@
   "a brass steam train idling on tracks with open doors at far left",
   "a tethered blue airship gondola swinging gently up high",
   "a yellow delivery truck parked with its cabin door ajar at far right"
+ ],
+ "variants": [
+  {
+   "scene": "Steam hisses under the grand arches as three travel choices await your decision.",
+   "options": [
+    "Take the train",
+    "Reach the blimp",
+    "Hop in truck"
+   ]
+  },
+  {
+   "scene": "You arrive at the busy station, wondering if {quest} waits down the line.",
+   "options": [
+    "Try the locomotive",
+    "Catch the airship",
+    "Enter yellow van"
+   ]
+  },
+  {
+   "scene": "Baggage wheels clatter beneath glowing lanterns as travel routes depart from every level.",
+   "options": [
+    "Board steam train",
+    "Ride the gondola",
+    "Join the driver"
+   ]
+  }
  ]
 }

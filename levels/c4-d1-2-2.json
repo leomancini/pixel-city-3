@@ -16,5 +16,31 @@
   "a glass-tubed spiral lift with an open door at far left",
   "a striped mountain cable tram waiting on a roof track at centre",
   "a lantern-lit wooden river barge docked by a roof canal at far right"
+ ],
+ "variants": [
+  {
+   "scene": "You reach the rooftop platform under a purple twilight sky lit by hanging lanterns.",
+   "options": [
+    "Enter glass lift",
+    "Ride glowing tram",
+    "Hop onto barge"
+   ]
+  },
+  {
+   "scene": "Cool evening air greets you as quiet commuters gather along the rooftop canal tracks.",
+   "options": [
+    "Step inside lift",
+    "Catch roof tram",
+    "Board canal boat"
+   ]
+  },
+  {
+   "scene": "You pause on the bustling roof platform, still thinking about {quest} under starry skies.",
+   "options": [
+    "Try spiral lift",
+    "Climb aboard tram",
+    "Step onto barge"
+   ]
+  }
  ]
 }

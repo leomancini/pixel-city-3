@@ -17,5 +17,31 @@
   "the small white dog sitting on the lead in the centre",
   "the open spiral staircase winding upward at the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The busker plays a jolly accordion song and presents a shiny, glowing brass key.",
+   "options": [
+    "Grab the key",
+    "Praise the puppy",
+    "Ascend spiral stairs"
+   ]
+  },
+  {
+   "scene": "A glowing brass key sparkles in the robot busker's hand beside the winding tower.",
+   "options": [
+    "Accept glowing key",
+    "Stroke little dog",
+    "Head up stairs"
+   ]
+  },
+  {
+   "scene": "Accordion music echoes over the rooftop as the busker offers a glowing brass key.",
+   "options": [
+    "Receive shiny key",
+    "Pat white dog",
+    "Climb the steps"
+   ]
+  }
+ ]
 }

@@ -17,5 +17,31 @@
   "a glowing red lever mounted on the curved brick wall on the right",
   "a bolted brass floor hatch sitting shut in the floor on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Warm lanterns glow across the brick walls as giant gears tick like clocks.",
+   "options": [
+    "Ascend iron stairs",
+    "Flip red switch",
+    "Lift metal hatch"
+   ]
+  },
+  {
+   "scene": "Oil and warm metal fill the air as you look around for {quest}.",
+   "options": [
+    "Head upstairs",
+    "Yank red handle",
+    "Unlatch brass door"
+   ]
+  },
+  {
+   "scene": "Massive brass cogs turn silently beneath the winding iron steps above you.",
+   "options": [
+    "Climb the steps",
+    "Tug wall switch",
+    "Check floor trapdoor"
+   ]
+  }
+ ]
 }

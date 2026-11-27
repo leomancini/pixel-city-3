@@ -17,5 +17,31 @@
   "A tall yellow mobile camera crane standing in the centre",
   "A colourful fake diner storefront with open double doors on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Neon lights hum as you step onto the film set, still searching for {quest}.",
+   "options": [
+    "Approach metal robot",
+    "Scale yellow crane",
+    "Visit glowing diner"
+   ]
+  },
+  {
+   "scene": "Bright stage lights glow across the busy studio street in the evening air.",
+   "options": [
+    "Greet robot extra",
+    "Ascend tall crane",
+    "Walk into diner"
+   ]
+  },
+  {
+   "scene": "You hop out beside the golf cart into a lively outdoor film set.",
+   "options": [
+    "Question silver robot",
+    "Climb up crane",
+    "Step inside diner"
+   ]
+  }
+ ]
 }

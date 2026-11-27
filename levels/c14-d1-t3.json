@@ -34,5 +34,49 @@
    "then": "Step off at Rainmaker Rooftops",
    "next": "c14-d2"
   }
+ ],
+ "variants": [
+  {
+   "scene": "Warm lanterns hum as the clattering mail train leaves Gear Bridge behind.",
+   "options": [
+    "Check bright tag",
+    "Assist postal bot",
+    "Bribe clockwork bird"
+   ],
+   "beats": [
+    "The neon label blinks to reveal vault numbers just as the train smoothly stops at the Lost Property Depot and the doors glide open.",
+    "The busy machine clinks a bow and slips you a shiny silver parcel key right as the car brakes and the depot doors slide open.",
+    "With a cheerful click, the tin bird drops an old baggage claim ticket toward your hand as the car rolls in and the doors part."
+   ],
+   "ride_on": "You bypass the bustling platform until the line terminates. Transferring to a squeaking window-washer gondola, you rise up toward the swirling cloud tanks of Rainmaker Rooftops."
+  },
+  {
+   "scene": "Whirring gears echo through the cozy postal car rolling away from Gear Bridge.",
+   "options": [
+    "Inspect glowing parcel",
+    "Tidy letter stacks",
+    "Toss bird crumbs"
+   ],
+   "beats": [
+    "Hidden digits for a secret vault flash across the bright tag as the rattling carriage halts at the Lost Property Depot and doors open.",
+    "Your helping hand earns a small silver package key from the grateful robot just as wheels squeal and the depot doors hiss wide.",
+    "The brass dove flutters its wings, dropping an antique baggage slip into your grasp as the coach enters the depot and doors open wide."
+   ],
+   "ride_on": "Remaining aboard, you let the depot slip away until the tracks end. You hop into a rickety window-cleaner gondola, ascending high toward the misty cloud tanks of Rainmaker Rooftops."
+  },
+  {
+   "scene": "While you ponder {quest}, parcels shift gently in the evening-lit mail car.",
+   "options": [
+    "Study blue label",
+    "Sort postal letters",
+    "Offer dove treats"
+   ],
+   "beats": [
+    "Blue letters shift into vault coordinates on the parcel tag as the train pulls into the Lost Property Depot and doors slide apart.",
+    "The brass helper clicks politely, handing you an unclaimed silver parcel key as the train eases to a halt and doors pull open.",
+    "A metallic chirp sounds from above as the toy dove releases a vintage luggage ticket right when the depot doors swing wide."
+   ],
+   "ride_on": "Riding past the depot to the end of the line, you switch over to a creaking window-cleaner gondola, floating upward into the cloudy realm of Rainmaker Rooftops."
+  }
  ]
 }

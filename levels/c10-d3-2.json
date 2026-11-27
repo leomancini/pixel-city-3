@@ -17,5 +17,31 @@
   "a large glowing blueprint pinned to the wall in the centre",
   "a small bespectacled lizard artisan carving a wooden dragon head on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Curling teal steam drifts across the workshop as wood shavings gather on the floor.",
+   "options": [
+    "Check steaming kettle",
+    "Study blue blueprint",
+    "Wave to lizard"
+   ]
+  },
+  {
+   "scene": "Warm lantern light glows over dragon heads while you keep searching for {quest}.",
+   "options": [
+    "Inspect bubbling kettle",
+    "Read glowing chart",
+    "Talk to carver"
+   ]
+  },
+  {
+   "scene": "Sweet tea boils on the counter while quiet chisels tap in the rafters.",
+   "options": [
+    "Watch copper pot",
+    "View star diagram",
+    "Say hello artisan"
+   ]
+  }
+ ]
 }

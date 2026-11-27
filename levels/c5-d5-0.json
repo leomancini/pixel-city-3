@@ -17,5 +17,31 @@
   "a large horned fossil skull resting in the sand at centre",
   "a red toy shovel planted upright in the sand on the right"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "A shimmering golden key and a horned fossil rest inside the sandbox.",
+   "options": [
+    "Pick up key",
+    "Examine horned skull",
+    "Take red shovel"
+   ]
+  },
+  {
+   "scene": "Sand dust settles over ancient bones and a mysterious, sparkling antique key.",
+   "options": [
+    "Reach for key",
+    "Check out skull",
+    "Seize the shovel"
+   ]
+  },
+  {
+   "scene": "You lean over the wooden frame, spotting a gleaming key beside old fossils.",
+   "options": [
+    "Snag golden key",
+    "Study the skull",
+    "Lift metal shovel"
+   ]
+  }
+ ]
 }

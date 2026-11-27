@@ -17,5 +17,31 @@
   "a waiting bicycle rickshaw with canopy parked near the center chimney",
   "an ornate open-cage spiral staircase lift waiting at far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "A roosting pigeon gently gifts you a shiny brass token on the gravel roof.",
+   "options": [
+    "Catch night bus",
+    "Take bicycle rickshaw",
+    "Step inside lift"
+   ]
+  },
+  {
+   "scene": "Cool twilight air stirs as a friendly pigeon deposits a coin into your palm.",
+   "options": [
+    "Hop on bus",
+    "Pedal the rickshaw",
+    "Use birdcage elevator"
+   ]
+  },
+  {
+   "scene": "The token clinks in your hand while you hum {tune} under sunset clouds.",
+   "options": [
+    "Board neon bus",
+    "Mount three-wheeler bike",
+    "Enter golden lift"
+   ]
+  }
+ ]
 }

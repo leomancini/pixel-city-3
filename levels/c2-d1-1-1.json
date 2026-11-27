@@ -17,5 +17,31 @@
   "a floating brass airship tethered to a pylon on the right",
   "a transparent cylindrical glass elevator with doors open on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The great hangar doors slide back, revealing three magnificent ways to travel.",
+   "options": [
+    "Take steam train",
+    "Climb into airship",
+    "Use glass lift"
+   ]
+  },
+  {
+   "scene": "Sparks shower the yard as the giant garage opens up ahead.",
+   "options": [
+    "Ride the train",
+    "Hop in airship",
+    "Ride glass lift"
+   ]
+  },
+  {
+   "scene": "Neon lights glow as new travel routes open up for your {quest}.",
+   "options": [
+    "Catch the train",
+    "Board the airship",
+    "Step inside elevator"
+   ]
+  }
+ ]
 }

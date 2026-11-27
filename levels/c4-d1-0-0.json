@@ -16,5 +16,31 @@
   "a flat wooden river barge moored at a dock on the left",
   "a glowing spiral lift cage sitting open at the centre",
   "a striped mountain cable tram waiting on rails on the right"
+ ],
+ "variants": [
+  {
+   "scene": "Warm station lanterns glow over the canal, the iron lift, and the tram rails.",
+   "options": [
+    "Board the barge",
+    "Step inside lift",
+    "Ride the tram"
+   ]
+  },
+  {
+   "scene": "Your map tucked away, three buzzing routes across the city call to you.",
+   "options": [
+    "Hop on boat",
+    "Try spiral elevator",
+    "Climb aboard tram"
+   ]
+  },
+  {
+   "scene": "Evening settles over the bustling station as you wonder where {quest} might be.",
+   "options": [
+    "Take green barge",
+    "Enter golden lift",
+    "Catch red tram"
+   ]
+  }
  ]
 }

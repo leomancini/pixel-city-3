@@ -17,5 +17,31 @@
   "a brass book cart lift with an open gate on the right",
   "a glowing neon night bus idling at the far right stop"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "You hold the shiny ring as sparkles pop from the little booth.",
+   "options": [
+    "Pedal the rickshaw",
+    "Enter library lift",
+    "Hop on bus"
+   ]
+  },
+  {
+   "scene": "The machine clinks with glittery tokens while carnival lights twinkle under the night sky.",
+   "options": [
+    "Choose striped rickshaw",
+    "Step onto lift",
+    "Catch neon bus"
+   ]
+  },
+  {
+   "scene": "A prize sparkles from the exit booth as you wonder about {quest}.",
+   "options": [
+    "Ride the trike",
+    "Try book lift",
+    "Take glowing bus"
+   ]
+  }
+ ]
 }

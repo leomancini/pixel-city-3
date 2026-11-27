@@ -17,5 +17,31 @@
   "a striped canal water taxi bobbing at a low dock on the right",
   "a sleek red monorail car idling at an elevated platform far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The glowing nib sparks softly as you hum {tune} beside the water.",
+   "options": [
+    "Take brass lift",
+    "Step onto boat",
+    "Climb to train"
+   ]
+  },
+  {
+   "scene": "Cool evening air swirls as your glass pen glows by the twilight dock.",
+   "options": [
+    "Enter birdcage elevator",
+    "Hop into boat",
+    "Take red train"
+   ]
+  },
+  {
+   "scene": "The glass nib shines bright while city engines hum across the evening canal.",
+   "options": [
+    "Use brass lift",
+    "Board wooden boat",
+    "Ride high monorail"
+   ]
+  }
+ ]
 }

@@ -17,5 +17,31 @@
   "A circular brass dial set below the glass case on the far right.",
   "The revolving carousel with painted wooden horses visible outside on the far left."
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The glowing orb shines as a printed slip slides out from the booth.",
+   "options": [
+    "Take paper slip",
+    "Twist brass dial",
+    "Head toward carousel"
+   ]
+  },
+  {
+   "scene": "You hum {tune} as the fortune machine buzzes on the wooden boardwalk.",
+   "options": [
+    "Grab white card",
+    "Spin side dial",
+    "Visit the carousel"
+   ]
+  },
+  {
+   "scene": "Curious fairgoers watch the turbaned figure wave his robotic hands over the sphere.",
+   "options": [
+    "Check printed fortune",
+    "Adjust lower dial",
+    "Approach the horses"
+   ]
+  }
+ ]
 }

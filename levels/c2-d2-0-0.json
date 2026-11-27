@@ -16,5 +16,31 @@
   "a moored brass airship waiting beside an open hatch, up high",
   "a yellow robot delivery truck idling with its ramp down, left",
   "a pink-striped steam train puffing sweet vapour, far right"
+ ],
+ "variants": [
+  {
+   "scene": "The ornate transit doors swing open wide into the bustling depot.",
+   "options": [
+    "Take the airship",
+    "Hop inside truck",
+    "Board the train"
+   ]
+  },
+  {
+   "scene": "Golden doors open, humming with steam, machinery, and sweet adventure.",
+   "options": [
+    "Climb to blimp",
+    "Enter yellow van",
+    "Ride steam locomotive"
+   ]
+  },
+  {
+   "scene": "You roll into the station, still wondering where to seek {quest}.",
+   "options": [
+    "Board upper zeppelin",
+    "Check repair truck",
+    "Take purple train"
+   ]
+  }
  ]
 }

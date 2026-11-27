@@ -34,5 +34,49 @@
    "then": "Step off at Midnight Radio Repair",
    "next": "c14-d5"
   }
+ ],
+ "variants": [
+  {
+   "scene": "Cozy lamps hum inside the wooden tram while a brass automaton offers sparkling stars.",
+   "options": [
+    "Accept brass gift",
+    "Check leather bag",
+    "Watch night sky"
+   ],
+   "beats": [
+    "The twinkling token hums pleasantly against your fingers, ready to unlock the upper platform as the funicular eases into its stall and the carriage doors slide apart.",
+    "Inside the unbuckled satchel you discover folded comet maps to pocket quickly, right as the ride reaches Comet Watch Rooftop and the wooden doors pull open.",
+    "Raising the brass scope to the glass, you spot a faint emerald streak across the skyline right as the tram docks and the exit doors roll open."
+   ],
+   "ride_on": "Rumbling beyond the platform, a stray ember brushes your corduroy jacket before the switch tracks. You transfer into a sputtering sidecar motorbike bound for Midnight Radio Repair."
+  },
+  {
+   "scene": "Gears whir softly as you ride uphill, humming {tune} under glowing carriage lamps.",
+   "options": [
+    "Claim star token",
+    "Open forgotten satchel",
+    "Look outside window"
+   ],
+   "beats": [
+    "The bright little star tinkles warmly in your hand, releasing the hatch above just as the funicular brakes at the summit and the entryway opens.",
+    "You slide out crisp paper star maps from beneath the empty seat, just as the tram clatters into Comet Watch Rooftop and its heavy doors slide wide.",
+    "Your telescope brings the greenish tail of the comet into view through the archway, just as the carriage halts and the doors slide back smoothly."
+   ],
+   "ride_on": "Sailing past the dark roof stop, a bright spark grazes your sleeve near the rail switch. You leap onto a waiting sidecar motorbike that putters to Midnight Radio Repair."
+  },
+  {
+   "scene": "Warm lamplight fills the climbing carriage while a tin robot hands out starry shapes.",
+   "options": [
+    "Take glowing star",
+    "Search lost satchel",
+    "Gaze through glass"
+   ],
+   "beats": [
+    "The chiming star shines in your grasp, ready for the overhead gate just as the funicular settles at the landing and the double doors open.",
+    "You unfasten the abandoned satchel to retrieve detailed comet charts, tucking them away safely as the tram stops at Comet Watch Rooftop and slides open.",
+    "Peering past the arched frame, your telescope catches a pale green comet trail before the car glides to a stop and the wide doors open."
+   ],
+   "ride_on": "Coasting beyond the landing, a flick of static hits your coat at the railway switch. You board a noisy sidecar motorbike that putters straight toward Midnight Radio Repair."
+  }
  ]
 }

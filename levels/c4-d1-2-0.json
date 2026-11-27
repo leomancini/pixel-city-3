@@ -16,5 +16,31 @@
   "a glass cable tram hanging waiting on rails at far left",
   "a wooden river barge moored at a dock door on the left",
   "a caged brass spiral lift standing open at the far right"
+ ],
+ "variants": [
+  {
+   "scene": "Holding the brass key, you ponder three glowing ways forward across the canal.",
+   "options": [
+    "Enter cable car",
+    "Step onto barge",
+    "Use caged lift"
+   ]
+  },
+  {
+   "scene": "Lanterns hum softly, lighting paths by air, gentle water, or brass cage.",
+   "options": [
+    "Climb into tram",
+    "Board wooden boat",
+    "Try spiral elevator"
+   ]
+  },
+  {
+   "scene": "You adjust your satchel, still hoping for clues about {quest} along your journey.",
+   "options": [
+    "Catch overhead tram",
+    "Hop on barge",
+    "Enter spiral lift"
+   ]
+  }
  ]
 }

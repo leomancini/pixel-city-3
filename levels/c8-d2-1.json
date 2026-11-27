@@ -17,5 +17,31 @@
   "an intricate parchment map tucked beneath the gent's right metallic arm",
   "a ticking golden pocket watch dangling from the gent's shiny bronze vest"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "A polite automaton in a bowler hat offers you three odd treasures.",
+   "options": [
+    "Take winged key",
+    "Check paper map",
+    "Examine pocket watch"
+   ]
+  },
+  {
+   "scene": "The multi-armed clockwork stranger tips his hat, holding out curious gear.",
+   "options": [
+    "Grab flying key",
+    "Study the map",
+    "View the watch"
+   ]
+  },
+  {
+   "scene": "Whirring gears click softly as the friendly brass gent shows his wares.",
+   "options": [
+    "Choose golden key",
+    "Unroll paper map",
+    "Check ticking watch"
+   ]
+  }
+ ]
 }

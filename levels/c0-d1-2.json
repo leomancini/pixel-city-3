@@ -16,5 +16,31 @@
   "A round metal trapdoor lying flat in the soil on the right.",
   "A tall bamboo trellis leaning on the far left against the wall.",
   "The freshly uprooted giant purple radish lying in the centre."
+ ],
+ "variants": [
+  {
+   "scene": "The enormous radish pops out, uncovering a mysterious round metal door.",
+   "options": [
+    "Lift metal trapdoor",
+    "Scale bamboo trellis",
+    "Nibble giant radish"
+   ]
+  },
+  {
+   "scene": "Fresh dirt flies as the massive vegetable uncovers an old iron hatch.",
+   "options": [
+    "Unlatch metal trapdoor",
+    "Ascend bamboo trellis",
+    "Taste giant radish"
+   ]
+  },
+  {
+   "scene": "Sweet honey scents the rooftop breeze after pulling up the huge radish.",
+   "options": [
+    "Pry metal trapdoor",
+    "Scramble up trellis",
+    "Chomp giant radish"
+   ]
+  }
  ]
 }

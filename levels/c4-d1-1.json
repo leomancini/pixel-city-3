@@ -16,5 +16,31 @@
   "the bright silver thread spool held in the smiling weaver's outstretched hand on the right",
   "a small wooden trapdoor set flat into the stone floor on the left",
   "a winding iron staircase ascending toward a leafy balcony at the far right"
+ ],
+ "variants": [
+  {
+   "scene": "The friendly weaver hands you a spool that shines with bright silver light.",
+   "options": [
+    "Take the spool",
+    "Lift the hatch",
+    "Take iron stairs"
+   ]
+  },
+  {
+   "scene": "Beside his wooden loom, the weaver presents a bobbin of gleaming silver thread.",
+   "options": [
+    "Receive the spool",
+    "Inspect the trapdoor",
+    "Ascend winding staircase"
+   ]
+  },
+  {
+   "scene": "Under the glass ceiling, the kind weaver offers his glowing silver spool.",
+   "options": [
+    "Grab the spool",
+    "Open wooden hatch",
+    "Climb iron steps"
+   ]
+  }
  ]
 }

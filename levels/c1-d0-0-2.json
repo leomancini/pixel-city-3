@@ -16,5 +16,31 @@
   "a green bicycle rickshaw parked with an empty passenger bench on the far left",
   "a sleek red monorail car idling at an open door up high",
   "a wooden funicular carriage waiting on slanted rails on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "The shiny brass machine clinks, dispensing fresh tickets for your next journey.",
+   "options": [
+    "Board green rickshaw",
+    "Climb to monorail",
+    "Enter wooden funicular"
+   ]
+  },
+  {
+   "scene": "Paper tickets flutter from the meter while you search for {quest}.",
+   "options": [
+    "Take bicycle rickshaw",
+    "Ride red monorail",
+    "Try sloped funicular"
+   ]
+  },
+  {
+   "scene": "The brass post spits out transit passes by the dusk-lit canal.",
+   "options": [
+    "Hop in rickshaw",
+    "Catch overhead monorail",
+    "Ride hillside funicular"
+   ]
+  }
  ]
 }

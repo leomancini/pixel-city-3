@@ -16,5 +16,31 @@
   "an open floor hatch glowing with blue light in the centre floor",
   "a yellow fish-food dispenser standing quietly on the left side",
   "a wide submerged glass archway open on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "Pink jellyfish swirl as a floor trapdoor swings open with cyan light.",
+   "options": [
+    "Check blue hatch",
+    "Examine yellow dispenser",
+    "Visit glass tunnel"
+   ]
+  },
+  {
+   "scene": "Bright pink jellies glow beside an opened trapdoor beaming bright blue.",
+   "options": [
+    "Head inside hatch",
+    "View treat machine",
+    "Pass right arch"
+   ]
+  },
+  {
+   "scene": "The neon jellyfish dance, revealing a secret floor doorway full of light.",
+   "options": [
+    "Explore lit hatch",
+    "Study yellow machine",
+    "Glide toward tunnel"
+   ]
+  }
  ]
 }

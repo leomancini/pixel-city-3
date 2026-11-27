@@ -16,5 +16,31 @@
   "A tiny brass beetle glowing green, sitting right of the parcel. ",
   "A polished brass calling horn hanging on the wall far left.",
   "A sturdy iron ladder fixed to the wall on the far right."
+ ],
+ "variants": [
+  {
+   "scene": "A tiny clockwork beetle glows brightly on the wooden crate beside you.",
+   "options": [
+    "Grab the beetle",
+    "Sound the horn",
+    "Ascend iron ladder"
+   ]
+  },
+  {
+   "scene": "Soft green light pulses from a ticking mechanical bug on the wooden box.",
+   "options": [
+    "Take glowing bug",
+    "Blow wall horn",
+    "Use right ladder"
+   ]
+  },
+  {
+   "scene": "Pigeons coo overhead while a small brass beetle clicks and hums with light.",
+   "options": [
+    "Catch tiny beetle",
+    "Honk brass horn",
+    "Climb tall ladder"
+   ]
+  }
  ]
 }

@@ -16,5 +16,31 @@
   "a yellow street tram to Clocktower Square waiting with open doors on the left",
   "a blue harbour ferry to Neon Harbor docked at water in the centre",
   "a sleek silver subway train to Undercity Market idling on the right"
+ ],
+ "variants": [
+  {
+   "scene": "Below the trapdoor, commuters hurry between rails, ripples, and roaring subway tunnels.",
+   "options": [
+    "Take yellow tram",
+    "Step onto boat",
+    "Hop on subway"
+   ]
+  },
+  {
+   "scene": "You drop into a secret terminal, humming {tune} as engines rumble around you.",
+   "options": [
+    "Climb into tram",
+    "Board blue ferry",
+    "Enter silver train"
+   ]
+  },
+  {
+   "scene": "A canal cuts between busy platforms under the glowing underground signs.",
+   "options": [
+    "Try the tram",
+    "Sail on ferry",
+    "Ride the metro"
+   ]
+  }
  ]
 }

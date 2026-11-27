@@ -17,5 +17,31 @@
   "a glowing glass elevator with sliding doors open wide at the centre",
   "a striped airship moored to a gantry platform on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The great claw drips pink goo as three huge doors slide wide open.",
+   "options": [
+    "Climb in truck",
+    "Take the lift",
+    "Catch the airship"
+   ]
+  },
+  {
+   "scene": "Sweet candy smells rush outside toward three opened escape routes across the warehouse.",
+   "options": [
+    "Try the truck",
+    "Use the elevator",
+    "Reach the blimp"
+   ]
+  },
+  {
+   "scene": "You wonder if {quest} waits beyond the truck, the lift, or the moored airship.",
+   "options": [
+    "Head inside truck",
+    "Ride glowing lift",
+    "Visit the airship"
+   ]
+  }
+ ]
 }

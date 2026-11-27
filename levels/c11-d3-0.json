@@ -17,5 +17,31 @@
   "a glowing cathode-ray karaoke monitor displaying glowing text in the centre",
   "a sliding glass window latched shut on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "A spinning disco ball throws bright pink beams across the cosy karaoke lounge.",
+   "options": [
+    "Take gold mic",
+    "Read karaoke screen",
+    "Slide window open"
+   ]
+  },
+  {
+   "scene": "Pink beams sweep over the couches while your mind hums with {tune}.",
+   "options": [
+    "Claim golden microphone",
+    "Check TV lyrics",
+    "Unlatch back window"
+   ]
+  },
+  {
+   "scene": "You walk inside under spinning pink lights cast across the purple rug.",
+   "options": [
+    "Hold gold mic",
+    "View retro screen",
+    "Unlock side window"
+   ]
+  }
+ ]
 }

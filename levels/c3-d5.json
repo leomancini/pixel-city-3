@@ -17,5 +17,31 @@
   "a brass pastry robot kneading dough under an awning on the right",
   "an iron ladder fixed up high above the center bakery window"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Warm bread aromas greet you as you arrive while humming {tune}.",
+   "options": [
+    "Check milk float",
+    "Watch pastry robot",
+    "Scale roof ladder"
+   ]
+  },
+  {
+   "scene": "You arrive outside the brightly lit bakery beneath the purple twilight sky.",
+   "options": [
+    "Search milk float",
+    "Greet pastry robot",
+    "Climb the ladder"
+   ]
+  },
+  {
+   "scene": "Neon signs glow softly along the street as fresh loaves bake inside.",
+   "options": [
+    "Examine milk float",
+    "See pastry robot",
+    "Use roof ladder"
+   ]
+  }
+ ]
 }

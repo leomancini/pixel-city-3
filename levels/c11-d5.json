@@ -17,5 +17,31 @@
   "a brass four-armed robot drummer seated at a drum kit in the centre",
   "a pulsing neon sound-wave light board on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "You leave the metal lift as a brass robot rattles out a funky rhythm.",
+   "options": [
+    "Slide mixer faders",
+    "Greet robot drummer",
+    "Tap glowing screen"
+   ]
+  },
+  {
+   "scene": "Humming {tune}, you step out into the cozy rooftop studio under the dusk sky.",
+   "options": [
+    "Adjust mixing console",
+    "Salute drum robot",
+    "Check waveform display"
+   ]
+  },
+  {
+   "scene": "The elevator gates part, revealing a lively jam session above the city streets.",
+   "options": [
+    "Fiddle with dials",
+    "Cheer brass drummer",
+    "Inspect audio visualizer"
+   ]
+  }
+ ]
 }

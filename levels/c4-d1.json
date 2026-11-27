@@ -16,5 +16,31 @@
   "a stack of bright blue cloth bolts sitting untended on the far left",
   "an elderly weaver working at a wooden pedal loom on the right",
   "a hanging brass bell fixed to a patterned archway on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "The arched glass roof glows as you search for {quest} among the stalls.",
+   "options": [
+    "Touch blue fabric",
+    "Say hello weaver",
+    "Chime the bell"
+   ]
+  },
+  {
+   "scene": "Warm lamplight fills the grand hall with the rhythmic clatter of busy looms.",
+   "options": [
+    "Check blue textiles",
+    "Approach the weaver",
+    "Tap brass bell"
+   ]
+  },
+  {
+   "scene": "You leave the vintage trolley behind to explore the cozy covered arcade.",
+   "options": [
+    "Examine blue rolls",
+    "Talk to weaver",
+    "Sound the bell"
+   ]
+  }
  ]
 }

@@ -17,5 +17,31 @@
   "a spinning brass rooster weather vane perched up high on a windmill",
   "a long clothesline strung with fluttering striped quilts on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The evening breeze turns the giant wooden windmill above the quiet rooftop.",
+   "options": [
+    "Tip the cyclist",
+    "Check brass rooster",
+    "Examine hanging blankets"
+   ]
+  },
+  {
+   "scene": "Your rickshaw ride ends on a rooftop, humming {tune} under the purple sky.",
+   "options": [
+    "Hand driver coins",
+    "View spinning rooster",
+    "Check clothesline quilts"
+   ]
+  },
+  {
+   "scene": "You hop out beside potted plants as clean laundry flaps in the dusk air.",
+   "options": [
+    "Settle rickshaw fare",
+    "Study golden rooster",
+    "Look behind laundry"
+   ]
+  }
+ ]
 }

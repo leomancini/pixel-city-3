@@ -17,5 +17,31 @@
   "a striped ferris wheel gondola cabin waiting open, up high above centre",
   "a wheeled wooden book cart sitting beside open lift gates, far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Fresh bread smells fill the bakery while mysterious glowing dials spin on the wall.",
+   "options": [
+    "Take spiral steps",
+    "Hop inside gondola",
+    "Push book trolley"
+   ]
+  },
+  {
+   "scene": "The friendly robot baker greets you as warm oven air warms your cheeks.",
+   "options": [
+    "Ascend brass stairs",
+    "Enter striped cabin",
+    "Roll book cart"
+   ]
+  },
+  {
+   "scene": "Bags of flour rest below glowing spirals as you search for {quest}.",
+   "options": [
+    "Climb ornate stairway",
+    "Catch colorful gondola",
+    "Steer mobile bookcase"
+   ]
+  }
+ ]
 }

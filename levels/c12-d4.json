@@ -17,5 +17,31 @@
   "a wheeled brass robot holding a water can in the centre",
   "an arched wooden doorway lined with glowing green moss on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The lift doors open softly onto an earthy stone vault draped in ferns.",
+   "options": [
+    "Check shining drawer",
+    "Wave at robot",
+    "Walk through archway"
+   ]
+  },
+  {
+   "scene": "You arrive below, quietly humming {tune} beside the big seed cabinet.",
+   "options": [
+    "Slide drawer open",
+    "Say hello robot",
+    "Head inside doorway"
+   ]
+  },
+  {
+   "scene": "Warm lamplight glows over ancient brick arches and deep twisting roots below.",
+   "options": [
+    "Pull glowing handle",
+    "Bow to robot",
+    "Step through doorway"
+   ]
+  }
+ ]
 }

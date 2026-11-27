@@ -17,5 +17,31 @@
   "An elderly robotic gardener sips tea beside a table on the right",
   "A domed glass greenhouse with an open roof vent stands far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The rainbow origami crane glides gently across the twilight rooftop garden.",
+   "options": [
+    "Splash into fountain",
+    "Wave to robot",
+    "Reach for greenhouse"
+   ]
+  },
+  {
+   "scene": "Dusk wind rushes past as you soar above the quiet city roof.",
+   "options": [
+    "Land near fountain",
+    "Say hello robot",
+    "Jump toward glass"
+   ]
+  },
+  {
+   "scene": "You float high over grass patches while {tune} hums in your head.",
+   "options": [
+    "Aim for fountain",
+    "Call to drinker",
+    "Hop onto greenhouse"
+   ]
+  }
+ ]
 }

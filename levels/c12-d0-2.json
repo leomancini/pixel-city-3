@@ -17,5 +17,31 @@
   "A glistening wet cobblestone ramp leading down on the far right.",
   "Three burlap fertilizer sacks stacked beside a wooden rake on the far left."
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The brass drone hums musical notes, spraying gentle mist over your apron.",
+   "options": [
+    "Turn brass dial",
+    "Walk down ramp",
+    "Inspect stacked sacks"
+   ]
+  },
+  {
+   "scene": "Cool droplets spray as the tiny automaton plays {tune} in your grasp.",
+   "options": [
+    "Tinker with drone",
+    "Head down slope",
+    "Examine soil bags"
+   ]
+  },
+  {
+   "scene": "The little flyer buzzes softly, puffing fragrant mist beside your leafy bicycle.",
+   "options": [
+    "Reset drone valve",
+    "Trace wet path",
+    "Search burlap sacks"
+   ]
+  }
+ ]
 }

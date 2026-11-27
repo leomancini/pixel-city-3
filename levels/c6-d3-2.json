@@ -17,5 +17,31 @@
   "a scratched golden label stamped with secret coordinates in the centre",
   "a heavy notched brass spindle sticking out on the right"
  ],
- "view": "close"
+ "view": "close",
+ "variants": [
+  {
+   "scene": "Green lights pulse through copper pathways across this giant, mysterious record.",
+   "options": [
+    "Follow glowing traces",
+    "Inspect gold centre",
+    "Turn brass spindle"
+   ]
+  },
+  {
+   "scene": "The oversized vinyl hums under your hands with strange electronic patterns.",
+   "options": [
+    "Touch green conduits",
+    "Study golden core",
+    "Rotate brass knob"
+   ]
+  },
+  {
+   "scene": "Bright circuit paths glow green while you softly hum {tune}.",
+   "options": [
+    "Track light paths",
+    "Decipher middle disc",
+    "Twist metal gear"
+   ]
+  }
+ ]
 }

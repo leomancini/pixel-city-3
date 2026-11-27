@@ -16,5 +16,31 @@
   "a tiny glowing brass key resting on the stone ground at centre",
   "an unrolled constellation map held by the surprised astronomer on the left",
   "a heavy arched wooden door set into the copper dome on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "A shiny golden key glints on the path right by your cane.",
+   "options": [
+    "Grab the key",
+    "Read star map",
+    "Open wooden door"
+   ]
+  },
+  {
+   "scene": "Humming {tune}, you spot a sparkling key upon the hilltop path.",
+   "options": [
+    "Collect glowing key",
+    "Check star chart",
+    "Visit dome interior"
+   ]
+  },
+  {
+   "scene": "A golden key sparkles on the dirt as the astronomer clutches his charts.",
+   "options": [
+    "Pick up key",
+    "Study the chart",
+    "Go inside dome"
+   ]
+  }
  ]
 }

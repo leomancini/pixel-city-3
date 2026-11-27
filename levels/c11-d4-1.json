@@ -17,5 +17,31 @@
   "a squat chrome cleaning droid sweeping silent laser rings on far left",
   "a striped spiralling candy kiosk with an open sliding hatch on far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Warm neon jelly bubbles up, arching high above the shiny mall floor.",
+   "options": [
+    "Ascend slime bridge",
+    "Signal sweeping bot",
+    "Visit candy kiosk"
+   ]
+  },
+  {
+   "scene": "The green fountain springs skyward while {tune} pulses through your big headphones.",
+   "options": [
+    "Scale glowing arch",
+    "Beep at droid",
+    "Check striped kiosk"
+   ]
+  },
+  {
+   "scene": "Fizzy green goo arches upward like a glowing ramp toward the second floor.",
+   "options": [
+    "Hop onto slime",
+    "Wave down droid",
+    "Browse candy kiosk"
+   ]
+  }
+ ]
 }

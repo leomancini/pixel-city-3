@@ -17,5 +17,31 @@
   "a green-canopied pedal rickshaw and driver waiting at the centre gate",
   "an open brass cage lift with polished iron levers on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Hissing steam clears, revealing three arched gateways ready to carry you onward.",
+   "options": [
+    "Board steep tram",
+    "Hail green rickshaw",
+    "Step inside elevator"
+   ]
+  },
+  {
+   "scene": "Under warm brick arches, three cozy ways forward wait for your next journey.",
+   "options": [
+    "Climb into funicular",
+    "Choose pedal rickshaw",
+    "Enter brass lift"
+   ]
+  },
+  {
+   "scene": "Lanterns glow beside three open tunnel routes as you search for {quest}.",
+   "options": [
+    "Catch red tram",
+    "Take cycle carriage",
+    "Use golden elevator"
+   ]
+  }
+ ]
 }

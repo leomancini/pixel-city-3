@@ -17,5 +17,31 @@
   "a tall transparent glass elevator with open sliding doors in the centre",
   "a brass steam train puffing sweet pink smoke at the platform on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Pink smoke drifts over the busy platform as three different departures await you.",
+   "options": [
+    "Climb into truck",
+    "Take glass elevator",
+    "Board steam train"
+   ]
+  },
+  {
+   "scene": "Whistles blow and engines hum while you search the busy station for {quest}.",
+   "options": [
+    "Roll up ramp",
+    "Try glowing lift",
+    "Hop on locomotive"
+   ]
+  },
+  {
+   "scene": "A truck, an elevator, and a puffing train stand ready along the concourse.",
+   "options": [
+    "Check cargo truck",
+    "Use open elevator",
+    "Ride puffing train"
+   ]
+  }
+ ]
 }

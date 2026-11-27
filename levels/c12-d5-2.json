@@ -17,5 +17,31 @@
   "a giant glowing blue orchid dangling down, hanging up high",
   "a mossy stone archway leading out into drizzle, on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The steaming copper sphere leads your bicycle beneath a huge, glowing blue orchid.",
+   "options": [
+    "Inspect steaming droid",
+    "Reach glowing flower",
+    "Pass mossy arch"
+   ]
+  },
+  {
+   "scene": "You push your bicycle through warm mist as you search for {quest}.",
+   "options": [
+    "Pat round bot",
+    "Gather radiant bloom",
+    "Step through arch"
+   ]
+  },
+  {
+   "scene": "Cool rain falls outside while bright blue petals illuminate the cozy glass conservatory.",
+   "options": [
+    "Touch copper shell",
+    "Snip glowing orchid",
+    "Walk into rain"
+   ]
+  }
+ ]
 }

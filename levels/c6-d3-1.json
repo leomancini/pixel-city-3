@@ -17,5 +17,31 @@
   "oversized padded yellow headphones hanging from a hook in the centre",
   "a glowing frequencies tuner with a brass dial on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The warm pink booth hums quietly beneath a glowing ceiling record.",
+   "options": [
+    "Spin the vinyl",
+    "Wear the headphones",
+    "Adjust radio dial"
+   ]
+  },
+  {
+   "scene": "Inside the pod, you wonder if {quest} waits outside among the crates.",
+   "options": [
+    "Start turntable",
+    "Try on headphones",
+    "Twist gold knob"
+   ]
+  },
+  {
+   "scene": "Soft neon light fills this quiet little pod packed with audio gear.",
+   "options": [
+    "Play black disc",
+    "Grab big headphones",
+    "Tune the radio"
+   ]
+  }
+ ]
 }

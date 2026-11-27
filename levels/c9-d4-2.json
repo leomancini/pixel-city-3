@@ -17,5 +17,31 @@
   "a round glass elevator with open doors on the far right",
   "a blue flashing speed-booster ramp on the far left"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The friendly drone chimes softly, dropping a bright glowing pass on the deck.",
+   "options": [
+    "Grab shiny card",
+    "Step inside elevator",
+    "Skate up ramp"
+   ]
+  },
+  {
+   "scene": "A shiny card clatters onto the metal walkway after your drone high-five.",
+   "options": [
+    "Take neon card",
+    "Walk to elevator",
+    "Hit boost ramp"
+   ]
+  },
+  {
+   "scene": "Cool rooftop air breezes past as a glowing card drops before your skates.",
+   "options": [
+    "Pick up card",
+    "Board glass elevator",
+    "Zoom up ramp"
+   ]
+  }
+ ]
 }

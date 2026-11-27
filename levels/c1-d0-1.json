@@ -16,5 +16,31 @@
   "A robotic barista with steam pipes whistling at the tea counter on the far left.",
   "A checkered board sitting untouched on a low wooden table in the centre.",
   "A narrow wooden spiral staircase leading upward at the far right."
+ ],
+ "variants": [
+  {
+   "scene": "A friendly brass automaton whistles steam beside rows of glowing lanterns.",
+   "options": [
+    "Wave to robot",
+    "Inspect the game",
+    "Climb spiral steps"
+   ]
+  },
+  {
+   "scene": "Lantern light warms the canal house as kettles bubble by the dock.",
+   "options": [
+    "Approach the counter",
+    "Check game board",
+    "Head upstairs"
+   ]
+  },
+  {
+   "scene": "Warm tea aromas drift while you wonder if {quest} might be nearby.",
+   "options": [
+    "Visit tea automaton",
+    "Sit at table",
+    "Ascend wooden stairs"
+   ]
+  }
  ]
 }

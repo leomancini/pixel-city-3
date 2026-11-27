@@ -17,5 +17,31 @@
   "A giant pink holographic cat strolling past along the left.",
   "A glowing glass transit tube elevator waiting on the far right."
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The yellow chicken drone lands gently on your sleeve as the neon cat prowls.",
+   "options": [
+    "Untie the note",
+    "Chase neon cat",
+    "Enter glass lift"
+   ]
+  },
+  {
+   "scene": "Cool river mist swirls while your robotic bird friend rests on your arm.",
+   "options": [
+    "Read tiny scroll",
+    "Trail pink hologram",
+    "Ride glass elevator"
+   ]
+  },
+  {
+   "scene": "Rainbow fountain water sprays while your mechanical chick delivers news of {quest}.",
+   "options": [
+    "Grab mini letter",
+    "Track giant feline",
+    "Board glass lift"
+   ]
+  }
+ ]
 }

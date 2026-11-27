@@ -17,5 +17,31 @@
   "an open brass book cart lift with shelves and chains on the right",
   "a sleek purple night bus parked inside a wide roll-up tunnel on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Hidden transit doors slide open beneath the grand library chandeliers.",
+   "options": [
+    "Enter glowing gondola",
+    "Take book elevator",
+    "Board purple bus"
+   ]
+  },
+  {
+   "scene": "Three strange rides wait ready around the glowing pedestal.",
+   "options": [
+    "Hop into gondola",
+    "Use shelf lift",
+    "Climb on bus"
+   ]
+  },
+  {
+   "scene": "Humming engines echo as you wonder where to find {quest}.",
+   "options": [
+    "Try neon gondola",
+    "Step onto lift",
+    "Take city bus"
+   ]
+  }
+ ]
 }

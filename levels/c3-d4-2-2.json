@@ -17,5 +17,31 @@
   "a vintage electric milk float idling at centre with glass bottles",
   "an ornate ferris wheel gondola waiting at a platform on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Parchment safely in your bag, three curious rides wait along the evening street.",
+   "options": [
+    "Take bicycle rickshaw",
+    "Hop on float",
+    "Climb into gondola"
+   ]
+  },
+  {
+   "scene": "You check your map as carnival lights twinkle past the waiting street traffic.",
+   "options": [
+    "Board pedal rickshaw",
+    "Catch milk float",
+    "Step inside gondola"
+   ]
+  },
+  {
+   "scene": "Outside, you wonder if any of these unusual rides lead toward {quest}.",
+   "options": [
+    "Hail bicycle rickshaw",
+    "Ride milk float",
+    "Try ornate gondola"
+   ]
+  }
+ ]
 }

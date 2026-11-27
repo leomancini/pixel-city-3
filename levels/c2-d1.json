@@ -16,5 +16,31 @@
   "a wobbly round yellow droid juggling metal cogs on the left",
   "a wooden workbench covered in glowing tubes and sparking wires at the centre",
   "an overflowing green bin full of shiny gears on the right"
+ ],
+ "variants": [
+  {
+   "scene": "Cables hiss and neon signs glow as you roll into the busy yard.",
+   "options": [
+    "Catch flying gears",
+    "Check sparking table",
+    "Dig through scrap"
+   ]
+  },
+  {
+   "scene": "You arrive at the repair yard while humming {tune} under the purple sky.",
+   "options": [
+    "Steady yellow bot",
+    "Examine glowing bench",
+    "Rifle through bin"
+   ]
+  },
+  {
+   "scene": "Sparks shower the dusk air as you enter the noisy robotic workshop.",
+   "options": [
+    "Assist juggling droid",
+    "Study work table",
+    "Sort gear tub"
+   ]
+  }
  ]
 }

@@ -17,5 +17,31 @@
   "a swinging striped gondola suspended outside the wide open window at centre",
   "a mechanical book-cart lift platform waiting open on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "A shimmering trail glimmers on the floorboards, pointing toward the twilight skyline.",
+   "options": [
+    "Take milk float",
+    "Enter striped gondola",
+    "Step onto lift"
+   ]
+  },
+  {
+   "scene": "Luminous lines curl across the platform, hinting at where {quest} might be.",
+   "options": [
+    "Hop into float",
+    "Catch swinging gondola",
+    "Use platform lift"
+   ]
+  },
+  {
+   "scene": "Faint glowing paths illuminate three different exits into the cool evening air.",
+   "options": [
+    "Drive electric float",
+    "Hop in gondola",
+    "Ride cart lift"
+   ]
+  }
+ ]
 }

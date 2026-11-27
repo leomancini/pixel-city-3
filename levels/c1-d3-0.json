@@ -16,5 +16,31 @@
   "A blue porcelain teapot on the food cart at the far left",
   "A golden dangling string hanging from the goldfish kite up high",
   "The brightly glowing lantern workshop doorway standing open on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "The steaming dumpling warms your mouth with sweet chili and garlic.",
+   "options": [
+    "Sip herbal tea",
+    "Pull fish cord",
+    "Enter warm shop"
+   ]
+  },
+  {
+   "scene": "The rich spice tingles on your tongue under the glowing lantern street.",
+   "options": [
+    "Pour hot tea",
+    "Yank hanging string",
+    "Visit lantern workshop"
+   ]
+  },
+  {
+   "scene": "Chewing happily, you wonder if {quest} might be hidden down this cozy alley.",
+   "options": [
+    "Taste blue brew",
+    "Grab glowing string",
+    "Walk inside shop"
+   ]
+  }
  ]
 }

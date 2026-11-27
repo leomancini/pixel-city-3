@@ -16,5 +16,31 @@
   "a wind-up brass fish bobbing in the wooden tub on the left",
   "a bath attendant holding folded towels standing right of the tub",
   "carved stone stairs leading upward on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "Steam curls from the round wooden tub around a shiny golden fish toy.",
+   "options": [
+    "Grab toy fish",
+    "Greet towel attendant",
+    "Head up stairs"
+   ]
+  },
+  {
+   "scene": "The tub's warm water bubbles gently around a floating brass fish.",
+   "options": [
+    "Reach for fish",
+    "Ask the attendant",
+    "Take stone steps"
+   ]
+  },
+  {
+   "scene": "Hot spring mist rises as you wonder if {quest} drifted this way.",
+   "options": [
+    "Fish out toy",
+    "Speak to attendant",
+    "Ascend stone stairs"
+   ]
+  }
  ]
 }

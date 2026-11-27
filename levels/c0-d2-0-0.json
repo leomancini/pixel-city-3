@@ -16,5 +16,31 @@
   "a wooden ferry gangway on the left leading to water",
   "a dangling red cable car waiting open up high above centre",
   "a yellow street tram idling with doors open on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "Magic sparkles hum around the broth as three underground routes beckon.",
+   "options": [
+    "Board wooden boat",
+    "Climb cable car",
+    "Enter yellow tram"
+   ]
+  },
+  {
+   "scene": "Warm steam rises from the glowing bowl while travel bells ring nearby.",
+   "options": [
+    "Cross boat gangway",
+    "Ascend cable car",
+    "Hop on tram"
+   ]
+  },
+  {
+   "scene": "Lanterns glow softly as you ponder {quest} beside three waiting departures.",
+   "options": [
+    "Catch little ferry",
+    "Take high car",
+    "Step inside tram"
+   ]
+  }
  ]
 }

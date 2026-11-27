@@ -16,5 +16,31 @@
   "a plump grey pigeon perched on brass lofts on the left holding a letter",
   "a tall red mechanical lever standing upright on the right",
   "a large twine-wrapped parcel sitting unattended far right"
+ ],
+ "variants": [
+  {
+   "scene": "The warm timber loft rustles with soft coos and whirring clockwork gears.",
+   "options": [
+    "Take bird letter",
+    "Yank red handle",
+    "Check large parcel"
+   ]
+  },
+  {
+   "scene": "You arrive in the high rafters, still humming {tune} to yourself.",
+   "options": [
+    "Unfurl pigeon note",
+    "Flip mechanical switch",
+    "Examine tied box"
+   ]
+  },
+  {
+   "scene": "Cozy lantern light glows across wooden lofts filled with busy mail clerks.",
+   "options": [
+    "Read messenger note",
+    "Pull tall switch",
+    "View wrapped package"
+   ]
+  }
  ]
 }

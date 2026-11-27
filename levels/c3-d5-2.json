@@ -17,5 +17,31 @@
   "a wooden pigeon coop with a roosting carrier pigeon, sitting in the centre",
   "a narrow wooden suspension bridge swaying slightly on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "The gravel rooftop smells of sweet warm bread beneath a quiet twilight sky.",
+   "options": [
+    "Check glowing skylight",
+    "Greet roosting pigeons",
+    "Cross wooden bridge"
+   ]
+  },
+  {
+   "scene": "Cool evening air surrounds the bakery roof as city stars begin to shine.",
+   "options": [
+    "Look inside skylight",
+    "Inspect pigeon coop",
+    "Cross narrow bridge"
+   ]
+  },
+  {
+   "scene": "You reach the rooftop, still humming {tune} above the quiet city streets.",
+   "options": [
+    "Gaze through glass",
+    "Visit the birds",
+    "Walk across bridge"
+   ]
+  }
+ ]
 }

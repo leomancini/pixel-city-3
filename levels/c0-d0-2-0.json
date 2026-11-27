@@ -16,5 +16,31 @@
   "a yellow street tram idling with open doors on the far left",
   "an orange cable car cabin suspended from a cable up high centre",
   "a glowing neon stairway sign pointing down to the subway on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "Sparkles fly from the open crate, offering shiny transit tokens across the busy station.",
+   "options": [
+    "Enter yellow tram",
+    "Climb into gondola",
+    "Head down subway"
+   ]
+  },
+  {
+   "scene": "Magic sparkles reveal fresh travel tokens while commuters stroll through the terminal.",
+   "options": [
+    "Take idling tram",
+    "Hop into cableway",
+    "Descend subway stairs"
+   ]
+  },
+  {
+   "scene": "Tokens pop from the green crate as you wonder where {quest} might be.",
+   "options": [
+    "Hop on tram",
+    "Ride aerial car",
+    "Walk into subway"
+   ]
+  }
  ]
 }

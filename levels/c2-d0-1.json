@@ -16,5 +16,31 @@
   "a shiny holographic pass held out by the vendor at centre",
   "a brightly glowing pixelated city map kiosk standing on the left",
   "an empty red aerial tram car waiting open on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "A friendly robot clerk offers you a glowing sky pass at the wooden booth.",
+   "options": [
+    "Grab sky pass",
+    "Check pixel screen",
+    "Board waiting cablecar"
+   ]
+  },
+  {
+   "scene": "Sea breeze blows while the booth bot holds out a bright blue ticket.",
+   "options": [
+    "Accept glowing ticket",
+    "Inspect route display",
+    "Head inside gondola"
+   ]
+  },
+  {
+   "scene": "Whistling {tune}, you stop as the clerk holds out a glowing transit ticket.",
+   "options": [
+    "Take blue pass",
+    "View route map",
+    "Roll into gondola"
+   ]
+  }
  ]
 }

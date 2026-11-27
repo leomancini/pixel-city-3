@@ -16,5 +16,31 @@
   "a steep red funicular railway car waiting on the far left",
   "a striped canal water taxi idling at a pier on the right",
   "a sleek neon monorail car stopped at a platform on the far right"
+ ],
+ "variants": [
+  {
+   "scene": "Shiny tokens jingle in your hand as the busy station glows at dusk.",
+   "options": [
+    "Take steep tram",
+    "Try canal boat",
+    "Hop on monorail"
+   ]
+  },
+  {
+   "scene": "You hold bright fare coins while humming {tune} by the bustling transit hub.",
+   "options": [
+    "Catch red tram",
+    "Board river boat",
+    "Enter sleek train"
+   ]
+  },
+  {
+   "scene": "Gold tokens clink softly as twilight settles across the peaceful canal platform.",
+   "options": [
+    "Climb red funicular",
+    "Step onto boat",
+    "Ride neon train"
+   ]
+  }
  ]
 }

@@ -17,5 +17,31 @@
   "a shimmering gold folded sheet poised on the rubber belt at centre",
   "a slender metal ladder mounted against the machine frame on the right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Giant paper cranes drift overhead while the clattering conveyor rolls out crisp shapes.",
+   "options": [
+    "Spin red wheel",
+    "Take golden origami",
+    "Ascend metal ladder"
+   ]
+  },
+  {
+   "scene": "Gears click rhythmically under the glass skylight, reminding you of {tune}.",
+   "options": [
+    "Twist red valve",
+    "Reach for gold",
+    "Scale the ladder"
+   ]
+  },
+  {
+   "scene": "A warm breeze rustles hanging folded birds as the belt slides along smoothly.",
+   "options": [
+    "Turn left wheel",
+    "Snatch gold fold",
+    "Climb tall ladder"
+   ]
+  }
+ ]
 }

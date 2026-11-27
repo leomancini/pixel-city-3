@@ -17,5 +17,31 @@
   "a sturdy red hand-crank attached to the machine's side on the left",
   "an open arched doorway with beaded curtains on the far right"
  ],
- "view": "wide"
+ "view": "wide",
+ "variants": [
+  {
+   "scene": "Glowing pink noodles pour into a wooden crate beside the grand fountain.",
+   "options": [
+    "Grab glowing noodles",
+    "Turn red crank",
+    "Part beaded curtain"
+   ]
+  },
+  {
+   "scene": "The clanking brass contraption churns out warm, radiant pink spaghetti for the crowd.",
+   "options": [
+    "Snatch warm pasta",
+    "Spin red handle",
+    "Step through doorway"
+   ]
+  },
+  {
+   "scene": "Bright neon pasta piles up while you hum {tune} to your puppy.",
+   "options": [
+    "Taste pink spaghetti",
+    "Rotate large wheel",
+    "Visit open shop"
+   ]
+  }
+ ]
 }
