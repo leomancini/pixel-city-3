@@ -4,7 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#0a0a0a">
-<title>Pixel City 3</title>
+<title>Pixel City 3 Gallery</title>
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/apple-touch-icon.png">
 <style>
   @font-face {
     font-family: "Analog Mono Plus";
@@ -174,7 +176,7 @@
 </head>
 <body>
 <header>
-  <h1><a href="#">Pixel City 3</a></h1>
+  <h1><a href="#">Pixel City 3 Gallery</a></h1>
   <span class="counts" id="counts"></span>
 </header>
 <div id="tip" role="tooltip" hidden></div>
@@ -305,7 +307,7 @@
   // arrives in as three more rows underneath.
   function showDistrict(id, hops = []) {
     const place = district(id);
-    document.title = `${place.name} · Pixel City 3`;
+    document.title = `${place.name} · Pixel City 3 Gallery`;
     // The one being viewed is the root, and the branches grow down from it;
     // the others switch to their own tree.
     let rootNode = null;
