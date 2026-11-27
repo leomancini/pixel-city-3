@@ -22,7 +22,7 @@
   "a bulky retro CB radio mounted on the dashboard at the centre",
   "a friendly reptilian driver gripping the wide steering wheel on the right"
  ],
- "view": "wide",
+ "view": "interior",
  "after": [
   {
    "label": "Step off at Neon Sign Hospital",

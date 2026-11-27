@@ -287,10 +287,18 @@ Camera: a first-person close-up. We look through the player's eyes at the one th
 Scale: the thing is large and drawn in rich detail, so each part of it is easy to make out. Any writing on it appears as tiny illegible marks, symbols or little drawings, never readable letters.
 Player: the player's own figure is not in the picture. At most their hands and sleeves reach in from the bottom edge, matching ${PLAYER}.`;
 
+// Inside a moving vehicle, for rides: the same flat camera, but in among the
+// passengers, so the trip feels like being there rather than a cutaway.
+const interiorView = (PLAYER) => `
+Camera: we are inside the vehicle with the player. A flat, straight-on side view of the cabin interior that fills the whole square edge to edge: the far wall with its windows runs across the middle, the floor along the bottom, the ceiling with its lamps, handrails and luggage racks along the top. Nothing outside the vehicle's body is drawn: no wheels, roof, tracks, street or sky above or below the cabin, only what is seen through its windows. Through the windows the passing scenery streams by, with a few horizontal speed streaks. No perspective, no vanishing point, no tilted angle.
+Scale: much closer than the usual wide shot. People are about one third of the image height, so faces, clothes and what they hold read clearly, and the cabin is packed with small, lived-in details: tickets, bags, cups, worn seats, pictogram signs, a pet in a basket, warm lamplight.
+Player: the player is ${PLAYER}, about one third of the image height, sitting or standing in the cabin among the other passengers, not posed in the exact centre.`;
+
 // One fixed art direction for every level, so the game reads as a single
 // world. Words alone drift (camera angle, pixel size, how big the people are),
 // so every picture is also generated against the same reference image.
-const artStyle = (PLAYER, close) => `Draw a new scene for a pixel art video game, in exactly the art style of the STYLE REFERENCE image (the first attached image). The reference shows the style only: match its pixel size, outline weight, shading, colour palette, lighting, level of detail, camera and the scale of its people, but draw the new scene described below from scratch. Do not copy any of the reference's content: not its buildings, shopfronts, tram, tram stop, people or ${close ? closeView(PLAYER) : wideView(PLAYER)}racter.
+const camera = (PLAYER, view) => (view === "close" ? closeView(PLAYER) : view === "interior" ? interiorView(PLAYER) : wideView(PLAYER));
+const artStyle = (PLAYER, view) => `Draw a new scene for a pixel art video game, in exactly the art style of the STYLE REFERENCE image (the first attached image). The reference shows the style only: match its pixel size, outline weight, shading, colour palette, lighting, level of detail, camera and the scale of its people, but draw the new scene described below from scratch. Do not copy any of the reference's content: not its buildings, shopfronts, tram, tram stop, people or main character.${camera(PLAYER, view)}
 Style: highly detailed 16-bit pixel art with the reference's fine, uniform pixel size, clean dark outlines, flat shading with a little dithering, and its dusk palette of deep purples and blues with warm window and neon accents, indoors as well as outdoors. Many small characters and props. No text, no letters, no UI.
 Framing: a square, full-bleed image. The scene fills the whole canvas edge to edge on all four sides, with detailed artwork right up to every edge. No border, frame, vignette, letterbox bars, or empty black or blank bands at the top, bottom or sides; the ground or street continues, fully drawn, to the bottom edge.`;
 
@@ -312,6 +320,9 @@ async function generateImage(player, { scene, picture, options, view }, prompt, 
   const context = history.length
     ? `\nStory so far: ${last ? "the second attached image is the PREVIOUS PICTURE, which" : "the previous picture"} showed "${previousScene(history)}"${previous?.picture ? ` (${previous.picture})` : ""}. The player then chose "${prompt}". The new picture is the next moment of the same story and shows what that choice led to.${last ? " Keep the player, any companions, carried objects, the weather and the time of day looking exactly as they do in the previous picture, drawn at the same size with the same camera. If the story stays in the same place, keep that place recognisably the same, changed by what the choice did. If the story moves somewhere new, draw the new place from scratch, in the same world. The previous picture is a guide to content only: the camera, flatness, pixel sharpness and style come from the style reference, even where the previous picture differs from it, so redraw everything with crisp, hard-edged pixels and never copy any blur or softness, and if the previous picture has dark empty bands along its top or bottom, do not reproduce them: fill the whole square." : " Keep whatever carries over (the same character, companions, objects, weather and time of day)."} Do not simply redraw the previous picture: the new picture must clearly show the result of the choice.`
     : "";
+  const inside = view === "interior"
+    ? `\nThis picture moves inside the vehicle. Its camera and scale come from the Camera and Scale rules above, not from the previous picture: draw the player much larger than there, but keep their face, hair, clothes and what they carry exactly as in the previous picture.`
+    : "";
   const zoom = close
     ? `\nThis picture zooms in: it is the close first-person view of the thing the player chose to look at, drawn as that thing appears in the previous picture, only much larger and in more detail.`
     : previous?.view === "close"
@@ -327,7 +338,7 @@ async function generateImage(player, { scene, picture, options, view }, prompt, 
     input: [
       { type: "image", mime_type: "image/jpeg", data: STYLE_REFERENCE },
       ...(history.length && last ? [last] : []),
-      { type: "text", text: `${artStyle(player, close)}${context}${zoom}\nScene: ${scene}${picture ? `\nWhat is visible: ${picture}` : ""}${choices}` },
+      { type: "text", text: `${artStyle(player, view)}${context}${inside}${zoom}\nScene: ${scene}${picture ? `\nWhat is visible: ${picture}` : ""}${choices}` },
     ],
     // The page shows the picture small, so the smallest size is plenty, and
     // minimal thinking halves the wait and drops the thinking-token cost.
@@ -505,11 +516,11 @@ The three options are three different things to do on board, each about somethin
       const story = JSON.parse(interaction.output_text);
       const options = (story.options || []).slice(0, 3).map((o) => ({ label: String(o.label), shown: String(o.shown || ""), outcome: String(o.outcome || "") }));
       if (typeof story.scene !== "string" || options.length < 3 || options.some((o) => !o.outcome)) throw new Error("Ride model returned an unexpected shape");
-      const ride = { scene: tidyScene(story.scene), picture: String(story.picture || ""), view: "wide", options };
+      const ride = { scene: tidyScene(story.scene), picture: String(story.picture || ""), view: "interior", options };
       // The departure picture keeps the player looking the same.
       const previous = { picture: from.picture, options: from.options, view: from.view, image: `data:image/jpeg;base64,${(await readFile(new URL(`${idOf(c, a, [])}.jpg`, OUT))).toString("base64")}` };
       const image = await generateImage(player, ride, prompt, [`Player chose: to arrive Then: ${from.scene}`], previous);
-      const made_ = { id, scene: ride.scene, options: options.map((o) => o.label), beats: options.map((o) => o.outcome), next: [0, 1, 2].map(() => idOf(c, b, [])), picture: ride.picture, shown: options.map((o) => o.shown), view: "wide" };
+      const made_ = { id, scene: ride.scene, options: options.map((o) => o.label), beats: options.map((o) => o.outcome), next: [0, 1, 2].map(() => idOf(c, b, [])), picture: ride.picture, shown: options.map((o) => o.shown), view: "interior" };
       await writeFile(new URL(`${id}.jpg`, OUT), Buffer.from(image, "base64"));
       await writeFile(new URL(`${id}.json`, OUT), JSON.stringify(made_, null, 1));
       made += 1;
@@ -519,6 +530,34 @@ The three options are three different things to do on board, each about somethin
     } catch (err) {
       console.error(`${id} attempt ${attempt} failed: ${String(err.message).slice(0, 200)}`);
       await saveLedger();
+      await new Promise((r) => setTimeout(r, 4000 * attempt));
+    }
+  }
+  failed += 1;
+}
+
+// Draw an existing ride's picture again with the interior camera, keeping
+// its text and choices.
+async function redrawRide(c, a, b) {
+  const id = rideId(c, a, b);
+  const ride = await exists(id);
+  if (!ride) return;
+  if (ledger.usd >= BUDGET) { stopped = true; return; }
+  const from = await exists(idOf(c, a, []));
+  const [toName, transport] = DISTRICTS[c][b];
+  const previous = { picture: from.picture, options: from.options, view: from.view, image: `data:image/jpeg;base64,${(await readFile(new URL(`${idOf(c, a, [])}.jpg`, OUT))).toString("base64")}` };
+  const story = { scene: ride.scene, picture: ride.picture, view: "interior", options: ride.options.map((label, i) => ({ label, shown: ride.shown?.[i] || "" })) };
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      const image = await generateImage(CHARACTERS[c], story, `Board the ${transport} to ${toName}`, [`Player chose: to arrive Then: ${from.scene}`], previous);
+      await writeFile(new URL(`${id}.jpg`, OUT), Buffer.from(image, "base64"));
+      await writeFile(new URL(`${id}.json`, OUT), JSON.stringify({ ...ride, view: "interior" }, null, 1));
+      made += 1;
+      await saveLedger();
+      console.log(`${id} redrawn  $${ledger.usd.toFixed(2)}`);
+      return;
+    } catch (err) {
+      console.error(`${id} redraw attempt ${attempt} failed: ${String(err.message).slice(0, 200)}`);
       await new Promise((r) => setTimeout(r, 4000 * attempt));
     }
   }
@@ -682,6 +721,13 @@ if (PILOT) {
     await rewireRides(c);
     await writeIndex();
   }
+} else if (process.argv.includes("--redraw")) {
+  //   node scripts/generate.mjs --redraw c14-d0-t3 c14-d1-t0   redraw these rides
+  for (const id of process.argv.filter((x) => RIDE_ID.test(x))) {
+    const [, c, a, b] = /^c(\d+)-d(\d+)-t(\d+)$/.exec(id).map(Number);
+    await slot(() => redrawRide(c, a, b));
+  }
+  await writeIndex();
 } else if (process.argv.includes("--index")) {
   // Only rewrite index.json and gallery.json from what is already on disk.
 } else {

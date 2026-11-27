@@ -22,7 +22,7 @@
   "a badger conductor wearing brass spectacles sorting letters in the centre",
   "a polished brass mail chute hatch sealed with a red lever on the right"
  ],
- "view": "wide",
+ "view": "interior",
  "after": [
   {
    "label": "Step off at Lost Property Depot",
